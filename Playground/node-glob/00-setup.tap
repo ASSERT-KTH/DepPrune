@@ -1,0 +1,89 @@
+TAP version 13
+# Subtest: remove fixtures
+    1..0
+ok 1 - remove fixtures # time=4.664ms
+
+# Subtest: /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/.abcdef/x/y/z/a
+    ok 1 - make file
+    1..1
+ok 2 - /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/.abcdef/x/y/z/a # time=20.84ms
+
+# Subtest: /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/abcdef/g/h
+    ok 1 - make file
+    1..1
+ok 3 - /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/abcdef/g/h # time=1.76ms
+
+# Subtest: /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/abcfed/g/h
+    ok 1 - make file
+    1..1
+ok 4 - /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/abcfed/g/h # time=7.069ms
+
+# Subtest: /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/b/c/d
+    ok 1 - make file
+    1..1
+ok 5 - /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/b/c/d # time=1.105ms
+
+# Subtest: /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/bc/e/f
+    ok 1 - make file
+    1..1
+ok 6 - /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/bc/e/f # time=0.99ms
+
+# Subtest: /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/c/d/c/b
+    ok 1 - make file
+    1..1
+ok 7 - /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/c/d/c/b # time=0.898ms
+
+# Subtest: /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/cb/e/f
+    ok 1 - make file
+    1..1
+ok 8 - /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/cb/e/f # time=0.839ms
+
+# Subtest: /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/x/.y/b
+    ok 1 - make file
+    1..1
+ok 9 - /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/x/.y/b # time=0.912ms
+
+# Subtest: /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/z/.y/b
+    ok 1 - make file
+    1..1
+ok 10 - /Users/yuxinliu/Documents/Develop/stubbifier/Playground/node-glob/test/fixtures/a/z/.y/b # time=0.831ms
+
+# Subtest: symlinky
+    1..0
+ok 11 - symlinky # time=1.126ms
+
+# Subtest: create /tmp/glob-test/foo
+    ok 1 - /tmp/glob-test/foo
+    1..1
+ok 12 - create /tmp/glob-test/foo # time=0.673ms
+
+# Subtest: create /tmp/glob-test/bar
+    ok 1 - /tmp/glob-test/bar
+    1..1
+ok 13 - create /tmp/glob-test/bar # time=0.304ms
+
+# Subtest: create /tmp/glob-test/baz
+    ok 1 - /tmp/glob-test/baz
+    1..1
+ok 14 - create /tmp/glob-test/baz # time=0.374ms
+
+# Subtest: create /tmp/glob-test/asdf
+    ok 1 - /tmp/glob-test/asdf
+    1..1
+ok 15 - create /tmp/glob-test/asdf # time=0.435ms
+
+# Subtest: create /tmp/glob-test/quux
+    ok 1 - /tmp/glob-test/quux
+    1..1
+ok 16 - create /tmp/glob-test/quux # time=0.393ms
+
+# Subtest: create /tmp/glob-test/qwer
+    ok 1 - /tmp/glob-test/qwer
+    1..1
+ok 17 - create /tmp/glob-test/qwer # time=0.482ms
+
+# Subtest: create /tmp/glob-test/rewq
+    ok 1 - /tmp/glob-test/rewq
+    1..1
+ok 18 - create /tmp/glob-test/rewq # time=0.585ms
+
