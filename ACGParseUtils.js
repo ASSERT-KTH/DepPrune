@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-exports.generateBundlerConfig = exports.buildEvalCheck = exports.getFileName = exports.getTargetsFromCoverageReport = exports.getTargetsFromACG = exports.buildHappyName = exports.getCombinations = void 0;
+exports.generateBundlerConfig = exports.buildEvalCheck = exports.getFileName = exports.getTargetsFromCoverageReport = exports.getTargetsFromACG = exports.buildHappyName = exports.getCombinations = exports.flat = void 0;
 var fs = require("fs");
 var babel = require("@babel/types");
 var parser_1 = require("@babel/parser");
@@ -196,12 +196,29 @@ function getCombinations(arr) {
             }
         }
         if (temp.length > 0)
-        {
-            combination.push(temp);
+        {   
+            combination.push(flat(temp));
         }
     }
 
     combination.sort((a, b) => a.length - b.length);
     return combination;
 }
+
+function flat(arr){
+    if (Object.prototype.toString.call(arr) != "[object Array]") {
+        return false
+    }
+	let res = []
+    arr.map( item => {
+        if (item instanceof Array) {
+            res.push(...item)
+        } else {
+            res.push(item)
+        }
+    })
+    return res
+}
+
 exports.getCombinations = getCombinations;
+exports.flat = flat;

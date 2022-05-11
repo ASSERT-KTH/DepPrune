@@ -159,7 +159,7 @@ else {
     if (fs.lstatSync(filename).isDirectory()) {
         var files = getAllFiles(filename, recurseThroughDirs);
         var unusedFiles = []
-        var unusedFunctions = []
+        var unusedFunctionsInFile = []
         files.forEach(function (file, index) {
             // console.log(file);
             // only stubify JS files
@@ -168,14 +168,24 @@ else {
             // console.log("decision: " + shouldStubbify(curPath, file, depList));
             // let curAbsPath: string = process.cwd() + curPath;
             if (shouldStubbify(curPath, file, depList)) { // don't even try to stub externs
+                var fileStr = curPath + '\n'
+                fs.appendFileSync(`${filename}/total-files.txt`, fileStr)
                 if (noCG || listedFiles.indexOf(curPath) > -1) { // file is reachable, so only stubify functions
                     console.log("FUNCTION CASE: " + curPath);
-                    unusedFunctions.push(curPath)
-                    
+                    unusedFunctionsInFile.push(curPath)
+                    // try {
+                    //     (0, functionLevelStubs_js_1.functionStubFile)(curPath, process.cwd(), new Map(), functions, removeFuns, uncoveredMode, safeEvalMode, testingMode);
+                    // }
+                    // catch (e) {
+                    //     console.log("ERROR: cannot stubbify function in: " + curPath);
+                    //     // console.log(e);
+                    // }
                 }
                 else {
                     console.log("FILE CASE: " + curPath);
                     unusedFiles.push(curPath)
+                    var unusedFileStr = curPath + '\n'
+                    fs.appendFileSync(`${filename}/unused-files.txt`, unusedFileStr)
                     // try {
                     //     (0, fileLevelStubs_js_1.fileStubFile)(curPath, safeEvalMode, testingMode);
                     // }
@@ -187,46 +197,46 @@ else {
             }
         });
 
-        console.log('unusedFunctions: ', unusedFunctions)
-        var funcVariantsList = ACGParseUtils_js_1.getCombinations(unusedFunctions)
-        var funcVariantsLength = funcVariantsList.length
-        console.log('funcVariantsLength: ', funcVariantsLength)
-        var funcRand = ~~(Math.random() * funcVariantsLength)
-        console.log('func rand: ', funcRand)
-        var funcVariants = funcVariantsList[funcRand]
-        console.log('funcVariants: \n', funcVariants)
+        // console.log('unusedFunctionsInFile: ', unusedFunctionsInFile)
+        // var funcVariantsList = ACGParseUtils_js_1.getCombinations(unusedFunctionsInFile)
+        // var funcVariantsLength = funcVariantsList.length
+        // console.log('funcVariantsLength: ', funcVariantsLength)
+        // var funcRand = ~~(Math.random() * funcVariantsLength)
+        // console.log('func rand: ', funcRand)
+        // var funcVariants = funcVariantsList[funcRand]
+        // console.log('funcVariants: \n', funcVariants)
 
-        funcVariants.forEach(function (func, index) {
-            try {
-                (0, functionLevelStubs_js_1.functionStubFile)(func, process.cwd(), new Map(), functions, removeFuns, uncoveredMode, safeEvalMode, testingMode);
-            }
-            catch (e) {
-                console.log("ERROR: cannot stubbify function in: " + func);
-                // console.log(e);
-            }
-        })
+        // funcVariants.forEach(function (func, index) {
+        //     try {
+        //         (0, functionLevelStubs_js_1.functionStubFile)(func, process.cwd(), new Map(), functions, removeFuns, uncoveredMode, safeEvalMode, testingMode);
+        //     }
+        //     catch (e) {
+        //         console.log("ERROR: cannot stubbify function in: " + func);
+        //         // console.log(e);
+        //     }
+        // })
 
         console.log('unusedFiles: ', unusedFiles)
-        var fileVariantsList = ACGParseUtils_js_1.getCombinations(unusedFiles)
-        var fileVariantsLength = fileVariantsList.length
-        console.log('fileVariantsLength: ', fileVariantsLength)
-        var fileRand = ~~(Math.random() * fileVariantsLength)
-        console.log("file rand: ", fileRand)
-        var fileVariants = fileVariantsList[fileRand]
-        console.log('fileVariants: \n', fileVariants)
+        // var fileVariantsList = ACGParseUtils_js_1.getCombinations(unusedFiles)
+        // var fileVariantsLength = fileVariantsList.length
+        // console.log('fileVariantsLength: ', fileVariantsLength)
+        // var fileRand = ~~(Math.random() * fileVariantsLength)
+        // console.log("file rand: ", fileRand)
+        // var fileVariants = fileVariantsList[fileRand]
+        // console.log('fileVariants: \n', fileVariants)
 
 
-        fileVariants.forEach(function (file, index) {
-            // var line = file + '\n'
-            // fs.appendFileSync('unusedFiles.txt', line)
-            try {
-                (0, fileLevelStubs_js_1.fileStubFile)(file, safeEvalMode, testingMode);
-            }
-            catch (e) {
-                console.log("ERROR: cannot stubbify file: " + file);
-                // console.log(e);
-            }
-        })
+        // fileVariants.forEach(function (file, index) {
+        //     // var line = file + '\n'
+        //     // fs.appendFileSync('unusedFiles.txt', line)
+        //     try {
+        //         (0, fileLevelStubs_js_1.fileStubFile)(file, safeEvalMode, testingMode);
+        //     }
+        //     catch (e) {
+        //         console.log("ERROR: cannot stubbify file: " + file);
+        //         // console.log(e);
+        //     }
+        // })
     }
     else {
         console.log("Error: input to transformer must be a directory");
