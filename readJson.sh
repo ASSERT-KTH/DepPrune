@@ -9,10 +9,17 @@ do
     repoUrl=$(_jq '.gitURL')
     entryFile=$(_jq '.entryFile')
     folderPath="Playground/"$(_jq '.folder')
+    commit=$(_jq '.commit')
 
     rm -rf $folderPath
 
     git clone $repoUrl $folderPath
+
+    cd $folderPath
+    
+    git checkout $commit
+
+    cd ../..
 
     ./resetProject.sh $folderPath
 
@@ -32,7 +39,7 @@ do
 
     node dep-tree.js $folderPath $entryFile
 
-    node traverse-tree.js  $folderPath
+    node generate-variant.js  $folderPath
 
 
 done

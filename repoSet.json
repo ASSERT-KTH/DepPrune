@@ -1,19 +1,10 @@
 {
   "projects": [
     {
-      "gitURL": "https://github.com/expressjs/body-parser.git",
-      "entryFile": "index.js",
-      "folder": "body-parser"
-    },
-    {
       "gitURL": "https://github.com/expressjs/compression.git",
       "entryFile": "index.js",
-      "folder": "compression"
-    },
-    {
-      "gitURL": "https://github.com/isaacs/node-glob.git",
-      "entryFile": "glob.js",
-      "folder": "node-glob"
+      "folder": "compression",
+      "commit": "3fea81d0eaed1eb872bf3e0405f20d9e175ab2cf"
     }
   ]
 }
