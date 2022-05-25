@@ -1,9 +1,11 @@
 const args = process.argv.slice(2)
 const folderPath = args[0]
+const projectName = args[1]
+const repoUrl = args[2]
+const commit = args[3]
 const fs = require('fs')
-const ACGParseUtils_js_1 = require('./ACGParseUtils')
+
 const childProcess = require('child_process')
-const path = require('path')
 
 const jsonData = fs.readFileSync(`./${folderPath}/dependency-tree.json`)
 const unusedFilesData = fs.readFileSync(`./${folderPath}/unused-files.txt`, 'utf-8')
@@ -11,7 +13,7 @@ const dataObj = JSON.parse(jsonData)
 const unusedFiles = unusedFilesData.split('\n')
 
 fs.writeFileSync(`./${folderPath}/wrapped-dependency-tree.json`, '')
-
+console.log(folderPath)
 let unusedNodesSet = []
 let tempArr = [] // array for a maximal subtree
 let tempUnusedStack = [] // array of unused offsprings for a node
@@ -186,14 +188,24 @@ function traverseTree(node) {
 }
 
 function removeFiles(files) {
+    
     files.forEach(file => {
-        childProcess.exec(`rm -rf ${file}`)
-        removeRequireFromParent(file)
+        // childProcess.exec(`rm -rf ${file}`)
+        // removeRequireFromParent(file)
+        console.log('file to be removed', file)
+        removeFunctionsFromFile(file)
     })
+    console.log('remove done')
 }
 
 function removeRequireFromParent(file) {
+    childProcess.exec(`node remove-require.js ${file}`)
     console.log('remove done')
+}
+
+function removeFunctionsFromFile(file) {
+    console.log(file)
+    childProcess.exec(`node remove-functions.js ${file}`)
 }
 
 
@@ -219,22 +231,57 @@ unusedNodesSet.forEach(set => {
 //     console.log(json)
 // })
 console.log('Candidates on the tree:')
-candidates.forEach(set => console.log(JSON.parse(set)))
+candidates.forEach(candidate => console.log(JSON.parse(candidate)))
 
-combSet = candidates.map(set => JSON.parse(set))
+candidates.forEach((candidate, index) => {
+    generateVariant(candidate, index)
+})
 
-const candidatesComb = ACGParseUtils_js_1.getCombinations(combSet)
-console.log('Combinations of the candidates:')
-console.log(candidatesComb.length)
+function generateVariant(candidate, index) {
+    // console.log(JSON.parse(candidate))
+    // copyProject:
+    const variantPath = `Variants/${projectName}/variant_${index + 1}`
+    console.log('start generating ', variantPath)
+    console.log(repoUrl)
+    childProcess.exec(`git clone ${repoUrl} ${variantPath} && cd ${variantPath} && git checkout ${commit} && npm install && cd ../../.. `)
+    // Change names for files in candidate
+    const files = JSON.parse(candidate)
+    const newfiles = files.map(file => {return file.replace(`${folderPath}`, `${variantPath}`)})
+    newfiles.forEach(file => {
+        // file = file.replace(`${folderPath}`, `${variantPath}`)
+        console.log(file)
+        const fileStr = file + '\n'
+        fs.appendFileSync(`${projectName}_unused-files.txt`, fileStr)
+    })
+    // removeFiles(newfiles)
+    // runTestForVarient()
+}
 
-// Randomly select a seed to remove and generate a variant
+// function removeFiles(files){
+//     files.forEach(file => {
+//         parent = getParentByfile(file)
+//     })
+// }
 
-var variantsLength = candidatesComb.length
-console.log('variantsLength: ', variantsLength)
-var fileRand = ~~(Math.random() * variantsLength)
-console.log("file rand: ", fileRand)
-var fileVariants = candidatesComb[fileRand]
-console.log('fileVariants: \n', fileVariants)
+// function runTestForVarient(varientPath) {
+//     childProcess.exec(`cd ${varientPath}`)
+//     childProcess.exec('nyc npm run test') // run test for each variants
+// }
+
+// combSet = candidates.map(set => JSON.parse(set))
+
+// const candidatesComb = ACGParseUtils_js_1.getCombinations(combSet)
+// console.log('Combinations of the candidates:')
+// console.log(candidatesComb.length)
+
+// // Randomly select a seed to remove and generate a variant
+
+// var variantsLength = candidatesComb.length
+// console.log('variantsLength: ', variantsLength)
+// var fileRand = ~~(Math.random() * variantsLength)
+// console.log("file rand: ", fileRand)
+// var fileVariants = candidatesComb[fileRand]
+// console.log('fileVariants: \n', fileVariants)
 
 
 // removeFiles(fileVariants)

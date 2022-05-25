@@ -27,11 +27,14 @@
     "@babel/generator": "^7.10.2",
     "@babel/parser": "^7.10.2",
     "@babel/traverse": "^7.10.1",
+    "ast-module-types": "^3.0.0",
     "ast-types": "^0.13.3",
     "dependency-tree": "^8.1.2",
     "escodegen": "*",
     "esprima": "*",
     "fs-extra": "^9.0.1",
+    "node-source-walk": "^5.0.0",
+    "recast": "^0.21.1",
     "tar": "^6.0.2",
     "yargs": "^15.4.1"
   }
