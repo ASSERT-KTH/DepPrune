@@ -28,7 +28,7 @@ function generateNodeUID(n, filename, coverageMode) {
     else {
         locString = "<" + n.body.loc.start.line + "," + n.body.loc.start.column + ">--<" + n.body.loc.end.line + "," + n.body.loc.end.column + ">";
     }
-    return (0, ACGParseUtils_js_1.buildHappyName)(filename + ":" + locString);
+    return ACGParseUtils_js_1.buildHappyName(filename + ":" + locString);
 }
 // generated with babeljs_gen_gen
 function get_stub_flag() {
@@ -64,7 +64,7 @@ function processASTForFlagging(ast, reachableFuns, filename, uncoveredMode) {
         "ClassMethod",
         "ObjectMethod",
     ];
-    var output = (0, core_1.transformFromAstSync)(ast, null, { ast: true, plugins: [function processASTForFlagging() {
+    var output = core_1.transformFromAstSync(ast, null, { ast: true, plugins: [function processASTForFlagging() {
                 return { visitor: {
                         Function: function (path) {
                             // let inFunction: boolean = path.findParent((path) => path.isFunction());
@@ -101,7 +101,7 @@ function flagFunctionForStubbing(filename, stubspath, reachableFuns, uncoveredMo
     var ast;
     var esmMode = false;
     try {
-        ast = (0, parser_1.parse)(code, { sourceType: "unambiguous", plugins: ["classProperties", "typescript"] }).program;
+        ast = parser_1.parse(code, { sourceType: "unambiguous", plugins: ["classProperties", "typescript"] }).program;
         esmMode = ast.sourceType == "module";
     }
     catch (e) {
@@ -112,6 +112,6 @@ function flagFunctionForStubbing(filename, stubspath, reachableFuns, uncoveredMo
     ast = processASTForFlagging(ast, reachableFuns, filename, uncoveredMode);
     // console.log(generate(ast).code)
     // write out the stub, overwriting the old file
-    fs.writeFileSync(filename, (0, generator_1["default"])(ast).code);
+    fs.writeFileSync(filename, generator_1["default"](ast).code);
 }
 exports.flagFunctionForStubbing = flagFunctionForStubbing;

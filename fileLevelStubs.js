@@ -14,14 +14,14 @@ var MIN_FILE_STUB_LENGTH = 5; // only stub files that are > 5 lines
 function processAST(ast, importStmts, exportStmts, filename, safeEvalMode) {
     if (safeEvalMode === void 0) { safeEvalMode = false; }
     // console.log(code);
-    var output = (0, core_1.transformFromAstSync)(ast, null, { ast: true, plugins: [function processPlugin() {
+    var output = core_1.transformFromAstSync(ast, null, { ast: true, plugins: [function processPlugin() {
                 return { visitor: {
                         CallExpression: function (path) {
                             if (safeEvalMode && !path.node.isNewCallExp && !(path.node.callee.type == "Super")) {
                                 //let enclosingStmtNode = path.findParent((path) => path.isStatement());
                                 //enclosingStmtNode.insertBefore(buildEvalCheck(path.node));
                                 var inAsyncFunction = path.findParent(function (path) { return path.isFunction() && path.node.async; });
-                                var newWrapperCall = (0, ACGParseUtils_js_1.buildEvalCheck)(path.node, inAsyncFunction, filename);
+                                var newWrapperCall = ACGParseUtils_js_1.buildEvalCheck(path.node, inAsyncFunction, filename);
                                 newWrapperCall.isNewCallExp = true;
                                 path.replaceWith(newWrapperCall);
                             }
@@ -126,7 +126,7 @@ function processAST(ast, importStmts, exportStmts, filename, safeEvalMode) {
                                                     });
                                                     break;
                                                 default:
-                                                    console.error("Unexpected case of VariableDeclarator: ".concat(v.id.type));
+                                                    console.error("Unexpected case of VariableDeclarator: " + v.id.type);
                                                     process.exit(1);
                                             }
                                         }
@@ -164,7 +164,7 @@ function stubifyFile(filename, safeEvalMode, testingMode, zipFiles) {
     var ast;
     var esmMode;
     try {
-        ast = (0, parser_1.parse)(code, { sourceType: "unambiguous", plugins: ["classProperties", "typescript"] }).program;
+        ast = parser_1.parse(code, { sourceType: "unambiguous", plugins: ["classProperties", "typescript"] }).program;
         esmMode = ast.sourceType == "module";
     }
     catch (e) {
@@ -179,12 +179,12 @@ function stubifyFile(filename, safeEvalMode, testingMode, zipFiles) {
         requires = "import * as fs_uniqID from 'fs'; import * as zlib_uniqID from 'zlib';";
     }
     // TODO: kinda dumb that we unzip then reread but ok for now.
-    var body = "\n\t\tif (!fs_uniqID.existsSync(\"".concat(origCodeFileName, "\")) {\n\t\t\tvar gunzip = zlib_uniqID.gunzipSync;\n\t\t\tvar inp = fs_uniqID.createReadStream(\"").concat(origCodeFileName, ".gz\");\n\t\t\tvar out = fs_uniqID.createWriteStream(\"").concat(origCodeFileName, "\");\n\t\t\tinp.pipe(gunzip).pipe(out);\n\t\t}\n\t\tlet fileContents = fs_uniqID.readFileSync(\"").concat(origCodeFileName, "\", 'utf-8'); \n\t\tlet result_uniqID = eval(fileContents);");
+    var body = "\n\t\tif (!fs_uniqID.existsSync(\"" + origCodeFileName + "\")) {\n\t\t\tvar gunzip = zlib_uniqID.gunzipSync;\n\t\t\tvar inp = fs_uniqID.createReadStream(\"" + origCodeFileName + ".gz\");\n\t\t\tvar out = fs_uniqID.createWriteStream(\"" + origCodeFileName + "\");\n\t\t\tinp.pipe(gunzip).pipe(out);\n\t\t}\n\t\tlet fileContents = fs_uniqID.readFileSync(\"" + origCodeFileName + "\", 'utf-8'); \n\t\tlet result_uniqID = eval(fileContents);";
     if (!esmMode) {
         body += "\nmodule.exports = result_uniqID;";
     }
     if (testingMode) {
-        console.log("[STUBBIFIER METRICS] file stubbed: ".concat(filename));
+        console.log("[STUBBIFIER METRICS] file stubbed: " + filename);
         body = "console.log(\"[STUBBIFIER METRICS] FILE STUB HAS BEEN EXPANDED: " + filename + "\");" + body;
     }
     //console.log((<babel.ExportNamedDeclaration> exportStmts.named[0]).specifiers)
@@ -201,22 +201,21 @@ function stubifyFile(filename, safeEvalMode, testingMode, zipFiles) {
                 // TODO: Why is the type wrong here?
                 if (spec.type == "ExportSpecifier") {
                     exportVars += "let " + spec.local.name + "_uniqID = result_uniqID[\"" + spec.local.name + "\"];";
-                    evalExports += spec.local.name + " : " + (0, generator_1["default"])(spec.local).code + ", ";
+                    evalExports += spec.local.name + " : " + generator_1["default"](spec.local).code + ", ";
                     spec.local.name += "_uniqID";
                 }
             }
         }
         if (exportStmts["default"].length == 1) {
             exportVars += "export default result_uniqID[\"default\"];";
-            evalExports += "default : " + (0, generator_1["default"])(exportStmts["default"][0].declaration).code;
+            evalExports += "default : " + generator_1["default"](exportStmts["default"][0].declaration).code;
         }
         evalExports += "}; evalRetVal;";
     }
-    var outputAST = (0, parser_1.parse)(requires + body + exportVars, { sourceType: "unambiguous" }).program;
+    var outputAST = parser_1.parse(requires + body + exportVars, { sourceType: "unambiguous" }).program;
     if (esmMode) {
         // add import statements to the start of the stub, and exports to the end
-        outputAST = (0, core_1.transformFromAstSync)(outputAST, null, { ast: true,
-            plugins: [
+        outputAST = core_1.transformFromAstSync(outputAST, null, { ast: true, plugins: [
                 function visitAndAddImpExps() {
                     return {
                         visitor: {
@@ -237,13 +236,12 @@ function stubifyFile(filename, safeEvalMode, testingMode, zipFiles) {
         }).ast;
         // add the evalRetVal to the end of the old code, so if it's loaded in 
         // the exports in the stub will work as expected
-        ast = (0, core_1.transformFromAstSync)(ast, null, { ast: true,
-            plugins: [
+        ast = core_1.transformFromAstSync(ast, null, { ast: true, plugins: [
                 function visitAndAddEvalExports() {
                     return {
                         visitor: {
                             Program: function (path) {
-                                path.node.body = path.node.body.concat((0, parser_1.parse)(evalExports, { sourceType: "unambiguous" }).program.body);
+                                path.node.body = path.node.body.concat(parser_1.parse(evalExports, { sourceType: "unambiguous" }).program.body);
                                 path.skip();
                             }
                         }
@@ -254,9 +252,9 @@ function stubifyFile(filename, safeEvalMode, testingMode, zipFiles) {
     }
     // write out stub, overwriting the original file
     // Debug: adding "help"
-    fs.writeFileSync(filename, (0, generator_1["default"])(outputAST).code);
+    fs.writeFileSync(filename, generator_1["default"](outputAST).code);
     // write out old code, post whatever processing is required
-    var codeBodyOutput = (0, generator_1["default"])(ast).code;
+    var codeBodyOutput = generator_1["default"](ast).code;
     if (safeEvalMode) {
         codeBodyOutput = "let dangerousFunctions = [eval]; if( process){dangerousFunctions += [process.exec]}; dangerousFunctions += [require('child_process').execSync, require('child_process').exec];" + codeBodyOutput;
     }

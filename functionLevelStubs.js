@@ -17,7 +17,7 @@ var MIN_FCT_STUB_LENGTH = 5; // only stub functions that are > 5 lines long
 function shouldTransformFunction(fctName, reachableFuns, uncoveredMode, fctNode) {
     var fctNotInList = (reachableFuns.indexOf(fctName) == -1);
     if (fctNode.body.type == "BlockStatement") {
-        fctNotInList = fctNotInList && (!(0, generator_1["default"])(fctNode.body.body[0]).code.startsWith('eval("STUBBIFIER_DONT_STUB_ME");'));
+        fctNotInList = fctNotInList && (!generator_1["default"](fctNode.body.body[0]).code.startsWith('eval("STUBBIFIER_DONT_STUB_ME");'));
     }
     return fctNotInList;
 }
@@ -27,7 +27,7 @@ function shouldRemoveFunction(fctName, removeFuns) {
 }
 function shouldTransformBundlerMode(fctNode) {
     if (fctNode.body.type == "BlockStatement") {
-        return (0, generator_1["default"])(fctNode.body.body[0]).code == 'eval("STUB_FLAG_STUB_THIS_STUB_FCT");';
+        return generator_1["default"](fctNode.body.body[0]).code == 'eval("STUB_FLAG_STUB_THIS_STUB_FCT");';
     }
     return false;
 }
@@ -39,7 +39,7 @@ function generateNodeUID(n, filename, coverageMode) {
     else {
         locString = "<" + n.body.loc.start.line + "," + n.body.loc.start.column + ">--<" + n.body.loc.end.line + "," + n.body.loc.end.column + ">";
     }
-    return (0, ACGParseUtils_js_1.buildHappyName)(filename + ":" + locString);
+    return ACGParseUtils_js_1.buildHappyName(filename + ":" + locString);
 }
 function getNumLinesSpannedByNode(n) {
     return n.loc.end.line - n.loc.start.line;
@@ -58,7 +58,7 @@ function processAST(ast, functionsToStub, reachableFuns, filename, uncoveredMode
         "ClassMethod",
         "ObjectMethod",
     ];
-    var output = (0, core_1.transformFromAstSync)(ast, null, { ast: true, plugins: [function processAST() {
+    var output = core_1.transformFromAstSync(ast, null, { ast: true, plugins: [function processAST() {
                 return { visitor: {
                         Function: function (path) {
                             // let inFunction: boolean = path.findParent((path) => path.isFunction());
@@ -87,7 +87,7 @@ function processAST(ast, functionsToStub, reachableFuns, filename, uncoveredMode
                                         if (path.node.type == "ClassMethod" || path.node.type == "ObjectMethod" || inClassOrObjMethod) {
                                             // It's a constructor, getter, or setter.
                                             var afun = babel.arrowFunctionExpression(path.node.params, path.node.body, path.node.async);
-                                            functionsToStub.set(functionUIDName, (0, generator_1["default"])(afun).code);
+                                            functionsToStub.set(functionUIDName, generator_1["default"](afun).code);
                                             if (path.node.type == "ClassMethod" || path.node.type == "ObjectMethod") {
                                                 if (!path.node.key.name) {
                                                     path.node.body = generateNewClassMethodNoID(functionUIDName, path.node.key, path.node.type == "ArrowFunctionExpression");
@@ -110,7 +110,7 @@ function processAST(ast, functionsToStub, reachableFuns, filename, uncoveredMode
                                             }
                                         }
                                         else {
-                                            functionsToStub.set(functionUIDName, (0, generator_1["default"])(path.node).code);
+                                            functionsToStub.set(functionUIDName, generator_1["default"](path.node).code);
                                             var forbiddenFunctionReassignments = [
                                                 "VariableDeclarator",
                                                 "CallExpression",
@@ -137,8 +137,8 @@ function processAST(ast, functionsToStub, reachableFuns, filename, uncoveredMode
 function generateNewFunctionWithID(scopedFctName, fctID, isArrowFunction) {
     if (isArrowFunction === void 0) { isArrowFunction = false; }
     var argsName = isArrowFunction ? "args_uniqID" : "arguments";
-    var newFunctionBodyString = "let toExec = eval(stubs.getCode(\"".concat(scopedFctName, "\"));\n\t\t\t\t\t\t\t\t\t\t toExec = stubs.copyFunctionProperties(").concat(fctID, ", toExec);\n\t\t\t\t\t\t\t\t\t     ").concat(fctID, " = toExec;\n\t\t\t\t\t\t\t\t\t     return toExec.apply(this, ").concat(argsName, ");");
-    return babel.blockStatement((0, parser_1.parse)(newFunctionBodyString, { allowReturnOutsideFunction: true, sourceType: "unambiguous",
+    var newFunctionBodyString = "let toExec = eval(stubs.getCode(\"" + scopedFctName + "\"));\n\t\t\t\t\t\t\t\t\t\t toExec = stubs.copyFunctionProperties(" + fctID + ", toExec);\n\t\t\t\t\t\t\t\t\t     " + fctID + " = toExec;\n\t\t\t\t\t\t\t\t\t     return toExec.apply(this, " + argsName + ");";
+    return babel.blockStatement(parser_1.parse(newFunctionBodyString, { allowReturnOutsideFunction: true, sourceType: "unambiguous",
         plugins: ["classProperties"] }).program.body);
 }
 // if the function does not have an ID (i.e. an anonymous function) or if the ID is not an identifier (i.e. a dynamically named function)
@@ -146,8 +146,8 @@ function generateNewFunctionWithID(scopedFctName, fctID, isArrowFunction) {
 function generateNewFunctionNoID(scopedFctName, isArrowFunction) {
     if (isArrowFunction === void 0) { isArrowFunction = false; }
     var argsName = isArrowFunction ? "args_uniqID" : "arguments";
-    var newFunctionBodyString = "let fctID = \"".concat(scopedFctName, "\";\n\t\t\t\t\t\t\t\t\t     let toExecString = stubs.getStub(fctID);\n\t\t\t\t\t\t\t\t\t     if (! toExecString) {\n\t\t\t\t\t\t\t\t\t       toExecString = stubs.getCode(fctID);\n\t\t\t\t\t\t\t\t\t       stubs.setStub(fctID, toExecString);\n\t\t\t\t\t\t\t\t\t     }\n\t\t\t\t\t\t\t\t\t     let toExec = eval(toExecString);\n\t\t\t\t\t\t\t\t\t     toExec = stubs.copyFunctionProperties(this, toExec);\n        \t\t\t\t\t\t\t\t toExec.stubbifierExpandedStub = true;\n\t\t\t\t\t\t\t\t\t     return toExec.apply(this, ").concat(argsName, ");");
-    return babel.blockStatement((0, parser_1.parse)(newFunctionBodyString, { allowReturnOutsideFunction: true, sourceType: "unambiguous",
+    var newFunctionBodyString = "let fctID = \"" + scopedFctName + "\";\n\t\t\t\t\t\t\t\t\t     let toExecString = stubs.getStub(fctID);\n\t\t\t\t\t\t\t\t\t     if (! toExecString) {\n\t\t\t\t\t\t\t\t\t       toExecString = stubs.getCode(fctID);\n\t\t\t\t\t\t\t\t\t       stubs.setStub(fctID, toExecString);\n\t\t\t\t\t\t\t\t\t     }\n\t\t\t\t\t\t\t\t\t     let toExec = eval(toExecString);\n\t\t\t\t\t\t\t\t\t     toExec = stubs.copyFunctionProperties(this, toExec);\n        \t\t\t\t\t\t\t\t toExec.stubbifierExpandedStub = true;\n\t\t\t\t\t\t\t\t\t     return toExec.apply(this, " + argsName + ");";
+    return babel.blockStatement(parser_1.parse(newFunctionBodyString, { allowReturnOutsideFunction: true, sourceType: "unambiguous",
         plugins: ["classProperties"] }).program.body);
 }
 // for class methods, we can redefine them from inside themselves
@@ -155,27 +155,27 @@ function generateNewFunctionNoID(scopedFctName, isArrowFunction) {
 function generateNewClassMethodWithID(scopedFctName, fctID, kind, isArrowFunction) {
     if (isArrowFunction === void 0) { isArrowFunction = false; }
     var argsName = isArrowFunction ? "args_uniqID" : "arguments";
-    var fctDefString = "this.".concat(fctID, " = toExec;"); // default callExpression
-    var fctLookupString = "this.".concat(fctID);
+    var fctDefString = "this." + fctID + " = toExec;"; // default callExpression
+    var fctLookupString = "this." + fctID;
     switch (kind) {
         case "get":
-            fctDefString = "this.__defineGetter__(\"".concat(fctID, "\", toExec);");
-            fctLookupString = "this.__lookupGetter__(\"".concat(fctID, "\")");
+            fctDefString = "this.__defineGetter__(\"" + fctID + "\", toExec);";
+            fctLookupString = "this.__lookupGetter__(\"" + fctID + "\")";
             break;
         case "set":
-            fctDefString = "this.__defineSetter__(\"".concat(fctID, "\", toExec);");
-            fctLookupString = "this.__lookupSetter__(\"".concat(fctID, "\")");
+            fctDefString = "this.__defineSetter__(\"" + fctID + "\", toExec);";
+            fctLookupString = "this.__lookupSetter__(\"" + fctID + "\")";
             break;
     }
-    var newFunctionBodyString = "let toExec = eval(stubs.getCode(\"".concat(scopedFctName, "\"));\n\t\t\t\t\t\t\t\t\t\t toExec = stubs.copyFunctionProperties(").concat(fctLookupString, ", toExec);\n\t\t\t\t\t\t\t\t\t     ").concat(fctDefString, "\n\t\t\t\t\t\t\t\t\t     return toExec.apply(this, ").concat(argsName, ");");
-    return babel.blockStatement((0, parser_1.parse)(newFunctionBodyString, { allowReturnOutsideFunction: true, sourceType: "unambiguous",
+    var newFunctionBodyString = "let toExec = eval(stubs.getCode(\"" + scopedFctName + "\"));\n\t\t\t\t\t\t\t\t\t\t toExec = stubs.copyFunctionProperties(" + fctLookupString + ", toExec);\n\t\t\t\t\t\t\t\t\t     " + fctDefString + "\n\t\t\t\t\t\t\t\t\t     return toExec.apply(this, " + argsName + ");";
+    return babel.blockStatement(parser_1.parse(newFunctionBodyString, { allowReturnOutsideFunction: true, sourceType: "unambiguous",
         plugins: ["classProperties"] }).program.body);
 }
 function generateNewClassMethodNoID(scopedFctName, key, isArrowFunction) {
     if (isArrowFunction === void 0) { isArrowFunction = false; }
     var argsName = isArrowFunction ? "args_uniqID" : "arguments";
-    var newFunctionBodyString = "let fctID = \"".concat(scopedFctName, "\";\n\t\t\t\t\t\t\t\t\t\t let toExecString = stubs.getStub(fctID);\n\t\t\t\t\t\t\t\t\t\t if (! toExecString) {\n\t\t\t\t\t\t\t\t\t       toExec = stubs.getCode(fctID);\n\t\t\t\t\t\t\t\t\t       stubs.setStub(fctID, toExecString);\n\t\t\t\t\t\t\t\t\t     }\n\t\t\t\t\t\t\t\t\t     let toExec = eval(toExecString);\n\t\t\t\t\t\t\t\t\t     toExec = stubs.copyFunctionProperties(this[").concat((0, generator_1["default"])(key).code, "], toExec);\n\t\t\t\t\t\t\t\t\t     return toExec.apply(this, ").concat(argsName, ");");
-    return babel.blockStatement((0, parser_1.parse)(newFunctionBodyString, { allowReturnOutsideFunction: true, sourceType: "unambiguous",
+    var newFunctionBodyString = "let fctID = \"" + scopedFctName + "\";\n\t\t\t\t\t\t\t\t\t\t let toExecString = stubs.getStub(fctID);\n\t\t\t\t\t\t\t\t\t\t if (! toExecString) {\n\t\t\t\t\t\t\t\t\t       toExec = stubs.getCode(fctID);\n\t\t\t\t\t\t\t\t\t       stubs.setStub(fctID, toExecString);\n\t\t\t\t\t\t\t\t\t     }\n\t\t\t\t\t\t\t\t\t     let toExec = eval(toExecString);\n\t\t\t\t\t\t\t\t\t     toExec = stubs.copyFunctionProperties(this[" + generator_1["default"](key).code + "], toExec);\n\t\t\t\t\t\t\t\t\t     return toExec.apply(this, " + argsName + ");";
+    return babel.blockStatement(parser_1.parse(newFunctionBodyString, { allowReturnOutsideFunction: true, sourceType: "unambiguous",
         plugins: ["classProperties"] }).program.body);
 }
 function stubifyFile(filename, stubspath, functionsToStub, reachableFuns, removeFuns, uncoveredMode, safeEvalMode, testingMode, zipFiles, bundleMode) {
@@ -191,7 +191,7 @@ function stubifyFile(filename, stubspath, functionsToStub, reachableFuns, remove
     var ast;
     var esmMode = false;
     try {
-        ast = (0, parser_1.parse)(code, { sourceType: "unambiguous", plugins: ["classProperties", "typescript"] }).program;
+        ast = parser_1.parse(code, { sourceType: "unambiguous", plugins: ["classProperties", "typescript"] }).program;
         esmMode = ast.sourceType == "module";
     }
     catch (e) {
@@ -204,13 +204,12 @@ function stubifyFile(filename, stubspath, functionsToStub, reachableFuns, remove
     if (esmMode) {
         setup_stubs = "import {default as stubs_fct} from '" + stubspath + "/stubbifier_es6.mjs'; let stubs = new stubs_fct('" + filename + "', " + testingMode + ");";
     }
-    ast = (0, core_1.transformFromAstSync)(ast, null, { ast: true,
-        plugins: [
+    ast = core_1.transformFromAstSync(ast, null, { ast: true, plugins: [
             function visitAndAddStubsSetup() {
                 return {
                     visitor: {
                         Program: function (path) {
-                            path.node.body = ((0, parser_1.parse)(setup_stubs, { sourceType: "unambiguous" }).program.body).concat(path.node.body);
+                            path.node.body = (parser_1.parse(setup_stubs, { sourceType: "unambiguous" }).program.body).concat(path.node.body);
                             path.skip();
                         }
                     }
@@ -220,7 +219,7 @@ function stubifyFile(filename, stubspath, functionsToStub, reachableFuns, remove
     }).ast;
     // console.log(generate(ast).code)
     // write out the stub, overwriting the old file
-    fs.writeFileSync(filename, (0, generator_1["default"])(ast).code.split('eval("STUB_FLAG_STUB_THIS_STUB_FCT");').join("\n"));
+    fs.writeFileSync(filename, generator_1["default"](ast).code.split('eval("STUB_FLAG_STUB_THIS_STUB_FCT");').join("\n"));
     // make the directory, so there can be a file added to it for each function processed
     // only create the dir if it doesn't already exist
     if (!fs.existsSync(filename + ".dir")) {
@@ -235,8 +234,8 @@ function stubifyFile(filename, stubspath, functionsToStub, reachableFuns, remove
         var stubFileBody = "let " + fctName + " = " + fctBody + "; \n\n" + fctName + ";";
         // TODO: currently in safeEvalMode we check to see if console.log is eval
         if (testingMode) {
-            console.log("[STUBBIFIER METRICS] function stubbed: ".concat(fctName, " --- ").concat(filename));
-            stubFileBody = "console.log(\"[STUBBIFIER METRICS] EXPANDED STUB HAS BEEN CALLED: ".concat(fctName, " --- ").concat(filename, "\");") + stubFileBody;
+            console.log("[STUBBIFIER METRICS] function stubbed: " + fctName + " --- " + filename);
+            stubFileBody = "console.log(\"[STUBBIFIER METRICS] EXPANDED STUB HAS BEEN CALLED: " + fctName + " --- " + filename + "\");" + stubFileBody;
         }
         if (safeEvalMode) {
             stubFileBody = "let dangerousFunctions = [eval]; if( process){dangerousFunctions += [process.exec]};\n" + stubFileBody;
@@ -245,28 +244,28 @@ function stubifyFile(filename, stubspath, functionsToStub, reachableFuns, remove
         // let fileSpecAST = parse(stubFileBody, {sourceType: "unambiguous", plugins: [ "classProperties"]}).program;
         var fileSpecAST = {};
         try {
-            fileSpecAST = (0, parser_1.parse)(stubFileBody, { allowSuperOutsideMethod: true, sourceType: "unambiguous", plugins: ["classProperties"] }).program;
+            fileSpecAST = parser_1.parse(stubFileBody, { allowSuperOutsideMethod: true, sourceType: "unambiguous", plugins: ["classProperties"] }).program;
         }
         catch (e) {
             console.error("Big oof bro... error parsing following snippet. Error: " + e);
             console.error(stubFileBody);
             process.exit(0);
         }
-        fileSpecAST = (0, core_1.transformFromAstSync)(fileSpecAST, null, { ast: true, plugins: [function addTests() {
+        fileSpecAST = core_1.transformFromAstSync(fileSpecAST, null, { ast: true, plugins: [function addTests() {
                     return { visitor: {
                             CallExpression: function (path) {
                                 if (safeEvalMode && !path.node.isNewCallExp && !(path.node.callee.type == "Super")) {
                                     //let enclosingStmtNode = path.findParent((path) => path.isStatement());
                                     //enclosingStmtNode.insertBefore(buildEvalCheck(path.node));
                                     var inAsyncFunction = path.findParent(function (path) { return path.isFunction() && path.node.async; });
-                                    var newWrapperCall = (0, ACGParseUtils_js_1.buildEvalCheck)(path.node, inAsyncFunction, filename);
+                                    var newWrapperCall = ACGParseUtils_js_1.buildEvalCheck(path.node, inAsyncFunction, filename);
                                     newWrapperCall.isNewCallExp = true;
                                     path.replaceWith(newWrapperCall);
                                 }
                             }
                         } };
                 }] }).ast;
-        fs.writeFileSync(filename + ".dir/" + fctName + ".BIGG", (0, generator_1["default"])(fileSpecAST).code);
+        fs.writeFileSync(filename + ".dir/" + fctName + ".BIGG", generator_1["default"](fileSpecAST).code);
         // console.log(fctBody);
     });
     // Now that the directory is written, zip it up (if we want to).
