@@ -41,10 +41,6 @@ do
     # npm install --save dependency-tree
 
     # node dep-tree.js $folderPath $entryFile
-    
-    # cd Variants
-    # mkdir $project
-    # cd ..
 
     node generate-variant.js  $folderPath $projectName $repoUrl $commit
 

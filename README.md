@@ -1,3 +1,3 @@
 # Multee
 
-Multee is in developing.
+Multee is under development.

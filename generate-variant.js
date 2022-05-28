@@ -13,12 +13,15 @@ const dataObj = JSON.parse(jsonData)
 const unusedFiles = unusedFilesData.split('\n')
 
 fs.writeFileSync(`./${folderPath}/wrapped-dependency-tree.json`, '')
+fs.writeFileSync(`${projectName}_unused-files.txt`, '')
 console.log(folderPath)
+
 let unusedNodesSet = []
 let tempArr = [] // array for a maximal subtree
 let tempUnusedStack = [] // array of unused offsprings for a node
 let candidates = []
 let jsonList = []
+let jsonObj = {}
 
 // let wrappedTree = {}
 function convertDepTree(dataObj) {
@@ -187,27 +190,6 @@ function traverseTree(node) {
     return tempUnusedStack
 }
 
-function removeFiles(files) {
-    
-    files.forEach(file => {
-        // childProcess.exec(`rm -rf ${file}`)
-        // removeRequireFromParent(file)
-        console.log('file to be removed', file)
-        removeFunctionsFromFile(file)
-    })
-    console.log('remove done')
-}
-
-function removeRequireFromParent(file) {
-    childProcess.exec(`node remove-require.js ${file}`)
-    console.log('remove done')
-}
-
-function removeFunctionsFromFile(file) {
-    console.log(file)
-    childProcess.exec(`node remove-functions.js ${file}`)
-}
-
 
 // Convert dependency-tree to wrapped-tree. For each node in dependency-tree, 
 // generate a new node with path, isLeaf, isUnused, isBranch, children
@@ -226,26 +208,14 @@ unusedNodesSet.forEach(set => {
     }
 })
 
-
-// jsonList.forEach(json => {
-//     console.log(json)
-// })
-console.log('Candidates on the tree:')
-candidates.forEach(candidate => console.log(JSON.parse(candidate)))
-
-candidates.forEach((candidate, index) => {
-    generateVariant(candidate, index)
-})
-
-function generateVariant(candidate, index) {
+function generateVariant(files, index) {
     // console.log(JSON.parse(candidate))
     // copyProject:
-    const variantPath = `Variants/${projectName}/variant_${index + 1}`
+    const variantPath = `Variants/variant${index + 1}/${projectName}`
     console.log('start generating ', variantPath)
-    console.log(repoUrl)
     childProcess.exec(`git clone ${repoUrl} ${variantPath} && cd ${variantPath} && git checkout ${commit} && npm install && cd ../../.. `)
+
     // Change names for files in candidate
-    const files = JSON.parse(candidate)
     const newfiles = files.map(file => {return file.replace(`${folderPath}`, `${variantPath}`)})
     newfiles.forEach(file => {
         // file = file.replace(`${folderPath}`, `${variantPath}`)
@@ -253,20 +223,22 @@ function generateVariant(candidate, index) {
         const fileStr = file + '\n'
         fs.appendFileSync(`${projectName}_unused-files.txt`, fileStr)
     })
-    // removeFiles(newfiles)
-    // runTestForVarient()
 }
 
-// function removeFiles(files){
-//     files.forEach(file => {
-//         parent = getParentByfile(file)
-//     })
-// }
 
-// function runTestForVarient(varientPath) {
-//     childProcess.exec(`cd ${varientPath}`)
-//     childProcess.exec('nyc npm run test') // run test for each variants
-// }
+console.log('Candidates on the tree:')
+candidates.forEach(candidate => console.log(JSON.parse(candidate)))
+
+candidates.forEach((candidate, index) => {
+    const files = JSON.parse(candidate)
+    generateVariant(files, index)
+    jsonObj[`variant${index + 1}`] = {
+        "files": files,
+        "fileNum": files.length
+    }
+})
+
+fs.writeFileSync(`${projectName}_variants.json`, JSON.stringify(jsonObj))
 
 // combSet = candidates.map(set => JSON.parse(set))
 
@@ -282,6 +254,3 @@ function generateVariant(candidate, index) {
 // console.log("file rand: ", fileRand)
 // var fileVariants = candidatesComb[fileRand]
 // console.log('fileVariants: \n', fileVariants)
-
-
-// removeFiles(fileVariants)
