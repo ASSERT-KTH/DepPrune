@@ -213,7 +213,13 @@ function generateVariant(files, index) {
     // copyProject:
     const variantPath = `Variants/variant${index + 1}/${projectName}`
     console.log('start generating ', variantPath)
-    childProcess.exec(`git clone ${repoUrl} ${variantPath} && cd ${variantPath} && git checkout ${commit} && npm install && cd ../../.. `)
+    childProcess.exec(`git clone ${repoUrl} ${variantPath} && cd ${variantPath} && git checkout ${commit} && npm install && cd ../../.. `,
+        (err, stdout, stderr) => {
+            if(err) console.log(err)
+            // the stdout is a buffer(binary format), toString() to encode utf8
+            console.log(stdout.toString())
+        }
+    )
 
     // Change names for files in candidate
     const newfiles = files.map(file => {return file.replace(`${folderPath}`, `${variantPath}`)})
