@@ -26,7 +26,7 @@ fs.writeFileSync(`./${jsonPath}`, '')
 // let index = 0
 
 // filePath example:
-// /Users/sandzn/Documents/Develop/multee/Variants/variant15/express/node_modules/function-bind/implementation.js
+// /Users/sandzn/Documents/Develop/multee/Variants/express/variant15/express/node_modules/function-bind/implementation.js
 const fileNameArr = folderPath.split('/')
 const nmIndex= fileNameArr.indexOf('node_modules')
 const depIndex = nmIndex + 1
