@@ -1,12 +1,12 @@
 projectName=$1
 
-variantsNum=`cd Variants && ls -l |grep "^d"|wc -l`
+variantsNum=`cd Variants/$projectName && ls -l |grep "^d"|wc -l`
 
 echo $variantsNum
 
 for (( i=$variantsNum; i>=1; i--))
 do
-    cd "./Variants/variant"$i"/"$projectName
+    cd "./Variants/"$projectName"/variant"$i"/"$projectName
     npm run test
-    cd ../../..
+    cd ../../../..
 done

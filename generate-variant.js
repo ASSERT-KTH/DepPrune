@@ -211,7 +211,7 @@ unusedNodesSet.forEach(set => {
 function generateVariant(files, index) {
     // console.log(JSON.parse(candidate))
     // copyProject:
-    const variantPath = `Variants/variant${index + 1}/${projectName}`
+    const variantPath = `Variants/${projectName}/variant${index + 1}/${projectName}`
     console.log('start generating ', variantPath)
     childProcess.exec(`git clone ${repoUrl} ${variantPath} && cd ${variantPath} && git checkout ${commit} && npm install && cd ../../.. `,
         (err, stdout, stderr) => {

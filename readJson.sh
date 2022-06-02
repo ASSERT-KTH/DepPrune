@@ -1,5 +1,6 @@
 jsonlist=$(jq -r '.projects' "repoSet.json")
 mkdir Variants
+
 # inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
 do
@@ -13,6 +14,10 @@ do
     folderPath="Playground/"$(_jq '.folder')
     projectName=$(_jq '.folder')
     commit=$(_jq '.commit')
+
+    cd Variants
+    mkdir $projectName
+    cd ..
 
     rm -rf $folderPath
 

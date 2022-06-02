@@ -11,7 +11,16 @@ const ast = recast.parse(sourceFileString)
 const astBody = ast.program.body
 
 const jsonFileString = fs.readFileSync(`./${jsonPath}`)
-let jsonObj = JSON.parse(jsonFileString)
+let jsonObj
+
+try {
+  jsonObj = JSON.parse(jsonFileString)
+  // console.log(jsonObj)
+} catch (err) {
+  // 👇️ SyntaxError: Unexpected end of JSON input
+  console.log('error', err)
+}
+  
 fs.writeFileSync(`./${jsonPath}`, '')
 
 // let index = 0
@@ -37,7 +46,7 @@ function removeUFF(node) {
     node.body.body = []
     node.body.body.unshift(insertAst)
     
-    const funcName = `${depFileName}_function_${node.loc.start.line}_${node.loc.start.column}`
+    const funcName = node.loc ? `${depFileName}_function_${node.loc.start.line}_${node.loc.start.column}` : `${depFileName}_function_in_class`
     console.log(`${funcName} has been removed`)
     jsonObj[variantNum]['funcNum']++
     jsonObj[variantNum]['functions'].push(funcName)
@@ -216,6 +225,18 @@ function removeFunctions(node) {
           removeFunctions(value.body)
           return false
         },
+        visitClassDeclaration: function ({ value }) {
+          removeFunctions(value.body)
+          return false
+        },
+        visitClassBody: function ({ value }) {
+          forRemoveCycle(value.body)
+          return false
+        },
+        visitMethodDefinition: function ({ value }) {
+          removeFunctions(value.value)
+          return false
+        }
       })
 }
 
