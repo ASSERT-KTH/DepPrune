@@ -47,6 +47,54 @@
       "entryFile": "lib//index.js",
       "folder": "hapi",
       "commit": "fd3cea77d8ce0a1d8d2869919ccf6465a14ea977"
+    },
+    {
+      "gitURL": "https://github.com/hexojs/hexo.git",
+      "entryFile": "lib/hexo/index.js",
+      "folder": "hexo",
+      "commit": "afc4d7f17b5ecbbe055ab52d55553cb3f0006bfd"
+    },
+    {
+      "gitURL": "https://github.com/request/request.git",
+      "entryFile": "index.js",
+      "folder": "request",
+      "commit": "3c0cddc7c8eb60b470e9519da85896ed7ee0081e"
+    },
+    {
+      "gitURL": "https://github.com/yeoman/generator.git",
+      "entryFile": "lib/index.js",
+      "folder": "generator",
+      "commit": "3fd1b7cb212c657757dfe2f9f1227dc50c6a030b"
+    },
+    {
+      "gitURL": "https://github.com/gulpjs/gulp-util.git",
+      "entryFile": "index.js",
+      "folder": "gulp-util",
+      "commit": "eb5e7ad98e88d201036beda45860f8c2b2c488e4"
+    },
+    {
+      "gitURL": "https://github.com/visionmedia/superagent.git",
+      "entryFile": "lib/node/index.js",
+      "folder": "superagent",
+      "commit": "4f043a8e5c9c0234761ec7415e3d9961e8bce214"
+    },
+    {
+      "gitURL": "https://github.com/sindresorhus/meow.git",
+      "entryFile": "index.js",
+      "folder": "meow",
+      "commit": "bc489b48ad28109f8efb51e02a1182df123101fa"
+    },
+    {
+      "gitURL": "https://github.com/yeoman/yosay.git",
+      "entryFile": "index.js",
+      "folder": "yosay",
+      "commit": "edf8387da4a1a082ef7dc3c0f4e04ae5f9dbcb18"
+    },
+    {
+      "gitURL": "https://github.com/less/less.js.git",
+      "entryFile": "packages/less/src/less/index.js",
+      "folder": "less.js",
+      "commit": "c24f52c652d80a52a954f7794f78995fa99942fd"
     }
   ]
 }

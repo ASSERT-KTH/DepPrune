@@ -35,6 +35,12 @@ npm run build
 sh readJson.sh
 ```
 
+### Calculate bloated files on dependency-tree
+
+```
+python3 calcUnusedOnTree.py node-glob
+```
+
 ### Empty functions
 
 There are two ways to generate variants by debloating.

@@ -9,7 +9,7 @@ soup = BeautifulSoup(req.text, features='html.parser')
 divWithLinks = soup.find(
     'div', {'id': 'file-01-most-dependent-upon-md-readme'})
 
-with open('readme.txt', 'w') as f:
+with open('top1000.txt', 'w') as f:
 
     for link in divWithLinks.find_all('a'):
         projectLink = link.get('href') + '\n'

@@ -160,7 +160,6 @@ function checkNode(node) {
             traverseTree(node)
         }
     }
-
     const children = node.children
     if (!children.length) return
     children.forEach(child => {
@@ -213,7 +212,7 @@ function generateVariant(files, index) {
     // copyProject:
     const variantPath = `Variants/${projectName}/variant${index + 1}/${projectName}`
     console.log('start generating ', variantPath)
-    childProcess.exec(`git clone ${repoUrl} ${variantPath} && cd ${variantPath} && git checkout ${commit} && npm install && cd ../../.. `,
+    childProcess.exec(`git clone ${repoUrl} ${variantPath} && cd ${variantPath} && git checkout ${commit} && npm install --force && cd ../../.. `,
         (err, stdout, stderr) => {
             if(err) console.log(err)
             // the stdout is a buffer(binary format), toString() to encode utf8
@@ -233,9 +232,9 @@ function generateVariant(files, index) {
 
 
 console.log('Candidates on the tree:')
-candidates.forEach(candidate => console.log(JSON.parse(candidate)))
 
 candidates.forEach((candidate, index) => {
+    console.log(JSON.parse(candidate))
     const files = JSON.parse(candidate)
     generateVariant(files, index)
     jsonObj[`variant${index + 1}`] = {
@@ -245,6 +244,8 @@ candidates.forEach((candidate, index) => {
 })
 
 fs.writeFileSync(`${projectName}_variants.json`, JSON.stringify(jsonObj))
+
+console.log("Number of unused JSON: ", jsonList.length)
 
 // combSet = candidates.map(set => JSON.parse(set))
 
