@@ -20,6 +20,8 @@ let unusedNodesSet = []
 let tempArr = [] // array for a maximal subtree
 let tempUnusedStack = [] // array of unused offsprings for a node
 let candidates = []
+let unusedDeps = []
+let unusedLeaves = []
 let jsonList = []
 let jsonObj = {}
 
@@ -160,8 +162,10 @@ function checkNode(node) {
             traverseTree(node)
         }
     }
+
     const children = node.children
     if (!children.length) return
+
     children.forEach(child => {
         checkNode(child)
     }) 
@@ -189,23 +193,31 @@ function traverseTree(node) {
     return tempUnusedStack
 }
 
+function collectUnusedLeaves(node) {
+    if (isNodeUnused(node)) {
+        const path = node.path
 
-// Convert dependency-tree to wrapped-tree. For each node in dependency-tree, 
-// generate a new node with path, isLeaf, isUnused, isBranch, children
-const result = convertDepTree(dataObj)
-
-fs.writeFileSync(`./${folderPath}/wrapped-dependency-tree.json`, JSON.stringify(result))
-
-
-checkNode(result)
-
-
-unusedNodesSet.forEach(set => {
-    str = JSON.stringify(set)
-    if (candidates.indexOf(str) == -1) {
-        candidates.push(str)
+        // log unused leaves
+        if ((node.isLeaf || jsonList.indexOf(path) > -1) && unusedLeaves.indexOf(path) === -1) {
+            unusedLeaves.push(path)
+            fs.appendFileSync(`${projectName}_unused-leaves.txt`, path + '\n')
+        }      
+    
+        // log unused dependencies
+        const pathArr = path.split("/")
+        const nodeMIdx = pathArr.indexOf("node_modules")
+        const depName = pathArr[nodeMIdx + 1]
+        if (unusedDeps.indexOf(depName) === -1) {
+            unusedDeps.push(depName)
+        }
     }
-})
+    const children = node.children
+    if (!children.length) return
+
+    children.forEach(child => {
+        collectUnusedLeaves(child)
+    })
+}
 
 function generateVariant(files, index) {
     // console.log(JSON.parse(candidate))
@@ -231,11 +243,32 @@ function generateVariant(files, index) {
 }
 
 
+
+
+// Convert dependency-tree to wrapped-tree. For each node in dependency-tree, 
+// generate a new node with path, isLeaf, isUnused, isBranch, children
+const result = convertDepTree(dataObj)
+
+fs.writeFileSync(`./${folderPath}/wrapped-dependency-tree.json`, JSON.stringify(result))
+
+
+checkNode(result)
+
+unusedNodesSet.forEach(set => {
+    str = JSON.stringify(set)
+    if (candidates.indexOf(str) == -1) {
+        candidates.push(str)
+    }
+})
+
 console.log('Candidates on the tree:')
+const branchStr = `Number of bloated branches in ${projectName}: ${candidates.length} \n\n`
+fs.appendFileSync(`${projectName}_unused_branches.txt`, branchStr)
 
 candidates.forEach((candidate, index) => {
-    console.log(JSON.parse(candidate))
     const files = JSON.parse(candidate)
+    console.log(files)
+    fs.appendFileSync(`${projectName}_unused_branches.txt`, candidate + '\n')
     generateVariant(files, index)
     jsonObj[`variant${index + 1}`] = {
         "files": files,
@@ -243,9 +276,15 @@ candidates.forEach((candidate, index) => {
     }
 })
 
+
 fs.writeFileSync(`${projectName}_variants.json`, JSON.stringify(jsonObj))
 
-console.log("Number of unused JSON: ", jsonList.length)
+collectUnusedLeaves(result)
+
+unusedDeps.forEach(dep => {
+    fs.appendFileSync(`${projectName}_unused_deps.txt`, dep + '\n')
+})
+
 
 // combSet = candidates.map(set => JSON.parse(set))
 
