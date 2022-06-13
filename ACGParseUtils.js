@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-exports.generateBundlerConfig = exports.buildEvalCheck = exports.getFileName = exports.getTargetsFromCoverageReport = exports.getTargetsFromACG = exports.buildHappyName = exports.getCombinations = exports.flat = void 0;
+exports.generateBundlerConfig = exports.buildEvalCheck = exports.getFileName = exports.getTargetsFromCoverageReport = exports.getTargetsFromACG = exports.buildHappyName = void 0;
 var fs = require("fs");
 var babel = require("@babel/types");
 var parser_1 = require("@babel/parser");
@@ -93,11 +93,11 @@ function getUncoveredFunctions(pathToCoverageReport) {
         Object.keys(coverage[fileName].fnMap).forEach(function (key) {
             if (coverage[fileName].f[key] > 0) {
                 var loc = coverage[fileName].fnMap[key].loc;
-                calledFunctions.push("".concat(fileName, ":<").concat(loc.start.line, ",").concat(loc.start.column, ">--<").concat(loc.end.line, ",").concat(loc.end.column, ">"));
+                calledFunctions.push(fileName + ":<" + loc.start.line + "," + loc.start.column + ">--<" + loc.end.line + "," + loc.end.column + ">");
             }
             else {
                 var loc = coverage[fileName].fnMap[key].loc;
-                uncalledFunctions.push("".concat(fileName, ":<").concat(loc.start.line, ",").concat(loc.start.column, ">--<").concat(loc.end.line, ",").concat(loc.end.column, ">"));
+                uncalledFunctions.push(fileName + ":<" + loc.start.line + "," + loc.start.column + ">--<" + loc.end.line + "," + loc.end.column + ">");
             }
         });
     });
@@ -174,51 +174,8 @@ function generateBundlerConfig(dirname) {
     if (!mainPath) {
         mainPath = "index.js";
     }
-    var configBody = "import nodeResolve from '@rollup/plugin-node-resolve';\n     import babel from '@rollup/plugin-babel';\n     import commonjs from '@rollup/plugin-commonjs';\n     import json from '@rollup/plugin-json';\n\n     export default {\n          input: '".concat(mainPath, "',\n          output: {\n            file: 'stubbifyBundle.js',\n            format: 'cjs'\n          },\n          context: 'null',\n          moduleContext: 'null',\n          plugins: [nodeResolve({ moduleDirectories: ['node_modules'] }), commonjs(), babel(), json()]\n        };");
-    configBody = (0, generator_1["default"])((0, parser_1.parse)(configBody, { sourceType: "unambiguous" }).program).code;
+    var configBody = "import nodeResolve from '@rollup/plugin-node-resolve';\n     import babel from '@rollup/plugin-babel';\n     import commonjs from '@rollup/plugin-commonjs';\n     import json from '@rollup/plugin-json';\n\n     export default {\n          input: '" + mainPath + "',\n          output: {\n            file: 'stubbifyBundle.js',\n            format: 'cjs'\n          },\n          context: 'null',\n          moduleContext: 'null',\n          plugins: [nodeResolve({ moduleDirectories: ['node_modules'] }), commonjs(), babel(), json()]\n        };";
+    configBody = generator_1["default"](parser_1.parse(configBody, { sourceType: "unambiguous" }).program).code;
     fs.writeFileSync(dirname + "/rollup.stubbifier.config.js", configBody);
 }
 exports.generateBundlerConfig = generateBundlerConfig;
-
-function getCombinations(arr) {
-    var combination = [];
-    var temp = [];
-    var slent = Math.pow(2, arr.length);
-
-    for (var i = 0; i < slent; i++)
-    {
-        temp = [];
-        for (var j = 0; j < arr.length; j++)
-        {
-            if ((i & Math.pow(2, j)))
-            {
-                temp.push(arr[j]);
-            }
-        }
-        if (temp.length > 0)
-        {   
-            combination.push(flat(temp));
-        }
-    }
-
-    combination.sort((a, b) => a.length - b.length);
-    return combination;
-}
-
-function flat(arr){
-    if (Object.prototype.toString.call(arr) != "[object Array]") {
-        return false
-    }
-	let res = []
-    arr.map( item => {
-        if (item instanceof Array) {
-            res.push(...item)
-        } else {
-            res.push(item)
-        }
-    })
-    return res
-}
-
-exports.getCombinations = getCombinations;
-exports.flat = flat;

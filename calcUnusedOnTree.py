@@ -19,7 +19,11 @@ for line in onTreeF.readlines():
 
 unusedOnTree = list(set(total).intersection(set(onTree)))
 
+proj = project + '_unused_on_tree.txt'
+fileUnusedOnTree = open(proj, 'w')
 for file in unusedOnTree:
     print(file)
+    fileUnusedOnTree.writelines(file)
+fileUnusedOnTree.close()
 
 print(len(unusedOnTree))

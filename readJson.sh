@@ -15,12 +15,18 @@ do
     projectName=$(_jq '.folder')
     commit=$(_jq '.commit')
 
+    echo $repoUrl 
+    echo $entryFile 
+    echo $folderPath 
+    echo $projectName 
+    echo $commit
     cd Variants
     mkdir $projectName
+
     cd ..
 
     rm -rf $folderPath
-
+    
     git clone $repoUrl $folderPath
 
     cd $folderPath
@@ -33,8 +39,8 @@ do
 
     python3 genDepList.py $folderPath "npm install "
 
-    python3 genNycRc.py $folderPath "${folderPath}/dep_list.txt"
-
+    python3 genNycRc.py $folderPath "${folderPath}/dep_list.txt" 
+    
     cd $folderPath
 
     nyc npm run test
