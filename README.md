@@ -38,7 +38,7 @@ sh readJson.sh
 ### Calculate bloated files on dependency-tree
 
 ```
-python3 calcUnusedOnTree.py node-glob
+python3 calcBloatedOnTree.py node-glob
 ```
 
 ### Empty functions
@@ -48,7 +48,7 @@ The first way is to "empty" each function in each unused files.
 When we say "empty" a function, it means to replace the whole function body with a short string 'lyx'.
 
 ```
-sh removefunctions.sh node-glob_unused-files.txt node-glob_variants.json
+sh removefunctions.sh node-glob
 ```
 
 ### Empty files
@@ -56,7 +56,7 @@ sh removefunctions.sh node-glob_unused-files.txt node-glob_variants.json
 The second way is to "empty" the whole unused file which still exites but with no content.
 
 ```
-sh removefiles.sh node-glob_unused-files.txt
+sh removefiles.sh node-glob
 ```
 
 ### Run test for each variant

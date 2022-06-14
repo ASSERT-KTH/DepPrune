@@ -1,6 +1,18 @@
 {
   "projects": [
     {
+      "gitURL": "https://github.com/expressjs/compression.git",
+      "entryFile": "index.js",
+      "folder": "compression",
+      "commit": "3fea81d0eaed1eb872bf3e0405f20d9e175ab2cf"
+    },
+    {
+      "gitURL": "https://github.com/isaacs/node-glob.git",
+      "entryFile": "glob.js",
+      "folder": "node-glob",
+      "commit": "d844b2c1debfb7a408a8a219aea6cd5c66cfdea4"
+    },
+    {
       "gitURL": "https://github.com/expressjs/express.git",
       "entryFile": "index.js",
       "folder": "express",

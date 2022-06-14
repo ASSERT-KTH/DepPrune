@@ -2,15 +2,16 @@ const recast = require('recast')
 const fs = require('fs')
 
 const args = process.argv.slice(2)
-const folderPath = args[0]
-const jsonPath = args[1]
+const folderPath = args[1]
+const projectName = args[0]
+const jsonPath = `./Data/${projectName}_variants.json`
 
 
 const sourceFileString = fs.readFileSync(folderPath)
 const ast = recast.parse(sourceFileString)
 const astBody = ast.program.body
 
-const jsonFileString = fs.readFileSync(`./${jsonPath}`)
+const jsonFileString = fs.readFileSync(`${jsonPath}`)
 let jsonObj
 
 try {
@@ -21,7 +22,7 @@ try {
   console.log('error', err)
 }
   
-fs.writeFileSync(`./${jsonPath}`, '')
+fs.writeFileSync(`${jsonPath}`, '')
 
 // let index = 0
 
@@ -249,4 +250,4 @@ for (let i = 0; i < astBody.length; i++) {
 const targetFileString = recast.print(ast).code
 fs.writeFileSync(folderPath, targetFileString, 'utf-8')
 
-fs.writeFileSync(`./${jsonPath}`, JSON.stringify(jsonObj))
+fs.writeFileSync(`${jsonPath}`, JSON.stringify(jsonObj))

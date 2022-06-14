@@ -13,15 +13,16 @@ const dataObj = JSON.parse(jsonData)
 const unusedFiles = unusedFilesData.split('\n')
 
 fs.writeFileSync(`./${folderPath}/wrapped-dependency-tree.json`, '')
-fs.writeFileSync(`${projectName}_bloateded_variants.txt`, '')
+fs.writeFileSync(`./Data/${projectName}_bloated_variants.txt`, '')
 console.log(folderPath)
 
 let unusedNodesSet = []
 let tempArr = [] // array for a maximal subtree
 let tempUnusedStack = [] // array of unused offsprings for a node
 let candidates = []
-let unusedDeps = []
-let unusedLeaves = []
+let bloatedDep = []
+let bloatedLeaves = []
+let bloatedNodes = []
 let jsonList = []
 let jsonObj = {}
 
@@ -112,6 +113,10 @@ function isNodeUnused(node) {
     return node.isUnused || jsonList.indexOf(node.path) > -1
 }
 
+function isNodeALeaf(node) {
+    return node.isLeaf || jsonList.indexOf(node.path) > -1
+}
+
 function LogNode(node) {
     const path = node.path
     tempArr.push(path)
@@ -193,34 +198,38 @@ function traverseTree(node) {
     return tempUnusedStack
 }
 
-function collectUnusedLeaves(node) {
+function collectBloadedNodes(node) {
     if (isNodeUnused(node)) {
         const path = node.path
 
+        // log unused nodes
+        bloatedNodes.indexOf(path) === -1 && bloatedNodes.push(path)
+        fs.appendFileSync(`./Data/${projectName}_bloated_nodes.txt`, path + '\n')
+
         // log unused leaves
-        if ((node.isLeaf || jsonList.indexOf(path) > -1) && unusedLeaves.indexOf(path) === -1) {
-            unusedLeaves.push(path)
-            fs.appendFileSync(`${projectName}_bloated_leaves.txt`, path + '\n')
+        if (node.isLeaf && bloatedLeaves.indexOf(path) === -1) {
+            bloatedLeaves.push(path)
+            fs.appendFileSync(`./Data/${projectName}_bloated_leaves.txt`, path + '\n')
         }      
     
         // log unused dependencies
         const pathArr = path.split("/")
         const nodeMIdx = pathArr.indexOf("node_modules")
         const depName = pathArr[nodeMIdx + 1]
-        if (unusedDeps.indexOf(depName) === -1) {
-            unusedDeps.push(depName)
+        if (bloatedDep.indexOf(depName) === -1) {
+            bloatedDep.push(depName)
+            fs.appendFileSync(`./Data/${projectName}_bloated_deps.txt`, depName + '\n')
         }
     }
     const children = node.children
     if (!children.length) return
 
     children.forEach(child => {
-        collectUnusedLeaves(child)
+        collectBloadedNodes(child)
     })
 }
 
 function generateVariant(files, index) {
-    // console.log(JSON.parse(candidate))
     // copyProject:
     const variantPath = `Variants/${projectName}/variant${index + 1}/${projectName}`
     console.log('start generating ', variantPath)
@@ -235,10 +244,9 @@ function generateVariant(files, index) {
     // Change names for files in candidate
     const newfiles = files.map(file => {return file.replace(`${folderPath}`, `${variantPath}`)})
     newfiles.forEach(file => {
-        // file = file.replace(`${folderPath}`, `${variantPath}`)
         console.log(file)
         const fileStr = file + '\n'
-        fs.appendFileSync(`${projectName}_bloated_variants.txt`, fileStr)
+        fs.appendFileSync(`./Data/${projectName}_bloated_variants.txt`, fileStr)
     })
 }
 
@@ -261,13 +269,12 @@ unusedNodesSet.forEach(set => {
     }
 })
 
-console.log('Candidates on the tree:')
-const branchStr = `Candidates in ${projectName}: ${candidates.length} \n\n`
-
+console.log(`Candidates in ${projectName}: ${candidates.length} \n\n`)
+fs.appendFileSync(`./Data/${projectName}_bloated_candidates.txt`, `Candidates in ${projectName}: ${candidates.length} \n\n`)
 candidates.forEach((candidate, index) => {
     const files = JSON.parse(candidate)
     console.log(files)
-    fs.appendFileSync(`${projectName}_bloated_candidates.txt`, candidate + '\n')
+    fs.appendFileSync(`./Data/${projectName}_bloated_candidates.txt`, candidate + '\n')
     generateVariant(files, index)
     jsonObj[`variant${index + 1}`] = {
         "files": files,
@@ -276,14 +283,9 @@ candidates.forEach((candidate, index) => {
 })
 
 
-fs.writeFileSync(`${projectName}_variants.json`, JSON.stringify(jsonObj))
+fs.writeFileSync(`./Data/${projectName}_variants.json`, JSON.stringify(jsonObj))
 
-collectUnusedLeaves(result)
-
-unusedDeps.forEach(dep => {
-    fs.appendFileSync(`${projectName}_bloated_deps.txt`, dep + '\n')
-})
-
+collectBloadedNodes(result)
 
 // combSet = candidates.map(set => JSON.parse(set))
 
