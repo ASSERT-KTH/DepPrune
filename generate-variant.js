@@ -13,7 +13,7 @@ const dataObj = JSON.parse(jsonData)
 const unusedFiles = unusedFilesData.split('\n')
 
 fs.writeFileSync(`./${folderPath}/wrapped-dependency-tree.json`, '')
-fs.writeFileSync(`${projectName}_unused-files.txt`, '')
+fs.writeFileSync(`${projectName}_bloateded_variants.txt`, '')
 console.log(folderPath)
 
 let unusedNodesSet = []
@@ -200,7 +200,7 @@ function collectUnusedLeaves(node) {
         // log unused leaves
         if ((node.isLeaf || jsonList.indexOf(path) > -1) && unusedLeaves.indexOf(path) === -1) {
             unusedLeaves.push(path)
-            fs.appendFileSync(`${projectName}_unused-leaves.txt`, path + '\n')
+            fs.appendFileSync(`${projectName}_bloated_leaves.txt`, path + '\n')
         }      
     
         // log unused dependencies
@@ -238,7 +238,7 @@ function generateVariant(files, index) {
         // file = file.replace(`${folderPath}`, `${variantPath}`)
         console.log(file)
         const fileStr = file + '\n'
-        fs.appendFileSync(`${projectName}_unused-files.txt`, fileStr)
+        fs.appendFileSync(`${projectName}_bloated_variants.txt`, fileStr)
     })
 }
 
@@ -262,13 +262,12 @@ unusedNodesSet.forEach(set => {
 })
 
 console.log('Candidates on the tree:')
-const branchStr = `Number of bloated branches in ${projectName}: ${candidates.length} \n\n`
-fs.appendFileSync(`${projectName}_unused_branches.txt`, branchStr)
+const branchStr = `Candidates in ${projectName}: ${candidates.length} \n\n`
 
 candidates.forEach((candidate, index) => {
     const files = JSON.parse(candidate)
     console.log(files)
-    fs.appendFileSync(`${projectName}_unused_branches.txt`, candidate + '\n')
+    fs.appendFileSync(`${projectName}_bloated_candidates.txt`, candidate + '\n')
     generateVariant(files, index)
     jsonObj[`variant${index + 1}`] = {
         "files": files,
@@ -282,7 +281,7 @@ fs.writeFileSync(`${projectName}_variants.json`, JSON.stringify(jsonObj))
 collectUnusedLeaves(result)
 
 unusedDeps.forEach(dep => {
-    fs.appendFileSync(`${projectName}_unused_deps.txt`, dep + '\n')
+    fs.appendFileSync(`${projectName}_bloated_deps.txt`, dep + '\n')
 })
 
 
