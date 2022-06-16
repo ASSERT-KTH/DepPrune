@@ -14,137 +14,141 @@ var MIN_FILE_STUB_LENGTH = 5; // only stub files that are > 5 lines
 function processAST(ast, importStmts, exportStmts, filename, safeEvalMode) {
     if (safeEvalMode === void 0) { safeEvalMode = false; }
     // console.log(code);
-    var output = core_1.transformFromAstSync(ast, null, { ast: true, plugins: [function processPlugin() {
-                return { visitor: {
-                        CallExpression: function (path) {
-                            if (safeEvalMode && !path.node.isNewCallExp && !(path.node.callee.type == "Super")) {
-                                //let enclosingStmtNode = path.findParent((path) => path.isStatement());
-                                //enclosingStmtNode.insertBefore(buildEvalCheck(path.node));
-                                var inAsyncFunction = path.findParent(function (path) { return path.isFunction() && path.node.async; });
-                                var newWrapperCall = ACGParseUtils_js_1.buildEvalCheck(path.node, inAsyncFunction, filename);
-                                newWrapperCall.isNewCallExp = true;
-                                path.replaceWith(newWrapperCall);
-                            }
-                        },
-                        /*
-                            Deal with imports.
-                            Imports *always* stay in the original file, and they never modify anything.
-                        */
-                        ImportDeclaration: function (path) {
-                            importStmts.push(path.node); // put node into stmt move list
-                            path.remove(); // yeet the node into the void
-                            path.skip();
-                        },
-                        /*
-                            Deal with exports.
-                            There are multiple different kinds of exports, and in some cases we need to leave
-                            part of the export to ensure that e.g. certain variables remain in scope.
-                
-                            e.g.
-                            export const exportFoo = foo;
-                
-                            Here, we need to leave `const exportFoo = foo`, as the assignment makes `exportFoo`
-                            available in the subsequent scope.
-                        */
-                        ExportDefaultDeclaration: function (path) {
-                            // Check if export has a declaration.
-                            if (path.node.declaration !== null) {
-                                // Construct new node based on the export.
-                                // Save the declaration that we're going to replace.
-                                var savedDeclaration = path.node.declaration; // the actual type here is a giant union type (88 members, don't feel like typing it)
-                                exportStmts["default"].push(path.node);
-                                // Remove the declaration.
-                                // path.node.declaration = null;
-                                // previous line of code not required: we always replace the declaration with something else
-                                // and, babel will not allow the ExportDefaultDeclaration to have a null declaration
-                                // Modify path.node to have the appropriate exports, based on the type of export it is.
-                                switch (savedDeclaration.type) {
-                                    case "ClassDeclaration":
-                                        // TODO: Doing the same thing twice for local and exported. Ensure that this is what we want.
-                                        path.node.declaration = savedDeclaration.id;
-                                        path.replaceWith(savedDeclaration);
-                                        break;
-                                    case "FunctionDeclaration":
-                                        path.node.declaration = savedDeclaration.id;
-                                        path.replaceWith(savedDeclaration);
-                                        break;
-                                    default:
-                                        path.remove(); // in babel, identifiers count as declarations
-                                    // 	path.node.declaration = savedDeclaration; // I don't think you can have a vardecl as a default export ...?
-                                    /* TODO: more cases */
-                                }
-                            }
-                            else {
-                                // this might be unreachable with babel, but keep it around just in case
-                                exportStmts["default"].push(path.node);
-                                path.remove();
-                            }
-                            // return false;
-                            path.skip();
-                        },
-                        ExportNamedDeclaration: function (path) {
-                            // Check if export has a declaration.
-                            if (path.node.declaration !== null) {
-                                // Construct new node based on the export.
-                                // Save the declaration that we're going to replace.
-                                var savedDeclaration = path.node.declaration;
-                                // Remove the declaration.
-                                // path.node.declaration.parentPath.remove();
-                                path.node.declaration = null;
-                                // Modify path.node to have the appropriate exports, based on the type of export it is.
-                                switch (savedDeclaration.type) {
-                                    case "ClassDeclaration":
-                                        // TODO: Doing the same thing twice for local and exported. Ensure that this is what we want.
-                                        // need to have 2 different identifiers, to avoid shallow copy issues
-                                        path.node.specifiers.push(babel.exportSpecifier(babel.identifier(savedDeclaration.id.name), babel.identifier(savedDeclaration.id.name)));
-                                        break;
-                                    case "FunctionDeclaration":
-                                        path.node.specifiers.push(babel.exportSpecifier(babel.identifier(savedDeclaration.id.name), babel.identifier(savedDeclaration.id.name)));
-                                        break;
-                                    case "VariableDeclaration":
-                                        var lsd = savedDeclaration;
-                                        for (var _i = 0, _a = lsd.declarations; _i < _a.length; _i++) {
-                                            var v = _a[_i];
-                                            /* There are only two cases here: VariableDeclator (which is horrible), and Identifier (cleaner). */
-                                            /* TODO: currently just casting the .id to an Identifier, even though it's
-                                                a PatternKind.
-                                            
-                                                Change to deal with other possible PatternKinds.
-                                            */
-                                            switch (v.id.type) {
-                                                case "Identifier":
-                                                    var idAsIdentifierLocal = babel.identifier(v.id.name);
-                                                    var idAsIdentifierExport = babel.identifier(v.id.name);
-                                                    path.node.specifiers.push(babel.exportSpecifier(idAsIdentifierLocal, idAsIdentifierExport));
-                                                    break;
-                                                case "ObjectPattern":
-                                                    var idAsObjectPattern = v.id;
-                                                    idAsObjectPattern.properties.map(function (v) {
-                                                        /* v has to have type Identifier as per destructured assignment specification */
-                                                        var propertyAsExportIdentifier = v.key;
-                                                        path.node.specifiers.push(babel.exportSpecifier(propertyAsExportIdentifier, propertyAsExportIdentifier));
-                                                    });
-                                                    break;
-                                                default:
-                                                    console.error("Unexpected case of VariableDeclarator: " + v.id.type);
-                                                    process.exit(1);
-                                            }
-                                        }
-                                        break;
-                                    /* TODO: more cases */
-                                }
-                                exportStmts["named"].push(path.node);
-                                // Replace it with the declaration.
-                                path.replaceWith(savedDeclaration);
-                            }
-                            else {
-                                exportStmts["named"].push(path.node);
-                                path.remove();
-                            }
-                            path.skip();
+    var output = core_1.transformFromAstSync(ast, null, {
+        ast: true, plugins: [function processPlugin() {
+            return {
+                visitor: {
+                    CallExpression: function (path) {
+                        if (safeEvalMode && !path.node.isNewCallExp && !(path.node.callee.type == "Super")) {
+                            //let enclosingStmtNode = path.findParent((path) => path.isStatement());
+                            //enclosingStmtNode.insertBefore(buildEvalCheck(path.node));
+                            var inAsyncFunction = path.findParent(function (path) { return path.isFunction() && path.node.async; });
+                            var newWrapperCall = ACGParseUtils_js_1.buildEvalCheck(path.node, inAsyncFunction, filename);
+                            newWrapperCall.isNewCallExp = true;
+                            path.replaceWith(newWrapperCall);
                         }
-                    } };
-            }] });
+                    },
+                    /*
+                        Deal with imports.
+                        Imports *always* stay in the original file, and they never modify anything.
+                    */
+                    ImportDeclaration: function (path) {
+                        importStmts.push(path.node); // put node into stmt move list
+                        path.remove(); // yeet the node into the void
+                        path.skip();
+                    },
+                    /*
+                        Deal with exports.
+                        There are multiple different kinds of exports, and in some cases we need to leave
+                        part of the export to ensure that e.g. certain variables remain in scope.
+            
+                        e.g.
+                        export const exportFoo = foo;
+            
+                        Here, we need to leave `const exportFoo = foo`, as the assignment makes `exportFoo`
+                        available in the subsequent scope.
+                    */
+                    ExportDefaultDeclaration: function (path) {
+                        // Check if export has a declaration.
+                        if (path.node.declaration !== null) {
+                            // Construct new node based on the export.
+                            // Save the declaration that we're going to replace.
+                            var savedDeclaration = path.node.declaration; // the actual type here is a giant union type (88 members, don't feel like typing it)
+                            exportStmts["default"].push(path.node);
+                            // Remove the declaration.
+                            // path.node.declaration = null;
+                            // previous line of code not required: we always replace the declaration with something else
+                            // and, babel will not allow the ExportDefaultDeclaration to have a null declaration
+                            // Modify path.node to have the appropriate exports, based on the type of export it is.
+                            switch (savedDeclaration.type) {
+                                case "ClassDeclaration":
+                                    // TODO: Doing the same thing twice for local and exported. Ensure that this is what we want.
+                                    path.node.declaration = savedDeclaration.id;
+                                    path.replaceWith(savedDeclaration);
+                                    break;
+                                case "FunctionDeclaration":
+                                    path.node.declaration = savedDeclaration.id;
+                                    path.replaceWith(savedDeclaration);
+                                    break;
+                                default:
+                                    path.remove(); // in babel, identifiers count as declarations
+                                // 	path.node.declaration = savedDeclaration; // I don't think you can have a vardecl as a default export ...?
+                                /* TODO: more cases */
+                            }
+                        }
+                        else {
+                            // this might be unreachable with babel, but keep it around just in case
+                            exportStmts["default"].push(path.node);
+                            path.remove();
+                        }
+                        // return false;
+                        path.skip();
+                    },
+                    ExportNamedDeclaration: function (path) {
+                        // Check if export has a declaration.
+                        if (path.node.declaration !== null) {
+                            // Construct new node based on the export.
+                            // Save the declaration that we're going to replace.
+                            var savedDeclaration = path.node.declaration;
+                            // Remove the declaration.
+                            // path.node.declaration.parentPath.remove();
+                            path.node.declaration = null;
+                            // Modify path.node to have the appropriate exports, based on the type of export it is.
+                            switch (savedDeclaration.type) {
+                                case "ClassDeclaration":
+                                    // TODO: Doing the same thing twice for local and exported. Ensure that this is what we want.
+                                    // need to have 2 different identifiers, to avoid shallow copy issues
+                                    path.node.specifiers.push(babel.exportSpecifier(babel.identifier(savedDeclaration.id.name), babel.identifier(savedDeclaration.id.name)));
+                                    break;
+                                case "FunctionDeclaration":
+                                    path.node.specifiers.push(babel.exportSpecifier(babel.identifier(savedDeclaration.id.name), babel.identifier(savedDeclaration.id.name)));
+                                    break;
+                                case "VariableDeclaration":
+                                    var lsd = savedDeclaration;
+                                    for (var _i = 0, _a = lsd.declarations; _i < _a.length; _i++) {
+                                        var v = _a[_i];
+                                        /* There are only two cases here: VariableDeclator (which is horrible), and Identifier (cleaner). */
+                                        /* TODO: currently just casting the .id to an Identifier, even though it's
+                                            a PatternKind.
+                                        
+                                            Change to deal with other possible PatternKinds.
+                                        */
+                                        switch (v.id.type) {
+                                            case "Identifier":
+                                                var idAsIdentifierLocal = babel.identifier(v.id.name);
+                                                var idAsIdentifierExport = babel.identifier(v.id.name);
+                                                path.node.specifiers.push(babel.exportSpecifier(idAsIdentifierLocal, idAsIdentifierExport));
+                                                break;
+                                            case "ObjectPattern":
+                                                var idAsObjectPattern = v.id;
+                                                idAsObjectPattern.properties.map(function (v) {
+                                                    /* v has to have type Identifier as per destructured assignment specification */
+                                                    var propertyAsExportIdentifier = v.key;
+                                                    path.node.specifiers.push(babel.exportSpecifier(propertyAsExportIdentifier, propertyAsExportIdentifier));
+                                                });
+                                                break;
+                                            default:
+                                                console.error("Unexpected case of VariableDeclarator: " + v.id.type);
+                                                process.exit(1);
+                                        }
+                                    }
+                                    break;
+                                /* TODO: more cases */
+                            }
+                            exportStmts["named"].push(path.node);
+                            // Replace it with the declaration.
+                            path.replaceWith(savedDeclaration);
+                        }
+                        else {
+                            exportStmts["named"].push(path.node);
+                            path.remove();
+                        }
+                        path.skip();
+                    }
+                }
+            };
+        }]
+    });
     return output.ast;
 }
 // TODO: stubbify, not stubify
@@ -215,7 +219,8 @@ function stubifyFile(filename, safeEvalMode, testingMode, zipFiles) {
     var outputAST = parser_1.parse(requires + body + exportVars, { sourceType: "unambiguous" }).program;
     if (esmMode) {
         // add import statements to the start of the stub, and exports to the end
-        outputAST = core_1.transformFromAstSync(outputAST, null, { ast: true, plugins: [
+        outputAST = core_1.transformFromAstSync(outputAST, null, {
+            ast: true, plugins: [
                 function visitAndAddImpExps() {
                     return {
                         visitor: {
@@ -236,7 +241,8 @@ function stubifyFile(filename, safeEvalMode, testingMode, zipFiles) {
         }).ast;
         // add the evalRetVal to the end of the old code, so if it's loaded in 
         // the exports in the stub will work as expected
-        ast = core_1.transformFromAstSync(ast, null, { ast: true, plugins: [
+        ast = core_1.transformFromAstSync(ast, null, {
+            ast: true, plugins: [
                 function visitAndAddEvalExports() {
                     return {
                         visitor: {
