@@ -43,9 +43,13 @@ do
     
     cd $folderPath
 
+    echo "Start Generating test coverage report..."
+
     nyc npm run test
 
     cd ../..
+
+    echo "Start discovering bloated files..."
 
     ./transform.sh $folderPath "dynamic" false
 
