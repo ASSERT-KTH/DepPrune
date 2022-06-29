@@ -1,19 +1,20 @@
 import requests
 from bs4 import BeautifulSoup
 
-req = requests.get('https://gist.github.com/anvaka/8e8fa57c7ee1350e3491')
+curLink = 'https://libraries.io/search?keywords=nodejs&languages=&order=desc&platforms=npm&sort=dependents_count'
+
+req = requests.get(curLink)
 req.encoding = 'utf-8'
 
 soup = BeautifulSoup(req.text, features='html.parser')
 
-divWithLinks = soup.find(
-    'div', {'id': 'file-01-most-dependent-upon-md-readme'})
+divWithLinks = soup.find_all(
+    'div', {'class': 'project'})
 
-with open('top1000.txt', 'w') as f:
+with open('top30.txt', 'w') as f:
 
-    for link in divWithLinks.find_all('a'):
-        projectLink = link.get('href') + '\n'
-        print(projectLink)
+    for link in divWithLinks:
+        projectLink = link.find('a').get('href') + '\n\n\n'
         f.write(projectLink)
     # hrefInLink = link.get('href')
 
