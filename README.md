@@ -64,3 +64,13 @@ sh removefiles.sh node-glob
 ```
 sh runtest.sh node-glob
 ```
+
+### Run test and add logs for errors and commons
+```
+sh runtest.sh express 2>>errors.log  >> test.log
+```
+
+### Watch limited logs
+```
+watch -n 5 cat errors.log
+```

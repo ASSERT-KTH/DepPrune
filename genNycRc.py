@@ -6,6 +6,8 @@ import sys
 #   ],
 #   "excludeNodeModules": false,
 #   "all": true,
+#   "sourceMap": false,
+#   "cache": true,
 #   "include": [
 #     "dist/**",
 #     "lib/**",
@@ -21,6 +23,8 @@ def get_file_start():
   ],
   "excludeNodeModules": false,
   "all": true,
+  "sourceMap": false,
+  "cache": true,
   "include": [
 	"*.js",
     "dist/**",
