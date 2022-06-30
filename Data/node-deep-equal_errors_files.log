@@ -1,0 +1,202 @@
+15
+/data/js-variants/multee/Variants/node-deep-equal/variant15/node-deep-equal/node_modules/get-intrinsic/index.js:201
+var $concat = bind.call(Function.call, Array.prototype.concat);
+                   ^
+
+TypeError: bind.call is not a function
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant15/node-deep-equal/node_modules/get-intrinsic/index.js:201:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/Variants/node-deep-equal/variant15/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:58:13)
+    at module.exports (/data/js-variants/multee/Variants/node-deep-equal/variant15/node-deep-equal/node_modules/nyc/node_modules/default-require-extensions/js.js:8:9)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant15/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:62:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant15/node-deep-equal/node_modules/call-bind/callBound.js:3:20)
+
+Node.js v18.3.0
+/data/js-variants/multee/Variants/node-deep-equal/variant14/node-deep-equal/node_modules/get-intrinsic/index.js:201
+var $concat = bind.call(Function.call, Array.prototype.concat);
+                   ^
+
+TypeError: bind.call is not a function
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant14/node-deep-equal/node_modules/get-intrinsic/index.js:201:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/Variants/node-deep-equal/variant14/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:58:13)
+    at module.exports (/data/js-variants/multee/Variants/node-deep-equal/variant14/node-deep-equal/node_modules/nyc/node_modules/default-require-extensions/js.js:8:9)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant14/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:62:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant14/node-deep-equal/node_modules/call-bind/callBound.js:3:20)
+
+Node.js v18.3.0
+/data/js-variants/multee/Variants/node-deep-equal/variant13/node-deep-equal/node_modules/get-intrinsic/index.js:201
+var $concat = bind.call(Function.call, Array.prototype.concat);
+                   ^
+
+TypeError: bind.call is not a function
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant13/node-deep-equal/node_modules/get-intrinsic/index.js:201:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/Variants/node-deep-equal/variant13/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:58:13)
+    at module.exports (/data/js-variants/multee/Variants/node-deep-equal/variant13/node-deep-equal/node_modules/nyc/node_modules/default-require-extensions/js.js:8:9)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant13/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:62:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant13/node-deep-equal/node_modules/call-bind/callBound.js:3:20)
+
+Node.js v18.3.0
+(node:189160) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+npm WARN config production Use `--omit=dev` instead.
+/data/js-variants/multee/Variants/node-deep-equal/variant11/node-deep-equal/node_modules/get-intrinsic/index.js:201
+var $concat = bind.call(Function.call, Array.prototype.concat);
+                   ^
+
+TypeError: bind.call is not a function
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant11/node-deep-equal/node_modules/get-intrinsic/index.js:201:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/Variants/node-deep-equal/variant11/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:58:13)
+    at module.exports (/data/js-variants/multee/Variants/node-deep-equal/variant11/node-deep-equal/node_modules/nyc/node_modules/default-require-extensions/js.js:8:9)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant11/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:62:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant11/node-deep-equal/node_modules/call-bind/callBound.js:3:20)
+
+Node.js v18.3.0
+(node:189347) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+/data/js-variants/multee/Variants/node-deep-equal/variant10/node-deep-equal/index.js:29
+if((++cov_g3grafqqc.b[49][0],resultB.value)&&(++cov_g3grafqqc.b[49][1],typeof resultB.value==='object')){++cov_g3grafqqc.b[48][0];++cov_g3grafqqc.s[114];if(!setHasEqualElement(set,resultB.value,opts.strict,channel)){++cov_g3grafqqc.b[50][0];++cov_g3grafqqc.s[115];return false;}else{++cov_g3grafqqc.b[50][1];}}else{++cov_g3grafqqc.b[48][1];++cov_g3grafqqc.s[116];if((++cov_g3grafqqc.b[52][0],!opts.strict)&&(++cov_g3grafqqc.b[52][1],!$setHas(a,resultB.value))&&(++cov_g3grafqqc.b[52][2],!setHasEqualElement(set,resultB.value,opts.strict,channel))){++cov_g3grafqqc.b[51][0];++cov_g3grafqqc.s[117];return false;}else{++cov_g3grafqqc.b[51][1];}}}++cov_g3grafqqc.s[118];return $setSize(set)===0;}else{++cov_g3grafqqc.b[46][1];}++cov_g3grafqqc.s[119];return true;}function mapEquiv(a,b,opts,channel){++cov_g3grafqqc.f[9];++cov_g3grafqqc.s[120];if($mapSize(a)!==$mapSize(b)){++cov_g3grafqqc.b[53][0];++cov_g3grafqqc.s[121];return false;}else{++cov_g3grafqqc.b[53][1];}var iA=(++cov_g3grafqqc.s[122],getIterator(a));var iB=(++cov_g3grafqqc.s[123],getIterator(b));var resultA;var resultB;var set;var key;var item1;var item2;++cov_g3grafqqc.s[124];while((++cov_g3grafqqc.b[54][0],resultA=iA.next())&&(++cov_g3grafqqc.b[54][1],!resultA.done)){++cov_g3grafqqc.s[125];key=resultA.value[0];++cov_g3grafqqc.s[126];item1=resultA.value[1];++cov_g3grafqqc.s[127];if((++cov_g3grafqqc.b[56][0],key)&&(++cov_g3grafqqc.b[56][1],typeof key==='object')){++cov_g3grafqqc.b[55][0];++cov_g3grafqqc.s[128];if(!set){++cov_g3grafqqc.b[57][0];++cov_g3grafqqc.s[129];set=new $Set();}else{++cov_g3grafqqc.b[57][1];}++cov_g3grafqqc.s[130];$setAdd(set,key);}else{++cov_g3grafqqc.b[55][1];++cov_g3grafqqc.s[131];item2=$mapGet(b,key);++cov_g3grafqqc.s[132];if((++cov_g3grafqqc.b[59][0],typeof item2==='undefined')&&(++cov_g3grafqqc.b[59][1],!$mapHas(b,key))||(++cov_g3grafqqc.b[59][2],!internalDeepEqual(item1,item2,opts,channel))){++cov_g3grafqqc.b[58][0];++cov_g3grafqqc.s[133];if(opts.strict){++cov_g3grafqqc.b[60][0];++cov_g3grafqqc.s[134];return false;}else{++cov_g3grafqqc.b[60][1];}++cov_g3grafqqc.s[135];if(!mapMightHaveLoosePrim(a,b,key,item1,opts,channel)){++cov_g3grafqqc.b[61][0];++cov_g3grafqqc.s[136];return false;}else{++cov_g3grafqqc.b[61][1];}++cov_g3grafqqc.s[137];if(!set){++cov_g3grafqqc.b[62][0];++cov_g3grafqqc.s[138];set=new $Set();}else{++cov_g3grafqqc.b[62][1];}++cov_g3grafqqc.s[139];$setAdd(set,key);}else{++cov_g3grafqqc.b[58][1];}}}++cov_g3grafqqc.s[140];if(set){++cov_g3grafqqc.b[63][0];++cov_g3grafqqc.s[141];while((++cov_g3grafqqc.b[64][0],resultB=iB.next())&&(++cov_g3grafqqc.b[64][1],!resultB.done)){++cov_g3grafqqc.s[142];key=resultB.value[0];++cov_g3grafqqc.s[143];item2=resultB.value[1];++cov_g3grafqqc.s[144];if((++cov_g3grafqqc.b[66][0],key)&&(++cov_g3grafqqc.b[66][1],typeof key==='object')){++cov_g3grafqqc.b[65][0];++cov_g3grafqqc.s[145];if(!mapHasEqualEntry(set,a,key,item2,opts,channel)){++cov_g3grafqqc.b[67][0];++cov_g3grafqqc.s[146];return false;}else{++cov_g3grafqqc.b[67][1];}}else{++cov_g3grafqqc.b[65][1];++cov_g3grafqqc.s[147];if((++cov_g3grafqqc.b[69][0],!opts.strict)&&((++cov_g3grafqqc.b[69][1],!a.has(key))||(++cov_g3grafqqc.b[69][2],!internalDeepEqual($mapGet(a,key),item2,opts,channel)))&&(++cov_g3grafqqc.b[69][3],!mapHasEqualEntry(set,a,key,item2,assign({},opts,{strict:false}),channel))){++cov_g3grafqqc.b[68][0];++cov_g3grafqqc.s[148];return false;}else{++cov_g3grafqqc.b[68][1];}}}++cov_g3grafqqc.s[149];return $setSize(set)===0;}else{++cov_g3grafqqc.b[63][1];}++cov_g3grafqqc.s[150];return true;}function objEquiv(a,b,opts,channel){++cov_g3grafqqc.f[10];/* eslint max-statements: [2, 100], max-lines-per-function: [2, 120], max-depth: [2, 5], max-lines: [2, 400] */var i,key;++cov_g3grafqqc.s[151];if(typeof a!==typeof b){++cov_g3grafqqc.b[70][0];++cov_g3grafqqc.s[152];return false;}else{++cov_g3grafqqc.b[70][1];}++cov_g3grafqqc.s[153];if((++cov_g3grafqqc.b[72][0],a==null)||(++cov_g3grafqqc.b[72][1],b==null)){++cov_g3grafqqc.b[71][0];++cov_g3grafqqc.s[154];return false;}else{++cov_g3grafqqc.b[71][1];}++cov_g3grafqqc.s[155];if($objToString(a)!==$objToString(b)){++cov_g3grafqqc.b[73][0];++cov_g3grafqqc.s[156];return false;}else{++cov_g3grafqqc.b[73][1];}++cov_g3grafqqc.s[157];if(isArguments(a)!==isArguments(b)){++cov_g3grafqqc.b[74][0];++cov_g3grafqqc.s[158];return false;}else{++cov_g3grafqqc.b[74][1];}var aIsArray=(++cov_g3grafqqc.s[159],isArray(a));var bIsArray=(++cov_g3grafqqc.s[160],isArray(b));++cov_g3grafqqc.s[161];if(aIsArray!==bIsArray){++cov_g3grafqqc.b[75][0];++cov_g3grafqqc.s[162];return false;}else{++cov_g3grafqqc.b[75][1];}// TODO: replace when a cross-realm brand check is available
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+
+TypeError: isArray is not a function
+    at objEquiv (/data/js-variants/multee/Variants/node-deep-equal/variant10/node-deep-equal/index.js:29:4378)
+    at internalDeepEqual (/data/js-variants/multee/Variants/node-deep-equal/variant10/node-deep-equal/index.js:28:30)
+    at deepEqual (/data/js-variants/multee/Variants/node-deep-equal/variant10/node-deep-equal/index.js:40:223)
+    at equalReversed (/data/js-variants/multee/Variants/node-deep-equal/variant10/node-deep-equal/test/_tape.js:25:7)
+    at deepEqualTest (/data/js-variants/multee/Variants/node-deep-equal/variant10/node-deep-equal/test/_tape.js:36:3)
+    at Test.deepEqualTest (/data/js-variants/multee/Variants/node-deep-equal/variant10/node-deep-equal/test/_tape.js:41:10)
+    at Test.bound [as deepEqualTest] (/data/js-variants/multee/Variants/node-deep-equal/variant10/node-deep-equal/node_modules/tape/lib/test.js:99:32)
+    at Test.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant10/node-deep-equal/test/cmp.js:29:5)
+    at Test.bound [as _cb] (/data/js-variants/multee/Variants/node-deep-equal/variant10/node-deep-equal/node_modules/tape/lib/test.js:99:32)
+    at Test.run (/data/js-variants/multee/Variants/node-deep-equal/variant10/node-deep-equal/node_modules/tape/lib/test.js:117:31)
+
+Node.js v18.3.0
+/data/js-variants/multee/Variants/node-deep-equal/variant9/node-deep-equal/node_modules/get-intrinsic/index.js:201
+var $concat = bind.call(Function.call, Array.prototype.concat);
+                   ^
+
+TypeError: bind.call is not a function
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant9/node-deep-equal/node_modules/get-intrinsic/index.js:201:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/Variants/node-deep-equal/variant9/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:58:13)
+    at module.exports (/data/js-variants/multee/Variants/node-deep-equal/variant9/node-deep-equal/node_modules/nyc/node_modules/default-require-extensions/js.js:8:9)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant9/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:62:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant9/node-deep-equal/node_modules/call-bind/callBound.js:3:20)
+
+Node.js v18.3.0
+/data/js-variants/multee/Variants/node-deep-equal/variant8/node-deep-equal/node_modules/get-intrinsic/index.js:201
+var $concat = bind.call(Function.call, Array.prototype.concat);
+                   ^
+
+TypeError: bind.call is not a function
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant8/node-deep-equal/node_modules/get-intrinsic/index.js:201:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/Variants/node-deep-equal/variant8/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:58:13)
+    at module.exports (/data/js-variants/multee/Variants/node-deep-equal/variant8/node-deep-equal/node_modules/nyc/node_modules/default-require-extensions/js.js:8:9)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant8/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:62:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant8/node-deep-equal/node_modules/call-bind/callBound.js:3:20)
+
+Node.js v18.3.0
+/data/js-variants/multee/Variants/node-deep-equal/variant7/node-deep-equal/node_modules/get-intrinsic/index.js:201
+var $concat = bind.call(Function.call, Array.prototype.concat);
+                   ^
+
+TypeError: bind.call is not a function
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant7/node-deep-equal/node_modules/get-intrinsic/index.js:201:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/Variants/node-deep-equal/variant7/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:58:13)
+    at module.exports (/data/js-variants/multee/Variants/node-deep-equal/variant7/node-deep-equal/node_modules/nyc/node_modules/default-require-extensions/js.js:8:9)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant7/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:62:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant7/node-deep-equal/node_modules/call-bind/callBound.js:3:20)
+
+Node.js v18.3.0
+(node:189583) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+npm WARN config production Use `--omit=dev` instead.
+/data/js-variants/multee/Variants/node-deep-equal/variant5/node-deep-equal/node_modules/get-intrinsic/index.js:201
+var $concat = bind.call(Function.call, Array.prototype.concat);
+                   ^
+
+TypeError: bind.call is not a function
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant5/node-deep-equal/node_modules/get-intrinsic/index.js:201:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/Variants/node-deep-equal/variant5/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:58:13)
+    at module.exports (/data/js-variants/multee/Variants/node-deep-equal/variant5/node-deep-equal/node_modules/nyc/node_modules/default-require-extensions/js.js:8:9)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant5/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:62:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant5/node-deep-equal/node_modules/call-bind/callBound.js:3:20)
+
+Node.js v18.3.0
+/data/js-variants/multee/Variants/node-deep-equal/variant4/node-deep-equal/node_modules/get-intrinsic/index.js:201
+var $concat = bind.call(Function.call, Array.prototype.concat);
+                   ^
+
+TypeError: bind.call is not a function
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant4/node-deep-equal/node_modules/get-intrinsic/index.js:201:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/Variants/node-deep-equal/variant4/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:58:13)
+    at module.exports (/data/js-variants/multee/Variants/node-deep-equal/variant4/node-deep-equal/node_modules/nyc/node_modules/default-require-extensions/js.js:8:9)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant4/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:62:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant4/node-deep-equal/node_modules/call-bind/callBound.js:3:20)
+
+Node.js v18.3.0
+/data/js-variants/multee/Variants/node-deep-equal/variant3/node-deep-equal/node_modules/has/src/index.js:5
+module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
+                      ^
+
+TypeError: bind.call is not a function
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant3/node-deep-equal/node_modules/has/src/index.js:5:23)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/Variants/node-deep-equal/variant3/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:58:13)
+    at module.exports (/data/js-variants/multee/Variants/node-deep-equal/variant3/node-deep-equal/node_modules/nyc/node_modules/default-require-extensions/js.js:8:9)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant3/node-deep-equal/node_modules/nyc/node_modules/append-transform/index.js:62:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Variants/node-deep-equal/variant3/node-deep-equal/node_modules/get-intrinsic/index.js:200:14)
+
+Node.js v18.3.0
+(node:189891) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+npm WARN config production Use `--omit=dev` instead.
+(node:190017) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+npm WARN config production Use `--omit=dev` instead.
