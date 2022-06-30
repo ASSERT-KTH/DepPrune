@@ -19,7 +19,7 @@ for line in onTreeF.readlines():
 
 unusedOnTree = list(set(total).intersection(set(onTree)))
 
-projPath = './data/' + project + '_bloated_on_tree.txt'
+projPath = './Data/' + project + '_bloated_nodes.txt'
 fileUnusedOnTree = open(projPath, 'w')
 for file in unusedOnTree:
     print(file)

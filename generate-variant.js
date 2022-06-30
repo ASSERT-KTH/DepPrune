@@ -39,7 +39,7 @@ function convertDepTree(dataObj) {
         } else {
             wrappedTree['isUnused'] = false
         }
-        
+
         if (isFileALeaf(value)) {
             // leaf
             wrappedTree['isLeaf'] = true
@@ -58,7 +58,7 @@ function convertDepTree(dataObj) {
 
 function turnValueToChildren(value, parent, isParentUnused) {
     let children = []
-    
+
     for (let key in value) {
         isLeaf = isFileALeaf(value[key])
         isUnused = isFileUnused(key)
@@ -99,14 +99,14 @@ function isUnusedTree(node) {
 
     if (children.length) {
         children.forEach(child => {
-          if (!isUnusedTree(child)) childrenUnused = false
+            if (!isUnusedTree(child)) childrenUnused = false
         })
         return node.isUnused && childrenUnused
     } else {
         // if a leaf is js node: check unused
         // if a leaf is json node: check in jsonList
         return isNodeUnused(node)
-    }  
+    }
 }
 
 function isNodeUnused(node) {
@@ -173,20 +173,20 @@ function checkNode(node) {
 
     children.forEach(child => {
         checkNode(child)
-    }) 
+    })
 }
 
 function traverseNode(node) {
     const path = node.path
-    if (tempUnusedStack.indexOf(path) === -1) 
+    if (tempUnusedStack.indexOf(path) === -1)
         isNodeUnused(node) && tempUnusedStack.push(path)
-        
+
     const children = node.children
     if (children.length) {
         children.forEach(child => {
             traverseNode(child)
         })
-    } 
+    }
     return tempUnusedStack
 }
 
@@ -210,8 +210,8 @@ function collectBloadedNodes(node) {
         if (node.isLeaf && bloatedLeaves.indexOf(path) === -1) {
             bloatedLeaves.push(path)
             fs.appendFileSync(`./Data/${projectName}_bloated_leaves.txt`, path + '\n')
-        }      
-    
+        }
+
         // log unused dependencies
         const pathArr = path.split("/")
         const nodeMIdx = pathArr.indexOf("node_modules")
@@ -235,14 +235,14 @@ function generateVariant(files, index) {
     console.log('start generating ', variantPath)
     childProcess.exec(`git clone ${repoUrl} ${variantPath} && cd ${variantPath} && git checkout ${commit} && npm install --force && cd ../../.. `,
         (err, stdout, stderr) => {
-            if(err) console.log(err)
+            if (err) console.log(err)
             // the stdout is a buffer(binary format), toString() to encode utf8
             console.log(stdout.toString())
         }
     )
 
     // Change names for files in candidate
-    const newfiles = files.map(file => {return file.replace(`${folderPath}`, `${variantPath}`)})
+    const newfiles = files.map(file => { return file.replace(`${folderPath}`, `${variantPath}`) })
     newfiles.forEach(file => {
         console.log(file)
         const fileStr = file + '\n'
