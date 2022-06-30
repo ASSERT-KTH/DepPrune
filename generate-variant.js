@@ -203,8 +203,10 @@ function collectBloadedNodes(node) {
         const path = node.path
 
         // log unused nodes
-        bloatedNodes.indexOf(path) === -1 && bloatedNodes.push(path)
-        fs.appendFileSync(`./Data/${projectName}_bloated_nodes.txt`, path + '\n')
+        if (bloatedNodes.indexOf(path) === -1) {
+            bloatedNodes.push(path)
+            fs.appendFileSync(`./Data/${projectName}_bloated_nodes.txt`, path + '\n')
+        }
 
         // log unused leaves
         if (node.isLeaf && bloatedLeaves.indexOf(path) === -1) {
