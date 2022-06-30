@@ -1,0 +1,1301 @@
+11
+./Variants/execa/variant11/execa
+
+> execa@6.1.0 test
+> xo && c8 ava && tsd
+
+
+  Uncaught exception in test/command.js
+
+  SyntaxError: The requested module 'is-stream' does not provide an export named 'isStream'
+
+  Uncaught exception in test/error.js
+
+  SyntaxError: The requested module 'is-stream' does not provide an export named 'isStream'
+
+  ✖ test/command.js exited with a non-zero exit code: 1
+  ✖ test/error.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/kill.js
+
+  SyntaxError: The requested module 'is-stream' does not provide an export named 'isStream'
+
+  ✖ test/kill.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/stream.js
+
+  SyntaxError: The requested module 'is-stream' does not provide an export named 'isStream'
+
+  ✖ test/stream.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/node.js
+
+  SyntaxError: The requested module 'is-stream' does not provide an export named 'isStream'
+
+  ✖ test/node.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/test.js
+
+  SyntaxError: The requested module 'is-stream' does not provide an export named 'isStream'
+
+  ✖ test/test.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/override-promise.js
+
+  SyntaxError: The requested module 'is-stream' does not provide an export named 'isStream'
+
+  Uncaught exception in test/promise.js
+
+  SyntaxError: The requested module 'is-stream' does not provide an export named 'isStream'
+
+  ✖ test/override-promise.js exited with a non-zero exit code: 1
+  ✖ test/promise.js exited with a non-zero exit code: 1
+  ✔ stdio › execa() undefined
+  ✔ stdio › execa() null
+  ✔ stdio › execa() { stdio: 'inherit' }
+  ✔ stdio › execa() { stdio: 'pipe' }
+  ✔ stdio › execa() { stdio: 'ignore' }
+  ✔ stdio › execa() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execa() {}
+  ✔ stdio › execa() { stdio: [] }
+  ✔ stdio › execa() { stdin: 'pipe' }
+  ✔ stdio › execa() { stdout: 'ignore' }
+  ✔ stdio › execa() { stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore' }
+  ✔ stdio › execa() { stdin: 'pipe', stderr: 'inherit' }
+  ✔ stdio › execa() { stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 0, stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdin: 0, stdout: 1 }
+  ✔ stdio › execa() { stdin: 0, stderr: 2 }
+  ✔ stdio › execa() { stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdio: { foo: 'bar' } }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: 'pipe' }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ 'pipe' ] }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ undefined, 'pipe' ] }
+  ✔ stdio › execa() { stdin: 0, stdio: 'pipe' }
+  ✔ stdio › execaNode() undefined
+  ✔ stdio › execaNode() { stdio: 'ignore' }
+  ✔ stdio › execaNode() { stdio: 'ipc' }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 3 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 'ipc' ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, undefined ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, undefined ] }
+  ✔ stdio › execaNode() { stdout: 'ignore' }
+  ✔ stdio › execaNode() { stdout: 'ignore', stderr: 'ignore' }
+  ✔ stdio › execaNode() { stdio: { foo: 'bar' } }
+  ✔ stdio › execaNode() { stdin: 'inherit', stdio: 'pipe' }
+  ─
+
+  36 tests passed
+  8 uncaught exceptions
+----------|---------|----------|---------|---------|------------------------------------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                              
+----------|---------|----------|---------|---------|------------------------------------------------
+All files |    39.4 |      100 |      20 |    39.4 |                                                
+ error.js |    8.23 |      100 |       0 |    8.23 | 4-24,28-84                                     
+ kill.js  |   36.27 |      100 |       0 |   36.27 | ...,14-29,38-46,51-55,59-60,65-80,84-86,91-101 
+ stdio.js |     100 |      100 |     100 |     100 |                                                
+----------|---------|----------|---------|---------|------------------------------------------------
+./Variants/execa/variant10/execa
+
+> execa@6.1.0 test
+> xo && c8 ava && tsd
+
+./Variants/execa/variant9/execa
+
+> execa@6.1.0 test
+> xo && c8 ava && tsd
+
+
+  Uncaught exception in test/command.js
+
+  SyntaxError: The requested module 'human-signals' does not provide an export named 'signalsByName'
+
+  Uncaught exception in test/error.js
+
+  SyntaxError: The requested module 'human-signals' does not provide an export named 'signalsByName'
+
+  ✖ test/error.js exited with a non-zero exit code: 1
+  ✖ test/command.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/kill.js
+
+  SyntaxError: The requested module 'human-signals' does not provide an export named 'signalsByName'
+
+  Uncaught exception in test/node.js
+
+  SyntaxError: The requested module 'human-signals' does not provide an export named 'signalsByName'
+
+  ✖ test/kill.js exited with a non-zero exit code: 1
+  ✖ test/node.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/override-promise.js
+
+  SyntaxError: The requested module 'human-signals' does not provide an export named 'signalsByName'
+
+  Uncaught exception in test/promise.js
+
+  SyntaxError: The requested module 'human-signals' does not provide an export named 'signalsByName'
+
+  ✖ test/override-promise.js exited with a non-zero exit code: 1
+  ✖ test/promise.js exited with a non-zero exit code: 1
+  ✔ stdio › execa() undefined
+  ✔ stdio › execa() null
+  ✔ stdio › execa() { stdio: 'inherit' }
+  ✔ stdio › execa() { stdio: 'pipe' }
+  ✔ stdio › execa() { stdio: 'ignore' }
+  ✔ stdio › execa() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execa() {}
+  ✔ stdio › execa() { stdio: [] }
+  ✔ stdio › execa() { stdin: 'pipe' }
+  ✔ stdio › execa() { stdout: 'ignore' }
+  ✔ stdio › execa() { stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore' }
+  ✔ stdio › execa() { stdin: 'pipe', stderr: 'inherit' }
+  ✔ stdio › execa() { stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 0, stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdin: 0, stdout: 1 }
+  ✔ stdio › execa() { stdin: 0, stderr: 2 }
+  ✔ stdio › execa() { stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdio: { foo: 'bar' } }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: 'pipe' }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ 'pipe' ] }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ undefined, 'pipe' ] }
+  ✔ stdio › execa() { stdin: 0, stdio: 'pipe' }
+  ✔ stdio › execaNode() undefined
+  ✔ stdio › execaNode() { stdio: 'ignore' }
+  ✔ stdio › execaNode() { stdio: 'ipc' }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 3 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 'ipc' ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, undefined ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, undefined ] }
+  ✔ stdio › execaNode() { stdout: 'ignore' }
+  ✔ stdio › execaNode() { stdout: 'ignore', stderr: 'ignore' }
+  ✔ stdio › execaNode() { stdio: { foo: 'bar' } }
+  ✔ stdio › execaNode() { stdin: 'inherit', stdio: 'pipe' }
+
+  Uncaught exception in test/stream.js
+
+  SyntaxError: The requested module 'human-signals' does not provide an export named 'signalsByName'
+
+  ✖ test/stream.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/test.js
+
+  SyntaxError: The requested module 'human-signals' does not provide an export named 'signalsByName'
+
+  ✖ test/test.js exited with a non-zero exit code: 1
+  ─
+
+  36 tests passed
+  8 uncaught exceptions
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ stdio.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+./Variants/execa/variant8/execa
+
+> execa@6.1.0 test
+> xo && c8 ava && tsd
+
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |       0 |        0 |       0 |       0 |                   
+----------|---------|----------|---------|---------|-------------------
+./Variants/execa/variant7/execa
+
+> execa@6.1.0 test
+> xo && c8 ava && tsd
+
+
+  Uncaught exception in test/error.js
+
+  SyntaxError: The requested module 'npm-run-path' does not provide an export named 'npmRunPathEnv'
+
+  Uncaught exception in test/command.js
+
+  SyntaxError: The requested module 'npm-run-path' does not provide an export named 'npmRunPathEnv'
+
+  ✖ test/error.js exited with a non-zero exit code: 1
+  ✖ test/command.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/node.js
+
+  SyntaxError: The requested module 'npm-run-path' does not provide an export named 'npmRunPathEnv'
+
+  Uncaught exception in test/kill.js
+
+  SyntaxError: The requested module 'npm-run-path' does not provide an export named 'npmRunPathEnv'
+
+  ✖ test/node.js exited with a non-zero exit code: 1
+  ✖ test/kill.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/override-promise.js
+
+  SyntaxError: The requested module 'npm-run-path' does not provide an export named 'npmRunPathEnv'
+
+  Uncaught exception in test/promise.js
+
+  SyntaxError: The requested module 'npm-run-path' does not provide an export named 'npmRunPathEnv'
+
+  ✖ test/override-promise.js exited with a non-zero exit code: 1
+  ✖ test/promise.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/stream.js
+
+  SyntaxError: The requested module 'npm-run-path' does not provide an export named 'npmRunPathEnv'
+
+  ✔ stdio › execa() undefined
+  ✔ stdio › execa() null
+  ✔ stdio › execa() { stdio: 'inherit' }
+  ✔ stdio › execa() { stdio: 'pipe' }
+  ✔ stdio › execa() { stdio: 'ignore' }
+  ✔ stdio › execa() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execa() {}
+  ✔ stdio › execa() { stdio: [] }
+  ✔ stdio › execa() { stdin: 'pipe' }
+  ✔ stdio › execa() { stdout: 'ignore' }
+  ✔ stdio › execa() { stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore' }
+  ✔ stdio › execa() { stdin: 'pipe', stderr: 'inherit' }
+  ✔ stdio › execa() { stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 0, stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdin: 0, stdout: 1 }
+  ✔ stdio › execa() { stdin: 0, stderr: 2 }
+  ✔ stdio › execa() { stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdio: { foo: 'bar' } }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: 'pipe' }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ 'pipe' ] }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ undefined, 'pipe' ] }
+  ✔ stdio › execa() { stdin: 0, stdio: 'pipe' }
+  ✔ stdio › execaNode() undefined
+  ✔ stdio › execaNode() { stdio: 'ignore' }
+  ✔ stdio › execaNode() { stdio: 'ipc' }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 3 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 'ipc' ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, undefined ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, undefined ] }
+  ✔ stdio › execaNode() { stdout: 'ignore' }
+  ✔ stdio › execaNode() { stdout: 'ignore', stderr: 'ignore' }
+  ✔ stdio › execaNode() { stdio: { foo: 'bar' } }
+  ✔ stdio › execaNode() { stdin: 'inherit', stdio: 'pipe' }
+  ✖ test/stream.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/test.js
+
+  SyntaxError: The requested module 'npm-run-path' does not provide an export named 'npmRunPathEnv'
+
+  ✖ test/test.js exited with a non-zero exit code: 1
+  ─
+
+  36 tests passed
+  8 uncaught exceptions
+------------|---------|----------|---------|---------|----------------------------------------------
+File        | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                            
+------------|---------|----------|---------|---------|----------------------------------------------
+All files   |   36.84 |      100 |   10.71 |   36.84 |                                              
+ command.js |    43.9 |      100 |       0 |    43.9 | 2-6,13-17,28-40                              
+ error.js   |    8.23 |      100 |       0 |    8.23 | 4-24,28-84                                   
+ kill.js    |   36.27 |      100 |       0 |   36.27 | ...4-29,38-46,51-55,59-60,65-80,84-86,91-101 
+ promise.js |   30.55 |      100 |       0 |   30.55 | 3-4,9-18,23-35                               
+ stdio.js   |     100 |      100 |     100 |     100 |                                              
+ stream.js  |   29.06 |      100 |       0 |   29.06 | 7-15,20-34,39-49,53-61,66-79,83-85           
+------------|---------|----------|---------|---------|----------------------------------------------
+./Variants/execa/variant6/execa
+
+> execa@6.1.0 test
+> xo && c8 ava && tsd
+
+
+  Uncaught exception in test/command.js
+
+  SyntaxError: The requested module 'strip-final-newline' does not provide an export named 'default'
+
+  Uncaught exception in test/error.js
+
+  SyntaxError: The requested module 'strip-final-newline' does not provide an export named 'default'
+
+  ✖ test/error.js exited with a non-zero exit code: 1
+  ✖ test/command.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/kill.js
+
+  SyntaxError: The requested module 'strip-final-newline' does not provide an export named 'default'
+
+  Uncaught exception in test/node.js
+
+  SyntaxError: The requested module 'strip-final-newline' does not provide an export named 'default'
+
+  ✖ test/kill.js exited with a non-zero exit code: 1
+  ✖ test/node.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/override-promise.js
+
+  SyntaxError: The requested module 'strip-final-newline' does not provide an export named 'default'
+
+  Uncaught exception in test/promise.js
+
+  SyntaxError: The requested module 'strip-final-newline' does not provide an export named 'default'
+
+  ✖ test/override-promise.js exited with a non-zero exit code: 1
+  ✖ test/promise.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/stream.js
+
+  SyntaxError: The requested module 'strip-final-newline' does not provide an export named 'default'
+
+  ✖ test/stream.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/test.js
+
+  SyntaxError: The requested module 'strip-final-newline' does not provide an export named 'default'
+
+  ✖ test/test.js exited with a non-zero exit code: 1
+  ✔ stdio › execa() undefined
+  ✔ stdio › execa() null
+  ✔ stdio › execa() { stdio: 'inherit' }
+  ✔ stdio › execa() { stdio: 'pipe' }
+  ✔ stdio › execa() { stdio: 'ignore' }
+  ✔ stdio › execa() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execa() {}
+  ✔ stdio › execa() { stdio: [] }
+  ✔ stdio › execa() { stdin: 'pipe' }
+  ✔ stdio › execa() { stdout: 'ignore' }
+  ✔ stdio › execa() { stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore' }
+  ✔ stdio › execa() { stdin: 'pipe', stderr: 'inherit' }
+  ✔ stdio › execa() { stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 0, stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdin: 0, stdout: 1 }
+  ✔ stdio › execa() { stdin: 0, stderr: 2 }
+  ✔ stdio › execa() { stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdio: { foo: 'bar' } }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: 'pipe' }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ 'pipe' ] }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ undefined, 'pipe' ] }
+  ✔ stdio › execa() { stdin: 0, stdio: 'pipe' }
+  ✔ stdio › execaNode() undefined
+  ✔ stdio › execaNode() { stdio: 'ignore' }
+  ✔ stdio › execaNode() { stdio: 'ipc' }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 3 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 'ipc' ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, undefined ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, undefined ] }
+  ✔ stdio › execaNode() { stdout: 'ignore' }
+  ✔ stdio › execaNode() { stdout: 'ignore', stderr: 'ignore' }
+  ✔ stdio › execaNode() { stdio: { foo: 'bar' } }
+  ✔ stdio › execaNode() { stdin: 'inherit', stdio: 'pipe' }
+  ─
+
+  36 tests passed
+  8 uncaught exceptions
+------------|---------|----------|---------|---------|----------------------------------------------
+File        | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                            
+------------|---------|----------|---------|---------|----------------------------------------------
+All files   |   36.84 |      100 |   10.71 |   36.84 |                                              
+ command.js |    43.9 |      100 |       0 |    43.9 | 2-6,13-17,28-40                              
+ error.js   |    8.23 |      100 |       0 |    8.23 | 4-24,28-84                                   
+ kill.js    |   36.27 |      100 |       0 |   36.27 | ...4-29,38-46,51-55,59-60,65-80,84-86,91-101 
+ promise.js |   30.55 |      100 |       0 |   30.55 | 3-4,9-18,23-35                               
+ stdio.js   |     100 |      100 |     100 |     100 |                                              
+ stream.js  |   29.06 |      100 |       0 |   29.06 | 7-15,20-34,39-49,53-61,66-79,83-85           
+------------|---------|----------|---------|---------|----------------------------------------------
+./Variants/execa/variant5/execa
+
+> execa@6.1.0 test
+> xo && c8 ava && tsd
+
+
+  ✔ command › execaCommandSync() (1.1s)
+  ✔ error › stdout/stderr/all on process errors, in sync mode (1.9s)
+  ✔ error › result.killed is false if not killed, in sync mode (934ms)
+  ✔ error › result.killed is false on process error, in sync mode (209ms)
+  ✔ error › Original error.message is kept (1.4s)
+  ✔ error › error.code is defined on failure if applicable
+  ✔ error › result.killed is false on process error (368ms)
+  ✔ error › stdout/stderr/all on process errors (2.1s)
+  ✔ error › stdout/stderr/all available on errors (2.2s)
+  ✔ error › exitCode is 0 on success (2.1s)
+  ✔ error › exitCode is 2 (2.1s)
+  ✔ error › exitCode is 3 (2s)
+  ✔ error › exitCode is 4 (2s)
+  ✔ error › error.message contains the command (1.9s)
+  ✔ error › error.message contains stdout/stderr if available (1.9s)
+  ✔ error › error.message does not contain stdout/stderr if not available (1.7s)
+  ✔ error › error.shortMessage does not contain stdout/stderr (1.7s)
+  ✔ error › failed is false on success (1.6s)
+  ✔ error › failed is true on failure (1.5s)
+  ✔ error › error.killed is true if process was killed directly (1.4s)
+  ✔ error › error.killed is false if process was killed indirectly (1.3s)
+  ✔ error › result.killed is false if not killed (1.3s)
+  ✔ error › error.signal is SIGINT (462ms)
+  ✔ error › error.signalDescription is defined (444ms)
+  ✔ error › error.signal is SIGTERM (439ms)
+  ✔ error › exitCode is undefined on signal termination (427ms)
+  ✔ error › custom error.signal (452ms)
+  ✔ error › result.signal is undefined for successful execution (551ms)
+  ✔ error › result.signal is undefined if process failed, but was not killed (562ms)
+  ✔ error › result.signalDescription is undefined for successful execution (551ms)
+  ✔ error › error.code is undefined on success (549ms)
+  ✔ command › allow commands with spaces and no array arguments (2.8s)
+  ✔ command › allow commands with spaces and array arguments (2.8s)
+  ✔ command › execaCommand() (2.7s)
+  ✔ command › execaCommand() ignores consecutive spaces (2.7s)
+  ✔ command › execaCommand() allows escaping spaces in commands (2.6s)
+  ✔ command › execaCommand() allows escaping spaces in arguments (2.5s)
+  ✔ command › execaCommand() escapes other whitespaces (2.5s)
+  ✔ command › execaCommand() trims (2.4s)
+  ✔ command › command is: " foo bar" (3s)
+  ✔ command › command is: " baz quz" (3s)
+  ✔ command › command is: "" (3s)
+  ✔ command › escapedCommand is: "foo bar" (3.2s)
+  ✔ command › escapedCommand is: "\"foo bar\"" (3.3s)
+  ✔ command › escapedCommand is: "\"\\\"foo\\\"\"" (3.6s)
+  ✔ command › escapedCommand is: "\"*\"" (3.9s)
+  ✔ kill › `forceKillAfterTimeout` should not be NaN (3.1s)
+  ✔ kill › `forceKillAfterTimeout` should not be negative (3s)
+  ✔ kill › execa() returns a promise with kill() (3s)
+  ✔ kill › timedOut is false if timeout is undefined and exit code is 0 in sync mode (2.8s)
+  ✔ kill › cancel method kills the subprocess (2.1s)
+  ✔ kill › result.isCanceled is false when spawned.cancel() isn't called in sync mode (success) (2s)
+  ✔ kill › result.isCanceled is false when spawned.cancel() isn't called in sync mode (failure) (908ms)
+  ✔ kill › timeout kills the process if it times out, in sync mode (3s)
+  ✔ kill › timeout must not be negative (2.9s)
+  ✔ kill › timeout must be an integer (2.9s)
+  ✔ kill › calling abort after cancel should show the same behaviour as only calling cancel
+  ✔ kill › calling cancel after abort should show the same behaviour as only calling cancel
+  ✔ kill › calling abort twice should show the same behaviour as calling it once (108ms)
+  ✔ kill › calling abort throws an error with message "Command was canceled" (135ms)
+  ✔ kill › `forceKillAfterTimeout: false` should not kill after a timeout (3.2s)
+  ✔ kill › timeout does not kill the process if it does not time out (3s)
+  ✔ kill › timedOut is false if timeout is undefined (3s)
+  ✔ kill › timedOut is false if timeout is 0 (3s)
+  ✔ kill › spawnAndExit (2.5s)
+  ✔ kill › spawnAndExit cleanup (2.5s)
+  ✔ kill › spawnAndExit detached (2.5s)
+  ✔ kill › spawnAndExit cleanup detached (2.5s)
+  ✔ kill › spawnAndKill SIGTERM (2.4s)
+  ✔ kill › spawnAndKill cleanup SIGKILL (2.4s)
+  ✔ kill › spawnAndKill detached SIGTERM (2.4s)
+  ✔ kill › spawnAndKill detached SIGKILL (2.3s)
+  ✔ kill › removes exit handler on exit (2.2s)
+  ✔ kill › result.isCanceled is false when spawned.cancel() isn't called (success) (2.2s)
+  ✔ kill › result.isCanceled is false when spawned.cancel() isn't called (failure) (2.1s)
+  ✔ kill › calling cancel method throws an error with message "Command was canceled" (255ms)
+  ✔ kill › error.isCanceled is true when cancel method is used (239ms)
+  ✔ kill › error.isCanceled is false when kill method is used (229ms)
+  ✔ kill › calling cancel method twice should show the same behaviour as calling it once (222ms)
+  ✔ kill › calling cancel method on a process which has been killed does not make error.isCanceled true (210ms)
+  ✔ kill › spawnAndKill SIGKILL (2.4s)
+  ✔ kill › spawnAndKill cleanup detached SIGTERM (2.3s)
+  ✔ kill › spawnAndKill cleanup detached SIGKILL (2.3s)
+  ✔ kill › timeout kills the process if it times out (3.1s)
+  ✔ kill › kill("SIGKILL") should terminate cleanly (3.3s)
+  ✔ kill › `forceKillAfterTimeout: number` should kill after a timeout (3.3s)
+  ✔ kill › spawnAndKill cleanup SIGTERM (2.5s)
+  ✔ kill › calling cancel method on a successfully completed process does not make result.isCanceled true (293ms)
+  ✔ kill › calling abort on a successfully completed process does not make result.isCanceled true (288ms)
+  ✔ node › node removes --inspect from nodeOptions when defined by parent process (103ms)
+  ✔ node › node removes --inspect=9222 from nodeOptions when defined by parent process
+  ✔ node › node removes --inspect-brk from nodeOptions when defined by parent process
+  ✔ node › node removes --inspect-brk=9222 from nodeOptions when defined by parent process
+  ✔ node › node should not remove --inspect when passed through nodeOptions
+  ✔ node › node correctly use nodePath
+  ✔ node › node() (253ms)
+  ✔ node › node pipe stdout (246ms)
+  ✔ node › node pass on nodeOptions (248ms)
+  ✔ node › node's forked script has a communication channel (237ms)
+  ✔ override-promise › should work with third-party Promise
+  ✔ promise › promise methods are not enumerable
+  ✔ promise › finally function is executed on failure (241ms)
+  ✔ promise › finally function is executed on success (313ms)
+  ✔ promise › throw in finally function bubbles up on success (290ms)
+  ✔ promise › throw in finally bubbles up on error (276ms)
+  ✔ stdio › execa() undefined
+  ✔ stdio › execa() null
+  ✔ stdio › execa() { stdio: 'inherit' }
+  ✔ stdio › execa() { stdio: 'pipe' }
+  ✔ stdio › execa() { stdio: 'ignore' }
+  ✔ stdio › execa() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execa() {}
+  ✔ stdio › execa() { stdio: [] }
+  ✔ stdio › execa() { stdin: 'pipe' }
+  ✔ stdio › execa() { stdout: 'ignore' }
+  ✔ stdio › execa() { stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore' }
+  ✔ stdio › execa() { stdin: 'pipe', stderr: 'inherit' }
+  ✔ stdio › execa() { stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 0, stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdin: 0, stdout: 1 }
+  ✔ stdio › execa() { stdin: 0, stderr: 2 }
+  ✔ stdio › execa() { stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdio: { foo: 'bar' } }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: 'pipe' }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ 'pipe' ] }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ undefined, 'pipe' ] }
+  ✔ stdio › execa() { stdin: 0, stdio: 'pipe' }
+  ✔ stdio › execaNode() undefined
+  ✔ stdio › execaNode() { stdio: 'ignore' }
+  ✔ stdio › execaNode() { stdio: 'ipc' }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 3 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 'ipc' ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, undefined ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, undefined ] }
+  ✔ stdio › execaNode() { stdout: 'ignore' }
+  ✔ stdio › execaNode() { stdout: 'ignore', stderr: 'ignore' }
+  ✔ stdio › execaNode() { stdio: { foo: 'bar' } }
+  ✔ stdio › execaNode() { stdin: 'inherit', stdio: 'pipe' }
+  ✔ stream › result.all shows both `stdout` and `stderr` intermixed (1s)
+  ✔ kill › `forceKillAfterTimeout: true` should kill after a timeout (8.2s)
+  ✔ kill › kill() with no arguments should kill after a timeout (8.2s)
+  ✔ stream › buffer: false > promise does not resolve when output is big and is not read (1s)
+  ✔ stream › buffer: false > promise does not resolve when output is big and "all" is used but not read (1s)
+  ✔ test › execaSync() (2.2s)
+  ✔ test › execaSync() throws error if written to stderr (2.1s)
+  ✔ test › skip throwing when using reject option in sync mode (2s)
+  ✔ test › stripFinalNewline in sync mode (1.9s)
+  ✔ test › stripFinalNewline in sync mode on failure (1.3s)
+  ✔ test › execa() returns a promise with pid (1s)
+  ✔ test › child_process.spawn() propagated errors have correct shape (988ms)
+  ✔ test › child_process.spawnSync() errors are propagated with a correct shape (949ms)
+  ✔ test › child_process.spawn() errors are propagated (1.1s)
+  ✔ stream › stdout/stderr/all are undefined if ignored in sync mode (2s)
+  ✔ stream › input option can be a String - sync (1.6s)
+  ✔ stream › input option can be a Buffer - sync (1.3s)
+  ✔ stream › helpful error trying to provide an input stream in sync mode (925ms)
+  ✔ test › execa() rejects with correct error and doesn't throw if running non-executable with input (1s)
+  ✔ test › execa() rejects if running non-executable (1.1s)
+  ✔ test › preferLocal: undefined (1.4s)
+  ✔ stream › buffer (2.3s)
+  ✔ stream › pass `stdout` to a file descriptor (2.3s)
+  ✔ stream › pass `stderr` to a file descriptor (2.3s)
+  ✔ stream › result.all is undefined unless opts.all is true (2.2s)
+  ✔ stream › stdout/stderr/all are undefined if ignored (2.2s)
+  ✔ test › preferLocal: false (1.4s)
+  ✔ test › child process errors rejects promise right away (1.4s)
+  ✔ test › child process errors are handled (1.4s)
+  ✔ test › stdin errors are handled (1.4s)
+  ✔ stream › you can write to child.stdin (1.9s)
+  ✔ stream › input can be a Stream (1.9s)
+  ✔ stream › input option can be a String (2s)
+  ✔ stream › input option can be a Buffer (2s)
+  ✔ stream › opts.stdout:ignore - stdout will not collect data (1.3s)
+  ✔ stream › do not buffer stdout when `buffer` set to `false` (1.3s)
+  ✔ test › execa() (3.1s)
+  ✔ test › skip throwing when using reject option (2.9s)
+  ✔ test › stripFinalNewline: true (2.8s)
+  ✔ test › stripFinalNewline: false (2.8s)
+  ✔ test › stripFinalNewline on failure (2.8s)
+  ✔ test › localDir option (1.8s)
+  ✔ test › do not try to consume streams twice (1.7s)
+  ✔ test › use relative path with '..' chars (1.7s)
+  ✔ test › write to fast-exit process (1.5s)
+  ✔ test › localDir option can be a URL (1.4s)
+  ✔ test › use extend environment with `extendEnv: true` and `shell: true` (1.1s)
+  ✔ stream › do not buffer stderr when `buffer` set to `false` (1.3s)
+  ✔ test › do not extend environment with `extendEnv: false` (1.5s)
+  ✔ stream › do not buffer when streaming (1.3s)
+  ✔ test › can use `options.cwd` as a string (1.5s)
+  ✔ test › extend environment variables by default (1.6s)
+  ✔ test › use environment variables by default (1.6s)
+  ✔ test › can use `options.cwd` as a URL (1.4s)
+  ✔ stream › buffer: false > promise resolves (1.3s)
+  ✔ test › can use `options.shell: true` (1.4s)
+  ✔ test › can use `options.shell: string` (1.3s)
+  ✔ stream › buffer: false > promise rejects when process returns non-zero (1.1s)
+  ✔ stream › buffer: false > promise resolves when output is big but is not pipable (1.4s)
+  ✔ stream › buffer: false > promise resolves when output is big and is read (1.5s)
+  ✔ stream › can use all: true with stdout: ignore (1.2s)
+  ✔ stream › maxBuffer affects stdout (2s)
+  ✔ stream › can use all: true with stderr: ignore (1.2s)
+  ✔ stream › buffer: false > promise resolves when output is big and "all" is used and is read (1.5s)
+  ✔ stream › maxBuffer affects stderr (2s)
+  ✔ test › detach child process (1.6s)
+  ✔ test › execPath option (2.5s)
+  ✔ test › preferLocal: true (2.8s)
+  ─
+
+  209 tests passed
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |   99.54 |    99.06 |     100 |   99.54 |                   
+ execa       |   98.87 |    96.15 |     100 |   98.87 |                   
+  index.js   |   98.87 |    96.15 |     100 |   98.87 | 55-57             
+ execa/lib   |     100 |      100 |     100 |     100 |                   
+  command.js |     100 |      100 |     100 |     100 |                   
+  error.js   |     100 |      100 |     100 |     100 |                   
+  kill.js    |     100 |      100 |     100 |     100 |                   
+  promise.js |     100 |      100 |     100 |     100 |                   
+  stdio.js   |     100 |      100 |     100 |     100 |                   
+  stream.js  |     100 |      100 |     100 |     100 |                   
+-------------|---------|----------|---------|---------|-------------------
+./Variants/execa/variant4/execa
+
+> execa@6.1.0 test
+> xo && c8 ava && tsd
+
+
+  ✔ command › execaCommandSync() (1s)
+  ✔ error › stdout/stderr/all on process errors, in sync mode (2s)
+  ✔ error › result.killed is false if not killed, in sync mode (1.3s)
+  ✔ error › result.killed is false on process error, in sync mode (204ms)
+  ✔ error › Original error.message is kept (1.8s)
+  ✔ error › error.code is defined on failure if applicable
+  ✔ error › result.killed is false on process error (278ms)
+  ✔ error › stdout/stderr/all on process errors (2.1s)
+  ✔ error › stdout/stderr/all available on errors (2.2s)
+  ✔ error › exitCode is 0 on success (2.2s)
+  ✔ error › exitCode is 2 (2.2s)
+  ✔ error › exitCode is 3 (2.1s)
+  ✔ error › exitCode is 4 (2.1s)
+  ✔ error › error.message contains the command (2.1s)
+  ✔ error › error.message contains stdout/stderr if available (2.1s)
+  ✔ error › error.message does not contain stdout/stderr if not available (2.1s)
+  ✔ error › error.shortMessage does not contain stdout/stderr (2s)
+  ✔ error › failed is false on success (1.9s)
+  ✔ error › failed is true on failure (1.8s)
+  ✔ error › error.killed is true if process was killed directly (1.8s)
+  ✔ error › error.killed is false if process was killed indirectly (1.7s)
+  ✔ error › result.killed is false if not killed (1.6s)
+  ✔ error › error.signal is SIGINT (375ms)
+  ✔ error › error.signalDescription is defined (365ms)
+  ✔ error › error.signal is SIGTERM (359ms)
+  ✔ error › exitCode is undefined on signal termination (343ms)
+  ✔ error › custom error.signal (371ms)
+  ✔ error › error.code is undefined on success (449ms)
+  ✔ error › result.signal is undefined for successful execution (536ms)
+  ✔ error › result.signal is undefined if process failed, but was not killed (535ms)
+  ✔ error › result.signalDescription is undefined for successful execution (528ms)
+  ✔ command › allow commands with spaces and no array arguments (2.8s)
+  ✔ command › allow commands with spaces and array arguments (2.7s)
+  ✔ command › execaCommand() (2.6s)
+  ✔ command › execaCommand() ignores consecutive spaces (2.5s)
+  ✔ command › execaCommand() allows escaping spaces in commands (2.5s)
+  ✔ command › execaCommand() allows escaping spaces in arguments (2.4s)
+  ✔ command › execaCommand() escapes other whitespaces (2.3s)
+  ✔ command › execaCommand() trims (2.2s)
+  ✔ command › command is: " foo bar" (3s)
+  ✔ command › command is: " baz quz" (3s)
+  ✔ command › command is: "" (3s)
+  ✔ command › escapedCommand is: "foo bar" (3.2s)
+  ✔ command › escapedCommand is: "\"foo bar\"" (3.3s)
+  ✔ command › escapedCommand is: "\"\\\"foo\\\"\"" (3.8s)
+  ✔ command › escapedCommand is: "\"*\"" (3.9s)
+  ✔ kill › `forceKillAfterTimeout` should not be NaN (3.1s)
+  ✔ kill › `forceKillAfterTimeout` should not be negative (3.1s)
+  ✔ kill › execa() returns a promise with kill() (3s)
+  ✔ kill › timedOut is false if timeout is undefined and exit code is 0 in sync mode (2.9s)
+  ✔ kill › cancel method kills the subprocess (2.1s)
+  ✔ kill › result.isCanceled is false when spawned.cancel() isn't called in sync mode (success) (1.9s)
+  ✔ kill › result.isCanceled is false when spawned.cancel() isn't called in sync mode (failure) (891ms)
+  ✔ kill › timeout kills the process if it times out, in sync mode (3s)
+  ✔ kill › timeout must not be negative (2.9s)
+  ✔ kill › timeout must be an integer (2.9s)
+  ✔ kill › calling abort after cancel should show the same behaviour as only calling cancel
+  ✔ kill › calling cancel after abort should show the same behaviour as only calling cancel
+  ✔ kill › calling abort twice should show the same behaviour as calling it once (124ms)
+  ✔ kill › calling abort throws an error with message "Command was canceled" (151ms)
+  ✔ kill › `forceKillAfterTimeout: false` should not kill after a timeout (3.3s)
+  ✔ kill › timeout does not kill the process if it does not time out (3.1s)
+  ✔ kill › timedOut is false if timeout is undefined (3.1s)
+  ✔ kill › timedOut is false if timeout is 0 (3s)
+  ✔ kill › spawnAndExit (2.6s)
+  ✔ kill › spawnAndExit cleanup (2.5s)
+  ✔ kill › spawnAndExit detached (2.5s)
+  ✔ kill › spawnAndExit cleanup detached (2.5s)
+  ✔ kill › spawnAndKill SIGTERM (2.5s)
+  ✔ kill › spawnAndKill SIGKILL (2.5s)
+  ✔ kill › spawnAndKill cleanup SIGKILL (2.5s)
+  ✔ kill › spawnAndKill detached SIGTERM (2.4s)
+  ✔ kill › spawnAndKill detached SIGKILL (2.4s)
+  ✔ kill › spawnAndKill cleanup detached SIGTERM (2.4s)
+  ✔ kill › spawnAndKill cleanup detached SIGKILL (2.3s)
+  ✔ kill › removes exit handler on exit (2.3s)
+  ✔ kill › result.isCanceled is false when spawned.cancel() isn't called (success) (2.2s)
+  ✔ kill › result.isCanceled is false when spawned.cancel() isn't called (failure) (2.1s)
+  ✔ kill › calling cancel method throws an error with message "Command was canceled" (338ms)
+  ✔ kill › error.isCanceled is true when cancel method is used (332ms)
+  ✔ kill › error.isCanceled is false when kill method is used (312ms)
+  ✔ kill › calling cancel method twice should show the same behaviour as calling it once (300ms)
+  ✔ kill › calling cancel method on a successfully completed process does not make result.isCanceled true (290ms)
+  ✔ kill › calling cancel method on a process which has been killed does not make error.isCanceled true (283ms)
+  ✔ kill › spawnAndKill cleanup SIGTERM (2.5s)
+  ✔ kill › timeout kills the process if it times out (3.2s)
+  ✔ kill › kill("SIGKILL") should terminate cleanly (3.4s)
+  ✔ kill › `forceKillAfterTimeout: number` should kill after a timeout (3.4s)
+  ✔ kill › calling abort on a successfully completed process does not make result.isCanceled true (258ms)
+  ✔ node › node removes --inspect from nodeOptions when defined by parent process (113ms)
+  ✔ node › node removes --inspect=9222 from nodeOptions when defined by parent process
+  ✔ node › node removes --inspect-brk from nodeOptions when defined by parent process
+  ✔ node › node removes --inspect-brk=9222 from nodeOptions when defined by parent process
+  ✔ node › node should not remove --inspect when passed through nodeOptions
+  ✔ node › node correctly use nodePath
+  ✔ node › node pipe stdout (240ms)
+  ✔ node › node() (282ms)
+  ✔ node › node's forked script has a communication channel (239ms)
+  ✔ node › node pass on nodeOptions (259ms)
+  ✔ override-promise › should work with third-party Promise (108ms)
+  ✔ promise › promise methods are not enumerable
+  ✔ promise › finally function is executed on failure (227ms)
+  ✔ promise › throw in finally bubbles up on error (259ms)
+  ✔ promise › finally function is executed on success (305ms)
+  ✔ promise › throw in finally function bubbles up on success (275ms)
+  ✔ stdio › execa() undefined
+  ✔ stdio › execa() null
+  ✔ stdio › execa() { stdio: 'inherit' }
+  ✔ stdio › execa() { stdio: 'pipe' }
+  ✔ stdio › execa() { stdio: 'ignore' }
+  ✔ stdio › execa() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execa() {}
+  ✔ stdio › execa() { stdio: [] }
+  ✔ stdio › execa() { stdin: 'pipe' }
+  ✔ stdio › execa() { stdout: 'ignore' }
+  ✔ stdio › execa() { stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore' }
+  ✔ stdio › execa() { stdin: 'pipe', stderr: 'inherit' }
+  ✔ stdio › execa() { stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 0, stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdin: 0, stdout: 1 }
+  ✔ stdio › execa() { stdin: 0, stderr: 2 }
+  ✔ stdio › execa() { stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdio: { foo: 'bar' } }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: 'pipe' }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ 'pipe' ] }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ undefined, 'pipe' ] }
+  ✔ stdio › execa() { stdin: 0, stdio: 'pipe' }
+  ✔ stdio › execaNode() undefined
+  ✔ stdio › execaNode() { stdio: 'ignore' }
+  ✔ stdio › execaNode() { stdio: 'ipc' }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 3 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 'ipc' ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, undefined ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, undefined ] }
+  ✔ stdio › execaNode() { stdout: 'ignore' }
+  ✔ stdio › execaNode() { stdout: 'ignore', stderr: 'ignore' }
+  ✔ stdio › execaNode() { stdio: { foo: 'bar' } }
+  ✔ stdio › execaNode() { stdin: 'inherit', stdio: 'pipe' }
+  ✔ stream › result.all shows both `stdout` and `stderr` intermixed (1s)
+  ✔ kill › `forceKillAfterTimeout: true` should kill after a timeout (8.2s)
+  ✔ kill › kill() with no arguments should kill after a timeout (8.2s)
+  ✔ stream › buffer: false > promise does not resolve when output is big and is not read (1s)
+  ✔ stream › buffer: false > promise does not resolve when output is big and "all" is used but not read (1s)
+  ✔ test › execaSync() (1.8s)
+  ✔ test › execaSync() throws error if written to stderr (1.7s)
+  ✔ test › skip throwing when using reject option in sync mode (1.7s)
+  ✔ test › stripFinalNewline in sync mode (1.6s)
+  ✔ test › stripFinalNewline in sync mode on failure (1s)
+  ✔ test › execa() returns a promise with pid (768ms)
+  ✔ test › child_process.spawn() propagated errors have correct shape (748ms)
+  ✔ test › child_process.spawnSync() errors are propagated with a correct shape (701ms)
+  ✔ test › child_process.spawn() errors are propagated (767ms)
+  ✔ test › execa() rejects with correct error and doesn't throw if running non-executable with input (667ms)
+  ✔ test › execa() rejects if running non-executable (718ms)
+  ✔ test › preferLocal: undefined (973ms)
+  ✔ test › preferLocal: false (1s)
+  ✔ test › child process errors rejects promise right away (948ms)
+  ✔ test › child process errors are handled (966ms)
+  ✔ test › stdin errors are handled (988ms)
+  ✔ test › execa() (2.2s)
+  ✔ test › skip throwing when using reject option (2s)
+  ✔ test › stripFinalNewline: true (1.9s)
+  ✔ test › stripFinalNewline: false (1.9s)
+  ✔ test › stripFinalNewline on failure (1.9s)
+  ✔ test › localDir option (1.1s)
+  ✔ test › do not try to consume streams twice (994ms)
+  ✔ test › write to fast-exit process (811ms)
+  ✔ test › localDir option can be a URL (645ms)
+  ✔ test › use extend environment with `extendEnv: true` and `shell: true` (540ms)
+  ✔ test › use relative path with '..' chars (948ms)
+  ✔ test › do not extend environment with `extendEnv: false` (736ms)
+  ✔ test › use environment variables by default (816ms)
+  ✔ test › extend environment variables by default (810ms)
+  ✔ test › can use `options.cwd` as a string (740ms)
+  ✔ test › can use `options.cwd` as a URL (671ms)
+  ✔ test › can use `options.shell: true` (779ms)
+  ✔ test › can use `options.shell: string` (756ms)
+  ✔ stream › stdout/stderr/all are undefined if ignored in sync mode (2.3s)
+  ✔ stream › input option can be a String - sync (1.8s)
+  ✔ stream › input option can be a Buffer - sync (1.1s)
+  ✔ stream › helpful error trying to provide an input stream in sync mode (465ms)
+  ✔ stream › buffer (2.5s)
+  ✔ stream › pass `stdout` to a file descriptor (2.5s)
+  ✔ stream › pass `stderr` to a file descriptor (2.5s)
+  ✔ stream › result.all is undefined unless opts.all is true (2.4s)
+  ✔ stream › stdout/stderr/all are undefined if ignored (2.4s)
+  ✔ stream › you can write to child.stdin (2s)
+  ✔ stream › input option can be a String (2s)
+  ✔ stream › input option can be a Buffer (2s)
+  ✔ stream › input can be a Stream (2s)
+  ✔ stream › opts.stdout:ignore - stdout will not collect data (804ms)
+  ✔ test › execPath option (2s)
+  ✔ test › detach child process (1.5s)
+  ✔ stream › do not buffer stdout when `buffer` set to `false` (1s)
+  ✔ stream › do not buffer stderr when `buffer` set to `false` (1s)
+  ✔ stream › buffer: false > promise resolves (1s)
+  ✔ stream › do not buffer when streaming (1.1s)
+  ✔ stream › buffer: false > promise resolves when output is big but is not pipable (1.1s)
+  ✔ stream › buffer: false > promise resolves when output is big and is read (1.1s)
+  ✔ stream › buffer: false > promise rejects when process returns non-zero (1s)
+  ✔ stream › can use all: true with stdout: ignore (984ms)
+  ✔ stream › can use all: true with stderr: ignore (942ms)
+  ✔ stream › maxBuffer affects stdout (1.3s)
+  ✔ stream › maxBuffer affects stderr (1.3s)
+  ✔ stream › buffer: false > promise resolves when output is big and "all" is used and is read (1.1s)
+  ✔ test › preferLocal: true (2.9s)
+  ─
+
+  209 tests passed
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |   99.54 |    99.06 |     100 |   99.54 |                   
+ execa       |   98.87 |    96.15 |     100 |   98.87 |                   
+  index.js   |   98.87 |    96.15 |     100 |   98.87 | 55-57             
+ execa/lib   |     100 |      100 |     100 |     100 |                   
+  command.js |     100 |      100 |     100 |     100 |                   
+  error.js   |     100 |      100 |     100 |     100 |                   
+  kill.js    |     100 |      100 |     100 |     100 |                   
+  promise.js |     100 |      100 |     100 |     100 |                   
+  stdio.js   |     100 |      100 |     100 |     100 |                   
+  stream.js  |     100 |      100 |     100 |     100 |                   
+-------------|---------|----------|---------|---------|-------------------
+./Variants/execa/variant3/execa
+
+> execa@6.1.0 test
+> xo && c8 ava && tsd
+
+
+  ✔ command › execaCommandSync() (869ms)
+  ✔ error › stdout/stderr/all on process errors, in sync mode (2s)
+  ✔ error › result.killed is false if not killed, in sync mode (1.4s)
+  ✔ error › result.killed is false on process error, in sync mode (224ms)
+  ✔ error › Original error.message is kept (1.8s)
+  ✔ error › error.code is defined on failure if applicable (114ms)
+  ✔ error › result.killed is false on process error (422ms)
+  ✔ error › stdout/stderr/all on process errors (2.2s)
+  ✔ error › stdout/stderr/all available on errors (2.3s)
+  ✔ error › exitCode is 0 on success (2.3s)
+  ✔ error › exitCode is 2 (2.2s)
+  ✔ error › exitCode is 3 (2.2s)
+  ✔ error › exitCode is 4 (2.2s)
+  ✔ error › error.message contains the command (2.1s)
+  ✔ error › error.message contains stdout/stderr if available (2.1s)
+  ✔ error › error.message does not contain stdout/stderr if not available (2.1s)
+  ✔ error › error.shortMessage does not contain stdout/stderr (2.1s)
+  ✔ error › failed is false on success (2.1s)
+  ✔ error › failed is true on failure (2s)
+  ✔ error › error.killed is true if process was killed directly (1.9s)
+  ✔ error › error.killed is false if process was killed indirectly (1.8s)
+  ✔ error › result.killed is false if not killed (1.8s)
+  ✔ error › error.signal is SIGINT (517ms)
+  ✔ error › error.signalDescription is defined (506ms)
+  ✔ error › error.signal is SIGTERM (500ms)
+  ✔ error › exitCode is undefined on signal termination (487ms)
+  ✔ error › custom error.signal (516ms)
+  ✔ error › result.signal is undefined for successful execution (493ms)
+  ✔ error › result.signal is undefined if process failed, but was not killed (572ms)
+  ✔ error › error.code is undefined on success (533ms)
+  ✔ error › result.signalDescription is undefined for successful execution (567ms)
+  ✔ command › allow commands with spaces and no array arguments (2.8s)
+  ✔ command › allow commands with spaces and array arguments (2.8s)
+  ✔ command › execaCommand() (2.7s)
+  ✔ command › execaCommand() ignores consecutive spaces (2.6s)
+  ✔ command › execaCommand() allows escaping spaces in commands (2.5s)
+  ✔ command › execaCommand() allows escaping spaces in arguments (2.5s)
+  ✔ command › execaCommand() escapes other whitespaces (2.3s)
+  ✔ command › execaCommand() trims (2.3s)
+  ✔ command › command is: " foo bar" (3.1s)
+  ✔ command › command is: " baz quz" (3.1s)
+  ✔ command › command is: "" (3.1s)
+  ✔ command › escapedCommand is: "foo bar" (3.2s)
+  ✔ command › escapedCommand is: "\"foo bar\"" (3.5s)
+  ✔ command › escapedCommand is: "\"\\\"foo\\\"\"" (3.9s)
+  ✔ command › escapedCommand is: "\"*\"" (4.5s)
+  ✔ kill › `forceKillAfterTimeout` should not be NaN (3.1s)
+  ✔ kill › `forceKillAfterTimeout` should not be negative (3.1s)
+  ✔ kill › execa() returns a promise with kill() (3s)
+  ✔ kill › timedOut is false if timeout is undefined and exit code is 0 in sync mode (2.8s)
+  ✔ kill › cancel method kills the subprocess (2.2s)
+  ✔ kill › result.isCanceled is false when spawned.cancel() isn't called in sync mode (success) (2.1s)
+  ✔ kill › result.isCanceled is false when spawned.cancel() isn't called in sync mode (failure) (968ms)
+  ✔ kill › timeout kills the process if it times out, in sync mode (3s)
+  ✔ kill › timeout must not be negative (2.9s)
+  ✔ kill › timeout must be an integer (2.9s)
+  ✔ kill › calling abort after cancel should show the same behaviour as only calling cancel
+  ✔ kill › calling cancel after abort should show the same behaviour as only calling cancel
+  ✔ kill › calling abort twice should show the same behaviour as calling it once (127ms)
+  ✔ kill › calling abort throws an error with message "Command was canceled" (161ms)
+  ✔ kill › `forceKillAfterTimeout: false` should not kill after a timeout (3.3s)
+  ✔ kill › timeout does not kill the process if it does not time out (3.1s)
+  ✔ kill › timedOut is false if timeout is undefined (3s)
+  ✔ kill › timedOut is false if timeout is 0 (3s)
+  ✔ kill › spawnAndExit (2.6s)
+  ✔ kill › spawnAndExit cleanup (2.6s)
+  ✔ kill › spawnAndExit detached (2.5s)
+  ✔ kill › spawnAndExit cleanup detached (2.5s)
+  ✔ kill › spawnAndKill SIGTERM (2.5s)
+  ✔ kill › spawnAndKill SIGKILL (2.5s)
+  ✔ kill › spawnAndKill cleanup SIGKILL (2.5s)
+  ✔ kill › spawnAndKill detached SIGTERM (2.4s)
+  ✔ kill › spawnAndKill detached SIGKILL (2.4s)
+  ✔ kill › spawnAndKill cleanup detached SIGTERM (2.4s)
+  ✔ kill › spawnAndKill cleanup detached SIGKILL (2.4s)
+  ✔ kill › removes exit handler on exit (2.3s)
+  ✔ kill › result.isCanceled is false when spawned.cancel() isn't called (success) (2.3s)
+  ✔ kill › result.isCanceled is false when spawned.cancel() isn't called (failure) (2.2s)
+  ✔ kill › calling cancel method throws an error with message "Command was canceled" (361ms)
+  ✔ kill › error.isCanceled is true when cancel method is used (343ms)
+  ✔ kill › error.isCanceled is false when kill method is used (306ms)
+  ✔ kill › calling cancel method twice should show the same behaviour as calling it once (276ms)
+  ✔ kill › calling cancel method on a process which has been killed does not make error.isCanceled true (254ms)
+  ✔ kill › timeout kills the process if it times out (3.1s)
+  ✔ kill › kill("SIGKILL") should terminate cleanly (3.4s)
+  ✔ kill › calling cancel method on a successfully completed process does not make result.isCanceled true (283ms)
+  ✔ kill › `forceKillAfterTimeout: number` should kill after a timeout (3.3s)
+  ✔ kill › spawnAndKill cleanup SIGTERM (2.5s)
+  ✔ kill › calling abort on a successfully completed process does not make result.isCanceled true (258ms)
+  ✔ node › node removes --inspect from nodeOptions when defined by parent process (108ms)
+  ✔ node › node removes --inspect=9222 from nodeOptions when defined by parent process
+  ✔ node › node removes --inspect-brk from nodeOptions when defined by parent process
+  ✔ node › node removes --inspect-brk=9222 from nodeOptions when defined by parent process
+  ✔ node › node should not remove --inspect when passed through nodeOptions
+  ✔ node › node correctly use nodePath
+  ✔ node › node() (247ms)
+  ✔ node › node's forked script has a communication channel (236ms)
+  ✔ node › node pass on nodeOptions (257ms)
+  ✔ node › node pipe stdout (283ms)
+  ✔ override-promise › should work with third-party Promise (119ms)
+  ✔ promise › promise methods are not enumerable
+  ✔ promise › throw in finally function bubbles up on success (248ms)
+  ✔ promise › finally function is executed on success (324ms)
+  ✔ promise › finally function is executed on failure (313ms)
+  ✔ promise › throw in finally bubbles up on error (288ms)
+  ✔ stdio › execa() undefined
+  ✔ stdio › execa() null
+  ✔ stdio › execa() { stdio: 'inherit' }
+  ✔ stdio › execa() { stdio: 'pipe' }
+  ✔ stdio › execa() { stdio: 'ignore' }
+  ✔ stdio › execa() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execa() {}
+  ✔ stdio › execa() { stdio: [] }
+  ✔ stdio › execa() { stdin: 'pipe' }
+  ✔ stdio › execa() { stdout: 'ignore' }
+  ✔ stdio › execa() { stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore' }
+  ✔ stdio › execa() { stdin: 'pipe', stderr: 'inherit' }
+  ✔ stdio › execa() { stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 0, stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdin: 0, stdout: 1 }
+  ✔ stdio › execa() { stdin: 0, stderr: 2 }
+  ✔ stdio › execa() { stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdio: { foo: 'bar' } }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: 'pipe' }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ 'pipe' ] }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ undefined, 'pipe' ] }
+  ✔ stdio › execa() { stdin: 0, stdio: 'pipe' }
+  ✔ stdio › execaNode() undefined
+  ✔ stdio › execaNode() { stdio: 'ignore' }
+  ✔ stdio › execaNode() { stdio: 'ipc' }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 3 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 'ipc' ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, undefined ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, undefined ] }
+  ✔ stdio › execaNode() { stdout: 'ignore' }
+  ✔ stdio › execaNode() { stdout: 'ignore', stderr: 'ignore' }
+  ✔ stdio › execaNode() { stdio: { foo: 'bar' } }
+  ✔ stdio › execaNode() { stdin: 'inherit', stdio: 'pipe' }
+  ✔ stream › result.all shows both `stdout` and `stderr` intermixed (1.1s)
+  ✔ kill › `forceKillAfterTimeout: true` should kill after a timeout (8.2s)
+  ✔ kill › kill() with no arguments should kill after a timeout (8.2s)
+  ✔ stream › buffer: false > promise does not resolve when output is big and is not read (1s)
+  ✔ stream › buffer: false > promise does not resolve when output is big and "all" is used but not read (1s)
+  ✔ test › execaSync() (1.8s)
+  ✔ test › execaSync() throws error if written to stderr (1.7s)
+  ✔ test › skip throwing when using reject option in sync mode (1.7s)
+  ✔ test › stripFinalNewline in sync mode (1.5s)
+  ✔ test › stripFinalNewline in sync mode on failure (1.2s)
+  ✔ test › execa() returns a promise with pid (752ms)
+  ✔ test › child_process.spawn() propagated errors have correct shape (704ms)
+  ✔ test › child_process.spawnSync() errors are propagated with a correct shape (644ms)
+  ✔ test › child_process.spawn() errors are propagated (731ms)
+  ✔ test › execa() rejects with correct error and doesn't throw if running non-executable with input (633ms)
+  ✔ test › execa() rejects if running non-executable (719ms)
+  ✔ test › preferLocal: undefined (1s)
+  ✔ test › preferLocal: false (1s)
+  ✔ test › child process errors rejects promise right away (972ms)
+  ✔ test › child process errors are handled (1s)
+  ✔ test › stdin errors are handled (1s)
+  ✔ test › execa() (2.2s)
+  ✔ test › skip throwing when using reject option (2.1s)
+  ✔ test › stripFinalNewline: true (1.9s)
+  ✔ test › stripFinalNewline: false (1.9s)
+  ✔ test › stripFinalNewline on failure (1.9s)
+  ✔ test › localDir option (1.1s)
+  ✔ test › write to fast-exit process (790ms)
+  ✔ test › localDir option can be a URL (663ms)
+  ✔ test › use extend environment with `extendEnv: true` and `shell: true` (485ms)
+  ✔ test › do not try to consume streams twice (1s)
+  ✔ test › use relative path with '..' chars (985ms)
+  ✔ test › do not extend environment with `extendEnv: false` (795ms)
+  ✔ test › extend environment variables by default (823ms)
+  ✔ test › can use `options.cwd` as a string (784ms)
+  ✔ test › use environment variables by default (884ms)
+  ✔ test › can use `options.cwd` as a URL (826ms)
+  ✔ test › can use `options.shell: true` (784ms)
+  ✔ test › can use `options.shell: string` (746ms)
+  ✔ test › execPath option (1.5s)
+  ✔ test › detach child process (1s)
+  ✔ stream › stdout/stderr/all are undefined if ignored in sync mode (2.5s)
+  ✔ stream › input option can be a String - sync (1.9s)
+  ✔ stream › input option can be a Buffer - sync (1.2s)
+  ✔ stream › helpful error trying to provide an input stream in sync mode (500ms)
+  ✔ stream › buffer (2.7s)
+  ✔ stream › pass `stdout` to a file descriptor (2.7s)
+  ✔ stream › pass `stderr` to a file descriptor (2.7s)
+  ✔ stream › result.all is undefined unless opts.all is true (2.6s)
+  ✔ stream › stdout/stderr/all are undefined if ignored (2.6s)
+  ✔ stream › input option can be a String (2.3s)
+  ✔ stream › input option can be a Buffer (2.3s)
+  ✔ stream › input can be a Stream (2.2s)
+  ✔ stream › you can write to child.stdin (2.2s)
+  ✔ stream › opts.stdout:ignore - stdout will not collect data (815ms)
+  ✔ stream › do not buffer stdout when `buffer` set to `false` (835ms)
+  ✔ stream › do not buffer stderr when `buffer` set to `false` (848ms)
+  ✔ stream › do not buffer when streaming (862ms)
+  ✔ stream › buffer: false > promise resolves (952ms)
+  ✔ stream › buffer: false > promise resolves when output is big but is not pipable (1s)
+  ✔ stream › buffer: false > promise resolves when output is big and is read (1s)
+  ✔ stream › buffer: false > promise rejects when process returns non-zero (924ms)
+  ✔ stream › can use all: true with stdout: ignore (886ms)
+  ✔ stream › can use all: true with stderr: ignore (824ms)
+  ✔ stream › maxBuffer affects stdout (1.2s)
+  ✔ stream › maxBuffer affects stderr (1.2s)
+  ✔ stream › buffer: false > promise resolves when output is big and "all" is used and is read (1s)
+  ✔ test › preferLocal: true (3s)
+  ─
+
+  209 tests passed
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |   99.54 |    99.06 |     100 |   99.54 |                   
+ execa       |   98.87 |    96.15 |     100 |   98.87 |                   
+  index.js   |   98.87 |    96.15 |     100 |   98.87 | 55-57             
+ execa/lib   |     100 |      100 |     100 |     100 |                   
+  command.js |     100 |      100 |     100 |     100 |                   
+  error.js   |     100 |      100 |     100 |     100 |                   
+  kill.js    |     100 |      100 |     100 |     100 |                   
+  promise.js |     100 |      100 |     100 |     100 |                   
+  stdio.js   |     100 |      100 |     100 |     100 |                   
+  stream.js  |     100 |      100 |     100 |     100 |                   
+-------------|---------|----------|---------|---------|-------------------
+./Variants/execa/variant2/execa
+
+> execa@6.1.0 test
+> xo && c8 ava && tsd
+
+
+  Uncaught exception in test/error.js
+
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  Uncaught exception in test/command.js
+
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  ✖ test/command.js exited with a non-zero exit code: 1
+  ✖ test/error.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/node.js
+
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  Uncaught exception in test/kill.js
+
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  ✖ test/node.js exited with a non-zero exit code: 1
+  ✖ test/kill.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/override-promise.js
+
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  Uncaught exception in test/promise.js
+
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  ✖ test/override-promise.js exited with a non-zero exit code: 1
+  ✖ test/promise.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/stream.js
+
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  ✔ stdio › execa() undefined
+  ✔ stdio › execa() null
+  ✔ stdio › execa() { stdio: 'inherit' }
+  ✔ stdio › execa() { stdio: 'pipe' }
+  ✔ stdio › execa() { stdio: 'ignore' }
+  ✔ stdio › execa() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execa() {}
+  ✔ stdio › execa() { stdio: [] }
+  ✔ stdio › execa() { stdin: 'pipe' }
+  ✔ stdio › execa() { stdout: 'ignore' }
+  ✔ stdio › execa() { stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore' }
+  ✔ stdio › execa() { stdin: 'pipe', stderr: 'inherit' }
+  ✔ stdio › execa() { stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 0, stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdin: 0, stdout: 1 }
+  ✔ stdio › execa() { stdin: 0, stderr: 2 }
+  ✔ stdio › execa() { stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdio: { foo: 'bar' } }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: 'pipe' }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ 'pipe' ] }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ undefined, 'pipe' ] }
+  ✔ stdio › execa() { stdin: 0, stdio: 'pipe' }
+  ✔ stdio › execaNode() undefined
+  ✔ stdio › execaNode() { stdio: 'ignore' }
+  ✔ stdio › execaNode() { stdio: 'ipc' }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 3 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 'ipc' ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, undefined ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, undefined ] }
+  ✔ stdio › execaNode() { stdout: 'ignore' }
+  ✔ stdio › execaNode() { stdout: 'ignore', stderr: 'ignore' }
+  ✔ stdio › execaNode() { stdio: { foo: 'bar' } }
+  ✔ stdio › execaNode() { stdin: 'inherit', stdio: 'pipe' }
+  ✖ test/stream.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/test.js
+
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  ✖ test/test.js exited with a non-zero exit code: 1
+  ─
+
+  36 tests passed
+  8 uncaught exceptions
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ stdio.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+./Variants/execa/variant1/execa
+
+> execa@6.1.0 test
+> xo && c8 ava && tsd
+
+
+  Uncaught exception in test/error.js
+
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  Uncaught exception in test/command.js
+
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  ✖ test/error.js exited with a non-zero exit code: 1
+  ✖ test/command.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/node.js
+
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  Uncaught exception in test/kill.js
+
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  ✖ test/node.js exited with a non-zero exit code: 1
+  ✖ test/kill.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/override-promise.js
+
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  Uncaught exception in test/promise.js
+
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  ✖ test/override-promise.js exited with a non-zero exit code: 1
+  ✖ test/promise.js exited with a non-zero exit code: 1
+  ✔ stdio › execa() undefined
+  ✔ stdio › execa() null
+  ✔ stdio › execa() { stdio: 'inherit' }
+  ✔ stdio › execa() { stdio: 'pipe' }
+  ✔ stdio › execa() { stdio: 'ignore' }
+  ✔ stdio › execa() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execa() {}
+  ✔ stdio › execa() { stdio: [] }
+  ✔ stdio › execa() { stdin: 'pipe' }
+  ✔ stdio › execa() { stdout: 'ignore' }
+  ✔ stdio › execa() { stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 'pipe', stdout: 'ignore' }
+  ✔ stdio › execa() { stdin: 'pipe', stderr: 'inherit' }
+  ✔ stdio › execa() { stdout: 'ignore', stderr: 'inherit' }
+  ✔ stdio › execa() { stdin: 0, stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdin: 0, stdout: 1 }
+  ✔ stdio › execa() { stdin: 0, stderr: 2 }
+  ✔ stdio › execa() { stdout: 1, stderr: 2 }
+  ✔ stdio › execa() { stdio: { foo: 'bar' } }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: 'pipe' }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ 'pipe' ] }
+  ✔ stdio › execa() { stdin: 'inherit', stdio: [ undefined, 'pipe' ] }
+  ✔ stdio › execa() { stdin: 0, stdio: 'pipe' }
+  ✔ stdio › execaNode() undefined
+  ✔ stdio › execaNode() { stdio: 'ignore' }
+  ✔ stdio › execaNode() { stdio: 'ipc' }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 3 ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, 'ipc' ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, undefined ] }
+  ✔ stdio › execaNode() { stdio: [ 0, 1, 2, undefined ] }
+  ✔ stdio › execaNode() { stdout: 'ignore' }
+  ✔ stdio › execaNode() { stdout: 'ignore', stderr: 'ignore' }
+  ✔ stdio › execaNode() { stdio: { foo: 'bar' } }
+  ✔ stdio › execaNode() { stdin: 'inherit', stdio: 'pipe' }
+
+  Uncaught exception in test/stream.js
+
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  ✖ test/stream.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test/test.js
+
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  ✖ test/test.js exited with a non-zero exit code: 1
+  ─
+
+  36 tests passed
+  8 uncaught exceptions
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ stdio.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------

@@ -275,7 +275,7 @@ candidates.forEach((candidate, index) => {
     const files = JSON.parse(candidate)
     console.log(files)
     fs.appendFileSync(`./Data/${projectName}_bloated_candidates.txt`, candidate + '\n')
-    generateVariant(files, index)
+    // generateVariant(files, index)
     jsonObj[`variant${index + 1}`] = {
         "files": files,
         "fileNum": files.length

@@ -67,7 +67,8 @@ sh runtest.sh node-glob
 
 ### Run test and add logs for errors and commons
 ```
-sh runtest.sh node-glob 2>>node-glob_errors.log  >> node-glob_test.log
+sh runtest.sh node-glob 2>>Data/node-glob_errors_func.log  >> Data/node-glob_test_func.log
+sh runtest.sh node-glob 2>>Data/node-glob_errors_files.log  >> Data/node-glob_test_files.log
 ```
 
 ### Watch limited logs
