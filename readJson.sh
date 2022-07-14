@@ -1,5 +1,6 @@
 jsonlist=$(jq -r '.projects' "repoSet.json")
 mkdir Variants
+mkdir VariantsDeps
 
 # inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
@@ -23,6 +24,10 @@ do
     cd Variants
     mkdir $projectName
 
+    cd ..
+
+    cd VariantsDeps
+    mkdir $projectName
     cd ..
 
     rm -rf $folderPath
@@ -59,5 +64,6 @@ do
 
     node generate-variant.js  $folderPath $projectName $repoUrl $commit
 
+    node generate-variant-byDep.js  $folderPath $projectName $repoUrl $commit
 
 done
