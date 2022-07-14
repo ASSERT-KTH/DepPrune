@@ -1,14 +1,14 @@
-3
+2
 
 TypeError: require(...) is not a function
-    at Object.<anonymous> (/data/js-variants/multee/Variants/finalhandler/variant1/finalhandler/index.js:14:29)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/finalhandler/variant1/finalhandler/index.js:14:29)
     at Module._compile (node:internal/modules/cjs/loader:1105:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
     at Module.load (node:internal/modules/cjs/loader:981:32)
     at Module._load (node:internal/modules/cjs/loader:827:12)
     at Module.require (node:internal/modules/cjs/loader:1005:19)
     at require (node:internal/modules/cjs/helpers:102:18)
-    at Object.<anonymous> (/data/js-variants/multee/Variants/finalhandler/variant1/finalhandler/test/test.js:3:20)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/finalhandler/variant1/finalhandler/test/test.js:3:20)
     at Module._compile (node:internal/modules/cjs/loader:1105:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
     at Module.load (node:internal/modules/cjs/loader:981:32)
@@ -18,8 +18,8 @@ TypeError: require(...) is not a function
     at async Promise.all (index 0)
     at async ESMLoader.import (node:internal/modules/esm/loader:409:24)
     at async importModuleDynamicallyWrapper (node:internal/vm/module:435:15)
-    at async formattedImport (/data/js-variants/multee/Variants/finalhandler/variant1/finalhandler/node_modules/mocha/lib/nodejs/esm-utils.js:7:14)
-    at async exports.requireOrImport (/data/js-variants/multee/Variants/finalhandler/variant1/finalhandler/node_modules/mocha/lib/nodejs/esm-utils.js:38:28)
-    at async exports.loadFilesAsync (/data/js-variants/multee/Variants/finalhandler/variant1/finalhandler/node_modules/mocha/lib/nodejs/esm-utils.js:91:20)
-    at async singleRun (/data/js-variants/multee/Variants/finalhandler/variant1/finalhandler/node_modules/mocha/lib/cli/run-helpers.js:125:3)
-    at async exports.handler (/data/js-variants/multee/Variants/finalhandler/variant1/finalhandler/node_modules/mocha/lib/cli/run.js:370:5)
+    at async formattedImport (/data/js-variants/multee/VariantsDeps/finalhandler/variant1/finalhandler/node_modules/mocha/lib/nodejs/esm-utils.js:7:14)
+    at async exports.requireOrImport (/data/js-variants/multee/VariantsDeps/finalhandler/variant1/finalhandler/node_modules/mocha/lib/nodejs/esm-utils.js:38:28)
+    at async exports.loadFilesAsync (/data/js-variants/multee/VariantsDeps/finalhandler/variant1/finalhandler/node_modules/mocha/lib/nodejs/esm-utils.js:91:20)
+    at async singleRun (/data/js-variants/multee/VariantsDeps/finalhandler/variant1/finalhandler/node_modules/mocha/lib/cli/run-helpers.js:125:3)
+    at async exports.handler (/data/js-variants/multee/VariantsDeps/finalhandler/variant1/finalhandler/node_modules/mocha/lib/cli/run.js:370:5)

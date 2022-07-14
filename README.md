@@ -61,8 +61,15 @@ sh runtest.sh node-glob
 
 ### Run test and add logs for errors and commons
 ```
-sh runtest.sh node-glob 2>>Data/node-glob_errors_func.log  >> Data/node-glob_test_func.log
-sh runtest.sh node-glob 2>>Data/node-glob_errors_files.log  >> Data/node-glob_test_files.log
+<!-- subtree-based mode -->
+
+sh runtest.sh node-glob Variants 2>>Data/node-glob_errors_func.log  >> Data/node-glob_test_func.log
+sh runtest.sh node-glob Variants 2>>Data/node-glob_errors_files.log  >> Data/node-glob_test_files.log
+
+<!-- or dependency-based mode -->
+
+sh runtest.sh node-glob VariantsDeps 2>>Data/node-glob_deps_errors_func.log  >> Data/node-glob_deps_test_func.log
+sh runtest.sh node-glob VariantsDeps 2>>Data/node-glob_deps_errors_files.log  >> Data/node-glob_deps_test_files.log
 ```
 
 ### Watch limited logs
