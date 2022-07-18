@@ -1,35 +1,35 @@
 /npm/gulp-filter
-4 deps
+4 deps, no coverage
 
 /npm/nightwatch
-25 deps, 87 coverage, failed to generate dep-tree. Killed
+25 deps, 87% coverage, failed to generate dep-tree. Killed
 
 /npm/hapi
-no coverage
+18 deps, no coverage, This package has been deprecated
 
 /npm/buffer
-2 deps
+2 deps, no coverage
 
 /npm/eslint-plugin-unicorn
-documents, eslint rules
+14deps, 100% coverage, --save-dev
 
 /npm/util
-6 deps
+6 deps, no coverage
 
 /npm/node-emoji
-1 dep
+1 dep, no coverage
 
 /npm/ioredis
 9 deps, 92 coverage, local test failed
 
 /npm/eslint-config-xo-space
-1 dep
+1 dep, no coverage
 
 /npm/@nestjs%2Fcommon
-0 coverage
+3 deps, 94% coverage
 
 /npm/eslint-config-xo
-1 dep
+1 dep, no coverage, --save-dev
 
 /npm/gulp-imagemin
 7 deps, no coverage
@@ -38,16 +38,16 @@ documents, eslint rules
 7 deps, no coverage
 
 /npm/discord.js
-no coverage
+11 deps, no coverage
 
 /npm/cookie
-0 deps
+0 deps, 100% coverage
 
 /npm/i18next
 1 dep
 
 /npm/gulp-debug
-6 deps
+6 deps, no coverage
 
 /npm/xlsx
 7 deps, no coverage
@@ -59,31 +59,31 @@ no coverage
 4 deps
 
 /npm/@nestjs%2Fcore
-0 coverage
+7 deps, 94% coverage, global
 
 /npm/prompts
-2 deps
+2 deps, no coverage
 
 /npm/sharp
-8 deps
+8 deps, no coverage
 
 /npm/node-gyp
 10 deps, no coverage
 
 /npm/egg
-unable to install locally
+42 deps, 100% coverage, unable to install locally
 
 /npm/lite-server
-5 deps
+5 deps, no coverage
 
 /npm/safe-buffer
-0 deps
+0 deps, no coverage
 
 /npm/gulp-changed
-5 deps
+5 deps, no coverage, --save-dev
 
 /npm/@istanbuljs%2Fnyc-config-typescript
-1 dep
+1 dep, no coverage
 
 /npm/download
 no coverage
