@@ -1,5 +1,5 @@
 # ignore the compiled js files, since we're using typescript for our source code
-/*.js
+# /*.js
 .cache
 
 # don't commit the codeQL binaries
