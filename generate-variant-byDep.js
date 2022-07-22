@@ -5,7 +5,8 @@ const repoUrl = args[2]
 const commit = args[3]
 
 const fs = require('fs')
-const childProcess = require('child_process')
+const { spawn } = require("child_process")
+
 
 const bloatedDepsData = fs.readFileSync(`./Data/${projectName}_bloated_deps.txt`, 'utf-8')
 const bloatedNodesData = fs.readFileSync(`./Data/${projectName}_bloated_nodes.txt`, 'utf-8')
@@ -18,14 +19,21 @@ const bloatedNodes = bloatedNodesData.split('\n')
 
 bloatedDeps.forEach((dep, index) => {
     const variantPath = `VariantsDeps/${projectName}/variant${index + 1}/${projectName}`
-
+    const gitCommand = spawn(`git clone ${repoUrl} ${variantPath} && cd ${variantPath} && git checkout ${commit} && npm install && cd ../../.. `, {
+        shell: true
+    })
     console.log('start generating deps variants', index + 1)
-    childProcess.exec(`git clone ${repoUrl} ${variantPath} && cd ${variantPath} && git checkout ${commit} && npm install --force && cd ../../.. `,
-        (err, stdout, stderr) => {
-            if (err) console.log(err)
-            console.log(stdout.toString())
-        }
-    )
+    gitCommand.stdout.on("data", data => {
+        console.log(`stdout: ${data}`);
+    });
+
+    gitCommand.on('error', (error) => {
+        console.log(`error: ${error.message}`);
+    });
+
+    gitCommand.on("close", code => {
+        console.log(`child process exited with code ${code}`);
+    });
 })
 
 
