@@ -1,0 +1,41 @@
+7
+
+TypeError: require(...) is not a function
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/serve-index/variant6/serve-index/index.js:18:29)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/serve-index/variant6/serve-index/test/test.js:8:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at exports.requireOrImport (/data/js-variants/multee/VariantsDeps/serve-index/variant6/serve-index/node_modules/mocha/lib/esm-utils.js:42:12)
+    at exports.loadFilesAsync (/data/js-variants/multee/VariantsDeps/serve-index/variant6/serve-index/node_modules/mocha/lib/esm-utils.js:55:34)
+    at Mocha.loadFilesAsync (/data/js-variants/multee/VariantsDeps/serve-index/variant6/serve-index/node_modules/mocha/lib/mocha.js:473:19)
+    at singleRun (/data/js-variants/multee/VariantsDeps/serve-index/variant6/serve-index/node_modules/mocha/lib/cli/run-helpers.js:125:15)
+    at exports.runMocha (/data/js-variants/multee/VariantsDeps/serve-index/variant6/serve-index/node_modules/mocha/lib/cli/run-helpers.js:190:10)
+    at exports.handler (/data/js-variants/multee/VariantsDeps/serve-index/variant6/serve-index/node_modules/mocha/lib/cli/run.js:362:11)
+    at /data/js-variants/multee/VariantsDeps/serve-index/variant6/serve-index/node_modules/yargs/build/index.cjs:443:71
+/data/js-variants/multee/VariantsDeps/serve-index/variant5/serve-index/node_modules/glob/glob.js:119
+inherits(Glob, EE)
+^
+
+TypeError: inherits is not a function
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/serve-index/variant5/serve-index/node_modules/glob/glob.js:119:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/serve-index/variant5/serve-index/node_modules/mocha/lib/cli/lookup-files.js:10:12)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+
+Node.js v18.3.0

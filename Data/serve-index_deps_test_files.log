@@ -1,0 +1,740 @@
+7
+./VariantsDeps/serve-index/variant7/serve-index
+
+> serve-index@1.9.1 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  serveIndex(root)
+    ✓ should require root
+    ✓ should serve text/html without Accept header (44ms)
+    ✓ should include security header
+    ✓ should serve a directory index
+    ✓ should work with HEAD requests
+    ✓ should work with OPTIONS requests
+    ✓ should deny POST requests
+    ✓ should deny path will NULL byte
+    ✓ should deny path that does not decode
+    ✓ should deny path outside root
+    ✓ should skip non-existent paths
+    ✓ should treat an ENAMETOOLONG as a 414
+    ✓ should skip non-directories
+    when given Accept: header
+      when Accept: application/json is given
+        ✓ should respond with json
+        ✓ should include security header
+        ✓ should sort folders first
+      when Accept: text/html is given
+        ✓ should respond with html
+        ✓ should include security header
+        ✓ should property escape file names
+        ✓ should sort folders first
+      when Accept: text/plain is given
+        ✓ should respond with text
+        ✓ should include security header
+        ✓ should sort folders first
+      when Accept: application/x-bogus is given
+        ✓ should respond with 406
+    with "hidden" option
+      ✓ should filter hidden files by default
+      ✓ should filter hidden files
+      ✓ should not filter hidden files
+    with "filter" option
+      ✓ should custom filter files
+      ✓ should filter after hidden filter
+      ✓ should filter directory paths
+    with "icons" option
+      ✓ should include icons for html
+    with "template" option
+      when setting a custom template file
+        ✓ should respond with file list
+        ✓ should respond with testing template sentence
+        ✓ should have default styles
+        ✓ should list directory twice
+      when setting a custom template function
+        ✓ should invoke function to render
+        ✓ should handle render errors
+        ✓ should provide "directory" local
+        ✓ should provide "displayIcons" local
+        ✓ should provide "fileList" local
+        ✓ should provide "path" local
+        ✓ should provide "style" local
+        ✓ should provide "viewName" local
+    when using custom handler
+      exports.html
+        ✓ should get called with Accept: text/html
+        ✓ should get file list
+        ✓ should get dir name
+        ✓ should get template path
+        ✓ should get template with tokens
+        ✓ should get stylesheet path
+      exports.plain
+        ✓ should get called with Accept: text/plain
+      exports.json
+        ✓ should get called with Accept: application/json
+    when navigating to other directory
+      ✓ should respond with correct listing
+      ✓ should include link to parent directory
+      ✓ should work for directory with #
+      ✓ should work for directory with special chars
+      ✓ should property escape directory names
+      ✓ should not work for outside root
+    when setting a custom stylesheet
+      ✓ should respond with appropriate embedded styles
+    when set with trailing slash
+      ✓ should respond with file list
+    when set to '.'
+      ✓ should respond with file list
+      ✓ should not allow serving outside root
+
+
+  61 passing (225ms)
+
+./VariantsDeps/serve-index/variant6/serve-index
+
+> serve-index@1.9.1 test
+> mocha --reporter spec --bail --check-leaks test/
+
+./VariantsDeps/serve-index/variant5/serve-index
+
+> serve-index@1.9.1 test
+> mocha --reporter spec --bail --check-leaks test/
+
+./VariantsDeps/serve-index/variant4/serve-index
+
+> serve-index@1.9.1 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  serveIndex(root)
+    ✓ should require root
+    ✓ should serve text/html without Accept header (44ms)
+    ✓ should include security header
+    ✓ should serve a directory index
+    ✓ should work with HEAD requests
+    ✓ should work with OPTIONS requests
+    ✓ should deny POST requests
+    1) should deny path will NULL byte
+
+
+  7 passing (71ms)
+  1 failing
+
+  1) serveIndex(root)
+       should deny path will NULL byte:
+     Uncaught TypeError: setPrototypeOf is not a function
+      at new BadRequestError (node_modules/http-errors/index.js:145:5)
+      at createError (node_modules/http-errors/index.js:93:9)
+      at /data/js-variants/multee/VariantsDeps/serve-index/variant4/serve-index/index.js:124:42
+      at Server.<anonymous> (test/test.js:837:5)
+      at Server.emit (node:events:527:28)
+      at parserOnIncoming (node:_http_server:993:12)
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+
+
+
+./VariantsDeps/serve-index/variant3/serve-index
+
+> serve-index@1.9.1 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  serveIndex(root)
+    ✓ should require root
+    ✓ should serve text/html without Accept header
+    ✓ should include security header
+    ✓ should serve a directory index
+    ✓ should work with HEAD requests
+    ✓ should work with OPTIONS requests
+    ✓ should deny POST requests
+    ✓ should deny path will NULL byte
+    ✓ should deny path that does not decode
+    ✓ should deny path outside root
+    ✓ should skip non-existent paths
+    ✓ should treat an ENAMETOOLONG as a 414
+    ✓ should skip non-directories
+    when given Accept: header
+      when Accept: application/json is given
+        ✓ should respond with json
+        ✓ should include security header
+        ✓ should sort folders first
+      when Accept: text/html is given
+        ✓ should respond with html
+        ✓ should include security header
+        ✓ should property escape file names
+        ✓ should sort folders first
+      when Accept: text/plain is given
+        ✓ should respond with text
+        ✓ should include security header
+        ✓ should sort folders first
+      when Accept: application/x-bogus is given
+        ✓ should respond with 406
+    with "hidden" option
+      ✓ should filter hidden files by default
+      ✓ should filter hidden files
+      ✓ should not filter hidden files
+    with "filter" option
+      ✓ should custom filter files
+      ✓ should filter after hidden filter
+      ✓ should filter directory paths
+    with "icons" option
+      ✓ should include icons for html
+    with "template" option
+      when setting a custom template file
+        ✓ should respond with file list
+        ✓ should respond with testing template sentence
+        ✓ should have default styles
+        ✓ should list directory twice
+      when setting a custom template function
+        ✓ should invoke function to render
+        ✓ should handle render errors
+        ✓ should provide "directory" local
+        ✓ should provide "displayIcons" local
+        ✓ should provide "fileList" local
+        ✓ should provide "path" local
+        ✓ should provide "style" local
+        ✓ should provide "viewName" local
+    when using custom handler
+      exports.html
+        ✓ should get called with Accept: text/html
+        ✓ should get file list
+        ✓ should get dir name
+        ✓ should get template path
+        ✓ should get template with tokens
+        ✓ should get stylesheet path
+      exports.plain
+        ✓ should get called with Accept: text/plain
+      exports.json
+        ✓ should get called with Accept: application/json
+    when navigating to other directory
+      ✓ should respond with correct listing
+      ✓ should include link to parent directory
+      ✓ should work for directory with #
+      ✓ should work for directory with special chars
+      ✓ should property escape directory names
+      ✓ should not work for outside root
+    when setting a custom stylesheet
+      ✓ should respond with appropriate embedded styles
+    when set with trailing slash
+      ✓ should respond with file list
+    when set to '.'
+      ✓ should respond with file list
+      ✓ should not allow serving outside root
+
+
+  61 passing (217ms)
+
+./VariantsDeps/serve-index/variant2/serve-index
+
+> serve-index@1.9.1 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  serveIndex(root)
+    ✓ should require root
+    ✓ should serve text/html without Accept header (47ms)
+    ✓ should include security header
+    ✓ should serve a directory index
+    ✓ should work with HEAD requests
+    ✓ should work with OPTIONS requests
+    ✓ should deny POST requests
+    ✓ should deny path will NULL byte
+    ✓ should deny path that does not decode
+    ✓ should deny path outside root
+    ✓ should skip non-existent paths
+    ✓ should treat an ENAMETOOLONG as a 414
+    ✓ should skip non-directories
+    when given Accept: header
+      when Accept: application/json is given
+        ✓ should respond with json
+        ✓ should include security header
+        ✓ should sort folders first
+      when Accept: text/html is given
+        ✓ should respond with html
+        ✓ should include security header
+        ✓ should property escape file names
+        ✓ should sort folders first
+      when Accept: text/plain is given
+        ✓ should respond with text
+        ✓ should include security header
+        ✓ should sort folders first
+      when Accept: application/x-bogus is given
+        ✓ should respond with 406
+    with "hidden" option
+      ✓ should filter hidden files by default
+      ✓ should filter hidden files
+      ✓ should not filter hidden files
+    with "filter" option
+      ✓ should custom filter files
+      ✓ should filter after hidden filter
+      ✓ should filter directory paths
+    with "icons" option
+      1) should include icons for html
+
+
+  30 passing (163ms)
+  1 failing
+
+  1) serveIndex(root)
+       with "icons" option
+         should include icons for html:
+     Error: expected body '<!DOCTYPE html>\n' +
+  '<html>\n' +
+  '  <head>\n' +
+  "    <meta charset='utf-8'> \n" +
+  '    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />\n' +
+  '    <title>listing directory /collect</title>\n' +
+  '    <style>* {\n' +
+  '  margin: 0;\n' +
+  '  padding: 0;\n' +
+  '  outline: 0;\n' +
+  '}\n' +
+  '\n' +
+  'body {\n' +
+  '  padding: 80px 100px;\n' +
+  '  font: 13px "Helvetica Neue", "Lucida Grande", "Arial";\n' +
+  '  background: #ECE9E9 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#ECE9E9));\n' +
+  '  background: #ECE9E9 -moz-linear-gradient(top, #fff, #ECE9E9);\n' +
+  '  background-repeat: no-repeat;\n' +
+  '  color: #555;\n' +
+  '  -webkit-font-smoothing: antialiased;\n' +
+  '}\n' +
+  'h1, h2, h3 {\n' +
+  '  font-size: 22px;\n' +
+  '  color: #343434;\n' +
+  '}\n' +
+  'h1 em, h2 em {\n' +
+  '  padding: 0 5px;\n' +
+  '  font-weight: normal;\n' +
+  '}\n' +
+  'h1 {\n' +
+  '  font-size: 60px;\n' +
+  '}\n' +
+  'h2 {\n' +
+  '  margin-top: 10px;\n' +
+  '}\n' +
+  'h3 {\n' +
+  '  margin: 5px 0 10px 0;\n' +
+  '  padding-bottom: 5px;\n' +
+  '  border-bottom: 1px solid #eee;\n' +
+  '  font-size: 18px;\n' +
+  '}\n' +
+  'ul li {\n' +
+  '  list-style: none;\n' +
+  '}\n' +
+  'ul li:hover {\n' +
+  '  cursor: pointer;\n' +
+  '  color: #2e2e2e;\n' +
+  '}\n' +
+  'ul li .path {\n' +
+  '  padding-left: 5px;\n' +
+  '  font-weight: bold;\n' +
+  '}\n' +
+  'ul li .line {\n' +
+  '  padding-right: 5px;\n' +
+  '  font-style: italic;\n' +
+  '}\n' +
+  'ul li:first-child .path {\n' +
+  '  padding-left: 0;\n' +
+  '}\n' +
+  'p {\n' +
+  '  line-height: 1.5;\n' +
+  '}\n' +
+  'a {\n' +
+  '  color: #555;\n' +
+  '  text-decoration: none;\n' +
+  '}\n' +
+  'a:hover {\n' +
+  '  color: #303030;\n' +
+  '}\n' +
+  '#stacktrace {\n' +
+  '  margin-top: 15px;\n' +
+  '}\n' +
+  '.directory h1 {\n' +
+  '  margin-bottom: 15px;\n' +
+  '  font-size: 18px;\n' +
+  '}\n' +
+  'ul#files {\n' +
+  '  width: 100%;\n' +
+  '  height: 100%;\n' +
+  '  overflow: hidden;\n' +
+  '}\n' +
+  'ul#files li {\n' +
+  '  float: left;\n' +
+  '  width: 30%;\n' +
+  '  line-height: 25px;\n' +
+  '  margin: 1px;\n' +
+  '}\n' +
+  'ul#files li a {\n' +
+  '  display: block;\n' +
+  '  height: 25px;\n' +
+  '  border: 1px solid transparent;\n' +
+  '  -webkit-border-radius: 5px;\n' +
+  '  -moz-border-radius: 5px;\n' +
+  '  border-radius: 5px;\n' +
+  '  overflow: hidden;\n' +
+  '  white-space: nowrap;\n' +
+  '}\n' +
+  'ul#files li a:focus,\n' +
+  'ul#files li a:hover {\n' +
+  '  background: rgba(255,255,255,0.65);\n' +
+  '  border: 1px solid #ececec;\n' +
+  '}\n' +
+  'ul#files li a.highlight {\n' +
+  '  -webkit-transition: background .4s ease-in-out;\n' +
+  '  background: #ffff4f;\n' +
+  '  border-color: #E9DC51;\n' +
+  '}\n' +
+  '#search {\n' +
+  '  display: block;\n' +
+  '  position: fixed;\n' +
+  '  top: 20px;\n' +
+  '  right: 20px;\n' +
+  '  width: 90px;\n' +
+  '  -webkit-transition: width ease 0.2s, opacity ease 0.4s;\n' +
+  '  -moz-transition: width ease 0.2s, opacity ease 0.4s;\n' +
+  '  -webkit-border-radius: 32px;\n' +
+  '  -moz-border-radius: 32px;\n' +
+  '  -webkit-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.25), inset 0px 1px 3px rgba(0, 0, 0, 0.7), 0px 1px 0px rgba(255, 255, 255, 0.03);\n' +
+  '  -moz-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.25), inset 0px 1px 3px rgba(0, 0, 0, 0.7), 0px 1px 0px rgba(255, 255, 255, 0.03);\n' +
+  '  -webkit-font-smoothing: antialiased;\n' +
+  '  text-align: left;\n' +
+  '  font: 13px "Helvetica Neue", Arial, sans-serif;\n' +
+  '  padding: 4px 10px;\n' +
+  '  border: none;\n' +
+  '  background: transparent;\n' +
+  '  margin-bottom: 0;\n' +
+  '  outline: none;\n' +
+  '  opacity: 0.7;\n' +
+  '  color: #888;\n' +
+  '}\n' +
+  '#search:focus {\n' +
+  '  width: 120px;\n' +
+  '  opacity: 1.0; \n' +
+  '}\n' +
+  '\n' +
+  '/*views*/\n' +
+  '#files span {\n' +
+  '  display: inline-block;\n' +
+  '  overflow: hidden;\n' +
+  '  text-overflow: ellipsis;\n' +
+  '  text-indent: 10px;\n' +
+  '}\n' +
+  '#files .name {\n' +
+  '  background-repeat: no-repeat;\n' +
+  '}\n' +
+  '#files .icon .name {\n' +
+  '  text-indent: 28px;\n' +
+  '}\n' +
+  '\n' +
+  '/*tiles*/\n' +
+  '.view-tiles .name {\n' +
+  '  width: 100%;\n' +
+  '  background-position: 8px 5px;\n' +
+  '}\n' +
+  '.view-tiles .size,\n' +
+  '.view-tiles .date {\n' +
+  '  display: none;\n' +
+  '}\n' +
+  '\n' +
+  '/*details*/\n' +
+  'ul#files.view-details li {\n' +
+  '  float: none;\n' +
+  '  display: block;\n' +
+  '  width: 90%;\n' +
+  '}\n' +
+  'ul#files.view-details li.header {\n' +
+  '  height: 25px;\n' +
+  '  background: #000;\n' +
+  '  color: #fff;\n' +
+  '  font-weight: bold;\n' +
+  '}\n' +
+  '.view-details .header {\n' +
+  '  border-radius: 5px;\n' +
+  '}\n' +
+  '.view-details .name {\n' +
+  '  width: 60%;\n' +
+  '  background-position: 8px 5px;\n' +
+  '}\n' +
+  '.view-details .size {\n' +
+  '  width: 10%;\n' +
+  '}\n' +
+  '.view-details .date {\n' +
+  '  width: 30%;\n' +
+  '}\n' +
+  '.view-details .size,\n' +
+  '.view-details .date {\n' +
+  '  text-align: right;\n' +
+  '  direction: rtl;\n' +
+  '}\n' +
+  '\n' +
+  '/*mobile*/\n' +
+  '@media (max-width: 768px) {\n' +
+  '  body {\n' +
+  '    font-size: 13px;\n' +
+  '    line-height: 16px;\n' +
+  '    padding: 0;\n' +
+  '  }\n' +
+  '  #search {\n' +
+  '    position: static;\n' +
+  '    width: 100%;\n' +
+  '    font-size: 2em;\n' +
+  '    line-height: 1.8em;\n' +
+  '    text-indent: 10px;\n' +
+  '    border: 0;\n' +
+  '    border-radius: 0;\n' +
+  '    padding: 10px 0;\n' +
+  '    margin: 0;\n' +
+  '  }\n' +
+  '  #search:focus {\n' +
+  '    width: 100%;\n' +
+  '    border: 0;\n' +
+  '    opacity: 1;\n' +
+  '  }\n' +
+  '  .directory h1 {\n' +
+  '    font-size: 2em;\n' +
+  '    line-height: 1.5em;\n' +
+  '    color: #fff;\n' +
+  '    background: #000;\n' +
+  '    padding: 15px 10px;\n' +
+  '    margin: 0;\n' +
+  '  }\n' +
+  '  ul#files {\n' +
+  '    border-top: 1px solid #cacaca;\n' +
+  '  }\n' +
+  '  ul#files li {\n' +
+  '    float: none;\n' +
+  '    width: auto !important;\n' +
+  '    display: block;\n' +
+  '    border-bottom: 1px solid #cacaca;\n' +
+  '    font-size: 2em;\n' +
+  '    line-height: 1.2em;\n' +
+  '    text-indent: 0;\n' +
+  '    margin: 0;\n' +
+  '  }\n' +
+  '  ul#files li:nth-child(odd) {\n' +
+  '    background: #e0e0e0;\n' +
+  '  }\n' +
+  '  ul#files li a {\n' +
+  '    height: auto;\n' +
+  '    border: 0;\n' +
+  '    border-radius: 0;\n' +
+  '    padding: 15px 10px;\n' +
+  '  }\n' +
+  '  ul#files li a:focus,\n' +
+  '  ul#files li a:hover {\n' +
+  '    border: 0;\n' +
+  '  }\n' +
+  '  #files .header,\n' +
+  '  #files .size,\n' +
+  '  #files .date {\n' +
+  '    display: none !important;\n' +
+  '  }\n' +
+  '  #files .name {\n' +
+  '    float: none;\n' +
+  '    display: inline-block;\n' +
+  '    width: 100%;\n' +
+  '    text-indent: 0;\n' +
+  '    background-position: 0 50%;\n' +
+  '  }\n' +
+  '  #files .icon .name {\n' +
+  '    text-indent: 41px;\n' +
+  '  }\n' +
+  '}\n' +
+  '#files .icon-directory .name {\n' +
+  '  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAAWtQTFRFAAAA/PPQ9Nhc2q402qQ12qs2/PTX2pg12p81+/LM89NE9dto2q82+/fp2rM22qY39d6U+/bo2qo2/frx/vz32q812qs12qE279SU8c4w9NZP+/LK//367s9y7s925cp0/vzw9t92//342po2/vz25s1579B6+OSO2bQ0/v799NyT8tE79dld8Msm+OrC/vzx79KA2IYs7s6I9d6R4cJe9+OF/PLI/fry79OF/v30//328tWB89RJ8c9p8c0u9eCf//7+9txs6sts5Mdr+++5+u2z/vrv+/fq6cFz8dBs8tA57cpq+OaU9uGs27Y8//799NdX/PbY9uB89unJ//z14sNf+emh+emk+vDc+uys9+OL8dJy89NH+eic8tN5+OaV+OWR9N2n9dtl9t529+KF9+GB9Nue9NdU8tR/9t5y89qW9dpj89iO89eG/vvu2pQ12Y4z/vzy2Ict/vvv48dr/vzz4sNg///+2Igty3PqwQAAAAF0Uk5TAEDm2GYAAACtSURBVBjTY2AgA2iYlJWVhfohBPg0yx38y92dS0pKVOVBAqIi6sb2vsWWpfrFeTI8QAEhYQEta28nCwM1OVleZqCAmKCEkUdwYWmhQnFeOStQgL9cySqkNNDHVJGbiY0FKCCuYuYSGRsV5KgjxcXIARRQNncNj09JTgqw0ZbkZAcK5LuFJaRmZqfHeNnpSucDBQoiEtOycnIz4qI9bfUKQA6pKKqAgqIKQyK8BgAZ5yfODmnHrQAAAABJRU5ErkJggg==);\n' +
+  '}\n' +
+  '#files .icon-default .name {\n' +
+  '  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAC4SURBVCjPdZFbDsIgEEWnrsMm7oGGfZrohxvU+Iq1TyjU60Bf1pac4Yc5YS4ZAtGWBMk/drQBOVwJlZrWYkLhsB8UV9K0BUrPGy9cWbng2CtEEUmLGppPjRwpbixUKHBiZRS0p+ZGhvs4irNEvWD8heHpbsyDXznPhYFOyTjJc13olIqzZCHBouE0FRMUjA+s1gTjaRgVFpqRwC8mfoXPPEVPS7LbRaJL2y7bOifRCTEli3U7BMWgLzKlW/CuebZPAAAAAElFTkSuQmCC);\n' +
+  '}\n' +
+  '#files .icon-xlsx .name {\n' +
+  '  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIpSURBVDjLjZNPSFRRFMZ/9707o0SOOshM0x/JFtUmisKBooVEEUThsgi3KS0CN0G2lagWEYkSUdsRWgSFG9sVFAW1EIwQqRZiiDOZY804b967954249hUpB98y/PjO5zzKREBQCm1E0gDPv9XHpgTEQeAiFCDHAmCoBhFkTXGyL8cBIGMjo7eA3YDnog0ALJRFNlSqSTlcrnulZUVWV5elsXFRTHGyMLCgoyNjdUhanCyV9ayOSeIdTgnOCtY43DWYY3j9ulxkskkYRjinCOXy40MDAzcZXCyVzZS38MeKRQKf60EZPXSXInL9y+wLZMkCMs0RR28mJ2grSWJEo+lH9/IpNPE43GKxSLOOYwxpFIpAPTWjiaOtZ+gLdFKlJlD8u00xWP8lO/M5+e5efEB18b70VqjlMJai++vH8qLqoa+nn4+fJmiNNPCvMzQnIjzZuo1V88Ns3/HAcKKwfd9tNZorYnFYuuAMLDMfJ3m+fQznr7L0Vk9zGpLmezB4zx++YggqhAFEZ7n4ft+HVQHVMoB5++cJNWaRrQwMjHM9qCLTFcnJJq59WSIMLAopQDwfR/P8+oAbaqWK2eGSGxpxVrDnvQ+3s++4tPnj4SewYscUdUgIiilcM41/uXZG9kNz9h9aa+EYdjg+hnDwHDq+iGsaXwcZ6XhsdZW+FOqFk0B3caYt4Bic3Ja66NerVACOGttBXCbGbbWrgJW/VbnXbU6e5tMYIH8L54Xq0cq018+AAAAAElFTkSuQmCC);\n' +
+  '}\n' +
+  '</style>\n' +
+  '    <script>\n' +
+  '      function $(id){\n' +
+  "        var el = 'string' == typeof id\n" +
+  '          ? document.getElementById(id)\n' +
+  '          : id;\n' +
+  '\n' +
+  '        el.on = function(event, fn){\n' +
+  "          if ('content loaded' == event) {\n" +
+  '            event = window.attachEvent ? "load" : "DOMContentLoaded";\n' +
+  '          }\n' +
+  '          el.addEventListener\n' +
+  '            ? el.addEventListener(event, fn, false)\n' +
+  '            : el.attachEvent("on" + event, fn);\n' +
+  '        };\n' +
+  '\n' +
+  '        el.all = function(selector){\n' +
+  '          return $(el.querySelectorAll(selector));\n' +
+  '        };\n' +
+  '\n' +
+  '        el.each = function(fn){\n' +
+  '          for (var i = 0, len = el.length; i < len; ++i) {\n' +
+  '            fn($(el[i]), i);\n' +
+  '          }\n' +
+  '        };\n' +
+  '\n' +
+  '        el.getClasses = function(){\n' +
+  "          return this.getAttribute('class').split(/\\s+/);\n" +
+  '        };\n' +
+  '\n' +
+  '        el.addClass = function(name){\n' +
+  "          var classes = this.getAttribute('class');\n" +
+  "          el.setAttribute('class', classes\n" +
+  "            ? classes + ' ' + name\n" +
+  '            : name);\n' +
+  '        };\n' +
+  '\n' +
+  '        el.removeClass = function(name){\n' +
+  '          var classes = this.getClasses().filter(function(curr){\n' +
+  '            return curr != name;\n' +
+  '          });\n' +
+  "          this.setAttribute('class', classes.join(' '));\n" +
+  '        };\n' +
+  '\n' +
+  '        return el;\n' +
+  '      }\n' +
+  '\n' +
+  '      function search() {\n' +
+  "        var str = $('search').value.toLowerCase();\n" +
+  "        var links = $('files').all('a');\n" +
+  '\n' +
+  '        links.each(function(link){\n' +
+  '          var text = link.textContent.toLowerCase();\n' +
+  '\n' +
+  "          if ('..' == text) return;\n" +
+  '          if (str.length && ~text.indexOf(str)) {\n' +
+  "            link.addClass('highlight');\n" +
+  '          } else {\n' +
+  "            link.removeClass('highlight');\n" +
+  '          }\n' +
+  '        });\n' +
+  '      }\n' +
+  '\n' +
+  "      $(window).on('content loaded', function(){\n" +
+  "        $('search').on('keyup', search);\n" +
+  '      });\n' +
+  '    </script>\n' +
+  '  </head>\n' +
+  '  <body class="directory">\n' +
+  '    <input id="search" type="text" placeholder="Search" autocomplete="off" />\n' +
+  '    <div id="wrapper">\n' +
+  '      <h1><a href="/">~</a> / <a href="/collect">collect</a></h1>\n' +
+  '      <ul id="files" class="view-tiles"><li><a href="/" class="icon icon-directory" title=".."><span class="name">..</span><span class="size"></span><span class="date"></span></a></li>\n' +
+  '<li><a href="/collect/sample" class="icon icon icon- icon-default" title="sample"><span class="name">sample</span><span class="size">0</span><span class="date">7/27/2022 9:21:50 PM</span></a></li>\n' +
+  '<li><a href="/collect/sample.jpg" class="icon icon icon-jpg icon-default" title="sample.jpg"><span class="name">sample.jpg</span><span class="size">0</span><span class="date">7/27/2022 9:21:50 PM</span></a></li>\n' +
+  '<li><a href="/collect/sample.mp4" class="icon icon icon-mp4 icon-default" title="sample.mp4"><span class="name">sample.mp4</span><span class="size">0</span><span class="date">7/27/2022 9:21:50 PM</span></a></li'... 1298 more characters to match /icon-image/
+      at Context.<anonymous> (test/test.js:388:10)
+      at process.processImmediate (node:internal/timers:471:21)
+  ----
+      at error (node_modules/supertest/lib/test.js:329:13)
+      at Test._assertBody (node_modules/supertest/lib/test.js:243:16)
+      at /data/js-variants/multee/VariantsDeps/serve-index/variant2/serve-index/node_modules/supertest/lib/test.js:80:15
+      at Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+      at Object.onceWrapper (node:events:641:28)
+      at Server.emit (node:events:527:28)
+      at emitCloseNT (node:net:1770:8)
+      at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+
+
+./VariantsDeps/serve-index/variant1/serve-index
+
+> serve-index@1.9.1 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  serveIndex(root)
+    ✓ should require root
+    ✓ should serve text/html without Accept header (42ms)
+    ✓ should include security header
+    ✓ should serve a directory index
+    ✓ should work with HEAD requests
+    ✓ should work with OPTIONS requests
+    ✓ should deny POST requests
+    ✓ should deny path will NULL byte
+    ✓ should deny path that does not decode
+    ✓ should deny path outside root
+    ✓ should skip non-existent paths
+    ✓ should treat an ENAMETOOLONG as a 414
+    ✓ should skip non-directories
+    when given Accept: header
+      when Accept: application/json is given
+        ✓ should respond with json
+        ✓ should include security header
+        ✓ should sort folders first
+      when Accept: text/html is given
+        ✓ should respond with html
+        ✓ should include security header
+        ✓ should property escape file names
+        ✓ should sort folders first
+      when Accept: text/plain is given
+        ✓ should respond with text
+        ✓ should include security header
+        ✓ should sort folders first
+      when Accept: application/x-bogus is given
+        ✓ should respond with 406
+    with "hidden" option
+      ✓ should filter hidden files by default
+      ✓ should filter hidden files
+      ✓ should not filter hidden files
+    with "filter" option
+      ✓ should custom filter files
+      ✓ should filter after hidden filter
+      ✓ should filter directory paths
+    with "icons" option
+      ✓ should include icons for html
+    with "template" option
+      when setting a custom template file
+        ✓ should respond with file list
+        ✓ should respond with testing template sentence
+        ✓ should have default styles
+        ✓ should list directory twice
+      when setting a custom template function
+        ✓ should invoke function to render
+        ✓ should handle render errors
+        ✓ should provide "directory" local
+        ✓ should provide "displayIcons" local
+        ✓ should provide "fileList" local
+        ✓ should provide "path" local
+        ✓ should provide "style" local
+        ✓ should provide "viewName" local
+    when using custom handler
+      exports.html
+        ✓ should get called with Accept: text/html
+        ✓ should get file list
+        ✓ should get dir name
+        ✓ should get template path
+        ✓ should get template with tokens
+        ✓ should get stylesheet path
+      exports.plain
+        ✓ should get called with Accept: text/plain
+      exports.json
+        ✓ should get called with Accept: application/json
+    when navigating to other directory
+      ✓ should respond with correct listing
+      ✓ should include link to parent directory
+      ✓ should work for directory with #
+      ✓ should work for directory with special chars
+      ✓ should property escape directory names
+      ✓ should not work for outside root
+    when setting a custom stylesheet
+      ✓ should respond with appropriate embedded styles
+    when set with trailing slash
+      ✓ should respond with file list
+    when set to '.'
+      ✓ should respond with file list
+      ✓ should not allow serving outside root
+
+
+  61 passing (222ms)
+
