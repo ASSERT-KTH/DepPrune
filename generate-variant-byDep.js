@@ -17,6 +17,8 @@ bloatedDeps.pop()
 
 const bloatedNodes = bloatedNodesData.split('\n')
 
+console.log('bloatedDeps: ', bloatedDeps)
+
 bloatedDeps.forEach((dep, index) => {
     const variantPath = `VariantsDeps/${projectName}/variant${index + 1}/${projectName}`
     const gitCommand = spawn(`git clone ${repoUrl} ${variantPath} && cd ${variantPath} && git checkout ${commit} && npm install && cd ../../.. `, {

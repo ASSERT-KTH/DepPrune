@@ -1,0 +1,63 @@
+11
+file:///data/js-variants/multee/VariantsDeps/meow/variant4/meow/node_modules/indent-string/index.js:2
+    lyx
+    ^
+
+ReferenceError: lyx is not defined
+    at indentString (file:///data/js-variants/multee/VariantsDeps/meow/variant4/meow/node_modules/indent-string/index.js:2:5)
+    at redent (file:///data/js-variants/multee/VariantsDeps/meow/variant4/meow/node_modules/redent/index.js:5:9)
+    at meow (file:///data/js-variants/multee/VariantsDeps/meow/variant4/meow/node_modules/xo/node_modules/meow/index.js:168:13)
+    at file:///data/js-variants/multee/VariantsDeps/meow/variant4/meow/node_modules/xo/cli.js:10:13
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:409:24)
+    at async loadESM (node:internal/process/esm_loader:85:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+
+Node.js v18.3.0
+file:///data/js-variants/multee/VariantsDeps/meow/variant3/meow/node_modules/strip-indent/index.js:4
+    lyx
+    ^
+
+ReferenceError: lyx is not defined
+    at stripIndent (file:///data/js-variants/multee/VariantsDeps/meow/variant3/meow/node_modules/strip-indent/index.js:4:5)
+    at redent (file:///data/js-variants/multee/VariantsDeps/meow/variant3/meow/node_modules/redent/index.js:5:22)
+    at meow (file:///data/js-variants/multee/VariantsDeps/meow/variant3/meow/node_modules/xo/node_modules/meow/index.js:168:13)
+    at file:///data/js-variants/multee/VariantsDeps/meow/variant3/meow/node_modules/xo/cli.js:10:13
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:409:24)
+    at async loadESM (node:internal/process/esm_loader:85:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+
+Node.js v18.3.0
+file:///data/js-variants/multee/VariantsDeps/meow/variant2/meow/node_modules/redent/index.js:5
+    lyx
+    ^
+
+ReferenceError: lyx is not defined
+    at redent (file:///data/js-variants/multee/VariantsDeps/meow/variant2/meow/node_modules/redent/index.js:5:5)
+    at meow (file:///data/js-variants/multee/VariantsDeps/meow/variant2/meow/node_modules/xo/node_modules/meow/index.js:168:13)
+    at file:///data/js-variants/multee/VariantsDeps/meow/variant2/meow/node_modules/xo/cli.js:10:13
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:409:24)
+    at async loadESM (node:internal/process/esm_loader:85:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+
+Node.js v18.3.0
+file:///data/js-variants/multee/VariantsDeps/meow/variant1/meow/node_modules/trim-newlines/index.js:2
+    lyx
+    ^
+
+ReferenceError: lyx is not defined
+    at trimNewlines (file:///data/js-variants/multee/VariantsDeps/meow/variant1/meow/node_modules/trim-newlines/index.js:2:5)
+    at meow (file:///data/js-variants/multee/VariantsDeps/meow/variant1/meow/node_modules/xo/node_modules/meow/index.js:168:20)
+    at file:///data/js-variants/multee/VariantsDeps/meow/variant1/meow/node_modules/xo/cli.js:10:13
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:409:24)
+    at async loadESM (node:internal/process/esm_loader:85:5)
+    at async handleMainPromise (node:internal/modules/run_main:61:12)
+
+Node.js v18.3.0
