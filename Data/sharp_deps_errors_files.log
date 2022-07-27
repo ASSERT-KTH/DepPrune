@@ -1,0 +1,65 @@
+3
+Fontconfig error: Cannot load default config file: No such file: (null)
+
+(process:149957): Pango-CRITICAL **: 20:13:50.605: pango_font_describe: assertion 'font != NULL' failed
+
+(process:149957): Pango-CRITICAL **: 20:13:50.605: pango_font_description_get_variant: assertion 'desc != NULL' failed
+
+(process:149957): Pango-CRITICAL **: 20:13:50.606: pango_font_describe: assertion 'font != NULL' failed
+
+(process:149957): Pango-CRITICAL **: 20:13:50.606: pango_font_description_get_variant: assertion 'desc != NULL' failed
+Fontconfig error: Cannot load default config file: No such file: (null)
+
+(process:150885): Pango-CRITICAL **: 20:14:57.077: pango_font_describe: assertion 'font != NULL' failed
+
+(process:150885): Pango-CRITICAL **: 20:14:57.077: pango_font_description_get_variant: assertion 'desc != NULL' failed
+
+(process:150885): Pango-CRITICAL **: 20:14:57.077: pango_font_describe: assertion 'font != NULL' failed
+
+(process:150885): Pango-CRITICAL **: 20:14:57.077: pango_font_description_get_variant: assertion 'desc != NULL' failed
+
+TypeError: Cannot read properties of null (reading 'version')
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/lib/libvips.js:2:916)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/lib/constructor.js:2:277)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/lib/index.js:2:129)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/test/unit/affine.js:5:15)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:170:29)
+    at ModuleJob.run (node:internal/modules/esm/module_job:198:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:409:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:435:15)
+    at async formattedImport (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/node_modules/mocha/lib/nodejs/esm-utils.js:7:14)
+    at async exports.requireOrImport (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/node_modules/mocha/lib/nodejs/esm-utils.js:38:28)
+    at async exports.loadFilesAsync (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/node_modules/mocha/lib/nodejs/esm-utils.js:91:20)
+    at async singleRun (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/node_modules/mocha/lib/cli/run-helpers.js:125:3)
+    at async exports.handler (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/node_modules/mocha/lib/cli/run.js:370:5)

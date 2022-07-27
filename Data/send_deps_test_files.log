@@ -1,0 +1,44 @@
+3
+./VariantsDeps/send/variant3/send
+
+> send@0.18.0 test
+> mocha --check-leaks --reporter spec --bail
+
+./VariantsDeps/send/variant2/send
+
+> send@0.18.0 test
+> mocha --check-leaks --reporter spec --bail
+
+./VariantsDeps/send/variant1/send
+
+> send@0.18.0 test
+> mocha --check-leaks --reporter spec --bail
+
+
+
+  send(file).pipe(res)
+    ✔ should stream the file contents
+    ✔ should stream a zero-length file
+    ✔ should decode the given path as a URI
+    ✔ should serve files with dots in name
+    1) should treat a malformed URI as a bad request
+
+
+  4 passing (36ms)
+  1 failing
+
+  1) send(file).pipe(res)
+       should treat a malformed URI as a bad request:
+     Uncaught TypeError: setPrototypeOf is not a function
+      at new BadRequestError (node_modules/http-errors/index.js:139:5)
+      at createError (node_modules/http-errors/index.js:87:9)
+      at createHttpError (index.js:979:12)
+      at SendStream.error (index.js:270:31)
+      at SendStream.pipe (index.js:516:10)
+      at Server.<anonymous> (test/send.js:24:6)
+      at Server.emit (node:events:527:28)
+      at parserOnIncoming (node:_http_server:993:12)
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:117:17)
+
+
+
