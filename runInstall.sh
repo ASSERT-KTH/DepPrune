@@ -1,11 +1,10 @@
 #!/bin/bash
 
-variantsNum=`cd Variants/fastify && ls -l |grep "^d"|wc -l`
+variantsNum=`cd VariantsDeps/fastify && ls -l |grep "^d"|wc -l`
 
-cd Variants/fastify
+cd VariantsDeps/fastify
 
 echo $variantsNum
-echo `pwd`
 
 for (( i=$variantsNum; i>=1; i--))
 do

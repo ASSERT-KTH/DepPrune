@@ -1,0 +1,1455 @@
+14
+
+/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36
+    const isOptionValid = optsValidator(options)
+                          ^
+TypeError: optsValidator is not a function
+    at doInject (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+    at lightMyRequest (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:15:12)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:487:14)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:540:11)
+    at exit (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:100:5)
+    at next (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:111:9)
+    at hookRunnerApplication (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:85:3)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:522:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:453:5)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36
+    const isOptionValid = optsValidator(options)
+                          ^
+TypeError: optsValidator is not a function
+    at doInject (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+    at lightMyRequest (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:15:12)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:487:14)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:540:11)
+    at exit (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:100:5)
+    at manageTimeout (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:117:11)
+    at _encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:453:5)
+    at Boot.callWithCbOrNextTick (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:435:19)
+    at Task.release (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/fastq/queue.js:149:16)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36
+    const isOptionValid = optsValidator(options)
+                          ^
+TypeError: optsValidator is not a function
+    at doInject (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+    at lightMyRequest (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:15:12)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:487:14)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:540:11)
+    at exit (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:100:5)
+    at next (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:111:9)
+    at hookRunnerApplication (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:85:3)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:522:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:453:5)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36
+    const isOptionValid = optsValidator(options)
+                          ^
+TypeError: optsValidator is not a function
+    at doInject (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+    at lightMyRequest (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:15:12)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:487:14)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:540:11)
+    at exit (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:100:5)
+    at next (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:111:9)
+    at hookRunnerApplication (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:85:3)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:522:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:453:5)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36
+    const isOptionValid = optsValidator(options)
+                          ^
+TypeError: optsValidator is not a function
+    at doInject (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+    at lightMyRequest (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:15:12)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:487:14)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:540:11)
+    at exit (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:100:5)
+    at next (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:111:9)
+    at hookRunnerApplication (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:85:3)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:522:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:453:5)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36
+    const isOptionValid = optsValidator(options)
+                          ^
+TypeError: optsValidator is not a function
+    at doInject (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+    at lightMyRequest (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:15:12)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:487:14)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:540:11)
+    at exit (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:100:5)
+    at next (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:111:9)
+    at hookRunnerApplication (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:85:3)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:522:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:453:5)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36
+    const isOptionValid = optsValidator(options)
+                          ^
+TypeError: optsValidator is not a function
+    at doInject (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+    at lightMyRequest (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:15:12)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:487:14)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:540:11)
+    at exit (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:100:5)
+    at next (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:111:9)
+    at hookRunnerApplication (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:85:3)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:522:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:453:5)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36
+    const isOptionValid = optsValidator(options)
+                          ^
+TypeError: optsValidator is not a function
+    at doInject (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+    at lightMyRequest (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:15:12)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:487:14)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:540:11)
+    at exit (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:100:5)
+    at next (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:111:9)
+    at hookRunnerApplication (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:85:3)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:522:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:453:5)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36
+    const isOptionValid = optsValidator(options)
+                          ^
+TypeError: optsValidator is not a function
+    at doInject (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+    at lightMyRequest (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:15:12)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:487:14)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:540:11)
+    at exit (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:100:5)
+    at next (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:111:9)
+    at hookRunnerApplication (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:85:3)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:522:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:453:5)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36
+    const isOptionValid = optsValidator(options)
+                          ^
+TypeError: optsValidator is not a function
+    at doInject (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+    at lightMyRequest (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:15:12)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:487:14)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:540:11)
+    at exit (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:100:5)
+    at next (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:111:9)
+    at hookRunnerApplication (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:85:3)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:522:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:453:5)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36
+    const isOptionValid = optsValidator(options)
+                          ^
+TypeError: optsValidator is not a function
+    at doInject (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+    at lightMyRequest (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:15:12)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:487:14)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:540:11)
+    at exit (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:100:5)
+    at next (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:111:9)
+    at hookRunnerApplication (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:85:3)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:522:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:453:5)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36
+    const isOptionValid = optsValidator(options)
+                          ^
+TypeError: optsValidator is not a function
+    at doInject (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+    at lightMyRequest (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:15:12)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:487:14)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:540:11)
+    at exit (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:100:5)
+    at next (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:111:9)
+    at hookRunnerApplication (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:85:3)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:522:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:453:5)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36
+    const isOptionValid = optsValidator(options)
+                          ^
+TypeError: optsValidator is not a function
+    at doInject (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+    at lightMyRequest (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:15:12)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:487:14)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:540:11)
+    at exit (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:100:5)
+    at manageTimeout (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:117:11)
+    at _encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:453:5)
+    at Boot.callWithCbOrNextTick (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:435:19)
+    at Task.release (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/fastq/queue.js:149:16)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36
+    const isOptionValid = optsValidator(options)
+                          ^
+TypeError: optsValidator is not a function
+    at doInject (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+    at lightMyRequest (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:15:12)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:487:14)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:540:11)
+    at exit (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:100:5)
+    at manageTimeout (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:117:11)
+    at _encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:453:5)
+    at Boot.callWithCbOrNextTick (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:435:19)
+    at Task.release (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/fastq/queue.js:149:16)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36
+    const isOptionValid = optsValidator(options)
+                          ^
+TypeError: optsValidator is not a function
+    at doInject (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+    at lightMyRequest (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:15:12)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:487:14)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:540:11)
+    at exit (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:100:5)
+    at next (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:111:9)
+    at hookRunnerApplication (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:85:3)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:522:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:453:5)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36
+    const isOptionValid = optsValidator(options)
+                          ^
+TypeError: optsValidator is not a function
+    at doInject (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+    at lightMyRequest (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:15:12)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:487:14)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:540:11)
+    at exit (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:100:5)
+    at next (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:111:9)
+    at hookRunnerApplication (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/lib/hooks.js:85:3)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/fastify.js:522:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant14/fastify/node_modules/avvio/boot.js:453:5)
+ERROR: Coverage for lines (75.65%) does not meet global threshold (100%)
+ERROR: Coverage for functions (72.64%) does not meet global threshold (100%)
+ERROR: Coverage for branches (68.59%) does not meet global threshold (100%)
+ERROR: Coverage for statements (75.18%) does not meet global threshold (100%)
+ERROR: Coverage for lines (86.97%) does not meet global threshold (100%)
+ERROR: Coverage for functions (84.61%) does not meet global threshold (100%)
+ERROR: Coverage for branches (82.76%) does not meet global threshold (100%)
+ERROR: Coverage for statements (86.71%) does not meet global threshold (100%)
+ERROR: Coverage for lines (84.59%) does not meet global threshold (100%)
+ERROR: Coverage for functions (82.05%) does not meet global threshold (100%)
+ERROR: Coverage for branches (79.1%) does not meet global threshold (100%)
+ERROR: Coverage for statements (84.42%) does not meet global threshold (100%)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+  ^
+
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/lib/route.js:2:130)
+
+Node.js v18.3.0
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+  ^
+
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/lib/route.js:2:130)
+
+Node.js v18.3.0
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object..js (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at require.extensions.<computed> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/proxyquire/lib/proxyquire.js:311:43)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+  ^
+
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/lib/route.js:2:130)
+
+Node.js v18.3.0
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+        ^
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+ERROR: Coverage for lines (30.45%) does not meet global threshold (100%)
+ERROR: Coverage for functions (29.66%) does not meet global threshold (100%)
+ERROR: Coverage for branches (22.18%) does not meet global threshold (100%)
+ERROR: Coverage for statements (30.23%) does not meet global threshold (100%)
+ERROR: Coverage for lines (84.59%) does not meet global threshold (100%)
+ERROR: Coverage for functions (82.05%) does not meet global threshold (100%)
+ERROR: Coverage for branches (79.1%) does not meet global threshold (100%)
+ERROR: Coverage for statements (84.42%) does not meet global threshold (100%)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/test/async-await.test.js:55
+      url: 'http://localhost:' + fastify.server.address().port
+                                                         ^
+TypeError: Cannot read properties of null (reading 'port')
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/test/async-await.test.js:55:58)
+    at Object.cb (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/lib/server.js:61:11)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/lib/server.js:173:43)
+    at manageErr (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/fastify.js:538:11)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/fastify.js:520:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:453:5)
+    at Boot.callWithCbOrNextTick (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:435:19)
+    at release (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/fastq/queue.js:149:16)
+    at Object.resume (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/fastq/queue.js:82:7)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:14
+    draft7Vocabularies.forEach((v) => this.addVocabulary(v))
+                       ^
+TypeError: Cannot read properties of undefined (reading 'forEach')
+    at Ajv._addVocabularies (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:14:24)
+    at new Ajv (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/core.ts:308:10)
+    at new Ajv (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:11:1)
+    at buildAjv (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/fast-json-stringify/ajv.js:10:23)
+    at FJS (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/fast-json-stringify/index.js:97:17)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/build/build-error-serializer.js:8:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/test/fluent-schema.test.js:36
+    t.equal(res.statusCode, 400)
+                ^
+TypeError: Cannot read properties of null (reading 'statusCode')
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/test/fluent-schema.test.js:36:17)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/fastify.js:486:18)
+    at manageErr (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/fastify.js:538:11)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/fastify.js:520:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:453:5)
+    at Boot.callWithCbOrNextTick (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:435:19)
+    at release (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/fastq/queue.js:149:16)
+    at Object.resume (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/fastq/queue.js:82:7)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:174:18
+
+/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/test/hooks-async.test.js:331
+    t.equal(res.statusCode, 200)
+                ^
+TypeError: Cannot read properties of null (reading 'statusCode')
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/test/hooks-async.test.js:331:17)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/fastify.js:486:18)
+    at manageErr (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/fastify.js:538:11)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/fastify.js:520:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:453:5)
+    at Boot.callWithCbOrNextTick (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:435:19)
+    at release (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/fastq/queue.js:149:16)
+    at Object.resume (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/fastq/queue.js:82:7)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:174:18
+
+/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/test/hooks.test.js:1543
+    t.equal(res.statusCode, 200)
+                ^
+TypeError: Cannot read properties of null (reading 'statusCode')
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/test/hooks.test.js:1543:17)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/fastify.js:486:18)
+    at manageErr (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/fastify.js:538:11)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/fastify.js:520:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:453:5)
+    at Boot.callWithCbOrNextTick (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:435:19)
+    at release (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/fastq/queue.js:149:16)
+    at Object.resume (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/fastq/queue.js:82:7)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:174:18
+
+/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:14
+    draft7Vocabularies.forEach((v) => this.addVocabulary(v))
+                       ^
+TypeError: Cannot read properties of undefined (reading 'forEach')
+    at Ajv._addVocabularies (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:14:24)
+    at new Ajv (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/core.ts:308:10)
+    at new Ajv (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:11:1)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/test/internals/handleRequest.test.js:12:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+
+/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/test/internals/reply.test.js:208
+    t.equal(res.payload, '{"foo":"bar"}')
+                ^
+TypeError: Cannot read properties of null (reading 'payload')
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/test/internals/reply.test.js:208:17)
+    at cb (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/fastify.js:486:18)
+    at manageErr (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/fastify.js:538:11)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/fastify.js:520:11
+    at Object._encapsulateThreeParam (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:557:7)
+    at Boot.timeoutCall (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:453:5)
+    at Boot.callWithCbOrNextTick (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:435:19)
+    at release (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/fastq/queue.js:149:16)
+    at Object.resume (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/fastq/queue.js:82:7)
+    at /data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:174:18
+
+/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:14
+    draft7Vocabularies.forEach((v) => this.addVocabulary(v))
+                       ^
+TypeError: Cannot read properties of undefined (reading 'forEach')
+    at Ajv._addVocabularies (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:14:24)
+    at new Ajv (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/core.ts:308:10)
+    at new Ajv (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:11:1)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/test/internals/validation.test.js:7:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant9/fastify/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+ERROR: Coverage for lines (85.87%) does not meet global threshold (100%)
+ERROR: Coverage for functions (85.47%) does not meet global threshold (100%)
+ERROR: Coverage for branches (81.37%) does not meet global threshold (100%)
+ERROR: Coverage for statements (85.43%) does not meet global threshold (100%)
+standard: Unexpected linter output:
+
+TypeError: Failed to load plugin 'n' declared in '--config » eslint-config-standard': semver.satisfies is not a function
+    at module.exports (/data/js-variants/multee/VariantsDeps/fastify/variant8/fastify/node_modules/builtins/index.js:63:35)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant8/fastify/node_modules/eslint-plugin-n/lib/converted-esm/import-meta-resolve.js:240:50)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant8/fastify/node_modules/eslint-plugin-n/lib/util/import-target.js:12:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+
+If you think this is a bug in `standard`, open an issue: https://github.com/standard/standard/issues
+
+Oops! Something went wrong! :(
+
+ESLint: 8.20.0
+
+TypeError: Failed to load plugin '@typescript-eslint' declared in '--config': semver.major is not a function
+Referenced from: /data/js-variants/multee/VariantsDeps/fastify/variant8/fastify/types/.eslintrc.json
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant8/fastify/node_modules/@typescript-eslint/eslint-plugin/dist/util/getESLintCoreRule.js:30:27)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant8/fastify/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/data/js-variants/multee/VariantsDeps/fastify/variant8/fastify/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant8/fastify/node_modules/@typescript-eslint/eslint-plugin/dist/rules/brace-style.js:3:29)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant8/fastify/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+ERROR: Coverage for lines (86.97%) does not meet global threshold (100%)
+ERROR: Coverage for functions (84.61%) does not meet global threshold (100%)
+ERROR: Coverage for branches (82.76%) does not meet global threshold (100%)
+ERROR: Coverage for statements (86.71%) does not meet global threshold (100%)
+ERROR: Coverage for lines (83.35%) does not meet global threshold (100%)
+ERROR: Coverage for functions (81.19%) does not meet global threshold (100%)
+ERROR: Coverage for branches (77.28%) does not meet global threshold (100%)
+ERROR: Coverage for statements (83.18%) does not meet global threshold (100%)
+ERROR: Coverage for lines (82.12%) does not meet global threshold (100%)
+ERROR: Coverage for functions (79.77%) does not meet global threshold (100%)
+ERROR: Coverage for branches (76.33%) does not meet global threshold (100%)
+ERROR: Coverage for statements (81.98%) does not meet global threshold (100%)
+ERROR: Coverage for lines (83.35%) does not meet global threshold (100%)
+ERROR: Coverage for functions (81.19%) does not meet global threshold (100%)
+ERROR: Coverage for branches (77.28%) does not meet global threshold (100%)
+ERROR: Coverage for statements (83.18%) does not meet global threshold (100%)
+ERROR: Coverage for lines (84.59%) does not meet global threshold (100%)
+ERROR: Coverage for functions (82.05%) does not meet global threshold (100%)
+ERROR: Coverage for branches (79.1%) does not meet global threshold (100%)
+ERROR: Coverage for statements (84.42%) does not meet global threshold (100%)
+ERROR: Coverage for lines (83.35%) does not meet global threshold (100%)
+ERROR: Coverage for functions (81.19%) does not meet global threshold (100%)
+ERROR: Coverage for branches (77.28%) does not meet global threshold (100%)
+ERROR: Coverage for statements (83.18%) does not meet global threshold (100%)
+/data/js-variants/multee/VariantsDeps/fastify/variant1/fastify/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:65
+const debug$3 = debugOrig__default["default"]("eslintrc:ignore-pattern");
+                                             ^
+
+TypeError: debugOrig__default.default is not a function
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant1/fastify/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:65:46)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant1/fastify/node_modules/eslint/lib/cli-engine/cli-engine.js:33:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+
+Node.js v18.3.0
+
+Oops! Something went wrong! :(
+
+ESLint: 8.20.0
+
+TypeError: debugOrig__default.default is not a function
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant1/fastify/node_modules/@eslint/eslintrc/dist/eslintrc.cjs:65:46)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant1/fastify/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/data/js-variants/multee/VariantsDeps/fastify/variant1/fastify/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant1/fastify/node_modules/eslint/lib/cli-engine/cli-engine.js:33:5)
+    at Module._compile (/data/js-variants/multee/VariantsDeps/fastify/variant1/fastify/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)

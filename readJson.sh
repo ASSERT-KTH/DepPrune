@@ -40,7 +40,7 @@ do
 
     cd ../..
 
-    # ./resetProject.sh $folderPath
+    ./resetProject.sh $folderPath
 
     # python3 genDepList.py $folderPath "npm install "
 
@@ -48,21 +48,21 @@ do
     
     cd $folderPath
 
-    # echo "Start Generating test coverage report..."
+    echo "Start Generating test coverage report..."
 
     # nyc npm run test
 
     cd ../..
 
-    # echo "Start discovering bloated files..."
+    echo "Start discovering bloated files..."
 
     # ./transform.sh $folderPath "dynamic" false
 
-    # npm install --save dependency-tree
+    npm install --save dependency-tree
 
-    # node dep-tree.js $folderPath $entryFile
+    node dep-tree.js $folderPath $entryFile
 
-    # node generate-variant.js  $folderPath $projectName $repoUrl $commit
+    node generate-variant.js  $folderPath $projectName $repoUrl $commit
 
     node generate-variant-byDep.js  $folderPath $projectName $repoUrl $commit
 
