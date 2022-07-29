@@ -42,21 +42,21 @@ do
 
     ./resetProject.sh $folderPath
 
-    # python3 genDepList.py $folderPath "npm install "
+    python3 genDepList.py $folderPath "npm install "
 
-    # python3 genNycRc.py $folderPath "${folderPath}/dep_list.txt" 
+    python3 genNycRc.py $folderPath "${folderPath}/dep_list.txt" 
     
     cd $folderPath
 
     echo "Start Generating test coverage report..."
 
-    # nyc npm run test
+    nyc npm run test
 
     cd ../..
 
     echo "Start discovering bloated files..."
 
-    # ./transform.sh $folderPath "dynamic" false
+    ./transform.sh $folderPath "dynamic" false
 
     npm install --save dependency-tree
 

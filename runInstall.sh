@@ -1,8 +1,8 @@
 #!/bin/bash
 
-variantsNum=`cd VariantsDeps/fastify && ls -l |grep "^d"|wc -l`
+variantsNum=`cd Variants/fastify && ls -l |grep "^d"|wc -l`
 
-cd VariantsDeps/fastify
+cd Variants/fastify
 
 echo $variantsNum
 
