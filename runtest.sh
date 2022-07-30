@@ -1,8 +1,8 @@
 projectName=$1
 modeName=$2
 
-variantsNum=`cd $modeName/$projectName && ls -l |grep "^d"|wc -l`
-
+# variantsNum=`cd $modeName/$projectName && ls -l |grep "^d"|wc -l`
+variantsNum=44
 echo $variantsNum
 echo $variantsNum > /dev/stderr
 
