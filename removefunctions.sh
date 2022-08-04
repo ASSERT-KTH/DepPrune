@@ -3,17 +3,17 @@
 jsonFile='.json'
 jsonEmpty='{}'
 projectName=$1
-# fileName='./Data/'$1'_bloated_variants.txt'
+fileName='./Data/'$1'_bloated_variants.txt'
 fileNameDeps='./Data/'$1'_bloated_deps_variants.txt'
 
-# cat $fileName | while read rows
-# do
-# echo $rows
-# if [ ${rows:0-5} = ${jsonFile} ]
-# then echo $jsonEmpty > $rows
-# else node remove-functions.js $projectName $rows
-# fi
-# done
+cat $fileName | while read rows
+do
+echo $rows
+if [ ${rows:0-5} = ${jsonFile} ]
+then echo $jsonEmpty > $rows
+else node remove-functions.js $projectName $rows
+fi
+done
 
 cat $fileNameDeps | while read rowsDeps
 do
