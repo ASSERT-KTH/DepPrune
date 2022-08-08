@@ -1,0 +1,2586 @@
+17
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.368 s, estimated 16 s
+Ran all test suites.
+FAIL test/e2e/e2e.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/side-channel/index.js:3:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+FAIL test/probot.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/side-channel/index.js:3:20)
+
+FAIL test/server.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/side-channel/index.js:3:20)
+
+FAIL test/apps/setup.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/side-channel/index.js:3:20)
+
+FAIL test/run.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/side-channel/index.js:3:20)
+
+FAIL test/create-node-middleware.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/side-channel/index.js:3:20)
+
+FAIL test/context.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/side-channel/index.js:3:20)
+
+FAIL test/apps/default.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/side-channel/index.js:3:20)
+
+FAIL test/create-probot.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/side-channel/index.js:3:20)
+
+FAIL test/webhook-proxy.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/side-channel/index.js:3:20)
+
+FAIL test/server/logging-middleware.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (../../../Variants/express/variant16/express/node_modules/side-channel/index.js:3:20)
+
+PASS test/helpers/is-production.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 11 failed, 5 passed, 16 total
+Tests:       27 passed, 27 total
+Snapshots:   0 total
+Time:        8.604 s, estimated 16 s
+Ran all test suites.
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+FAIL test/create-probot.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/get-intrinsic/index.js:200:14)
+
+FAIL test/server/logging-middleware.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/get-intrinsic/index.js:200:14)
+
+FAIL test/create-node-middleware.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/get-intrinsic/index.js:200:14)
+
+FAIL test/e2e/e2e.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/get-intrinsic/index.js:200:14)
+
+FAIL test/webhook-proxy.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/get-intrinsic/index.js:200:14)
+
+FAIL test/apps/default.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/get-intrinsic/index.js:200:14)
+
+FAIL test/apps/setup.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/get-intrinsic/index.js:200:14)
+
+FAIL test/context.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/get-intrinsic/index.js:200:14)
+
+FAIL test/run.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/get-intrinsic/index.js:200:14)
+
+FAIL test/probot.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/get-intrinsic/index.js:200:14)
+
+FAIL test/server.test.ts
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (../../../Variants/express/variant15/express/node_modules/get-intrinsic/index.js:200:14)
+
+Test Suites: 11 failed, 5 passed, 16 total
+Tests:       27 passed, 27 total
+Snapshots:   0 total
+Time:        8.54 s
+Ran all test suites.
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+PASS test/create-probot.test.ts
+FAIL test/server/logging-middleware.test.ts
+  ● logging › logs requests and responses
+
+    expected 200 "OK", got 500 "Internal Server Error"
+
+      34 |     return request(server)
+      35 |       .get("/")
+    > 36 |       .expect(200)
+         |        ^
+      37 |       .expect((res) => {
+      38 |         // logs id with request and response
+      39 |         expect(output[0].req.id).toBeTruthy();
+
+      at Object.<anonymous> (test/server/logging-middleware.test.ts:36:8)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● logging › uses supplied X-Request-ID
+
+    expected 200 "OK", got 500 "Internal Server Error"
+
+      66 |       .get("/")
+      67 |       .set("X-Request-ID", "42")
+    > 68 |       .expect(200)
+         |        ^
+      69 |       .expect((res) => {
+      70 |         expect(output[0].req.id).toEqual("42");
+      71 |       });
+
+      at Object.<anonymous> (test/server/logging-middleware.test.ts:68:8)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● logging › uses X-GitHub-Delivery
+
+    expected 200 "OK", got 500 "Internal Server Error"
+
+      76 |       .get("/")
+      77 |       .set("X-GitHub-Delivery", "a-b-c")
+    > 78 |       .expect(200)
+         |        ^
+      79 |       .expect((res) => {
+      80 |         expect(output[0].req.id).toEqual("a-b-c");
+      81 |       });
+
+      at Object.<anonymous> (test/server/logging-middleware.test.ts:78:8)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+PASS test/create-node-middleware.test.ts
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+FAIL test/apps/default.test.ts
+  ● default app › GET /probot › returns a 200 response
+
+    expected 200 "OK", got 500 "Internal Server Error"
+
+      32 |   describe("GET /probot", () => {
+      33 |     it("returns a 200 response", () => {
+    > 34 |       return request(server.expressApp).get("/probot").expect(200);
+         |                                                        ^
+      35 |     });
+      36 |
+      37 |     describe("get info from package.json", () => {
+
+      at Object.<anonymous> (test/apps/default.test.ts:34:56)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● default app › GET /probot › get info from package.json › returns the correct HTML with values
+
+    expected 200 "OK", got 500 "Internal Server Error"
+
+      44 |         const actual = await request(server.expressApp)
+      45 |           .get("/probot")
+    > 46 |           .expect(200);
+         |            ^
+      47 |         expect(actual.text).toMatch("Welcome to probot");
+      48 |         expect(actual.text).toMatch("A framework for building GitHub Apps");
+      49 |         expect(actual.text).toMatch(/v\d+\.\d+\.\d+/);
+
+      at Object.<anonymous> (test/apps/default.test.ts:46:12)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● default app › GET /probot › get info from package.json › returns the correct HTML without values
+
+    expected 200 "OK", got 500 "Internal Server Error"
+
+      54 |         const actual = await request(server.expressApp)
+      55 |           .get("/probot")
+    > 56 |           .expect(200);
+         |            ^
+      57 |         expect(actual.text).toMatch("Welcome to your Probot App");
+      58 |       });
+      59 |
+
+      at Object.<anonymous> (test/apps/default.test.ts:56:12)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● default app › GET / › redirects to /probot
+
+    expected 302 "Found", got 500 "Internal Server Error"
+
+      68 |       return request(server.expressApp)
+      69 |         .get("/")
+    > 70 |         .expect(302)
+         |          ^
+      71 |         .expect("location", "/probot");
+      72 |     });
+      73 |   });
+
+      at Object.<anonymous> (test/apps/default.test.ts:70:10)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+FAIL test/webhook-proxy.test.ts (10.265 s)
+  ● webhook-proxy › with a valid proxy server › forwards events to server
+
+    Timeout - Async callback was not invoked within the 10000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 10000 ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:27:45)
+
+  ● webhook-proxy › with a valid proxy server › forwards events to server
+
+    TypeError: emit is not a function
+
+      64 |       const body = { action: "foo" };
+      65 |
+    > 66 |       emit({
+         |       ^
+      67 |         body,
+      68 |         "x-github-event": "test",
+      69 |       });
+
+      at Object.<anonymous> (test/webhook-proxy.test.ts:66:7)
+
+FAIL test/apps/setup.test.ts
+  ● Setup app › GET /probot › returns a 200 response
+
+    expected 200 "OK", got 500 "Internal Server Error"
+
+      86 |   describe("GET /probot", () => {
+      87 |     it("returns a 200 response", async () => {
+    > 88 |       await request(server.expressApp).get("/probot").expect(200);
+         |                                                       ^
+      89 |     });
+      90 |   });
+      91 |
+
+      at Object.<anonymous> (test/apps/setup.test.ts:88:55)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● Setup app › GET /probot/setup › returns a redirect
+
+    expected 302 "Found", got 500 "Internal Server Error"
+
+      106 |         .get("/probot/setup")
+      107 |         .query({ code: "123" })
+    > 108 |         .expect(302)
+          |          ^
+      109 |         .expect("Location", "/apps/my-app/installations/new");
+      110 |
+      111 |       expect(createChannel).toHaveBeenCalledTimes(1);
+
+      at Object.<anonymous> (test/apps/setup.test.ts:108:10)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● Setup app › GET /probot/import › renders import.handlebars
+
+    expected 200 "OK", got 500 "Internal Server Error"
+
+      116 |   describe("GET /probot/import", () => {
+      117 |     it("renders import.handlebars", async () => {
+    > 118 |       await request(server.expressApp).get("/probot/import").expect(200);
+          |                                                              ^
+      119 |     });
+      120 |   });
+      121 |
+
+      at Object.<anonymous> (test/apps/setup.test.ts:118:62)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● Setup app › POST /probot/import › updates .env
+
+    expected 200 "OK", got 500 "Internal Server Error"
+
+      132 |         .set("content-type", "application/json")
+      133 |         .send(body)
+    > 134 |         .expect(200)
+          |          ^
+      135 |         .expect("");
+      136 |
+      137 |       expect(updateDotenv.mock.calls).toMatchSnapshot();
+
+      at Object.<anonymous> (test/apps/setup.test.ts:134:10)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● Setup app › POST /probot/import › 400 when keys are missing
+
+    expected 400 "Bad Request", got 500 "Internal Server Error"
+
+      149 |         .set("content-type", "application/json")
+      150 |         .send(body)
+    > 151 |         .expect(400);
+          |          ^
+      152 |     });
+      153 |   });
+      154 |
+
+      at Object.<anonymous> (test/apps/setup.test.ts:151:10)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● Setup app › GET /probot/success › returns a 200 response
+
+    expected 200 "OK", got 500 "Internal Server Error"
+
+      155 |   describe("GET /probot/success", () => {
+      156 |     it("returns a 200 response", async () => {
+    > 157 |       await request(server.expressApp).get("/probot/success").expect(200);
+          |                                                               ^
+      158 |
+      159 |       expect(createChannel).toHaveBeenCalledTimes(1);
+      160 |     });
+
+      at Object.<anonymous> (test/apps/setup.test.ts:157:63)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+PASS test/context.test.ts
+FAIL test/run.test.ts
+  ● run › webhooks › POST /
+
+    expected 200 "OK", got 500 "Internal Server Error"
+
+      102 |         .set("x-hub-signature-256", await sign("secret", dataString))
+      103 |         .set("x-github-delivery", "123")
+    > 104 |         .expect(200);
+          |          ^
+      105 |
+      106 |       await server.stop();
+      107 |     });
+
+      at Object.<anonymous> (test/run.test.ts:104:10)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● run › webhooks › custom webhook path
+
+    Port 3000 is already in use. You can define the PORT environment variable to use a different port.
+
+      633 | app.listen = function listen() {
+      634 |   var server = http.createServer(this);
+    > 635 |   return server.listen.apply(server, arguments);
+          |                        ^
+      636 | };
+      637 |
+      638 | /**
+
+      at Function.listen (../../../Variants/express/variant14/express/lib/application.js:635:24)
+      at state.httpServer (src/server/server.ts:85:38)
+      at Server.start (src/server/server.ts:84:36)
+      at Object.run (src/run.ts:148:16)
+      at Object.<anonymous> (test/run.test.ts:110:16)
+
+PASS test/probot.test.ts
+FAIL test/server.test.ts
+  ● Server › GET /ping › returns a 200 response
+
+    expected 200 "OK", got 500 "Internal Server Error"
+
+      58 |   describe("GET /ping", () => {
+      59 |     it("returns a 200 response", async () => {
+    > 60 |       await request(server.expressApp).get("/ping").expect(200, "PONG");
+         |                                                     ^
+      61 |       expect(output.length).toEqual(1);
+      62 |       expect(output[0].msg).toContain("GET /ping 200 -");
+      63 |     });
+
+      at Object.<anonymous> (test/server.test.ts:60:53)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● Server › webhook handler (POST /) › should return 200 and run event handlers in app function
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: 1
+    Received: 0
+
+      93 |         .set("x-github-delivery", "3sw4d5f6g7h8");
+      94 |
+    > 95 |       expect(output.length).toEqual(1);
+         |                             ^
+      96 |       expect(output[0].msg).toContain("POST / 200 -");
+      97 |     });
+      98 |
+
+      at Object.<anonymous> (test/server.test.ts:95:29)
+
+  ● Server › webhook handler (POST /) › should return 200 and run event handlers in app function
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received one assertion call.
+
+      66 |   describe("webhook handler (POST /)", () => {
+      67 |     it("should return 200 and run event handlers in app function", async () => {
+    > 68 |       expect.assertions(3);
+         |              ^
+      69 |
+      70 |       server = new Server({
+      71 |         Probot: Probot.defaults({
+
+      at Object.<anonymous> (test/server.test.ts:68:14)
+
+  ● Server › webhook handler (POST /) › respond with a friendly error when x-hub-signature-256 is missing
+
+    expected 400 "Bad Request", got 500 "Internal Server Error"
+
+      106 |         // Note: 'x-hub-signature-256' is missing
+      107 |         .set("x-github-delivery", "3sw4d5f6g7h8")
+    > 108 |         .expect(
+          |          ^
+      109 |           400,
+      110 |           '{"error":"Required headers missing: x-hub-signature-256"}'
+      111 |         );
+
+      at Object.<anonymous> (test/server.test.ts:108:10)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● Server › GET unknown URL › responds with 404
+
+    expected 404 "Not Found", got 500 "Internal Server Error"
+
+      115 |   describe("GET unknown URL", () => {
+      116 |     it("responds with 404", async () => {
+    > 117 |       await request(server.expressApp).get("/notfound").expect(404);
+          |                                                         ^
+      118 |       expect(output.length).toEqual(1);
+      119 |       expect(output[0].msg).toContain("GET /notfound 404 -");
+      120 |     });
+
+      at Object.<anonymous> (test/server.test.ts:117:57)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● Server › router › prefixes paths with route name
+
+    expected 200 "OK", got 500 "Internal Server Error"
+
+      182 |       router.get("/foo", (req, res) => res.end("foo"));
+      183 |
+    > 184 |       return request(server.expressApp).get("/my-app/foo").expect(200, "foo");
+          |                                                            ^
+      185 |     });
+      186 |
+      187 |     it("allows routes with no path", () => {
+
+      at Object.<anonymous> (test/server.test.ts:184:60)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● Server › router › allows routes with no path
+
+    expected 200 "OK", got 500 "Internal Server Error"
+
+      189 |       router.get("/foo", (req, res) => res.end("foo"));
+      190 |
+    > 191 |       return request(server.expressApp).get("/foo").expect(200, "foo");
+          |                                                     ^
+      192 |     });
+      193 |
+      194 |     it("allows you to overwrite the root path", () => {
+
+      at Object.<anonymous> (test/server.test.ts:191:53)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● Server › router › allows you to overwrite the root path
+
+    expected 200 "OK", got 500 "Internal Server Error"
+
+      196 |       router.get("/", (req, res) => res.end("foo"));
+      197 |
+    > 198 |       return request(server.expressApp).get("/").expect(200, "foo");
+          |                                                  ^
+      199 |     });
+      200 |
+      201 |     it("isolates apps from affecting each other", async () => {
+
+      at Object.<anonymous> (test/server.test.ts:198:50)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● Server › router › isolates apps from affecting each other
+
+    expected 200 "OK", got 500 "Internal Server Error"
+
+      213 |       await request(server.expressApp)
+      214 |         .get("/foo/hello")
+    > 215 |         .expect(200, "foo")
+          |          ^
+      216 |         .expect("X-Test", "foo");
+      217 |
+      218 |       await request(server.expressApp)
+
+      at Object.<anonymous> (test/server.test.ts:215:10)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+Test Suites: 7 failed, 9 passed, 16 total
+Tests:       25 failed, 2 skipped, 92 passed, 119 total
+Snapshots:   5 passed, 5 total
+Time:        25.01 s
+Ran all test suites.
+Jest did not exit one second after the test run has completed.
+
+This usually means that there are asynchronous operations that weren't stopped in your tests. Consider running Jest with `--detectOpenHandles` to troubleshoot this issue.
+PASS test/webhook-proxy.test.ts
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/apps/setup.test.ts
+PASS test/apps/default.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/create-probot.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/context.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.037 s, estimated 25 s
+Ran all test suites.
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/probot.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/apps/default.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+PASS test/resolver.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.121 s
+Ran all test suites.
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+PASS test/helpers/is-production.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        14.984 s, estimated 16 s
+Ran all test suites.
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.091 s
+Ran all test suites.
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/context.test.ts
+PASS test/apps/default.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.14 s, estimated 16 s
+Ran all test suites.
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.065 s, estimated 16 s
+Ran all test suites.
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.051 s
+Ran all test suites.
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.244 s
+Ran all test suites.
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/context.test.ts
+PASS test/apps/default.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.137 s, estimated 16 s
+Ran all test suites.
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/context.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.054 s, estimated 16 s
+Ran all test suites.
+FAIL test/e2e/e2e.test.ts
+  ● Test suite failed to run
+
+    TypeError: require(...) is not a function
+
+      14 |  */
+      15 |
+    > 16 | var finalhandler = require('finalhandler');
+         |                    ^
+      17 | var Router = require('./router');
+      18 | var methods = require('methods');
+      19 | var middleware = require('./middleware/init');
+
+      at Object.<anonymous> (../../../Variants/express/variant3/express/node_modules/finalhandler/index.js:14:29)
+      at Object.<anonymous> (../../../Variants/express/variant3/express/lib/application.js:16:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+FAIL test/probot.test.ts
+  ● Test suite failed to run
+
+    TypeError: require(...) is not a function
+
+      14 |  */
+      15 |
+    > 16 | var finalhandler = require('finalhandler');
+         |                    ^
+      17 | var Router = require('./router');
+      18 | var methods = require('methods');
+      19 | var middleware = require('./middleware/init');
+
+      at Object.<anonymous> (../../../Variants/express/variant3/express/node_modules/finalhandler/index.js:14:29)
+      at Object.<anonymous> (../../../Variants/express/variant3/express/lib/application.js:16:20)
+
+FAIL test/apps/setup.test.ts
+  ● Test suite failed to run
+
+    TypeError: require(...) is not a function
+
+      14 |  */
+      15 |
+    > 16 | var finalhandler = require('finalhandler');
+         |                    ^
+      17 | var Router = require('./router');
+      18 | var methods = require('methods');
+      19 | var middleware = require('./middleware/init');
+
+      at Object.<anonymous> (../../../Variants/express/variant3/express/node_modules/finalhandler/index.js:14:29)
+      at Object.<anonymous> (../../../Variants/express/variant3/express/lib/application.js:16:20)
+
+FAIL test/server.test.ts
+  ● Test suite failed to run
+
+    TypeError: require(...) is not a function
+
+      14 |  */
+      15 |
+    > 16 | var finalhandler = require('finalhandler');
+         |                    ^
+      17 | var Router = require('./router');
+      18 | var methods = require('methods');
+      19 | var middleware = require('./middleware/init');
+
+      at Object.<anonymous> (../../../Variants/express/variant3/express/node_modules/finalhandler/index.js:14:29)
+      at Object.<anonymous> (../../../Variants/express/variant3/express/lib/application.js:16:20)
+
+FAIL test/run.test.ts
+  ● Test suite failed to run
+
+    TypeError: require(...) is not a function
+
+      14 |  */
+      15 |
+    > 16 | var finalhandler = require('finalhandler');
+         |                    ^
+      17 | var Router = require('./router');
+      18 | var methods = require('methods');
+      19 | var middleware = require('./middleware/init');
+
+      at Object.<anonymous> (../../../Variants/express/variant3/express/node_modules/finalhandler/index.js:14:29)
+      at Object.<anonymous> (../../../Variants/express/variant3/express/lib/application.js:16:20)
+
+FAIL test/context.test.ts
+  ● Test suite failed to run
+
+    TypeError: require(...) is not a function
+
+      14 |  */
+      15 |
+    > 16 | var finalhandler = require('finalhandler');
+         |                    ^
+      17 | var Router = require('./router');
+      18 | var methods = require('methods');
+      19 | var middleware = require('./middleware/init');
+
+      at Object.<anonymous> (../../../Variants/express/variant3/express/node_modules/finalhandler/index.js:14:29)
+      at Object.<anonymous> (../../../Variants/express/variant3/express/lib/application.js:16:20)
+
+FAIL test/create-node-middleware.test.ts
+  ● Test suite failed to run
+
+    TypeError: require(...) is not a function
+
+      14 |  */
+      15 |
+    > 16 | var finalhandler = require('finalhandler');
+         |                    ^
+      17 | var Router = require('./router');
+      18 | var methods = require('methods');
+      19 | var middleware = require('./middleware/init');
+
+      at Object.<anonymous> (../../../Variants/express/variant3/express/node_modules/finalhandler/index.js:14:29)
+      at Object.<anonymous> (../../../Variants/express/variant3/express/lib/application.js:16:20)
+
+FAIL test/apps/default.test.ts
+  ● Test suite failed to run
+
+    TypeError: require(...) is not a function
+
+      14 |  */
+      15 |
+    > 16 | var finalhandler = require('finalhandler');
+         |                    ^
+      17 | var Router = require('./router');
+      18 | var methods = require('methods');
+      19 | var middleware = require('./middleware/init');
+
+      at Object.<anonymous> (../../../Variants/express/variant3/express/node_modules/finalhandler/index.js:14:29)
+      at Object.<anonymous> (../../../Variants/express/variant3/express/lib/application.js:16:20)
+
+FAIL test/create-probot.test.ts
+  ● Test suite failed to run
+
+    TypeError: require(...) is not a function
+
+      14 |  */
+      15 |
+    > 16 | var finalhandler = require('finalhandler');
+         |                    ^
+      17 | var Router = require('./router');
+      18 | var methods = require('methods');
+      19 | var middleware = require('./middleware/init');
+
+      at Object.<anonymous> (../../../Variants/express/variant3/express/node_modules/finalhandler/index.js:14:29)
+      at Object.<anonymous> (../../../Variants/express/variant3/express/lib/application.js:16:20)
+
+FAIL test/webhook-proxy.test.ts
+  ● Test suite failed to run
+
+    TypeError: require(...) is not a function
+
+      14 |  */
+      15 |
+    > 16 | var finalhandler = require('finalhandler');
+         |                    ^
+      17 | var Router = require('./router');
+      18 | var methods = require('methods');
+      19 | var middleware = require('./middleware/init');
+
+      at Object.<anonymous> (../../../Variants/express/variant3/express/node_modules/finalhandler/index.js:14:29)
+      at Object.<anonymous> (../../../Variants/express/variant3/express/lib/application.js:16:20)
+
+FAIL test/server/logging-middleware.test.ts
+  ● Test suite failed to run
+
+    TypeError: require(...) is not a function
+
+      14 |  */
+      15 |
+    > 16 | var finalhandler = require('finalhandler');
+         |                    ^
+      17 | var Router = require('./router');
+      18 | var methods = require('methods');
+      19 | var middleware = require('./middleware/init');
+
+      at Object.<anonymous> (../../../Variants/express/variant3/express/node_modules/finalhandler/index.js:14:29)
+      at Object.<anonymous> (../../../Variants/express/variant3/express/lib/application.js:16:20)
+
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 11 failed, 5 passed, 16 total
+Tests:       27 passed, 27 total
+Snapshots:   0 total
+Time:        8.424 s, estimated 15 s
+Ran all test suites.
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+PASS test/helpers/is-production.test.ts
+FAIL test/create-probot.test.ts
+  ● Test suite failed to run
+
+    TypeError: inherits is not a function
+
+      at createHttpErrorConstructor (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:117:3)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:27:28)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/send/index.js:15:19)
+
+FAIL test/server/logging-middleware.test.ts
+  ● Test suite failed to run
+
+    TypeError: inherits is not a function
+
+      at createHttpErrorConstructor (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:117:3)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:27:28)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/send/index.js:15:19)
+
+FAIL test/create-node-middleware.test.ts
+  ● Test suite failed to run
+
+    TypeError: inherits is not a function
+
+      at createHttpErrorConstructor (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:117:3)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:27:28)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/send/index.js:15:19)
+
+FAIL test/e2e/e2e.test.ts
+  ● Test suite failed to run
+
+    TypeError: inherits is not a function
+
+      at createHttpErrorConstructor (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:117:3)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:27:28)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/send/index.js:15:19)
+
+FAIL test/webhook-proxy.test.ts
+  ● Test suite failed to run
+
+    TypeError: inherits is not a function
+
+      at createHttpErrorConstructor (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:117:3)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:27:28)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/send/index.js:15:19)
+
+FAIL test/apps/default.test.ts
+  ● Test suite failed to run
+
+    TypeError: inherits is not a function
+
+      at createHttpErrorConstructor (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:117:3)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:27:28)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/send/index.js:15:19)
+
+FAIL test/apps/setup.test.ts
+  ● Test suite failed to run
+
+    TypeError: inherits is not a function
+
+      at createHttpErrorConstructor (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:117:3)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:27:28)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/send/index.js:15:19)
+
+FAIL test/context.test.ts
+  ● Test suite failed to run
+
+    TypeError: inherits is not a function
+
+      at createHttpErrorConstructor (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:117:3)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:27:28)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/send/index.js:15:19)
+
+FAIL test/run.test.ts
+  ● Test suite failed to run
+
+    TypeError: inherits is not a function
+
+      at createHttpErrorConstructor (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:117:3)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:27:28)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/send/index.js:15:19)
+
+FAIL test/probot.test.ts
+  ● Test suite failed to run
+
+    TypeError: inherits is not a function
+
+      at createHttpErrorConstructor (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:117:3)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:27:28)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/send/index.js:15:19)
+
+FAIL test/server.test.ts
+  ● Test suite failed to run
+
+    TypeError: inherits is not a function
+
+      at createHttpErrorConstructor (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:117:3)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/http-errors/index.js:27:28)
+      at Object.<anonymous> (../../../Variants/express/variant2/express/node_modules/send/index.js:15:19)
+
+Test Suites: 11 failed, 5 passed, 16 total
+Tests:       27 passed, 27 total
+Snapshots:   0 total
+Time:        8.607 s
+Ran all test suites.
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/create-probot.test.ts
+FAIL test/server/logging-middleware.test.ts
+  ● logging › logs requests and responses
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at Object.<anonymous> (test/server/logging-middleware.test.ts:24:12)
+
+  ● logging › logs requests and responses
+
+    expected 200 "OK", got 404 "Not Found"
+
+      34 |     return request(server)
+      35 |       .get("/")
+    > 36 |       .expect(200)
+         |        ^
+      37 |       .expect((res) => {
+      38 |         // logs id with request and response
+      39 |         expect(output[0].req.id).toBeTruthy();
+
+      at Object.<anonymous> (test/server/logging-middleware.test.ts:36:8)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● logging › uses supplied X-Request-ID
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at Object.<anonymous> (test/server/logging-middleware.test.ts:24:12)
+
+  ● logging › uses supplied X-Request-ID
+
+    expected 200 "OK", got 404 "Not Found"
+
+      66 |       .get("/")
+      67 |       .set("X-Request-ID", "42")
+    > 68 |       .expect(200)
+         |        ^
+      69 |       .expect((res) => {
+      70 |         expect(output[0].req.id).toEqual("42");
+      71 |       });
+
+      at Object.<anonymous> (test/server/logging-middleware.test.ts:68:8)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+  ● logging › uses X-GitHub-Delivery
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at Object.<anonymous> (test/server/logging-middleware.test.ts:24:12)
+
+  ● logging › uses X-GitHub-Delivery
+
+    expected 200 "OK", got 404 "Not Found"
+
+      76 |       .get("/")
+      77 |       .set("X-GitHub-Delivery", "a-b-c")
+    > 78 |       .expect(200)
+         |        ^
+      79 |       .expect((res) => {
+      80 |         expect(output[0].req.id).toEqual("a-b-c");
+      81 |       });
+
+      at Object.<anonymous> (test/server/logging-middleware.test.ts:78:8)
+      ----
+      at Test.Object.<anonymous>.Test._assertStatus (node_modules/supertest/lib/test.js:296:12)
+      at node_modules/supertest/lib/test.js:80:15
+      at Test.Object.<anonymous>.Test._assertFunction (node_modules/supertest/lib/test.js:311:11)
+      at Test.Object.<anonymous>.Test.assert (node_modules/supertest/lib/test.js:201:21)
+      at Server.localAssert (node_modules/supertest/lib/test.js:159:12)
+
+PASS test/create-node-middleware.test.ts
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:63:9)
+
+FAIL test/webhook-proxy.test.ts
+  ● webhook-proxy › with a valid proxy server › forwards events to server
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.app.<computed> [as get] (../../../Variants/express/variant1/express/lib/application.js:496:10)
+      at Object.<anonymous> (test/webhook-proxy.test.ts:36:11)
+
+  ● webhook-proxy › with a valid proxy server › forwards events to server
+
+    TypeError: emit is not a function
+
+      64 |       const body = { action: "foo" };
+      65 |
+    > 66 |       emit({
+         |       ^
+      67 |         body,
+      68 |         "x-github-event": "test",
+      69 |       });
+
+      at Object.<anonymous> (test/webhook-proxy.test.ts:66:7)
+
+FAIL test/apps/default.test.ts
+  ● default app › GET /probot › returns a 200 response
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/apps/default.test.ts:21:14)
+
+  ● default app › GET /probot › returns a 200 response
+
+    TypeError: Cannot read properties of undefined (reading 'expressApp')
+
+      32 |   describe("GET /probot", () => {
+      33 |     it("returns a 200 response", () => {
+    > 34 |       return request(server.expressApp).get("/probot").expect(200);
+         |                             ^
+      35 |     });
+      36 |
+      37 |     describe("get info from package.json", () => {
+
+      at Object.<anonymous> (test/apps/default.test.ts:34:29)
+
+  ● default app › GET /probot › get info from package.json › returns the correct HTML with values
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/apps/default.test.ts:21:14)
+
+  ● default app › GET /probot › get info from package.json › returns the correct HTML with values
+
+    TypeError: Cannot read properties of undefined (reading 'expressApp')
+
+      42 |
+      43 |       it("returns the correct HTML with values", async () => {
+    > 44 |         const actual = await request(server.expressApp)
+         |                                             ^
+      45 |           .get("/probot")
+      46 |           .expect(200);
+      47 |         expect(actual.text).toMatch("Welcome to probot");
+
+      at Object.<anonymous> (test/apps/default.test.ts:44:45)
+
+  ● default app › GET /probot › get info from package.json › returns the correct HTML without values
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/apps/default.test.ts:21:14)
+
+  ● default app › GET /probot › get info from package.json › returns the correct HTML without values
+
+    TypeError: Cannot read properties of undefined (reading 'expressApp')
+
+      52 |       it("returns the correct HTML without values", async () => {
+      53 |         process.chdir(__dirname);
+    > 54 |         const actual = await request(server.expressApp)
+         |                                             ^
+      55 |           .get("/probot")
+      56 |           .expect(200);
+      57 |         expect(actual.text).toMatch("Welcome to your Probot App");
+
+      at Object.<anonymous> (test/apps/default.test.ts:54:45)
+
+  ● default app › GET / › redirects to /probot
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/apps/default.test.ts:21:14)
+
+  ● default app › GET / › redirects to /probot
+
+    TypeError: Cannot read properties of undefined (reading 'expressApp')
+
+      66 |   describe("GET /", () => {
+      67 |     it("redirects to /probot", () => {
+    > 68 |       return request(server.expressApp)
+         |                             ^
+      69 |         .get("/")
+      70 |         .expect(302)
+      71 |         .expect("location", "/probot");
+
+      at Object.<anonymous> (test/apps/default.test.ts:68:29)
+
+FAIL test/apps/setup.test.ts
+  ● Setup app › logs › should log welcome message
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/apps/setup.test.ts:26:14)
+
+  ● Setup app › logs › should log welcome message
+
+    expect(received).toEqual(expected) // deep equality
+
+    Expected: ArrayContaining ["", "Welcome to Probot!", "Probot is in setup mode, webhooks cannot be received and", "custom routes will not work until APP_ID and PRIVATE_KEY", "are configured in .env.", "Please follow the instructions at http://localhost:3000 to configure .env.", "Once you are done, restart the server.", ""]
+    Received: []
+
+      58 |         .map((o) => o.msg);
+      59 |
+    > 60 |       expect(infoLogs).toEqual(expect.arrayContaining(expMsgs));
+         |                        ^
+      61 |     });
+      62 |
+      63 |     it("should log welcome message with custom host and port", async () => {
+
+      at Object.<anonymous> (test/apps/setup.test.ts:60:24)
+
+  ● Setup app › logs › should log welcome message with custom host and port
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/apps/setup.test.ts:26:14)
+
+  ● Setup app › logs › should log welcome message with custom host and port
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/apps/setup.test.ts:64:23)
+
+  ● Setup app › GET /probot › returns a 200 response
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/apps/setup.test.ts:26:14)
+
+  ● Setup app › GET /probot › returns a 200 response
+
+    TypeError: Cannot read properties of undefined (reading 'expressApp')
+
+      86 |   describe("GET /probot", () => {
+      87 |     it("returns a 200 response", async () => {
+    > 88 |       await request(server.expressApp).get("/probot").expect(200);
+         |                            ^
+      89 |     });
+      90 |   });
+      91 |
+
+      at Object.<anonymous> (test/apps/setup.test.ts:88:28)
+
+  ● Setup app › GET /probot/setup › returns a redirect
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/apps/setup.test.ts:26:14)
+
+  ● Setup app › GET /probot/setup › returns a redirect
+
+    TypeError: Cannot read properties of undefined (reading 'expressApp')
+
+      103 |         });
+      104 |
+    > 105 |       await request(server.expressApp)
+          |                            ^
+      106 |         .get("/probot/setup")
+      107 |         .query({ code: "123" })
+      108 |         .expect(302)
+
+      at Object.<anonymous> (test/apps/setup.test.ts:105:28)
+
+  ● Setup app › GET /probot/import › renders import.handlebars
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/apps/setup.test.ts:26:14)
+
+  ● Setup app › GET /probot/import › renders import.handlebars
+
+    TypeError: Cannot read properties of undefined (reading 'expressApp')
+
+      116 |   describe("GET /probot/import", () => {
+      117 |     it("renders import.handlebars", async () => {
+    > 118 |       await request(server.expressApp).get("/probot/import").expect(200);
+          |                            ^
+      119 |     });
+      120 |   });
+      121 |
+
+      at Object.<anonymous> (test/apps/setup.test.ts:118:28)
+
+  ● Setup app › POST /probot/import › updates .env
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/apps/setup.test.ts:26:14)
+
+  ● Setup app › POST /probot/import › updates .env
+
+    TypeError: Cannot read properties of undefined (reading 'expressApp')
+
+      128 |       });
+      129 |
+    > 130 |       await request(server.expressApp)
+          |                            ^
+      131 |         .post("/probot/import")
+      132 |         .set("content-type", "application/json")
+      133 |         .send(body)
+
+      at Object.<anonymous> (test/apps/setup.test.ts:130:28)
+
+  ● Setup app › POST /probot/import › 400 when keys are missing
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/apps/setup.test.ts:26:14)
+
+  ● Setup app › POST /probot/import › 400 when keys are missing
+
+    TypeError: Cannot read properties of undefined (reading 'expressApp')
+
+      145 |       });
+      146 |
+    > 147 |       await request(server.expressApp)
+          |                            ^
+      148 |         .post("/probot/import")
+      149 |         .set("content-type", "application/json")
+      150 |         .send(body)
+
+      at Object.<anonymous> (test/apps/setup.test.ts:147:28)
+
+  ● Setup app › GET /probot/success › returns a 200 response
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/apps/setup.test.ts:26:14)
+
+  ● Setup app › GET /probot/success › returns a 200 response
+
+    TypeError: Cannot read properties of undefined (reading 'expressApp')
+
+      155 |   describe("GET /probot/success", () => {
+      156 |     it("returns a 200 response", async () => {
+    > 157 |       await request(server.expressApp).get("/probot/success").expect(200);
+          |                            ^
+      158 |
+      159 |       expect(createChannel).toHaveBeenCalledTimes(1);
+      160 |     });
+
+      at Object.<anonymous> (test/apps/setup.test.ts:157:28)
+
+PASS test/context.test.ts
+FAIL test/run.test.ts
+  ● run › params › runs with a function as argument
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.run (src/run.ts:146:12)
+      at Object.<anonymous> (test/run.test.ts:33:22)
+
+  ● run › params › runs with an array of strings
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.run (src/run.ts:109:14)
+      at Object.<anonymous> (test/run.test.ts:44:22)
+
+  ● run › params › runs without config and loads the setup app
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.run (src/run.ts:109:14)
+      at test/run.test.ts:60:24
+      at Object.<anonymous> (test/run.test.ts:59:14)
+
+  ● run › params › defaults to JSON logs if NODE_ENV is set to 'production'
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.run (src/run.ts:146:12)
+      at test/run.test.ts:77:24
+      at Object.captureLogOutput (test/helpers/capture-log-output.ts:12:11)
+      at Object.<anonymous> (test/run.test.ts:74:32)
+
+  ● run › webhooks › POST /
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.run (src/run.ts:146:12)
+      at Object.<anonymous> (test/run.test.ts:94:22)
+
+  ● run › webhooks › custom webhook path
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.run (src/run.ts:146:12)
+      at Object.<anonymous> (test/run.test.ts:110:22)
+
+PASS test/probot.test.ts
+FAIL test/server.test.ts
+  ● Server › Server.version
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/server.test.ts:36:14)
+
+  ● Server › GET /ping › returns a 200 response
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/server.test.ts:36:14)
+
+  ● Server › GET /ping › returns a 200 response
+
+    TypeError: Cannot read properties of undefined (reading 'expressApp')
+
+      58 |   describe("GET /ping", () => {
+      59 |     it("returns a 200 response", async () => {
+    > 60 |       await request(server.expressApp).get("/ping").expect(200, "PONG");
+         |                            ^
+      61 |       expect(output.length).toEqual(1);
+      62 |       expect(output[0].msg).toContain("GET /ping 200 -");
+      63 |     });
+
+      at Object.<anonymous> (test/server.test.ts:60:28)
+
+  ● Server › webhook handler (POST /) › should return 200 and run event handlers in app function
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/server.test.ts:36:14)
+
+  ● Server › webhook handler (POST /) › should return 200 and run event handlers in app function
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/server.test.ts:70:16)
+
+  ● Server › webhook handler (POST /) › should return 200 and run event handlers in app function
+
+    expect.assertions(3)
+
+    Expected three assertions to be called but received zero assertion calls.
+
+      66 |   describe("webhook handler (POST /)", () => {
+      67 |     it("should return 200 and run event handlers in app function", async () => {
+    > 68 |       expect.assertions(3);
+         |              ^
+      69 |
+      70 |       server = new Server({
+      71 |         Probot: Probot.defaults({
+
+      at Object.<anonymous> (test/server.test.ts:68:14)
+
+  ● Server › webhook handler (POST /) › respond with a friendly error when x-hub-signature-256 is missing
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/server.test.ts:36:14)
+
+  ● Server › webhook handler (POST /) › respond with a friendly error when x-hub-signature-256 is missing
+
+    TypeError: Cannot read properties of undefined (reading 'load')
+
+       98 |
+       99 |     test("respond with a friendly error when x-hub-signature-256 is missing", async () => {
+    > 100 |       await server.load(() => {});
+          |                    ^
+      101 |
+      102 |       await request(server.expressApp)
+      103 |         .post("/")
+
+      at Object.<anonymous> (test/server.test.ts:100:20)
+
+  ● Server › GET unknown URL › responds with 404
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/server.test.ts:36:14)
+
+  ● Server › GET unknown URL › responds with 404
+
+    TypeError: Cannot read properties of undefined (reading 'expressApp')
+
+      115 |   describe("GET unknown URL", () => {
+      116 |     it("responds with 404", async () => {
+    > 117 |       await request(server.expressApp).get("/notfound").expect(404);
+          |                            ^
+      118 |       expect(output.length).toEqual(1);
+      119 |       expect(output[0].msg).toContain("GET /notfound 404 -");
+      120 |     });
+
+      at Object.<anonymous> (test/server.test.ts:117:28)
+
+  ● Server › .start() / .stop() › should expect the correct error if port already in use
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/server.test.ts:36:14)
+
+  ● Server › .start() / .stop() › should expect the correct error if port already in use
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Server.<anonymous> (test/server.test.ts:130:24)
+
+  ● Server › .start() / .stop() › should expect the correct error if port already in use
+
+    expect.assertions(1)
+
+    Expected one assertion to be called but received zero assertion calls.
+
+      123 |   describe(".start() / .stop()", () => {
+      124 |     it("should expect the correct error if port already in use", (next) => {
+    > 125 |       expect.assertions(1);
+          |              ^
+      126 |
+      127 |       // block port 3001
+      128 |       const http = require("http");
+
+      at Object.<anonymous> (test/server.test.ts:125:14)
+
+  ● Server › .start() / .stop() › should listen to port when not in use
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/server.test.ts:36:14)
+
+  ● Server › .start() / .stop() › should listen to port when not in use
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/server.test.ts:150:23)
+
+  ● Server › .start() / .stop() › respects host/ip config when starting up HTTP server
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/server.test.ts:36:14)
+
+  ● Server › .start() / .stop() › respects host/ip config when starting up HTTP server
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/server.test.ts:164:23)
+
+  ● Server › router › prefixes paths with route name
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/server.test.ts:36:14)
+
+  ● Server › router › prefixes paths with route name
+
+    TypeError: Cannot read properties of undefined (reading 'router')
+
+      179 |   describe("router", () => {
+      180 |     it("prefixes paths with route name", () => {
+    > 181 |       const router = server.router("/my-app");
+          |                             ^
+      182 |       router.get("/foo", (req, res) => res.end("foo"));
+      183 |
+      184 |       return request(server.expressApp).get("/my-app/foo").expect(200, "foo");
+
+      at Object.<anonymous> (test/server.test.ts:181:29)
+
+  ● Server › router › allows routes with no path
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/server.test.ts:36:14)
+
+  ● Server › router › allows routes with no path
+
+    TypeError: Cannot read properties of undefined (reading 'router')
+
+      186 |
+      187 |     it("allows routes with no path", () => {
+    > 188 |       const router = server.router();
+          |                             ^
+      189 |       router.get("/foo", (req, res) => res.end("foo"));
+      190 |
+      191 |       return request(server.expressApp).get("/foo").expect(200, "foo");
+
+      at Object.<anonymous> (test/server.test.ts:188:29)
+
+  ● Server › router › allows you to overwrite the root path
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/server.test.ts:36:14)
+
+  ● Server › router › allows you to overwrite the root path
+
+    TypeError: Cannot read properties of undefined (reading 'router')
+
+      193 |
+      194 |     it("allows you to overwrite the root path", () => {
+    > 195 |       const router = server.router();
+          |                             ^
+      196 |       router.get("/", (req, res) => res.end("foo"));
+      197 |
+      198 |       return request(server.expressApp).get("/").expect(200, "foo");
+
+      at Object.<anonymous> (test/server.test.ts:195:29)
+
+  ● Server › router › isolates apps from affecting each other
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/server.test.ts:36:14)
+
+  ● Server › router › isolates apps from affecting each other
+
+    TypeError: Cannot read properties of undefined (reading 'router')
+
+      201 |     it("isolates apps from affecting each other", async () => {
+      202 |       ["foo", "bar"].forEach((name) => {
+    > 203 |         const router = server.router("/" + name);
+          |                               ^
+      204 |
+      205 |         router.use((req, res, next) => {
+      206 |           res.append("X-Test", name);
+
+      at test/server.test.ts:203:31
+          at Array.forEach (<anonymous>)
+      at Object.<anonymous> (test/server.test.ts:202:22)
+
+  ● Server › router › responds with 500 on error
+
+    TypeError: setPrototypeOf is not a function
+
+      49 |
+      50 |   // mixin Router class functions
+    > 51 |   setPrototypeOf(router, proto)
+         |   ^
+      52 |
+      53 |   router.params = {};
+      54 |   router._params = [];
+
+      at new Object.<anonymous>.module.exports (../../../Variants/express/variant1/express/lib/router/index.js:51:3)
+      at Function.lazyrouter (../../../Variants/express/variant1/express/lib/application.js:146:20)
+      at Function.use (../../../Variants/express/variant1/express/lib/application.js:221:8)
+      at new Server (src/server/server.ts:47:21)
+      at Object.<anonymous> (test/server.test.ts:36:14)
+
+  ● Server › router › responds with 500 on error
+
+    TypeError: Cannot read properties of undefined (reading 'expressApp')
+
+      223 |
+      224 |     it("responds with 500 on error", async () => {
+    > 225 |       server.expressApp.get("/boom", () => {
+          |              ^
+      226 |         throw new Error("boom");
+      227 |       });
+      228 |
+
+      at Object.<anonymous> (test/server.test.ts:225:14)
+
+Test Suites: 7 failed, 9 passed, 16 total
+Tests:       36 failed, 2 skipped, 81 passed, 119 total
+Snapshots:   5 passed, 5 total
+Time:        11.889 s
+Ran all test suites.
+Jest did not exit one second after the test run has completed.
+
+This usually means that there are asynchronous operations that weren't stopped in your tests. Consider running Jest with `--detectOpenHandles` to troubleshoot this issue.
