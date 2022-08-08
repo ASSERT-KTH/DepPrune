@@ -1,0 +1,292 @@
+/data/js-variants/multee
+3
+proxy is testing ./Variants/finalhandler/variant3/finalhandler
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1146 packages in 4s
+
+365 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 456ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 436ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1147 packages in 3s
+
+365 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+
+> @ladjs/proxy@3.0.0 pretest
+> npm run lint
+
+
+> @ladjs/proxy@3.0.0 lint
+> xo --fix && remark . -qfo && fixpack
+
+package.json already clean!
+
+> @ladjs/proxy@3.0.0 test
+> cross-env NODE_ENV=test nyc ava
+
+
+  ✔ starts and stops server
+  ✔ starts and stops server with proxyProtocol = true
+  ✔ redirects http to https
+  ✔ does not redirect http to https
+  ✔ serves acme challenge
+  ✔ redirects http to https and does not remove prefix
+  ─
+
+  6 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+proxy is testing ./Variants/finalhandler/variant2/finalhandler
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1146 packages in 4s
+
+365 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 443ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 450ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1147 packages in 3s
+
+365 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+
+> @ladjs/proxy@3.0.0 pretest
+> npm run lint
+
+
+> @ladjs/proxy@3.0.0 lint
+> xo --fix && remark . -qfo && fixpack
+
+package.json already clean!
+
+> @ladjs/proxy@3.0.0 test
+> cross-env NODE_ENV=test nyc ava
+
+
+  ✔ starts and stops server
+  ✔ starts and stops server with proxyProtocol = true
+  ✔ redirects http to https
+  ✔ does not redirect http to https
+  ✔ serves acme challenge
+  ✔ redirects http to https and does not remove prefix
+  ─
+
+  6 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+proxy is testing ./Variants/finalhandler/variant1/finalhandler
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1146 packages in 4s
+
+365 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 447ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 411ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1147 packages in 3s
+
+365 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+
+> @ladjs/proxy@3.0.0 pretest
+> npm run lint
+
+
+> @ladjs/proxy@3.0.0 lint
+> xo --fix && remark . -qfo && fixpack
+
+package.json already clean!
+
+> @ladjs/proxy@3.0.0 test
+> cross-env NODE_ENV=test nyc ava
+
+
+  ✔ starts and stops server
+  ✔ starts and stops server with proxyProtocol = true
+  ✔ redirects http to https
+  ✔ does not redirect http to https
+  ✔ serves acme challenge
+  ✔ redirects http to https and does not remove prefix
+  ─
+
+  6 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+variantsDepsNum: 2
+/data/js-variants/multee
+2
+proxy is testing ./VariantsDeps/finalhandler/variant2/finalhandler
+
+removed 1 package, and audited 1146 packages in 4s
+
+365 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+removed 1 package, and audited 1 package in 436ms
+
+found 0 vulnerabilities
+
+added 1 package, and audited 3 packages in 412ms
+
+found 0 vulnerabilities
+
+added 1 package, and audited 1147 packages in 3s
+
+365 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> @ladjs/proxy@3.0.0 pretest
+> npm run lint
+
+
+> @ladjs/proxy@3.0.0 lint
+> xo --fix && remark . -qfo && fixpack
+
+package.json already clean!
+
+> @ladjs/proxy@3.0.0 test
+> cross-env NODE_ENV=test nyc ava
+
+
+  ✔ starts and stops server
+  ✔ starts and stops server with proxyProtocol = true
+  ✔ redirects http to https
+  ✔ does not redirect http to https
+  ✔ serves acme challenge
+  ✔ redirects http to https and does not remove prefix
+  ─
+
+  6 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+proxy is testing ./VariantsDeps/finalhandler/variant1/finalhandler
+
+removed 1 package, and audited 1146 packages in 4s
+
+365 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+removed 1 package, and audited 1 package in 475ms
+
+found 0 vulnerabilities
+
+added 1 package, and audited 3 packages in 382ms
+
+found 0 vulnerabilities
+
+added 1 package, and audited 1147 packages in 3s
+
+365 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> @ladjs/proxy@3.0.0 pretest
+> npm run lint
+
+
+> @ladjs/proxy@3.0.0 lint
+> xo --fix && remark . -qfo && fixpack
+
+package.json already clean!
+
+> @ladjs/proxy@3.0.0 test
+> cross-env NODE_ENV=test nyc ava
+
+
+  ✔ starts and stops server
+  ✔ starts and stops server with proxyProtocol = true
+  ✔ redirects http to https
+  ✔ does not redirect http to https
+  ✔ serves acme challenge
+  ✔ redirects http to https and does not remove prefix
+  ─
+
+  6 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
