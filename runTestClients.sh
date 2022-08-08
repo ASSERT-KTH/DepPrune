@@ -1,51 +1,53 @@
 projectName=$1
 clientName=$2
 
-variantsNum=`cd Variants/$projectName && ls -l |grep "^d"|wc -l`
-echo $(pwd)
+# variantsNum=`cd Variants/$projectName && ls -l |grep "^d"|wc -l`
+# echo $(pwd)
 
-echo $variantsNum
-echo $variantsNum > /dev/stderr
+# echo $variantsNum
+# echo $variantsNum > /dev/stderr
 
-# For each variant, we test its client under the corresponding dependency
-# 1. Unlink the module(variant)'s name
-# 2. Globally unlink the previous variant module
-# 3. Enter next variant and link globally, run "sudo npm link"
-# 4. Enter the client root path, run "npm link module-name"
-# 5. Run test for the client, and log it.
+# # For each variant, we test its client under the corresponding dependency
+# # 1. Unlink the module(variant)'s name
+# # 2. Globally unlink the previous variant module
+# # 3. Enter next variant and link globally, run "sudo npm link"
+# # 4. Enter the client root path, run "npm link module-name"
+# # 5. Run test for the client, and log it.
 
-for (( i=$variantsNum; i>=1; i--))
-do
-    echo $clientName" is testing ./Variants/"$projectName"/variant"$i"/"$projectName
-    echo $(pwd)
-    cd "Clients/"$projectName"/"$clientName
+# for (( i=$variantsNum; i>=1; i--))
+# do
+#     echo $clientName" is testing ./Variants/"$projectName"/variant"$i"/"$projectName
+#     echo $(pwd)
+#     cd "Clients/"$projectName"/"$clientName
 
-    # step 1
-    echo "************* npm unlink module *************"
-    npm unlink --no-save $projectName
-    echo "************* npm unlink module done *************"
+#     # step 1
+#     echo "************* npm unlink module *************"
+#     npm unlink --no-save $projectName
+#     echo "************* npm unlink module done *************"
 
-    # step 2
-    echo "************* npm unlink globally *************"
-    sudo npm rm --global $projectName
-    echo "************* npm unlink globally done *************"
+#     # step 2
+#     echo "************* npm unlink globally *************"
+#     sudo npm rm --global $projectName
+#     echo "************* npm unlink globally done *************"
 
-    # step 3
-    cd "../../../Variants/"$projectName"/variant"$i"/"$projectName
-    echo "************* npm link globally *************"
-    sudo npm link
-    echo "************* npm link globally done *************"
+#     # step 3
+#     cd "../../../Variants/"$projectName"/variant"$i"/"$projectName
+#     echo "************* npm link globally *************"
+#     sudo npm link
+#     echo "************* npm link globally done *************"
 
-    # step 4
-    cd "../../../../Clients/"$projectName"/"$clientName
-    echo "************* npm link module *************"
-    npm link $projectName
-    echo "************* npm link module done *************"
+#     # step 4
+#     cd "../../../../Clients/"$projectName"/"$clientName
+#     echo "************* npm link module *************"
+#     npm link $projectName
+#     echo "************* npm link module done *************"
 
-    # step 5
-    timeout -k 10s 2m npm run test
-    cd ../../..
-done
+#     # step 5
+#     echo "************* start run test *************"
+#     timeout -k 10s 2m npm run test
+#     cd ../../..
+#     echo "************* run test done *************"
+# done
 
 variantsDepsNum=`cd VariantsDeps/$projectName && ls -l |grep "^d"|wc -l`
 echo "variantsDepsNum: "$variantsDepsNum
@@ -61,15 +63,29 @@ do
     
     cd "Clients/"$projectName"/"$clientName
     # step 1
+    echo "************* npm unlink module *************"
     npm unlink --no-save $projectName
+    echo "************* npm unlink module done *************"
+
     # step 2
+    echo "************* npm unlink globally *************"
     sudo npm rm --global $projectName
+    echo "************* npm unlink module done *************"
+
     # step 3
     cd "../../../VariantsDeps/"$projectName"/variant"$i"/"$projectName
+    echo "************* npm link globally *************"
     sudo npm link
-    cd "../../../../Clients/"$projectName"/"$clientName
-    npm link $projectName
+    echo "************* npm link globally done *************"
 
+    # step 4
+    cd "../../../../Clients/"$projectName"/"$clientName
+    echo "************* npm link module *************"
+    npm link $projectName
+    echo "************* npm link module done *************"
+
+    echo "************* start run test *************"
     timeout -k 10s 2m npm run test
     cd ../../..
+    echo "************* run test done *************"
 done
