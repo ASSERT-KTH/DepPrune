@@ -1,0 +1,1302 @@
+/data/js-variants/multee
+10
+stylelint is testing ./Variants/meow/variant10/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 2 packages, and audited 1077 packages in 4s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 677ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 390ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 3s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> stylelint@14.9.1 test
+> jest --coverage
+
+************* run test done *************
+stylelint is testing ./Variants/meow/variant9/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1077 packages in 3s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 678ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 397ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 3s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> stylelint@14.9.1 test
+> jest --coverage
+
+************* run test done *************
+stylelint is testing ./Variants/meow/variant8/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1077 packages in 3s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 674ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 397ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 3s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> stylelint@14.9.1 test
+> jest --coverage
+
+************* run test done *************
+stylelint is testing ./Variants/meow/variant7/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1077 packages in 4s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 674ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 400ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 3s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> stylelint@14.9.1 test
+> jest --coverage
+
+************* run test done *************
+stylelint is testing ./Variants/meow/variant6/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1077 packages in 3s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 693ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 399ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 3s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> stylelint@14.9.1 test
+> jest --coverage
+
+************* run test done *************
+stylelint is testing ./Variants/meow/variant5/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1077 packages in 3s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 677ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 397ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 3s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> stylelint@14.9.1 test
+> jest --coverage
+
+************* run test done *************
+stylelint is testing ./Variants/meow/variant4/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1077 packages in 4s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 663ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 414ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 3s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> stylelint@14.9.1 test
+> jest --coverage
+
+************* run test done *************
+stylelint is testing ./Variants/meow/variant3/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1077 packages in 3s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 674ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 391ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 3s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> stylelint@14.9.1 test
+> jest --coverage
+
+************* run test done *************
+stylelint is testing ./Variants/meow/variant2/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1077 packages in 3s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 679ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 385ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 2s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> stylelint@14.9.1 test
+> jest --coverage
+
+************* run test done *************
+stylelint is testing ./Variants/meow/variant1/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1077 packages in 4s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 666ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 382ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 3s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> stylelint@14.9.1 test
+> jest --coverage
+
+************* run test done *************
+variantsDepsNum: 11
+/data/js-variants/multee
+11
+stylelint is testing ./VariantsDeps/meow/variant11/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 1077 packages in 3s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 674ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 388ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 3s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> stylelint@14.9.1 test
+> jest --coverage
+
+************* run test done *************
+stylelint is testing ./VariantsDeps/meow/variant10/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 1077 packages in 3s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 674ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 390ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 3s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> stylelint@14.9.1 test
+> jest --coverage
+
+************* run test done *************
+stylelint is testing ./VariantsDeps/meow/variant9/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 1077 packages in 4s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 665ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 517ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 3s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> stylelint@14.9.1 test
+> jest --coverage
+
+************* run test done *************
+stylelint is testing ./VariantsDeps/meow/variant8/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 1077 packages in 5s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 530ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 5s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> stylelint@14.9.1 test
+> jest --coverage
+
+************* run test done *************
+stylelint is testing ./VariantsDeps/meow/variant7/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 1077 packages in 3s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 680ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 394ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 3s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> stylelint@14.9.1 test
+> jest --coverage
+
+************* run test done *************
+stylelint is testing ./VariantsDeps/meow/variant6/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 1077 packages in 4s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 667ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 401ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 3s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> stylelint@14.9.1 test
+> jest --coverage
+
+************* run test done *************
+stylelint is testing ./VariantsDeps/meow/variant5/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 1077 packages in 3s
+
+283 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 657ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 396ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1079 packages in 3s
+
+284 packages are looking for funding
+  run `npm fund` for details
+
+6 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> stylelint@14.9.1 pretest
+> npm run lint
+
+
+> stylelint@14.9.1 lint
+> npm-run-all --parallel --continue-on-error lint:*
+
+
+> stylelint@14.9.1 lint:js
+> eslint . --cache --max-warnings=0
+
+
+> stylelint@14.9.1 lint:formatting
+> prettier . --check --cache
+
+
+> stylelint@14.9.1 lint:md
+> remark . --quiet --frail
+
+
+> stylelint@14.9.1 lint:types
+> tsc
+
+Checking formatting...
+All matched files use Prettier code style!

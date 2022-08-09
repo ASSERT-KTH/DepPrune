@@ -1,5 +1,5 @@
-sh runTestClients.sh express firebase-functions 2>>Data/test_firebase-functions_express_file_error.log >> Data/test_firebase-functions_express_file.log
-sh runTestClients.sh express hubot 2>>Data/test_hubot_express_file_error.log >> Data/test_hubot_express_file.log
-sh runTestClients.sh express loopback 2>>Data/test_loopback_express_file_error.log >> Data/test_loopback_express_file.log
-sh runTestClients.sh express probot 2>>Data/test_probot_express_file_error.log >> Data/test_probot_express_file.log
-sh runTestClients.sh express routing-controllers 2>>Data/test_routing-controllers_express_file_error.log >> Data/test_routing-controllers_express_file.log
+# sh runTestClients.sh meow xo 2>>Data/test_meow_xo_func_error.log >> Data/test_meow_xo_func.log
+# sh runTestClients.sh meow stylelint 2>>Data/test_meow_stylelint_func_error.log >> Data/test_meow_stylelint_func.log
+sh runTestClients.sh meow chalk-animation 2>>Data/test_meow_chalk-animation_func_error.log >> Data/test_meow_chalk-animation_func.log
+sh runTestClients.sh meow polyline 2>>Data/test_meow_polyline_func_error.log >> Data/test_meow_polyline_func.log
+sh runTestClients.sh meow tsd 2>>Data/test_meow_tsd_func_error.log >> Data/test_meow_tsd_func.log
