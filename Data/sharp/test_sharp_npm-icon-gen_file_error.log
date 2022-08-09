@@ -1,0 +1,442 @@
+3
+npm ERR! code 1
+npm ERR! path /data/js-variants/multee/VariantsDeps/sharp/variant3/sharp
+npm ERR! command failed
+npm ERR! command sh -c /tmp/install-1660065189119.sh
+npm ERR! sharp: Using existing vendored libvips v8.12.2
+npm ERR! make: Entering directory '/data/js-variants/multee/VariantsDeps/sharp/variant3/sharp/build'
+npm ERR!   TOUCH Release/obj.target/libvips-cpp.stamp
+npm ERR!   CC(target) Release/obj.target/nothing/node_modules/node-addon-api/nothing.o
+npm ERR!   AR(target) Release/obj.target/node_modules/node-addon-api/nothing.a
+npm ERR!   COPY Release/nothing.a
+npm ERR!   CXX(target) Release/obj.target/sharp-linux-x64/src/common.o
+npm ERR! make: Leaving directory '/data/js-variants/multee/VariantsDeps/sharp/variant3/sharp/build'
+npm ERR! prebuild-install warn install EACCES: permission denied, access '/root/.npm'
+npm ERR! gyp info it worked if it ends with ok
+npm ERR! gyp info using node-gyp@6.1.0
+npm ERR! gyp info using node@18.3.0 | linux | x64
+npm ERR! gyp info find Python using Python version 3.10.5 found at "/usr/bin/python3"
+npm ERR! gyp WARN EACCES current user ("liu-yuxin") does not have permission to access the dev dir "/root/.cache/node-gyp/18.3.0"
+npm ERR! gyp WARN EACCES attempting to reinstall using temporary dev dir "/tmp/.node-gyp"
+npm ERR! (node:45370) [DEP0150] DeprecationWarning: Setting process.config is deprecated. In the future the property will be read-only.
+npm ERR! (Use `node --trace-deprecation ...` to show where the warning was created)
+npm ERR! gyp info spawn /usr/bin/python3
+npm ERR! gyp info spawn args [
+npm ERR! gyp info spawn args   '/data/js-variants/multee/VariantsDeps/sharp/variant3/sharp/node_modules/node-gyp/gyp/gyp_main.py',
+npm ERR! gyp info spawn args   'binding.gyp',
+npm ERR! gyp info spawn args   '-f',
+npm ERR! gyp info spawn args   'make',
+npm ERR! gyp info spawn args   '-I',
+npm ERR! gyp info spawn args   '/data/js-variants/multee/VariantsDeps/sharp/variant3/sharp/build/config.gypi',
+npm ERR! gyp info spawn args   '-I',
+npm ERR! gyp info spawn args   '/data/js-variants/multee/VariantsDeps/sharp/variant3/sharp/node_modules/node-gyp/addon.gypi',
+npm ERR! gyp info spawn args   '-I',
+npm ERR! gyp info spawn args   '/tmp/.node-gyp/18.3.0/include/node/common.gypi',
+npm ERR! gyp info spawn args   '-Dlibrary=shared_library',
+npm ERR! gyp info spawn args   '-Dvisibility=default',
+npm ERR! gyp info spawn args   '-Dnode_root_dir=/tmp/.node-gyp/18.3.0',
+npm ERR! gyp info spawn args   '-Dnode_gyp_dir=/data/js-variants/multee/VariantsDeps/sharp/variant3/sharp/node_modules/node-gyp',
+npm ERR! gyp info spawn args   '-Dnode_lib_file=/tmp/.node-gyp/18.3.0/<(target_arch)/node.lib',
+npm ERR! gyp info spawn args   '-Dmodule_root_dir=/data/js-variants/multee/VariantsDeps/sharp/variant3/sharp',
+npm ERR! gyp info spawn args   '-Dnode_engine=v8',
+npm ERR! gyp info spawn args   '--depth=.',
+npm ERR! gyp info spawn args   '--no-parallel',
+npm ERR! gyp info spawn args   '--generator-output',
+npm ERR! gyp info spawn args   'build',
+npm ERR! gyp info spawn args   '-Goutput_dir=.'
+npm ERR! gyp info spawn args ]
+npm ERR! gyp info spawn make
+npm ERR! gyp info spawn args [ 'BUILDTYPE=Release', '-C', 'build' ]
+npm ERR! ../src/common.cc:24:10: fatal error: vips/vips8: No such file or directory
+npm ERR!    24 | #include <vips/vips8>
+npm ERR!       |          ^~~~~~~~~~~~
+npm ERR! compilation terminated.
+npm ERR! make: *** [sharp-linux-x64.target.mk:139: Release/obj.target/sharp-linux-x64/src/common.o] Error 1
+npm ERR! gyp ERR! build error 
+npm ERR! gyp ERR! stack Error: `make` failed with exit code: 2
+npm ERR! gyp ERR! stack     at ChildProcess.onExit (/data/js-variants/multee/VariantsDeps/sharp/variant3/sharp/node_modules/node-gyp/lib/build.js:194:23)
+npm ERR! gyp ERR! stack     at ChildProcess.emit (node:events:527:28)
+npm ERR! gyp ERR! stack     at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+npm ERR! gyp ERR! System Linux 5.13.0-1031-azure
+npm ERR! gyp ERR! command "/usr/local/bin/node" "/data/js-variants/multee/VariantsDeps/sharp/variant3/sharp/node_modules/.bin/node-gyp" "rebuild"
+npm ERR! gyp ERR! cwd /data/js-variants/multee/VariantsDeps/sharp/variant3/sharp
+npm ERR! gyp ERR! node -v v18.3.0
+npm ERR! gyp ERR! node-gyp -v v6.1.0
+npm ERR! gyp ERR! not ok
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-08-09T17_13_08_930Z-debug-0.log
+PASS src/lib/rle.test.ts
+  RLE
+    packBits
+      ✓ Normaly (2 ms)
+    packICNS
+      ✓ Normaly (1 ms)
+    unpackBits
+      ✓ Normaly
+    _packBitsLiteralToResult
+      ✓ Normaly
+      ✓ Empty
+
+PASS src/lib/favicon.test.ts
+  Favicon
+    ✓ generateFavicon (45 ms)
+    ✓ generatePNG (4 ms)
+
+PASS src/lib/ico.test.ts
+  ICO
+    ✓ generateICO (59 ms)
+
+PASS src/lib/png.test.ts
+  PNG
+    generatePNG
+      ✓ Generate (17 ms)
+    filterImagesBySizes
+      ✓ ICO
+      ✓ ICNS
+      ✓ Favicon
+
+PASS src/lib/icns.test.ts
+  ICNS
+    ✓ generateICNS (21 ms)
+
+PASS src/bin/cli.test.ts
+  CLI
+    parseArgv
+      input
+        ✓ --input (5 ms)
+        ✓ -i
+      output
+        ✓ --output (1 ms)
+        ✓ -o
+      icon
+        ✓ Defaults
+      icon.ico
+        ✓ --ico
+        ✓ --ico-name (1 ms)
+        ✓ --ico-sizes (1 ms)
+      icon.icns
+        ✓ --icns
+        ✓ --icns-name
+        ✓ --icns-sizes (1 ms)
+      icon.favicon
+        ✓ --favicon (1 ms)
+        ✓ --favicon-name (1 ms)
+        ✓ --favicon-png-sizes
+        ✓ --favicon-ico-sizes
+
+Test Suites: 6 passed, 6 total
+Tests:       28 passed, 28 total
+Snapshots:   0 total
+Time:        3.966 s
+Ran all test suites.
+npm ERR! code 1
+npm ERR! path /data/js-variants/multee/VariantsDeps/sharp/variant2/sharp
+npm ERR! command failed
+npm ERR! command sh -c /tmp/install-1660065203530.sh
+npm ERR! sharp: Using existing vendored libvips v8.12.2
+npm ERR! make: Entering directory '/data/js-variants/multee/VariantsDeps/sharp/variant2/sharp/build'
+npm ERR!   TOUCH Release/obj.target/libvips-cpp.stamp
+npm ERR!   CC(target) Release/obj.target/nothing/node_modules/node-addon-api/nothing.o
+npm ERR!   AR(target) Release/obj.target/node_modules/node-addon-api/nothing.a
+npm ERR!   COPY Release/nothing.a
+npm ERR!   CXX(target) Release/obj.target/sharp-linux-x64/src/common.o
+npm ERR! make: Leaving directory '/data/js-variants/multee/VariantsDeps/sharp/variant2/sharp/build'
+npm ERR! prebuild-install warn install EACCES: permission denied, access '/root/.npm'
+npm ERR! gyp info it worked if it ends with ok
+npm ERR! gyp info using node-gyp@6.1.0
+npm ERR! gyp info using node@18.3.0 | linux | x64
+npm ERR! gyp info find Python using Python version 3.10.5 found at "/usr/bin/python3"
+npm ERR! gyp WARN EACCES current user ("liu-yuxin") does not have permission to access the dev dir "/root/.cache/node-gyp/18.3.0"
+npm ERR! gyp WARN EACCES attempting to reinstall using temporary dev dir "/tmp/.node-gyp"
+npm ERR! (node:45826) [DEP0150] DeprecationWarning: Setting process.config is deprecated. In the future the property will be read-only.
+npm ERR! (Use `node --trace-deprecation ...` to show where the warning was created)
+npm ERR! gyp info spawn /usr/bin/python3
+npm ERR! gyp info spawn args [
+npm ERR! gyp info spawn args   '/data/js-variants/multee/VariantsDeps/sharp/variant2/sharp/node_modules/node-gyp/gyp/gyp_main.py',
+npm ERR! gyp info spawn args   'binding.gyp',
+npm ERR! gyp info spawn args   '-f',
+npm ERR! gyp info spawn args   'make',
+npm ERR! gyp info spawn args   '-I',
+npm ERR! gyp info spawn args   '/data/js-variants/multee/VariantsDeps/sharp/variant2/sharp/build/config.gypi',
+npm ERR! gyp info spawn args   '-I',
+npm ERR! gyp info spawn args   '/data/js-variants/multee/VariantsDeps/sharp/variant2/sharp/node_modules/node-gyp/addon.gypi',
+npm ERR! gyp info spawn args   '-I',
+npm ERR! gyp info spawn args   '/tmp/.node-gyp/18.3.0/include/node/common.gypi',
+npm ERR! gyp info spawn args   '-Dlibrary=shared_library',
+npm ERR! gyp info spawn args   '-Dvisibility=default',
+npm ERR! gyp info spawn args   '-Dnode_root_dir=/tmp/.node-gyp/18.3.0',
+npm ERR! gyp info spawn args   '-Dnode_gyp_dir=/data/js-variants/multee/VariantsDeps/sharp/variant2/sharp/node_modules/node-gyp',
+npm ERR! gyp info spawn args   '-Dnode_lib_file=/tmp/.node-gyp/18.3.0/<(target_arch)/node.lib',
+npm ERR! gyp info spawn args   '-Dmodule_root_dir=/data/js-variants/multee/VariantsDeps/sharp/variant2/sharp',
+npm ERR! gyp info spawn args   '-Dnode_engine=v8',
+npm ERR! gyp info spawn args   '--depth=.',
+npm ERR! gyp info spawn args   '--no-parallel',
+npm ERR! gyp info spawn args   '--generator-output',
+npm ERR! gyp info spawn args   'build',
+npm ERR! gyp info spawn args   '-Goutput_dir=.'
+npm ERR! gyp info spawn args ]
+npm ERR! gyp info spawn make
+npm ERR! gyp info spawn args [ 'BUILDTYPE=Release', '-C', 'build' ]
+npm ERR! ../src/common.cc:24:10: fatal error: vips/vips8: No such file or directory
+npm ERR!    24 | #include <vips/vips8>
+npm ERR!       |          ^~~~~~~~~~~~
+npm ERR! compilation terminated.
+npm ERR! make: *** [sharp-linux-x64.target.mk:139: Release/obj.target/sharp-linux-x64/src/common.o] Error 1
+npm ERR! gyp ERR! build error 
+npm ERR! gyp ERR! stack Error: `make` failed with exit code: 2
+npm ERR! gyp ERR! stack     at ChildProcess.onExit (/data/js-variants/multee/VariantsDeps/sharp/variant2/sharp/node_modules/node-gyp/lib/build.js:194:23)
+npm ERR! gyp ERR! stack     at ChildProcess.emit (node:events:527:28)
+npm ERR! gyp ERR! stack     at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+npm ERR! gyp ERR! System Linux 5.13.0-1031-azure
+npm ERR! gyp ERR! command "/usr/local/bin/node" "/data/js-variants/multee/VariantsDeps/sharp/variant2/sharp/node_modules/.bin/node-gyp" "rebuild"
+npm ERR! gyp ERR! cwd /data/js-variants/multee/VariantsDeps/sharp/variant2/sharp
+npm ERR! gyp ERR! node -v v18.3.0
+npm ERR! gyp ERR! node-gyp -v v6.1.0
+npm ERR! gyp ERR! not ok
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-08-09T17_13_23_343Z-debug-0.log
+PASS src/lib/rle.test.ts
+  RLE
+    packBits
+      ✓ Normaly (2 ms)
+    packICNS
+      ✓ Normaly
+    unpackBits
+      ✓ Normaly
+    _packBitsLiteralToResult
+      ✓ Normaly (1 ms)
+      ✓ Empty
+
+PASS src/lib/png.test.ts
+  PNG
+    generatePNG
+      ✓ Generate (15 ms)
+    filterImagesBySizes
+      ✓ ICO
+      ✓ ICNS
+      ✓ Favicon
+
+PASS src/lib/favicon.test.ts
+  Favicon
+    ✓ generateFavicon (53 ms)
+    ✓ generatePNG (5 ms)
+
+PASS src/bin/cli.test.ts
+  CLI
+    parseArgv
+      input
+        ✓ --input (3 ms)
+        ✓ -i
+      output
+        ✓ --output
+        ✓ -o (1 ms)
+      icon
+        ✓ Defaults
+      icon.ico
+        ✓ --ico
+        ✓ --ico-name (1 ms)
+        ✓ --ico-sizes
+      icon.icns
+        ✓ --icns (1 ms)
+        ✓ --icns-name
+        ✓ --icns-sizes
+      icon.favicon
+        ✓ --favicon (1 ms)
+        ✓ --favicon-name
+        ✓ --favicon-png-sizes (1 ms)
+        ✓ --favicon-ico-sizes
+
+PASS src/lib/ico.test.ts
+  ICO
+    ✓ generateICO (55 ms)
+
+PASS src/lib/icns.test.ts
+  ICNS
+    ✓ generateICNS (15 ms)
+
+Test Suites: 6 passed, 6 total
+Tests:       28 passed, 28 total
+Snapshots:   0 total
+Time:        4.029 s
+Ran all test suites.
+npm ERR! code 1
+npm ERR! path /data/js-variants/multee/VariantsDeps/sharp/variant1/sharp
+npm ERR! command failed
+npm ERR! command sh -c /tmp/install-1660065217746.sh
+npm ERR! /data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/lib/libvips.js:16
+npm ERR! const minimumLibvipsVersion = semverCoerce(minimumLibvipsVersionLabelled).version;
+npm ERR!                                                                          ^
+npm ERR! 
+npm ERR! TypeError: Cannot read properties of null (reading 'version')
+npm ERR!     at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/lib/libvips.js:16:74)
+npm ERR!     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+npm ERR!     at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+npm ERR!     at Module.load (node:internal/modules/cjs/loader:981:32)
+npm ERR!     at Module._load (node:internal/modules/cjs/loader:827:12)
+npm ERR!     at Module.require (node:internal/modules/cjs/loader:1005:19)
+npm ERR!     at require (node:internal/modules/cjs/helpers:102:18)
+npm ERR!     at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/install/libvips.js:17:17)
+npm ERR!     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+npm ERR!     at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+npm ERR! 
+npm ERR! Node.js v18.3.0
+npm ERR! /data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/lib/libvips.js:16
+npm ERR! const minimumLibvipsVersion = semverCoerce(minimumLibvipsVersionLabelled).version;
+npm ERR!                                                                          ^
+npm ERR! 
+npm ERR! TypeError: Cannot read properties of null (reading 'version')
+npm ERR!     at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/lib/libvips.js:16:74)
+npm ERR!     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+npm ERR!     at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+npm ERR!     at Module.load (node:internal/modules/cjs/loader:981:32)
+npm ERR!     at Module._load (node:internal/modules/cjs/loader:827:12)
+npm ERR!     at Module.require (node:internal/modules/cjs/loader:1005:19)
+npm ERR!     at require (node:internal/modules/cjs/helpers:102:18)
+npm ERR!     at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/install/can-compile.js:3:17)
+npm ERR!     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+npm ERR!     at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+npm ERR! 
+npm ERR! Node.js v18.3.0
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2022-08-09T17_13_37_561Z-debug-0.log
+npm ERR! code 1
+npm ERR! path /data/js-variants/multee/VariantsDeps/sharp/variant1/sharp
+npm ERR! command failed
+npm ERR! command sh -c /tmp/install-1660065219977.sh
+npm ERR! /data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/lib/libvips.js:16
+npm ERR! const minimumLibvipsVersion = semverCoerce(minimumLibvipsVersionLabelled).version;
+npm ERR!                                                                          ^
+npm ERR! 
+npm ERR! TypeError: Cannot read properties of null (reading 'version')
+npm ERR!     at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/lib/libvips.js:16:74)
+npm ERR!     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+npm ERR!     at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+npm ERR!     at Module.load (node:internal/modules/cjs/loader:981:32)
+npm ERR!     at Module._load (node:internal/modules/cjs/loader:827:12)
+npm ERR!     at Module.require (node:internal/modules/cjs/loader:1005:19)
+npm ERR!     at require (node:internal/modules/cjs/helpers:102:18)
+npm ERR!     at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/install/libvips.js:17:17)
+npm ERR!     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+npm ERR!     at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+npm ERR! 
+npm ERR! Node.js v18.3.0
+npm ERR! /data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/lib/libvips.js:16
+npm ERR! const minimumLibvipsVersion = semverCoerce(minimumLibvipsVersionLabelled).version;
+npm ERR!                                                                          ^
+npm ERR! 
+npm ERR! TypeError: Cannot read properties of null (reading 'version')
+npm ERR!     at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/lib/libvips.js:16:74)
+npm ERR!     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+npm ERR!     at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+npm ERR!     at Module.load (node:internal/modules/cjs/loader:981:32)
+npm ERR!     at Module._load (node:internal/modules/cjs/loader:827:12)
+npm ERR!     at Module.require (node:internal/modules/cjs/loader:1005:19)
+npm ERR!     at require (node:internal/modules/cjs/helpers:102:18)
+npm ERR!     at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/sharp/variant1/sharp/install/can-compile.js:3:17)
+npm ERR!     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+npm ERR!     at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+npm ERR! 
+npm ERR! Node.js v18.3.0
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2022-08-09T17_13_38_185Z-debug-0.log
+PASS src/lib/rle.test.ts
+  RLE
+    packBits
+      ✓ Normaly (2 ms)
+    packICNS
+      ✓ Normaly
+    unpackBits
+      ✓ Normaly (1 ms)
+    _packBitsLiteralToResult
+      ✓ Normaly
+      ✓ Empty (1 ms)
+
+FAIL src/lib/png.test.ts
+  ● Test suite failed to run
+
+    TypeError: Cannot read properties of null (reading 'version')
+
+      14 | const minimumLibvipsVersionLabelled = env.npm_package_config_libvips || /* istanbul ignore next */
+      15 |   config.libvips;
+    > 16 | const minimumLibvipsVersion = semverCoerce(minimumLibvipsVersionLabelled).version;
+         |                                                                          ^
+      17 |
+      18 | const spawnSyncOptions = {
+      19 |   encoding: 'utf8',
+
+      at Object.<anonymous> (../../../VariantsDeps/sharp/variant1/sharp/lib/libvips.js:16:74)
+      at Object.<anonymous> (../../../VariantsDeps/sharp/variant1/sharp/lib/constructor.js:7:1)
+
+FAIL src/lib/favicon.test.ts
+  ● Test suite failed to run
+
+    TypeError: Cannot read properties of null (reading 'version')
+
+      14 | const minimumLibvipsVersionLabelled = env.npm_package_config_libvips || /* istanbul ignore next */
+      15 |   config.libvips;
+    > 16 | const minimumLibvipsVersion = semverCoerce(minimumLibvipsVersionLabelled).version;
+         |                                                                          ^
+      17 |
+      18 | const spawnSyncOptions = {
+      19 |   encoding: 'utf8',
+
+      at Object.<anonymous> (../../../VariantsDeps/sharp/variant1/sharp/lib/libvips.js:16:74)
+      at Object.<anonymous> (../../../VariantsDeps/sharp/variant1/sharp/lib/constructor.js:7:1)
+
+FAIL src/bin/cli.test.ts
+  ● Test suite failed to run
+
+    TypeError: Cannot read properties of null (reading 'version')
+
+      14 | const minimumLibvipsVersionLabelled = env.npm_package_config_libvips || /* istanbul ignore next */
+      15 |   config.libvips;
+    > 16 | const minimumLibvipsVersion = semverCoerce(minimumLibvipsVersionLabelled).version;
+         |                                                                          ^
+      17 |
+      18 | const spawnSyncOptions = {
+      19 |   encoding: 'utf8',
+
+      at Object.<anonymous> (../../../VariantsDeps/sharp/variant1/sharp/lib/libvips.js:16:74)
+      at Object.<anonymous> (../../../VariantsDeps/sharp/variant1/sharp/lib/constructor.js:7:1)
+
+FAIL src/lib/ico.test.ts
+  ● Test suite failed to run
+
+    TypeError: Cannot read properties of null (reading 'version')
+
+      14 | const minimumLibvipsVersionLabelled = env.npm_package_config_libvips || /* istanbul ignore next */
+      15 |   config.libvips;
+    > 16 | const minimumLibvipsVersion = semverCoerce(minimumLibvipsVersionLabelled).version;
+         |                                                                          ^
+      17 |
+      18 | const spawnSyncOptions = {
+      19 |   encoding: 'utf8',
+
+      at Object.<anonymous> (../../../VariantsDeps/sharp/variant1/sharp/lib/libvips.js:16:74)
+      at Object.<anonymous> (../../../VariantsDeps/sharp/variant1/sharp/lib/constructor.js:7:1)
+
+FAIL src/lib/icns.test.ts
+  ● Test suite failed to run
+
+    TypeError: Cannot read properties of null (reading 'version')
+
+      14 | const minimumLibvipsVersionLabelled = env.npm_package_config_libvips || /* istanbul ignore next */
+      15 |   config.libvips;
+    > 16 | const minimumLibvipsVersion = semverCoerce(minimumLibvipsVersionLabelled).version;
+         |                                                                          ^
+      17 |
+      18 | const spawnSyncOptions = {
+      19 |   encoding: 'utf8',
+
+      at Object.<anonymous> (../../../VariantsDeps/sharp/variant1/sharp/lib/libvips.js:16:74)
+      at Object.<anonymous> (../../../VariantsDeps/sharp/variant1/sharp/lib/constructor.js:7:1)
+
+Test Suites: 5 failed, 1 passed, 6 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        3.536 s, estimated 4 s
+Ran all test suites.
