@@ -1,0 +1,1075 @@
+/data/js-variants/multee
+6
+wa-sticker-formatter is testing ./Variants/sharp/variant6/sharp
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 42 packages, and audited 456 packages in 2s
+
+88 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+up to date, audited 1 package in 104ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 458 packages in 3s
+
+89 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> wa-sticker-formatter@4.3.2 test
+> mocha --timeout 60000 -r ts-node/register "tests/**/*.test.ts"
+
+
+
+  Sticker
+    Static Stickers
+      ✔ should create a static sticker (531ms)
+      ✔ should create a cropped sticker with size 512x512 (123ms)
+      ✔ should create a static sticker same height and width (1326ms)
+    Animated Stickers
+      ✔ should create an animated sticker (1651ms)
+      1) should create an animated sticker with size 512x512
+      ✔ should create an animated sticker same height and width (1294ms)
+      ✔ should create a sticker from svg (48ms)
+    Metadata
+      ✔ should create sticker with the provided pack and author name (388ms)
+
+
+  7 passing (6s)
+  1 failing
+
+  1) Sticker
+       Animated Stickers
+         should create an animated sticker with size 512x512:
+     Uncaught Error: Cannot find ffmpeg
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/processor.js:136:22
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:123:9
+      at wrapper (node_modules/async/dist/async.js:271:20)
+      at next (node_modules/async/dist/async.js:5765:24)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/async/dist/async.js:327:20
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:116:11
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/utils.js:223:16
+      at F (node_modules/fluent-ffmpeg/node_modules/which/which.js:68:16)
+      at E (node_modules/fluent-ffmpeg/node_modules/which/which.js:80:29)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/node_modules/which/which.js:89:16
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/index.js:42:5
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/mode.js:8:5
+      at FSReqCallback.oncomplete (node:fs:204:21)
+
+
+
+************* run test done *************
+wa-sticker-formatter is testing ./Variants/sharp/variant5/sharp
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 456 packages in 2s
+
+88 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 458 packages in 3s
+
+89 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> wa-sticker-formatter@4.3.2 test
+> mocha --timeout 60000 -r ts-node/register "tests/**/*.test.ts"
+
+
+
+  Sticker
+    Static Stickers
+      ✔ should create a static sticker (457ms)
+      ✔ should create a cropped sticker with size 512x512 (124ms)
+      ✔ should create a static sticker same height and width (190ms)
+    Animated Stickers
+      ✔ should create an animated sticker (1619ms)
+      1) should create an animated sticker with size 512x512
+      ✔ should create an animated sticker same height and width (1185ms)
+      ✔ should create a sticker from svg (48ms)
+    Metadata
+      ✔ should create sticker with the provided pack and author name (389ms)
+
+
+  7 passing (4s)
+  1 failing
+
+  1) Sticker
+       Animated Stickers
+         should create an animated sticker with size 512x512:
+     Uncaught Error: Cannot find ffmpeg
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/processor.js:136:22
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:123:9
+      at wrapper (node_modules/async/dist/async.js:271:20)
+      at next (node_modules/async/dist/async.js:5765:24)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/async/dist/async.js:327:20
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:116:11
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/utils.js:223:16
+      at F (node_modules/fluent-ffmpeg/node_modules/which/which.js:68:16)
+      at E (node_modules/fluent-ffmpeg/node_modules/which/which.js:80:29)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/node_modules/which/which.js:89:16
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/index.js:42:5
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/mode.js:8:5
+      at FSReqCallback.oncomplete (node:fs:204:21)
+
+
+
+************* run test done *************
+wa-sticker-formatter is testing ./Variants/sharp/variant4/sharp
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 456 packages in 2s
+
+88 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 458 packages in 3s
+
+89 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> wa-sticker-formatter@4.3.2 test
+> mocha --timeout 60000 -r ts-node/register "tests/**/*.test.ts"
+
+
+
+  Sticker
+    Static Stickers
+      ✔ should create a static sticker (457ms)
+      ✔ should create a cropped sticker with size 512x512 (123ms)
+      ✔ should create a static sticker same height and width (224ms)
+    Animated Stickers
+      ✔ should create an animated sticker (1355ms)
+      1) should create an animated sticker with size 512x512
+      ✔ should create an animated sticker same height and width (1094ms)
+      ✔ should create a sticker from svg (120ms)
+    Metadata
+      ✔ should create sticker with the provided pack and author name (367ms)
+
+
+  7 passing (4s)
+  1 failing
+
+  1) Sticker
+       Animated Stickers
+         should create an animated sticker with size 512x512:
+     Uncaught Error: Cannot find ffmpeg
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/processor.js:136:22
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:123:9
+      at wrapper (node_modules/async/dist/async.js:271:20)
+      at next (node_modules/async/dist/async.js:5765:24)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/async/dist/async.js:327:20
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:116:11
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/utils.js:223:16
+      at F (node_modules/fluent-ffmpeg/node_modules/which/which.js:68:16)
+      at E (node_modules/fluent-ffmpeg/node_modules/which/which.js:80:29)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/node_modules/which/which.js:89:16
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/index.js:42:5
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/mode.js:8:5
+      at FSReqCallback.oncomplete (node:fs:204:21)
+
+
+
+************* run test done *************
+wa-sticker-formatter is testing ./Variants/sharp/variant3/sharp
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 456 packages in 2s
+
+88 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 458 packages in 3s
+
+89 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> wa-sticker-formatter@4.3.2 test
+> mocha --timeout 60000 -r ts-node/register "tests/**/*.test.ts"
+
+
+
+  Sticker
+    Static Stickers
+      ✔ should create a static sticker (457ms)
+      ✔ should create a cropped sticker with size 512x512 (123ms)
+      ✔ should create a static sticker same height and width (317ms)
+    Animated Stickers
+      ✔ should create an animated sticker (1350ms)
+      1) should create an animated sticker with size 512x512
+      ✔ should create an animated sticker same height and width (1173ms)
+      ✔ should create a sticker from svg (48ms)
+    Metadata
+      ✔ should create sticker with the provided pack and author name (375ms)
+
+
+  7 passing (4s)
+  1 failing
+
+  1) Sticker
+       Animated Stickers
+         should create an animated sticker with size 512x512:
+     Uncaught Error: Cannot find ffmpeg
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/processor.js:136:22
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:123:9
+      at wrapper (node_modules/async/dist/async.js:271:20)
+      at next (node_modules/async/dist/async.js:5765:24)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/async/dist/async.js:327:20
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:116:11
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/utils.js:223:16
+      at F (node_modules/fluent-ffmpeg/node_modules/which/which.js:68:16)
+      at E (node_modules/fluent-ffmpeg/node_modules/which/which.js:80:29)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/node_modules/which/which.js:89:16
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/index.js:42:5
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/mode.js:8:5
+      at FSReqCallback.oncomplete (node:fs:204:21)
+
+
+
+************* run test done *************
+wa-sticker-formatter is testing ./Variants/sharp/variant2/sharp
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 456 packages in 2s
+
+88 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 458 packages in 3s
+
+89 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> wa-sticker-formatter@4.3.2 test
+> mocha --timeout 60000 -r ts-node/register "tests/**/*.test.ts"
+
+
+
+  Sticker
+    Static Stickers
+      ✔ should create a static sticker (459ms)
+      ✔ should create a cropped sticker with size 512x512 (122ms)
+      ✔ should create a static sticker same height and width (374ms)
+    Animated Stickers
+      ✔ should create an animated sticker (1352ms)
+      1) should create an animated sticker with size 512x512
+      ✔ should create an animated sticker same height and width (1173ms)
+      ✔ should create a sticker from svg (48ms)
+    Metadata
+      ✔ should create sticker with the provided pack and author name (373ms)
+
+
+  7 passing (4s)
+  1 failing
+
+  1) Sticker
+       Animated Stickers
+         should create an animated sticker with size 512x512:
+     Uncaught Error: Cannot find ffmpeg
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/processor.js:136:22
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:123:9
+      at wrapper (node_modules/async/dist/async.js:271:20)
+      at next (node_modules/async/dist/async.js:5765:24)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/async/dist/async.js:327:20
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:116:11
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/utils.js:223:16
+      at F (node_modules/fluent-ffmpeg/node_modules/which/which.js:68:16)
+      at E (node_modules/fluent-ffmpeg/node_modules/which/which.js:80:29)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/node_modules/which/which.js:89:16
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/index.js:42:5
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/mode.js:8:5
+      at FSReqCallback.oncomplete (node:fs:204:21)
+
+
+
+************* run test done *************
+wa-sticker-formatter is testing ./Variants/sharp/variant1/sharp
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 456 packages in 2s
+
+88 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 458 packages in 3s
+
+89 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> wa-sticker-formatter@4.3.2 test
+> mocha --timeout 60000 -r ts-node/register "tests/**/*.test.ts"
+
+
+
+  Sticker
+    Static Stickers
+      ✔ should create a static sticker (460ms)
+      ✔ should create a cropped sticker with size 512x512 (123ms)
+      ✔ should create a static sticker same height and width (198ms)
+    Animated Stickers
+      ✔ should create an animated sticker (1343ms)
+      1) should create an animated sticker with size 512x512
+      ✔ should create an animated sticker same height and width (1131ms)
+      ✔ should create a sticker from svg (48ms)
+    Metadata
+      ✔ should create sticker with the provided pack and author name (368ms)
+
+
+  7 passing (4s)
+  1 failing
+
+  1) Sticker
+       Animated Stickers
+         should create an animated sticker with size 512x512:
+     Uncaught Error: Cannot find ffmpeg
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/processor.js:136:22
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:123:9
+      at wrapper (node_modules/async/dist/async.js:271:20)
+      at next (node_modules/async/dist/async.js:5765:24)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/async/dist/async.js:327:20
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:116:11
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/utils.js:223:16
+      at F (node_modules/fluent-ffmpeg/node_modules/which/which.js:68:16)
+      at E (node_modules/fluent-ffmpeg/node_modules/which/which.js:80:29)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/node_modules/which/which.js:89:16
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/index.js:42:5
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/mode.js:8:5
+      at FSReqCallback.oncomplete (node:fs:204:21)
+
+
+
+************* run test done *************
+variantsDepsNum: 3
+/data/js-variants/multee
+3
+wa-sticker-formatter is testing ./VariantsDeps/sharp/variant3/sharp
+************* npm unlink module *************
+
+removed 1 package, and audited 456 packages in 2s
+
+88 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 458 packages in 3s
+
+89 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> wa-sticker-formatter@4.3.2 test
+> mocha --timeout 60000 -r ts-node/register "tests/**/*.test.ts"
+
+
+
+  Sticker
+    Static Stickers
+      ✔ should create a static sticker (460ms)
+      ✔ should create a cropped sticker with size 512x512 (123ms)
+      ✔ should create a static sticker same height and width (311ms)
+    Animated Stickers
+      ✔ should create an animated sticker (1355ms)
+      1) should create an animated sticker with size 512x512
+      ✔ should create an animated sticker same height and width (1138ms)
+      ✔ should create a sticker from svg (48ms)
+    Metadata
+      ✔ should create sticker with the provided pack and author name (369ms)
+
+
+  7 passing (4s)
+  1 failing
+
+  1) Sticker
+       Animated Stickers
+         should create an animated sticker with size 512x512:
+     Uncaught Error: Cannot find ffmpeg
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/processor.js:136:22
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:123:9
+      at wrapper (node_modules/async/dist/async.js:271:20)
+      at next (node_modules/async/dist/async.js:5765:24)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/async/dist/async.js:327:20
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:116:11
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/utils.js:223:16
+      at F (node_modules/fluent-ffmpeg/node_modules/which/which.js:68:16)
+      at E (node_modules/fluent-ffmpeg/node_modules/which/which.js:80:29)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/node_modules/which/which.js:89:16
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/index.js:42:5
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/mode.js:8:5
+      at FSReqCallback.oncomplete (node:fs:204:21)
+
+
+
+************* run test done *************
+wa-sticker-formatter is testing ./VariantsDeps/sharp/variant2/sharp
+************* npm unlink module *************
+
+removed 1 package, and audited 456 packages in 2s
+
+88 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 458 packages in 3s
+
+89 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> wa-sticker-formatter@4.3.2 test
+> mocha --timeout 60000 -r ts-node/register "tests/**/*.test.ts"
+
+
+
+  Sticker
+    Static Stickers
+      ✔ should create a static sticker (464ms)
+      ✔ should create a cropped sticker with size 512x512 (130ms)
+      ✔ should create a static sticker same height and width (948ms)
+    Animated Stickers
+      ✔ should create an animated sticker (1347ms)
+      1) should create an animated sticker with size 512x512
+      ✔ should create an animated sticker same height and width (1180ms)
+      ✔ should create a sticker from svg (54ms)
+    Metadata
+      ✔ should create sticker with the provided pack and author name (372ms)
+
+
+  7 passing (5s)
+  1 failing
+
+  1) Sticker
+       Animated Stickers
+         should create an animated sticker with size 512x512:
+     Uncaught Error: Cannot find ffmpeg
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/processor.js:136:22
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:123:9
+      at wrapper (node_modules/async/dist/async.js:271:20)
+      at next (node_modules/async/dist/async.js:5765:24)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/async/dist/async.js:327:20
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:116:11
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/utils.js:223:16
+      at F (node_modules/fluent-ffmpeg/node_modules/which/which.js:68:16)
+      at E (node_modules/fluent-ffmpeg/node_modules/which/which.js:80:29)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/node_modules/which/which.js:89:16
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/index.js:42:5
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/mode.js:8:5
+      at FSReqCallback.oncomplete (node:fs:204:21)
+
+
+
+************* run test done *************
+wa-sticker-formatter is testing ./VariantsDeps/sharp/variant1/sharp
+************* npm unlink module *************
+
+removed 1 package, and audited 456 packages in 2s
+
+88 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 458 packages in 3s
+
+89 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> wa-sticker-formatter@4.3.2 test
+> mocha --timeout 60000 -r ts-node/register "tests/**/*.test.ts"
+
+
+
+  Sticker
+    Static Stickers
+      ✔ should create a static sticker (459ms)
+      ✔ should create a cropped sticker with size 512x512 (123ms)
+      ✔ should create a static sticker same height and width (201ms)
+    Animated Stickers
+      ✔ should create an animated sticker (1346ms)
+      1) should create an animated sticker with size 512x512
+      ✔ should create an animated sticker same height and width (1177ms)
+      ✔ should create a sticker from svg (48ms)
+    Metadata
+      ✔ should create sticker with the provided pack and author name (375ms)
+
+
+  7 passing (4s)
+  1 failing
+
+  1) Sticker
+       Animated Stickers
+         should create an animated sticker with size 512x512:
+     Uncaught Error: Cannot find ffmpeg
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/processor.js:136:22
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:123:9
+      at wrapper (node_modules/async/dist/async.js:271:20)
+      at next (node_modules/async/dist/async.js:5765:24)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/async/dist/async.js:327:20
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:116:11
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/utils.js:223:16
+      at F (node_modules/fluent-ffmpeg/node_modules/which/which.js:68:16)
+      at E (node_modules/fluent-ffmpeg/node_modules/which/which.js:80:29)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/node_modules/which/which.js:89:16
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/index.js:42:5
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/mode.js:8:5
+      at FSReqCallback.oncomplete (node:fs:204:21)
+
+
+
+************* run test done *************
+/data/js-variants/multee
+6
+wa-sticker-formatter is testing ./Variants/sharp/variant6/sharp
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 456 packages in 4s
+
+88 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+up to date, audited 1 package in 102ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 458 packages in 3s
+
+89 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> wa-sticker-formatter@4.3.2 test
+> mocha --timeout 60000 -r ts-node/register "tests/**/*.test.ts"
+
+
+
+  Sticker
+    Static Stickers
+      ✔ should create a static sticker (574ms)
+      ✔ should create a cropped sticker with size 512x512 (126ms)
+      ✔ should create a static sticker same height and width (256ms)
+    Animated Stickers
+      ✔ should create an animated sticker (1381ms)
+      1) should create an animated sticker with size 512x512
+      ✔ should create an animated sticker same height and width (1226ms)
+      ✔ should create a sticker from svg (54ms)
+    Metadata
+      ✔ should create sticker with the provided pack and author name (382ms)
+
+
+  7 passing (4s)
+  1 failing
+
+  1) Sticker
+       Animated Stickers
+         should create an animated sticker with size 512x512:
+     Uncaught Error: Cannot find ffmpeg
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/processor.js:136:22
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:123:9
+      at wrapper (node_modules/async/dist/async.js:271:20)
+      at next (node_modules/async/dist/async.js:5765:24)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/async/dist/async.js:327:20
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:116:11
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/utils.js:223:16
+      at F (node_modules/fluent-ffmpeg/node_modules/which/which.js:68:16)
+      at E (node_modules/fluent-ffmpeg/node_modules/which/which.js:80:29)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/node_modules/which/which.js:89:16
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/index.js:42:5
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/mode.js:8:5
+      at FSReqCallback.oncomplete (node:fs:204:21)
+
+
+
+************* run test done *************
+wa-sticker-formatter is testing ./Variants/sharp/variant5/sharp
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 456 packages in 2s
+
+88 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 458 packages in 3s
+
+89 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> wa-sticker-formatter@4.3.2 test
+> mocha --timeout 60000 -r ts-node/register "tests/**/*.test.ts"
+
+
+
+  Sticker
+    Static Stickers
+      ✔ should create a static sticker (466ms)
+      ✔ should create a cropped sticker with size 512x512 (132ms)
+      ✔ should create a static sticker same height and width (161ms)
+    Animated Stickers
+      ✔ should create an animated sticker (1358ms)
+      1) should create an animated sticker with size 512x512
+      ✔ should create an animated sticker same height and width (1184ms)
+      ✔ should create a sticker from svg (51ms)
+    Metadata
+      ✔ should create sticker with the provided pack and author name (376ms)
+
+
+  7 passing (4s)
+  1 failing
+
+  1) Sticker
+       Animated Stickers
+         should create an animated sticker with size 512x512:
+     Uncaught Error: Cannot find ffmpeg
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/processor.js:136:22
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:123:9
+      at wrapper (node_modules/async/dist/async.js:271:20)
+      at next (node_modules/async/dist/async.js:5765:24)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/async/dist/async.js:327:20
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:116:11
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/utils.js:223:16
+      at F (node_modules/fluent-ffmpeg/node_modules/which/which.js:68:16)
+      at E (node_modules/fluent-ffmpeg/node_modules/which/which.js:80:29)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/node_modules/which/which.js:89:16
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/index.js:42:5
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/mode.js:8:5
+      at FSReqCallback.oncomplete (node:fs:204:21)
+
+
+
+************* run test done *************
+wa-sticker-formatter is testing ./Variants/sharp/variant4/sharp
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 456 packages in 3s
+
+88 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 458 packages in 3s
+
+89 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (7 moderate, 7 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> wa-sticker-formatter@4.3.2 test
+> mocha --timeout 60000 -r ts-node/register "tests/**/*.test.ts"
+
+
+
+  Sticker
+    Static Stickers
+      ✔ should create a static sticker (461ms)
+      ✔ should create a cropped sticker with size 512x512 (124ms)
+      ✔ should create a static sticker same height and width (174ms)
+    Animated Stickers
+      ✔ should create an animated sticker (1366ms)
+      1) should create an animated sticker with size 512x512
+      ✔ should create an animated sticker same height and width (1196ms)
+      ✔ should create a sticker from svg (53ms)
+    Metadata
+      ✔ should create sticker with the provided pack and author name (375ms)
+
+
+  7 passing (4s)
+  1 failing
+
+  1) Sticker
+       Animated Stickers
+         should create an animated sticker with size 512x512:
+     Uncaught Error: Cannot find ffmpeg
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/processor.js:136:22
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:123:9
+      at wrapper (node_modules/async/dist/async.js:271:20)
+      at next (node_modules/async/dist/async.js:5765:24)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/async/dist/async.js:327:20
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/capabilities.js:116:11
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/lib/utils.js:223:16
+      at F (node_modules/fluent-ffmpeg/node_modules/which/which.js:68:16)
+      at E (node_modules/fluent-ffmpeg/node_modules/which/which.js:80:29)
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/fluent-ffmpeg/node_modules/which/which.js:89:16
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/index.js:42:5
+      at /data/js-variants/multee/Clients/sharp/wa-sticker-formatter/node_modules/isexe/mode.js:8:5
+      at FSReqCallback.oncomplete (node:fs:204:21)
+
+
+
+************* run test done *************
+wa-sticker-formatter is testing ./Variants/sharp/variant3/sharp
+/data/js-variants/multee
+************* npm unlink module *************

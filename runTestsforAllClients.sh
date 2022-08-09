@@ -1,11 +1,11 @@
-# sh runTestClients.sh deep-equal tape 2>>Data/test_deep-equal_tape_func_error.log >> Data/test_deep-equal_tape_func.log
-# sh runTestClients.sh deep-equal react-mapbox-gl 2>>Data/test_deep-equal_react-mapbox-gl_func_error.log >> Data/test_deep-equal_react-mapbox-gl_func.log
-# sh runTestClients.sh deep-equal http-assert 2>>Data/test_deep-equal_http-assert_func_error.log >> Data/test_deep-equal_http-assert_func.log
-# sh runTestClients.sh deep-equal kbpgp 2>>Data/test_deep-equal_kbpgp_func_error.log >> Data/test_deep-equal_kbpgp_func.log
-# sh runTestClients.sh deep-equal flumeview-reduce 2>>Data/test_deep-equal_flumeview-reduce_func_error.log >> Data/test_deep-equal_flumeview-reduce_func.log
+# sh runTestClients.sh sharp favicons 2>>Data/test_sharp_favicons_func_error.log >> Data/test_sharp_favicons_func.log
+# sh runTestClients.sh sharp wa-sticker-formatter 2>>Data/test_sharp_wa-sticker-formatter_func_error.log >> Data/test_sharp_wa-sticker-formatter_func.log
+# sh runTestClients.sh sharp numjs 2>>Data/test_sharp_numjs_func_error.log >> Data/test_sharp_numjs_func.log
+# sh runTestClients.sh sharp npm-icon-gen 2>>Data/test_sharp_npm-icon-gen_func_error.log >> Data/test_sharp_npm-icon-gen_func.log
+# sh runTestClients.sh sharp image-thumbnail 2>>Data/test_sharp_image-thumbnail_func_error.log >> Data/test_sharp_image-thumbnail_func.log
 
-# sh runTestClients.sh deep-equal tape 2>>Data/test_deep-equal_tape_file_error.log >> Data/test_deep-equal_tape_file.log
-sh runTestClients.sh deep-equal react-mapbox-gl 2>>Data/test_deep-equal_react-mapbox-gl_file_error.log >> Data/test_deep-equal_react-mapbox-gl_file.log
-# sh runTestClients.sh deep-equal http-assert 2>>Data/test_deep-equal_http-assert_file_error.log >> Data/test_deep-equal_http-assert_file.log
-# sh runTestClients.sh deep-equal kbpgp 2>>Data/test_deep-equal_kbpgp_file_error.log >> Data/test_deep-equal_kbpgp_file.log
-# sh runTestClients.sh deep-equal flumeview-reduce 2>>Data/test_deep-equal_flumeview-reduce_file_error.log >> Data/test_deep-equal_flumeview-reduce_file.log
+sh runTestClients.sh sharp favicons 2>>Data/test_sharp_favicons_file_error.log >> Data/test_sharp_favicons_file.log
+sh runTestClients.sh sharp wa-sticker-formatter 2>>Data/test_sharp_wa-sticker-formatter_file_error.log >> Data/test_sharp_wa-sticker-formatter_file.log
+sh runTestClients.sh sharp numjs 2>>Data/test_sharp_numjs_file_error.log >> Data/test_sharp_numjs_file.log
+sh runTestClients.sh sharp npm-icon-gen 2>>Data/test_sharp_npm-icon-gen_file_error.log >> Data/test_sharp_npm-icon-gen_file.log
+sh runTestClients.sh sharp image-thumbnail 2>>Data/test_sharp_image-thumbnail_file_error.log >> Data/test_sharp_image-thumbnail_file.log
