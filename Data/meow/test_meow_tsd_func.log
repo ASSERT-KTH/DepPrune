@@ -1,0 +1,1694 @@
+/data/js-variants/multee
+10
+tsd is testing ./Variants/meow/variant10/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 4 packages, and audited 597 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 704ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 396ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › provide a path 
+  ✔ assignability.ts › assignable (28.8s)
+  ✔ deprecated.ts › deprecated (30.2s)
+  ✔ assignability.ts › not assignable (55.3s)
+  ✔ deprecated.ts › not deprecated (55s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (7.9s)
+  ✔ test.ts › throw if no type definition was found (364ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (468ms)
+  ✔ identicality.ts › identical (28.7s)
+  ✔ test.ts › specify test files manually (25.9s)
+  ✔ test.ts › throw if no test is found (26s)
+************* run test done *************
+tsd is testing ./Variants/meow/variant9/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 715ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 428ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✖ cli.ts › provide a path 
+  ✔ assignability.ts › assignable (28.4s)
+  ✔ deprecated.ts › deprecated (29.3s)
+  ✔ assignability.ts › not assignable (50.2s)
+  ✔ deprecated.ts › not deprecated (52.3s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (6.8s)
+  ✔ test.ts › throw if no type definition was found (377ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (606ms)
+  ✔ test.ts › throw if no test is found (652ms)
+  ✔ identicality.ts › identical (28.8s)
+  ✔ test.ts › return diagnostics (28.9s)
+************* run test done *************
+tsd is testing ./Variants/meow/variant8/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 701ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 393ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 3s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › provide a path 
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✔ assignability.ts › assignable (28.2s)
+  ✔ deprecated.ts › deprecated (28.2s)
+  ✔ deprecated.ts › not deprecated (47.7s)
+  ✔ assignability.ts › not assignable (48.4s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (8.2s)
+  ✔ test.ts › throw if no type definition was found (399ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (487ms)
+  ✔ test.ts › throw if no test is found (537ms)
+  ✔ identicality.ts › identical (28.5s)
+  ✔ test.ts › return diagnostics (25.8s)
+************* run test done *************
+tsd is testing ./Variants/meow/variant7/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 681ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 406ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✖ cli.ts › provide a path 
+  ✔ assignability.ts › assignable (28.9s)
+  ✔ deprecated.ts › deprecated (29.2s)
+  ✔ assignability.ts › not assignable (49.3s)
+  ✔ deprecated.ts › not deprecated (48.9s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (8.1s)
+  ✔ test.ts › throw if no type definition was found (386ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (438ms)
+  ✔ test.ts › throw if no test is found (493ms)
+  ✔ identicality.ts › identical (29.9s)
+  ✔ test.ts › return diagnostics (27.2s)
+************* run test done *************
+tsd is testing ./Variants/meow/variant6/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 659ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 425ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✖ cli.ts › provide a path 
+  ✔ assignability.ts › assignable (29.2s)
+  ✔ deprecated.ts › not deprecated (28.6s)
+  ✔ deprecated.ts › deprecated (51.4s)
+  ✔ assignability.ts › not assignable (53.1s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (7.7s)
+  ✔ test.ts › throw if no type definition was found (382ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (419ms)
+  ✔ test.ts › throw if no test is found (456ms)
+  ✔ identicality.ts › identical (29.6s)
+  ✔ test.ts › return diagnostics (28s)
+************* run test done *************
+tsd is testing ./Variants/meow/variant5/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 667ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 413ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✖ cli.ts › provide a path 
+  ✔ assignability.ts › assignable (27.7s)
+  ✔ deprecated.ts › deprecated (27.5s)
+  ✔ deprecated.ts › not deprecated (47.2s)
+  ✔ assignability.ts › not assignable (48.4s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (7.9s)
+  ✔ test.ts › throw if no type definition was found (347ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (453ms)
+  ✔ test.ts › throw if no test is found (490ms)
+  ✔ identicality.ts › identical (29.4s)
+  ✔ test.ts › return diagnostics (26.5s)
+************* run test done *************
+tsd is testing ./Variants/meow/variant4/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 666ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 395ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › provide a path 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✔ assignability.ts › assignable (27.8s)
+  ✔ deprecated.ts › deprecated (28.2s)
+  ✔ assignability.ts › not assignable (48.5s)
+  ✔ deprecated.ts › not deprecated (48.4s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (7.9s)
+  ✔ test.ts › throw if no type definition was found (292ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (408ms)
+  ✔ test.ts › throw if no test is found (480ms)
+  ✔ identicality.ts › identical (30s)
+  ✔ test.ts › return diagnostics (28.2s)
+************* run test done *************
+tsd is testing ./Variants/meow/variant3/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 668ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 407ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✖ cli.ts › provide a path 
+  ✔ assignability.ts › assignable (27.9s)
+  ✔ deprecated.ts › deprecated (28.1s)
+  ✔ assignability.ts › not assignable (48.3s)
+  ✔ deprecated.ts › not deprecated (48.1s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (8s)
+  ✔ test.ts › throw if no type definition was found (399ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (468ms)
+  ✔ test.ts › throw if no test is found (519ms)
+  ✔ identicality.ts › identical (28.4s)
+  ✔ test.ts › return diagnostics from imported files as well (26.9s)
+************* run test done *************
+tsd is testing ./Variants/meow/variant2/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 660ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 441ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › provide a path 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✔ assignability.ts › assignable (27.2s)
+  ✔ deprecated.ts › deprecated (27.6s)
+  ✔ assignability.ts › not assignable (48.2s)
+  ✔ deprecated.ts › not deprecated (49.5s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (7.1s)
+  ✔ test.ts › throw if no type definition was found (259ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (311ms)
+  ✔ test.ts › throw if no test is found (341ms)
+  ✔ identicality.ts › not identical (29.1s)
+  ✔ test.ts › return diagnostics (27.6s)
+************* run test done *************
+tsd is testing ./Variants/meow/variant1/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 4s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 673ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 448ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✖ cli.ts › provide a path 
+  ✔ assignability.ts › assignable (28.6s)
+  ✔ deprecated.ts › deprecated (28.4s)
+  ✔ assignability.ts › not assignable (49.2s)
+  ✔ deprecated.ts › not deprecated (48.8s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (7.9s)
+  ✔ test.ts › throw if no type definition was found (448ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (510ms)
+  ✔ test.ts › throw if no test is found (558ms)
+  ✔ identicality.ts › identical (28.9s)
+  ✔ test.ts › return diagnostics (26.5s)
+************* run test done *************
+variantsDepsNum: 11
+/data/js-variants/multee
+11
+tsd is testing ./VariantsDeps/meow/variant11/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 675ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 791ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✖ cli.ts › provide a path 
+  ✔ assignability.ts › assignable (28.5s)
+  ✔ deprecated.ts › deprecated (27.8s)
+  ✔ assignability.ts › not assignable (50.6s)
+  ✔ deprecated.ts › not deprecated (51.7s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (7.2s)
+  ✔ test.ts › throw if no type definition was found (390ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (392ms)
+  ✔ test.ts › throw if no test is found (483ms)
+  ✔ identicality.ts › identical (27.4s)
+  ✔ test.ts › return diagnostics (27.7s)
+************* run test done *************
+tsd is testing ./VariantsDeps/meow/variant10/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 671ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 390ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › provide a path 
+  ✔ assignability.ts › assignable (28.4s)
+  ✔ deprecated.ts › deprecated (27.9s)
+  ✔ deprecated.ts › not deprecated (49.7s)
+  ✔ assignability.ts › not assignable (52.1s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (7s)
+  ✔ test.ts › throw if no type definition was found (263ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (286ms)
+  ✔ test.ts › throw if no test is found (330ms)
+  ✔ identicality.ts › identical (28.9s)
+  ✔ test.ts › return diagnostics (26.8s)
+************* run test done *************
+tsd is testing ./VariantsDeps/meow/variant9/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 4s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 675ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 402ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✖ cli.ts › provide a path 
+  ✔ assignability.ts › assignable (28.2s)
+  ✔ deprecated.ts › deprecated (28.3s)
+  ✔ assignability.ts › not assignable (49.3s)
+  ✔ deprecated.ts › not deprecated (48.7s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (8s)
+  ✔ test.ts › throw if no type definition was found (367ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (479ms)
+  ✔ test.ts › throw if no test is found (525ms)
+  ✔ identicality.ts › identical (29.6s)
+  ✔ test.ts › return diagnostics (26.8s)
+************* run test done *************
+tsd is testing ./VariantsDeps/meow/variant8/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 669ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 422ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › provide a path 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✖ cli.ts › fail if errors are found 
+  ✔ deprecated.ts › deprecated (27.9s)
+  ✔ assignability.ts › assignable (28.8s)
+  ✔ deprecated.ts › not deprecated (47.3s)
+  ✔ assignability.ts › not assignable (48.8s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (7.8s)
+  ✔ test.ts › throw if no type definition was found (469ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (522ms)
+  ✔ test.ts › throw if no test is found (602ms)
+  ✔ identicality.ts › identical (29.4s)
+  ✔ test.ts › return diagnostics (27.3s)
+************* run test done *************
+tsd is testing ./VariantsDeps/meow/variant7/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 674ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 428ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✖ cli.ts › provide a path 
+  ✖ cli.ts › fail if errors are found 
+  ✔ assignability.ts › assignable (27.9s)
+  ✔ deprecated.ts › deprecated (28.2s)
+  ✔ assignability.ts › not assignable (47.8s)
+  ✔ deprecated.ts › not deprecated (48.3s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (7.4s)
+  ✔ test.ts › throw if no type definition was found (218ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (341ms)
+  ✔ test.ts › throw if no test is found (398ms)
+  ✔ identicality.ts › identical (28.9s)
+  ✔ test.ts › return diagnostics (28.8s)
+************* run test done *************
+tsd is testing ./VariantsDeps/meow/variant6/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 5s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 719ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 390ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✖ cli.ts › provide a path 
+  ✔ assignability.ts › assignable (28.7s)
+  ✔ deprecated.ts › deprecated (28.5s)
+  ✔ assignability.ts › not assignable (50.4s)
+  ✔ deprecated.ts › not deprecated (51.8s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (7.3s)
+  ✔ test.ts › throw if no type definition was found (353ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (388ms)
+  ✔ test.ts › throw if no test is found (438ms)
+  ✔ identicality.ts › identical (28.5s)
+  ✔ test.ts › return diagnostics (27.2s)
+************* run test done *************
+tsd is testing ./VariantsDeps/meow/variant5/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 723ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 395ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › provide a path 
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✔ assignability.ts › assignable (27.6s)
+  ✔ deprecated.ts › not deprecated (28.5s)
+  ✔ assignability.ts › not assignable (47.8s)
+  ✔ deprecated.ts › deprecated (48.6s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (7.7s)
+  ✔ test.ts › throw if no type definition was found (319ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (430ms)
+  ✔ identicality.ts › identical (28s)
+  ✔ test.ts › specify test files manually (26.8s)
+  ✔ test.ts › throw if no test is found (26.8s)
+************* run test done *************
+tsd is testing ./VariantsDeps/meow/variant4/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 671ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 387ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › provide a path 
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✔ assignability.ts › assignable (28.2s)
+  ✔ deprecated.ts › deprecated (28.2s)
+  ✔ assignability.ts › not assignable (49.1s)
+  ✔ deprecated.ts › not deprecated (48.5s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (8.2s)
+  ✔ test.ts › throw if no type definition was found (349ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (410ms)
+  ✔ test.ts › throw if no test is found (455ms)
+  ✔ identicality.ts › identical (28.5s)
+  ✔ test.ts › return diagnostics (27.1s)
+************* run test done *************
+tsd is testing ./VariantsDeps/meow/variant3/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 4s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 693ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 413ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › provide a path 
+  ✔ deprecated.ts › deprecated (27.3s)
+  ✔ assignability.ts › assignable (28.5s)
+  ✔ deprecated.ts › not deprecated (47.3s)
+  ✔ assignability.ts › not assignable (48.5s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (7.6s)
+  ✔ test.ts › throw if no type definition was found (401ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (476ms)
+  ✔ test.ts › throw if no test is found (508ms)
+  ✔ identicality.ts › identical (29.6s)
+  ✔ test.ts › return diagnostics (28.2s)
+************* run test done *************
+tsd is testing ./VariantsDeps/meow/variant2/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 666ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 396ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✖ cli.ts › provide a path 
+  ✔ assignability.ts › assignable (27.1s)
+  ✔ deprecated.ts › deprecated (27.4s)
+  ✔ assignability.ts › not assignable (48.6s)
+  ✔ deprecated.ts › not deprecated (51s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (6.6s)
+  ✔ test.ts › throw if no type definition was found (252ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (328ms)
+  ✔ identicality.ts › identical (28.1s)
+  ✔ test.ts › specify test files manually (28.2s)
+************* run test done *************
+tsd is testing ./VariantsDeps/meow/variant1/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 598 packages in 3s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 703ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 399ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 599 packages in 2s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 moderate, 5 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> tsd@0.22.0 pretest
+> npm run build && cpy "./**/**" "../../../dist/test/fixtures/" --parents --cwd=source/test/fixtures
+
+
+> tsd@0.22.0 build
+> npm run clean && tsc --project tsconfig.tsd.json && chmod +x dist/cli.js
+
+
+> tsd@0.22.0 clean
+> del-cli dist
+
+
+> tsd@0.22.0 test
+> npm run lint && ava
+
+
+> tsd@0.22.0 lint
+> eslint 'source/**/*'
+
+
+  ✖ cli.ts › fail if errors are found 
+  ✖ cli.ts › provide a path 
+  ✖ cli.ts › succeed if no errors are found Rejected promise returned by test
+  ✔ assignability.ts › assignable (28.7s)
+  ✔ deprecated.ts › deprecated (28.2s)
+  ✔ deprecated.ts › not deprecated (48s)
+  ✔ assignability.ts › not assignable (49.5s)
+  ✔ eslint-compatibility.ts › `expectType` is compatible with eslint @typescript-eslint/no-unsafe-call rule (7.9s)
+  ✔ test.ts › throw if no type definition was found (270ms)
+  ✔ test.ts › fails if typings file is not found in the specified path (295ms)
+  ✔ test.ts › throw if no test is found (348ms)
+  ✔ identicality.ts › identical (28.6s)
+  ✔ test.ts › return diagnostics (27.2s)
+************* run test done *************

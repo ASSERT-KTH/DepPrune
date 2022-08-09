@@ -1,0 +1,2425 @@
+/data/js-variants/multee
+10
+chalk-animation is testing ./Variants/meow/variant10/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+up to date, audited 588 packages in 1s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 711ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 386ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (545ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (133ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./Variants/meow/variant9/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 657ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 387ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (513ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (125ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./Variants/meow/variant8/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 690ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 492ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (507ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (125ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./Variants/meow/variant7/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 683ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 390ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (502ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (144ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./Variants/meow/variant6/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 688ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 408ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (511ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (124ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./Variants/meow/variant5/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 679ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 402ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (539ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (122ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./Variants/meow/variant4/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 703ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 390ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (499ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (125ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./Variants/meow/variant3/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 684ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 429ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (519ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (123ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./Variants/meow/variant2/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 691ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 396ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (495ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (134ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./Variants/meow/variant1/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 674ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 434ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (511ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (127ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+variantsDepsNum: 11
+/data/js-variants/multee
+11
+chalk-animation is testing ./VariantsDeps/meow/variant11/meow
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 702ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 388ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (598ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (124ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./VariantsDeps/meow/variant10/meow
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 685ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 420ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (560ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (114ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./VariantsDeps/meow/variant9/meow
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 662ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 405ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (495ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (133ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./VariantsDeps/meow/variant8/meow
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 666ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 387ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (536ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (125ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./VariantsDeps/meow/variant7/meow
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 681ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 393ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (508ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (116ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./VariantsDeps/meow/variant6/meow
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 672ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 409ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (557ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (123ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✖ text can be replaced (glitch) 
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  text can be replaced (glitch)
+
+  test.js:67
+
+   66:     t.false(f2.indexOf('Y') > -1);
+   67:     t.true(f2.indexOf('Z') > -1); 
+   68:   });                             
+
+  Value is not `true`:
+
+  false
+
+  › file://test.js:67:9
+
+  ─
+
+  1 test failed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./VariantsDeps/meow/variant5/meow
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 668ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 459ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (493ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (135ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./VariantsDeps/meow/variant4/meow
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 672ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 404ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (556ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (127ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./VariantsDeps/meow/variant3/meow
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 678ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 395ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (498ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (125ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./VariantsDeps/meow/variant2/meow
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 691ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 401ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (528ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (113ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************
+chalk-animation is testing ./VariantsDeps/meow/variant1/meow
+************* npm unlink module *************
+
+added 28 packages, changed 1 package, and audited 588 packages in 2s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 679ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 394ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 28 packages, changed 1 package, and audited 561 packages in 2s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> chalk-animation@2.0.2 test
+> c8 ava --serial
+
+
+  ✔ throw error if invalid speed (rainbow)
+  ✔ animations are starting automatically (rainbow)
+  ✔ console.log stops the animation (rainbow)
+  ✔ start and stop are working (rainbow)
+  ✔ manual render is working (rainbow)
+  ✔ text can be replaced (rainbow)
+  ✔ multiline is well supported (rainbow)
+  ✔ forced start is not a problem (rainbow)
+  ✔ test lots of frames (rainbow) (498ms)
+  ✔ throw error if invalid speed (pulse)
+  ✔ animations are starting automatically (pulse)
+  ✔ console.log stops the animation (pulse)
+  ✔ start and stop are working (pulse)
+  ✔ manual render is working (pulse)
+  ✔ text can be replaced (pulse)
+  ✔ multiline is well supported (pulse)
+  ✔ forced start is not a problem (pulse)
+  ✔ test lots of frames (pulse) (126ms)
+  ✔ throw error if invalid speed (glitch)
+  ✔ animations are starting automatically (glitch)
+  ✔ console.log stops the animation (glitch)
+  ✔ start and stop are working (glitch)
+  ✔ manual render is working (glitch)
+  ✔ text can be replaced (glitch)
+  ✔ multiline is well supported (glitch)
+  ✔ forced start is not a problem (glitch)
+  ✔ test lots of frames (glitch)
+  ✔ throw error if invalid speed (radar)
+  ✔ animations are starting automatically (radar)
+  ✔ console.log stops the animation (radar)
+  ✔ start and stop are working (radar)
+  ✔ manual render is working (radar)
+  ✔ text can be replaced (radar)
+  ✔ multiline is well supported (radar)
+  ✔ forced start is not a problem (radar)
+  ✔ test lots of frames (radar)
+  ✔ throw error if invalid speed (neon)
+  ✔ animations are starting automatically (neon)
+  ✔ console.log stops the animation (neon)
+  ✔ start and stop are working (neon)
+  ✔ manual render is working (neon)
+  ✔ text can be replaced (neon)
+  ✔ multiline is well supported (neon)
+  ✔ forced start is not a problem (neon)
+  ✔ test lots of frames (neon)
+  ✔ throw error if invalid speed (karaoke)
+  ✔ animations are starting automatically (karaoke)
+  ✔ console.log stops the animation (karaoke)
+  ✔ start and stop are working (karaoke)
+  ✔ manual render is working (karaoke)
+  ✔ text can be replaced (karaoke)
+  ✔ multiline is well supported (karaoke)
+  ✔ forced start is not a problem (karaoke)
+  ✔ test lots of frames (karaoke)
+  ─
+
+  54 tests passed
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+************* run test done *************

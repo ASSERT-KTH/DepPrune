@@ -1,0 +1,2744 @@
+15
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (34ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (16ms)
+      ✓ should remove highlight from plus button on mouseout (6ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+FAIL src/__tests__/layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { Props as FeatureProps } from './feature';
+      6 | 
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/layer.test.tsx:2:1)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (13ms)
+    ✓ Should add custom className (5ms)
+    ✓ Should concat custom className to defaultClassName (13ms)
+
+FAIL src/__tests__/map.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      10 | import { MapContext } from './context';
+      11 | import { createPortal } from 'react-dom';
+    > 12 | const isEqual = require('deep-equal'); //tslint:disable-line
+         |                 ^
+      13 | 
+      14 | export interface PaddingOptions {
+      15 |   top: number;
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/map.tsx:12:17)
+      at Object.<anonymous> (src/__tests__/map.test.tsx:6:1)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (18ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (7ms)
+    ✓ Should remove image on unmount (2ms)
+    ✓ Should not call removeImage when map styles are undefined (1ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (9ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (7ms)
+    ✓ should listen all mouse and touch events (10ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference (1ms)
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key (1ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset (1ms)
+    ✓ Should add offset of 0
+
+FAIL src/__tests__/geojson-layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { generateID } from './util/uid';
+      6 | import { Sources, LayerType } from './util/types';
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/geojson-layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/geojson-layer.test.tsx:2:1)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+Test Suites: 3 failed, 1 skipped, 9 passed, 12 of 13 total
+Tests:       1 skipped, 24 passed, 25 total
+Snapshots:   0 total
+Time:        3.792s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (20ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (21ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (10ms)
+    ✓ Should add custom className (4ms)
+    ✓ Should concat custom className to defaultClassName (3ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (9ms)
+    ✓ Should remove image on unmount (4ms)
+    ✓ Should not call removeImage when map styles are undefined (2ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (10ms)
+    ✓ should listen all mouse and touch events (1ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly
+    ✓ Should transform position and offset only (1ms)
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (9ms)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences
+    ✓ Should return one difference (1ms)
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key (1ms)
+
+FAIL src/__tests__/layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { Props as FeatureProps } from './feature';
+      6 | 
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/layer.test.tsx:2:1)
+
+FAIL src/__tests__/geojson-layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { generateID } from './util/uid';
+      6 | import { Sources, LayerType } from './util/types';
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/geojson-layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/geojson-layer.test.tsx:2:1)
+
+FAIL src/__tests__/map.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      10 | import { MapContext } from './context';
+      11 | import { createPortal } from 'react-dom';
+    > 12 | const isEqual = require('deep-equal'); //tslint:disable-line
+         |                 ^
+      13 | 
+      14 | export interface PaddingOptions {
+      15 |   top: number;
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/map.tsx:12:17)
+      at Object.<anonymous> (src/__tests__/map.test.tsx:6:1)
+
+Test Suites: 3 failed, 1 skipped, 9 passed, 12 of 13 total
+Tests:       1 skipped, 24 passed, 25 total
+Snapshots:   0 total
+Time:        3.582s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (17ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (19ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (10ms)
+    ✓ Should add custom className (4ms)
+    ✓ Should concat custom className to defaultClassName (3ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (9ms)
+    ✓ Should remove image on unmount (4ms)
+    ✓ Should not call removeImage when map styles are undefined (2ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (11ms)
+    ✓ should listen all mouse and touch events (1ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0 (1ms)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (9ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences
+    ✓ Should return one difference (1ms)
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key
+
+FAIL src/__tests__/layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { Props as FeatureProps } from './feature';
+      6 | 
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/layer.test.tsx:2:1)
+
+FAIL src/__tests__/geojson-layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { generateID } from './util/uid';
+      6 | import { Sources, LayerType } from './util/types';
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/geojson-layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/geojson-layer.test.tsx:2:1)
+
+FAIL src/__tests__/map.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      10 | import { MapContext } from './context';
+      11 | import { createPortal } from 'react-dom';
+    > 12 | const isEqual = require('deep-equal'); //tslint:disable-line
+         |                 ^
+      13 | 
+      14 | export interface PaddingOptions {
+      15 |   top: number;
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/map.tsx:12:17)
+      at Object.<anonymous> (src/__tests__/map.test.tsx:6:1)
+
+Test Suites: 3 failed, 1 skipped, 9 passed, 12 of 13 total
+Tests:       1 skipped, 24 passed, 25 total
+Snapshots:   0 total
+Time:        3.596s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (17ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (21ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (10ms)
+    ✓ Should add custom className (4ms)
+    ✓ Should concat custom className to defaultClassName (3ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (10ms)
+    ✓ Should remove image on unmount (3ms)
+    ✓ Should not call removeImage when map styles are undefined (2ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (10ms)
+    ✓ should listen all mouse and touch events (2ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only (1ms)
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (9ms)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key (1ms)
+    ✓ Should return 1 removed and 1 added key
+
+PASS src/__tests__/layer.test.tsx
+  Layer
+    ✓ Should render layer with default options (7ms)
+    ✓ Should set all parameters of add layer (1ms)
+    ✓ Should render layer with default source (1ms)
+    ✓ Should set all parameters of add source with geojsonSourceOptions (2ms)
+    ✓ Should set features based on children (1ms)
+    ✓ Should set features to empty array when children disappear (2ms)
+    ✓ Should flatten features (1ms)
+    ✓ Should add images (1ms)
+    ✓ Should render Polygon for fill (2ms)
+    ✓ Should render MultiPolygon for fill (1ms)
+    ✓ Should update minZoom and maxZoom if they change (2ms)
+    ✓ Should start listening onClick mouse event (2ms)
+
+PASS src/__tests__/geojson-layer.test.tsx
+  GeoJSONLayer
+    ✓ Should call addLayer with provided layerOptions (7ms)
+    ✓ Should call addLayer when no layerOptions provided (1ms)
+    ✓ Should start listening onClick mouse event (2ms)
+
+PASS src/__tests__/map.test.tsx
+  Map
+    ✓ Should render the map correctly (17ms)
+    ✓ Should call fitBounds with the right parameters (2ms)
+    ✓ Should update fitBounds if fitBoundsOptions changes (3ms)
+    ✓ Should listen onStyleLoad event (1ms)
+    ✓ Should update the map center position (2ms)
+    ✓ Should update maxBounds (2ms)
+    ✓ Should not update zoom when using same reference equality (1ms)
+    ✓ Should update the zoom on broken reference equality (2ms)
+    ✓ Should not update bearing when using same reference equality (2ms)
+    ✓ Should update the bearing on broken reference equality (1ms)
+    ✓ Should not update pitch when using same reference equality (2ms)
+    ✓ Should update the pitch on broken reference equality (2ms)
+    ✓ Should pass animation options and flyTo options (3ms)
+    ○ skipped Should calc the center from fitbounds if center is not given
+
+Test Suites: 1 skipped, 12 passed, 12 of 13 total
+Tests:       2 skipped, 52 passed, 54 total
+Snapshots:   0 total
+Time:        3.708s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (17ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+FAIL src/__tests__/layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { Props as FeatureProps } from './feature';
+      6 | 
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/layer.test.tsx:2:1)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (20ms)
+
+FAIL src/__tests__/map.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      10 | import { MapContext } from './context';
+      11 | import { createPortal } from 'react-dom';
+    > 12 | const isEqual = require('deep-equal'); //tslint:disable-line
+         |                 ^
+      13 | 
+      14 | export interface PaddingOptions {
+      15 |   top: number;
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/map.tsx:12:17)
+      at Object.<anonymous> (src/__tests__/map.test.tsx:6:1)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (10ms)
+    ✓ Should add custom className (4ms)
+    ✓ Should concat custom className to defaultClassName (3ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (17ms)
+    ✓ Should remove image on unmount (2ms)
+    ✓ Should not call removeImage when map styles are undefined (2ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (7ms)
+    ✓ should listen all mouse and touch events (1ms)
+
+FAIL src/__tests__/geojson-layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { generateID } from './util/uid';
+      6 | import { Sources, LayerType } from './util/types';
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/geojson-layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/geojson-layer.test.tsx:2:1)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly
+    ✓ Should transform position and offset only (1ms)
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (9ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key (1ms)
+    ✓ Should return 1 removed and 1 added key
+
+Test Suites: 3 failed, 1 skipped, 9 passed, 12 of 13 total
+Tests:       1 skipped, 24 passed, 25 total
+Snapshots:   0 total
+Time:        3.584s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (34ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (16ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (9ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (21ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (10ms)
+    ✓ Should add custom className (4ms)
+    ✓ Should concat custom className to defaultClassName (3ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (9ms)
+    ✓ Should remove image on unmount (4ms)
+    ✓ Should not call removeImage when map styles are undefined (2ms)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (8ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences
+    ✓ Should return one difference (1ms)
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (20ms)
+    ✓ should listen all mouse and touch events (3ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (10ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0 (1ms)
+
+PASS src/__tests__/layer.test.tsx
+  Layer
+    ✓ Should render layer with default options (10ms)
+    ✓ Should set all parameters of add layer (1ms)
+    ✓ Should render layer with default source (1ms)
+    ✓ Should set all parameters of add source with geojsonSourceOptions (2ms)
+    ✓ Should set features based on children (1ms)
+    ✓ Should set features to empty array when children disappear (2ms)
+    ✓ Should flatten features (1ms)
+    ✓ Should add images (1ms)
+    ✓ Should render Polygon for fill (2ms)
+    ✓ Should render MultiPolygon for fill (1ms)
+    ✓ Should update minZoom and maxZoom if they change (2ms)
+    ✓ Should start listening onClick mouse event (2ms)
+
+PASS src/__tests__/geojson-layer.test.tsx
+  GeoJSONLayer
+    ✓ Should call addLayer with provided layerOptions (7ms)
+    ✓ Should call addLayer when no layerOptions provided (1ms)
+    ✓ Should start listening onClick mouse event (1ms)
+
+FAIL src/__tests__/map.test.tsx
+  Map
+    ✓ Should render the map correctly (7ms)
+    ✓ Should call fitBounds with the right parameters (2ms)
+    ✕ Should update fitBounds if fitBoundsOptions changes (45ms)
+    ✓ Should listen onStyleLoad event (1ms)
+    ✓ Should update the map center position (2ms)
+    ✓ Should update maxBounds (2ms)
+    ✓ Should not update zoom when using same reference equality (1ms)
+    ✓ Should update the zoom on broken reference equality (2ms)
+    ✓ Should not update bearing when using same reference equality (2ms)
+    ✓ Should update the bearing on broken reference equality (2ms)
+    ✓ Should not update pitch when using same reference equality (1ms)
+    ✓ Should update the pitch on broken reference equality (2ms)
+    ✓ Should pass animation options and flyTo options (2ms)
+    ○ skipped Should calc the center from fitbounds if center is not given
+
+  ● Map › Should update fitBounds if fitBoundsOptions changes
+
+    An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the "Pause on exceptions" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.
+
+      81 |     );
+      82 | 
+    > 83 |     wrapper.setProps({ fitBoundsOptions: newFitBoundsOptions });
+         |             ^
+      84 | 
+      85 |     expect(mockfitBounds.mock.calls[1][1]).toBe(newFitBoundsOptions);
+      86 |   });
+
+      at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:394:19)
+      at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:440:31)
+      at commitRootImpl (node_modules/react-dom/cjs/react-dom.development.js:25040:9)
+      at unstable_runWithPriority (node_modules/scheduler/cjs/scheduler.development.js:818:12)
+      at runWithPriority$2 (node_modules/react-dom/cjs/react-dom.development.js:12130:10)
+      at commitRoot (node_modules/react-dom/cjs/react-dom.development.js:24889:3)
+      at finishSyncRender (node_modules/react-dom/cjs/react-dom.development.js:24296:3)
+      at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:24274:9)
+      at node_modules/react-dom/cjs/react-dom.development.js:12180:24
+      at unstable_runWithPriority (node_modules/scheduler/cjs/scheduler.development.js:818:12)
+      at runWithPriority$2 (node_modules/react-dom/cjs/react-dom.development.js:12130:10)
+      at flushSyncCallbackQueueImpl (node_modules/react-dom/cjs/react-dom.development.js:12175:7)
+      at flushSyncCallbackQueue (node_modules/react-dom/cjs/react-dom.development.js:12163:3)
+      at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:23676:9)
+      at Object.enqueueSetState (node_modules/react-dom/cjs/react-dom.development.js:13975:5)
+      at WrapperComponent.Object.<anonymous>.Component.setState (node_modules/react/cjs/react.development.js:325:16)
+      at WrapperComponent.setState [as setChildProps] (node_modules/enzyme-adapter-utils/src/createMountWrapper.jsx:64:12)
+      at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:353:26)
+      at ReactWrapper.setProps (node_modules/enzyme/build/ReactWrapper.js:432:24)
+      at Object.<anonymous> (src/__tests__/map.test.tsx:83:13)
+
+Test Suites: 1 failed, 1 skipped, 11 passed, 12 of 13 total
+Tests:       1 failed, 2 skipped, 51 passed, 54 total
+Snapshots:   0 total
+Time:        3.84s
+Ran all test suites.
+FAIL src/__tests__/map.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      10 | import { MapContext } from './context';
+      11 | import { createPortal } from 'react-dom';
+    > 12 | const isEqual = require('deep-equal'); //tslint:disable-line
+         |                 ^
+      13 | 
+      14 | export interface PaddingOptions {
+      15 |   top: number;
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/map.tsx:12:17)
+      at Object.<anonymous> (src/__tests__/map.test.tsx:6:1)
+
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (39ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (17ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+FAIL src/__tests__/layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { Props as FeatureProps } from './feature';
+      6 | 
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/layer.test.tsx:2:1)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (21ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (16ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (7ms)
+    ✓ Should add custom className (13ms)
+    ✓ Should concat custom className to defaultClassName (2ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (9ms)
+    ✓ Should remove image on unmount (2ms)
+    ✓ Should not call removeImage when map styles are undefined (1ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (7ms)
+    ✓ should listen all mouse and touch events (1ms)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+FAIL src/__tests__/geojson-layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { generateID } from './util/uid';
+      6 | import { Sources, LayerType } from './util/types';
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/geojson-layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/geojson-layer.test.tsx:2:1)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key (1ms)
+    ✓ Should return 1 removed and 1 added key
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0 (1ms)
+
+Test Suites: 3 failed, 1 skipped, 9 passed, 12 of 13 total
+Tests:       1 skipped, 24 passed, 25 total
+Snapshots:   0 total
+Time:        3.613s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (17ms)
+      ✓ should remove highlight from plus button on mouseout (6ms)
+      ✓ should remove highlight from minus button on mouseout (9ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (21ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (10ms)
+    ✓ Should add custom className (4ms)
+    ✓ Should concat custom className to defaultClassName (3ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (13ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (9ms)
+    ✓ Should remove image on unmount (6ms)
+    ✓ Should not call removeImage when map styles are undefined (2ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (8ms)
+    ✓ should listen all mouse and touch events (1ms)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences
+    ✓ Should return one difference
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key (1ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset (1ms)
+    ✓ Should add offset of 0
+
+FAIL src/__tests__/layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { Props as FeatureProps } from './feature';
+      6 | 
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/layer.test.tsx:2:1)
+
+FAIL src/__tests__/geojson-layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { generateID } from './util/uid';
+      6 | import { Sources, LayerType } from './util/types';
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/geojson-layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/geojson-layer.test.tsx:2:1)
+
+FAIL src/__tests__/map.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      10 | import { MapContext } from './context';
+      11 | import { createPortal } from 'react-dom';
+    > 12 | const isEqual = require('deep-equal'); //tslint:disable-line
+         |                 ^
+      13 | 
+      14 | export interface PaddingOptions {
+      15 |   top: number;
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/map.tsx:12:17)
+      at Object.<anonymous> (src/__tests__/map.test.tsx:6:1)
+
+Test Suites: 3 failed, 1 skipped, 9 passed, 12 of 13 total
+Tests:       1 skipped, 24 passed, 25 total
+Snapshots:   0 total
+Time:        3.658s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (17ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (19ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (10ms)
+    ✓ Should add custom className (4ms)
+    ✓ Should concat custom className to defaultClassName (15ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (9ms)
+    ✓ Should remove image on unmount (4ms)
+    ✓ Should not call removeImage when map styles are undefined (1ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (14ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (7ms)
+    ✓ should listen all mouse and touch events (1ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key (1ms)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0 (1ms)
+
+FAIL src/__tests__/layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { Props as FeatureProps } from './feature';
+      6 | 
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/layer.test.tsx:2:1)
+
+FAIL src/__tests__/geojson-layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { generateID } from './util/uid';
+      6 | import { Sources, LayerType } from './util/types';
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/geojson-layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/geojson-layer.test.tsx:2:1)
+
+FAIL src/__tests__/map.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      10 | import { MapContext } from './context';
+      11 | import { createPortal } from 'react-dom';
+    > 12 | const isEqual = require('deep-equal'); //tslint:disable-line
+         |                 ^
+      13 | 
+      14 | export interface PaddingOptions {
+      15 |   top: number;
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/map.tsx:12:17)
+      at Object.<anonymous> (src/__tests__/map.test.tsx:6:1)
+
+Test Suites: 3 failed, 1 skipped, 9 passed, 12 of 13 total
+Tests:       1 skipped, 24 passed, 25 total
+Snapshots:   0 total
+Time:        3.589s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (17ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (20ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (10ms)
+    ✓ Should add custom className (4ms)
+    ✓ Should concat custom className to defaultClassName (4ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (13ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (9ms)
+    ✓ Should remove image on unmount (3ms)
+    ✓ Should not call removeImage when map styles are undefined (2ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (7ms)
+    ✓ should listen all mouse and touch events (1ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key (1ms)
+    ✓ Should return 1 removed and 1 added key
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0
+
+PASS src/__tests__/layer.test.tsx
+  Layer
+    ✓ Should render layer with default options (6ms)
+    ✓ Should set all parameters of add layer (2ms)
+    ✓ Should render layer with default source (1ms)
+    ✓ Should set all parameters of add source with geojsonSourceOptions (1ms)
+    ✓ Should set features based on children (1ms)
+    ✓ Should set features to empty array when children disappear (2ms)
+    ✓ Should flatten features (1ms)
+    ✓ Should add images (2ms)
+    ✓ Should render Polygon for fill (1ms)
+    ✓ Should render MultiPolygon for fill (1ms)
+    ✓ Should update minZoom and maxZoom if they change (3ms)
+    ✓ Should start listening onClick mouse event (1ms)
+
+PASS src/__tests__/geojson-layer.test.tsx
+  GeoJSONLayer
+    ✓ Should call addLayer with provided layerOptions (7ms)
+    ✓ Should call addLayer when no layerOptions provided (1ms)
+    ✓ Should start listening onClick mouse event (2ms)
+
+PASS src/__tests__/map.test.tsx
+  Map
+    ✓ Should render the map correctly (7ms)
+    ✓ Should call fitBounds with the right parameters (2ms)
+    ✓ Should update fitBounds if fitBoundsOptions changes (3ms)
+    ✓ Should listen onStyleLoad event (1ms)
+    ✓ Should update the map center position (2ms)
+    ✓ Should update maxBounds (2ms)
+    ✓ Should not update zoom when using same reference equality (1ms)
+    ✓ Should update the zoom on broken reference equality (2ms)
+    ✓ Should not update bearing when using same reference equality (2ms)
+    ✓ Should update the bearing on broken reference equality (1ms)
+    ✓ Should not update pitch when using same reference equality (2ms)
+    ✓ Should update the pitch on broken reference equality (2ms)
+    ✓ Should pass animation options and flyTo options (3ms)
+    ○ skipped Should calc the center from fitbounds if center is not given
+
+Test Suites: 1 skipped, 12 passed, 12 of 13 total
+Tests:       2 skipped, 52 passed, 54 total
+Snapshots:   0 total
+Time:        3.718s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (32ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (17ms)
+      ✓ should remove highlight from plus button on mouseout (6ms)
+      ✓ should remove highlight from minus button on mouseout (9ms)
+
+FAIL src/__tests__/layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { Props as FeatureProps } from './feature';
+      6 | 
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/layer.test.tsx:2:1)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (32ms)
+
+FAIL src/__tests__/map.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      10 | import { MapContext } from './context';
+      11 | import { createPortal } from 'react-dom';
+    > 12 | const isEqual = require('deep-equal'); //tslint:disable-line
+         |                 ^
+      13 | 
+      14 | export interface PaddingOptions {
+      15 |   top: number;
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/map.tsx:12:17)
+      at Object.<anonymous> (src/__tests__/map.test.tsx:6:1)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (9ms)
+    ✓ Should add custom className (5ms)
+    ✓ Should concat custom className to defaultClassName (3ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (8ms)
+    ✓ Should remove image on unmount (3ms)
+    ✓ Should not call removeImage when map styles are undefined (1ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (9ms)
+
+FAIL src/__tests__/geojson-layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { generateID } from './util/uid';
+      6 | import { Sources, LayerType } from './util/types';
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/geojson-layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/geojson-layer.test.tsx:2:1)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (7ms)
+    ✓ should listen all mouse and touch events (1ms)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences
+    ✓ Should return one difference (1ms)
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key (1ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0 (1ms)
+
+Test Suites: 3 failed, 1 skipped, 9 passed, 12 of 13 total
+Tests:       1 skipped, 24 passed, 25 total
+Snapshots:   0 total
+Time:        3.588s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (32ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (16ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (20ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (10ms)
+    ✓ Should add custom className (4ms)
+    ✓ Should concat custom className to defaultClassName (3ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (9ms)
+    ✓ Should remove image on unmount (3ms)
+    ✓ Should not call removeImage when map styles are undefined (2ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only (1ms)
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (8ms)
+    ✓ should listen all mouse and touch events (1ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (9ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key (1ms)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+FAIL src/__tests__/layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { Props as FeatureProps } from './feature';
+      6 | 
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/layer.test.tsx:2:1)
+
+FAIL src/__tests__/geojson-layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { generateID } from './util/uid';
+      6 | import { Sources, LayerType } from './util/types';
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/geojson-layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/geojson-layer.test.tsx:2:1)
+
+FAIL src/__tests__/map.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      10 | import { MapContext } from './context';
+      11 | import { createPortal } from 'react-dom';
+    > 12 | const isEqual = require('deep-equal'); //tslint:disable-line
+         |                 ^
+      13 | 
+      14 | export interface PaddingOptions {
+      15 |   top: number;
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/map.tsx:12:17)
+      at Object.<anonymous> (src/__tests__/map.test.tsx:6:1)
+
+Test Suites: 3 failed, 1 skipped, 9 passed, 12 of 13 total
+Tests:       1 skipped, 24 passed, 25 total
+Snapshots:   0 total
+Time:        3.6s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (17ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (20ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (9ms)
+    ✓ Should add custom className (5ms)
+    ✓ Should concat custom className to defaultClassName (3ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (9ms)
+    ✓ Should remove image on unmount (4ms)
+    ✓ Should not call removeImage when map styles are undefined (2ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (2ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset (1ms)
+    ✓ Should add offset of 0
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (17ms)
+    ✓ should listen all mouse and touch events (2ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (9ms)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences
+    ✓ Should return one difference (1ms)
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key (1ms)
+
+FAIL src/__tests__/layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { Props as FeatureProps } from './feature';
+      6 | 
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:200:14)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/layer.test.tsx:2:1)
+
+FAIL src/__tests__/geojson-layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { generateID } from './util/uid';
+      6 | import { Sources, LayerType } from './util/types';
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:200:14)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/geojson-layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/geojson-layer.test.tsx:2:1)
+
+FAIL src/__tests__/map.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      10 | import { MapContext } from './context';
+      11 | import { createPortal } from 'react-dom';
+    > 12 | const isEqual = require('deep-equal'); //tslint:disable-line
+         |                 ^
+      13 | 
+      14 | export interface PaddingOptions {
+      15 |   top: number;
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:200:14)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/map.tsx:12:17)
+      at Object.<anonymous> (src/__tests__/map.test.tsx:6:1)
+
+Test Suites: 3 failed, 1 skipped, 9 passed, 12 of 13 total
+Tests:       1 skipped, 24 passed, 25 total
+Snapshots:   0 total
+Time:        3.742s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (17ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (14ms)
+    ✓ should listen all mouse and touch events (9ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (18ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (9ms)
+    ✓ Should add custom className (4ms)
+    ✓ Should concat custom className to defaultClassName (3ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (8ms)
+    ✓ Should remove image on unmount (4ms)
+    ✓ Should not call removeImage when map styles are undefined (2ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (9ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly
+    ✓ Should transform position and offset only (1ms)
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences
+    ✓ Should return one difference (1ms)
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key
+
+PASS src/__tests__/layer.test.tsx
+  Layer
+    ✓ Should render layer with default options (7ms)
+    ✓ Should set all parameters of add layer (1ms)
+    ✓ Should render layer with default source (1ms)
+    ✓ Should set all parameters of add source with geojsonSourceOptions (2ms)
+    ✓ Should set features based on children (1ms)
+    ✓ Should set features to empty array when children disappear (2ms)
+    ✓ Should flatten features (1ms)
+    ✓ Should add images (1ms)
+    ✓ Should render Polygon for fill (2ms)
+    ✓ Should render MultiPolygon for fill (1ms)
+    ✓ Should update minZoom and maxZoom if they change (3ms)
+    ✓ Should start listening onClick mouse event (1ms)
+
+PASS src/__tests__/geojson-layer.test.tsx
+  GeoJSONLayer
+    ✓ Should call addLayer with provided layerOptions (6ms)
+    ✓ Should call addLayer when no layerOptions provided (2ms)
+    ✓ Should start listening onClick mouse event (1ms)
+
+PASS src/__tests__/map.test.tsx
+  Map
+    ✓ Should render the map correctly (7ms)
+    ✓ Should call fitBounds with the right parameters (2ms)
+    ✓ Should update fitBounds if fitBoundsOptions changes (3ms)
+    ✓ Should listen onStyleLoad event (1ms)
+    ✓ Should update the map center position (2ms)
+    ✓ Should update maxBounds (2ms)
+    ✓ Should not update zoom when using same reference equality (1ms)
+    ✓ Should update the zoom on broken reference equality (2ms)
+    ✓ Should not update bearing when using same reference equality (2ms)
+    ✓ Should update the bearing on broken reference equality (1ms)
+    ✓ Should not update pitch when using same reference equality (2ms)
+    ✓ Should update the pitch on broken reference equality (2ms)
+    ✓ Should pass animation options and flyTo options (3ms)
+    ○ skipped Should calc the center from fitbounds if center is not given
+
+Test Suites: 1 skipped, 12 passed, 12 of 13 total
+Tests:       2 skipped, 52 passed, 54 total
+Snapshots:   0 total
+Time:        3.727s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (17ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+PASS src/__tests__/layer.test.tsx
+  Layer
+    ✓ Should render layer with default options (10ms)
+    ✓ Should set all parameters of add layer (2ms)
+    ✓ Should render layer with default source (2ms)
+    ✓ Should set all parameters of add source with geojsonSourceOptions (2ms)
+    ✓ Should set features based on children (2ms)
+    ✓ Should set features to empty array when children disappear (3ms)
+    ✓ Should flatten features (2ms)
+    ✓ Should add images (2ms)
+    ✓ Should render Polygon for fill (2ms)
+    ✓ Should render MultiPolygon for fill (1ms)
+    ✓ Should update minZoom and maxZoom if they change (3ms)
+    ✓ Should start listening onClick mouse event (1ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (19ms)
+
+PASS src/__tests__/map.test.tsx
+  Map
+    ✓ Should render the map correctly (10ms)
+    ✓ Should call fitBounds with the right parameters (3ms)
+    ✓ Should update fitBounds if fitBoundsOptions changes (3ms)
+    ✓ Should listen onStyleLoad event (2ms)
+    ✓ Should update the map center position (1ms)
+    ✓ Should update maxBounds (2ms)
+    ✓ Should not update zoom when using same reference equality (2ms)
+    ✓ Should update the zoom on broken reference equality (1ms)
+    ✓ Should not update bearing when using same reference equality (2ms)
+    ✓ Should update the bearing on broken reference equality (2ms)
+    ✓ Should not update pitch when using same reference equality (1ms)
+    ✓ Should update the pitch on broken reference equality (2ms)
+    ✓ Should pass animation options and flyTo options (2ms)
+    ○ skipped Should calc the center from fitbounds if center is not given
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (21ms)
+    ✓ should listen all mouse and touch events (2ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (7ms)
+    ✓ Should add custom className (3ms)
+    ✓ Should concat custom className to defaultClassName (2ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (6ms)
+    ✓ Should remove image on unmount (3ms)
+    ✓ Should not call removeImage when map styles are undefined (1ms)
+
+PASS src/__tests__/geojson-layer.test.tsx
+  GeoJSONLayer
+    ✓ Should call addLayer with provided layerOptions (7ms)
+    ✓ Should call addLayer when no layerOptions provided (1ms)
+    ✓ Should start listening onClick mouse event (1ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (9ms)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (9ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key (1ms)
+    ✓ Should return 1 removed and 1 added key
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly
+    ✓ Should transform position and offset only (1ms)
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0
+
+Test Suites: 1 skipped, 12 passed, 12 of 13 total
+Tests:       2 skipped, 52 passed, 54 total
+Snapshots:   0 total
+Time:        3.72s
+Ran all test suites.
+10
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (17ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+PASS src/__tests__/layer.test.tsx
+  Layer
+    ✓ Should render layer with default options (10ms)
+    ✓ Should set all parameters of add layer (3ms)
+    ✓ Should render layer with default source (1ms)
+    ✓ Should set all parameters of add source with geojsonSourceOptions (2ms)
+    ✓ Should set features based on children (2ms)
+    ✓ Should set features to empty array when children disappear (3ms)
+    ✓ Should flatten features (2ms)
+    ✓ Should add images (2ms)
+    ✓ Should render Polygon for fill (2ms)
+    ✓ Should render MultiPolygon for fill (1ms)
+    ✓ Should update minZoom and maxZoom if they change (2ms)
+    ✓ Should start listening onClick mouse event (2ms)
+
+PASS src/__tests__/map.test.tsx
+  Map
+    ✓ Should render the map correctly (9ms)
+    ✓ Should call fitBounds with the right parameters (2ms)
+    ✓ Should update fitBounds if fitBoundsOptions changes (3ms)
+    ✓ Should listen onStyleLoad event (1ms)
+    ✓ Should update the map center position (2ms)
+    ✓ Should update maxBounds (1ms)
+    ✓ Should not update zoom when using same reference equality (2ms)
+    ✓ Should update the zoom on broken reference equality (1ms)
+    ✓ Should not update bearing when using same reference equality (2ms)
+    ✓ Should update the bearing on broken reference equality (2ms)
+    ✓ Should not update pitch when using same reference equality (2ms)
+    ✓ Should update the pitch on broken reference equality (2ms)
+    ✓ Should pass animation options and flyTo options (2ms)
+    ○ skipped Should calc the center from fitbounds if center is not given
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (16ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (10ms)
+    ✓ should listen all mouse and touch events (2ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (7ms)
+    ✓ Should add custom className (3ms)
+    ✓ Should concat custom className to defaultClassName (2ms)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+PASS src/__tests__/geojson-layer.test.tsx
+  GeoJSONLayer
+    ✓ Should call addLayer with provided layerOptions (7ms)
+    ✓ Should call addLayer when no layerOptions provided (1ms)
+    ✓ Should start listening onClick mouse event (1ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (19ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key (1ms)
+    ✓ Should return 1 removed and 1 added key
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (6ms)
+    ✓ Should remove image on unmount (3ms)
+    ✓ Should not call removeImage when map styles are undefined (2ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0 (1ms)
+
+Test Suites: 1 skipped, 12 passed, 12 of 13 total
+Tests:       2 skipped, 52 passed, 54 total
+Snapshots:   0 total
+Time:        3.929s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (17ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+FAIL src/__tests__/layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: gOPD is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { Props as FeatureProps } from './feature';
+      6 | 
+
+      at node_modules/deep-equal/node_modules/which-typed-array/index.js:23:22
+      at forEachArray (node_modules/deep-equal/node_modules/for-each/index.js:12:17)
+      at forEach (node_modules/deep-equal/node_modules/for-each/index.js:54:9)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/which-typed-array/index.js:18:2)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:16:23)
+      at Object.<anonymous> (src/layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/layer.test.tsx:2:1)
+
+FAIL src/__tests__/map.test.tsx
+  ● Test suite failed to run
+
+    TypeError: gOPD is not a function
+
+      10 | import { MapContext } from './context';
+      11 | import { createPortal } from 'react-dom';
+    > 12 | const isEqual = require('deep-equal'); //tslint:disable-line
+         |                 ^
+      13 | 
+      14 | export interface PaddingOptions {
+      15 |   top: number;
+
+      at node_modules/deep-equal/node_modules/which-typed-array/index.js:23:22
+      at forEachArray (node_modules/deep-equal/node_modules/for-each/index.js:12:17)
+      at forEach (node_modules/deep-equal/node_modules/for-each/index.js:54:9)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/which-typed-array/index.js:18:2)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:16:23)
+      at Object.<anonymous> (src/map.tsx:12:17)
+      at Object.<anonymous> (src/__tests__/map.test.tsx:6:1)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (24ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (19ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (7ms)
+    ✓ should listen all mouse and touch events (1ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference (1ms)
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key (1ms)
+    ✓ Should return 1 removed and 1 added key
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (7ms)
+    ✓ Should add custom className (2ms)
+    ✓ Should concat custom className to defaultClassName (3ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly
+    ✓ Should transform position and offset only (1ms)
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (5ms)
+
+FAIL src/__tests__/geojson-layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: gOPD is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { generateID } from './util/uid';
+      6 | import { Sources, LayerType } from './util/types';
+
+      at node_modules/deep-equal/node_modules/which-typed-array/index.js:23:22
+      at forEachArray (node_modules/deep-equal/node_modules/for-each/index.js:12:17)
+      at forEach (node_modules/deep-equal/node_modules/for-each/index.js:54:9)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/which-typed-array/index.js:18:2)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:16:23)
+      at Object.<anonymous> (src/geojson-layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/geojson-layer.test.tsx:2:1)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (6ms)
+    ✓ Should remove image on unmount (2ms)
+    ✓ Should not call removeImage when map styles are undefined (2ms)
+
+Test Suites: 3 failed, 1 skipped, 9 passed, 12 of 13 total
+Tests:       1 skipped, 24 passed, 25 total
+Snapshots:   0 total
+Time:        3.695s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (16ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (21ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (12ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (9ms)
+    ✓ Should remove image on unmount (3ms)
+    ✓ Should not call removeImage when map styles are undefined (2ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (10ms)
+    ✓ should listen all mouse and touch events (2ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset (1ms)
+    ✓ Should add offset of 0
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (7ms)
+    ✓ Should add custom className (3ms)
+    ✓ Should concat custom className to defaultClassName (2ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key (1ms)
+    ✓ Should return 1 removed and 1 added key
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (5ms)
+
+PASS src/__tests__/layer.test.tsx
+  Layer
+    ✓ Should render layer with default options (8ms)
+    ✓ Should set all parameters of add layer (1ms)
+    ✓ Should render layer with default source (2ms)
+    ✓ Should set all parameters of add source with geojsonSourceOptions (2ms)
+    ✓ Should set features based on children (1ms)
+    ✓ Should set features to empty array when children disappear (3ms)
+    ✓ Should flatten features (2ms)
+    ✓ Should add images (2ms)
+    ✓ Should render Polygon for fill (2ms)
+    ✓ Should render MultiPolygon for fill (2ms)
+    ✓ Should update minZoom and maxZoom if they change (4ms)
+    ✓ Should start listening onClick mouse event (2ms)
+
+PASS src/__tests__/geojson-layer.test.tsx
+  GeoJSONLayer
+    ✓ Should call addLayer with provided layerOptions (21ms)
+    ✓ Should call addLayer when no layerOptions provided (1ms)
+    ✓ Should start listening onClick mouse event (1ms)
+
+PASS src/__tests__/map.test.tsx
+  Map
+    ✓ Should render the map correctly (7ms)
+    ✓ Should call fitBounds with the right parameters (1ms)
+    ✓ Should update fitBounds if fitBoundsOptions changes (14ms)
+    ✓ Should listen onStyleLoad event (1ms)
+    ✓ Should update the map center position (2ms)
+    ✓ Should update maxBounds (2ms)
+    ✓ Should not update zoom when using same reference equality (1ms)
+    ✓ Should update the zoom on broken reference equality (2ms)
+    ✓ Should not update bearing when using same reference equality (2ms)
+    ✓ Should update the bearing on broken reference equality (1ms)
+    ✓ Should not update pitch when using same reference equality (2ms)
+    ✓ Should update the pitch on broken reference equality (2ms)
+    ✓ Should pass animation options and flyTo options (3ms)
+    ○ skipped Should calc the center from fitbounds if center is not given
+
+Test Suites: 1 skipped, 12 passed, 12 of 13 total
+Tests:       2 skipped, 52 passed, 54 total
+Snapshots:   0 total
+Time:        3.758s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (17ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+PASS src/__tests__/layer.test.tsx
+  Layer
+    ✓ Should render layer with default options (11ms)
+    ✓ Should set all parameters of add layer (2ms)
+    ✓ Should render layer with default source (2ms)
+    ✓ Should set all parameters of add source with geojsonSourceOptions (2ms)
+    ✓ Should set features based on children (2ms)
+    ✓ Should set features to empty array when children disappear (3ms)
+    ✓ Should flatten features (2ms)
+    ✓ Should add images (2ms)
+    ✓ Should render Polygon for fill (2ms)
+    ✓ Should render MultiPolygon for fill (1ms)
+    ✓ Should update minZoom and maxZoom if they change (3ms)
+    ✓ Should start listening onClick mouse event (1ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (18ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (12ms)
+    ✓ should listen all mouse and touch events (2ms)
+
+PASS src/__tests__/map.test.tsx
+  Map
+    ✓ Should render the map correctly (6ms)
+    ✓ Should call fitBounds with the right parameters (2ms)
+    ✓ Should update fitBounds if fitBoundsOptions changes (3ms)
+    ✓ Should listen onStyleLoad event (2ms)
+    ✓ Should update the map center position (1ms)
+    ✓ Should update maxBounds (2ms)
+    ✓ Should not update zoom when using same reference equality (2ms)
+    ✓ Should update the zoom on broken reference equality (1ms)
+    ✓ Should not update bearing when using same reference equality (2ms)
+    ✓ Should update the bearing on broken reference equality (2ms)
+    ✓ Should not update pitch when using same reference equality (1ms)
+    ✓ Should update the pitch on broken reference equality (2ms)
+    ✓ Should pass animation options and flyTo options (2ms)
+    ○ skipped Should calc the center from fitbounds if center is not given
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (6ms)
+    ✓ Should remove image on unmount (3ms)
+    ✓ Should not call removeImage when map styles are undefined (1ms)
+
+PASS src/__tests__/geojson-layer.test.tsx
+  GeoJSONLayer
+    ✓ Should call addLayer with provided layerOptions (7ms)
+    ✓ Should call addLayer when no layerOptions provided (1ms)
+    ✓ Should start listening onClick mouse event (1ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (10ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference
+    ✓ Should return 1 removed key (1ms)
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (10ms)
+    ✓ Should add custom className (2ms)
+    ✓ Should concat custom className to defaultClassName (3ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset (1ms)
+    ✓ Should add offset of 0
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+Test Suites: 1 skipped, 12 passed, 12 of 13 total
+Tests:       2 skipped, 52 passed, 54 total
+Snapshots:   0 total
+Time:        3.832s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (16ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+PASS src/__tests__/layer.test.tsx
+  Layer
+    ✓ Should render layer with default options (10ms)
+    ✓ Should set all parameters of add layer (2ms)
+    ✓ Should render layer with default source (2ms)
+    ✓ Should set all parameters of add source with geojsonSourceOptions (2ms)
+    ✓ Should set features based on children (2ms)
+    ✓ Should set features to empty array when children disappear (3ms)
+    ✓ Should flatten features (2ms)
+    ✓ Should add images (2ms)
+    ✓ Should render Polygon for fill (2ms)
+    ✓ Should render MultiPolygon for fill (2ms)
+    ✓ Should update minZoom and maxZoom if they change (2ms)
+    ✓ Should start listening onClick mouse event (1ms)
+
+FAIL src/__tests__/map.test.tsx
+  Map
+    ✓ Should render the map correctly (10ms)
+    ✓ Should call fitBounds with the right parameters (3ms)
+    ✕ Should update fitBounds if fitBoundsOptions changes (37ms)
+    ✓ Should listen onStyleLoad event (2ms)
+    ✓ Should update the map center position (2ms)
+    ✓ Should update maxBounds (1ms)
+    ✓ Should not update zoom when using same reference equality (2ms)
+    ✓ Should update the zoom on broken reference equality (1ms)
+    ✓ Should not update bearing when using same reference equality (1ms)
+    ✓ Should update the bearing on broken reference equality (2ms)
+    ✓ Should not update pitch when using same reference equality (12ms)
+    ✓ Should update the pitch on broken reference equality (2ms)
+    ✓ Should pass animation options and flyTo options (1ms)
+    ○ skipped Should calc the center from fitbounds if center is not given
+
+  ● Map › Should update fitBounds if fitBoundsOptions changes
+
+    An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the "Pause on exceptions" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.
+
+      81 |     );
+      82 | 
+    > 83 |     wrapper.setProps({ fitBoundsOptions: newFitBoundsOptions });
+         |             ^
+      84 | 
+      85 |     expect(mockfitBounds.mock.calls[1][1]).toBe(newFitBoundsOptions);
+      86 |   });
+
+      at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:394:19)
+      at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:440:31)
+      at commitRootImpl (node_modules/react-dom/cjs/react-dom.development.js:25040:9)
+      at unstable_runWithPriority (node_modules/scheduler/cjs/scheduler.development.js:818:12)
+      at runWithPriority$2 (node_modules/react-dom/cjs/react-dom.development.js:12130:10)
+      at commitRoot (node_modules/react-dom/cjs/react-dom.development.js:24889:3)
+      at finishSyncRender (node_modules/react-dom/cjs/react-dom.development.js:24296:3)
+      at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:24274:9)
+      at node_modules/react-dom/cjs/react-dom.development.js:12180:24
+      at unstable_runWithPriority (node_modules/scheduler/cjs/scheduler.development.js:818:12)
+      at runWithPriority$2 (node_modules/react-dom/cjs/react-dom.development.js:12130:10)
+      at flushSyncCallbackQueueImpl (node_modules/react-dom/cjs/react-dom.development.js:12175:7)
+      at flushSyncCallbackQueue (node_modules/react-dom/cjs/react-dom.development.js:12163:3)
+      at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:23676:9)
+      at Object.enqueueSetState (node_modules/react-dom/cjs/react-dom.development.js:13975:5)
+      at WrapperComponent.Object.<anonymous>.Component.setState (node_modules/react/cjs/react.development.js:325:16)
+      at WrapperComponent.setState [as setChildProps] (node_modules/enzyme-adapter-utils/src/createMountWrapper.jsx:64:12)
+      at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:353:26)
+      at ReactWrapper.setProps (node_modules/enzyme/build/ReactWrapper.js:432:24)
+      at Object.<anonymous> (src/__tests__/map.test.tsx:83:13)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (16ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (9ms)
+    ✓ Should remove image on unmount (3ms)
+    ✓ Should not call removeImage when map styles are undefined (1ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (7ms)
+    ✓ should listen all mouse and touch events (1ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (7ms)
+    ✓ Should add custom className (2ms)
+    ✓ Should concat custom className to defaultClassName (3ms)
+
+PASS src/__tests__/geojson-layer.test.tsx
+  GeoJSONLayer
+    ✓ Should call addLayer with provided layerOptions (7ms)
+    ✓ Should call addLayer when no layerOptions provided (2ms)
+    ✓ Should start listening onClick mouse event (1ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (9ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0 (1ms)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key (1ms)
+
+Test Suites: 1 failed, 1 skipped, 11 passed, 12 of 13 total
+Tests:       1 failed, 2 skipped, 51 passed, 54 total
+Snapshots:   0 total
+Time:        3.8s
+Ran all test suites.
+PASS src/__tests__/map.test.tsx
+  Map
+    ✓ Should render the map correctly (27ms)
+    ✓ Should call fitBounds with the right parameters (4ms)
+    ✓ Should update fitBounds if fitBoundsOptions changes (5ms)
+    ✓ Should listen onStyleLoad event (2ms)
+    ✓ Should update the map center position (3ms)
+    ✓ Should update maxBounds (2ms)
+    ✓ Should not update zoom when using same reference equality (2ms)
+    ✓ Should update the zoom on broken reference equality (3ms)
+    ✓ Should not update bearing when using same reference equality (2ms)
+    ✓ Should update the bearing on broken reference equality (2ms)
+    ✓ Should not update pitch when using same reference equality (2ms)
+    ✓ Should update the pitch on broken reference equality (2ms)
+    ✓ Should pass animation options and flyTo options (2ms)
+    ○ skipped Should calc the center from fitbounds if center is not given
+
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (19ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (27ms)
+      ✓ should remove highlight from plus button on mouseout (9ms)
+      ✓ should remove highlight from minus button on mouseout (7ms)
+
+PASS src/__tests__/layer.test.tsx
+  Layer
+    ✓ Should render layer with default options (7ms)
+    ✓ Should set all parameters of add layer (1ms)
+    ✓ Should render layer with default source (1ms)
+    ✓ Should set all parameters of add source with geojsonSourceOptions (1ms)
+    ✓ Should set features based on children (1ms)
+    ✓ Should set features to empty array when children disappear (2ms)
+    ✓ Should flatten features (1ms)
+    ✓ Should add images (1ms)
+    ✓ Should render Polygon for fill (1ms)
+    ✓ Should render MultiPolygon for fill (2ms)
+    ✓ Should update minZoom and maxZoom if they change (3ms)
+    ✓ Should start listening onClick mouse event (2ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (14ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (9ms)
+    ✓ Should remove image on unmount (3ms)
+    ✓ Should not call removeImage when map styles are undefined (2ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (8ms)
+    ✓ should listen all mouse and touch events (1ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (19ms)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+PASS src/__tests__/geojson-layer.test.tsx
+  GeoJSONLayer
+    ✓ Should call addLayer with provided layerOptions (7ms)
+    ✓ Should call addLayer when no layerOptions provided (2ms)
+    ✓ Should start listening onClick mouse event (1ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (7ms)
+    ✓ Should add custom className (3ms)
+    ✓ Should concat custom className to defaultClassName (2ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key (1ms)
+
+Test Suites: 1 skipped, 12 passed, 12 of 13 total
+Tests:       2 skipped, 52 passed, 54 total
+Snapshots:   0 total
+Time:        3.764s
+Ran all test suites.
+PASS src/__tests__/map.test.tsx
+  Map
+    ✓ Should render the map correctly (27ms)
+    ✓ Should call fitBounds with the right parameters (4ms)
+    ✓ Should update fitBounds if fitBoundsOptions changes (5ms)
+    ✓ Should listen onStyleLoad event (1ms)
+    ✓ Should update the map center position (3ms)
+    ✓ Should update maxBounds (3ms)
+    ✓ Should not update zoom when using same reference equality (2ms)
+    ✓ Should update the zoom on broken reference equality (2ms)
+    ✓ Should not update bearing when using same reference equality (3ms)
+    ✓ Should update the bearing on broken reference equality (2ms)
+    ✓ Should not update pitch when using same reference equality (2ms)
+    ✓ Should update the pitch on broken reference equality (2ms)
+    ✓ Should pass animation options and flyTo options (2ms)
+    ○ skipped Should calc the center from fitbounds if center is not given
+
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (18ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (20ms)
+      ✓ should remove highlight from plus button on mouseout (6ms)
+      ✓ should remove highlight from minus button on mouseout (7ms)
+
+PASS src/__tests__/layer.test.tsx
+  Layer
+    ✓ Should render layer with default options (7ms)
+    ✓ Should set all parameters of add layer (1ms)
+    ✓ Should render layer with default source (1ms)
+    ✓ Should set all parameters of add source with geojsonSourceOptions (1ms)
+    ✓ Should set features based on children (1ms)
+    ✓ Should set features to empty array when children disappear (2ms)
+    ✓ Should flatten features (1ms)
+    ✓ Should add images (1ms)
+    ✓ Should render Polygon for fill (1ms)
+    ✓ Should render MultiPolygon for fill (2ms)
+    ✓ Should update minZoom and maxZoom if they change (3ms)
+    ✓ Should start listening onClick mouse event (2ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (17ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (11ms)
+    ✓ should listen all mouse and touch events (2ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (6ms)
+    ✓ Should remove image on unmount (3ms)
+    ✓ Should not call removeImage when map styles are undefined (1ms)
+
+PASS src/__tests__/geojson-layer.test.tsx
+  GeoJSONLayer
+    ✓ Should call addLayer with provided layerOptions (7ms)
+    ✓ Should call addLayer when no layerOptions provided (1ms)
+    ✓ Should start listening onClick mouse event (1ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (9ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key (1ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (7ms)
+    ✓ Should add custom className (3ms)
+    ✓ Should concat custom className to defaultClassName (2ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+Test Suites: 1 skipped, 12 passed, 12 of 13 total
+Tests:       2 skipped, 52 passed, 54 total
+Snapshots:   0 total
+Time:        3.801s
+Ran all test suites.
+FAIL src/__tests__/map.test.tsx
+  ● Test suite failed to run
+
+    TypeError: hasOwn is not a function
+
+      10 | import { MapContext } from './context';
+      11 | import { createPortal } from 'react-dom';
+    > 12 | const isEqual = require('deep-equal'); //tslint:disable-line
+         |                 ^
+      13 | 
+      14 | export interface PaddingOptions {
+      15 |   top: number;
+
+      at getBaseIntrinsic (node_modules/deep-equal/node_modules/get-intrinsic/index.js:229:6)
+      at GetIntrinsic (node_modules/deep-equal/node_modules/get-intrinsic/index.js:267:18)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/index.js:6:14)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:5:16)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/map.tsx:12:17)
+      at Object.<anonymous> (src/__tests__/map.test.tsx:6:1)
+
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (42ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (17ms)
+      ✓ should remove highlight from plus button on mouseout (6ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+FAIL src/__tests__/layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: hasOwn is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { Props as FeatureProps } from './feature';
+      6 | 
+
+      at getBaseIntrinsic (node_modules/deep-equal/node_modules/get-intrinsic/index.js:229:6)
+      at GetIntrinsic (node_modules/deep-equal/node_modules/get-intrinsic/index.js:267:18)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/index.js:6:14)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:5:16)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/layer.test.tsx:2:1)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (20ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (11ms)
+    ✓ should listen all mouse and touch events (2ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (10ms)
+    ✓ Should add custom className (3ms)
+    ✓ Should concat custom className to defaultClassName (2ms)
+
+FAIL src/__tests__/geojson-layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: hasOwn is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { generateID } from './util/uid';
+      6 | import { Sources, LayerType } from './util/types';
+
+      at getBaseIntrinsic (node_modules/deep-equal/node_modules/get-intrinsic/index.js:229:6)
+      at GetIntrinsic (node_modules/deep-equal/node_modules/get-intrinsic/index.js:267:18)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/index.js:6:14)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:5:16)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/geojson-layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/geojson-layer.test.tsx:2:1)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (16ms)
+    ✓ Should remove image on unmount (2ms)
+    ✓ Should not call removeImage when map styles are undefined (1ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (9ms)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (11ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset (1ms)
+    ✓ Should add offset of 0
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences
+    ✓ Should return one difference (1ms)
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key (1ms)
+
+Test Suites: 3 failed, 1 skipped, 9 passed, 12 of 13 total
+Tests:       1 skipped, 24 passed, 25 total
+Snapshots:   0 total
+Time:        3.655s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (21ms)
+      ✓ should remove highlight from plus button on mouseout (6ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (19ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (15ms)
+    ✓ should listen all mouse and touch events (2ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (12ms)
+    ✓ Should add custom className (4ms)
+    ✓ Should concat custom className to defaultClassName (3ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (8ms)
+    ✓ Should remove image on unmount (4ms)
+    ✓ Should not call removeImage when map styles are undefined (2ms)
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset
+    ✓ Should add offset of 0 (9ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference
+    ✓ Should return 1 removed key
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (9ms)
+
+FAIL src/__tests__/layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { Props as FeatureProps } from './feature';
+      6 | 
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:200:14)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/layer.test.tsx:2:1)
+
+FAIL src/__tests__/geojson-layer.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      1 | import * as React from 'react';
+      2 | import * as MapboxGL from 'mapbox-gl';
+    > 3 | const isEqual = require('deep-equal'); //tslint:disable-line
+        |                 ^
+      4 | import diff from './util/diff';
+      5 | import { generateID } from './util/uid';
+      6 | import { Sources, LayerType } from './util/types';
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:200:14)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/geojson-layer.ts:3:17)
+      at Object.<anonymous> (src/__tests__/geojson-layer.test.tsx:2:1)
+
+FAIL src/__tests__/map.test.tsx
+  ● Test suite failed to run
+
+    TypeError: bind.call is not a function
+
+      10 | import { MapContext } from './context';
+      11 | import { createPortal } from 'react-dom';
+    > 12 | const isEqual = require('deep-equal'); //tslint:disable-line
+         |                 ^
+      13 | 
+      14 | export interface PaddingOptions {
+      15 |   top: number;
+
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/has/src/index.js:5:23)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/get-intrinsic/index.js:200:14)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/call-bind/callBound.js:3:20)
+      at Object.<anonymous> (node_modules/deep-equal/node_modules/is-arguments/index.js:4:17)
+      at Object.<anonymous> (node_modules/deep-equal/index.js:4:19)
+      at Object.<anonymous> (src/map.tsx:12:17)
+      at Object.<anonymous> (src/__tests__/map.test.tsx:6:1)
+
+Test Suites: 3 failed, 1 skipped, 9 passed, 12 of 13 total
+Tests:       1 skipped, 24 passed, 25 total
+Snapshots:   0 total
+Time:        3.631s
+Ran all test suites.
+PASS src/__tests__/zoom-control.test.tsx
+  ZoomControl
+    ✓ should render the component (33ms)
+    hovering over buttons
+      ✓ should highlight buttons on mouseover (17ms)
+      ✓ should remove highlight from plus button on mouseout (7ms)
+      ✓ should remove highlight from minus button on mouseout (8ms)
+
+PASS src/__tests__/popup.test.tsx
+  Popup
+    ✓ Should render component (12ms)
+    ✓ Should add custom className (6ms)
+    ✓ Should concat custom className to defaultClassName (4ms)
+
+PASS src/__tests__/cluster.test.tsx
+  cluster
+    ✓ should render the correct number of cluster (17ms)
+
+PASS src/__tests__/layer-events-hoc.test.tsx
+  layer-events-hoc
+    ✓ Should default the id if none is passed (12ms)
+    ✓ should listen all mouse and touch events (1ms)
+
+PASS src/__tests__/image.test.tsx
+  Image
+    ✓ Should add image on mount (7ms)
+    ✓ Should remove image on unmount (2ms)
+    ✓ Should not call removeImage when map styles are undefined (2ms)
+
+PASS src/__tests__/rotation-control.test.tsx
+  RotationControl
+    ✓ should render the component (15ms)
+
+PASS src/__tests__/overlays.test.ts
+  overlayTransform
+    ✓ Should transform position anchor and offset accordingly (1ms)
+    ✓ Should transform position and offset only
+    ✓ Should not add an undefined offset (1ms)
+    ✓ Should add offset of 0
+
+PASS src/__tests__/source.test.tsx
+  Source
+    ✓ Should render source with geoJsonSource (6ms)
+
+PASS src/__tests__/diff.test.ts
+  diff
+    ✓ Should return no differences (1ms)
+    ✓ Should return one difference
+    ✓ Should return 1 removed key (1ms)
+    ✓ Should return 1 added key
+    ✓ Should return 1 removed and 1 added key
+
+PASS src/__tests__/layer.test.tsx
+  Layer
+    ✓ Should render layer with default options (6ms)
+    ✓ Should set all parameters of add layer (1ms)
+    ✓ Should render layer with default source (1ms)
+    ✓ Should set all parameters of add source with geojsonSourceOptions (2ms)
+    ✓ Should set features based on children (1ms)
+    ✓ Should set features to empty array when children disappear (8ms)
+    ✓ Should flatten features (1ms)
+    ✓ Should add images (1ms)
+    ✓ Should render Polygon for fill (1ms)
+    ✓ Should render MultiPolygon for fill (1ms)
+    ✓ Should update minZoom and maxZoom if they change (2ms)
+    ✓ Should start listening onClick mouse event (1ms)
+
+PASS src/__tests__/geojson-layer.test.tsx
+  GeoJSONLayer
+    ✓ Should call addLayer with provided layerOptions (6ms)
+    ✓ Should call addLayer when no layerOptions provided (2ms)
+    ✓ Should start listening onClick mouse event (1ms)
+
+PASS src/__tests__/map.test.tsx
+  Map
+    ✓ Should render the map correctly (6ms)
+    ✓ Should call fitBounds with the right parameters (2ms)
+    ✓ Should update fitBounds if fitBoundsOptions changes (3ms)
+    ✓ Should listen onStyleLoad event (1ms)
+    ✓ Should update the map center position (2ms)
+    ✓ Should update maxBounds (2ms)
+    ✓ Should not update zoom when using same reference equality (1ms)
+    ✓ Should update the zoom on broken reference equality (2ms)
+    ✓ Should not update bearing when using same reference equality (2ms)
+    ✓ Should update the bearing on broken reference equality (1ms)
+    ✓ Should not update pitch when using same reference equality (2ms)
+    ✓ Should update the pitch on broken reference equality (2ms)
+    ✓ Should pass animation options and flyTo options (3ms)
+    ○ skipped Should calc the center from fitbounds if center is not given
+
+Test Suites: 1 skipped, 12 passed, 12 of 13 total
+Tests:       2 skipped, 52 passed, 54 total
+Snapshots:   0 total
+Time:        3.755s
+Ran all test suites.

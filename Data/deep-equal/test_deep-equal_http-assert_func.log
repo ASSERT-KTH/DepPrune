@@ -1,0 +1,2345 @@
+/data/js-variants/multee
+15
+http-assert is testing ./Variants/deep-equal/variant15/deep-equal
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 950ms
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 510ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 416ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./Variants/deep-equal/variant14/deep-equal
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 497ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 407ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (11ms)
+
+************* run test done *************
+http-assert is testing ./Variants/deep-equal/variant13/deep-equal
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 501ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 409ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./Variants/deep-equal/variant12/deep-equal
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 499ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 398ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./Variants/deep-equal/variant11/deep-equal
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 510ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 396ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./Variants/deep-equal/variant10/deep-equal
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 536ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 404ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./Variants/deep-equal/variant9/deep-equal
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 509ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 406ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./Variants/deep-equal/variant8/deep-equal
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 516ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 410ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./Variants/deep-equal/variant7/deep-equal
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 504ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 395ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./Variants/deep-equal/variant6/deep-equal
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 502ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 427ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./Variants/deep-equal/variant5/deep-equal
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 492ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 388ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./Variants/deep-equal/variant4/deep-equal
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 497ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 410ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./Variants/deep-equal/variant3/deep-equal
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 497ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 418ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./Variants/deep-equal/variant2/deep-equal
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 504ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 430ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./Variants/deep-equal/variant1/deep-equal
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 529ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 397ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+variantsDepsNum: 10
+/data/js-variants/multee
+10
+http-assert is testing ./VariantsDeps/deep-equal/variant10/deep-equal
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 565ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 401ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./VariantsDeps/deep-equal/variant9/deep-equal
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 502ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 398ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./VariantsDeps/deep-equal/variant8/deep-equal
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 515ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 442ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (11ms)
+
+************* run test done *************
+http-assert is testing ./VariantsDeps/deep-equal/variant7/deep-equal
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 498ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 417ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (11ms)
+
+************* run test done *************
+http-assert is testing ./VariantsDeps/deep-equal/variant6/deep-equal
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 498ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 410ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./VariantsDeps/deep-equal/variant5/deep-equal
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 495ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 397ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./VariantsDeps/deep-equal/variant4/deep-equal
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 504ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 413ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (14ms)
+
+************* run test done *************
+http-assert is testing ./VariantsDeps/deep-equal/variant3/deep-equal
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 496ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 396ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************
+http-assert is testing ./VariantsDeps/deep-equal/variant2/deep-equal
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 508ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 403ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (11ms)
+
+************* run test done *************
+http-assert is testing ./VariantsDeps/deep-equal/variant1/deep-equal
+************* npm unlink module *************
+
+removed 1 package, and audited 304 packages in 1s
+
+81 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 537ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 387ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 306 packages in 1s
+
+82 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> http-assert@1.5.0 test
+> mocha --reporter spec --bail --check-leaks test/
+
+
+
+  assert()
+    ✔ should throw when guard is falsy
+    ✔ should not throw when guard is truthy
+    ✔ should accept options for the error object
+    ✔ should not expose 5xx errors
+    ✔ should default to status code 500
+
+  assert.equal()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.ok()
+    ✔ should throw when value is falsy
+    ✔ should not throw when value is truthy
+
+  assert.strictEqual()
+    ✔ should throw when things aren't equal
+    ✔ should not throw when things are equal
+
+  assert.notStrictEqual()
+    ✔ should throw when things are equal
+    ✔ should not throw when things aren't equal
+
+  assert.deepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.notDeepEqual()
+    ✔ should throw when things aren't deeply equal
+    ✔ should not throw when things are deeply equal
+
+  assert.fail()
+    ✔ should always throw
+
+
+  20 passing (12ms)
+
+************* run test done *************

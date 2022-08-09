@@ -1,0 +1,3879 @@
+/data/js-variants/multee
+10
+polyline is testing ./Variants/meow/variant10/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 39 packages, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 674ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 1s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.804ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.409ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.636ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.259ms
+            
+            1..4
+        ok 1 - #decode() # time=33.186ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.625ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.058ms
+            
+            1..2
+        ok 2 - #identity # time=12.553ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.956ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.851ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.89ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.857ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.888ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=1.138ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=1.044ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=1.808ms
+            
+            1..8
+        ok 3 - #encode() # time=44.846ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=3.154ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=3.846ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=2.071ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=30.811ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=2.372ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=15.861ms
+        
+        1..5
+    ok 1 - polyline # time=172.656ms
+    
+    1..1
+    # time=189.048ms
+ok 1 - test/polyline.test.js # time=898.563ms
+
+1..1
+# time=923.062ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./Variants/meow/variant9/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 654ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 391ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.313ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.359ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.54ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.188ms
+            
+            1..4
+        ok 1 - #decode() # time=30.617ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.402ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.041ms
+            
+            1..2
+        ok 2 - #identity # time=13.628ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.884ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.806ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.779ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.844ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.831ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.96ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.87ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.834ms
+            
+            1..8
+        ok 3 - #encode() # time=39.65ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.271ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=0.857ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.738ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.328ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.967ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.426ms
+        
+        1..5
+    ok 1 - polyline # time=124.051ms
+    
+    1..1
+    # time=150.429ms
+ok 1 - test/polyline.test.js # time=410.705ms
+
+1..1
+# time=434.741ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./Variants/meow/variant8/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 670ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 388ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=8.953ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=3.419ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=3.639ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=2.604ms
+            
+            1..4
+        ok 1 - #decode() # time=55.502ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=4.52ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.06ms
+            
+            1..2
+        ok 2 - #identity # time=17.919ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.909ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.862ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.793ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.824ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.837ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.957ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.897ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.819ms
+            
+            1..8
+        ok 3 - #encode() # time=39.543ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.309ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=0.877ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.726ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.548ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.968ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.144ms
+        
+        1..5
+    ok 1 - polyline # time=156.531ms
+    
+    1..1
+    # time=182.902ms
+ok 1 - test/polyline.test.js # time=439.294ms
+
+1..1
+# time=461.859ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./Variants/meow/variant7/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 659ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 401ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.37ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.362ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.555ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.192ms
+            
+            1..4
+        ok 1 - #decode() # time=30.645ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.602ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.048ms
+            
+            1..2
+        ok 2 - #identity # time=13.783ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.913ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.812ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.852ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.812ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.828ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.976ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.905ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.831ms
+            
+            1..8
+        ok 3 - #encode() # time=39.724ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.287ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=0.874ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.718ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.497ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.966ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.185ms
+        
+        1..5
+    ok 1 - polyline # time=124.291ms
+    
+    1..1
+    # time=149.954ms
+ok 1 - test/polyline.test.js # time=406.651ms
+
+1..1
+# time=429.274ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./Variants/meow/variant6/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 670ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 399ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.293ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.377ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.576ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.161ms
+            
+            1..4
+        ok 1 - #decode() # time=30.23ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=3.73ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.046ms
+            
+            1..2
+        ok 2 - #identity # time=13.839ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.894ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.811ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.814ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.813ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.83ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.953ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.871ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.817ms
+            
+            1..8
+        ok 3 - #encode() # time=39.516ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.275ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=0.888ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.724ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.458ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.985ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.096ms
+        
+        1..5
+    ok 1 - polyline # time=123.607ms
+    
+    1..1
+    # time=149.773ms
+ok 1 - test/polyline.test.js # time=443.337ms
+
+1..1
+# time=467.468ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./Variants/meow/variant5/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 665ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 390ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.29ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.394ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.565ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.212ms
+            
+            1..4
+        ok 1 - #decode() # time=30.262ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.371ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.09ms
+            
+            1..2
+        ok 2 - #identity # time=13.803ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.898ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.82ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.8ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.834ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.874ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.962ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.878ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.819ms
+            
+            1..8
+        ok 3 - #encode() # time=39.638ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.294ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=0.869ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.728ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.413ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.969ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.16ms
+        
+        1..5
+    ok 1 - polyline # time=123.678ms
+    
+    1..1
+    # time=149.789ms
+ok 1 - test/polyline.test.js # time=411.225ms
+
+1..1
+# time=435.304ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./Variants/meow/variant4/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 671ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 413ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.543ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.38ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.551ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.204ms
+            
+            1..4
+        ok 1 - #decode() # time=30.901ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.618ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.074ms
+            
+            1..2
+        ok 2 - #identity # time=13.793ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.911ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.808ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.798ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.814ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.829ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.965ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.88ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.819ms
+            
+            1..8
+        ok 3 - #encode() # time=39.606ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.279ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=0.88ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.722ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.446ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.964ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.143ms
+        
+        1..5
+    ok 1 - polyline # time=124.354ms
+    
+    1..1
+    # time=150.196ms
+ok 1 - test/polyline.test.js # time=440.247ms
+
+1..1
+# time=464.363ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./Variants/meow/variant3/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 732ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 407ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.357ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.401ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.549ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.207ms
+            
+            1..4
+        ok 1 - #decode() # time=30.395ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.598ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.064ms
+            
+            1..2
+        ok 2 - #identity # time=13.708ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.926ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.811ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.783ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.822ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.879ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.97ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.869ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.817ms
+            
+            1..8
+        ok 3 - #encode() # time=39.681ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.297ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=0.866ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.728ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.573ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.961ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.163ms
+        
+        1..5
+    ok 1 - polyline # time=123.978ms
+    
+    1..1
+    # time=150.365ms
+ok 1 - test/polyline.test.js # time=409.651ms
+
+1..1
+# time=433.663ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./Variants/meow/variant2/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 670ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 398ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.354ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.367ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.583ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.2ms
+            
+            1..4
+        ok 1 - #decode() # time=30.418ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.623ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.048ms
+            
+            1..2
+        ok 2 - #identity # time=13.761ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.901ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.808ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.837ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.814ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.817ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.956ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.891ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.817ms
+            
+            1..8
+        ok 3 - #encode() # time=39.666ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.317ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=0.888ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.733ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.609ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.964ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.218ms
+        
+        1..5
+    ok 1 - polyline # time=124.208ms
+    
+    1..1
+    # time=150.891ms
+ok 1 - test/polyline.test.js # time=410.66ms
+
+1..1
+# time=437.844ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./Variants/meow/variant1/meow
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 696ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 408ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.333ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.377ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.559ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.201ms
+            
+            1..4
+        ok 1 - #decode() # time=30.485ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.613ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.033ms
+            
+            1..2
+        ok 2 - #identity # time=13.818ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.891ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.813ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.841ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.822ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.829ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.968ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.889ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.818ms
+            
+            1..8
+        ok 3 - #encode() # time=39.839ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.32ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=1.123ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.726ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.737ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.96ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.442ms
+        
+        1..5
+    ok 1 - polyline # time=124.889ms
+    
+    1..1
+    # time=151.12ms
+ok 1 - test/polyline.test.js # time=409.013ms
+
+1..1
+# time=433.163ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+variantsDepsNum: 11
+/data/js-variants/multee
+11
+polyline is testing ./VariantsDeps/meow/variant11/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 692ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 401ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 3s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.332ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.372ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.577ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.438ms
+            
+            1..4
+        ok 1 - #decode() # time=33.001ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.595ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.044ms
+            
+            1..2
+        ok 2 - #identity # time=16.423ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.9ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.812ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.779ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.851ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.83ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.934ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.871ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.816ms
+            
+            1..8
+        ok 3 - #encode() # time=39.575ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.294ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=1.099ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.738ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.825ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.985ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.166ms
+        
+        1..5
+    ok 1 - polyline # time=130.589ms
+    
+    1..1
+    # time=156.343ms
+ok 1 - test/polyline.test.js # time=414.907ms
+
+1..1
+# time=438.747ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./VariantsDeps/meow/variant10/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 667ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 408ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.321ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.353ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.548ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.195ms
+            
+            1..4
+        ok 1 - #decode() # time=30.057ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.593ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.035ms
+            
+            1..2
+        ok 2 - #identity # time=13.818ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.893ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.801ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.786ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.826ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.834ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.953ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.929ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.839ms
+            
+            1..8
+        ok 3 - #encode() # time=39.827ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.27ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=1.145ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.729ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.566ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.968ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.39ms
+        
+        1..5
+    ok 1 - polyline # time=124.126ms
+    
+    1..1
+    # time=150.123ms
+ok 1 - test/polyline.test.js # time=408.426ms
+
+1..1
+# time=431.063ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./VariantsDeps/meow/variant9/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 705ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 389ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.332ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.363ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.575ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.203ms
+            
+            1..4
+        ok 1 - #decode() # time=30.591ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.605ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.042ms
+            
+            1..2
+        ok 2 - #identity # time=13.888ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.896ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.83ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.819ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.815ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.831ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.972ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.869ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.808ms
+            
+            1..8
+        ok 3 - #encode() # time=39.566ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.289ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=0.856ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.716ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.395ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.956ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.214ms
+        
+        1..5
+    ok 1 - polyline # time=124.123ms
+    
+    1..1
+    # time=149.938ms
+ok 1 - test/polyline.test.js # time=410.042ms
+
+1..1
+# time=434.355ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./VariantsDeps/meow/variant8/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 670ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 404ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.336ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.377ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.563ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.2ms
+            
+            1..4
+        ok 1 - #decode() # time=30.522ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.58ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.044ms
+            
+            1..2
+        ok 2 - #identity # time=13.803ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.883ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.83ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.794ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.815ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.829ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.972ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.871ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.819ms
+            
+            1..8
+        ok 3 - #encode() # time=39.594ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.319ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=0.863ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.72ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.396ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.954ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.413ms
+        
+        1..5
+    ok 1 - polyline # time=124.467ms
+    
+    1..1
+    # time=149.789ms
+ok 1 - test/polyline.test.js # time=410.113ms
+
+1..1
+# time=434.398ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./VariantsDeps/meow/variant7/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 706ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 402ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.351ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.38ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.566ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.21ms
+            
+            1..4
+        ok 1 - #decode() # time=30.538ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.624ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.052ms
+            
+            1..2
+        ok 2 - #identity # time=13.743ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.988ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.85ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.85ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.837ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.833ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.963ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.898ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.894ms
+            
+            1..8
+        ok 3 - #encode() # time=39.95ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.318ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=1.101ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.737ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.682ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.968ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.244ms
+        
+        1..5
+    ok 1 - polyline # time=124.727ms
+    
+    1..1
+    # time=154.966ms
+ok 1 - test/polyline.test.js # time=430.159ms
+
+1..1
+# time=465.616ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./VariantsDeps/meow/variant6/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 660ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 408ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.327ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.378ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.539ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.272ms
+            
+            1..4
+        ok 1 - #decode() # time=30.182ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.565ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.071ms
+            
+            1..2
+        ok 2 - #identity # time=13.644ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.899ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.816ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.792ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.818ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.847ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.954ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.872ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.83ms
+            
+            1..8
+        ok 3 - #encode() # time=39.642ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.275ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=0.859ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.748ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.503ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.956ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.21ms
+        
+        1..5
+    ok 1 - polyline # time=123.758ms
+    
+    1..1
+    # time=150.154ms
+ok 1 - test/polyline.test.js # time=414.355ms
+
+1..1
+# time=438.468ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./VariantsDeps/meow/variant5/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 668ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 397ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.327ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.4ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.588ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.205ms
+            
+            1..4
+        ok 1 - #decode() # time=30.41ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.611ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.036ms
+            
+            1..2
+        ok 2 - #identity # time=13.959ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.922ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.818ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.828ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.819ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.815ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.988ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.869ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.82ms
+            
+            1..8
+        ok 3 - #encode() # time=39.616ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.309ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=0.887ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.732ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.645ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.97ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.219ms
+        
+        1..5
+    ok 1 - polyline # time=126.793ms
+    
+    1..1
+    # time=153.045ms
+ok 1 - test/polyline.test.js # time=404.19ms
+
+1..1
+# time=428.046ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./VariantsDeps/meow/variant4/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 666ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 394ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.35ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.412ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.563ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.202ms
+            
+            1..4
+        ok 1 - #decode() # time=30.293ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.603ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.045ms
+            
+            1..2
+        ok 2 - #identity # time=13.89ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.892ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.808ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.791ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.841ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.832ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.954ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.863ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.835ms
+            
+            1..8
+        ok 3 - #encode() # time=39.592ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.273ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=1.1ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.744ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.727ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.987ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.209ms
+        
+        1..5
+    ok 1 - polyline # time=124.162ms
+    
+    1..1
+    # time=149.748ms
+ok 1 - test/polyline.test.js # time=410.022ms
+
+1..1
+# time=434.188ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./VariantsDeps/meow/variant3/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 669ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 496ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=10.049ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=3.511ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=3.427ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=2.743ms
+            
+            1..4
+        ok 1 - #decode() # time=56.331ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.589ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.065ms
+            
+            1..2
+        ok 2 - #identity # time=14.064ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.898ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.819ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.792ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.86ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.834ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.952ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.867ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.845ms
+            
+            1..8
+        ok 3 - #encode() # time=39.584ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.288ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=0.864ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.742ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.382ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.985ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.17ms
+        
+        1..5
+    ok 1 - polyline # time=153.063ms
+    
+    1..1
+    # time=182.438ms
+ok 1 - test/polyline.test.js # time=448.76ms
+
+1..1
+# time=472.952ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./VariantsDeps/meow/variant2/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 674ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 404ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.333ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.4ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.57ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.208ms
+            
+            1..4
+        ok 1 - #decode() # time=30.361ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=1.583ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.046ms
+            
+            1..2
+        ok 2 - #identity # time=13.802ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.894ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.821ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.796ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.818ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.857ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.961ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.869ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.817ms
+            
+            1..8
+        ok 3 - #encode() # time=39.481ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.28ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=0.866ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.72ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.473ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.96ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.137ms
+        
+        1..5
+    ok 1 - polyline # time=123.728ms
+    
+    1..1
+    # time=149.784ms
+ok 1 - test/polyline.test.js # time=407.143ms
+
+1..1
+# time=431.282ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+polyline is testing ./VariantsDeps/meow/variant1/meow
+************* npm unlink module *************
+
+removed 1 package, and audited 694 packages in 3s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 685ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 408ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 696 packages in 2s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+28 vulnerabilities (13 moderate, 8 high, 7 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> @mapbox/polyline@1.1.1 test
+> eslint --no-eslintrc -c .eslintrc src && nyc tap test/polyline.test.js
+
+TAP version 13
+# Subtest: test/polyline.test.js
+    # Subtest: polyline
+        # Subtest: #decode()
+            # Subtest: decodes an empty Array
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - decodes an empty Array # time=4.347ms
+            
+            # Subtest: decodes a String into an Array of lat/lon pairs
+                ok 1 - should be equivalent
+                1..1
+            ok 2 - decodes a String into an Array of lat/lon pairs # time=1.36ms
+            
+            # Subtest: decodes with a custom precision
+                ok 1 - should be equivalent
+                1..1
+            ok 3 - decodes with a custom precision # time=1.548ms
+            
+            # Subtest: decodes with precision 0
+                ok 1 - should be equivalent
+                1..1
+            ok 4 - decodes with precision 0 # time=1.217ms
+            
+            1..4
+        ok 1 - #decode() # time=30.302ms
+        
+        # Subtest: #identity
+            # Subtest: feed encode into decode and check if the result is the same as the input
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - feed encode into decode and check if the result is the same as the input # time=3.935ms
+            
+            # Subtest: feed decode into encode and check if the result is the same as the input
+                ok 1 - should be equal
+                1..1
+            ok 2 - feed decode into encode and check if the result is the same as the input # time=1.072ms
+            
+            1..2
+        ok 2 - #identity # time=14.015ms
+        
+        # Subtest: #encode()
+            # Subtest: encodes an empty Array
+                ok 1 - should be equal
+                1..1
+            ok 1 - encodes an empty Array # time=0.902ms
+            
+            # Subtest: encodes an Array of lat/lon pairs into a String
+                ok 1 - should be equal
+                1..1
+            ok 2 - encodes an Array of lat/lon pairs into a String # time=0.818ms
+            
+            # Subtest: encodes an Array of lat/lon/z into the same string as lat/lon
+                ok 1 - should be equal
+                1..1
+            ok 3 - encodes an Array of lat/lon/z into the same string as lat/lon # time=0.808ms
+            
+            # Subtest: encodes with proper rounding
+                ok 1 - should be equal
+                1..1
+            ok 4 - encodes with proper rounding # time=0.825ms
+            
+            # Subtest: encodes with proper negative rounding
+                ok 1 - should be equal
+                1..1
+            ok 5 - encodes with proper negative rounding # time=0.826ms
+            
+            # Subtest: encodes with a custom precision
+                ok 1 - should be equal
+                1..1
+            ok 6 - encodes with a custom precision # time=0.965ms
+            
+            # Subtest: encodes with precision 0
+                ok 1 - should be equal
+                1..1
+            ok 7 - encodes with precision 0 # time=0.868ms
+            
+            # Subtest: encodes negative values correctly
+                ok 1 - expect truthy value
+                1..1
+            ok 8 - encodes negative values correctly # time=0.836ms
+            
+            1..8
+        ok 3 - #encode() # time=39.543ms
+        
+        # Subtest: #fromGeoJSON()
+            # Subtest: throws for non linestrings
+                ok 1 - expected to throw
+                1..1
+            ok 1 - throws for non linestrings # time=1.28ms
+            
+            # Subtest: allows geojson geometries
+                ok 1 - should be equal
+                1..1
+            ok 2 - allows geojson geometries # time=0.875ms
+            
+            # Subtest: flips coordinates and encodes
+                ok 1 - should be equal
+                1..1
+            ok 3 - flips coordinates and encodes # time=0.723ms
+            
+            1..3
+        ok 4 - #fromGeoJSON() # time=17.286ms
+        
+        # Subtest: #toGeoJSON()
+            # Subtest: flips coordinates and decodes geometry
+                ok 1 - should be equivalent
+                1..1
+            ok 1 - flips coordinates and decodes geometry # time=0.981ms
+            
+            1..1
+        ok 5 - #toGeoJSON() # time=5.095ms
+        
+        1..5
+    ok 1 - polyline # time=123.799ms
+    
+    1..1
+    # time=149.558ms
+ok 1 - test/polyline.test.js # time=438.069ms
+
+1..1
+# time=462.393ms
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |    96.15 |     100 |     100 |                   
+ polyline.js |     100 |    96.15 |     100 |     100 | 159               
+-------------|---------|----------|---------|---------|-------------------
+************* run test done *************

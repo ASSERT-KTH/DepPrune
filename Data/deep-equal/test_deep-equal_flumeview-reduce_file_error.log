@@ -1,0 +1,59 @@
+10
+flumelog-offset: blockSize and codec params moved into an object. https://github.com/flumedb/flumelog-offset
+/data/js-variants/multee/VariantsDeps/deep-equal/variant9/deep-equal/node_modules/which-typed-array/index.js:23
+				var descriptor = gOPD(proto, Symbol.toStringTag);
+				                 ^
+
+TypeError: gOPD is not a function
+    at /data/js-variants/multee/VariantsDeps/deep-equal/variant9/deep-equal/node_modules/which-typed-array/index.js:23:22
+    at forEachArray (/data/js-variants/multee/VariantsDeps/deep-equal/variant9/deep-equal/node_modules/for-each/index.js:12:17)
+    at forEach (/data/js-variants/multee/VariantsDeps/deep-equal/variant9/deep-equal/node_modules/for-each/index.js:54:9)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/deep-equal/variant9/deep-equal/node_modules/which-typed-array/index.js:18:2)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+
+Node.js v18.3.0
+flumelog-offset: blockSize and codec params moved into an object. https://github.com/flumedb/flumelog-offset
+flumelog-offset: blockSize and codec params moved into an object. https://github.com/flumedb/flumelog-offset
+flumelog-offset: blockSize and codec params moved into an object. https://github.com/flumedb/flumelog-offset
+flumelog-offset: blockSize and codec params moved into an object. https://github.com/flumedb/flumelog-offset
+flumelog-offset: blockSize and codec params moved into an object. https://github.com/flumedb/flumelog-offset
+/data/js-variants/multee/VariantsDeps/deep-equal/variant3/deep-equal/node_modules/get-intrinsic/index.js:229
+	if (hasOwn(LEGACY_ALIASES, intrinsicName)) {
+	    ^
+
+TypeError: hasOwn is not a function
+    at getBaseIntrinsic (/data/js-variants/multee/VariantsDeps/deep-equal/variant3/deep-equal/node_modules/get-intrinsic/index.js:229:6)
+    at GetIntrinsic (/data/js-variants/multee/VariantsDeps/deep-equal/variant3/deep-equal/node_modules/get-intrinsic/index.js:267:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/deep-equal/variant3/deep-equal/node_modules/call-bind/index.js:6:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/deep-equal/variant3/deep-equal/node_modules/call-bind/callBound.js:5:16)
+
+Node.js v18.3.0
+/data/js-variants/multee/VariantsDeps/deep-equal/variant2/deep-equal/node_modules/has/src/index.js:5
+module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
+                      ^
+
+TypeError: bind.call is not a function
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/deep-equal/variant2/deep-equal/node_modules/has/src/index.js:5:23)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/deep-equal/variant2/deep-equal/node_modules/get-intrinsic/index.js:200:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+
+Node.js v18.3.0
+flumelog-offset: blockSize and codec params moved into an object. https://github.com/flumedb/flumelog-offset

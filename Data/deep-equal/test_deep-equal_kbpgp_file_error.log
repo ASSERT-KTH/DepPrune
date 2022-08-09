@@ -1,0 +1,239 @@
+10
+TypeError: gOPD is not a function
+  at /data/js-variants/multee/VariantsDeps/deep-equal/variant9/deep-equal/node_modules/which-typed-array/index.js:23:22
+  at forEachArray (/data/js-variants/multee/VariantsDeps/deep-equal/variant9/deep-equal/node_modules/for-each/index.js:12:17)
+  at forEach (/data/js-variants/multee/VariantsDeps/deep-equal/variant9/deep-equal/node_modules/for-each/index.js:54:9)
+  at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/deep-equal/variant9/deep-equal/node_modules/which-typed-array/index.js:18:2)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/register.js:47:36)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Module.require (node:internal/modules/cjs/loader:1005:19)
+  at require (node:internal/modules/cjs/helpers:102:18)
+  at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/deep-equal/variant9/deep-equal/index.js:16:23)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/register.js:47:36)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Module.require (node:internal/modules/cjs/loader:1005:19)
+  at require (node:internal/modules/cjs/helpers:102:18)
+  at Object.<anonymous> (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-test/index.js:18:16)
+  at Object.<anonymous> (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-test/index.js:1040:4)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/register.js:47:36)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Module.require (node:internal/modules/cjs/loader:1005:19)
+  at require (node:internal/modules/cjs/helpers:102:18)
+  at Object.<anonymous> (/data/js-variants/multee/Clients/deep-equal/kbpgp/test/run.iced:4:1)
+  at Object.<anonymous> (/data/js-variants/multee/Clients/deep-equal/kbpgp/test/run.iced:2:1)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.exports.run (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/coffee-script.js:129:23)
+  at compileScript (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/command.js:210:29)
+  at compilePath (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/command.js:163:14)
+  at Object.exports.run (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/command.js:98:21)
+  at Object.<anonymous> (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/bin/coffee:7:41)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (node:internal/modules/cjs/loader:981:32)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+  at node:internal/main/run_main_module:17:47
+
+make: *** [Makefile:95: test-server] Error 1
+/data/js-variants/multee/VariantsDeps/deep-equal/variant6/deep-equal/index.js:296
+  var aIsArray = isArray(a);
+                 ^
+
+[TypeError: isArray is not a function
+  at objEquiv (/data/js-variants/multee/VariantsDeps/deep-equal/variant6/deep-equal/index.js:296:18)
+  at internalDeepEqual (/data/js-variants/multee/VariantsDeps/deep-equal/variant6/deep-equal/index.js:172:10)
+  at deepEqual (/data/js-variants/multee/VariantsDeps/deep-equal/variant6/deep-equal/index.js:384:10)
+  at Case.exports.Case.Case.equal (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-test/index.js:140:12)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/test/files/unbox_cant_verify.iced:69:5
+  at Deferrals.exports.Deferrals.Deferrals._call (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:86:16)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:98:26
+  at trampoline (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:64:14)
+  at Deferrals.exports.Deferrals.Deferrals._fulfill (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:96:16)
+  at ret (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:29:18)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/lib/openpgp/processor.js:1124:16
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/lib/openpgp/processor.js:1116:20
+  at Deferrals.exports.Deferrals.Deferrals._call (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:86:16)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:98:26
+  at trampoline (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:64:14)
+  at Deferrals.exports.Deferrals.Deferrals._fulfill (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:96:16)
+  at ret (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:29:18)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/lib/openpgp/processor.js:927:20
+  at Deferrals.exports.Deferrals.Deferrals._call (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:86:16)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:98:26
+  at trampoline (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:64:14)
+  at Deferrals.exports.Deferrals.Deferrals._fulfill (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:96:16)
+  at ret (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:29:18)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-error/index.js:105:22
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/lib/openpgp/processor.js:1055:18
+  at Deferrals.exports.Deferrals.Deferrals._call (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:86:16)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:98:26
+  at trampoline (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:64:14)
+  at Deferrals.exports.Deferrals.Deferrals._fulfill (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:96:16)
+  at ret (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:29:18)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/lib/openpgp/processor.js:794:22
+  at Deferrals.exports.Deferrals.Deferrals._call (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:86:16)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:98:26
+  at trampoline (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:64:14)
+  at Deferrals.exports.Deferrals.Deferrals._fulfill (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:96:16)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/lib/openpgp/processor.js:792:32
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/lib/openpgp/processor.js:793:15
+  at Deferrals.exports.Deferrals.Deferrals._call (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:86:16)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:98:26
+  at trampoline (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:64:14)
+  at Deferrals.exports.Deferrals.Deferrals._fulfill (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:96:16)
+  at ret (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:29:18)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-error/index.js:105:22
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/lib/openpgp/processor.js:584:18
+  at _while (/data/js-variants/multee/Clients/deep-equal/kbpgp/lib/openpgp/processor.js:533:22)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/lib/openpgp/processor.js:528:24
+  at Object.trampoline (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:64:14)
+  at _continue (/data/js-variants/multee/Clients/deep-equal/kbpgp/lib/openpgp/processor.js:526:27)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/lib/openpgp/processor.js:570:30
+  at Deferrals.exports.Deferrals.Deferrals._call (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:86:16)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:98:26
+  at trampoline (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:64:14)
+  at Deferrals.exports.Deferrals.Deferrals._fulfill (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:96:16)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/lib/openpgp/processor.js:568:40
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/lib/openpgp/processor.js:569:23
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/lib/openpgp/processor.js:575:19
+  at Deferrals.exports.Deferrals.Deferrals._call (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:86:16)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:98:26
+  at trampoline (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:64:14)
+  at Deferrals.exports.Deferrals.Deferrals._fulfill (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:96:16)
+  at ret (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:29:18)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-error/index.js:105:22
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/lib/openpgp/packet/compressed.js:223:18
+  at Deferrals.exports.Deferrals.Deferrals._call (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:86:16)
+  at /data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:98:26
+  at trampoline (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:64:14)
+  at Deferrals.exports.Deferrals.Deferrals._fulfill (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:96:16)
+  at Inflate.ret [as cb] (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-runtime/lib/runtime.js:29:18)
+  at Inflate.zlibBufferOnEnd (node:zlib:161:10)
+  at Inflate.emit (node:events:527:28)
+  at endReadableNT (node:internal/streams/readable:1344:12)
+  at processTicksAndRejections (node:internal/process/task_queues:82:21)
+]
+
+Node.js v18.3.0
+make: *** [Makefile:95: test-server] Error 1
+TypeError: hasOwn is not a function
+  at getBaseIntrinsic (/data/js-variants/multee/VariantsDeps/deep-equal/variant3/deep-equal/node_modules/get-intrinsic/index.js:229:6)
+  at GetIntrinsic (/data/js-variants/multee/VariantsDeps/deep-equal/variant3/deep-equal/node_modules/get-intrinsic/index.js:267:18)
+  at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/deep-equal/variant3/deep-equal/node_modules/call-bind/index.js:6:14)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/register.js:47:36)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Module.require (node:internal/modules/cjs/loader:1005:19)
+  at require (node:internal/modules/cjs/helpers:102:18)
+  at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/deep-equal/variant3/deep-equal/node_modules/call-bind/callBound.js:5:16)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/register.js:47:36)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Module.require (node:internal/modules/cjs/loader:1005:19)
+  at require (node:internal/modules/cjs/helpers:102:18)
+  at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/deep-equal/variant3/deep-equal/node_modules/is-arguments/index.js:4:17)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/register.js:47:36)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Module.require (node:internal/modules/cjs/loader:1005:19)
+  at require (node:internal/modules/cjs/helpers:102:18)
+  at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/deep-equal/variant3/deep-equal/index.js:4:19)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/register.js:47:36)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Module.require (node:internal/modules/cjs/loader:1005:19)
+  at require (node:internal/modules/cjs/helpers:102:18)
+  at Object.<anonymous> (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-test/index.js:18:16)
+  at Object.<anonymous> (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-test/index.js:1040:4)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/register.js:47:36)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Module.require (node:internal/modules/cjs/loader:1005:19)
+  at require (node:internal/modules/cjs/helpers:102:18)
+  at Object.<anonymous> (/data/js-variants/multee/Clients/deep-equal/kbpgp/test/run.iced:4:1)
+  at Object.<anonymous> (/data/js-variants/multee/Clients/deep-equal/kbpgp/test/run.iced:2:1)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.exports.run (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/coffee-script.js:129:23)
+  at compileScript (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/command.js:210:29)
+  at compilePath (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/command.js:163:14)
+  at Object.exports.run (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/command.js:98:21)
+  at Object.<anonymous> (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/bin/coffee:7:41)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (node:internal/modules/cjs/loader:981:32)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+  at node:internal/main/run_main_module:17:47
+
+make: *** [Makefile:95: test-server] Error 1
+TypeError: bind.call is not a function
+  at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/deep-equal/variant2/deep-equal/node_modules/has/src/index.js:5:23)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/register.js:47:36)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Module.require (node:internal/modules/cjs/loader:1005:19)
+  at require (node:internal/modules/cjs/helpers:102:18)
+  at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/deep-equal/variant2/deep-equal/node_modules/get-intrinsic/index.js:200:14)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/register.js:47:36)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Module.require (node:internal/modules/cjs/loader:1005:19)
+  at require (node:internal/modules/cjs/helpers:102:18)
+  at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/deep-equal/variant2/deep-equal/node_modules/call-bind/callBound.js:3:20)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/register.js:47:36)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Module.require (node:internal/modules/cjs/loader:1005:19)
+  at require (node:internal/modules/cjs/helpers:102:18)
+  at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/deep-equal/variant2/deep-equal/node_modules/is-arguments/index.js:4:17)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/register.js:47:36)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Module.require (node:internal/modules/cjs/loader:1005:19)
+  at require (node:internal/modules/cjs/helpers:102:18)
+  at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/deep-equal/variant2/deep-equal/index.js:4:19)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/register.js:47:36)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Module.require (node:internal/modules/cjs/loader:1005:19)
+  at require (node:internal/modules/cjs/helpers:102:18)
+  at Object.<anonymous> (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-test/index.js:18:16)
+  at Object.<anonymous> (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-test/index.js:1040:4)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/register.js:47:36)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Module.require (node:internal/modules/cjs/loader:1005:19)
+  at require (node:internal/modules/cjs/helpers:102:18)
+  at Object.<anonymous> (/data/js-variants/multee/Clients/deep-equal/kbpgp/test/run.iced:4:1)
+  at Object.<anonymous> (/data/js-variants/multee/Clients/deep-equal/kbpgp/test/run.iced:2:1)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.exports.run (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/coffee-script.js:129:23)
+  at compileScript (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/command.js:210:29)
+  at compilePath (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/command.js:163:14)
+  at Object.exports.run (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/lib/coffee-script/command.js:98:21)
+  at Object.<anonymous> (/data/js-variants/multee/Clients/deep-equal/kbpgp/node_modules/iced-coffee-script/bin/coffee:7:41)
+  at Module._compile (node:internal/modules/cjs/loader:1105:14)
+  at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+  at Module.load (node:internal/modules/cjs/loader:981:32)
+  at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+  at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+  at node:internal/main/run_main_module:17:47
+
+make: *** [Makefile:95: test-server] Error 1
