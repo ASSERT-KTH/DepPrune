@@ -1,0 +1,2397 @@
+/data/js-variants/multee
+16
+packager is testing ./Variants/levelup/variant16/levelup
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 3 packages, and audited 1109 packages in 2s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 408ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./Variants/levelup/variant15/levelup
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 408ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./Variants/levelup/variant14/levelup
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 408ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./Variants/levelup/variant13/levelup
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 412ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./Variants/levelup/variant12/levelup
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 412ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./Variants/levelup/variant11/levelup
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 410ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./Variants/levelup/variant10/levelup
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 413ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./Variants/levelup/variant9/levelup
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 398ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./Variants/levelup/variant8/levelup
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 422ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./Variants/levelup/variant7/levelup
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 418ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./Variants/levelup/variant6/levelup
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 414ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./Variants/levelup/variant5/levelup
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 412ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./Variants/levelup/variant4/levelup
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 403ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./Variants/levelup/variant3/levelup
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 391ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./Variants/levelup/variant2/levelup
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 399ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./Variants/levelup/variant1/levelup
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 404ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+variantsDepsNum: 6
+/data/js-variants/multee
+6
+packager is testing ./VariantsDeps/levelup/variant6/levelup
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 4s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 396ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./VariantsDeps/levelup/variant5/levelup
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 410ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./VariantsDeps/levelup/variant4/levelup
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 406ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./VariantsDeps/levelup/variant3/levelup
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 407ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./VariantsDeps/levelup/variant2/levelup
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 396ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+packager is testing ./VariantsDeps/levelup/variant1/levelup
+************* npm unlink module *************
+
+removed 1 package, and audited 1109 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 452ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1111 packages in 3s
+
+224 packages are looking for funding
+  run `npm fund` for details
+
+4 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> level-packager@6.0.1 test
+> standard && hallmark && nyc node test.js
+
+TAP version 13
+# Level constructor has access to levelup errors
+ok 1 .errors property set on constructor
+# Level constructor relays .destroy and .repair if they exist
+ok 2 supports variadic arguments
+ok 3 supports variadic arguments
+ok 4 supports variadic arguments
+ok 5 supports variadic arguments
+ok 6 supports variadic arguments
+ok 7 supports variadic arguments
+ok 8 supports variadic arguments
+ok 9 supports variadic arguments
+# Level constructor
+ok 10 should be deeply equivalent
+ok 11 should be strictly equal
+ok 12 should be strictly equal
+# Level constructor with location
+ok 13 location is correct
+ok 14 should be deeply equivalent
+ok 15 should be strictly equal
+ok 16 should be strictly equal
+# Level constructor with location & options
+ok 17 location is correct
+ok 18 should be deeply equivalent
+# Level constructor with callback
+ok 19 should be deeply equivalent
+ok 20 null
+ok 21 db set in callback
+# Level constructor with location & callback
+ok 22 location is correct
+ok 23 should be deeply equivalent
+ok 24 null
+ok 25 db set in callback
+# Level constructor with location & options passed to levelup
+ok 26 location is correct
+ok 27 should be deeply equivalent
+ok 28 should be strictly equal
+ok 29 should be strictly equal
+# Level constructor with options passed to levelup
+ok 30 should be deeply equivalent
+ok 31 should be strictly equal
+ok 32 should be strictly equal
+# Level constructor with options & callback passed to levelup
+ok 33 should be deeply equivalent
+ok 34 should be strictly equal
+ok 35 should be strictly equal
+ok 36 null
+ok 37 db set in callback
+
+1..37
+# tests 37
+# pass  37
+
+# ok
+
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |     100 |      100 |     100 |     100 |                   
+ level-packager.js |     100 |      100 |     100 |     100 |                   
+-------------------|---------|----------|---------|---------|-------------------
+************* run test done *************

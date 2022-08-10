@@ -1,0 +1,56 @@
+6
+node:util:240
+    throw new ERR_INVALID_ARG_TYPE('superCtor', 'Function', superCtor);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "superCtor" argument must be of type function. Received undefined
+    at new NodeError (node:internal/errors:377:5)
+    at inherits (node:util:240:11)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/levelup/variant4/levelup/node_modules/level-iterator-stream/index.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/Clients/levelup/packager/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/levelup/packager/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+
+Node.js v18.3.0
+/data/js-variants/multee/VariantsDeps/levelup/variant3/levelup/node_modules/deferred-leveldown/deferred-iterator.js:20
+inherits(DeferredIterator, AbstractIterator)
+^
+
+TypeError: inherits is not a function
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/levelup/variant3/levelup/node_modules/deferred-leveldown/deferred-iterator.js:20:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/Clients/levelup/packager/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/levelup/packager/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/levelup/variant3/levelup/node_modules/deferred-leveldown/deferred-leveldown.js:5:26)
+
+Node.js v18.3.0
+node:util:240
+    throw new ERR_INVALID_ARG_TYPE('superCtor', 'Function', superCtor);
+    ^
+
+TypeError [ERR_INVALID_ARG_TYPE]: The "superCtor" argument must be of type function. Received undefined
+    at new NodeError (node:internal/errors:377:5)
+    at inherits (node:util:240:11)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/levelup/variant1/levelup/node_modules/deferred-leveldown/deferred-iterator.js:20:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/Clients/levelup/packager/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/levelup/packager/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19) {
+  code: 'ERR_INVALID_ARG_TYPE'
+}
+
+Node.js v18.3.0
