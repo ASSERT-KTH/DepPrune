@@ -1,0 +1,4489 @@
+/data/js-variants/multee
+18
+routing-controllers is testing ./Variants/body-parser/variant18/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+up to date, audited 1000 packages in 5s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 459ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 403ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant17/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 470ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 423ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant16/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 472ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 409ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant15/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 457ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 427ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant14/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 479ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 433ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant13/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 463ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 395ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant12/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 472ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 410ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant11/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 461ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 527ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant10/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 471ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 400ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant9/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 464ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 394ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant8/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 464ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 414ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant7/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 513ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 411ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant6/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 490ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 420ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant5/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 504ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 407ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant4/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 5s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 479ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 399ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant3/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 465ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 404ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant2/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 467ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 396ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./Variants/body-parser/variant1/body-parser
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 467ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 418ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+variantsDepsNum: 11
+/data/js-variants/multee
+11
+routing-controllers is testing ./VariantsDeps/body-parser/variant11/body-parser
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 470ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 391ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./VariantsDeps/body-parser/variant10/body-parser
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 489ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 437ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./VariantsDeps/body-parser/variant9/body-parser
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 462ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 406ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./VariantsDeps/body-parser/variant8/body-parser
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 465ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 402ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./VariantsDeps/body-parser/variant7/body-parser
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 468ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 396ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./VariantsDeps/body-parser/variant6/body-parser
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 509ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 495ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./VariantsDeps/body-parser/variant5/body-parser
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 502ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 410ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./VariantsDeps/body-parser/variant4/body-parser
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 505ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 398ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./VariantsDeps/body-parser/variant3/body-parser
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 466ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 492ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./VariantsDeps/body-parser/variant2/body-parser
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 462ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 400ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************
+routing-controllers is testing ./VariantsDeps/body-parser/variant1/body-parser
+************* npm unlink module *************
+
+removed 1 package, changed 1 package, and audited 1000 packages in 3s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 475ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 447ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 1 package, and audited 1002 packages in 2s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+26 vulnerabilities (9 moderate, 14 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> routing-controllers@0.9.0 test
+> jest --verbose --runInBand
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.postMiddleware (test/fakes/global-options/FakeService.ts:30:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionMiddleware (test/fakes/global-options/FakeService.ts:20:13)
+
+  console.log
+    fake service!
+
+      at FakeService.questionErrorMiddleware (test/fakes/global-options/FakeService.ts:25:13)
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+  console.warn
+    No metadata found. There is more than once class-validator version installed probably. You need to flatten your dependencies.
+
+      at ValidationExecutor.execute (node_modules/src/validation/ValidationExecutor.ts:50:21)
+      at Validator.coreValidate (node_modules/src/validation/Validator.ts:30:18)
+      at Validator.<anonymous> (node_modules/src/validation/Validator.ts:72:35)
+      at step (node_modules/tslib/tslib.js:141:27)
+      at Object.next (node_modules/tslib/tslib.js:122:57)
+      at node_modules/tslib/tslib.js:115:75
+
+************* run test done *************

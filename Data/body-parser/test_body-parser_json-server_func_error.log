@@ -1,0 +1,452 @@
+11
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+PASS __tests__/cli/index.js (11.338 s)
+PASS __tests__/server/plural.js (7.384 s)
+PASS __tests__/server/plural-with-custom-foreign-key.js
+PASS __tests__/server/singular.js
+PASS __tests__/server/plural-fake.js
+PASS __tests__/server/singular-fake.js
+PASS __tests__/server/validate-data.js
+PASS __tests__/server/mixins.js
+PASS __tests__/server/utils.js
+
+Test Suites: 9 passed, 9 total
+Tests:       127 passed, 127 total
+Snapshots:   0 total
+Time:        21.466 s
+Ran all test suites.
+
+Oops! Something went wrong! :(
+
+ESLint: 7.32.0
+
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'import' declared in '.eslintrc.js » eslint-config-standard': Package subpath './2020/RequireObjectCoercible' is not defined by "exports" in /data/js-variants/multee/Clients/body-parser/json-server/node_modules/es-abstract/package.json
+    at new NodeError (node:internal/errors:377:5)
+    at throwExportsNotFound (node:internal/modules/esm/resolve:440:9)
+    at packageExportsResolve (node:internal/modules/esm/resolve:719:3)
+    at resolveExports (node:internal/modules/cjs/loader:483:36)
+    at Module._findPath (node:internal/modules/cjs/loader:523:31)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:925:27)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/array-includes/index.js:4:30)
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+PASS __tests__/cli/index.js (11.328 s)
+PASS __tests__/server/plural.js (7.527 s)
+PASS __tests__/server/plural-with-custom-foreign-key.js
+PASS __tests__/server/plural-fake.js
+PASS __tests__/server/singular.js
+PASS __tests__/server/singular-fake.js
+PASS __tests__/server/utils.js
+PASS __tests__/server/validate-data.js
+PASS __tests__/server/mixins.js
+
+Test Suites: 9 passed, 9 total
+Tests:       127 passed, 127 total
+Snapshots:   0 total
+Time:        21.569 s
+Ran all test suites.
+
+Oops! Something went wrong! :(
+
+ESLint: 7.32.0
+
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'import' declared in '.eslintrc.js » eslint-config-standard': Package subpath './2020/RequireObjectCoercible' is not defined by "exports" in /data/js-variants/multee/Clients/body-parser/json-server/node_modules/es-abstract/package.json
+    at new NodeError (node:internal/errors:377:5)
+    at throwExportsNotFound (node:internal/modules/esm/resolve:440:9)
+    at packageExportsResolve (node:internal/modules/esm/resolve:719:3)
+    at resolveExports (node:internal/modules/cjs/loader:483:36)
+    at Module._findPath (node:internal/modules/cjs/loader:523:31)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:925:27)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/array-includes/index.js:4:30)
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+PASS __tests__/cli/index.js (11.61 s)
+PASS __tests__/server/plural.js (7.473 s)
+PASS __tests__/server/singular-fake.js
+PASS __tests__/server/plural-with-custom-foreign-key.js
+PASS __tests__/server/plural-fake.js
+PASS __tests__/server/singular.js
+PASS __tests__/server/validate-data.js
+PASS __tests__/server/mixins.js
+PASS __tests__/server/utils.js
+
+Test Suites: 9 passed, 9 total
+Tests:       127 passed, 127 total
+Snapshots:   0 total
+Time:        21.757 s
+Ran all test suites.
+
+Oops! Something went wrong! :(
+
+ESLint: 7.32.0
+
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'import' declared in '.eslintrc.js » eslint-config-standard': Package subpath './2020/RequireObjectCoercible' is not defined by "exports" in /data/js-variants/multee/Clients/body-parser/json-server/node_modules/es-abstract/package.json
+    at new NodeError (node:internal/errors:377:5)
+    at throwExportsNotFound (node:internal/modules/esm/resolve:440:9)
+    at packageExportsResolve (node:internal/modules/esm/resolve:719:3)
+    at resolveExports (node:internal/modules/cjs/loader:483:36)
+    at Module._findPath (node:internal/modules/cjs/loader:523:31)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:925:27)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/array-includes/index.js:4:30)
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+PASS __tests__/cli/index.js (11.827 s)
+PASS __tests__/server/plural.js (7.449 s)
+PASS __tests__/server/plural-with-custom-foreign-key.js
+PASS __tests__/server/plural-fake.js
+PASS __tests__/server/singular.js
+PASS __tests__/server/singular-fake.js
+PASS __tests__/server/mixins.js
+PASS __tests__/server/validate-data.js
+PASS __tests__/server/utils.js
+
+Test Suites: 9 passed, 9 total
+Tests:       127 passed, 127 total
+Snapshots:   0 total
+Time:        21.977 s, estimated 22 s
+Ran all test suites.
+
+Oops! Something went wrong! :(
+
+ESLint: 7.32.0
+
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'import' declared in '.eslintrc.js » eslint-config-standard': Package subpath './2020/RequireObjectCoercible' is not defined by "exports" in /data/js-variants/multee/Clients/body-parser/json-server/node_modules/es-abstract/package.json
+    at new NodeError (node:internal/errors:377:5)
+    at throwExportsNotFound (node:internal/modules/esm/resolve:440:9)
+    at packageExportsResolve (node:internal/modules/esm/resolve:719:3)
+    at resolveExports (node:internal/modules/cjs/loader:483:36)
+    at Module._findPath (node:internal/modules/cjs/loader:523:31)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:925:27)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/array-includes/index.js:4:30)
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+PASS __tests__/cli/index.js (11.329 s)
+PASS __tests__/server/plural.js (7.469 s)
+PASS __tests__/server/plural-fake.js
+PASS __tests__/server/plural-with-custom-foreign-key.js
+PASS __tests__/server/singular.js
+PASS __tests__/server/singular-fake.js
+PASS __tests__/server/mixins.js
+PASS __tests__/server/utils.js
+PASS __tests__/server/validate-data.js
+
+Test Suites: 9 passed, 9 total
+Tests:       127 passed, 127 total
+Snapshots:   0 total
+Time:        21.462 s, estimated 22 s
+Ran all test suites.
+
+Oops! Something went wrong! :(
+
+ESLint: 7.32.0
+
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'import' declared in '.eslintrc.js » eslint-config-standard': Package subpath './2020/RequireObjectCoercible' is not defined by "exports" in /data/js-variants/multee/Clients/body-parser/json-server/node_modules/es-abstract/package.json
+    at new NodeError (node:internal/errors:377:5)
+    at throwExportsNotFound (node:internal/modules/esm/resolve:440:9)
+    at packageExportsResolve (node:internal/modules/esm/resolve:719:3)
+    at resolveExports (node:internal/modules/cjs/loader:483:36)
+    at Module._findPath (node:internal/modules/cjs/loader:523:31)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:925:27)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/array-includes/index.js:4:30)
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+PASS __tests__/cli/index.js (11.579 s)
+PASS __tests__/server/plural.js (7.412 s)
+PASS __tests__/server/plural-with-custom-foreign-key.js
+PASS __tests__/server/singular.js
+PASS __tests__/server/plural-fake.js
+PASS __tests__/server/singular-fake.js
+PASS __tests__/server/validate-data.js
+PASS __tests__/server/mixins.js
+PASS __tests__/server/utils.js
+
+Test Suites: 9 passed, 9 total
+Tests:       127 passed, 127 total
+Snapshots:   0 total
+Time:        21.707 s
+Ran all test suites.
+
+Oops! Something went wrong! :(
+
+ESLint: 7.32.0
+
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'import' declared in '.eslintrc.js » eslint-config-standard': Package subpath './2020/RequireObjectCoercible' is not defined by "exports" in /data/js-variants/multee/Clients/body-parser/json-server/node_modules/es-abstract/package.json
+    at new NodeError (node:internal/errors:377:5)
+    at throwExportsNotFound (node:internal/modules/esm/resolve:440:9)
+    at packageExportsResolve (node:internal/modules/esm/resolve:719:3)
+    at resolveExports (node:internal/modules/cjs/loader:483:36)
+    at Module._findPath (node:internal/modules/cjs/loader:523:31)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:925:27)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/array-includes/index.js:4:30)
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+PASS __tests__/cli/index.js (11.309 s)
+PASS __tests__/server/plural.js (7.528 s)
+PASS __tests__/server/plural-with-custom-foreign-key.js
+PASS __tests__/server/plural-fake.js
+PASS __tests__/server/singular.js
+PASS __tests__/server/singular-fake.js
+PASS __tests__/server/validate-data.js
+PASS __tests__/server/mixins.js
+PASS __tests__/server/utils.js
+
+Test Suites: 9 passed, 9 total
+Tests:       127 passed, 127 total
+Snapshots:   0 total
+Time:        21.5 s, estimated 22 s
+Ran all test suites.
+
+Oops! Something went wrong! :(
+
+ESLint: 7.32.0
+
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'import' declared in '.eslintrc.js » eslint-config-standard': Package subpath './2020/RequireObjectCoercible' is not defined by "exports" in /data/js-variants/multee/Clients/body-parser/json-server/node_modules/es-abstract/package.json
+    at new NodeError (node:internal/errors:377:5)
+    at throwExportsNotFound (node:internal/modules/esm/resolve:440:9)
+    at packageExportsResolve (node:internal/modules/esm/resolve:719:3)
+    at resolveExports (node:internal/modules/cjs/loader:483:36)
+    at Module._findPath (node:internal/modules/cjs/loader:523:31)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:925:27)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/array-includes/index.js:4:30)
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+PASS __tests__/cli/index.js (11.315 s)
+PASS __tests__/server/plural.js (7.388 s)
+PASS __tests__/server/plural-with-custom-foreign-key.js
+PASS __tests__/server/plural-fake.js
+PASS __tests__/server/singular.js
+PASS __tests__/server/singular-fake.js
+PASS __tests__/server/utils.js
+PASS __tests__/server/validate-data.js
+PASS __tests__/server/mixins.js
+
+Test Suites: 9 passed, 9 total
+Tests:       127 passed, 127 total
+Snapshots:   0 total
+Time:        21.475 s
+Ran all test suites.
+
+Oops! Something went wrong! :(
+
+ESLint: 7.32.0
+
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'import' declared in '.eslintrc.js » eslint-config-standard': Package subpath './2020/RequireObjectCoercible' is not defined by "exports" in /data/js-variants/multee/Clients/body-parser/json-server/node_modules/es-abstract/package.json
+    at new NodeError (node:internal/errors:377:5)
+    at throwExportsNotFound (node:internal/modules/esm/resolve:440:9)
+    at packageExportsResolve (node:internal/modules/esm/resolve:719:3)
+    at resolveExports (node:internal/modules/cjs/loader:483:36)
+    at Module._findPath (node:internal/modules/cjs/loader:523:31)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:925:27)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/array-includes/index.js:4:30)
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+PASS __tests__/cli/index.js (11.265 s)
+PASS __tests__/server/plural.js (7.463 s)
+PASS __tests__/server/plural-with-custom-foreign-key.js
+PASS __tests__/server/plural-fake.js
+PASS __tests__/server/singular.js
+PASS __tests__/server/singular-fake.js
+PASS __tests__/server/validate-data.js
+PASS __tests__/server/mixins.js
+PASS __tests__/server/utils.js
+
+Test Suites: 9 passed, 9 total
+Tests:       127 passed, 127 total
+Snapshots:   0 total
+Time:        21.442 s
+Ran all test suites.
+
+Oops! Something went wrong! :(
+
+ESLint: 7.32.0
+
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'import' declared in '.eslintrc.js » eslint-config-standard': Package subpath './2020/RequireObjectCoercible' is not defined by "exports" in /data/js-variants/multee/Clients/body-parser/json-server/node_modules/es-abstract/package.json
+    at new NodeError (node:internal/errors:377:5)
+    at throwExportsNotFound (node:internal/modules/esm/resolve:440:9)
+    at packageExportsResolve (node:internal/modules/esm/resolve:719:3)
+    at resolveExports (node:internal/modules/cjs/loader:483:36)
+    at Module._findPath (node:internal/modules/cjs/loader:523:31)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:925:27)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/array-includes/index.js:4:30)
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+PASS __tests__/cli/index.js (11.29 s)
+PASS __tests__/server/plural.js (7.474 s)
+PASS __tests__/server/singular-fake.js
+PASS __tests__/server/plural-with-custom-foreign-key.js
+PASS __tests__/server/plural-fake.js
+PASS __tests__/server/singular.js
+PASS __tests__/server/mixins.js
+PASS __tests__/server/utils.js
+PASS __tests__/server/validate-data.js
+
+Test Suites: 9 passed, 9 total
+Tests:       127 passed, 127 total
+Snapshots:   0 total
+Time:        21.445 s
+Ran all test suites.
+
+Oops! Something went wrong! :(
+
+ESLint: 7.32.0
+
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'import' declared in '.eslintrc.js » eslint-config-standard': Package subpath './2020/RequireObjectCoercible' is not defined by "exports" in /data/js-variants/multee/Clients/body-parser/json-server/node_modules/es-abstract/package.json
+    at new NodeError (node:internal/errors:377:5)
+    at throwExportsNotFound (node:internal/modules/esm/resolve:440:9)
+    at packageExportsResolve (node:internal/modules/esm/resolve:719:3)
+    at resolveExports (node:internal/modules/cjs/loader:483:36)
+    at Module._findPath (node:internal/modules/cjs/loader:523:31)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:925:27)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/array-includes/index.js:4:30)
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+PASS __tests__/cli/index.js (11.546 s)
+PASS __tests__/server/plural.js (7.438 s)
+PASS __tests__/server/plural-with-custom-foreign-key.js
+PASS __tests__/server/plural-fake.js
+PASS __tests__/server/singular.js
+PASS __tests__/server/singular-fake.js
+PASS __tests__/server/utils.js
+PASS __tests__/server/validate-data.js
+PASS __tests__/server/mixins.js
+
+Test Suites: 9 passed, 9 total
+Tests:       127 passed, 127 total
+Snapshots:   0 total
+Time:        21.572 s
+Ran all test suites.
+
+Oops! Something went wrong! :(
+
+ESLint: 7.32.0
+
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Failed to load plugin 'import' declared in '.eslintrc.js » eslint-config-standard': Package subpath './2020/RequireObjectCoercible' is not defined by "exports" in /data/js-variants/multee/Clients/body-parser/json-server/node_modules/es-abstract/package.json
+    at new NodeError (node:internal/errors:377:5)
+    at throwExportsNotFound (node:internal/modules/esm/resolve:440:9)
+    at packageExportsResolve (node:internal/modules/esm/resolve:719:3)
+    at resolveExports (node:internal/modules/cjs/loader:483:36)
+    at Module._findPath (node:internal/modules/cjs/loader:523:31)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:925:27)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/body-parser/json-server/node_modules/array-includes/index.js:4:30)

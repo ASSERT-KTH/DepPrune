@@ -1,11 +1,11 @@
-# sh runTestClients.sh sharp favicons 2>>Data/test_sharp_favicons_func_error.log >> Data/test_sharp_favicons_func.log
-# sh runTestClients.sh sharp wa-sticker-formatter 2>>Data/test_sharp_wa-sticker-formatter_func_error.log >> Data/test_sharp_wa-sticker-formatter_func.log
-# sh runTestClients.sh sharp numjs 2>>Data/test_sharp_numjs_func_error.log >> Data/test_sharp_numjs_func.log
-# sh runTestClients.sh sharp npm-icon-gen 2>>Data/test_sharp_npm-icon-gen_func_error.log >> Data/test_sharp_npm-icon-gen_func.log
-# sh runTestClients.sh sharp image-thumbnail 2>>Data/test_sharp_image-thumbnail_func_error.log >> Data/test_sharp_image-thumbnail_func.log
+# sh runTestClients.sh body-parser express 2>>Data/test_body-parser_express_func_error.log >> Data/test_body-parser_express_func.log
+# sh runTestClients.sh body-parser skipper 2>>Data/test_body-parser_skipper_func_error.log >> Data/test_body-parser_skipper_func.log
+# sh runTestClients.sh body-parser json-server 2>>Data/test_body-parser_json-server_func_error.log >> Data/test_body-parser_json-server_func.log
+# sh runTestClients.sh body-parser loopback 2>>Data/test_body-parser_loopback_func_error.log >> Data/test_body-parser_loopback_func.log
+# sh runTestClients.sh body-parser routing-controllers 2>>Data/test_body-parser_routing-controllers_func_error.log >> Data/test_body-parser_routing-controllers_func.log
 
-sh runTestClients.sh sharp favicons 2>>Data/test_sharp_favicons_file_error.log >> Data/test_sharp_favicons_file.log
-sh runTestClients.sh sharp wa-sticker-formatter 2>>Data/test_sharp_wa-sticker-formatter_file_error.log >> Data/test_sharp_wa-sticker-formatter_file.log
-sh runTestClients.sh sharp numjs 2>>Data/test_sharp_numjs_file_error.log >> Data/test_sharp_numjs_file.log
-sh runTestClients.sh sharp npm-icon-gen 2>>Data/test_sharp_npm-icon-gen_file_error.log >> Data/test_sharp_npm-icon-gen_file.log
-sh runTestClients.sh sharp image-thumbnail 2>>Data/test_sharp_image-thumbnail_file_error.log >> Data/test_sharp_image-thumbnail_file.log
+# sh runTestClients.sh body-parser express 2>>Data/test_body-parser_express_file_error.log >> Data/test_body-parser_express_file.log
+# sh runTestClients.sh body-parser skipper 2>>Data/test_body-parser_skipper_file_error.log >> Data/test_body-parser_skipper_file.log
+sh runTestClients.sh body-parser json-server 2>>Data/test_body-parser_json-server_file_error.log >> Data/test_body-parser_json-server_file.log
+# sh runTestClients.sh body-parser loopback 2>>Data/test_body-parser_loopback_file_error.log >> Data/test_body-parser_loopback_file.log
+# sh runTestClients.sh body-parser routing-controllers 2>>Data/test_body-parser_routing-controllers_file_error.log >> Data/test_body-parser_routing-controllers_file.log
