@@ -1,0 +1,372 @@
+/data/js-variants/multee
+4
+connect-gzip-static is testing ./Variants/send/variant4/send
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 15 packages, changed 1 package, and audited 139 packages in 1s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 454ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 415ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 15 packages, changed 1 package, and audited 125 packages in 1s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> connect-gzip-static@3.0.0 test
+> make lint test
+
+./node_modules/.bin/jshint *.js lib test
+./node_modules/.bin/mocha --require should --require test/support/http --exit
+
+
+  gzipStatic
+    ✔ should serve static files
+    ✔ should set Content-Type
+    ✔ should send compressed index.html when asked for /
+    ✔ should set Content-Type when asked for /
+    ✔ should send uncompressed index.html when asked for /
+    ✔ should default max-age=0
+    ✔ should set ETag and Last-Modified
+    ✔ should serve uncompressed files unless requested
+    ✔ should serve compressed files when requested
+    ✔ should serve brotli compressed files when requested both gzip and brotli
+    ✔ should serve gzip compressed files when requested both gzip and brotli and only .gz is available
+    ✔ should set Content-Type for compressed files
+    ✔ should set Vary for compressed files
+    ✔ should set Content-Encoding for compressed files
+    ✔ should ignore POST requests
+
+  gzipStatic with options
+    ✔ should send compressed configured index when asked for /
+    ✔ should send compressed configured index when asked for /
+    ✔ should set Content-Type for for configured index when asked for /
+    ✔ should send uncompressed print.css asked for /
+    ✔ should set custom headers when requested
+    ✔ should respect custom options
+
+
+  21 passing (88ms)
+
+************* run test done *************
+connect-gzip-static is testing ./Variants/send/variant3/send
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 15 packages, changed 1 package, and audited 139 packages in 1s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 503ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 412ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 15 packages, changed 1 package, and audited 125 packages in 975ms
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> connect-gzip-static@3.0.0 test
+> make lint test
+
+./node_modules/.bin/jshint *.js lib test
+./node_modules/.bin/mocha --require should --require test/support/http --exit
+************* run test done *************
+connect-gzip-static is testing ./Variants/send/variant2/send
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 15 packages, changed 1 package, and audited 139 packages in 1s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 454ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 482ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 15 packages, changed 1 package, and audited 125 packages in 1s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> connect-gzip-static@3.0.0 test
+> make lint test
+
+./node_modules/.bin/jshint *.js lib test
+./node_modules/.bin/mocha --require should --require test/support/http --exit
+************* run test done *************
+connect-gzip-static is testing ./Variants/send/variant1/send
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 15 packages, changed 1 package, and audited 139 packages in 1s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 468ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 398ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 15 packages, changed 1 package, and audited 125 packages in 1s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> connect-gzip-static@3.0.0 test
+> make lint test
+
+./node_modules/.bin/jshint *.js lib test
+./node_modules/.bin/mocha --require should --require test/support/http --exit
+
+
+  gzipStatic
+    ✔ should serve static files
+    ✔ should set Content-Type
+    ✔ should send compressed index.html when asked for /
+    ✔ should set Content-Type when asked for /
+    ✔ should send uncompressed index.html when asked for /
+    ✔ should default max-age=0
+    ✔ should set ETag and Last-Modified
+    ✔ should serve uncompressed files unless requested
+    ✔ should serve compressed files when requested
+    ✔ should serve brotli compressed files when requested both gzip and brotli
+    ✔ should serve gzip compressed files when requested both gzip and brotli and only .gz is available
+    ✔ should set Content-Type for compressed files
+    ✔ should set Vary for compressed files
+    ✔ should set Content-Encoding for compressed files
+    ✔ should ignore POST requests
+
+  gzipStatic with options
+    ✔ should send compressed configured index when asked for /
+    ✔ should send compressed configured index when asked for /
+    ✔ should set Content-Type for for configured index when asked for /
+    ✔ should send uncompressed print.css asked for /
+    ✔ should set custom headers when requested
+    ✔ should respect custom options
+
+
+  21 passing (88ms)
+
+************* run test done *************
+variantsDepsNum: 3
+/data/js-variants/multee
+3
+connect-gzip-static is testing ./VariantsDeps/send/variant3/send
+************* npm unlink module *************
+
+added 15 packages, changed 1 package, and audited 139 packages in 1s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 483ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 399ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 15 packages, changed 1 package, and audited 125 packages in 996ms
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> connect-gzip-static@3.0.0 test
+> make lint test
+
+./node_modules/.bin/jshint *.js lib test
+./node_modules/.bin/mocha --require should --require test/support/http --exit
+************* run test done *************
+connect-gzip-static is testing ./VariantsDeps/send/variant2/send
+************* npm unlink module *************
+
+added 15 packages, changed 1 package, and audited 139 packages in 1s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 462ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 394ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 15 packages, changed 1 package, and audited 125 packages in 1s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> connect-gzip-static@3.0.0 test
+> make lint test
+
+./node_modules/.bin/jshint *.js lib test
+./node_modules/.bin/mocha --require should --require test/support/http --exit
+************* run test done *************
+connect-gzip-static is testing ./VariantsDeps/send/variant1/send
+************* npm unlink module *************
+
+added 15 packages, changed 1 package, and audited 139 packages in 1s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 461ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 432ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 15 packages, changed 1 package, and audited 125 packages in 994ms
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> connect-gzip-static@3.0.0 test
+> make lint test
+
+./node_modules/.bin/jshint *.js lib test
+./node_modules/.bin/mocha --require should --require test/support/http --exit
+
+
+  gzipStatic
+    ✔ should serve static files
+    ✔ should set Content-Type
+    ✔ should send compressed index.html when asked for /
+    ✔ should set Content-Type when asked for /
+    ✔ should send uncompressed index.html when asked for /
+    ✔ should default max-age=0
+    ✔ should set ETag and Last-Modified
+    ✔ should serve uncompressed files unless requested
+    ✔ should serve compressed files when requested
+    ✔ should serve brotli compressed files when requested both gzip and brotli
+    ✔ should serve gzip compressed files when requested both gzip and brotli and only .gz is available
+    ✔ should set Content-Type for compressed files
+    ✔ should set Vary for compressed files
+    ✔ should set Content-Encoding for compressed files
+    ✔ should ignore POST requests
+
+  gzipStatic with options
+    ✔ should send compressed configured index when asked for /
+    ✔ should send compressed configured index when asked for /
+    ✔ should set Content-Type for for configured index when asked for /
+    ✔ should send uncompressed print.css asked for /
+    ✔ should set custom headers when requested
+    ✔ should respect custom options
+
+
+  21 passing (87ms)
+
+************* run test done *************

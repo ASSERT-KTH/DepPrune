@@ -1,0 +1,639 @@
+/data/js-variants/multee
+4
+gulp-connect is testing ./Variants/send/variant4/send
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 1 package, removed 2 packages, changed 2 packages, and audited 443 packages in 3s
+
+20 vulnerabilities (5 moderate, 12 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 473ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 426ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 2 packages, removed 1 package, changed 5 packages, and audited 445 packages in 2s
+
+20 vulnerabilities (5 moderate, 12 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> gulp-connect@5.7.0 pretest
+> coffee -o . -bc src/
+
+
+> gulp-connect@5.7.0 test
+> mocha
+
+
+
+  gulp-connect
+    Simple
+[14:10:10] [32mStarting server...[39m
+[14:10:10] [32mServer started http://localhost:35000[39m
+[14:10:10] [32mRunning server[39m
+      ✓ Explicit /test.txt
+[14:10:10] [32mStarting server...[39m
+[14:10:10] [32mServer started http://localhost:35001[39m
+[14:10:10] [32mRunning server[39m
+      ✓ Implicit /index.html
+[14:10:10] [32mStopping server[39m
+[14:10:10] [32mStopped server[39m
+[14:10:10] [32mStopping server[39m
+[14:10:10] [32mStopped server[39m
+[14:10:10] [32mServer stopped[39m
+[14:10:10] [32mServer stopped[39m
+
+  Self Start / Stop
+[14:10:10] [32mStarting server...[39m
+[14:10:10] [32mServer started http://localhost:35002[39m
+[14:10:10] [32mRunning server[39m
+[14:10:10] [32mStopping server[39m
+[14:10:10] [32mStopped server[39m
+    ✓ Root string
+[14:10:10] [32mServer stopped[39m
+[14:10:10] [32mStarting server...[39m
+[14:10:10] [32mServer started http://localhost:35003[39m
+[14:10:10] [32mRunning server[39m
+[14:10:10] [32mStopping server[39m
+[14:10:10] [32mStopped server[39m
+    ✓ Root array
+[14:10:10] [32mServer stopped[39m
+[14:10:10] [32mStarting server...[39m
+[14:10:10] [32mServer started http://localhost:3333[39m
+[14:10:10] [32mRunning server[39m
+[14:10:10] [32mStopping server[39m
+[14:10:10] [32mStopped server[39m
+    ✓ Port test
+[14:10:10] [32mServer stopped[39m
+[14:10:10] [32mStarting server...[39m
+[14:10:10] [32mServer started https://localhost:35004[39m
+[14:10:10] [32mRunning server[39m
+[14:10:10] [32mStopping server[39m
+[14:10:10] [32mStopped server[39m
+    ✓ Https test (65ms)
+[14:10:10] [32mServer stopped[39m
+[14:10:10] [32mStarting server...[39m
+[14:10:10] [32mServer started http://localhost:35005[39m
+[14:10:10] [32mLiveReload started on port 35729[39m
+[14:10:10] [32mRunning server[39m
+[14:10:10] [32mStopping server[39m
+[14:10:10] [32mStopped server[39m
+    ✓ Livereload test
+[14:10:10] [32mServer stopped[39m
+[14:10:10] [32mStarting server...[39m
+[14:10:10] [32mServer started https://localhost:35006[39m
+[14:10:10] [32mLiveReload started on port 35729[39m
+[14:10:10] [32mRunning server[39m
+[14:10:10] [32mStopping server[39m
+[14:10:10] [32mStopped server[39m
+    ✓ Livereload https test
+[14:10:10] [32mServer stopped[39m
+[14:10:10] [32mStarting server...[39m
+[14:10:10] [32mServer started http://localhost:35007[39m
+[14:10:10] [32mLiveReload started on port 35008[39m
+[14:10:10] [32mRunning server[39m
+[14:10:10] [32mStopping server[39m
+[14:10:10] [32mStopped server[39m
+    ✓ Livereload port
+[14:10:10] [32mServer stopped[39m
+[14:10:10] [32mStarting server...[39m
+[14:10:10] [32mServer started http://localhost:35009[39m
+[14:10:10] [32mLiveReload started on port 35010[39m
+[14:10:10] [32mRunning server[39m
+[14:10:10] [32mStopping server[39m
+[14:10:10] [32mStopped server[39m
+[14:10:10] [32mServer stopped[39m
+    ✓ livereload closes (105ms)
+[14:10:10] [32mStarting server...[39m
+[14:10:10] [32mServer started http://localhost:35011[39m
+[14:10:10] [32mRunning server[39m
+[14:10:10] [32mStopping server[39m
+[14:10:10] [32mStopped server[39m
+    ✓ Fallback test
+[14:10:10] [32mServer stopped[39m
+
+
+  11 passing (271ms)
+
+************* run test done *************
+gulp-connect is testing ./Variants/send/variant3/send
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 1 package, removed 2 packages, changed 2 packages, and audited 443 packages in 2s
+
+20 vulnerabilities (5 moderate, 12 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 465ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 383ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 2 packages, removed 1 package, changed 5 packages, and audited 445 packages in 2s
+
+20 vulnerabilities (5 moderate, 12 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> gulp-connect@5.7.0 pretest
+> coffee -o . -bc src/
+
+
+> gulp-connect@5.7.0 test
+> mocha
+
+************* run test done *************
+gulp-connect is testing ./Variants/send/variant2/send
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 1 package, removed 2 packages, changed 2 packages, and audited 443 packages in 2s
+
+20 vulnerabilities (5 moderate, 12 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 471ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 410ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 2 packages, removed 1 package, changed 5 packages, and audited 445 packages in 2s
+
+20 vulnerabilities (5 moderate, 12 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> gulp-connect@5.7.0 pretest
+> coffee -o . -bc src/
+
+
+> gulp-connect@5.7.0 test
+> mocha
+
+************* run test done *************
+gulp-connect is testing ./Variants/send/variant1/send
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 1 package, removed 2 packages, changed 2 packages, and audited 443 packages in 2s
+
+20 vulnerabilities (5 moderate, 12 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 464ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 410ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 2 packages, removed 1 package, changed 5 packages, and audited 445 packages in 2s
+
+20 vulnerabilities (5 moderate, 12 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> gulp-connect@5.7.0 pretest
+> coffee -o . -bc src/
+
+
+> gulp-connect@5.7.0 test
+> mocha
+
+
+
+  gulp-connect
+    Simple
+[14:10:29] [32mStarting server...[39m
+[14:10:29] [32mServer started http://localhost:35000[39m
+[14:10:29] [32mRunning server[39m
+      ✓ Explicit /test.txt
+[14:10:29] [32mStarting server...[39m
+[14:10:29] [32mServer started http://localhost:35001[39m
+[14:10:29] [32mRunning server[39m
+      ✓ Implicit /index.html
+[14:10:29] [32mStopping server[39m
+[14:10:29] [32mStopped server[39m
+[14:10:29] [32mStopping server[39m
+[14:10:29] [32mStopped server[39m
+[14:10:29] [32mServer stopped[39m
+[14:10:29] [32mServer stopped[39m
+
+  Self Start / Stop
+[14:10:29] [32mStarting server...[39m
+[14:10:29] [32mServer started http://localhost:35002[39m
+[14:10:29] [32mRunning server[39m
+[14:10:29] [32mStopping server[39m
+[14:10:29] [32mStopped server[39m
+    ✓ Root string
+[14:10:29] [32mServer stopped[39m
+[14:10:29] [32mStarting server...[39m
+[14:10:29] [32mServer started http://localhost:35003[39m
+[14:10:29] [32mRunning server[39m
+[14:10:29] [32mStopping server[39m
+[14:10:29] [32mStopped server[39m
+    ✓ Root array
+[14:10:29] [32mServer stopped[39m
+[14:10:29] [32mStarting server...[39m
+[14:10:29] [32mServer started http://localhost:3333[39m
+[14:10:29] [32mRunning server[39m
+[14:10:29] [32mStopping server[39m
+[14:10:29] [32mStopped server[39m
+    ✓ Port test
+[14:10:29] [32mServer stopped[39m
+[14:10:29] [32mStarting server...[39m
+[14:10:29] [32mServer started https://localhost:35004[39m
+[14:10:29] [32mRunning server[39m
+[14:10:29] [32mStopping server[39m
+[14:10:29] [32mStopped server[39m
+    ✓ Https test (65ms)
+[14:10:29] [32mServer stopped[39m
+[14:10:29] [32mStarting server...[39m
+[14:10:29] [32mServer started http://localhost:35005[39m
+[14:10:29] [32mLiveReload started on port 35729[39m
+[14:10:29] [32mRunning server[39m
+[14:10:29] [32mStopping server[39m
+[14:10:29] [32mStopped server[39m
+    ✓ Livereload test
+[14:10:29] [32mServer stopped[39m
+[14:10:29] [32mStarting server...[39m
+[14:10:29] [32mServer started https://localhost:35006[39m
+[14:10:29] [32mLiveReload started on port 35729[39m
+[14:10:29] [32mRunning server[39m
+[14:10:29] [32mStopping server[39m
+[14:10:29] [32mStopped server[39m
+    ✓ Livereload https test
+[14:10:29] [32mServer stopped[39m
+[14:10:29] [32mStarting server...[39m
+[14:10:29] [32mServer started http://localhost:35007[39m
+[14:10:29] [32mLiveReload started on port 35008[39m
+[14:10:29] [32mRunning server[39m
+[14:10:29] [32mStopping server[39m
+[14:10:29] [32mStopped server[39m
+    ✓ Livereload port
+[14:10:29] [32mServer stopped[39m
+[14:10:29] [32mStarting server...[39m
+[14:10:29] [32mServer started http://localhost:35009[39m
+[14:10:29] [32mLiveReload started on port 35010[39m
+[14:10:29] [32mRunning server[39m
+[14:10:29] [32mStopping server[39m
+[14:10:29] [32mStopped server[39m
+[14:10:29] [32mServer stopped[39m
+    ✓ livereload closes (106ms)
+[14:10:29] [32mStarting server...[39m
+[14:10:29] [32mServer started http://localhost:35011[39m
+[14:10:29] [32mRunning server[39m
+[14:10:29] [32mStopping server[39m
+[14:10:29] [32mStopped server[39m
+    ✓ Fallback test
+[14:10:29] [32mServer stopped[39m
+
+
+  11 passing (272ms)
+
+************* run test done *************
+variantsDepsNum: 3
+/data/js-variants/multee
+3
+gulp-connect is testing ./VariantsDeps/send/variant3/send
+************* npm unlink module *************
+
+added 1 package, removed 2 packages, changed 2 packages, and audited 443 packages in 2s
+
+20 vulnerabilities (5 moderate, 12 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 462ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 423ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 2 packages, removed 1 package, changed 5 packages, and audited 445 packages in 2s
+
+20 vulnerabilities (5 moderate, 12 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> gulp-connect@5.7.0 pretest
+> coffee -o . -bc src/
+
+
+> gulp-connect@5.7.0 test
+> mocha
+
+************* run test done *************
+gulp-connect is testing ./VariantsDeps/send/variant2/send
+************* npm unlink module *************
+
+added 1 package, removed 2 packages, changed 2 packages, and audited 443 packages in 2s
+
+20 vulnerabilities (5 moderate, 12 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 468ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 466ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 2 packages, removed 1 package, changed 5 packages, and audited 445 packages in 2s
+
+20 vulnerabilities (5 moderate, 12 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> gulp-connect@5.7.0 pretest
+> coffee -o . -bc src/
+
+
+> gulp-connect@5.7.0 test
+> mocha
+
+************* run test done *************
+gulp-connect is testing ./VariantsDeps/send/variant1/send
+************* npm unlink module *************
+
+added 1 package, removed 2 packages, changed 2 packages, and audited 443 packages in 2s
+
+20 vulnerabilities (5 moderate, 12 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 468ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 433ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 2 packages, removed 1 package, changed 5 packages, and audited 445 packages in 2s
+
+20 vulnerabilities (5 moderate, 12 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> gulp-connect@5.7.0 pretest
+> coffee -o . -bc src/
+
+
+> gulp-connect@5.7.0 test
+> mocha
+
+
+
+  gulp-connect
+    Simple
+[14:10:48] [32mStarting server...[39m
+[14:10:48] [32mServer started http://localhost:35000[39m
+[14:10:48] [32mRunning server[39m
+      ✓ Explicit /test.txt
+[14:10:48] [32mStarting server...[39m
+[14:10:48] [32mServer started http://localhost:35001[39m
+[14:10:48] [32mRunning server[39m
+      ✓ Implicit /index.html
+[14:10:48] [32mStopping server[39m
+[14:10:48] [32mStopped server[39m
+[14:10:48] [32mStopping server[39m
+[14:10:48] [32mStopped server[39m
+[14:10:48] [32mServer stopped[39m
+[14:10:48] [32mServer stopped[39m
+
+  Self Start / Stop
+[14:10:48] [32mStarting server...[39m
+[14:10:48] [32mServer started http://localhost:35002[39m
+[14:10:48] [32mRunning server[39m
+[14:10:48] [32mStopping server[39m
+[14:10:48] [32mStopped server[39m
+    ✓ Root string
+[14:10:48] [32mServer stopped[39m
+[14:10:48] [32mStarting server...[39m
+[14:10:48] [32mServer started http://localhost:35003[39m
+[14:10:48] [32mRunning server[39m
+[14:10:48] [32mStopping server[39m
+[14:10:48] [32mStopped server[39m
+    ✓ Root array
+[14:10:48] [32mServer stopped[39m
+[14:10:48] [32mStarting server...[39m
+[14:10:48] [32mServer started http://localhost:3333[39m
+[14:10:48] [32mRunning server[39m
+[14:10:48] [32mStopping server[39m
+[14:10:48] [32mStopped server[39m
+    ✓ Port test
+[14:10:48] [32mServer stopped[39m
+[14:10:48] [32mStarting server...[39m
+[14:10:48] [32mServer started https://localhost:35004[39m
+[14:10:48] [32mRunning server[39m
+[14:10:48] [32mStopping server[39m
+[14:10:48] [32mStopped server[39m
+    ✓ Https test (66ms)
+[14:10:48] [32mServer stopped[39m
+[14:10:48] [32mStarting server...[39m
+[14:10:48] [32mServer started http://localhost:35005[39m
+[14:10:48] [32mLiveReload started on port 35729[39m
+[14:10:48] [32mRunning server[39m
+[14:10:48] [32mStopping server[39m
+[14:10:48] [32mStopped server[39m
+    ✓ Livereload test
+[14:10:48] [32mServer stopped[39m
+[14:10:48] [32mStarting server...[39m
+[14:10:48] [32mServer started https://localhost:35006[39m
+[14:10:48] [32mLiveReload started on port 35729[39m
+[14:10:48] [32mRunning server[39m
+[14:10:48] [32mStopping server[39m
+[14:10:48] [32mStopped server[39m
+    ✓ Livereload https test
+[14:10:48] [32mServer stopped[39m
+[14:10:48] [32mStarting server...[39m
+[14:10:48] [32mServer started http://localhost:35007[39m
+[14:10:48] [32mLiveReload started on port 35008[39m
+[14:10:48] [32mRunning server[39m
+[14:10:48] [32mStopping server[39m
+[14:10:48] [32mStopped server[39m
+    ✓ Livereload port
+[14:10:48] [32mServer stopped[39m
+[14:10:48] [32mStarting server...[39m
+[14:10:48] [32mServer started http://localhost:35009[39m
+[14:10:48] [32mLiveReload started on port 35010[39m
+[14:10:48] [32mRunning server[39m
+[14:10:48] [32mStopping server[39m
+[14:10:48] [32mStopped server[39m
+[14:10:48] [32mServer stopped[39m
+    ✓ livereload closes (105ms)
+[14:10:48] [32mStarting server...[39m
+[14:10:48] [32mServer started http://localhost:35011[39m
+[14:10:48] [32mRunning server[39m
+[14:10:48] [32mStopping server[39m
+[14:10:48] [32mStopped server[39m
+    ✓ Fallback test
+[14:10:48] [32mServer stopped[39m
+
+
+  11 passing (272ms)
+
+************* run test done *************

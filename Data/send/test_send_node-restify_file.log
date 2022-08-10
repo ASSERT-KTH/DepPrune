@@ -1,0 +1,814 @@
+/data/js-variants/multee
+4
+node-restify is testing ./Variants/send/variant4/send
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1163 packages in 6s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+25 vulnerabilities (6 moderate, 14 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 490ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 398ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1164 packages in 3s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+25 vulnerabilities (6 moderate, 14 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> restify@8.5.1 test
+> make prepush
+
+Running "make check-lint"
+
+/data/js-variants/multee/Clients/send/node-restify/lib/formatters/text.js
+  23:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/lib/plugins/conditionalRequest.js
+  109:9  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/lib/server.js
+  807:17  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/plugins/jsonBodyParser.test.js
+  144:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/plugins/metrics.test.js
+  318:17  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/server.test.js
+  2055:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+✖ 6 problems (0 errors, 6 warnings)
+
+Running "make check-style"
+check ok
+./node_modules/.bin/nodeunit test/*.test.js
+
+[1mchain.test.js[22m
+✔ calls all the handlers
+✔ abort with Error in next
+✔ abort with false in next
+✔ abort with closed request
+✔ cals error middleware
+✔ onceNext prevents double next calls
+✔ throws error for double next calls in strictNext mode
+✔ calls req.startHandlerTimer
+✔ calls req.endHandlerTimer
+✔ count returns with the number of registered handlers
+✔ getHandlers returns with the array of handlers
+✔ waits async handlers
+✔ abort with rejected promise
+✔ abort with rejected promise without error
+✔ abort with throw inside async function
+✔ fails to add non async function with arity 2
+✔ fails to add async function with arity 3
+
+[1mchainComposer.test.js[22m
+✔ chainComposer creates a valid chain for a handler array 
+✔ chainComposer creates a valid chain for a single handler
+[31m✖ chainComposer creates a valid chain for a single handler[39m
+
+TypeError: Cannot set property closed of #<Readable> which has only a getter
+    at patch (/data/js-variants/multee/Clients/send/node-restify/lib/request.js:848:30)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/send/node-restify/lib/server.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/send/node-restify/lib/index.js:10:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+
+************* run test done *************
+node-restify is testing ./Variants/send/variant3/send
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1163 packages in 4s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+25 vulnerabilities (6 moderate, 14 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 461ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 442ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1164 packages in 3s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+25 vulnerabilities (6 moderate, 14 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> restify@8.5.1 test
+> make prepush
+
+Running "make check-lint"
+
+/data/js-variants/multee/Clients/send/node-restify/lib/formatters/text.js
+  23:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/lib/plugins/conditionalRequest.js
+  109:9  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/lib/server.js
+  807:17  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/plugins/jsonBodyParser.test.js
+  144:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/plugins/metrics.test.js
+  318:17  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/server.test.js
+  2055:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+✖ 6 problems (0 errors, 6 warnings)
+
+Running "make check-style"
+check ok
+./node_modules/.bin/nodeunit test/*.test.js
+
+[1mchain.test.js[22m
+✔ calls all the handlers
+✔ abort with Error in next
+✔ abort with false in next
+✔ abort with closed request
+✔ cals error middleware
+✔ onceNext prevents double next calls
+✔ throws error for double next calls in strictNext mode
+✔ calls req.startHandlerTimer
+✔ calls req.endHandlerTimer
+✔ count returns with the number of registered handlers
+✔ getHandlers returns with the array of handlers
+✔ waits async handlers
+✔ abort with rejected promise
+✔ abort with rejected promise without error
+✔ abort with throw inside async function
+✔ fails to add non async function with arity 2
+✔ fails to add async function with arity 3
+
+[1mchainComposer.test.js[22m
+✔ chainComposer creates a valid chain for a handler array 
+✔ chainComposer creates a valid chain for a single handler
+[31m✖ chainComposer creates a valid chain for a single handler[39m
+
+TypeError: Cannot set property closed of #<Readable> which has only a getter
+    at patch (/data/js-variants/multee/Clients/send/node-restify/lib/request.js:848:30)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/send/node-restify/lib/server.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/send/node-restify/lib/index.js:10:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+
+************* run test done *************
+node-restify is testing ./Variants/send/variant2/send
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1163 packages in 4s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+25 vulnerabilities (6 moderate, 14 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 451ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 415ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1164 packages in 3s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+25 vulnerabilities (6 moderate, 14 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> restify@8.5.1 test
+> make prepush
+
+Running "make check-lint"
+
+/data/js-variants/multee/Clients/send/node-restify/lib/formatters/text.js
+  23:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/lib/plugins/conditionalRequest.js
+  109:9  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/lib/server.js
+  807:17  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/plugins/jsonBodyParser.test.js
+  144:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/plugins/metrics.test.js
+  318:17  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/server.test.js
+  2055:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+✖ 6 problems (0 errors, 6 warnings)
+
+Running "make check-style"
+check ok
+./node_modules/.bin/nodeunit test/*.test.js
+
+[1mchain.test.js[22m
+✔ calls all the handlers
+✔ abort with Error in next
+✔ abort with false in next
+✔ abort with closed request
+✔ cals error middleware
+✔ onceNext prevents double next calls
+✔ throws error for double next calls in strictNext mode
+✔ calls req.startHandlerTimer
+✔ calls req.endHandlerTimer
+✔ count returns with the number of registered handlers
+✔ getHandlers returns with the array of handlers
+✔ waits async handlers
+✔ abort with rejected promise
+✔ abort with rejected promise without error
+✔ abort with throw inside async function
+✔ fails to add non async function with arity 2
+✔ fails to add async function with arity 3
+
+[1mchainComposer.test.js[22m
+✔ chainComposer creates a valid chain for a handler array 
+✔ chainComposer creates a valid chain for a single handler
+[31m✖ chainComposer creates a valid chain for a single handler[39m
+
+TypeError: Cannot set property closed of #<Readable> which has only a getter
+    at patch (/data/js-variants/multee/Clients/send/node-restify/lib/request.js:848:30)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/send/node-restify/lib/server.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/send/node-restify/lib/index.js:10:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+
+************* run test done *************
+node-restify is testing ./Variants/send/variant1/send
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 1163 packages in 4s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+25 vulnerabilities (6 moderate, 14 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 485ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 386ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1164 packages in 3s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+25 vulnerabilities (6 moderate, 14 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> restify@8.5.1 test
+> make prepush
+
+Running "make check-lint"
+
+/data/js-variants/multee/Clients/send/node-restify/lib/formatters/text.js
+  23:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/lib/plugins/conditionalRequest.js
+  109:9  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/lib/server.js
+  807:17  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/plugins/jsonBodyParser.test.js
+  144:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/plugins/metrics.test.js
+  318:17  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/server.test.js
+  2055:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+✖ 6 problems (0 errors, 6 warnings)
+
+Running "make check-style"
+check ok
+./node_modules/.bin/nodeunit test/*.test.js
+
+[1mchain.test.js[22m
+✔ calls all the handlers
+✔ abort with Error in next
+✔ abort with false in next
+✔ abort with closed request
+✔ cals error middleware
+✔ onceNext prevents double next calls
+✔ throws error for double next calls in strictNext mode
+✔ calls req.startHandlerTimer
+✔ calls req.endHandlerTimer
+✔ count returns with the number of registered handlers
+✔ getHandlers returns with the array of handlers
+✔ waits async handlers
+✔ abort with rejected promise
+✔ abort with rejected promise without error
+✔ abort with throw inside async function
+✔ fails to add non async function with arity 2
+✔ fails to add async function with arity 3
+
+[1mchainComposer.test.js[22m
+✔ chainComposer creates a valid chain for a handler array 
+✔ chainComposer creates a valid chain for a single handler
+[31m✖ chainComposer creates a valid chain for a single handler[39m
+
+TypeError: Cannot set property closed of #<Readable> which has only a getter
+    at patch (/data/js-variants/multee/Clients/send/node-restify/lib/request.js:848:30)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/send/node-restify/lib/server.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/send/node-restify/lib/index.js:10:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+
+************* run test done *************
+variantsDepsNum: 3
+/data/js-variants/multee
+3
+node-restify is testing ./VariantsDeps/send/variant3/send
+************* npm unlink module *************
+
+removed 1 package, and audited 1163 packages in 4s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+25 vulnerabilities (6 moderate, 14 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 454ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 392ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1164 packages in 3s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+25 vulnerabilities (6 moderate, 14 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> restify@8.5.1 test
+> make prepush
+
+Running "make check-lint"
+
+/data/js-variants/multee/Clients/send/node-restify/lib/formatters/text.js
+  23:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/lib/plugins/conditionalRequest.js
+  109:9  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/lib/server.js
+  807:17  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/plugins/jsonBodyParser.test.js
+  144:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/plugins/metrics.test.js
+  318:17  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/server.test.js
+  2055:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+✖ 6 problems (0 errors, 6 warnings)
+
+Running "make check-style"
+check ok
+./node_modules/.bin/nodeunit test/*.test.js
+
+[1mchain.test.js[22m
+✔ calls all the handlers
+✔ abort with Error in next
+✔ abort with false in next
+✔ abort with closed request
+✔ cals error middleware
+✔ onceNext prevents double next calls
+✔ throws error for double next calls in strictNext mode
+✔ calls req.startHandlerTimer
+✔ calls req.endHandlerTimer
+✔ count returns with the number of registered handlers
+✔ getHandlers returns with the array of handlers
+✔ waits async handlers
+✔ abort with rejected promise
+✔ abort with rejected promise without error
+✔ abort with throw inside async function
+✔ fails to add non async function with arity 2
+✔ fails to add async function with arity 3
+
+[1mchainComposer.test.js[22m
+✔ chainComposer creates a valid chain for a handler array 
+✔ chainComposer creates a valid chain for a single handler
+[31m✖ chainComposer creates a valid chain for a single handler[39m
+
+TypeError: Cannot set property closed of #<Readable> which has only a getter
+    at patch (/data/js-variants/multee/Clients/send/node-restify/lib/request.js:848:30)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/send/node-restify/lib/server.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/send/node-restify/lib/index.js:10:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+
+************* run test done *************
+node-restify is testing ./VariantsDeps/send/variant2/send
+************* npm unlink module *************
+
+removed 1 package, and audited 1163 packages in 4s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+25 vulnerabilities (6 moderate, 14 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 454ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 397ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1164 packages in 3s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+25 vulnerabilities (6 moderate, 14 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> restify@8.5.1 test
+> make prepush
+
+Running "make check-lint"
+
+/data/js-variants/multee/Clients/send/node-restify/lib/formatters/text.js
+  23:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/lib/plugins/conditionalRequest.js
+  109:9  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/lib/server.js
+  807:17  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/plugins/jsonBodyParser.test.js
+  144:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/plugins/metrics.test.js
+  318:17  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/server.test.js
+  2055:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+✖ 6 problems (0 errors, 6 warnings)
+
+Running "make check-style"
+check ok
+./node_modules/.bin/nodeunit test/*.test.js
+
+[1mchain.test.js[22m
+✔ calls all the handlers
+✔ abort with Error in next
+✔ abort with false in next
+✔ abort with closed request
+✔ cals error middleware
+✔ onceNext prevents double next calls
+✔ throws error for double next calls in strictNext mode
+✔ calls req.startHandlerTimer
+✔ calls req.endHandlerTimer
+✔ count returns with the number of registered handlers
+✔ getHandlers returns with the array of handlers
+✔ waits async handlers
+✔ abort with rejected promise
+✔ abort with rejected promise without error
+✔ abort with throw inside async function
+✔ fails to add non async function with arity 2
+✔ fails to add async function with arity 3
+
+[1mchainComposer.test.js[22m
+✔ chainComposer creates a valid chain for a handler array 
+✔ chainComposer creates a valid chain for a single handler
+[31m✖ chainComposer creates a valid chain for a single handler[39m
+
+TypeError: Cannot set property closed of #<Readable> which has only a getter
+    at patch (/data/js-variants/multee/Clients/send/node-restify/lib/request.js:848:30)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/send/node-restify/lib/server.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/send/node-restify/lib/index.js:10:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+
+************* run test done *************
+node-restify is testing ./VariantsDeps/send/variant1/send
+************* npm unlink module *************
+
+removed 1 package, and audited 1163 packages in 4s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+25 vulnerabilities (6 moderate, 14 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 467ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 425ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 1164 packages in 3s
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+25 vulnerabilities (6 moderate, 14 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> restify@8.5.1 test
+> make prepush
+
+Running "make check-lint"
+
+/data/js-variants/multee/Clients/send/node-restify/lib/formatters/text.js
+  23:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/lib/plugins/conditionalRequest.js
+  109:9  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/lib/server.js
+  807:17  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/plugins/jsonBodyParser.test.js
+  144:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/plugins/metrics.test.js
+  318:17  warning  Unexpected 'todo' comment  no-warning-comments
+
+/data/js-variants/multee/Clients/send/node-restify/test/server.test.js
+  2055:5  warning  Unexpected 'todo' comment  no-warning-comments
+
+✖ 6 problems (0 errors, 6 warnings)
+
+Running "make check-style"
+check ok
+./node_modules/.bin/nodeunit test/*.test.js
+
+[1mchain.test.js[22m
+✔ calls all the handlers
+✔ abort with Error in next
+✔ abort with false in next
+✔ abort with closed request
+✔ cals error middleware
+✔ onceNext prevents double next calls
+✔ throws error for double next calls in strictNext mode
+✔ calls req.startHandlerTimer
+✔ calls req.endHandlerTimer
+✔ count returns with the number of registered handlers
+✔ getHandlers returns with the array of handlers
+✔ waits async handlers
+✔ abort with rejected promise
+✔ abort with rejected promise without error
+✔ abort with throw inside async function
+✔ fails to add non async function with arity 2
+✔ fails to add async function with arity 3
+
+[1mchainComposer.test.js[22m
+✔ chainComposer creates a valid chain for a handler array 
+✔ chainComposer creates a valid chain for a single handler
+[31m✖ chainComposer creates a valid chain for a single handler[39m
+
+TypeError: Cannot set property closed of #<Readable> which has only a getter
+    at patch (/data/js-variants/multee/Clients/send/node-restify/lib/request.js:848:30)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/send/node-restify/lib/server.js:33:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/send/node-restify/lib/index.js:10:14)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+
+************* run test done *************
