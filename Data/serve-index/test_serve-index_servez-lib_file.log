@@ -1,0 +1,1172 @@
+/data/js-variants/multee
+11
+servez-lib is testing ./Variants/serve-index/variant11/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 439ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 406ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 980ms
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+
+
+  servez-lib
+    ✔ gets text
+    ✔ gets binary gz
+    ✔ gets text from binary gz when gzip true
+    ✔ fails on missing file
+    ✔ scan for port
+    ✔ does not scan for port when scan false
+    ✔ returns robots.txt if robots true
+    ✔ returns 404 if robots false
+    ✔ returns 404 for folder if index false
+    ✔ returns index.html for folder if index true
+    ✔ returns something for folder if index false and dirs true
+    ✔ listing is kodi compatible
+    ✔ fails if bad auth
+    ✔ succeeds if good auth
+    ✔ gets html when non-html
+    1) emits host before start
+    ✔ does not sends headers for sharedArrayBuffers by default
+    ✔ sends correct headers for sharedArrayBuffers
+    ✔ sends added headers
+
+
+  18 passing (122ms)
+  1 failing
+
+  1) servez-lib
+       emits host before start:
+     AssertionError: Unspecified AssertionError
+      at Context.<anonymous> (test/tests/servez-test.js:214:5)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+
+************* run test done *************
+servez-lib is testing ./Variants/serve-index/variant10/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 409ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 408ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 964ms
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+
+
+  servez-lib
+    ✔ gets text
+    ✔ gets binary gz
+    ✔ gets text from binary gz when gzip true
+    ✔ fails on missing file
+    ✔ scan for port
+    ✔ does not scan for port when scan false
+    ✔ returns robots.txt if robots true
+    ✔ returns 404 if robots false
+    ✔ returns 404 for folder if index false
+    ✔ returns index.html for folder if index true
+    ✔ returns something for folder if index false and dirs true
+    ✔ listing is kodi compatible
+    ✔ fails if bad auth
+    ✔ succeeds if good auth
+    ✔ gets html when non-html
+    1) emits host before start
+    ✔ does not sends headers for sharedArrayBuffers by default
+    ✔ sends correct headers for sharedArrayBuffers
+    ✔ sends added headers
+
+
+  18 passing (121ms)
+  1 failing
+
+  1) servez-lib
+       emits host before start:
+     AssertionError: Unspecified AssertionError
+      at Context.<anonymous> (test/tests/servez-test.js:214:5)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+
+************* run test done *************
+servez-lib is testing ./Variants/serve-index/variant9/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 404ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 416ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 957ms
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+************* run test done *************
+servez-lib is testing ./Variants/serve-index/variant8/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 442ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 403ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 974ms
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+************* run test done *************
+servez-lib is testing ./Variants/serve-index/variant7/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 408ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 408ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+
+
+  servez-lib
+    ✔ gets text
+    ✔ gets binary gz
+    ✔ gets text from binary gz when gzip true
+    ✔ fails on missing file
+    ✔ scan for port
+    ✔ does not scan for port when scan false
+    ✔ returns robots.txt if robots true
+    ✔ returns 404 if robots false
+    ✔ returns 404 for folder if index false
+    ✔ returns index.html for folder if index true
+    ✔ returns something for folder if index false and dirs true
+    ✔ listing is kodi compatible
+    ✔ fails if bad auth
+    ✔ succeeds if good auth
+    ✔ gets html when non-html
+    1) emits host before start
+    ✔ does not sends headers for sharedArrayBuffers by default
+    ✔ sends correct headers for sharedArrayBuffers
+    ✔ sends added headers
+
+
+  18 passing (122ms)
+  1 failing
+
+  1) servez-lib
+       emits host before start:
+     AssertionError: Unspecified AssertionError
+      at Context.<anonymous> (test/tests/servez-test.js:214:5)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+
+************* run test done *************
+servez-lib is testing ./Variants/serve-index/variant6/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 409ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 400ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 968ms
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+
+
+  servez-lib
+    ✔ gets text
+    ✔ gets binary gz
+    ✔ gets text from binary gz when gzip true
+    ✔ fails on missing file
+    ✔ scan for port
+    ✔ does not scan for port when scan false
+    ✔ returns robots.txt if robots true
+    ✔ returns 404 if robots false
+    ✔ returns 404 for folder if index false
+    ✔ returns index.html for folder if index true
+    ✔ returns something for folder if index false and dirs true
+    ✔ listing is kodi compatible
+    ✔ fails if bad auth
+    ✔ succeeds if good auth
+    ✔ gets html when non-html
+    1) emits host before start
+    ✔ does not sends headers for sharedArrayBuffers by default
+    ✔ sends correct headers for sharedArrayBuffers
+    ✔ sends added headers
+
+
+  18 passing (122ms)
+  1 failing
+
+  1) servez-lib
+       emits host before start:
+     AssertionError: Unspecified AssertionError
+      at Context.<anonymous> (test/tests/servez-test.js:214:5)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+
+************* run test done *************
+servez-lib is testing ./Variants/serve-index/variant5/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 458ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 398ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+
+
+  servez-lib
+    ✔ gets text
+    ✔ gets binary gz
+    ✔ gets text from binary gz when gzip true
+    ✔ fails on missing file
+    ✔ scan for port
+    ✔ does not scan for port when scan false
+    ✔ returns robots.txt if robots true
+    ✔ returns 404 if robots false
+    ✔ returns 404 for folder if index false
+    ✔ returns index.html for folder if index true
+    ✔ returns something for folder if index false and dirs true
+    ✔ listing is kodi compatible
+    ✔ fails if bad auth
+    ✔ succeeds if good auth
+    ✔ gets html when non-html
+    1) emits host before start
+    ✔ does not sends headers for sharedArrayBuffers by default
+    ✔ sends correct headers for sharedArrayBuffers
+    ✔ sends added headers
+
+
+  18 passing (122ms)
+  1 failing
+
+  1) servez-lib
+       emits host before start:
+     AssertionError: Unspecified AssertionError
+      at Context.<anonymous> (test/tests/servez-test.js:214:5)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+
+************* run test done *************
+servez-lib is testing ./Variants/serve-index/variant4/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 413ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 398ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+
+
+  servez-lib
+    ✔ gets text
+    ✔ gets binary gz
+    ✔ gets text from binary gz when gzip true
+    ✔ fails on missing file
+    ✔ scan for port
+    ✔ does not scan for port when scan false
+    ✔ returns robots.txt if robots true
+    ✔ returns 404 if robots false
+    ✔ returns 404 for folder if index false
+    ✔ returns index.html for folder if index true
+    ✔ returns something for folder if index false and dirs true
+    ✔ listing is kodi compatible
+    ✔ fails if bad auth
+    ✔ succeeds if good auth
+    ✔ gets html when non-html
+    1) emits host before start
+    ✔ does not sends headers for sharedArrayBuffers by default
+    ✔ sends correct headers for sharedArrayBuffers
+    ✔ sends added headers
+
+
+  18 passing (123ms)
+  1 failing
+
+  1) servez-lib
+       emits host before start:
+     AssertionError: Unspecified AssertionError
+      at Context.<anonymous> (test/tests/servez-test.js:214:5)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+
+************* run test done *************
+servez-lib is testing ./Variants/serve-index/variant3/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 407ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 406ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 980ms
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+
+
+  servez-lib
+    ✔ gets text
+    ✔ gets binary gz
+    ✔ gets text from binary gz when gzip true
+    ✔ fails on missing file
+    ✔ scan for port
+    ✔ does not scan for port when scan false
+    ✔ returns robots.txt if robots true
+    ✔ returns 404 if robots false
+    ✔ returns 404 for folder if index false
+    ✔ returns index.html for folder if index true
+    ✔ returns something for folder if index false and dirs true
+    ✔ listing is kodi compatible
+    ✔ fails if bad auth
+    ✔ succeeds if good auth
+    ✔ gets html when non-html
+    1) emits host before start
+    ✔ does not sends headers for sharedArrayBuffers by default
+    ✔ sends correct headers for sharedArrayBuffers
+    ✔ sends added headers
+
+
+  18 passing (122ms)
+  1 failing
+
+  1) servez-lib
+       emits host before start:
+     AssertionError: Unspecified AssertionError
+      at Context.<anonymous> (test/tests/servez-test.js:214:5)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+
+************* run test done *************
+servez-lib is testing ./Variants/serve-index/variant2/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 999ms
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 417ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 421ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+
+
+  servez-lib
+    ✔ gets text
+    ✔ gets binary gz
+    ✔ gets text from binary gz when gzip true
+    ✔ fails on missing file
+    ✔ scan for port
+    ✔ does not scan for port when scan false
+    ✔ returns robots.txt if robots true
+    ✔ returns 404 if robots false
+    ✔ returns 404 for folder if index false
+    ✔ returns index.html for folder if index true
+    ✔ returns something for folder if index false and dirs true
+    ✔ listing is kodi compatible
+    ✔ fails if bad auth
+    ✔ succeeds if good auth
+    ✔ gets html when non-html
+    1) emits host before start
+    ✔ does not sends headers for sharedArrayBuffers by default
+    ✔ sends correct headers for sharedArrayBuffers
+    ✔ sends added headers
+
+
+  18 passing (123ms)
+  1 failing
+
+  1) servez-lib
+       emits host before start:
+     AssertionError: Unspecified AssertionError
+      at Context.<anonymous> (test/tests/servez-test.js:214:5)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+
+************* run test done *************
+servez-lib is testing ./Variants/serve-index/variant1/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 419ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 401ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 993ms
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+
+
+  servez-lib
+    ✔ gets text
+    ✔ gets binary gz
+    ✔ gets text from binary gz when gzip true
+    ✔ fails on missing file
+    ✔ scan for port
+    ✔ does not scan for port when scan false
+    ✔ returns robots.txt if robots true
+    ✔ returns 404 if robots false
+    ✔ returns 404 for folder if index false
+    ✔ returns index.html for folder if index true
+    ✔ returns something for folder if index false and dirs true
+    ✔ listing is kodi compatible
+    ✔ fails if bad auth
+    ✔ succeeds if good auth
+    ✔ gets html when non-html
+    1) emits host before start
+    ✔ does not sends headers for sharedArrayBuffers by default
+    ✔ sends correct headers for sharedArrayBuffers
+    ✔ sends added headers
+
+
+  18 passing (122ms)
+  1 failing
+
+  1) servez-lib
+       emits host before start:
+     AssertionError: Unspecified AssertionError
+      at Context.<anonymous> (test/tests/servez-test.js:214:5)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+
+************* run test done *************
+variantsDepsNum: 7
+/data/js-variants/multee
+7
+servez-lib is testing ./VariantsDeps/serve-index/variant7/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 415ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 407ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 999ms
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+
+
+  servez-lib
+    ✔ gets text
+    ✔ gets binary gz
+    ✔ gets text from binary gz when gzip true
+    ✔ fails on missing file
+    ✔ scan for port
+    ✔ does not scan for port when scan false
+    ✔ returns robots.txt if robots true
+    ✔ returns 404 if robots false
+    ✔ returns 404 for folder if index false
+    ✔ returns index.html for folder if index true
+    ✔ returns something for folder if index false and dirs true
+    ✔ listing is kodi compatible
+    ✔ fails if bad auth
+    ✔ succeeds if good auth
+    ✔ gets html when non-html
+    1) emits host before start
+    ✔ does not sends headers for sharedArrayBuffers by default
+    ✔ sends correct headers for sharedArrayBuffers
+    ✔ sends added headers
+
+
+  18 passing (122ms)
+  1 failing
+
+  1) servez-lib
+       emits host before start:
+     AssertionError: Unspecified AssertionError
+      at Context.<anonymous> (test/tests/servez-test.js:214:5)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+
+************* run test done *************
+servez-lib is testing ./VariantsDeps/serve-index/variant6/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 422ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 395ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+************* run test done *************
+servez-lib is testing ./VariantsDeps/serve-index/variant5/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 406ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 399ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 957ms
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+************* run test done *************
+servez-lib is testing ./VariantsDeps/serve-index/variant4/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 405ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 476ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 963ms
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+
+
+  servez-lib
+    ✔ gets text
+    ✔ gets binary gz
+    ✔ gets text from binary gz when gzip true
+    ✔ fails on missing file
+    ✔ scan for port
+    ✔ does not scan for port when scan false
+    ✔ returns robots.txt if robots true
+    ✔ returns 404 if robots false
+    ✔ returns 404 for folder if index false
+    ✔ returns index.html for folder if index true
+    ✔ returns something for folder if index false and dirs true
+    ✔ listing is kodi compatible
+    ✔ fails if bad auth
+    ✔ succeeds if good auth
+    ✔ gets html when non-html
+    1) emits host before start
+    ✔ does not sends headers for sharedArrayBuffers by default
+    ✔ sends correct headers for sharedArrayBuffers
+    ✔ sends added headers
+
+
+  18 passing (125ms)
+  1 failing
+
+  1) servez-lib
+       emits host before start:
+     AssertionError: Unspecified AssertionError
+      at Context.<anonymous> (test/tests/servez-test.js:214:5)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+
+************* run test done *************
+servez-lib is testing ./VariantsDeps/serve-index/variant3/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 430ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 404ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+
+
+  servez-lib
+    ✔ gets text
+    ✔ gets binary gz
+    ✔ gets text from binary gz when gzip true
+    ✔ fails on missing file
+    ✔ scan for port
+    ✔ does not scan for port when scan false
+    ✔ returns robots.txt if robots true
+    ✔ returns 404 if robots false
+    ✔ returns 404 for folder if index false
+    ✔ returns index.html for folder if index true
+    ✔ returns something for folder if index false and dirs true
+    ✔ listing is kodi compatible
+    ✔ fails if bad auth
+    ✔ succeeds if good auth
+    ✔ gets html when non-html
+    1) emits host before start
+    ✔ does not sends headers for sharedArrayBuffers by default
+    ✔ sends correct headers for sharedArrayBuffers
+    ✔ sends added headers
+
+
+  18 passing (122ms)
+  1 failing
+
+  1) servez-lib
+       emits host before start:
+     AssertionError: Unspecified AssertionError
+      at Context.<anonymous> (test/tests/servez-test.js:214:5)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+
+************* run test done *************
+servez-lib is testing ./VariantsDeps/serve-index/variant2/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 405ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 397ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+
+
+  servez-lib
+    ✔ gets text
+    ✔ gets binary gz
+    ✔ gets text from binary gz when gzip true
+    ✔ fails on missing file
+    ✔ scan for port
+    ✔ does not scan for port when scan false
+    ✔ returns robots.txt if robots true
+    ✔ returns 404 if robots false
+    ✔ returns 404 for folder if index false
+    ✔ returns index.html for folder if index true
+    ✔ returns something for folder if index false and dirs true
+    ✔ listing is kodi compatible
+    ✔ fails if bad auth
+    ✔ succeeds if good auth
+    ✔ gets html when non-html
+    1) emits host before start
+    ✔ does not sends headers for sharedArrayBuffers by default
+    ✔ sends correct headers for sharedArrayBuffers
+    ✔ sends added headers
+
+
+  18 passing (123ms)
+  1 failing
+
+  1) servez-lib
+       emits host before start:
+     AssertionError: Unspecified AssertionError
+      at Context.<anonymous> (test/tests/servez-test.js:214:5)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+
+************* run test done *************
+servez-lib is testing ./VariantsDeps/serve-index/variant1/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 161 packages in 1s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 405ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 427ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 163 packages in 965ms
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> servez-lib@2.6.0 test
+> mocha test/tests
+
+
+
+  servez-lib
+    ✔ gets text
+    ✔ gets binary gz
+    ✔ gets text from binary gz when gzip true
+    ✔ fails on missing file
+    ✔ scan for port
+    ✔ does not scan for port when scan false
+    ✔ returns robots.txt if robots true
+    ✔ returns 404 if robots false
+    ✔ returns 404 for folder if index false
+    ✔ returns index.html for folder if index true
+    ✔ returns something for folder if index false and dirs true
+    ✔ listing is kodi compatible
+    ✔ fails if bad auth
+    ✔ succeeds if good auth
+    ✔ gets html when non-html
+    1) emits host before start
+    ✔ does not sends headers for sharedArrayBuffers by default
+    ✔ sends correct headers for sharedArrayBuffers
+    ✔ sends added headers
+
+
+  18 passing (123ms)
+  1 failing
+
+  1) servez-lib
+       emits host before start:
+     AssertionError: Unspecified AssertionError
+      at Context.<anonymous> (test/tests/servez-test.js:214:5)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+
+************* run test done *************

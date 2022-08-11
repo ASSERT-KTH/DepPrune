@@ -1,0 +1,351 @@
+7
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'http2@3.3.7',
+npm WARN EBADENGINE   required: { node: '>=0.12.0 <9.0.0' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'http2@3.3.7',
+npm WARN EBADENGINE   required: { node: '>=0.12.0 <9.0.0' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+PASS test/lint.test.js
+PASS src/config/integration.test.js
+PASS src/modern/modern.test.js
+PASS reply/integration.test.js
+PASS router/integration.test.js
+PASS src/join/integration.test.js
+PASS test/examples/test-1.test.js
+PASS test/examples/test-7.test.js
+PASS plugins/session/unit.test.js
+PASS router/unit.test.js
+PASS plugins/compress/integration.test.js
+PASS plugins/final/final.test.js
+PASS plugins/parser/integration.test.js
+PASS plugins/log/integration.test.js
+PASS plugins/security/unit.test.js
+PASS test/examples/test-4.test.js
+PASS plugins/static/unit.test.js
+PASS plugins/express/integration.test.js
+PASS test/examples/test-0.test.js
+PASS test/examples/test-3.test.js
+PASS test/examples/test-5.test.js
+PASS test/examples/test-2.test.js
+PASS test/examples/test-6.test.js
+PASS src/index.test.js
+PASS plugins/favicon/integration.test.js
+PASS test/run.test.js
+PASS examples/supertest/index.test.js
+PASS src/config/init.test.js
+PASS reply/unit.test.js
+PASS src/config/unit.test.js
+PASS error/index.test.js
+PASS test/examples.test.js
+PASS src/join/unit.test.js
+
+Test Suites: 33 passed, 33 total
+Tests:       11 skipped, 176 passed, 187 total
+Snapshots:   0 total
+Time:        19.891s
+Ran all test suites.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'http2@3.3.7',
+npm WARN EBADENGINE   required: { node: '>=0.12.0 <9.0.0' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'http2@3.3.7',
+npm WARN EBADENGINE   required: { node: '>=0.12.0 <9.0.0' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+PASS test/lint.test.js
+PASS src/config/integration.test.js
+PASS src/modern/modern.test.js
+PASS reply/integration.test.js
+PASS router/integration.test.js
+PASS test/examples/test-2.test.js
+PASS src/join/integration.test.js
+PASS test/examples/test-1.test.js
+PASS plugins/static/unit.test.js
+PASS plugins/session/unit.test.js
+PASS router/unit.test.js
+PASS plugins/final/final.test.js
+PASS test/examples/test-7.test.js
+PASS plugins/compress/integration.test.js
+PASS plugins/security/unit.test.js
+PASS test/examples/test-4.test.js
+PASS test/examples/test-5.test.js
+PASS plugins/log/integration.test.js
+PASS plugins/parser/integration.test.js
+PASS plugins/express/integration.test.js
+PASS test/examples/test-0.test.js
+PASS test/examples/test-3.test.js
+PASS test/examples/test-6.test.js
+PASS src/index.test.js
+PASS plugins/favicon/integration.test.js
+PASS test/run.test.js
+PASS examples/supertest/index.test.js
+PASS src/config/init.test.js
+PASS reply/unit.test.js
+PASS src/config/unit.test.js
+PASS error/index.test.js
+PASS test/examples.test.js
+PASS src/join/unit.test.js
+
+Test Suites: 33 passed, 33 total
+Tests:       11 skipped, 176 passed, 187 total
+Snapshots:   0 total
+Time:        19.919s
+Ran all test suites.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'http2@3.3.7',
+npm WARN EBADENGINE   required: { node: '>=0.12.0 <9.0.0' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'http2@3.3.7',
+npm WARN EBADENGINE   required: { node: '>=0.12.0 <9.0.0' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+PASS test/lint.test.js
+PASS src/config/integration.test.js
+PASS src/modern/modern.test.js
+PASS reply/integration.test.js
+PASS router/integration.test.js
+PASS src/join/integration.test.js
+PASS test/examples/test-0.test.js
+PASS test/examples/test-3.test.js
+PASS router/unit.test.js
+PASS plugins/final/final.test.js
+PASS plugins/static/unit.test.js
+PASS plugins/session/unit.test.js
+PASS test/examples/test-2.test.js
+PASS test/examples/test-7.test.js
+PASS plugins/security/unit.test.js
+PASS plugins/parser/integration.test.js
+PASS test/examples/test-4.test.js
+PASS plugins/express/integration.test.js
+PASS plugins/log/integration.test.js
+PASS test/examples/test-1.test.js
+PASS plugins/compress/integration.test.js
+PASS test/examples/test-5.test.js
+PASS plugins/favicon/integration.test.js
+PASS test/examples/test-6.test.js
+PASS src/index.test.js
+PASS test/run.test.js
+PASS examples/supertest/index.test.js
+PASS reply/unit.test.js
+PASS src/config/init.test.js
+PASS src/config/unit.test.js
+PASS error/index.test.js
+PASS test/examples.test.js
+PASS src/join/unit.test.js
+
+Test Suites: 33 passed, 33 total
+Tests:       11 skipped, 176 passed, 187 total
+Snapshots:   0 total
+Time:        20.066s
+Ran all test suites.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'http2@3.3.7',
+npm WARN EBADENGINE   required: { node: '>=0.12.0 <9.0.0' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'http2@3.3.7',
+npm WARN EBADENGINE   required: { node: '>=0.12.0 <9.0.0' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+PASS test/lint.test.js
+PASS src/config/integration.test.js
+PASS src/modern/modern.test.js
+PASS reply/integration.test.js
+PASS router/integration.test.js
+PASS src/join/integration.test.js
+PASS test/examples/test-5.test.js
+PASS plugins/compress/integration.test.js
+PASS router/unit.test.js
+PASS plugins/security/unit.test.js
+PASS plugins/static/unit.test.js
+PASS plugins/final/final.test.js
+PASS test/examples/test-0.test.js
+PASS plugins/session/unit.test.js
+PASS test/examples/test-7.test.js
+PASS plugins/parser/integration.test.js
+PASS src/index.test.js
+PASS plugins/log/integration.test.js
+PASS plugins/express/integration.test.js
+PASS test/examples/test-3.test.js
+PASS test/examples/test-2.test.js
+PASS test/examples/test-4.test.js
+PASS test/examples/test-6.test.js
+PASS test/examples/test-1.test.js
+PASS plugins/favicon/integration.test.js
+PASS examples/supertest/index.test.js
+PASS test/run.test.js
+PASS src/config/init.test.js
+PASS reply/unit.test.js
+PASS src/config/unit.test.js
+PASS error/index.test.js
+PASS test/examples.test.js
+PASS src/join/unit.test.js
+
+Test Suites: 33 passed, 33 total
+Tests:       11 skipped, 176 passed, 187 total
+Snapshots:   0 total
+Time:        19.748s
+Ran all test suites.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'http2@3.3.7',
+npm WARN EBADENGINE   required: { node: '>=0.12.0 <9.0.0' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'http2@3.3.7',
+npm WARN EBADENGINE   required: { node: '>=0.12.0 <9.0.0' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+PASS test/lint.test.js
+PASS src/config/integration.test.js
+PASS src/modern/modern.test.js
+PASS router/integration.test.js
+PASS reply/integration.test.js
+PASS test/examples/test-4.test.js
+PASS src/join/integration.test.js
+PASS router/unit.test.js
+PASS plugins/security/unit.test.js
+PASS plugins/session/unit.test.js
+PASS plugins/final/final.test.js
+PASS plugins/static/unit.test.js
+PASS test/examples/test-7.test.js
+PASS test/examples/test-5.test.js
+PASS test/examples/test-3.test.js
+PASS test/examples/test-1.test.js
+PASS plugins/parser/integration.test.js
+PASS plugins/compress/integration.test.js
+PASS plugins/express/integration.test.js
+PASS plugins/log/integration.test.js
+PASS test/examples/test-0.test.js
+PASS test/examples/test-6.test.js
+PASS test/examples/test-2.test.js
+PASS src/index.test.js
+PASS plugins/favicon/integration.test.js
+PASS examples/supertest/index.test.js
+PASS test/run.test.js
+PASS reply/unit.test.js
+PASS src/config/init.test.js
+PASS src/config/unit.test.js
+PASS error/index.test.js
+PASS test/examples.test.js
+PASS src/join/unit.test.js
+
+Test Suites: 33 passed, 33 total
+Tests:       11 skipped, 176 passed, 187 total
+Snapshots:   0 total
+Time:        19.988s
+Ran all test suites.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'http2@3.3.7',
+npm WARN EBADENGINE   required: { node: '>=0.12.0 <9.0.0' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'http2@3.3.7',
+npm WARN EBADENGINE   required: { node: '>=0.12.0 <9.0.0' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+PASS test/lint.test.js
+PASS src/config/integration.test.js
+PASS src/modern/modern.test.js
+PASS reply/integration.test.js
+PASS router/integration.test.js
+PASS test/examples/test-6.test.js
+PASS src/join/integration.test.js
+PASS router/unit.test.js
+PASS test/examples/test-7.test.js
+PASS plugins/session/unit.test.js
+PASS plugins/final/final.test.js
+PASS test/examples/test-4.test.js
+PASS plugins/security/unit.test.js
+PASS plugins/compress/integration.test.js
+PASS plugins/static/unit.test.js
+PASS plugins/log/integration.test.js
+PASS test/examples/test-0.test.js
+PASS plugins/parser/integration.test.js
+PASS plugins/express/integration.test.js
+PASS test/examples/test-1.test.js
+PASS test/examples/test-3.test.js
+PASS test/examples/test-5.test.js
+PASS test/examples/test-2.test.js
+PASS test/run.test.js
+PASS src/index.test.js
+PASS plugins/favicon/integration.test.js
+PASS examples/supertest/index.test.js
+PASS src/config/init.test.js
+PASS reply/unit.test.js
+PASS src/config/unit.test.js
+PASS error/index.test.js
+PASS test/examples.test.js
+PASS src/join/unit.test.js
+
+Test Suites: 33 passed, 33 total
+Tests:       11 skipped, 176 passed, 187 total
+Snapshots:   0 total
+Time:        20.005s
+Ran all test suites.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'http2@3.3.7',
+npm WARN EBADENGINE   required: { node: '>=0.12.0 <9.0.0' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'http2@3.3.7',
+npm WARN EBADENGINE   required: { node: '>=0.12.0 <9.0.0' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+PASS test/lint.test.js
+PASS src/config/integration.test.js
+PASS src/modern/modern.test.js
+PASS reply/integration.test.js
+PASS router/integration.test.js
+PASS test/examples/test-6.test.js
+PASS src/join/integration.test.js
+PASS test/examples/test-3.test.js
+PASS test/examples/test-5.test.js
+PASS plugins/session/unit.test.js
+PASS router/unit.test.js
+PASS plugins/final/final.test.js
+PASS test/examples/test-7.test.js
+PASS plugins/express/integration.test.js
+PASS plugins/static/unit.test.js
+PASS plugins/security/unit.test.js
+PASS test/examples/test-2.test.js
+PASS plugins/log/integration.test.js
+PASS plugins/compress/integration.test.js
+PASS plugins/parser/integration.test.js
+PASS src/index.test.js
+PASS test/examples/test-0.test.js
+PASS test/examples/test-1.test.js
+PASS test/examples/test-4.test.js
+PASS plugins/favicon/integration.test.js
+PASS examples/supertest/index.test.js
+PASS test/run.test.js
+PASS reply/unit.test.js
+PASS src/config/init.test.js
+PASS src/config/unit.test.js
+PASS error/index.test.js
+PASS test/examples.test.js
+PASS src/join/unit.test.js
+
+Test Suites: 33 passed, 33 total
+Tests:       11 skipped, 176 passed, 187 total
+Snapshots:   0 total
+Time:        20.075s
+Ran all test suites.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?

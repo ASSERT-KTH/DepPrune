@@ -1,0 +1,2392 @@
+/data/js-variants/multee
+11
+server is testing ./Variants/serve-index/variant11/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 5s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 413ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 401ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 2s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+server is testing ./Variants/serve-index/variant10/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 411ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 547ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 2s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+server is testing ./Variants/serve-index/variant9/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 418ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 395ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 2s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.29 |    77.27 |   89.02 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   85.29 |       50 |     100 |   86.66 |                   
+  index.js                 |   85.29 |       50 |     100 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+server is testing ./Variants/serve-index/variant8/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 459ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 404ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+server is testing ./Variants/serve-index/variant7/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 403ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 407ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 2s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+server is testing ./Variants/serve-index/variant6/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 409ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 424ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+server is testing ./Variants/serve-index/variant5/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 407ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 405ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 2s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+server is testing ./Variants/serve-index/variant4/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 405ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 410ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 2s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+server is testing ./Variants/serve-index/variant3/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 407ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 442ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 2s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+server is testing ./Variants/serve-index/variant2/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 409ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 475ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 2s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+server is testing ./Variants/serve-index/variant1/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 408ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 409ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 2s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+variantsDepsNum: 7
+/data/js-variants/multee
+7
+server is testing ./VariantsDeps/serve-index/variant7/serve-index
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 403ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 411ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+server is testing ./VariantsDeps/serve-index/variant6/serve-index
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 404ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 405ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 2s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+server is testing ./VariantsDeps/serve-index/variant5/serve-index
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 411ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 391ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 2s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+server is testing ./VariantsDeps/serve-index/variant4/serve-index
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 404ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 441ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 2s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+server is testing ./VariantsDeps/serve-index/variant3/serve-index
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 429ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 413ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+server is testing ./VariantsDeps/serve-index/variant2/serve-index
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 406ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 428ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 2s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+server is testing ./VariantsDeps/serve-index/variant1/serve-index
+************* npm unlink module *************
+
+added 6 packages, changed 1 package, and audited 1109 packages in 3s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 437ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 392ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+removed 6 packages, changed 1 package, and audited 1104 packages in 2s
+
+42 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (16 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> server@1.0.37 pretest
+> cp .env.demo .env
+
+
+> server@1.0.37 test
+> jest --coverage --forceExit
+
+---------------------------|---------|----------|---------|---------|-------------------
+File                       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------------|---------|----------|---------|---------|-------------------
+All files                  |   90.15 |    77.27 |   88.41 |   92.69 |                   
+ server                    |     100 |      100 |     100 |     100 |                   
+  server.js                |     100 |      100 |     100 |     100 |                   
+ server/error              |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/examples/supertest |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/compress   |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/express    |   82.35 |       50 |      90 |   86.66 |                   
+  index.js                 |   82.35 |       50 |      90 |   86.66 | 47,64-66          
+ server/plugins/favicon    |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/final      |     100 |    86.66 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |    86.66 |     100 |     100 | 8,26              
+ server/plugins/log        |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/plugins/parser     |   82.85 |    56.25 |     100 |     100 |                   
+  index.js                 |   82.85 |    56.25 |     100 |     100 | 40-82             
+ server/plugins/security   |     100 |     62.5 |     100 |     100 |                   
+  index.js                 |     100 |     62.5 |     100 |     100 | 51-61             
+ server/plugins/session    |   78.57 |       60 |      75 |   84.61 |                   
+  index.js                 |   78.57 |       60 |      75 |   84.61 | 37,48             
+ server/plugins/socket     |   31.81 |       20 |   14.28 |   36.84 |                   
+  index.js                 |   31.81 |       20 |   14.28 |   36.84 | 31-32,37,42-59    
+ server/plugins/static     |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+ server/reply              |     100 |    91.42 |     100 |     100 |                   
+  cookie.js                |     100 |      100 |     100 |     100 |                   
+  download.js              |     100 |      100 |     100 |     100 |                   
+  end.js                   |     100 |      100 |     100 |     100 |                   
+  file.js                  |     100 |      100 |     100 |     100 |                   
+  header.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  json.js                  |     100 |      100 |     100 |     100 |                   
+  jsonp.js                 |     100 |      100 |     100 |     100 |                   
+  redirect.js              |     100 |      100 |     100 |     100 |                   
+  render.js                |     100 |      100 |     100 |     100 |                   
+  reply.js                 |     100 |    91.42 |     100 |     100 | 47,86,138         
+  send.js                  |     100 |      100 |     100 |     100 |                   
+  status.js                |     100 |      100 |     100 |     100 |                   
+  type.js                  |     100 |      100 |     100 |     100 |                   
+ server/router             |   74.28 |     37.5 |      50 |   79.68 |                   
+  del.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  error.js                 |   94.11 |    66.66 |     100 |     100 | 22                
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  generic.js               |      70 |     37.5 |   66.66 |   82.35 | 30-32             
+  get.js                   |     100 |      100 |     100 |     100 |                   
+  head.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  parse.js                 |     100 |      100 |     100 |     100 |                   
+  post.js                  |   66.66 |      100 |       0 |   66.66 | 6                 
+  put.js                   |   66.66 |      100 |       0 |   66.66 | 6                 
+  sub.js                   |   22.22 |        0 |       0 |      25 | 4-12              
+ server/src/config         |   89.31 |     82.4 |   88.88 |   92.17 |                   
+  env.js                   |    91.3 |    83.33 |     100 |     100 | 13,15             
+  errors.js                |      90 |        0 |      75 |     100 | 25                
+  index.js                 |     100 |       75 |     100 |     100 | 13                
+  parse.js                 |   92.75 |    90.72 |     100 |   92.42 | 45,50,64-65,90    
+  schema.js                |   54.54 |       20 |     100 |      60 | 17-21             
+ server/src/join           |     100 |     87.5 |     100 |     100 |                   
+  index.js                 |     100 |     87.5 |     100 |     100 | 36-40             
+ server/src/modern         |     100 |      100 |     100 |     100 |                   
+  errors.js                |     100 |      100 |     100 |     100 |                   
+  index.js                 |     100 |      100 |     100 |     100 |                   
+  validate.js              |     100 |      100 |     100 |     100 |                   
+ server/test               |   92.47 |    82.97 |   94.73 |   93.82 |                   
+  a.js                     |     100 |      100 |     100 |     100 |                   
+  port.js                  |   84.61 |       60 |     100 |   83.33 | 14,21             
+  run.js                   |   93.58 |    85.71 |   93.75 |   95.58 | 135-138           
+---------------------------|---------|----------|---------|---------|-------------------
+************* run test done *************

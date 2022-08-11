@@ -1,0 +1,2590 @@
+/data/js-variants/multee
+11
+live-server is testing ./Variants/serve-index/variant11/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 8 packages, and audited 366 packages in 923ms
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 414ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 392ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:41053[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:33503[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:37221[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:40171[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:41809[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:38177[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:33091[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:39597[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:33843[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:34425[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:44549[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:39825[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (213ms)
+    ✓ --help (257ms)
+    ✓ --quiet (924ms)
+    ✓ --port (915ms)
+    ✓ --host (975ms)
+    ✓ --htpasswd (951ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.284 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 5.160 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+live-server is testing ./Variants/serve-index/variant10/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 436ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 392ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 6s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:42183[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:39433[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:46389[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:46647[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:42159[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:36759[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:41823[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:38661[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:38943[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:43717[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:39979[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:45301[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (249ms)
+    ✓ --help (215ms)
+    ✓ --quiet (909ms)
+    ✓ --port (974ms)
+    ✓ --host (949ms)
+    ✓ --htpasswd (958ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.408 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 8.062 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+live-server is testing ./Variants/serve-index/variant9/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 406ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 393ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40663[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:34715[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:36929[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:41115[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:46399[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:44073[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:33215[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:44739[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:33837[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:44313[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:46169[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:37447[39m
+  basic functional tests
+    ✓ should respond with index.html (40ms)
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (213ms)
+    ✓ --help (210ms)
+    ✓ --quiet (924ms)
+    ✓ --port (945ms)
+    ✓ --host (935ms)
+    ✓ --htpasswd (949ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.475 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 8.382 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+live-server is testing ./Variants/serve-index/variant8/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 419ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 413ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:33185[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:42209[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:35677[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:45175[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:40031[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:41791[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:43339[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:39519[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:44845[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:45949[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40109[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:41895[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (213ms)
+    ✓ --help (212ms)
+    ✓ --quiet (910ms)
+    ✓ --port (953ms)
+    ✓ --host (935ms)
+    ✓ --htpasswd (970ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.273 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 5.001 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+live-server is testing ./Variants/serve-index/variant7/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 403ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 394ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40121[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:42023[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:35469[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:32861[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:34133[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:45005[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40129[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:46153[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:39903[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:38271[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:41115[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:45521[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (219ms)
+    ✓ --help (227ms)
+    ✓ --quiet (962ms)
+    ✓ --port (968ms)
+    ✓ --host (926ms)
+    ✓ --htpasswd (874ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.276 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 5.140 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+live-server is testing ./Variants/serve-index/variant6/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 2s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 409ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 399ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40413[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:41031[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:35707[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:38075[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:33317[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:46769[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:35733[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:37217[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:38609[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:33937[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:44493[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:37473[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (214ms)
+    ✓ --help (211ms)
+    ✓ --quiet (919ms)
+    ✓ --port (940ms)
+    ✓ --host (951ms)
+    ✓ --htpasswd (854ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.272 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 5.084 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+live-server is testing ./Variants/serve-index/variant5/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 403ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 401ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:39167[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:39259[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:38249[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:44995[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:35939[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:36921[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:41797[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:42399[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40789[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:34871[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:44523[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40063[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (219ms)
+    ✓ --help (210ms)
+    ✓ --quiet (915ms)
+    ✓ --port (976ms)
+    ✓ --host (914ms)
+    ✓ --htpasswd (976ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.276 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 5.344 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+live-server is testing ./Variants/serve-index/variant4/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 414ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 406ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:46561[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:46451[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:45449[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:34277[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:44943[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40393[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:34503[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:34307[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:33089[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:37331[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:46171[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:34803[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (206ms)
+    ✓ --help (204ms)
+    ✓ --quiet (930ms)
+    ✓ --port (983ms)
+    ✓ --host (913ms)
+    ✓ --htpasswd (955ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.276 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 5.286 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+live-server is testing ./Variants/serve-index/variant3/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 405ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 404ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:38685[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:34875[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:42513[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:39357[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:41185[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:43933[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:44549[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:43277[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:41955[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:36407[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:44021[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:39939[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (213ms)
+    ✓ --help (211ms)
+    ✓ --quiet (920ms)
+    ✓ --port (954ms)
+    ✓ --host (928ms)
+    ✓ --htpasswd (977ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.282 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 5.061 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+live-server is testing ./Variants/serve-index/variant2/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 409ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 387ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:41859[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:42791[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40785[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:34207[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:41243[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40675[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:35297[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:43513[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:45887[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:43025[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:41467[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:44787[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (214ms)
+    ✓ --help (211ms)
+    ✓ --quiet (913ms)
+    ✓ --port (962ms)
+    ✓ --host (935ms)
+    ✓ --htpasswd (974ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.277 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 5.066 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+live-server is testing ./Variants/serve-index/variant1/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 404ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 391ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:39755[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40075[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:36537[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:35867[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:35647[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:33657[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:33591[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40637[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:44273[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:45921[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:34747[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:34579[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (212ms)
+    ✓ --help (203ms)
+    ✓ --quiet (915ms)
+    ✓ --port (955ms)
+    ✓ --host (955ms)
+    ✓ --htpasswd (847ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.283 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 5.232 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+variantsDepsNum: 7
+/data/js-variants/multee
+7
+live-server is testing ./VariantsDeps/serve-index/variant7/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 2s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 408ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 399ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:35319[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:45921[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:37981[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:38915[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:39651[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:34351[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:32821[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:38389[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:44783[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:46777[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:34909[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:41691[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (214ms)
+    ✓ --help (212ms)
+    ✓ --quiet (912ms)
+    ✓ --port (965ms)
+    ✓ --host (917ms)
+    ✓ --htpasswd (963ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.269 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 5.158 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+live-server is testing ./VariantsDeps/serve-index/variant6/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 414ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 403ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:45911[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40971[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40399[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:44099[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:32893[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:42759[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:34537[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40975[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:45651[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:38997[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40419[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:34093[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (214ms)
+    ✓ --help (210ms)
+    ✓ --quiet (930ms)
+    ✓ --port (957ms)
+    ✓ --host (924ms)
+    ✓ --htpasswd (866ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.279 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 5.348 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+live-server is testing ./VariantsDeps/serve-index/variant5/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 419ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 395ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:42347[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:45159[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:37919[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:41981[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:44241[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:35965[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:35535[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:42547[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:37715[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:45621[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:32789[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:39277[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (214ms)
+    ✓ --help (212ms)
+    ✓ --quiet (944ms)
+    ✓ --port (981ms)
+    ✓ --host (927ms)
+    ✓ --htpasswd (976ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.298 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 5.162 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+live-server is testing ./VariantsDeps/serve-index/variant4/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 426ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 435ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:41029[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:42411[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:43313[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:42159[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:35391[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:33159[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:35101[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:36419[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:43993[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:41787[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:46349[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:44183[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (216ms)
+    ✓ --help (211ms)
+    ✓ --quiet (945ms)
+    ✓ --port (949ms)
+    ✓ --host (925ms)
+    ✓ --htpasswd (881ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.279 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 5.189 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+live-server is testing ./VariantsDeps/serve-index/variant3/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 2s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 452ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 388ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:35327[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:45719[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:37119[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:33575[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:35207[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:45359[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:43857[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:36555[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:43647[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:43295[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40053[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:36549[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (216ms)
+    ✓ --help (215ms)
+    ✓ --quiet (858ms)
+    ✓ --port (931ms)
+    ✓ --host (973ms)
+    ✓ --htpasswd (937ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.280 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 4.985 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+live-server is testing ./VariantsDeps/serve-index/variant2/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 436ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 396ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:35657[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:42641[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:44437[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:35277[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:34707[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:37057[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:34597[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:46799[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:35287[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:43239[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40733[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:44497[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (210ms)
+    ✓ --help (205ms)
+    ✓ --quiet (972ms)
+    ✓ --port (913ms)
+    ✓ --host (963ms)
+    ✓ --htpasswd (923ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.286 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 5.096 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************
+live-server is testing ./VariantsDeps/serve-index/variant1/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 366 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 418ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 416ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 368 packages in 1s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (2 moderate, 2 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> live-server@1.2.2 test
+> mocha test --exit && npm run lint
+
+Mapping /mounted to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/sub"
+Mapping /style to "/data/js-variants/multee/Clients/serve-index/live-server/test/data/style.css"
+Mapping /server1 to "http://localhost:40200"
+
+
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:45945[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:41731[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:45783[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:43125[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at https://127.0.0.1:45199[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:46405[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:35645[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:34645[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:41469[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:40200[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:39831[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:34827[39m
+[32mServing "/data/js-variants/multee/Clients/serve-index/live-server/test/data" at http://127.0.0.1:43141[39m
+  basic functional tests
+    ✓ should respond with index.html
+    ✓ should have injected script
+[36mReady for changes[39m
+    ✓ should inject script when tags are in CAPS
+    ✓ should inject to <head> when no <body>
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+[36mReady for changes[39m
+    ✓ should inject also svg files
+    ✓ should not inject html fragments
+    - should have WebSocket connection
+    - should reload on page change
+    - should reload (without refreshing) on css change
+
+  command line usage
+    ✓ --version (214ms)
+    ✓ --help (213ms)
+    ✓ --quiet (969ms)
+    ✓ --port (934ms)
+    ✓ --host (966ms)
+    ✓ --htpasswd (926ms)
+
+  cors tests
+    ✓ should respond with appropriate header
+    ✓ should support preflighted requests
+    ✓ should support requests with credentials
+
+  htpasswd tests
+[0mGET / [33m401[0m 0.273 ms - -[0m
+    ✓ should respond with 401 since no password is given
+[0mGET / [33m401[0m 5.305 ms - -[0m
+    ✓ should respond with 401 since wrong password is given
+    ✓ should respond with 200 since correct password is given
+
+  https tests with external module
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  https tests with object
+    ✓ should reply with a correct index file
+    ✓ should support head request
+
+  middleware tests
+    ✓ should respond with middleware function's status code
+    ✓ should respond with built-in middleware's status code
+    ✓ should respond with external middleware's status code
+
+  mount tests
+    ✓ should respond with sub.html
+    ✓ should respond with style.css
+
+  proxy tests
+    ✓ should respond with proxied content
+
+  spa tests
+    ✓ spa should redirect
+    ✓ spa should redirect everything
+    ✓ spa-ignore-assets should redirect something
+    ✓ spa-ignore-assets should not redirect .css
+
+
+  32 passing (4s)
+  3 pending
+
+
+> live-server@1.2.2 lint
+> eslint live-server.js index.js
+
+************* run test done *************

@@ -87,7 +87,7 @@ do
 
     echo "************* start run test *************"
     # timeout -k 30s 2m npm run test
-    npm run test
+    timeout -k 300s 2m npm run test
     cd ../../..
     echo "************* run test done *************"
 done

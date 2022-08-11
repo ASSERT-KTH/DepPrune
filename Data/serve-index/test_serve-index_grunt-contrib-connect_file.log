@@ -1,0 +1,2004 @@
+/data/js-variants/multee
+11
+grunt-contrib-connect is testing ./Variants/serve-index/variant11/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 4s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 534ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 472ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Running "jshint:all" (jshint) task
+>> 3 files lint free.
+
+Running "connect:basic" (connect) task
+Started connect web server on http://localhost:7999
+
+Running "connect:custom_base" (connect) task
+Started connect web server on http://localhost:8000
+
+Running "connect:custom_port" (connect) task
+Started connect web server on http://localhost:8001
+
+Running "connect:self_port_q" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:self_port_0" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:custom_https" (connect) task
+Started connect web server on https://localhost:8002
+
+Running "connect:custom_https_certs" (connect) task
+Started connect web server on https://localhost:8003
+
+Running "connect:custom_base_with_options" (connect) task
+Started connect web server on http://localhost:8014
+
+Running "connect:multiple_base" (connect) task
+Started connect web server on http://localhost:8004
+
+Running "connect:multiple_base_with_options" (connect) task
+Started connect web server on http://localhost:8015
+
+Running "connect:multiple_base_directory" (connect) task
+Started connect web server on http://localhost:8005
+
+Running "connect:livereload" (connect) task
+Started connect web server on http://localhost:8006
+
+Running "connect:livereload_port" (connect) task
+Started connect web server on http://localhost:8018
+
+Running "connect:livereload_general" (connect) task
+Started connect web server on http://localhost:8019
+
+Running "connect:custom_middleware" (connect) task
+Started connect web server on http://localhost:8007
+
+Running "connect:null_middleware" (connect) task
+Started connect web server on http://localhost:8008
+
+Running "connect:empty_middleware" (connect) task
+Started connect web server on http://localhost:8009
+
+Running "connect:custom_middleware_patch_default_middleware" (connect) task
+Started connect web server on http://localhost:8010
+
+Running "connect:useAvailablePort" (connect) task
+Started connect web server on http://localhost:8011
+
+Running "connect:allHostname" (connect) task
+Started connect web server on http://localhost:8012
+
+Running "connect:onCreateServer" (connect) task
+Started connect web server on http://localhost:8013
+
+Running "connect:routedMiddleware" (connect) task
+Started connect web server on http://localhost:8016
+
+Running "connect:http2" (connect) task
+Started connect web server on https://localhost:8017
+
+Running "nodeunit:tests" (nodeunit) task
+Testing connect_test.js...................OK
+>> 48 assertions passed (218ms)
+
+Done.
+************* run test done *************
+grunt-contrib-connect is testing ./Variants/serve-index/variant10/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 543ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 472ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Running "jshint:all" (jshint) task
+>> 3 files lint free.
+
+Running "connect:basic" (connect) task
+Started connect web server on http://localhost:7999
+
+Running "connect:custom_base" (connect) task
+Started connect web server on http://localhost:8000
+
+Running "connect:custom_port" (connect) task
+Started connect web server on http://localhost:8001
+
+Running "connect:self_port_q" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:self_port_0" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:custom_https" (connect) task
+Started connect web server on https://localhost:8002
+
+Running "connect:custom_https_certs" (connect) task
+Started connect web server on https://localhost:8003
+
+Running "connect:custom_base_with_options" (connect) task
+Started connect web server on http://localhost:8014
+
+Running "connect:multiple_base" (connect) task
+Started connect web server on http://localhost:8004
+
+Running "connect:multiple_base_with_options" (connect) task
+Started connect web server on http://localhost:8015
+
+Running "connect:multiple_base_directory" (connect) task
+Started connect web server on http://localhost:8005
+
+Running "connect:livereload" (connect) task
+Started connect web server on http://localhost:8006
+
+Running "connect:livereload_port" (connect) task
+Started connect web server on http://localhost:8018
+
+Running "connect:livereload_general" (connect) task
+Started connect web server on http://localhost:8019
+
+Running "connect:custom_middleware" (connect) task
+Started connect web server on http://localhost:8007
+
+Running "connect:null_middleware" (connect) task
+Started connect web server on http://localhost:8008
+
+Running "connect:empty_middleware" (connect) task
+Started connect web server on http://localhost:8009
+
+Running "connect:custom_middleware_patch_default_middleware" (connect) task
+Started connect web server on http://localhost:8010
+
+Running "connect:useAvailablePort" (connect) task
+Started connect web server on http://localhost:8011
+
+Running "connect:allHostname" (connect) task
+Started connect web server on http://localhost:8012
+
+Running "connect:onCreateServer" (connect) task
+Started connect web server on http://localhost:8013
+
+Running "connect:routedMiddleware" (connect) task
+Started connect web server on http://localhost:8016
+
+Running "connect:http2" (connect) task
+Started connect web server on https://localhost:8017
+
+Running "nodeunit:tests" (nodeunit) task
+Testing connect_test.js...................OK
+>> 48 assertions passed (230ms)
+
+Done.
+************* run test done *************
+grunt-contrib-connect is testing ./Variants/serve-index/variant9/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 3s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 500ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 467ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Loading "connect.js" tasks...ERROR
+>> TypeError: require(...) is not a function
+Warning: Task "connect" not found. Use --force to continue.
+Error: Task "connect" not found.
+    at Task.run (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:172:28)
+    at Object.thisTask.fn (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/grunt/task.js:70:16)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:294:30)
+    at Task.runTaskFn (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:244:24)
+    at Task.<anonymous> (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:293:12)
+    at Task.start (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:302:5)
+    at Object.grunt.tasks (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/grunt.js:173:8)
+    at Liftoff.<anonymous> (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/node_modules/grunt-cli/bin/grunt:68:15)
+    at Liftoff.execute (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/liftup/index.js:202:12)
+    at module.exports (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/flagged-respawn/index.js:51:3)
+
+Aborted due to warnings.
+************* run test done *************
+grunt-contrib-connect is testing ./Variants/serve-index/variant8/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 530ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 478ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Loading "connect.js" tasks...ERROR
+>> TypeError: inherits is not a function
+Warning: Task "connect" not found. Use --force to continue.
+Error: Task "connect" not found.
+    at Task.run (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:172:28)
+    at Object.thisTask.fn (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/grunt/task.js:70:16)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:294:30)
+    at Task.runTaskFn (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:244:24)
+    at Task.<anonymous> (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:293:12)
+    at Task.start (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:302:5)
+    at Object.grunt.tasks (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/grunt.js:173:8)
+    at Liftoff.<anonymous> (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/node_modules/grunt-cli/bin/grunt:68:15)
+    at Liftoff.execute (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/liftup/index.js:202:12)
+    at module.exports (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/flagged-respawn/index.js:51:3)
+
+Aborted due to warnings.
+************* run test done *************
+grunt-contrib-connect is testing ./Variants/serve-index/variant7/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 3s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 520ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 494ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Running "jshint:all" (jshint) task
+>> 3 files lint free.
+
+Running "connect:basic" (connect) task
+Started connect web server on http://localhost:7999
+
+Running "connect:custom_base" (connect) task
+Started connect web server on http://localhost:8000
+
+Running "connect:custom_port" (connect) task
+Started connect web server on http://localhost:8001
+
+Running "connect:self_port_q" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:self_port_0" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:custom_https" (connect) task
+Started connect web server on https://localhost:8002
+
+Running "connect:custom_https_certs" (connect) task
+Started connect web server on https://localhost:8003
+
+Running "connect:custom_base_with_options" (connect) task
+Started connect web server on http://localhost:8014
+
+Running "connect:multiple_base" (connect) task
+Started connect web server on http://localhost:8004
+
+Running "connect:multiple_base_with_options" (connect) task
+Started connect web server on http://localhost:8015
+
+Running "connect:multiple_base_directory" (connect) task
+Started connect web server on http://localhost:8005
+
+Running "connect:livereload" (connect) task
+Started connect web server on http://localhost:8006
+
+Running "connect:livereload_port" (connect) task
+Started connect web server on http://localhost:8018
+
+Running "connect:livereload_general" (connect) task
+Started connect web server on http://localhost:8019
+
+Running "connect:custom_middleware" (connect) task
+Started connect web server on http://localhost:8007
+
+Running "connect:null_middleware" (connect) task
+Started connect web server on http://localhost:8008
+
+Running "connect:empty_middleware" (connect) task
+Started connect web server on http://localhost:8009
+
+Running "connect:custom_middleware_patch_default_middleware" (connect) task
+Started connect web server on http://localhost:8010
+
+Running "connect:useAvailablePort" (connect) task
+Started connect web server on http://localhost:8011
+
+Running "connect:allHostname" (connect) task
+Started connect web server on http://localhost:8012
+
+Running "connect:onCreateServer" (connect) task
+Started connect web server on http://localhost:8013
+
+Running "connect:routedMiddleware" (connect) task
+Started connect web server on http://localhost:8016
+
+Running "connect:http2" (connect) task
+Started connect web server on https://localhost:8017
+
+Running "nodeunit:tests" (nodeunit) task
+Testing connect_test.js...................OK
+>> 48 assertions passed (229ms)
+
+Done.
+************* run test done *************
+grunt-contrib-connect is testing ./Variants/serve-index/variant6/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 608ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 458ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Running "jshint:all" (jshint) task
+>> 3 files lint free.
+
+Running "connect:basic" (connect) task
+Started connect web server on http://localhost:7999
+
+Running "connect:custom_base" (connect) task
+Started connect web server on http://localhost:8000
+
+Running "connect:custom_port" (connect) task
+Started connect web server on http://localhost:8001
+
+Running "connect:self_port_q" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:self_port_0" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:custom_https" (connect) task
+Started connect web server on https://localhost:8002
+
+Running "connect:custom_https_certs" (connect) task
+Started connect web server on https://localhost:8003
+
+Running "connect:custom_base_with_options" (connect) task
+Started connect web server on http://localhost:8014
+
+Running "connect:multiple_base" (connect) task
+Started connect web server on http://localhost:8004
+
+Running "connect:multiple_base_with_options" (connect) task
+Started connect web server on http://localhost:8015
+
+Running "connect:multiple_base_directory" (connect) task
+Started connect web server on http://localhost:8005
+
+Running "connect:livereload" (connect) task
+Started connect web server on http://localhost:8006
+
+Running "connect:livereload_port" (connect) task
+Started connect web server on http://localhost:8018
+
+Running "connect:livereload_general" (connect) task
+Started connect web server on http://localhost:8019
+
+Running "connect:custom_middleware" (connect) task
+Started connect web server on http://localhost:8007
+
+Running "connect:null_middleware" (connect) task
+Started connect web server on http://localhost:8008
+
+Running "connect:empty_middleware" (connect) task
+Started connect web server on http://localhost:8009
+
+Running "connect:custom_middleware_patch_default_middleware" (connect) task
+Started connect web server on http://localhost:8010
+
+Running "connect:useAvailablePort" (connect) task
+Started connect web server on http://localhost:8011
+
+Running "connect:allHostname" (connect) task
+Started connect web server on http://localhost:8012
+
+Running "connect:onCreateServer" (connect) task
+Started connect web server on http://localhost:8013
+
+Running "connect:routedMiddleware" (connect) task
+Started connect web server on http://localhost:8016
+
+Running "connect:http2" (connect) task
+Started connect web server on https://localhost:8017
+
+Running "nodeunit:tests" (nodeunit) task
+Testing connect_test.js...................OK
+>> 48 assertions passed (238ms)
+
+Done.
+************* run test done *************
+grunt-contrib-connect is testing ./Variants/serve-index/variant5/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 572ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 486ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Running "jshint:all" (jshint) task
+>> 3 files lint free.
+
+Running "connect:basic" (connect) task
+Started connect web server on http://localhost:7999
+
+Running "connect:custom_base" (connect) task
+Started connect web server on http://localhost:8000
+
+Running "connect:custom_port" (connect) task
+Started connect web server on http://localhost:8001
+
+Running "connect:self_port_q" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:self_port_0" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:custom_https" (connect) task
+Started connect web server on https://localhost:8002
+
+Running "connect:custom_https_certs" (connect) task
+Started connect web server on https://localhost:8003
+
+Running "connect:custom_base_with_options" (connect) task
+Started connect web server on http://localhost:8014
+
+Running "connect:multiple_base" (connect) task
+Started connect web server on http://localhost:8004
+
+Running "connect:multiple_base_with_options" (connect) task
+Started connect web server on http://localhost:8015
+
+Running "connect:multiple_base_directory" (connect) task
+Started connect web server on http://localhost:8005
+
+Running "connect:livereload" (connect) task
+Started connect web server on http://localhost:8006
+
+Running "connect:livereload_port" (connect) task
+Started connect web server on http://localhost:8018
+
+Running "connect:livereload_general" (connect) task
+Started connect web server on http://localhost:8019
+
+Running "connect:custom_middleware" (connect) task
+Started connect web server on http://localhost:8007
+
+Running "connect:null_middleware" (connect) task
+Started connect web server on http://localhost:8008
+
+Running "connect:empty_middleware" (connect) task
+Started connect web server on http://localhost:8009
+
+Running "connect:custom_middleware_patch_default_middleware" (connect) task
+Started connect web server on http://localhost:8010
+
+Running "connect:useAvailablePort" (connect) task
+Started connect web server on http://localhost:8011
+
+Running "connect:allHostname" (connect) task
+Started connect web server on http://localhost:8012
+
+Running "connect:onCreateServer" (connect) task
+Started connect web server on http://localhost:8013
+
+Running "connect:routedMiddleware" (connect) task
+Started connect web server on http://localhost:8016
+
+Running "connect:http2" (connect) task
+Started connect web server on https://localhost:8017
+
+Running "nodeunit:tests" (nodeunit) task
+Testing connect_test.js...................OK
+>> 48 assertions passed (262ms)
+
+Done.
+************* run test done *************
+grunt-contrib-connect is testing ./Variants/serve-index/variant4/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 513ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 492ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Running "jshint:all" (jshint) task
+>> 3 files lint free.
+
+Running "connect:basic" (connect) task
+Started connect web server on http://localhost:7999
+
+Running "connect:custom_base" (connect) task
+Started connect web server on http://localhost:8000
+
+Running "connect:custom_port" (connect) task
+Started connect web server on http://localhost:8001
+
+Running "connect:self_port_q" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:self_port_0" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:custom_https" (connect) task
+Started connect web server on https://localhost:8002
+
+Running "connect:custom_https_certs" (connect) task
+Started connect web server on https://localhost:8003
+
+Running "connect:custom_base_with_options" (connect) task
+Started connect web server on http://localhost:8014
+
+Running "connect:multiple_base" (connect) task
+Started connect web server on http://localhost:8004
+
+Running "connect:multiple_base_with_options" (connect) task
+Started connect web server on http://localhost:8015
+
+Running "connect:multiple_base_directory" (connect) task
+Started connect web server on http://localhost:8005
+
+Running "connect:livereload" (connect) task
+Started connect web server on http://localhost:8006
+
+Running "connect:livereload_port" (connect) task
+Started connect web server on http://localhost:8018
+
+Running "connect:livereload_general" (connect) task
+Started connect web server on http://localhost:8019
+
+Running "connect:custom_middleware" (connect) task
+Started connect web server on http://localhost:8007
+
+Running "connect:null_middleware" (connect) task
+Started connect web server on http://localhost:8008
+
+Running "connect:empty_middleware" (connect) task
+Started connect web server on http://localhost:8009
+
+Running "connect:custom_middleware_patch_default_middleware" (connect) task
+Started connect web server on http://localhost:8010
+
+Running "connect:useAvailablePort" (connect) task
+Started connect web server on http://localhost:8011
+
+Running "connect:allHostname" (connect) task
+Started connect web server on http://localhost:8012
+
+Running "connect:onCreateServer" (connect) task
+Started connect web server on http://localhost:8013
+
+Running "connect:routedMiddleware" (connect) task
+Started connect web server on http://localhost:8016
+
+Running "connect:http2" (connect) task
+Started connect web server on https://localhost:8017
+
+Running "nodeunit:tests" (nodeunit) task
+Testing connect_test.js...................OK
+>> 48 assertions passed (228ms)
+
+Done.
+************* run test done *************
+grunt-contrib-connect is testing ./Variants/serve-index/variant3/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 583ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 462ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Running "jshint:all" (jshint) task
+>> 3 files lint free.
+
+Running "connect:basic" (connect) task
+Started connect web server on http://localhost:7999
+
+Running "connect:custom_base" (connect) task
+Started connect web server on http://localhost:8000
+
+Running "connect:custom_port" (connect) task
+Started connect web server on http://localhost:8001
+
+Running "connect:self_port_q" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:self_port_0" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:custom_https" (connect) task
+Started connect web server on https://localhost:8002
+
+Running "connect:custom_https_certs" (connect) task
+Started connect web server on https://localhost:8003
+
+Running "connect:custom_base_with_options" (connect) task
+Started connect web server on http://localhost:8014
+
+Running "connect:multiple_base" (connect) task
+Started connect web server on http://localhost:8004
+
+Running "connect:multiple_base_with_options" (connect) task
+Started connect web server on http://localhost:8015
+
+Running "connect:multiple_base_directory" (connect) task
+Started connect web server on http://localhost:8005
+
+Running "connect:livereload" (connect) task
+Started connect web server on http://localhost:8006
+
+Running "connect:livereload_port" (connect) task
+Started connect web server on http://localhost:8018
+
+Running "connect:livereload_general" (connect) task
+Started connect web server on http://localhost:8019
+
+Running "connect:custom_middleware" (connect) task
+Started connect web server on http://localhost:8007
+
+Running "connect:null_middleware" (connect) task
+Started connect web server on http://localhost:8008
+
+Running "connect:empty_middleware" (connect) task
+Started connect web server on http://localhost:8009
+
+Running "connect:custom_middleware_patch_default_middleware" (connect) task
+Started connect web server on http://localhost:8010
+
+Running "connect:useAvailablePort" (connect) task
+Started connect web server on http://localhost:8011
+
+Running "connect:allHostname" (connect) task
+Started connect web server on http://localhost:8012
+
+Running "connect:onCreateServer" (connect) task
+Started connect web server on http://localhost:8013
+
+Running "connect:routedMiddleware" (connect) task
+Started connect web server on http://localhost:8016
+
+Running "connect:http2" (connect) task
+Started connect web server on https://localhost:8017
+
+Running "nodeunit:tests" (nodeunit) task
+Testing connect_test.js...................OK
+>> 48 assertions passed (270ms)
+
+Done.
+************* run test done *************
+grunt-contrib-connect is testing ./Variants/serve-index/variant2/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 537ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 454ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Running "jshint:all" (jshint) task
+>> 3 files lint free.
+
+Running "connect:basic" (connect) task
+Started connect web server on http://localhost:7999
+
+Running "connect:custom_base" (connect) task
+Started connect web server on http://localhost:8000
+
+Running "connect:custom_port" (connect) task
+Started connect web server on http://localhost:8001
+
+Running "connect:self_port_q" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:self_port_0" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:custom_https" (connect) task
+Started connect web server on https://localhost:8002
+
+Running "connect:custom_https_certs" (connect) task
+Started connect web server on https://localhost:8003
+
+Running "connect:custom_base_with_options" (connect) task
+Started connect web server on http://localhost:8014
+
+Running "connect:multiple_base" (connect) task
+Started connect web server on http://localhost:8004
+
+Running "connect:multiple_base_with_options" (connect) task
+Started connect web server on http://localhost:8015
+
+Running "connect:multiple_base_directory" (connect) task
+Started connect web server on http://localhost:8005
+
+Running "connect:livereload" (connect) task
+Started connect web server on http://localhost:8006
+
+Running "connect:livereload_port" (connect) task
+Started connect web server on http://localhost:8018
+
+Running "connect:livereload_general" (connect) task
+Started connect web server on http://localhost:8019
+
+Running "connect:custom_middleware" (connect) task
+Started connect web server on http://localhost:8007
+
+Running "connect:null_middleware" (connect) task
+Started connect web server on http://localhost:8008
+
+Running "connect:empty_middleware" (connect) task
+Started connect web server on http://localhost:8009
+
+Running "connect:custom_middleware_patch_default_middleware" (connect) task
+Started connect web server on http://localhost:8010
+
+Running "connect:useAvailablePort" (connect) task
+Started connect web server on http://localhost:8011
+
+Running "connect:allHostname" (connect) task
+Started connect web server on http://localhost:8012
+
+Running "connect:onCreateServer" (connect) task
+Started connect web server on http://localhost:8013
+
+Running "connect:routedMiddleware" (connect) task
+Started connect web server on http://localhost:8016
+
+Running "connect:http2" (connect) task
+Started connect web server on https://localhost:8017
+
+Running "nodeunit:tests" (nodeunit) task
+Testing connect_test.js...................OK
+>> 48 assertions passed (265ms)
+
+Done.
+************* run test done *************
+grunt-contrib-connect is testing ./Variants/serve-index/variant1/serve-index
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 503ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 472ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Running "jshint:all" (jshint) task
+>> 3 files lint free.
+
+Running "connect:basic" (connect) task
+Started connect web server on http://localhost:7999
+
+Running "connect:custom_base" (connect) task
+Started connect web server on http://localhost:8000
+
+Running "connect:custom_port" (connect) task
+Started connect web server on http://localhost:8001
+
+Running "connect:self_port_q" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:self_port_0" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:custom_https" (connect) task
+Started connect web server on https://localhost:8002
+
+Running "connect:custom_https_certs" (connect) task
+Started connect web server on https://localhost:8003
+
+Running "connect:custom_base_with_options" (connect) task
+Started connect web server on http://localhost:8014
+
+Running "connect:multiple_base" (connect) task
+Started connect web server on http://localhost:8004
+
+Running "connect:multiple_base_with_options" (connect) task
+Started connect web server on http://localhost:8015
+
+Running "connect:multiple_base_directory" (connect) task
+Started connect web server on http://localhost:8005
+
+Running "connect:livereload" (connect) task
+Started connect web server on http://localhost:8006
+
+Running "connect:livereload_port" (connect) task
+Started connect web server on http://localhost:8018
+
+Running "connect:livereload_general" (connect) task
+Started connect web server on http://localhost:8019
+
+Running "connect:custom_middleware" (connect) task
+Started connect web server on http://localhost:8007
+
+Running "connect:null_middleware" (connect) task
+Started connect web server on http://localhost:8008
+
+Running "connect:empty_middleware" (connect) task
+Started connect web server on http://localhost:8009
+
+Running "connect:custom_middleware_patch_default_middleware" (connect) task
+Started connect web server on http://localhost:8010
+
+Running "connect:useAvailablePort" (connect) task
+Started connect web server on http://localhost:8011
+
+Running "connect:allHostname" (connect) task
+Started connect web server on http://localhost:8012
+
+Running "connect:onCreateServer" (connect) task
+Started connect web server on http://localhost:8013
+
+Running "connect:routedMiddleware" (connect) task
+Started connect web server on http://localhost:8016
+
+Running "connect:http2" (connect) task
+Started connect web server on https://localhost:8017
+
+Running "nodeunit:tests" (nodeunit) task
+Testing connect_test.js...................OK
+>> 48 assertions passed (231ms)
+
+Done.
+************* run test done *************
+variantsDepsNum: 7
+/data/js-variants/multee
+7
+grunt-contrib-connect is testing ./VariantsDeps/serve-index/variant7/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 512ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 474ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Running "jshint:all" (jshint) task
+>> 3 files lint free.
+
+Running "connect:basic" (connect) task
+Started connect web server on http://localhost:7999
+
+Running "connect:custom_base" (connect) task
+Started connect web server on http://localhost:8000
+
+Running "connect:custom_port" (connect) task
+Started connect web server on http://localhost:8001
+
+Running "connect:self_port_q" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:self_port_0" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:custom_https" (connect) task
+Started connect web server on https://localhost:8002
+
+Running "connect:custom_https_certs" (connect) task
+Started connect web server on https://localhost:8003
+
+Running "connect:custom_base_with_options" (connect) task
+Started connect web server on http://localhost:8014
+
+Running "connect:multiple_base" (connect) task
+Started connect web server on http://localhost:8004
+
+Running "connect:multiple_base_with_options" (connect) task
+Started connect web server on http://localhost:8015
+
+Running "connect:multiple_base_directory" (connect) task
+Started connect web server on http://localhost:8005
+
+Running "connect:livereload" (connect) task
+Started connect web server on http://localhost:8006
+
+Running "connect:livereload_port" (connect) task
+Started connect web server on http://localhost:8018
+
+Running "connect:livereload_general" (connect) task
+Started connect web server on http://localhost:8019
+
+Running "connect:custom_middleware" (connect) task
+Started connect web server on http://localhost:8007
+
+Running "connect:null_middleware" (connect) task
+Started connect web server on http://localhost:8008
+
+Running "connect:empty_middleware" (connect) task
+Started connect web server on http://localhost:8009
+
+Running "connect:custom_middleware_patch_default_middleware" (connect) task
+Started connect web server on http://localhost:8010
+
+Running "connect:useAvailablePort" (connect) task
+Started connect web server on http://localhost:8011
+
+Running "connect:allHostname" (connect) task
+Started connect web server on http://localhost:8012
+
+Running "connect:onCreateServer" (connect) task
+Started connect web server on http://localhost:8013
+
+Running "connect:routedMiddleware" (connect) task
+Started connect web server on http://localhost:8016
+
+Running "connect:http2" (connect) task
+Started connect web server on https://localhost:8017
+
+Running "nodeunit:tests" (nodeunit) task
+Testing connect_test.js...................OK
+>> 48 assertions passed (253ms)
+
+Done.
+************* run test done *************
+grunt-contrib-connect is testing ./VariantsDeps/serve-index/variant6/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 505ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 454ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Loading "connect.js" tasks...ERROR
+>> TypeError: require(...) is not a function
+Warning: Task "connect" not found. Use --force to continue.
+Error: Task "connect" not found.
+    at Task.run (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:172:28)
+    at Object.thisTask.fn (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/grunt/task.js:70:16)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:294:30)
+    at Task.runTaskFn (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:244:24)
+    at Task.<anonymous> (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:293:12)
+    at Task.start (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:302:5)
+    at Object.grunt.tasks (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/grunt.js:173:8)
+    at Liftoff.<anonymous> (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/node_modules/grunt-cli/bin/grunt:68:15)
+    at Liftoff.execute (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/liftup/index.js:202:12)
+    at module.exports (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/flagged-respawn/index.js:51:3)
+
+Aborted due to warnings.
+************* run test done *************
+grunt-contrib-connect is testing ./VariantsDeps/serve-index/variant5/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 499ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 501ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Loading "connect.js" tasks...ERROR
+>> TypeError: inherits is not a function
+Warning: Task "connect" not found. Use --force to continue.
+Error: Task "connect" not found.
+    at Task.run (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:172:28)
+    at Object.thisTask.fn (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/grunt/task.js:70:16)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:294:30)
+    at Task.runTaskFn (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:244:24)
+    at Task.<anonymous> (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:293:12)
+    at Task.start (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/util/task.js:302:5)
+    at Object.grunt.tasks (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/lib/grunt.js:173:8)
+    at Liftoff.<anonymous> (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/grunt/node_modules/grunt-cli/bin/grunt:68:15)
+    at Liftoff.execute (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/liftup/index.js:202:12)
+    at module.exports (/data/js-variants/multee/Clients/serve-index/grunt-contrib-connect/node_modules/flagged-respawn/index.js:51:3)
+
+Aborted due to warnings.
+************* run test done *************
+grunt-contrib-connect is testing ./VariantsDeps/serve-index/variant4/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 511ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 498ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Running "jshint:all" (jshint) task
+>> 3 files lint free.
+
+Running "connect:basic" (connect) task
+Started connect web server on http://localhost:7999
+
+Running "connect:custom_base" (connect) task
+Started connect web server on http://localhost:8000
+
+Running "connect:custom_port" (connect) task
+Started connect web server on http://localhost:8001
+
+Running "connect:self_port_q" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:self_port_0" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:custom_https" (connect) task
+Started connect web server on https://localhost:8002
+
+Running "connect:custom_https_certs" (connect) task
+Started connect web server on https://localhost:8003
+
+Running "connect:custom_base_with_options" (connect) task
+Started connect web server on http://localhost:8014
+
+Running "connect:multiple_base" (connect) task
+Started connect web server on http://localhost:8004
+
+Running "connect:multiple_base_with_options" (connect) task
+Started connect web server on http://localhost:8015
+
+Running "connect:multiple_base_directory" (connect) task
+Started connect web server on http://localhost:8005
+
+Running "connect:livereload" (connect) task
+Started connect web server on http://localhost:8006
+
+Running "connect:livereload_port" (connect) task
+Started connect web server on http://localhost:8018
+
+Running "connect:livereload_general" (connect) task
+Started connect web server on http://localhost:8019
+
+Running "connect:custom_middleware" (connect) task
+Started connect web server on http://localhost:8007
+
+Running "connect:null_middleware" (connect) task
+Started connect web server on http://localhost:8008
+
+Running "connect:empty_middleware" (connect) task
+Started connect web server on http://localhost:8009
+
+Running "connect:custom_middleware_patch_default_middleware" (connect) task
+Started connect web server on http://localhost:8010
+
+Running "connect:useAvailablePort" (connect) task
+Started connect web server on http://localhost:8011
+
+Running "connect:allHostname" (connect) task
+Started connect web server on http://localhost:8012
+
+Running "connect:onCreateServer" (connect) task
+Started connect web server on http://localhost:8013
+
+Running "connect:routedMiddleware" (connect) task
+Started connect web server on http://localhost:8016
+
+Running "connect:http2" (connect) task
+Started connect web server on https://localhost:8017
+
+Running "nodeunit:tests" (nodeunit) task
+Testing connect_test.js...................OK
+>> 48 assertions passed (213ms)
+
+Done.
+************* run test done *************
+grunt-contrib-connect is testing ./VariantsDeps/serve-index/variant3/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 533ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 454ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Running "jshint:all" (jshint) task
+>> 3 files lint free.
+
+Running "connect:basic" (connect) task
+Started connect web server on http://localhost:7999
+
+Running "connect:custom_base" (connect) task
+Started connect web server on http://localhost:8000
+
+Running "connect:custom_port" (connect) task
+Started connect web server on http://localhost:8001
+
+Running "connect:self_port_q" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:self_port_0" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:custom_https" (connect) task
+Started connect web server on https://localhost:8002
+
+Running "connect:custom_https_certs" (connect) task
+Started connect web server on https://localhost:8003
+
+Running "connect:custom_base_with_options" (connect) task
+Started connect web server on http://localhost:8014
+
+Running "connect:multiple_base" (connect) task
+Started connect web server on http://localhost:8004
+
+Running "connect:multiple_base_with_options" (connect) task
+Started connect web server on http://localhost:8015
+
+Running "connect:multiple_base_directory" (connect) task
+Started connect web server on http://localhost:8005
+
+Running "connect:livereload" (connect) task
+Started connect web server on http://localhost:8006
+
+Running "connect:livereload_port" (connect) task
+Started connect web server on http://localhost:8018
+
+Running "connect:livereload_general" (connect) task
+Started connect web server on http://localhost:8019
+
+Running "connect:custom_middleware" (connect) task
+Started connect web server on http://localhost:8007
+
+Running "connect:null_middleware" (connect) task
+Started connect web server on http://localhost:8008
+
+Running "connect:empty_middleware" (connect) task
+Started connect web server on http://localhost:8009
+
+Running "connect:custom_middleware_patch_default_middleware" (connect) task
+Started connect web server on http://localhost:8010
+
+Running "connect:useAvailablePort" (connect) task
+Started connect web server on http://localhost:8011
+
+Running "connect:allHostname" (connect) task
+Started connect web server on http://localhost:8012
+
+Running "connect:onCreateServer" (connect) task
+Started connect web server on http://localhost:8013
+
+Running "connect:routedMiddleware" (connect) task
+Started connect web server on http://localhost:8016
+
+Running "connect:http2" (connect) task
+Started connect web server on https://localhost:8017
+
+Running "nodeunit:tests" (nodeunit) task
+Testing connect_test.js...................OK
+>> 48 assertions passed (229ms)
+
+Done.
+************* run test done *************
+grunt-contrib-connect is testing ./VariantsDeps/serve-index/variant2/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 605ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 457ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Running "jshint:all" (jshint) task
+>> 3 files lint free.
+
+Running "connect:basic" (connect) task
+Started connect web server on http://localhost:7999
+
+Running "connect:custom_base" (connect) task
+Started connect web server on http://localhost:8000
+
+Running "connect:custom_port" (connect) task
+Started connect web server on http://localhost:8001
+
+Running "connect:self_port_q" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:self_port_0" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:custom_https" (connect) task
+Started connect web server on https://localhost:8002
+
+Running "connect:custom_https_certs" (connect) task
+Started connect web server on https://localhost:8003
+
+Running "connect:custom_base_with_options" (connect) task
+Started connect web server on http://localhost:8014
+
+Running "connect:multiple_base" (connect) task
+Started connect web server on http://localhost:8004
+
+Running "connect:multiple_base_with_options" (connect) task
+Started connect web server on http://localhost:8015
+
+Running "connect:multiple_base_directory" (connect) task
+Started connect web server on http://localhost:8005
+
+Running "connect:livereload" (connect) task
+Started connect web server on http://localhost:8006
+
+Running "connect:livereload_port" (connect) task
+Started connect web server on http://localhost:8018
+
+Running "connect:livereload_general" (connect) task
+Started connect web server on http://localhost:8019
+
+Running "connect:custom_middleware" (connect) task
+Started connect web server on http://localhost:8007
+
+Running "connect:null_middleware" (connect) task
+Started connect web server on http://localhost:8008
+
+Running "connect:empty_middleware" (connect) task
+Started connect web server on http://localhost:8009
+
+Running "connect:custom_middleware_patch_default_middleware" (connect) task
+Started connect web server on http://localhost:8010
+
+Running "connect:useAvailablePort" (connect) task
+Started connect web server on http://localhost:8011
+
+Running "connect:allHostname" (connect) task
+Started connect web server on http://localhost:8012
+
+Running "connect:onCreateServer" (connect) task
+Started connect web server on http://localhost:8013
+
+Running "connect:routedMiddleware" (connect) task
+Started connect web server on http://localhost:8016
+
+Running "connect:http2" (connect) task
+Started connect web server on https://localhost:8017
+
+Running "nodeunit:tests" (nodeunit) task
+Testing connect_test.js...................OK
+>> 48 assertions passed (304ms)
+
+Done.
+************* run test done *************
+grunt-contrib-connect is testing ./VariantsDeps/serve-index/variant1/serve-index
+************* npm unlink module *************
+
+removed 1 package, and audited 591 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 545ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 470ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 593 packages in 2s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (1 moderate, 6 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> grunt-contrib-connect@3.0.0 test
+> grunt test
+
+Running "jshint:all" (jshint) task
+>> 3 files lint free.
+
+Running "connect:basic" (connect) task
+Started connect web server on http://localhost:7999
+
+Running "connect:custom_base" (connect) task
+Started connect web server on http://localhost:8000
+
+Running "connect:custom_port" (connect) task
+Started connect web server on http://localhost:8001
+
+Running "connect:self_port_q" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:self_port_0" (connect) task
+Started connect web server on http://localhost:0
+
+Running "connect:custom_https" (connect) task
+Started connect web server on https://localhost:8002
+
+Running "connect:custom_https_certs" (connect) task
+Started connect web server on https://localhost:8003
+
+Running "connect:custom_base_with_options" (connect) task
+Started connect web server on http://localhost:8014
+
+Running "connect:multiple_base" (connect) task
+Started connect web server on http://localhost:8004
+
+Running "connect:multiple_base_with_options" (connect) task
+Started connect web server on http://localhost:8015
+
+Running "connect:multiple_base_directory" (connect) task
+Started connect web server on http://localhost:8005
+
+Running "connect:livereload" (connect) task
+Started connect web server on http://localhost:8006
+
+Running "connect:livereload_port" (connect) task
+Started connect web server on http://localhost:8018
+
+Running "connect:livereload_general" (connect) task
+Started connect web server on http://localhost:8019
+
+Running "connect:custom_middleware" (connect) task
+Started connect web server on http://localhost:8007
+
+Running "connect:null_middleware" (connect) task
+Started connect web server on http://localhost:8008
+
+Running "connect:empty_middleware" (connect) task
+Started connect web server on http://localhost:8009
+
+Running "connect:custom_middleware_patch_default_middleware" (connect) task
+Started connect web server on http://localhost:8010
+
+Running "connect:useAvailablePort" (connect) task
+Started connect web server on http://localhost:8011
+
+Running "connect:allHostname" (connect) task
+Started connect web server on http://localhost:8012
+
+Running "connect:onCreateServer" (connect) task
+Started connect web server on http://localhost:8013
+
+Running "connect:routedMiddleware" (connect) task
+Started connect web server on http://localhost:8016
+
+Running "connect:http2" (connect) task
+Started connect web server on https://localhost:8017
+
+Running "nodeunit:tests" (nodeunit) task
+Testing connect_test.js...................OK
+>> 48 assertions passed (216ms)
+
+Done.
+************* run test done *************
