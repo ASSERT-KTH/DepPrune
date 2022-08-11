@@ -1,0 +1,1504 @@
+variantsDepsNum: 13
+/data/js-variants/multee
+13
+fkill is testing ./VariantsDeps/execa/variant13/execa
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 699ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 405ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/VariantsDeps/execa/variant13/execa/lib/stream.js:1
+  import {isStream} from 'is-stream';
+          ^^^^^^^^
+  SyntaxError: The requested module 'is-stream' does not provide an export named 'isStream'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./VariantsDeps/execa/variant12/execa
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 749ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 407ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/fkill/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./VariantsDeps/execa/variant11/execa
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 701ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 396ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/VariantsDeps/execa/variant11/execa/lib/error.js:1
+  import {signalsByName} from 'human-signals';
+          ^^^^^^^^^^^^^
+  SyntaxError: The requested module 'human-signals' does not provide an export named 'signalsByName'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./VariantsDeps/execa/variant10/execa
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 699ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 411ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/VariantsDeps/execa/variant10/execa/node_modules/onetime/index.js:1
+  import mimicFunction from 'mimic-fn';
+         ^^^^^^^^^^^^^
+  SyntaxError: The requested module 'mimic-fn' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./VariantsDeps/execa/variant9/execa
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 718ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 396ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/VariantsDeps/execa/variant9/execa/index.js:8
+  import onetime from 'onetime';
+         ^^^^^^^
+  SyntaxError: The requested module 'onetime' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./VariantsDeps/execa/variant8/execa
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 748ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 401ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 2s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/VariantsDeps/execa/variant8/execa/index.js:7
+  import {npmRunPathEnv} from 'npm-run-path';
+          ^^^^^^^^^^^^^
+  SyntaxError: The requested module 'npm-run-path' does not provide an export named 'npmRunPathEnv'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./VariantsDeps/execa/variant7/execa
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 746ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 440ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/VariantsDeps/execa/variant7/execa/index.js:6
+  import stripFinalNewline from 'strip-final-newline';
+         ^^^^^^^^^^^^^^^^^
+  SyntaxError: The requested module 'strip-final-newline' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./VariantsDeps/execa/variant6/execa
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 708ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 445ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/fkill/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./VariantsDeps/execa/variant5/execa
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 740ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 404ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/fkill/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./VariantsDeps/execa/variant4/execa
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 744ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 404ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/VariantsDeps/execa/variant4/execa/node_modules/npm-run-path/index.js:4
+  import pathKey from 'path-key';
+         ^^^^^^^
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./VariantsDeps/execa/variant3/execa
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 737ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 411ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/fkill/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./VariantsDeps/execa/variant2/execa
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 710ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 392ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/fkill/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./VariantsDeps/execa/variant1/execa
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 4s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 752ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 413ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 2s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/fkill/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+/data/js-variants/multee
+11
+fkill is testing ./Variants/execa/variant11/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 703ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 419ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Variants/execa/variant11/execa/lib/stream.js:1
+  import {isStream} from 'is-stream';
+          ^^^^^^^^
+  SyntaxError: The requested module 'is-stream' does not provide an export named 'isStream'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./Variants/execa/variant10/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 691ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 396ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/fkill/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./Variants/execa/variant9/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 737ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 404ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Variants/execa/variant9/execa/lib/error.js:1
+  import {signalsByName} from 'human-signals';
+          ^^^^^^^^^^^^^
+  SyntaxError: The requested module 'human-signals' does not provide an export named 'signalsByName'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./Variants/execa/variant8/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 747ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 400ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Variants/execa/variant8/execa/index.js:8
+  import onetime from 'onetime';
+         ^^^^^^^
+  SyntaxError: The requested module 'onetime' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./Variants/execa/variant7/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 699ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 410ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Variants/execa/variant7/execa/index.js:7
+  import {npmRunPathEnv} from 'npm-run-path';
+          ^^^^^^^^^^^^^
+  SyntaxError: The requested module 'npm-run-path' does not provide an export named 'npmRunPathEnv'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./Variants/execa/variant6/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 698ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 396ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Variants/execa/variant6/execa/index.js:6
+  import stripFinalNewline from 'strip-final-newline';
+         ^^^^^^^^^^^^^^^^^
+  SyntaxError: The requested module 'strip-final-newline' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./Variants/execa/variant5/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 734ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 441ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/fkill/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./Variants/execa/variant4/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 725ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 401ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/fkill/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./Variants/execa/variant3/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 748ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 388ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/fkill/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./Variants/execa/variant2/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 738ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 427ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Variants/execa/variant2/execa/node_modules/npm-run-path/index.js:4
+  import pathKey from 'path-key';
+         ^^^^^^^
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************
+fkill is testing ./Variants/execa/variant1/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 692 packages in 3s
+
+172 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 748ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 404ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 693 packages in 3s
+
+173 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> fkill@8.0.1 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Variants/execa/variant1/execa/node_modules/npm-run-path/index.js:4
+  import pathKey from 'path-key';
+         ^^^^^^^
+  SyntaxError: The requested module 'path-key' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ─
+
+  1 uncaught exception
+************* run test done *************

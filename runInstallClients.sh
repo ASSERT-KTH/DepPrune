@@ -13,16 +13,33 @@ projectName=$1
 # gitUrls=("https://github.com/pouchdb/pouchdb.git" "https://github.com/Level/subleveldown.git" "https://github.com/Level/packager.git" "https://github.com/mhart/dynalite.git" "https://github.com/Level/multileveldown.git")
 
 # execa
-# clientNames=("generator" "lint-staged" "clipboardy" "semantic-release" "environment")
-# gitUrls=("https://github.com/yeoman/generator.git" "https://github.com/okonet/lint-staged.git" "https://github.com/sindresorhus/clipboardy.git" "https://github.com/semantic-release/semantic-release.git" "https://github.com/yeoman/environment.git")
+# clientNames=("username" "lint-staged" "fkill" "semantic-release" "pretty-quick")
+# gitUrls=("https://github.com/sindresorhus/username.git" "https://github.com/okonet/lint-staged.git" "https://github.com/sindresorhus/fkill.git" "https://github.com/semantic-release/semantic-release.git" "https://github.com/azz/pretty-quick.git")
 
 # serve-index
-clientNames=("live-server" "server" "fluid-express" "servez-lib")
-gitUrls=("https://github.com/tapio/live-server.git" "https://github.com/franciscop/server.git" "https://github.com/fluid-project/fluid-express.git" "https://github.com/greggman/servez-lib.git")
+# clientNames=("grunt-contrib-connect" "live-server" "server" "fluid-express" "servez-lib")
+# gitUrls=("https://github.com/gruntjs/grunt-contrib-connect.git" "https://github.com/tapio/live-server.git" "https://github.com/franciscop/server.git" "https://github.com/fluid-project/fluid-express.git" "https://github.com/greggman/servez-lib.git")
+
+# fastify
+clientNames=("fastify-micro" "fastify-helpers" "tydb" "fastify-vhost" "pubsub-http-handler")
+gitUrls=("https://github.com/47ng/fastify-micro.git" "https://github.com/samurayii/fastify-helpers.git" "https://github.com/alexcorvi/tydb.git" "https://github.com/patrickpissurno/fastify-vhost.git" "https://github.com/cobraz/pubsub-http-handler.git")
+
+# yeoman-generator
+# clientNames=("" "" "" "" "")
+# gitUrls=("" "" "" "" "")
+
+# memdown
+# clientNames=("pouchdb" "mem" "dynalite" "level-test" "pico-framework")
+# gitUrls=("https://github.com/pouchdb/pouchdb.git" "https://github.com/Level/mem.git" "https://github.com/mhart/dynalite.git" "https://github.com/Level/level-test.git" "https://github.com/Picolab/pico-framework.git")
+
+# express-session
+# clientNames=("routing-controllers" "server" "Lien" "kraken-js" "kettle")
+# gitUrls=("https://github.com/typestack/routing-controllers.git" "https://github.com/franciscop/server.git" "https://github.com/LienJS/Lien.git" "https://github.com/krakenjs/kraken-js.git" "https://github.com/fluid-project/kettle.git")
+
 
 cd Clients/$projectName
 
-for (( i=3; i>=0; i--))
+for (( i=4; i>=0; i--))
 do
     git clone ${gitUrls[$i]}
     cd ${clientNames[$i]}
