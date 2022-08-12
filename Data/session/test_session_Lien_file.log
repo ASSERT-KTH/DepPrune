@@ -1,0 +1,328 @@
+/data/js-variants/multee
+3
+Lien is testing ./Variants/session/variant3/session
+/data/js-variants/multee
+************* npm unlink module *************
+
+up to date, audited 236 packages in 3s
+
+51 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (1 moderate, 3 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+up to date, audited 1 package in 122ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+changed 1 package, and audited 3 packages in 1s
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+
+> lien@3.3.1 test
+> node test/index.js
+
+  ➡️ lien
+     ⚡ should start the server
+     ⚡ add a static url to test lien fields
+     ⚡ add a static url which renders templates
+     ⚡ should static route
+     ⚡ should serve file
+     ⚡ should check before adding the hook
+     ⚡ should add before hook
+     ⚡ should check after the before hook
+     ⚡ should add before hook
+     ⚡ should check after the before hook
+     ⚡ should add after hook
+     ⚡ should check after hook
+     ⚡ should add different pages
+     ⚡ possible-404 page (foo/article/a)
+     ⚡ possible-404 page (foo/article/b)
+     ⚡ possible-404 page (foo/article/c)
+     ⚡ should add different pages, overriding the public dir
+     ⚡ check foo index before adding the custom route
+     ⚡ load static HTML file
+     ⚡ check foo/bar 
+     ⚡ should override public dir
+     ⚡ check foo index after adding the custom route
+     ⚡ check foo/:dyn 
+     ⚡ should add dynamic page
+     ⚡ check /:dyn 
+     ⚡ load static HTML file
+     ⚡ add a static url which renders templates
+     ⚡ should close the server
+************* run test done *************
+Lien is testing ./Variants/session/variant2/session
+/data/js-variants/multee
+************* npm unlink module *************
+
+up to date, audited 236 packages in 934ms
+
+51 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (1 moderate, 3 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+up to date, audited 1 package in 122ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+changed 1 package, and audited 3 packages in 2s
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+
+> lien@3.3.1 test
+> node test/index.js
+
+  ➡️ lien
+     ⚡ should start the server
+     ⚡ add a static url to test lien fields
+     ⚡ add a static url which renders templates
+     ⚡ should static route
+     ⚡ should serve file
+     ⚡ should check before adding the hook
+     ⚡ should add before hook
+     ⚡ should check after the before hook
+     ⚡ should add before hook
+     ⚡ should check after the before hook
+     ⚡ should add after hook
+     ⚡ should check after hook
+     ⚡ should add different pages
+     ⚡ possible-404 page (foo/article/a)
+     ⚡ possible-404 page (foo/article/b)
+     ⚡ possible-404 page (foo/article/c)
+     ⚡ should add different pages, overriding the public dir
+     ⚡ check foo index before adding the custom route
+     ⚡ load static HTML file
+     ⚡ check foo/bar 
+     ⚡ should override public dir
+     ⚡ check foo index after adding the custom route
+     ⚡ check foo/:dyn 
+     ⚡ should add dynamic page
+     ⚡ check /:dyn 
+     ⚡ load static HTML file
+     ⚡ add a static url which renders templates
+     ⚡ should close the server
+************* run test done *************
+Lien is testing ./Variants/session/variant1/session
+/data/js-variants/multee
+************* npm unlink module *************
+
+up to date, audited 236 packages in 2s
+
+51 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (1 moderate, 3 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+up to date, audited 1 package in 466ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+changed 1 package, and audited 3 packages in 2s
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+
+> lien@3.3.1 test
+> node test/index.js
+
+  ➡️ lien
+     ⚡ should start the server
+     ⚡ add a static url to test lien fields
+     ⚡ add a static url which renders templates
+     ⚡ should static route
+     ⚡ should serve file
+     ⚡ should check before adding the hook
+     ⚡ should add before hook
+     ⚡ should check after the before hook
+     ⚡ should add before hook
+     ⚡ should check after the before hook
+     ⚡ should add after hook
+     ⚡ should check after hook
+     ⚡ should add different pages
+     ⚡ possible-404 page (foo/article/a)
+     ⚡ possible-404 page (foo/article/b)
+     ⚡ possible-404 page (foo/article/c)
+     ⚡ should add different pages, overriding the public dir
+     ⚡ check foo index before adding the custom route
+     ⚡ load static HTML file
+     ⚡ check foo/bar 
+     ⚡ should override public dir
+     ⚡ check foo index after adding the custom route
+     ⚡ check foo/:dyn 
+     ⚡ should add dynamic page
+     ⚡ check /:dyn 
+     ⚡ load static HTML file
+     ⚡ add a static url which renders templates
+     ⚡ should close the server
+************* run test done *************
+variantsDepsNum: 2
+/data/js-variants/multee
+2
+Lien is testing ./VariantsDeps/session/variant2/session
+************* npm unlink module *************
+
+up to date, audited 236 packages in 2s
+
+51 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (1 moderate, 3 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+up to date, audited 1 package in 608ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+changed 1 package, and audited 3 packages in 2s
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+
+> lien@3.3.1 test
+> node test/index.js
+
+  ➡️ lien
+     ⚡ should start the server
+     ⚡ add a static url to test lien fields
+     ⚡ add a static url which renders templates
+     ⚡ should static route
+     ⚡ should serve file
+     ⚡ should check before adding the hook
+     ⚡ should add before hook
+     ⚡ should check after the before hook
+     ⚡ should add before hook
+     ⚡ should check after the before hook
+     ⚡ should add after hook
+     ⚡ should check after hook
+     ⚡ should add different pages
+     ⚡ possible-404 page (foo/article/a)
+     ⚡ possible-404 page (foo/article/b)
+     ⚡ possible-404 page (foo/article/c)
+     ⚡ should add different pages, overriding the public dir
+     ⚡ check foo index before adding the custom route
+     ⚡ load static HTML file
+     ⚡ check foo/bar 
+     ⚡ should override public dir
+     ⚡ check foo index after adding the custom route
+     ⚡ check foo/:dyn 
+     ⚡ should add dynamic page
+     ⚡ check /:dyn 
+     ⚡ load static HTML file
+     ⚡ add a static url which renders templates
+     ⚡ should close the server
+************* run test done *************
+Lien is testing ./VariantsDeps/session/variant1/session
+************* npm unlink module *************
+
+up to date, audited 236 packages in 2s
+
+51 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (1 moderate, 3 high, 1 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+up to date, audited 1 package in 498ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+changed 1 package, and audited 3 packages in 2s
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+
+> lien@3.3.1 test
+> node test/index.js
+
+  ➡️ lien
+     ⚡ should start the server
+     ⚡ add a static url to test lien fields
+     ⚡ add a static url which renders templates
+     ⚡ should static route
+     ⚡ should serve file
+     ⚡ should check before adding the hook
+     ⚡ should add before hook
+     ⚡ should check after the before hook
+     ⚡ should add before hook
+     ⚡ should check after the before hook
+     ⚡ should add after hook
+     ⚡ should check after hook
+     ⚡ should add different pages
+     ⚡ possible-404 page (foo/article/a)
+     ⚡ possible-404 page (foo/article/b)
+     ⚡ possible-404 page (foo/article/c)
+     ⚡ should add different pages, overriding the public dir
+     ⚡ check foo index before adding the custom route
+     ⚡ load static HTML file
+     ⚡ check foo/bar 
+     ⚡ should override public dir
+     ⚡ check foo index after adding the custom route
+     ⚡ check foo/:dyn 
+     ⚡ should add dynamic page
+     ⚡ check /:dyn 
+     ⚡ load static HTML file
+     ⚡ add a static url which renders templates
+     ⚡ should close the server
+************* run test done *************
