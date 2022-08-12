@@ -21,20 +21,20 @@ projectName=$1
 # gitUrls=("https://github.com/gruntjs/grunt-contrib-connect.git" "https://github.com/tapio/live-server.git" "https://github.com/franciscop/server.git" "https://github.com/fluid-project/fluid-express.git" "https://github.com/greggman/servez-lib.git")
 
 # fastify
-clientNames=("fastify-micro" "fastify-helpers" "tydb" "fastify-vhost" "pubsub-http-handler")
-gitUrls=("https://github.com/47ng/fastify-micro.git" "https://github.com/samurayii/fastify-helpers.git" "https://github.com/alexcorvi/tydb.git" "https://github.com/patrickpissurno/fastify-vhost.git" "https://github.com/cobraz/pubsub-http-handler.git")
+# clientNames=("fastify-micro" "fastify-helpers" "tydb" "fastify-vhost" "pubsub-http-handler")
+# gitUrls=("https://github.com/47ng/fastify-micro.git" "https://github.com/samurayii/fastify-helpers.git" "https://github.com/alexcorvi/tydb.git" "https://github.com/patrickpissurno/fastify-vhost.git" "https://github.com/cobraz/pubsub-http-handler.git")
 
 # yeoman-generator
-# clientNames=("" "" "" "" "")
-# gitUrls=("" "" "" "" "")
+# clientNames=("sfdx-plugin-generate" "generator-nuxeo" "generator-tabris-js" "generator-cxcloud" "generator-py")
+# gitUrls=("https://github.com/forcedotcom/sfdx-plugin-generate.git" "https://github.com/nuxeo/generator-nuxeo.git" "https://github.com/eclipsesource/generator-tabris-js.git" "https://github.com/cxcloud/generator-cxcloud.git" "https://github.com/kaelzhang/generator-py.git")
 
 # memdown
 # clientNames=("pouchdb" "mem" "dynalite" "level-test" "pico-framework")
 # gitUrls=("https://github.com/pouchdb/pouchdb.git" "https://github.com/Level/mem.git" "https://github.com/mhart/dynalite.git" "https://github.com/Level/level-test.git" "https://github.com/Picolab/pico-framework.git")
 
 # express-session
-# clientNames=("routing-controllers" "server" "Lien" "kraken-js" "kettle")
-# gitUrls=("https://github.com/typestack/routing-controllers.git" "https://github.com/franciscop/server.git" "https://github.com/LienJS/Lien.git" "https://github.com/krakenjs/kraken-js.git" "https://github.com/fluid-project/kettle.git")
+clientNames=("routing-controllers" "server" "Lien" "kraken-js" "kettle")
+gitUrls=("https://github.com/typestack/routing-controllers.git" "https://github.com/franciscop/server.git" "https://github.com/LienJS/Lien.git" "https://github.com/krakenjs/kraken-js.git" "https://github.com/fluid-project/kettle.git")
 
 
 cd Clients/$projectName

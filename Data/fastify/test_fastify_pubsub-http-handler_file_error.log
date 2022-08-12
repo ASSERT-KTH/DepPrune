@@ -1,0 +1,412 @@
+14
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+FAIL src/__tests__/server.test.ts
+  ● server › should forward requests
+
+    TypeError: optsValidator is not a function
+
+      at doInject (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:144:23)
+
+PASS src/__tests__/index.test.ts
+FAIL src/__tests__/fastify-plugin.test.ts
+  ● fastify-plugin › should forward requests
+
+    TypeError: optsValidator is not a function
+
+      at doInject (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:144:23)
+
+  ● fastify-plugin › should forward statusCode
+
+    TypeError: optsValidator is not a function
+
+      at doInject (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:144:23)
+
+  ● fastify-plugin › should return onError on throw
+
+    TypeError: optsValidator is not a function
+
+      at doInject (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:144:23)
+
+  ● fastify-plugin › should not return onError on throw
+
+    TypeError: optsValidator is not a function
+
+      at doInject (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:144:23)
+
+  ● fastify-plugin › should not throw if request is missing attributes
+
+    TypeError: optsValidator is not a function
+
+      at doInject (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:144:23)
+
+Jest: "global" coverage threshold for branches (80%) not met: 68.42%
+Test Suites: 2 failed, 4 passed, 6 total
+Tests:       6 failed, 8 passed, 14 total
+Snapshots:   1 passed, 1 total
+Time:        4.299 s
+Ran all test suites matching /src/i.
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.325 s, estimated 5 s
+Ran all test suites matching /src/i.
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.257 s, estimated 5 s
+Ran all test suites matching /src/i.
+FAIL src/__tests__/server.test.ts
+  ● Test suite failed to run
+
+    the FULL_PATH_REGEXP is not safe, update this module
+
+      1 | 'use strict'
+      2 |
+    > 3 | const FindMyWay = require('find-my-way')
+        |                   ^
+      4 | const Context = require('./context')
+      5 | const handleRequest = require('./handleRequest')
+      6 | const { hookRunner, hookIterator, lifecycleHooks } = require('./hooks')
+
+      at Object.<anonymous> (../../../VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+      at Object.<anonymous> (../../../VariantsDeps/fastify/variant11/fastify/lib/route.js:3:19)
+
+FAIL src/__tests__/fastify-plugin.test.ts
+  ● Test suite failed to run
+
+    the FULL_PATH_REGEXP is not safe, update this module
+
+      1 | 'use strict'
+      2 |
+    > 3 | const FindMyWay = require('find-my-way')
+        |                   ^
+      4 | const Context = require('./context')
+      5 | const handleRequest = require('./handleRequest')
+      6 | const { hookRunner, hookIterator, lifecycleHooks } = require('./hooks')
+
+      at Object.<anonymous> (../../../VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+      at Object.<anonymous> (../../../VariantsDeps/fastify/variant11/fastify/lib/route.js:3:19)
+
+FAIL src/__tests__/index.test.ts
+  ● Test suite failed to run
+
+    the FULL_PATH_REGEXP is not safe, update this module
+
+      1 | 'use strict'
+      2 |
+    > 3 | const FindMyWay = require('find-my-way')
+        |                   ^
+      4 | const Context = require('./context')
+      5 | const handleRequest = require('./handleRequest')
+      6 | const { hookRunner, hookIterator, lifecycleHooks } = require('./hooks')
+
+      at Object.<anonymous> (../../../VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+      at Object.<anonymous> (../../../VariantsDeps/fastify/variant11/fastify/lib/route.js:3:19)
+
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+Jest: Uncovered count for statements (16) exceeds global threshold (10)
+Jest: "global" coverage threshold for branches (80%) not met: 63.15%
+Jest: "global" coverage threshold for lines (80%) not met: 70.37%
+Jest: "global" coverage threshold for functions (80%) not met: 71.42%
+
+Test Suites: 3 failed, 3 passed, 6 total
+Tests:       7 passed, 7 total
+Snapshots:   0 total
+Time:        4.142 s, estimated 5 s
+Ran all test suites matching /src/i.
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/fastify-plugin.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.425 s
+Ran all test suites matching /src/i.
+PASS src/__tests__/common.test.ts
+FAIL src/__tests__/server.test.ts
+  ● server › should forward requests
+
+    TypeError: Cannot read properties of undefined (reading 'forEach')
+
+       98 |       return
+       99 |     }
+    > 100 |     this.validatorCompiler = this.getValidatorBuilder()(this.schemaBucket.getSchemas(), serverOption.ajv)
+          |                                                        ^
+      101 |   }
+      102 |
+      103 |   /**
+
+      at Ajv._addVocabularies (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:14:24)
+      at new Ajv (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/core.ts:308:10)
+      at new Ajv (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:11:1)
+      at new ValidatorCompiler (../../../VariantsDeps/fastify/variant9/fastify/node_modules/@fastify/ajv-compiler/index.js:51:18)
+      at buildCompilerFromPool (../../../VariantsDeps/fastify/variant9/fastify/node_modules/@fastify/ajv-compiler/index.js:32:22)
+      at SchemaController.setupValidator (../../../VariantsDeps/fastify/variant9/fastify/lib/schema-controller.js:100:56)
+      at Boot.<anonymous> (../../../VariantsDeps/fastify/variant9/fastify/lib/route.js:314:32)
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:160:12
+
+FAIL src/__tests__/fastify-plugin.test.ts
+  ● fastify-plugin › should forward requests
+
+    TypeError: Cannot read properties of undefined (reading 'forEach')
+
+       98 |       return
+       99 |     }
+    > 100 |     this.validatorCompiler = this.getValidatorBuilder()(this.schemaBucket.getSchemas(), serverOption.ajv)
+          |                                                        ^
+      101 |   }
+      102 |
+      103 |   /**
+
+      at Ajv._addVocabularies (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:14:24)
+      at new Ajv (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/core.ts:308:10)
+      at new Ajv (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:11:1)
+      at new ValidatorCompiler (../../../VariantsDeps/fastify/variant9/fastify/node_modules/@fastify/ajv-compiler/index.js:51:18)
+      at buildCompilerFromPool (../../../VariantsDeps/fastify/variant9/fastify/node_modules/@fastify/ajv-compiler/index.js:32:22)
+      at SchemaController.setupValidator (../../../VariantsDeps/fastify/variant9/fastify/lib/schema-controller.js:100:56)
+      at Boot.<anonymous> (../../../VariantsDeps/fastify/variant9/fastify/lib/route.js:314:32)
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:160:12
+
+  ● fastify-plugin › should forward statusCode
+
+    TypeError: Cannot read properties of undefined (reading 'forEach')
+
+       98 |       return
+       99 |     }
+    > 100 |     this.validatorCompiler = this.getValidatorBuilder()(this.schemaBucket.getSchemas(), serverOption.ajv)
+          |                                                        ^
+      101 |   }
+      102 |
+      103 |   /**
+
+      at Ajv._addVocabularies (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:14:24)
+      at new Ajv (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/core.ts:308:10)
+      at new Ajv (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:11:1)
+      at new ValidatorCompiler (../../../VariantsDeps/fastify/variant9/fastify/node_modules/@fastify/ajv-compiler/index.js:51:18)
+      at buildCompilerFromPool (../../../VariantsDeps/fastify/variant9/fastify/node_modules/@fastify/ajv-compiler/index.js:32:22)
+      at SchemaController.setupValidator (../../../VariantsDeps/fastify/variant9/fastify/lib/schema-controller.js:100:56)
+      at Boot.<anonymous> (../../../VariantsDeps/fastify/variant9/fastify/lib/route.js:314:32)
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:160:12
+
+  ● fastify-plugin › should return onError on throw
+
+    TypeError: Cannot read properties of undefined (reading 'forEach')
+
+       98 |       return
+       99 |     }
+    > 100 |     this.validatorCompiler = this.getValidatorBuilder()(this.schemaBucket.getSchemas(), serverOption.ajv)
+          |                                                        ^
+      101 |   }
+      102 |
+      103 |   /**
+
+      at Ajv._addVocabularies (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:14:24)
+      at new Ajv (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/core.ts:308:10)
+      at new Ajv (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:11:1)
+      at new ValidatorCompiler (../../../VariantsDeps/fastify/variant9/fastify/node_modules/@fastify/ajv-compiler/index.js:51:18)
+      at buildCompilerFromPool (../../../VariantsDeps/fastify/variant9/fastify/node_modules/@fastify/ajv-compiler/index.js:32:22)
+      at SchemaController.setupValidator (../../../VariantsDeps/fastify/variant9/fastify/lib/schema-controller.js:100:56)
+      at Boot.<anonymous> (../../../VariantsDeps/fastify/variant9/fastify/lib/route.js:314:32)
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:160:12
+
+  ● fastify-plugin › should not return onError on throw
+
+    TypeError: Cannot read properties of undefined (reading 'forEach')
+
+       98 |       return
+       99 |     }
+    > 100 |     this.validatorCompiler = this.getValidatorBuilder()(this.schemaBucket.getSchemas(), serverOption.ajv)
+          |                                                        ^
+      101 |   }
+      102 |
+      103 |   /**
+
+      at Ajv._addVocabularies (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:14:24)
+      at new Ajv (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/core.ts:308:10)
+      at new Ajv (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:11:1)
+      at new ValidatorCompiler (../../../VariantsDeps/fastify/variant9/fastify/node_modules/@fastify/ajv-compiler/index.js:51:18)
+      at buildCompilerFromPool (../../../VariantsDeps/fastify/variant9/fastify/node_modules/@fastify/ajv-compiler/index.js:32:22)
+      at SchemaController.setupValidator (../../../VariantsDeps/fastify/variant9/fastify/lib/schema-controller.js:100:56)
+      at Boot.<anonymous> (../../../VariantsDeps/fastify/variant9/fastify/lib/route.js:314:32)
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:160:12
+
+  ● fastify-plugin › should not throw if request is missing attributes
+
+    TypeError: Cannot read properties of undefined (reading 'forEach')
+
+       98 |       return
+       99 |     }
+    > 100 |     this.validatorCompiler = this.getValidatorBuilder()(this.schemaBucket.getSchemas(), serverOption.ajv)
+          |                                                        ^
+      101 |   }
+      102 |
+      103 |   /**
+
+      at Ajv._addVocabularies (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:14:24)
+      at new Ajv (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/core.ts:308:10)
+      at new Ajv (../../../VariantsDeps/fastify/variant9/fastify/node_modules/ajv/lib/ajv.ts:11:1)
+      at new ValidatorCompiler (../../../VariantsDeps/fastify/variant9/fastify/node_modules/@fastify/ajv-compiler/index.js:51:18)
+      at buildCompilerFromPool (../../../VariantsDeps/fastify/variant9/fastify/node_modules/@fastify/ajv-compiler/index.js:32:22)
+      at SchemaController.setupValidator (../../../VariantsDeps/fastify/variant9/fastify/lib/schema-controller.js:100:56)
+      at Boot.<anonymous> (../../../VariantsDeps/fastify/variant9/fastify/lib/route.js:314:32)
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:160:12
+
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/server-utils.test.ts
+Jest: "global" coverage threshold for branches (80%) not met: 68.42%
+
+Test Suites: 2 failed, 4 passed, 6 total
+Tests:       6 failed, 8 passed, 14 total
+Snapshots:   1 passed, 1 total
+Time:        4.16 s, estimated 5 s
+Ran all test suites matching /src/i.
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.283 s
+Ran all test suites matching /src/i.
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.26 s, estimated 5 s
+Ran all test suites matching /src/i.
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.394 s, estimated 5 s
+Ran all test suites matching /src/i.
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.304 s, estimated 5 s
+Ran all test suites matching /src/i.
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.354 s, estimated 5 s
+Ran all test suites matching /src/i.
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.336 s, estimated 5 s
+Ran all test suites matching /src/i.
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.35 s, estimated 5 s
+Ran all test suites matching /src/i.
+FAIL src/__tests__/server.test.ts
+  ● Test suite failed to run
+
+    TypeError: require(...) is not a function
+
+      at Object.<anonymous> (../../../VariantsDeps/fastify/variant1/fastify/node_modules/avvio/plugin.js:6:31)
+      at Object.<anonymous> (../../../VariantsDeps/fastify/variant1/fastify/node_modules/avvio/boot.js:14:16)
+
+FAIL src/__tests__/fastify-plugin.test.ts
+  ● Test suite failed to run
+
+    TypeError: require(...) is not a function
+
+      at Object.<anonymous> (../../../VariantsDeps/fastify/variant1/fastify/node_modules/avvio/plugin.js:6:31)
+      at Object.<anonymous> (../../../VariantsDeps/fastify/variant1/fastify/node_modules/avvio/boot.js:14:16)
+
+FAIL src/__tests__/index.test.ts
+  ● Test suite failed to run
+
+    TypeError: require(...) is not a function
+
+      at Object.<anonymous> (../../../VariantsDeps/fastify/variant1/fastify/node_modules/avvio/plugin.js:6:31)
+      at Object.<anonymous> (../../../VariantsDeps/fastify/variant1/fastify/node_modules/avvio/boot.js:14:16)
+
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+Jest: Uncovered count for statements (16) exceeds global threshold (10)
+Jest: "global" coverage threshold for branches (80%) not met: 63.15%
+Jest: "global" coverage threshold for lines (80%) not met: 70.37%
+Jest: "global" coverage threshold for functions (80%) not met: 71.42%
+
+Test Suites: 3 failed, 3 passed, 6 total
+Tests:       7 passed, 7 total
+Snapshots:   0 total
+Time:        3.63 s, estimated 5 s
+Ran all test suites matching /src/i.

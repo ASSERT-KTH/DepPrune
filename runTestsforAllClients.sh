@@ -1,11 +1,11 @@
-# sh runTestClients.sh memdown pouchdb 2>>Data/test_memdown_pouchdb_func_error.log >> Data/test_memdown_pouchdb_func.log
-# sh runTestClients.sh memdown mem 2>>Data/test_memdown_mem_func_error.log >> Data/test_memdown_mem_func.log
-# sh runTestClients.sh memdown dynalite 2>>Data/test_memdown_dynalite_func_error.log >> Data/test_memdown_dynalite_func.log
-# sh runTestClients.sh memdown level-test 2>>Data/test_memdown_level-test_func_error.log >> Data/test_memdown_level-test_func.log
-# sh runTestClients.sh memdown pico-framework 2>>Data/test_memdown_pico-framework_func_error.log >> Data/test_memdown_pico-framework_func.log
+sh runTestClients.sh session routing-controllers 2>>Data/test_session_routing-controllers_func_error.log >> Data/test_session_routing-controllers_func.log
+sh runTestClients.sh session server 2>>Data/test_session_server_func_error.log >> Data/test_session_server_func.log
+sh runTestClients.sh session Lien 2>>Data/test_session_Lien_func_error.log >> Data/test_session_Lien_func.log
+sh runTestClients.sh session kraken-js 2>>Data/test_session_kraken-js_func_error.log >> Data/test_session_kraken-js_func.log
+sh runTestClients.sh session kettle 2>>Data/test_session_kettle_func_error.log >> Data/test_session_kettle_func.log
 
-sh runTestClients.sh memdown pouchdb 2>>Data/test_memdown_pouchdb_file_error.log >> Data/test_memdown_pouchdb_file.log
-sh runTestClients.sh memdown mem 2>>Data/test_memdown_mem_file_error.log >> Data/test_memdown_mem_file.log
-sh runTestClients.sh memdown dynalite 2>>Data/test_memdown_dynalite_file_error.log >> Data/test_memdown_dynalite_file.log
-sh runTestClients.sh memdown level-test 2>>Data/test_memdown_level-test_file_error.log >> Data/test_memdown_level-test_file.log
-sh runTestClients.sh memdown pico-framework 2>>Data/test_memdown_pico-framework_file_error.log >> Data/test_memdown_pico-framework_file.log
+# sh runTestClients.sh session routing-controllers 2>>Data/test_session_routing-controllers_file_error.log >> Data/test_session_routing-controllers_file.log
+# sh runTestClients.sh session server 2>>Data/test_session_server_file_error.log >> Data/test_session_server_file.log
+# sh runTestClients.sh session Lien 2>>Data/test_session_Lien_file_error.log >> Data/test_session_Lien_file.log
+# sh runTestClients.sh session kraken-js 2>>Data/test_session_kraken-js_file_error.log >> Data/test_session_kraken-js_file.log
+# sh runTestClients.sh session kettle 2>>Data/test_session_kettle_file_error.log >> Data/test_session_kettle_file.log

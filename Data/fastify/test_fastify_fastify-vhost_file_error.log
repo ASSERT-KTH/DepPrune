@@ -1,0 +1,75 @@
+14
+Deprecation notice: "fullHost" was renamed to "host" in version 1.1.x and may me removed in future versions
+(node:884085) [FSTDEP011] FastifyDeprecation: Variadic listen method is deprecated. Please use ".listen(optionsObject)" instead. The variadic signature will be removed in `fastify@5`.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Deprecation notice: "fullHost" was renamed to "host" in version 1.1.x and may me removed in future versions
+(node:884320) [FSTDEP011] FastifyDeprecation: Variadic listen method is deprecated. Please use ".listen(optionsObject)" instead. The variadic signature will be removed in `fastify@5`.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Deprecation notice: "fullHost" was renamed to "host" in version 1.1.x and may me removed in future versions
+(node:884553) [FSTDEP011] FastifyDeprecation: Variadic listen method is deprecated. Please use ".listen(optionsObject)" instead. The variadic signature will be removed in `fastify@5`.
+(Use `node --trace-warnings ...` to show where the warning was created)
+/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43
+  throw new Error('the FULL_PATH_REGEXP is not safe, update this module')
+  ^
+
+Error: the FULL_PATH_REGEXP is not safe, update this module
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/node_modules/find-my-way/index.js:43:9)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/Clients/fastify/fastify-vhost/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/fastify/fastify-vhost/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant11/fastify/lib/route.js:3:19)
+
+Node.js v18.3.0
+Deprecation notice: "fullHost" was renamed to "host" in version 1.1.x and may me removed in future versions
+(node:884908) [FSTDEP011] FastifyDeprecation: Variadic listen method is deprecated. Please use ".listen(optionsObject)" instead. The variadic signature will be removed in `fastify@5`.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Deprecation notice: "fullHost" was renamed to "host" in version 1.1.x and may me removed in future versions
+(node:885141) [FSTDEP011] FastifyDeprecation: Variadic listen method is deprecated. Please use ".listen(optionsObject)" instead. The variadic signature will be removed in `fastify@5`.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Deprecation notice: "fullHost" was renamed to "host" in version 1.1.x and may me removed in future versions
+(node:885375) [FSTDEP011] FastifyDeprecation: Variadic listen method is deprecated. Please use ".listen(optionsObject)" instead. The variadic signature will be removed in `fastify@5`.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Deprecation notice: "fullHost" was renamed to "host" in version 1.1.x and may me removed in future versions
+(node:885606) [FSTDEP011] FastifyDeprecation: Variadic listen method is deprecated. Please use ".listen(optionsObject)" instead. The variadic signature will be removed in `fastify@5`.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Deprecation notice: "fullHost" was renamed to "host" in version 1.1.x and may me removed in future versions
+(node:885842) [FSTDEP011] FastifyDeprecation: Variadic listen method is deprecated. Please use ".listen(optionsObject)" instead. The variadic signature will be removed in `fastify@5`.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Deprecation notice: "fullHost" was renamed to "host" in version 1.1.x and may me removed in future versions
+(node:886073) [FSTDEP011] FastifyDeprecation: Variadic listen method is deprecated. Please use ".listen(optionsObject)" instead. The variadic signature will be removed in `fastify@5`.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Deprecation notice: "fullHost" was renamed to "host" in version 1.1.x and may me removed in future versions
+(node:886306) [FSTDEP011] FastifyDeprecation: Variadic listen method is deprecated. Please use ".listen(optionsObject)" instead. The variadic signature will be removed in `fastify@5`.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Deprecation notice: "fullHost" was renamed to "host" in version 1.1.x and may me removed in future versions
+(node:886540) [FSTDEP011] FastifyDeprecation: Variadic listen method is deprecated. Please use ".listen(optionsObject)" instead. The variadic signature will be removed in `fastify@5`.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Deprecation notice: "fullHost" was renamed to "host" in version 1.1.x and may me removed in future versions
+(node:886768) [FSTDEP011] FastifyDeprecation: Variadic listen method is deprecated. Please use ".listen(optionsObject)" instead. The variadic signature will be removed in `fastify@5`.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ERROR: Coverage for lines (78.33%) does not meet global threshold (100%)
+ERROR: Coverage for functions (50%) does not meet global threshold (100%)
+ERROR: Coverage for branches (86.04%) does not meet global threshold (100%)
+ERROR: Coverage for statements (78.33%) does not meet global threshold (100%)
+/data/js-variants/multee/VariantsDeps/fastify/variant1/fastify/node_modules/avvio/plugin.js:6
+const debug = require('debug')('avvio')
+                              ^
+
+TypeError: require(...) is not a function
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant1/fastify/node_modules/avvio/plugin.js:6:31)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module.replacementCompile (/data/js-variants/multee/Clients/fastify/fastify-vhost/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/fastify/fastify-vhost/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsDeps/fastify/variant1/fastify/node_modules/avvio/boot.js:14:16)
+
+Node.js v18.3.0

@@ -1,0 +1,2280 @@
+43
+(node:980683) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:980776) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:980871) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:980964) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:981057) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:981150) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:981240) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:981333) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:981426) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:981519) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:981609) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:981702) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:981795) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:981889) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:981982) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:982072) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:982165) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:982261) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:982351) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:982444) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:982534) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:982627) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:982723) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:982817) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:982910) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:983003) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:983096) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:983189) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:983279) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:983373) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:983463) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:983559) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:983652) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:983742) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:983835) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:983928) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:984021) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:984114) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:984204) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:984297) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:984392) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:984485) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
+(node:984578) Warning: Accessing non-existent property 'VERSION' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+node:internal/modules/cjs/loader:942
+  throw err;
+  ^
+
+Error: Cannot find module 'yeoman-generator/lib/util/conflicter'
+Require stack:
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js
+- /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha
+    at Module._resolveFilename (node:internal/modules/cjs/loader:939:15)
+    at Module._load (node:internal/modules/cjs/loader:780:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js:9:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/utils/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/test/conflicter.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/index.js',
+    '/data/js-variants/multee/Clients/yeoman-generator/generator-nuxeo/node_modules/mocha/bin/_mocha'
+  ]
+}
+
+Node.js v18.3.0
