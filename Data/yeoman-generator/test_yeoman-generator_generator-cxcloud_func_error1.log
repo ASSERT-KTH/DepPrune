@@ -1,0 +1,4741 @@
+79
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (11.772s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        11.863s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (10.017s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        10.128s, estimated 12s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (6.871s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.901s, estimated 11s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.683s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.792s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (10.046s)
+  generator-cxcloud:app
+    ✕ creates files (5ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        10.085s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.425s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.56s, estimated 11s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.14s)
+  generator-cxcloud:app
+    ✕ creates files (5ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.174s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.54s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.651s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (10.182s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        10.216s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (6.796s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.825s, estimated 11s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.827s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.897s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.504s)
+  generator-cxcloud:app
+    ✕ creates files (6ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.65s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.328s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.366s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (8.042s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        8.16s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (6.778s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.804s, estimated 9s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.995s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        10.191s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (6.766s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.809s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (10.258s)
+  generator-cxcloud:app
+    ✕ creates files (5ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        10.297s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (6.777s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.811s, estimated 11s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.935s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        10.052s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.419s)
+  generator-cxcloud:app
+    ✕ creates files (5ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.503s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (6.825s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.882s, estimated 8s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.978s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        10.088s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (6.847s)
+  generator-cxcloud:app
+    ✕ creates files (5ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.95s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.148s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.291s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (8.192s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        8.295s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.4s)
+  generator-cxcloud:app
+    ✕ creates files (5ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.537s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.847s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.889s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.382s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.49s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (8.176s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        8.25s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.076s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.145s, estimated 9s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.226s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.311s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (8.859s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        8.931s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (6.91s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.945s, estimated 9s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.414s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.563s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (8.557s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        8.593s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.178s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.286s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (8.255s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        8.302s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.25s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.28s, estimated 9s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.909s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.943s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.517s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.621s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.473s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.562s, estimated 8s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.594s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.654s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.459s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.582s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.705s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.768s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.591s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.804s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (6.945s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.013s, estimated 8s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.853s)
+  generator-cxcloud:app
+    ✕ creates files (6ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.965s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.143s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.199s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (8.763s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        8.913s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.052s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.209s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (6.827s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.886s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.721s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.848s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.813s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.862s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (8.997s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.168s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (8.083s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        8.18s, estimated 9s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (8.954s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.098s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.914s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.966s, estimated 9s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (8.959s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.126s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (8.237s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        8.308s, estimated 9s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.83s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        8s, estimated 9s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (8.373s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        8.408s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (10.11s)
+  generator-cxcloud:app
+    ✕ creates files (5ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        10.245s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (6.799s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.834s, estimated 11s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.818s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.855s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.002s)
+  generator-cxcloud:app
+    ✕ creates files (5ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.035s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (6.824s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.869s, estimated 8s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (10.095s)
+  generator-cxcloud:app
+    ✕ creates files (5ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        10.263s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (6.82s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.85s, estimated 11s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (10.123s)
+  generator-cxcloud:app
+    ✕ creates files (5ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        10.347s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (6.876s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.903s, estimated 11s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (6.815s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.873s, estimated 7s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.802s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.929s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (6.928s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        6.965s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.996s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        8.031s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (9.547s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.652s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (7.054s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        7.09s, estimated 10s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (8.846s)
+  generator-cxcloud:app
+    ✕ creates files (3ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        9.043s
+Ran all test suites.
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'got@5.7.1',
+npm WARN EBADENGINE   required: { node: '>=0.10.0 <7' },
+npm WARN EBADENGINE   current: { node: 'v18.3.0', npm: '8.13.1' }
+npm WARN EBADENGINE }
+FAIL __tests__/app.js (8.29s)
+  generator-cxcloud:app
+    ✕ creates files (4ms)
+
+  ● generator-cxcloud:app › creates files
+
+    Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000ms timeout specified by jest.setTimeout.
+
+      at mapper (node_modules/jest-jasmine2/build/queueRunner.js:25:45)
+
+  ● generator-cxcloud:app › creates files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      package.json, no such file or directory
+
+      22 | 
+      23 |   it('creates files', () => {
+    > 24 |     assert.file(['package.json']);
+         |            ^
+      25 |   });
+      26 | });
+      27 | 
+
+      at node_modules/yeoman-assert/index.js:56:12
+          at Array.forEach (<anonymous>)
+      at Function.Object.<anonymous>.assert.file (node_modules/yeoman-assert/index.js:54:26)
+      at Object.file (__tests__/app.js:24:12)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        8.328s, estimated 9s
+Ran all test suites.

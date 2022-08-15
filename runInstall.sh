@@ -1,8 +1,8 @@
 #!/bin/bash
 
-variantsNum=`cd VariantsDeps/yeoman-generator && ls -l |grep "^d"|wc -l`
+variantsNum=`cd Variants/yeoman-generator && ls -l |grep "^d"|wc -l`
 
-cd VariantsDeps/yeoman-generator
+cd Variants/yeoman-generator
 
 echo $variantsNum
 
