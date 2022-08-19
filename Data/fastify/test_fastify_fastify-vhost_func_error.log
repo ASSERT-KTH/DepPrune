@@ -1,0 +1,25 @@
+************* start run test *************
+Deprecation notice: "fullHost" was renamed to "host" in version 1.1.x and may me removed in future versions
+(node:3942) [FSTDEP011] FastifyDeprecation: Variadic listen method is deprecated. Please use ".listen(optionsObject)" instead. The variadic signature will be removed in `fastify@5`.
+(Use `node --trace-warnings ...` to show where the warning was created)
+/usr/local/bin/node[3919]: ../src/node.cc:782:void node::ResetStdio(): Assertion `!(err != 0) || (err == -1 && (*__errno_location ()) == 1)' failed.
+ 1: 0xb65080 node::Abort() [/usr/local/bin/node]
+ 2: 0xb650fe  [/usr/local/bin/node]
+ 3: 0xb241b4 node::ResetStdio() [/usr/local/bin/node]
+ 4: 0xba856a node::NodeMainInstance::Run() [/usr/local/bin/node]
+ 5: 0xb285e2 node::Start(int, char**) [/usr/local/bin/node]
+ 6: 0x7fea1c911083 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+ 7: 0xa9f59e _start [/usr/local/bin/node]
+/tmp/test-1660749117197.sh: line 2:  3908 Aborted                 (core dumped) tap test.js lib/*.test.js --100
+Node.js[3887]: ../src/node.cc:782:void node::ResetStdio(): Assertion `!(err != 0) || (err == -1 && (*__errno_location ()) == 1)' failed.
+ 1: 0xb65080 node::Abort() [npm run test]
+ 2: 0xb650fe  [npm run test]
+ 3: 0xb241b4 node::ResetStdio() [npm run test]
+ 4: 0x7f2aff8ea8a7  [/lib/x86_64-linux-gnu/libc.so.6]
+ 5: 0x7f2aff8eaa60 on_exit [/lib/x86_64-linux-gnu/libc.so.6]
+ 6: 0xaa5dfe  [npm run test]
+ 7: 0xae6d93 node::Environment::Exit(int) [npm run test]
+ 8: 0xdb2dd0  [npm run test]
+ 9: 0xdb430f v8::internal::Builtin_HandleApiCall(int, unsigned long*, v8::internal::Isolate*) [npm run test]
+10: 0x16f5cf9  [npm run test]
+timeout: the monitored command dumped core
