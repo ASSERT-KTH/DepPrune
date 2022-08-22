@@ -3,8 +3,8 @@
 jsonFile='.json'
 jsonEmpty='{}'
 projectName=$1
-fileName='./Data/'$1'_bloated_variants.txt'
-fileNameDeps='./Data/'$1'_bloated_deps_variants.txt'
+fileName='./Data/'$projectName'/'$projectName'_bloated_variants.txt'
+fileNameDeps='./Data/'$projectName'/'$projectName'_bloated_deps_variants.txt'
 
 cat $fileName | while read rows
 do

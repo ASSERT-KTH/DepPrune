@@ -1,0 +1,1385 @@
+11
+probot is testing ./VariantsDeps/express/variant11/express
+/data/js-variants/multee
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink module done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+PASS test/probot.test.ts (9.433 s)
+PASS test/context.test.ts
+PASS test/server.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot-octokit.test.ts
+PASS test/apps/setup.test.ts
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        28.707 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./VariantsDeps/express/variant10/express
+/data/js-variants/multee
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink module done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot.test.ts
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/server.test.ts
+PASS test/context.test.ts
+PASS test/run.test.ts
+PASS test/apps/setup.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/create-probot.test.ts
+PASS test/apps/default.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+PASS test/helpers/is-production.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.593 s, estimated 29 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./VariantsDeps/express/variant9/express
+/data/js-variants/multee
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink module done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/probot.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/context.test.ts
+PASS test/apps/default.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.416 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./VariantsDeps/express/variant8/express
+/data/js-variants/multee
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink module done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/probot.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.561 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./VariantsDeps/express/variant7/express
+/data/js-variants/multee
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink module done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/probot.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.302 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./VariantsDeps/express/variant6/express
+/data/js-variants/multee
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink module done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/probot.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.454 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./VariantsDeps/express/variant5/express
+/data/js-variants/multee
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink module done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/probot.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/context.test.ts
+PASS test/apps/default.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.382 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./VariantsDeps/express/variant4/express
+/data/js-variants/multee
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink module done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/probot.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.369 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./VariantsDeps/express/variant3/express
+/data/js-variants/multee
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink module done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/probot.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/context.test.ts
+PASS test/apps/default.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.344 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./VariantsDeps/express/variant2/express
+/data/js-variants/multee
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink module done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/probot.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.46 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./VariantsDeps/express/variant1/express
+/data/js-variants/multee
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink module done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/probot.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/apps/default.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.557 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+17
+probot is testing ./Variants/express/variant17/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/probot.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.658 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./Variants/express/variant16/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/probot.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.417 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./Variants/express/variant15/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/apps/default.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.563 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./Variants/express/variant14/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.513 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./Variants/express/variant13/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.45 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./Variants/express/variant12/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/create-probot.test.ts
+PASS test/context.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.425 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./Variants/express/variant11/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/context.test.ts
+PASS test/apps/default.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.501 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./Variants/express/variant10/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.464 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./Variants/express/variant9/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/apps/setup.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/create-probot.test.ts
+PASS test/context.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.466 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./Variants/express/variant8/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/context.test.ts
+PASS test/apps/default.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.552 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./Variants/express/variant7/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.532 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./Variants/express/variant6/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.622 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./Variants/express/variant5/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/apps/default.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.712 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./Variants/express/variant4/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/apps/setup.test.ts
+PASS test/server.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.691 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./Variants/express/variant3/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/probot.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/create-probot.test.ts
+PASS test/apps/default.test.ts
+PASS test/context.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.638 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./Variants/express/variant2/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/create-probot.test.ts
+PASS test/context.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/resolver.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.651 s, estimated 16 s
+Ran all test suites.
+************* run test done *************
+probot is testing ./Variants/express/variant1/express
+************* npm unlink module *************
+************* npm unlink module done *************
+************* npm unlink globally *************
+************* npm unlink globally done *************
+************* npm link globally *************
+************* npm link globally done *************
+************* npm link module *************
+************* npm link module done *************
+************* start run test *************
+FAIL test/e2e/e2e.test.ts
+  ● end-to-end-tests › hello-world app
+
+    Command failed with exit code 1: bin/probot.js run ./test/e2e/hello-world.js
+
+      114 |     } catch (error) {
+      115 |       probotProcess.cancel();
+    > 116 |       console.log((await probotProcess).stdout);
+          |                    ^
+      117 |     }
+      118 |
+      119 |     expect(httpMock).toHaveBeenCalledTimes(2);
+
+      at makeError (node_modules/execa/lib/error.js:60:11)
+      at handlePromise (node_modules/execa/index.js:118:26)
+      at Object.<anonymous> (test/e2e/e2e.test.ts:116:20)
+
+PASS test/probot-octokit.test.ts
+PASS test/manifest-creation.test.ts
+PASS test/probot.test.ts
+PASS test/server.test.ts
+PASS test/apps/setup.test.ts
+PASS test/run.test.ts
+PASS test/context.test.ts
+PASS test/create-node-middleware.test.ts
+PASS test/apps/default.test.ts
+PASS test/create-probot.test.ts
+PASS test/webhook-proxy.test.ts
+PASS test/server/logging-middleware.test.ts
+PASS test/resolver.test.ts
+PASS test/helpers/is-production.test.ts
+PASS test/deprecations.test.ts
+
+Test Suites: 1 failed, 15 passed, 16 total
+Tests:       1 failed, 2 skipped, 116 passed, 119 total
+Snapshots:   7 passed, 7 total
+Time:        15.545 s, estimated 16 s
+Ran all test suites.
+************* run test done *************

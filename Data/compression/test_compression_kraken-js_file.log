@@ -1,0 +1,2645 @@
+/data/js-variants/multee
+7
+kraken-js is testing ./Variants/compression/variant7/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 3 packages, and audited 429 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 743ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 574ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 431 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> kraken-js@2.4.0 test
+> tape test/*.js
+
+TAP version 13
+# composition
+# plugin
+ok 1 should not be equal
+ok 2 should not be equal
+ok 3 Expected 'x-powered-by' to be equal.
+ok 4 Expected 'etag' to be equal.
+ok 5 Expected 'env' to be equal.
+ok 6 Expected 'query parser' to be equal.
+ok 7 Expected 'subdomain offset' to be equal.
+ok 8 Expected 'trust proxy' to be equal.
+ok 9 Expected 'jsonp callback name' to be equal.
+ok 10 Expected 'case sensitive routing' to be equal.
+ok 11 Expected 'strict routing' to be equal.
+ok 12 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:23 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:23 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 13 null
+# plugin with mountpath
+ok 14 should not be equal
+ok 15 should not be equal
+ok 16 Expected 'x-powered-by' to be equal.
+ok 17 Expected 'etag' to be equal.
+ok 18 Expected 'env' to be equal.
+ok 19 Expected 'query parser' to be equal.
+ok 20 Expected 'subdomain offset' to be equal.
+ok 21 Expected 'trust proxy' to be equal.
+ok 22 Expected 'jsonp callback name' to be equal.
+ok 23 Expected 'case sensitive routing' to be equal.
+ok 24 Expected 'strict routing' to be equal.
+ok 25 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:23 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:23 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 26 null
+# inherited views
+ok 27 should be equal
+ok 28 should be equal
+ok 29 Expected 'x-powered-by' to be equal.
+ok 30 Expected 'etag' to be equal.
+ok 31 Expected 'env' to be equal.
+ok 32 Expected 'query parser' to be equal.
+ok 33 Expected 'subdomain offset' to be equal.
+ok 34 Expected 'trust proxy' to be equal.
+ok 35 Expected 'jsonp callback name' to be equal.
+ok 36 Expected 'case sensitive routing' to be equal.
+ok 37 Expected 'strict routing' to be equal.
+ok 38 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:23 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:23 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 39 null
+# late mounting
+ok 40 should not be equal
+ok 41 should not be equal
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:23 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 42 null
+# kraken
+# startup without options
+ok 43 server started
+# startup with basedir
+ok 44 server started
+# startup with options
+ok 45 server started
+# startup with custom config directory
+ok 46 server started
+# mount point
+ok 47 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:23 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 48 null
+# express route
+ok 49 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:23 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 50 null
+# startup delay
+ok 51 server started
+# onKrakenMount
+ok 52 app instance exist
+ok 53 app is a function
+ok 54 length of args is 2
+ok 55 bootstrap successful
+# server 503 until started
+ok 56 server starting
+ok 57 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:25 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 58 server is accepting requests
+# server 503 until started with custom headers
+ok 59 server starting
+ok 60 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:26 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 61 server is accepting requests
+# startup error
+ok 62 server starting
+ok 63 server startup failed
+ok 64 server is accepting requests
+# shutdown
+ok 65 server stopped
+ok 66 correct exit code
+ok 67 server stopped
+ok 68 correct exit code
+# shutdown headers
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:28 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 69 null
+ok 70 correct status code.
+ok 71 null
+ok 72 correct status code.
+ok 73 has custom header 1.
+ok 74 has custom header 1.
+# shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:28 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 75 null
+ok 76 correct status code.
+ok 77 null
+ok 78 correct status code.
+# override shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:28 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 79 null
+ok 80 correct status code.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:28 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 81 null
+ok 82 correct status code.
+# shutdown should only emit once, ever
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:28 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 83 no error.
+ok 84 correct status code.
+ok 85 shutdown emitted once.
+# middleware
+# no config
+# multipart
+ok 86 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:29 +0000] "POST / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 87 should be truthy
+ok 88 should be equal
+ok 89 should be equal
+ok 90 should be equal
+ok 91 should be equal
+ok 92 server is accepting requests
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:29 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 93 null
+# settings
+# custom
+ok 94 should be equal
+ok 95 should be equal
+ok 96 should be equal
+ok 97 should be equivalent
+# should resolve from config (shortstop-resolve)
+ok 98 should be equal
+# should not clobber `trust proxy fn`
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:29 +0000] "GET /ip HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 99 null
+# views
+# renderer
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:30 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 100 null
+# renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:30 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 101 null
+# alt renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:30 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 102 null
+# configured renderer function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:30 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 103 null
+# configured renderer factory function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:30 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 104 null
+# configured renderer exported function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:30 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 105 null
+# custom view implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:30 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 106 null
+# custom renderer module implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:30 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 107 null
+# built-in shim
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:30 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 108 null
+# built-in shim with precompiled templates
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:30 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 109 null
+
+1..109
+# tests 109
+# pass  109
+
+# ok
+
+************* run test done *************
+kraken-js is testing ./Variants/compression/variant6/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 429 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 743ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 656ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 431 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> kraken-js@2.4.0 test
+> tape test/*.js
+
+TAP version 13
+# composition
+# plugin
+ok 1 should not be equal
+ok 2 should not be equal
+ok 3 Expected 'x-powered-by' to be equal.
+ok 4 Expected 'etag' to be equal.
+ok 5 Expected 'env' to be equal.
+ok 6 Expected 'query parser' to be equal.
+ok 7 Expected 'subdomain offset' to be equal.
+ok 8 Expected 'trust proxy' to be equal.
+ok 9 Expected 'jsonp callback name' to be equal.
+ok 10 Expected 'case sensitive routing' to be equal.
+ok 11 Expected 'strict routing' to be equal.
+ok 12 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:41 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:41 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 13 null
+# plugin with mountpath
+ok 14 should not be equal
+ok 15 should not be equal
+ok 16 Expected 'x-powered-by' to be equal.
+ok 17 Expected 'etag' to be equal.
+ok 18 Expected 'env' to be equal.
+ok 19 Expected 'query parser' to be equal.
+ok 20 Expected 'subdomain offset' to be equal.
+ok 21 Expected 'trust proxy' to be equal.
+ok 22 Expected 'jsonp callback name' to be equal.
+ok 23 Expected 'case sensitive routing' to be equal.
+ok 24 Expected 'strict routing' to be equal.
+ok 25 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:41 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:41 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 26 null
+# inherited views
+ok 27 should be equal
+ok 28 should be equal
+ok 29 Expected 'x-powered-by' to be equal.
+ok 30 Expected 'etag' to be equal.
+ok 31 Expected 'env' to be equal.
+ok 32 Expected 'query parser' to be equal.
+ok 33 Expected 'subdomain offset' to be equal.
+ok 34 Expected 'trust proxy' to be equal.
+ok 35 Expected 'jsonp callback name' to be equal.
+ok 36 Expected 'case sensitive routing' to be equal.
+ok 37 Expected 'strict routing' to be equal.
+ok 38 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:41 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:41 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 39 null
+# late mounting
+ok 40 should not be equal
+ok 41 should not be equal
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:41 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 42 null
+# kraken
+# startup without options
+ok 43 server started
+# startup with basedir
+ok 44 server started
+# startup with options
+ok 45 server started
+# startup with custom config directory
+ok 46 server started
+# mount point
+ok 47 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:41 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 48 null
+# express route
+ok 49 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:41 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 50 null
+# startup delay
+ok 51 server started
+# onKrakenMount
+ok 52 app instance exist
+ok 53 app is a function
+ok 54 length of args is 2
+ok 55 bootstrap successful
+# server 503 until started
+ok 56 server starting
+ok 57 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:43 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 58 server is accepting requests
+# server 503 until started with custom headers
+ok 59 server starting
+ok 60 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:44 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 61 server is accepting requests
+# startup error
+ok 62 server starting
+ok 63 server startup failed
+ok 64 server is accepting requests
+# shutdown
+ok 65 server stopped
+ok 66 correct exit code
+ok 67 server stopped
+ok 68 correct exit code
+# shutdown headers
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:46 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 69 null
+ok 70 correct status code.
+ok 71 null
+ok 72 correct status code.
+ok 73 has custom header 1.
+ok 74 has custom header 1.
+# shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:46 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 75 null
+ok 76 correct status code.
+ok 77 null
+ok 78 correct status code.
+# override shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:46 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 79 null
+ok 80 correct status code.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:46 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 81 null
+ok 82 correct status code.
+# shutdown should only emit once, ever
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:46 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 83 no error.
+ok 84 correct status code.
+ok 85 shutdown emitted once.
+# middleware
+# no config
+# multipart
+ok 86 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:47 +0000] "POST / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 87 should be truthy
+ok 88 should be equal
+ok 89 should be equal
+ok 90 should be equal
+ok 91 should be equal
+ok 92 server is accepting requests
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:47 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 93 null
+# settings
+# custom
+ok 94 should be equal
+ok 95 should be equal
+ok 96 should be equal
+ok 97 should be equivalent
+# should resolve from config (shortstop-resolve)
+ok 98 should be equal
+# should not clobber `trust proxy fn`
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:47 +0000] "GET /ip HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 99 null
+# views
+# renderer
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:48 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 100 null
+# renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:48 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 101 null
+# alt renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:48 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 102 null
+# configured renderer function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:48 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 103 null
+# configured renderer factory function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:48 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 104 null
+# configured renderer exported function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:48 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 105 null
+# custom view implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:48 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 106 null
+# custom renderer module implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:48 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 107 null
+# built-in shim
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:48 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 108 null
+# built-in shim with precompiled templates
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:48 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 109 null
+
+1..109
+# tests 109
+# pass  109
+
+# ok
+
+************* run test done *************
+kraken-js is testing ./Variants/compression/variant5/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 429 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 852ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 582ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 431 packages in 2s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> kraken-js@2.4.0 test
+> tape test/*.js
+
+TAP version 13
+# composition
+# plugin
+ok 1 should not be equal
+ok 2 should not be equal
+ok 3 Expected 'x-powered-by' to be equal.
+ok 4 Expected 'etag' to be equal.
+ok 5 Expected 'env' to be equal.
+ok 6 Expected 'query parser' to be equal.
+ok 7 Expected 'subdomain offset' to be equal.
+ok 8 Expected 'trust proxy' to be equal.
+ok 9 Expected 'jsonp callback name' to be equal.
+ok 10 Expected 'case sensitive routing' to be equal.
+ok 11 Expected 'strict routing' to be equal.
+ok 12 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:58 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:58 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 13 null
+# plugin with mountpath
+ok 14 should not be equal
+ok 15 should not be equal
+ok 16 Expected 'x-powered-by' to be equal.
+ok 17 Expected 'etag' to be equal.
+ok 18 Expected 'env' to be equal.
+ok 19 Expected 'query parser' to be equal.
+ok 20 Expected 'subdomain offset' to be equal.
+ok 21 Expected 'trust proxy' to be equal.
+ok 22 Expected 'jsonp callback name' to be equal.
+ok 23 Expected 'case sensitive routing' to be equal.
+ok 24 Expected 'strict routing' to be equal.
+ok 25 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:58 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:58 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 26 null
+# inherited views
+ok 27 should be equal
+ok 28 should be equal
+ok 29 Expected 'x-powered-by' to be equal.
+ok 30 Expected 'etag' to be equal.
+ok 31 Expected 'env' to be equal.
+ok 32 Expected 'query parser' to be equal.
+ok 33 Expected 'subdomain offset' to be equal.
+ok 34 Expected 'trust proxy' to be equal.
+ok 35 Expected 'jsonp callback name' to be equal.
+ok 36 Expected 'case sensitive routing' to be equal.
+ok 37 Expected 'strict routing' to be equal.
+ok 38 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:58 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:58 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 39 null
+# late mounting
+ok 40 should not be equal
+ok 41 should not be equal
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:58 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 42 null
+# kraken
+# startup without options
+ok 43 server started
+# startup with basedir
+ok 44 server started
+# startup with options
+ok 45 server started
+# startup with custom config directory
+ok 46 server started
+# mount point
+ok 47 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:58 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 48 null
+# express route
+ok 49 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:56:59 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 50 null
+# startup delay
+ok 51 server started
+# onKrakenMount
+ok 52 app instance exist
+ok 53 app is a function
+ok 54 length of args is 2
+ok 55 bootstrap successful
+# server 503 until started
+ok 56 server starting
+ok 57 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:01 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 58 server is accepting requests
+# server 503 until started with custom headers
+ok 59 server starting
+ok 60 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:02 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 61 server is accepting requests
+# startup error
+ok 62 server starting
+ok 63 server startup failed
+ok 64 server is accepting requests
+# shutdown
+ok 65 server stopped
+ok 66 correct exit code
+ok 67 server stopped
+ok 68 correct exit code
+# shutdown headers
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:04 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 69 null
+ok 70 correct status code.
+ok 71 null
+ok 72 correct status code.
+ok 73 has custom header 1.
+ok 74 has custom header 1.
+# shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:04 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 75 null
+ok 76 correct status code.
+ok 77 null
+ok 78 correct status code.
+# override shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:04 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 79 null
+ok 80 correct status code.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:04 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 81 null
+ok 82 correct status code.
+# shutdown should only emit once, ever
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:04 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 83 no error.
+ok 84 correct status code.
+ok 85 shutdown emitted once.
+# middleware
+# no config
+# multipart
+ok 86 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:04 +0000] "POST / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 87 should be truthy
+ok 88 should be equal
+ok 89 should be equal
+ok 90 should be equal
+ok 91 should be equal
+ok 92 server is accepting requests
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:04 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 93 null
+# settings
+# custom
+ok 94 should be equal
+ok 95 should be equal
+ok 96 should be equal
+ok 97 should be equivalent
+# should resolve from config (shortstop-resolve)
+ok 98 should be equal
+# should not clobber `trust proxy fn`
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:04 +0000] "GET /ip HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 99 null
+# views
+# renderer
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:06 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 100 null
+# renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:06 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 101 null
+# alt renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:06 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 102 null
+# configured renderer function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:06 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 103 null
+# configured renderer factory function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:06 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 104 null
+# configured renderer exported function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:06 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 105 null
+# custom view implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:06 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 106 null
+# custom renderer module implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:06 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 107 null
+# built-in shim
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:06 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 108 null
+# built-in shim with precompiled templates
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:06 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 109 null
+
+1..109
+# tests 109
+# pass  109
+
+# ok
+
+************* run test done *************
+kraken-js is testing ./Variants/compression/variant4/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 429 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 780ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 553ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 431 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> kraken-js@2.4.0 test
+> tape test/*.js
+
+TAP version 13
+# composition
+# plugin
+ok 1 should not be equal
+ok 2 should not be equal
+ok 3 Expected 'x-powered-by' to be equal.
+ok 4 Expected 'etag' to be equal.
+ok 5 Expected 'env' to be equal.
+ok 6 Expected 'query parser' to be equal.
+ok 7 Expected 'subdomain offset' to be equal.
+ok 8 Expected 'trust proxy' to be equal.
+ok 9 Expected 'jsonp callback name' to be equal.
+ok 10 Expected 'case sensitive routing' to be equal.
+ok 11 Expected 'strict routing' to be equal.
+ok 12 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:16 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:16 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 13 null
+# plugin with mountpath
+ok 14 should not be equal
+ok 15 should not be equal
+ok 16 Expected 'x-powered-by' to be equal.
+ok 17 Expected 'etag' to be equal.
+ok 18 Expected 'env' to be equal.
+ok 19 Expected 'query parser' to be equal.
+ok 20 Expected 'subdomain offset' to be equal.
+ok 21 Expected 'trust proxy' to be equal.
+ok 22 Expected 'jsonp callback name' to be equal.
+ok 23 Expected 'case sensitive routing' to be equal.
+ok 24 Expected 'strict routing' to be equal.
+ok 25 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:16 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:16 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 26 null
+# inherited views
+ok 27 should be equal
+ok 28 should be equal
+ok 29 Expected 'x-powered-by' to be equal.
+ok 30 Expected 'etag' to be equal.
+ok 31 Expected 'env' to be equal.
+ok 32 Expected 'query parser' to be equal.
+ok 33 Expected 'subdomain offset' to be equal.
+ok 34 Expected 'trust proxy' to be equal.
+ok 35 Expected 'jsonp callback name' to be equal.
+ok 36 Expected 'case sensitive routing' to be equal.
+ok 37 Expected 'strict routing' to be equal.
+ok 38 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:17 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:17 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 39 null
+# late mounting
+ok 40 should not be equal
+ok 41 should not be equal
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:17 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 42 null
+# kraken
+# startup without options
+ok 43 server started
+# startup with basedir
+ok 44 server started
+# startup with options
+ok 45 server started
+# startup with custom config directory
+ok 46 server started
+# mount point
+ok 47 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:17 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 48 null
+# express route
+ok 49 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:17 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 50 null
+# startup delay
+ok 51 server started
+# onKrakenMount
+ok 52 app instance exist
+ok 53 app is a function
+ok 54 length of args is 2
+ok 55 bootstrap successful
+# server 503 until started
+ok 56 server starting
+ok 57 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:19 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 58 server is accepting requests
+# server 503 until started with custom headers
+ok 59 server starting
+ok 60 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:20 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 61 server is accepting requests
+# startup error
+ok 62 server starting
+ok 63 server startup failed
+ok 64 server is accepting requests
+# shutdown
+ok 65 server stopped
+ok 66 correct exit code
+ok 67 server stopped
+ok 68 correct exit code
+# shutdown headers
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:22 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 69 null
+ok 70 correct status code.
+ok 71 null
+ok 72 correct status code.
+ok 73 has custom header 1.
+ok 74 has custom header 1.
+# shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:22 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 75 null
+ok 76 correct status code.
+ok 77 null
+ok 78 correct status code.
+# override shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:22 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 79 null
+ok 80 correct status code.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:22 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 81 null
+ok 82 correct status code.
+# shutdown should only emit once, ever
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:22 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 83 no error.
+ok 84 correct status code.
+ok 85 shutdown emitted once.
+# middleware
+# no config
+# multipart
+ok 86 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:22 +0000] "POST / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 87 should be truthy
+ok 88 should be equal
+ok 89 should be equal
+ok 90 should be equal
+ok 91 should be equal
+ok 92 server is accepting requests
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:22 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 93 null
+# settings
+# custom
+ok 94 should be equal
+ok 95 should be equal
+ok 96 should be equal
+ok 97 should be equivalent
+# should resolve from config (shortstop-resolve)
+ok 98 should be equal
+# should not clobber `trust proxy fn`
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:23 +0000] "GET /ip HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 99 null
+# views
+# renderer
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:24 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 100 null
+# renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:24 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 101 null
+# alt renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:24 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 102 null
+# configured renderer function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:24 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 103 null
+# configured renderer factory function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:24 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 104 null
+# configured renderer exported function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:24 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 105 null
+# custom view implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:24 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 106 null
+# custom renderer module implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:24 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 107 null
+# built-in shim
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:24 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 108 null
+# built-in shim with precompiled templates
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:24 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 109 null
+
+1..109
+# tests 109
+# pass  109
+
+# ok
+
+************* run test done *************
+kraken-js is testing ./Variants/compression/variant3/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 429 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 856ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 673ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 431 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> kraken-js@2.4.0 test
+> tape test/*.js
+
+TAP version 13
+# composition
+# plugin
+ok 1 should not be equal
+ok 2 should not be equal
+ok 3 Expected 'x-powered-by' to be equal.
+ok 4 Expected 'etag' to be equal.
+ok 5 Expected 'env' to be equal.
+ok 6 Expected 'query parser' to be equal.
+ok 7 Expected 'subdomain offset' to be equal.
+ok 8 Expected 'trust proxy' to be equal.
+ok 9 Expected 'jsonp callback name' to be equal.
+ok 10 Expected 'case sensitive routing' to be equal.
+ok 11 Expected 'strict routing' to be equal.
+ok 12 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:35 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:35 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 13 null
+# plugin with mountpath
+ok 14 should not be equal
+ok 15 should not be equal
+ok 16 Expected 'x-powered-by' to be equal.
+ok 17 Expected 'etag' to be equal.
+ok 18 Expected 'env' to be equal.
+ok 19 Expected 'query parser' to be equal.
+ok 20 Expected 'subdomain offset' to be equal.
+ok 21 Expected 'trust proxy' to be equal.
+ok 22 Expected 'jsonp callback name' to be equal.
+ok 23 Expected 'case sensitive routing' to be equal.
+ok 24 Expected 'strict routing' to be equal.
+ok 25 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:35 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:35 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 26 null
+# inherited views
+ok 27 should be equal
+ok 28 should be equal
+ok 29 Expected 'x-powered-by' to be equal.
+ok 30 Expected 'etag' to be equal.
+ok 31 Expected 'env' to be equal.
+ok 32 Expected 'query parser' to be equal.
+ok 33 Expected 'subdomain offset' to be equal.
+ok 34 Expected 'trust proxy' to be equal.
+ok 35 Expected 'jsonp callback name' to be equal.
+ok 36 Expected 'case sensitive routing' to be equal.
+ok 37 Expected 'strict routing' to be equal.
+ok 38 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:35 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:35 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 39 null
+# late mounting
+ok 40 should not be equal
+ok 41 should not be equal
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:35 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 42 null
+# kraken
+# startup without options
+ok 43 server started
+# startup with basedir
+ok 44 server started
+# startup with options
+ok 45 server started
+# startup with custom config directory
+ok 46 server started
+# mount point
+ok 47 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:35 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 48 null
+# express route
+ok 49 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:35 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 50 null
+# startup delay
+ok 51 server started
+# onKrakenMount
+ok 52 app instance exist
+ok 53 app is a function
+ok 54 length of args is 2
+ok 55 bootstrap successful
+# server 503 until started
+ok 56 server starting
+ok 57 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:37 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 58 server is accepting requests
+# server 503 until started with custom headers
+ok 59 server starting
+ok 60 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:38 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 61 server is accepting requests
+# startup error
+ok 62 server starting
+ok 63 server startup failed
+ok 64 server is accepting requests
+# shutdown
+ok 65 server stopped
+ok 66 correct exit code
+ok 67 server stopped
+ok 68 correct exit code
+# shutdown headers
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:40 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 69 null
+ok 70 correct status code.
+ok 71 null
+ok 72 correct status code.
+ok 73 has custom header 1.
+ok 74 has custom header 1.
+# shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:40 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 75 null
+ok 76 correct status code.
+ok 77 null
+ok 78 correct status code.
+# override shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:40 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 79 null
+ok 80 correct status code.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:40 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 81 null
+ok 82 correct status code.
+# shutdown should only emit once, ever
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:40 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 83 no error.
+ok 84 correct status code.
+ok 85 shutdown emitted once.
+# middleware
+# no config
+# multipart
+ok 86 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:40 +0000] "POST / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 87 should be truthy
+ok 88 should be equal
+ok 89 should be equal
+ok 90 should be equal
+ok 91 should be equal
+ok 92 server is accepting requests
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:40 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 93 null
+# settings
+# custom
+ok 94 should be equal
+ok 95 should be equal
+ok 96 should be equal
+ok 97 should be equivalent
+# should resolve from config (shortstop-resolve)
+ok 98 should be equal
+# should not clobber `trust proxy fn`
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:41 +0000] "GET /ip HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 99 null
+# views
+# renderer
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:42 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 100 null
+# renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:42 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 101 null
+# alt renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:42 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 102 null
+# configured renderer function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:42 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 103 null
+# configured renderer factory function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:42 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 104 null
+# configured renderer exported function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:42 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 105 null
+# custom view implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:42 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 106 null
+# custom renderer module implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:42 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 107 null
+# built-in shim
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:42 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 108 null
+# built-in shim with precompiled templates
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:42 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 109 null
+
+1..109
+# tests 109
+# pass  109
+
+# ok
+
+************* run test done *************
+kraken-js is testing ./Variants/compression/variant2/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 429 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 852ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 543ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 431 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> kraken-js@2.4.0 test
+> tape test/*.js
+
+TAP version 13
+# composition
+# plugin
+ok 1 should not be equal
+ok 2 should not be equal
+ok 3 Expected 'x-powered-by' to be equal.
+ok 4 Expected 'etag' to be equal.
+ok 5 Expected 'env' to be equal.
+ok 6 Expected 'query parser' to be equal.
+ok 7 Expected 'subdomain offset' to be equal.
+ok 8 Expected 'trust proxy' to be equal.
+ok 9 Expected 'jsonp callback name' to be equal.
+ok 10 Expected 'case sensitive routing' to be equal.
+ok 11 Expected 'strict routing' to be equal.
+ok 12 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:53 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:53 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 13 null
+# plugin with mountpath
+ok 14 should not be equal
+ok 15 should not be equal
+ok 16 Expected 'x-powered-by' to be equal.
+ok 17 Expected 'etag' to be equal.
+ok 18 Expected 'env' to be equal.
+ok 19 Expected 'query parser' to be equal.
+ok 20 Expected 'subdomain offset' to be equal.
+ok 21 Expected 'trust proxy' to be equal.
+ok 22 Expected 'jsonp callback name' to be equal.
+ok 23 Expected 'case sensitive routing' to be equal.
+ok 24 Expected 'strict routing' to be equal.
+ok 25 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:53 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:53 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 26 null
+# inherited views
+ok 27 should be equal
+ok 28 should be equal
+ok 29 Expected 'x-powered-by' to be equal.
+ok 30 Expected 'etag' to be equal.
+ok 31 Expected 'env' to be equal.
+ok 32 Expected 'query parser' to be equal.
+ok 33 Expected 'subdomain offset' to be equal.
+ok 34 Expected 'trust proxy' to be equal.
+ok 35 Expected 'jsonp callback name' to be equal.
+ok 36 Expected 'case sensitive routing' to be equal.
+ok 37 Expected 'strict routing' to be equal.
+ok 38 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:53 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:53 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 39 null
+# late mounting
+ok 40 should not be equal
+ok 41 should not be equal
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:53 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 42 null
+# kraken
+# startup without options
+ok 43 server started
+# startup with basedir
+ok 44 server started
+# startup with options
+ok 45 server started
+# startup with custom config directory
+ok 46 server started
+# mount point
+ok 47 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:53 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 48 null
+# express route
+ok 49 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:53 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 50 null
+# startup delay
+ok 51 server started
+# onKrakenMount
+ok 52 app instance exist
+ok 53 app is a function
+ok 54 length of args is 2
+ok 55 bootstrap successful
+# server 503 until started
+ok 56 server starting
+ok 57 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:55 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 58 server is accepting requests
+# server 503 until started with custom headers
+ok 59 server starting
+ok 60 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:56 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 61 server is accepting requests
+# startup error
+ok 62 server starting
+ok 63 server startup failed
+ok 64 server is accepting requests
+# shutdown
+ok 65 server stopped
+ok 66 correct exit code
+ok 67 server stopped
+ok 68 correct exit code
+# shutdown headers
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:58 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 69 null
+ok 70 correct status code.
+ok 71 null
+ok 72 correct status code.
+ok 73 has custom header 1.
+ok 74 has custom header 1.
+# shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:58 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 75 null
+ok 76 correct status code.
+ok 77 null
+ok 78 correct status code.
+# override shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:58 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 79 null
+ok 80 correct status code.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:58 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 81 null
+ok 82 correct status code.
+# shutdown should only emit once, ever
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:58 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 83 no error.
+ok 84 correct status code.
+ok 85 shutdown emitted once.
+# middleware
+# no config
+# multipart
+ok 86 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:58 +0000] "POST / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 87 should be truthy
+ok 88 should be equal
+ok 89 should be equal
+ok 90 should be equal
+ok 91 should be equal
+ok 92 server is accepting requests
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:58 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 93 null
+# settings
+# custom
+ok 94 should be equal
+ok 95 should be equal
+ok 96 should be equal
+ok 97 should be equivalent
+# should resolve from config (shortstop-resolve)
+ok 98 should be equal
+# should not clobber `trust proxy fn`
+::ffff:127.0.0.1 - - [22/Aug/2022:08:57:59 +0000] "GET /ip HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 99 null
+# views
+# renderer
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:00 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 100 null
+# renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:00 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 101 null
+# alt renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:00 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 102 null
+# configured renderer function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:00 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 103 null
+# configured renderer factory function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:00 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 104 null
+# configured renderer exported function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:00 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 105 null
+# custom view implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:00 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 106 null
+# custom renderer module implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:00 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 107 null
+# built-in shim
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:00 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 108 null
+# built-in shim with precompiled templates
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:00 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 109 null
+
+1..109
+# tests 109
+# pass  109
+
+# ok
+
+************* run test done *************
+kraken-js is testing ./Variants/compression/variant1/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 429 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 797ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 538ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 431 packages in 2s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> kraken-js@2.4.0 test
+> tape test/*.js
+
+TAP version 13
+# composition
+# plugin
+ok 1 should not be equal
+ok 2 should not be equal
+ok 3 Expected 'x-powered-by' to be equal.
+ok 4 Expected 'etag' to be equal.
+ok 5 Expected 'env' to be equal.
+ok 6 Expected 'query parser' to be equal.
+ok 7 Expected 'subdomain offset' to be equal.
+ok 8 Expected 'trust proxy' to be equal.
+ok 9 Expected 'jsonp callback name' to be equal.
+ok 10 Expected 'case sensitive routing' to be equal.
+ok 11 Expected 'strict routing' to be equal.
+ok 12 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:10 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:10 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 13 null
+# plugin with mountpath
+ok 14 should not be equal
+ok 15 should not be equal
+ok 16 Expected 'x-powered-by' to be equal.
+ok 17 Expected 'etag' to be equal.
+ok 18 Expected 'env' to be equal.
+ok 19 Expected 'query parser' to be equal.
+ok 20 Expected 'subdomain offset' to be equal.
+ok 21 Expected 'trust proxy' to be equal.
+ok 22 Expected 'jsonp callback name' to be equal.
+ok 23 Expected 'case sensitive routing' to be equal.
+ok 24 Expected 'strict routing' to be equal.
+ok 25 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:10 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:10 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 26 null
+# inherited views
+ok 27 should be equal
+ok 28 should be equal
+ok 29 Expected 'x-powered-by' to be equal.
+ok 30 Expected 'etag' to be equal.
+ok 31 Expected 'env' to be equal.
+ok 32 Expected 'query parser' to be equal.
+ok 33 Expected 'subdomain offset' to be equal.
+ok 34 Expected 'trust proxy' to be equal.
+ok 35 Expected 'jsonp callback name' to be equal.
+ok 36 Expected 'case sensitive routing' to be equal.
+ok 37 Expected 'strict routing' to be equal.
+ok 38 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:10 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:10 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 39 null
+# late mounting
+ok 40 should not be equal
+ok 41 should not be equal
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:10 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 42 null
+# kraken
+# startup without options
+ok 43 server started
+# startup with basedir
+ok 44 server started
+# startup with options
+ok 45 server started
+# startup with custom config directory
+ok 46 server started
+# mount point
+ok 47 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:11 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 48 null
+# express route
+ok 49 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:11 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 50 null
+# startup delay
+ok 51 server started
+# onKrakenMount
+ok 52 app instance exist
+ok 53 app is a function
+ok 54 length of args is 2
+ok 55 bootstrap successful
+# server 503 until started
+ok 56 server starting
+ok 57 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:13 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 58 server is accepting requests
+# server 503 until started with custom headers
+ok 59 server starting
+ok 60 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:14 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 61 server is accepting requests
+# startup error
+ok 62 server starting
+ok 63 server startup failed
+ok 64 server is accepting requests
+# shutdown
+ok 65 server stopped
+ok 66 correct exit code
+ok 67 server stopped
+ok 68 correct exit code
+# shutdown headers
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:16 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 69 null
+ok 70 correct status code.
+ok 71 null
+ok 72 correct status code.
+ok 73 has custom header 1.
+ok 74 has custom header 1.
+# shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:16 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 75 null
+ok 76 correct status code.
+ok 77 null
+ok 78 correct status code.
+# override shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:16 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 79 null
+ok 80 correct status code.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:16 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 81 null
+ok 82 correct status code.
+# shutdown should only emit once, ever
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:16 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 83 no error.
+ok 84 correct status code.
+ok 85 shutdown emitted once.
+# middleware
+# no config
+# multipart
+ok 86 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:16 +0000] "POST / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 87 should be truthy
+ok 88 should be equal
+ok 89 should be equal
+ok 90 should be equal
+ok 91 should be equal
+ok 92 server is accepting requests
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:16 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 93 null
+# settings
+# custom
+ok 94 should be equal
+ok 95 should be equal
+ok 96 should be equal
+ok 97 should be equivalent
+# should resolve from config (shortstop-resolve)
+ok 98 should be equal
+# should not clobber `trust proxy fn`
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:16 +0000] "GET /ip HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 99 null
+# views
+# renderer
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:18 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 100 null
+# renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:18 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 101 null
+# alt renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:18 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 102 null
+# configured renderer function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:18 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 103 null
+# configured renderer factory function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:18 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 104 null
+# configured renderer exported function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:18 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 105 null
+# custom view implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:18 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 106 null
+# custom renderer module implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:18 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 107 null
+# built-in shim
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:18 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 108 null
+# built-in shim with precompiled templates
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:18 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 109 null
+
+1..109
+# tests 109
+# pass  109
+
+# ok
+
+************* run test done *************
+variantsDepsNum: 4
+/data/js-variants/multee
+4
+kraken-js is testing ./VariantsDeps/compression/variant4/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 429 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 653ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 515ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 431 packages in 2s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> kraken-js@2.4.0 test
+> tape test/*.js
+
+TAP version 13
+# composition
+# plugin
+ok 1 should not be equal
+ok 2 should not be equal
+ok 3 Expected 'x-powered-by' to be equal.
+ok 4 Expected 'etag' to be equal.
+ok 5 Expected 'env' to be equal.
+ok 6 Expected 'query parser' to be equal.
+ok 7 Expected 'subdomain offset' to be equal.
+ok 8 Expected 'trust proxy' to be equal.
+ok 9 Expected 'jsonp callback name' to be equal.
+ok 10 Expected 'case sensitive routing' to be equal.
+ok 11 Expected 'strict routing' to be equal.
+ok 12 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:29 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:29 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 13 null
+# plugin with mountpath
+ok 14 should not be equal
+ok 15 should not be equal
+ok 16 Expected 'x-powered-by' to be equal.
+ok 17 Expected 'etag' to be equal.
+ok 18 Expected 'env' to be equal.
+ok 19 Expected 'query parser' to be equal.
+ok 20 Expected 'subdomain offset' to be equal.
+ok 21 Expected 'trust proxy' to be equal.
+ok 22 Expected 'jsonp callback name' to be equal.
+ok 23 Expected 'case sensitive routing' to be equal.
+ok 24 Expected 'strict routing' to be equal.
+ok 25 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:29 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:29 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 26 null
+# inherited views
+ok 27 should be equal
+ok 28 should be equal
+ok 29 Expected 'x-powered-by' to be equal.
+ok 30 Expected 'etag' to be equal.
+ok 31 Expected 'env' to be equal.
+ok 32 Expected 'query parser' to be equal.
+ok 33 Expected 'subdomain offset' to be equal.
+ok 34 Expected 'trust proxy' to be equal.
+ok 35 Expected 'jsonp callback name' to be equal.
+ok 36 Expected 'case sensitive routing' to be equal.
+ok 37 Expected 'strict routing' to be equal.
+ok 38 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:29 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:29 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 39 null
+# late mounting
+ok 40 should not be equal
+ok 41 should not be equal
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:29 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 42 null
+# kraken
+# startup without options
+ok 43 server started
+# startup with basedir
+ok 44 server started
+# startup with options
+ok 45 server started
+# startup with custom config directory
+ok 46 server started
+# mount point
+ok 47 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:29 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 48 null
+# express route
+ok 49 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:29 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 50 null
+# startup delay
+ok 51 server started
+# onKrakenMount
+ok 52 app instance exist
+ok 53 app is a function
+ok 54 length of args is 2
+ok 55 bootstrap successful
+# server 503 until started
+ok 56 server starting
+ok 57 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:31 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 58 server is accepting requests
+# server 503 until started with custom headers
+ok 59 server starting
+ok 60 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:32 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 61 server is accepting requests
+# startup error
+ok 62 server starting
+ok 63 server startup failed
+ok 64 server is accepting requests
+# shutdown
+ok 65 server stopped
+ok 66 correct exit code
+ok 67 server stopped
+ok 68 correct exit code
+# shutdown headers
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:34 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 69 null
+ok 70 correct status code.
+ok 71 null
+ok 72 correct status code.
+ok 73 has custom header 1.
+ok 74 has custom header 1.
+# shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:34 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 75 null
+ok 76 correct status code.
+ok 77 null
+ok 78 correct status code.
+# override shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:34 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 79 null
+ok 80 correct status code.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:34 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 81 null
+ok 82 correct status code.
+# shutdown should only emit once, ever
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:34 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 83 no error.
+ok 84 correct status code.
+ok 85 shutdown emitted once.
+# middleware
+# no config
+# multipart
+ok 86 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:34 +0000] "POST / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 87 should be truthy
+ok 88 should be equal
+ok 89 should be equal
+ok 90 should be equal
+ok 91 should be equal
+ok 92 server is accepting requests
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:34 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 93 null
+# settings
+# custom
+ok 94 should be equal
+ok 95 should be equal
+ok 96 should be equal
+ok 97 should be equivalent
+# should resolve from config (shortstop-resolve)
+ok 98 should be equal
+# should not clobber `trust proxy fn`
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:35 +0000] "GET /ip HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 99 null
+# views
+# renderer
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:36 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 100 null
+# renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:36 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 101 null
+# alt renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:36 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 102 null
+# configured renderer function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:36 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 103 null
+# configured renderer factory function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:36 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 104 null
+# configured renderer exported function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:36 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 105 null
+# custom view implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:36 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 106 null
+# custom renderer module implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:36 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 107 null
+# built-in shim
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:36 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 108 null
+# built-in shim with precompiled templates
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:36 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 109 null
+
+1..109
+# tests 109
+# pass  109
+
+# ok
+
+************* run test done *************
+kraken-js is testing ./VariantsDeps/compression/variant3/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 429 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 725ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 543ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 431 packages in 2s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> kraken-js@2.4.0 test
+> tape test/*.js
+
+TAP version 13
+# composition
+# plugin
+ok 1 should not be equal
+ok 2 should not be equal
+ok 3 Expected 'x-powered-by' to be equal.
+ok 4 Expected 'etag' to be equal.
+ok 5 Expected 'env' to be equal.
+ok 6 Expected 'query parser' to be equal.
+ok 7 Expected 'subdomain offset' to be equal.
+ok 8 Expected 'trust proxy' to be equal.
+ok 9 Expected 'jsonp callback name' to be equal.
+ok 10 Expected 'case sensitive routing' to be equal.
+ok 11 Expected 'strict routing' to be equal.
+ok 12 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:46 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:46 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 13 null
+# plugin with mountpath
+ok 14 should not be equal
+ok 15 should not be equal
+ok 16 Expected 'x-powered-by' to be equal.
+ok 17 Expected 'etag' to be equal.
+ok 18 Expected 'env' to be equal.
+ok 19 Expected 'query parser' to be equal.
+ok 20 Expected 'subdomain offset' to be equal.
+ok 21 Expected 'trust proxy' to be equal.
+ok 22 Expected 'jsonp callback name' to be equal.
+ok 23 Expected 'case sensitive routing' to be equal.
+ok 24 Expected 'strict routing' to be equal.
+ok 25 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:46 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:46 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 26 null
+# inherited views
+ok 27 should be equal
+ok 28 should be equal
+ok 29 Expected 'x-powered-by' to be equal.
+ok 30 Expected 'etag' to be equal.
+ok 31 Expected 'env' to be equal.
+ok 32 Expected 'query parser' to be equal.
+ok 33 Expected 'subdomain offset' to be equal.
+ok 34 Expected 'trust proxy' to be equal.
+ok 35 Expected 'jsonp callback name' to be equal.
+ok 36 Expected 'case sensitive routing' to be equal.
+ok 37 Expected 'strict routing' to be equal.
+ok 38 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:46 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:46 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 39 null
+# late mounting
+ok 40 should not be equal
+ok 41 should not be equal
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:46 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 42 null
+# kraken
+# startup without options
+ok 43 server started
+# startup with basedir
+ok 44 server started
+# startup with options
+ok 45 server started
+# startup with custom config directory
+ok 46 server started
+# mount point
+ok 47 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:46 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 48 null
+# express route
+ok 49 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:46 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 50 null
+# startup delay
+ok 51 server started
+# onKrakenMount
+ok 52 app instance exist
+ok 53 app is a function
+ok 54 length of args is 2
+ok 55 bootstrap successful
+# server 503 until started
+ok 56 server starting
+ok 57 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:48 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 58 server is accepting requests
+# server 503 until started with custom headers
+ok 59 server starting
+ok 60 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:49 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 61 server is accepting requests
+# startup error
+ok 62 server starting
+ok 63 server startup failed
+ok 64 server is accepting requests
+# shutdown
+ok 65 server stopped
+ok 66 correct exit code
+ok 67 server stopped
+ok 68 correct exit code
+# shutdown headers
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:52 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 69 null
+ok 70 correct status code.
+ok 71 null
+ok 72 correct status code.
+ok 73 has custom header 1.
+ok 74 has custom header 1.
+# shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:52 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 75 null
+ok 76 correct status code.
+ok 77 null
+ok 78 correct status code.
+# override shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:52 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 79 null
+ok 80 correct status code.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:52 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 81 null
+ok 82 correct status code.
+# shutdown should only emit once, ever
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:52 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 83 no error.
+ok 84 correct status code.
+ok 85 shutdown emitted once.
+# middleware
+# no config
+# multipart
+ok 86 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:52 +0000] "POST / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 87 should be truthy
+ok 88 should be equal
+ok 89 should be equal
+ok 90 should be equal
+ok 91 should be equal
+ok 92 server is accepting requests
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:52 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 93 null
+# settings
+# custom
+ok 94 should be equal
+ok 95 should be equal
+ok 96 should be equal
+ok 97 should be equivalent
+# should resolve from config (shortstop-resolve)
+ok 98 should be equal
+# should not clobber `trust proxy fn`
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:52 +0000] "GET /ip HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 99 null
+# views
+# renderer
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:54 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 100 null
+# renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:54 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 101 null
+# alt renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:54 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 102 null
+# configured renderer function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:54 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 103 null
+# configured renderer factory function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:54 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 104 null
+# configured renderer exported function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:54 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 105 null
+# custom view implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:54 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 106 null
+# custom renderer module implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:54 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 107 null
+# built-in shim
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:54 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 108 null
+# built-in shim with precompiled templates
+::ffff:127.0.0.1 - - [22/Aug/2022:08:58:54 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 109 null
+
+1..109
+# tests 109
+# pass  109
+
+# ok
+
+************* run test done *************
+kraken-js is testing ./VariantsDeps/compression/variant2/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 429 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 551ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 431 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> kraken-js@2.4.0 test
+> tape test/*.js
+
+TAP version 13
+# composition
+# plugin
+ok 1 should not be equal
+ok 2 should not be equal
+ok 3 Expected 'x-powered-by' to be equal.
+ok 4 Expected 'etag' to be equal.
+ok 5 Expected 'env' to be equal.
+ok 6 Expected 'query parser' to be equal.
+ok 7 Expected 'subdomain offset' to be equal.
+ok 8 Expected 'trust proxy' to be equal.
+ok 9 Expected 'jsonp callback name' to be equal.
+ok 10 Expected 'case sensitive routing' to be equal.
+ok 11 Expected 'strict routing' to be equal.
+ok 12 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:05 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:05 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 13 null
+# plugin with mountpath
+ok 14 should not be equal
+ok 15 should not be equal
+ok 16 Expected 'x-powered-by' to be equal.
+ok 17 Expected 'etag' to be equal.
+ok 18 Expected 'env' to be equal.
+ok 19 Expected 'query parser' to be equal.
+ok 20 Expected 'subdomain offset' to be equal.
+ok 21 Expected 'trust proxy' to be equal.
+ok 22 Expected 'jsonp callback name' to be equal.
+ok 23 Expected 'case sensitive routing' to be equal.
+ok 24 Expected 'strict routing' to be equal.
+ok 25 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:05 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:05 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 26 null
+# inherited views
+ok 27 should be equal
+ok 28 should be equal
+ok 29 Expected 'x-powered-by' to be equal.
+ok 30 Expected 'etag' to be equal.
+ok 31 Expected 'env' to be equal.
+ok 32 Expected 'query parser' to be equal.
+ok 33 Expected 'subdomain offset' to be equal.
+ok 34 Expected 'trust proxy' to be equal.
+ok 35 Expected 'jsonp callback name' to be equal.
+ok 36 Expected 'case sensitive routing' to be equal.
+ok 37 Expected 'strict routing' to be equal.
+ok 38 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:05 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:05 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 39 null
+# late mounting
+ok 40 should not be equal
+ok 41 should not be equal
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:05 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 42 null
+# kraken
+# startup without options
+ok 43 server started
+# startup with basedir
+ok 44 server started
+# startup with options
+ok 45 server started
+# startup with custom config directory
+ok 46 server started
+# mount point
+ok 47 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:05 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 48 null
+# express route
+ok 49 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:05 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 50 null
+# startup delay
+ok 51 server started
+# onKrakenMount
+ok 52 app instance exist
+ok 53 app is a function
+ok 54 length of args is 2
+ok 55 bootstrap successful
+# server 503 until started
+ok 56 server starting
+ok 57 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:07 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 58 server is accepting requests
+# server 503 until started with custom headers
+ok 59 server starting
+ok 60 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:08 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 61 server is accepting requests
+# startup error
+ok 62 server starting
+ok 63 server startup failed
+ok 64 server is accepting requests
+# shutdown
+ok 65 server stopped
+ok 66 correct exit code
+ok 67 server stopped
+ok 68 correct exit code
+# shutdown headers
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:10 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 69 null
+ok 70 correct status code.
+ok 71 null
+ok 72 correct status code.
+ok 73 has custom header 1.
+ok 74 has custom header 1.
+# shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:10 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 75 null
+ok 76 correct status code.
+ok 77 null
+ok 78 correct status code.
+# override shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:10 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 79 null
+ok 80 correct status code.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:10 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 81 null
+ok 82 correct status code.
+# shutdown should only emit once, ever
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:10 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 83 no error.
+ok 84 correct status code.
+ok 85 shutdown emitted once.
+# middleware
+# no config
+# multipart
+ok 86 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:11 +0000] "POST / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 87 should be truthy
+ok 88 should be equal
+ok 89 should be equal
+ok 90 should be equal
+ok 91 should be equal
+ok 92 server is accepting requests
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:11 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 93 null
+# settings
+# custom
+ok 94 should be equal
+ok 95 should be equal
+ok 96 should be equal
+ok 97 should be equivalent
+# should resolve from config (shortstop-resolve)
+ok 98 should be equal
+# should not clobber `trust proxy fn`
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:11 +0000] "GET /ip HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 99 null
+# views
+# renderer
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:12 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 100 null
+# renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:12 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 101 null
+# alt renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:12 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 102 null
+# configured renderer function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:12 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 103 null
+# configured renderer factory function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:12 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 104 null
+# configured renderer exported function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:12 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 105 null
+# custom view implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:12 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 106 null
+# custom renderer module implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:12 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 107 null
+# built-in shim
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:12 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 108 null
+# built-in shim with precompiled templates
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:12 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 109 null
+
+1..109
+# tests 109
+# pass  109
+
+# ok
+
+************* run test done *************
+kraken-js is testing ./VariantsDeps/compression/variant1/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 429 packages in 3s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 965ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 517ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 431 packages in 2s
+
+44 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (3 low, 6 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> kraken-js@2.4.0 test
+> tape test/*.js
+
+TAP version 13
+# composition
+# plugin
+ok 1 should not be equal
+ok 2 should not be equal
+ok 3 Expected 'x-powered-by' to be equal.
+ok 4 Expected 'etag' to be equal.
+ok 5 Expected 'env' to be equal.
+ok 6 Expected 'query parser' to be equal.
+ok 7 Expected 'subdomain offset' to be equal.
+ok 8 Expected 'trust proxy' to be equal.
+ok 9 Expected 'jsonp callback name' to be equal.
+ok 10 Expected 'case sensitive routing' to be equal.
+ok 11 Expected 'strict routing' to be equal.
+ok 12 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:22 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:22 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 13 null
+# plugin with mountpath
+ok 14 should not be equal
+ok 15 should not be equal
+ok 16 Expected 'x-powered-by' to be equal.
+ok 17 Expected 'etag' to be equal.
+ok 18 Expected 'env' to be equal.
+ok 19 Expected 'query parser' to be equal.
+ok 20 Expected 'subdomain offset' to be equal.
+ok 21 Expected 'trust proxy' to be equal.
+ok 22 Expected 'jsonp callback name' to be equal.
+ok 23 Expected 'case sensitive routing' to be equal.
+ok 24 Expected 'strict routing' to be equal.
+ok 25 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:22 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:22 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 26 null
+# inherited views
+ok 27 should be equal
+ok 28 should be equal
+ok 29 Expected 'x-powered-by' to be equal.
+ok 30 Expected 'etag' to be equal.
+ok 31 Expected 'env' to be equal.
+ok 32 Expected 'query parser' to be equal.
+ok 33 Expected 'subdomain offset' to be equal.
+ok 34 Expected 'trust proxy' to be equal.
+ok 35 Expected 'jsonp callback name' to be equal.
+ok 36 Expected 'case sensitive routing' to be equal.
+ok 37 Expected 'strict routing' to be equal.
+ok 38 Expected 'query parser fn' to be equal.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:22 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:22 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 39 null
+# late mounting
+ok 40 should not be equal
+ok 41 should not be equal
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:22 +0000] "GET /plugin HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 42 null
+# kraken
+# startup without options
+ok 43 server started
+# startup with basedir
+ok 44 server started
+# startup with options
+ok 45 server started
+# startup with custom config directory
+ok 46 server started
+# mount point
+ok 47 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:23 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 48 null
+# express route
+ok 49 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:23 +0000] "GET /foo/ HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 50 null
+# startup delay
+ok 51 server started
+# onKrakenMount
+ok 52 app instance exist
+ok 53 app is a function
+ok 54 length of args is 2
+ok 55 bootstrap successful
+# server 503 until started
+ok 56 server starting
+ok 57 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:25 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 58 server is accepting requests
+# server 503 until started with custom headers
+ok 59 server starting
+ok 60 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:26 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 61 server is accepting requests
+# startup error
+ok 62 server starting
+ok 63 server startup failed
+ok 64 server is accepting requests
+# shutdown
+ok 65 server stopped
+ok 66 correct exit code
+ok 67 server stopped
+ok 68 correct exit code
+# shutdown headers
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:28 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 69 null
+ok 70 correct status code.
+ok 71 null
+ok 72 correct status code.
+ok 73 has custom header 1.
+ok 74 has custom header 1.
+# shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:28 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 75 null
+ok 76 correct status code.
+ok 77 null
+ok 78 correct status code.
+# override shutdown on uncaught
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:28 +0000] "GET /uncaught HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 79 null
+ok 80 correct status code.
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:28 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 81 null
+ok 82 correct status code.
+# shutdown should only emit once, ever
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:28 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 83 no error.
+ok 84 correct status code.
+ok 85 shutdown emitted once.
+# middleware
+# no config
+# multipart
+ok 86 server started
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:28 +0000] "POST / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 87 should be truthy
+ok 88 should be equal
+ok 89 should be equal
+ok 90 should be equal
+ok 91 should be equal
+ok 92 server is accepting requests
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:28 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 93 null
+# settings
+# custom
+ok 94 should be equal
+ok 95 should be equal
+ok 96 should be equal
+ok 97 should be equivalent
+# should resolve from config (shortstop-resolve)
+ok 98 should be equal
+# should not clobber `trust proxy fn`
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:28 +0000] "GET /ip HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 99 null
+# views
+# renderer
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:29 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 100 null
+# renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:29 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 101 null
+# alt renderer with consolidate
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:29 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 102 null
+# configured renderer function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:29 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 103 null
+# configured renderer factory function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:29 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 104 null
+# configured renderer exported function
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:30 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 105 null
+# custom view implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:30 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 106 null
+# custom renderer module implementation
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:30 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 107 null
+# built-in shim
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:30 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 108 null
+# built-in shim with precompiled templates
+::ffff:127.0.0.1 - - [22/Aug/2022:08:59:30 +0000] "GET / HTTP/1.1" - - "-" "node-superagent/3.8.3"
+ok 109 null
+
+1..109
+# tests 109
+# pass  109
+
+# ok
+
+************* run test done *************

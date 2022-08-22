@@ -33,8 +33,13 @@ projectName=$1
 # gitUrls=("https://github.com/pouchdb/pouchdb.git" "https://github.com/Level/mem.git" "https://github.com/mhart/dynalite.git" "https://github.com/Level/level-test.git" "https://github.com/Picolab/pico-framework.git")
 
 # express-session
-clientNames=("routing-controllers" "server" "Lien" "kraken-js" "kettle")
-gitUrls=("https://github.com/typestack/routing-controllers.git" "https://github.com/franciscop/server.git" "https://github.com/LienJS/Lien.git" "https://github.com/krakenjs/kraken-js.git" "https://github.com/fluid-project/kettle.git")
+# clientNames=("routing-controllers" "server" "Lien" "kraken-js" "kettle")
+# gitUrls=("https://github.com/typestack/routing-controllers.git" "https://github.com/franciscop/server.git" "https://github.com/LienJS/Lien.git" "https://github.com/krakenjs/kraken-js.git" "https://github.com/fluid-project/kettle.git")
+
+
+# compression
+clientNames=("hexo-server" "koop-core" "kraken-js" "molstar" "router")
+gitUrls=("https://github.com/hexojs/hexo-server.git" "https://github.com/koopjs/koop-core.git" "https://github.com/krakenjs/kraken-js.git" "https://github.com/molstar/molstar.git" "https://github.com/nxus/router.git")
 
 
 cd Clients/$projectName

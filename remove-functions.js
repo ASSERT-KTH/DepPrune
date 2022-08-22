@@ -4,25 +4,25 @@ const fs = require('fs')
 const args = process.argv.slice(2)
 const folderPath = args[1]
 const projectName = args[0]
-const jsonPath = `./Data/${projectName}_variants.json`
+// const jsonPath = `./Data/${projectName}_variants.json`
 
 
 const sourceFileString = fs.readFileSync(folderPath)
 const ast = recast.parse(sourceFileString)
 const astBody = ast.program.body
 
-const jsonFileString = fs.readFileSync(`${jsonPath}`)
-let jsonObj
+// const jsonFileString = fs.readFileSync(`${jsonPath}`)
+// let jsonObj
 
-try {
-  jsonObj = JSON.parse(jsonFileString)
-  // console.log(jsonObj)
-} catch (err) {
-  // 👇️ SyntaxError: Unexpected end of JSON input
-  console.log('error', err)
-}
+// try {
+//   jsonObj = JSON.parse(jsonFileString)
+//   // console.log(jsonObj)
+// } catch (err) {
+//   // 👇️ SyntaxError: Unexpected end of JSON input
+//   console.log('error', err)
+// }
 
-fs.writeFileSync(`${jsonPath}`, '')
+// fs.writeFileSync(`${jsonPath}`, '')
 
 // let index = 0
 
@@ -35,10 +35,10 @@ const variantNum = fileNameArr[nmIndex - 2]
 const depFileName = fileNameArr.slice(depIndex).join('/')
 
 // console.log(jsonObj.variantNum && !jsonObj.variantNum.funcNum)
-if (jsonObj[variantNum] && !jsonObj[variantNum]['funcNum']) {
-  jsonObj[variantNum]['funcNum'] = 0
-  jsonObj[variantNum]['functions'] = []
-}
+// if (jsonObj[variantNum] && !jsonObj[variantNum]['funcNum']) {
+//   jsonObj[variantNum]['funcNum'] = 0
+//   jsonObj[variantNum]['functions'] = []
+// }
 
 
 function removeUFF(node) {
@@ -49,8 +49,8 @@ function removeUFF(node) {
 
   const funcName = node.loc ? `${depFileName}_function_${node.loc.start.line}_${node.loc.start.column}` : `${depFileName}_function_in_class`
   console.log(`${funcName} has been removed`)
-  jsonObj[variantNum]['funcNum']++
-  jsonObj[variantNum]['functions'].push(funcName)
+  // jsonObj[variantNum]['funcNum']++
+  // jsonObj[variantNum]['functions'].push(funcName)
 }
 
 function forRemoveCycle(nodeArr) {
@@ -254,4 +254,4 @@ for (let i = 0; i < astBody.length; i++) {
 const targetFileString = recast.print(ast).code
 fs.writeFileSync(folderPath, targetFileString, 'utf-8')
 
-fs.writeFileSync(`${jsonPath}`, JSON.stringify(jsonObj))
+// fs.writeFileSync(`${jsonPath}`, JSON.stringify(jsonObj))

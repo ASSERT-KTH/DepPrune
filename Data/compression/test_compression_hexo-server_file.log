@@ -1,0 +1,702 @@
+/data/js-variants/multee
+7
+hexo-server is testing ./Variants/compression/variant7/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 6 packages, and audited 467 packages in 2s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+up to date, audited 1 package in 426ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 708ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 469 packages in 2s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> hexo-server@3.0.0 test
+> mocha test/index.js
+
+
+
+  server
+    ✔ X-Powered-By header (46ms)
+    ✔ Remove X-Powered-By header if options.header is false
+    ✔ Content-Type header
+    ✔ Do not try to overwrite Content-Type header
+    ✔ Enable compression if options.compress is true
+    ✔ Disable compression if options.compress is false
+    ✔ static asset
+    ✔ invalid port
+    ✔ invalid port > 65535
+    ✔ change port setting
+    ✔ check port before starting
+    ✔ change ip setting
+    ✔ proxy to .html if available
+    ✔ append trailing slash
+    ✔ redirects to valid path if available
+    ✔ trailing_html (default) - no redirect
+    ✔ trailing_html (false) - redirect when available
+    ✔ trailing_index (default) - no redirect
+    ✔ trailing_index (false) - redirect when available
+    ✔ don't append trailing slash if URL has a extension name
+    ✔ only send headers on HEAD request
+    ✔ redirect to root URL if root is not `/`
+    ✔ display localhost instead of 0.0.0.0
+    ✔ display localhost instead of [::]
+
+
+  24 passing (385ms)
+
+************* run test done *************
+hexo-server is testing ./Variants/compression/variant6/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 467 packages in 3s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 753ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 567ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 469 packages in 3s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> hexo-server@3.0.0 test
+> mocha test/index.js
+
+
+
+  server
+    ✔ X-Powered-By header (47ms)
+    ✔ Remove X-Powered-By header if options.header is false
+    ✔ Content-Type header
+    ✔ Do not try to overwrite Content-Type header
+    ✔ Enable compression if options.compress is true
+    ✔ Disable compression if options.compress is false
+    ✔ static asset
+    ✔ invalid port
+    ✔ invalid port > 65535
+    ✔ change port setting
+    ✔ check port before starting
+    ✔ change ip setting
+    ✔ proxy to .html if available
+    ✔ append trailing slash
+    ✔ redirects to valid path if available
+    ✔ trailing_html (default) - no redirect
+    ✔ trailing_html (false) - redirect when available
+    ✔ trailing_index (default) - no redirect
+    ✔ trailing_index (false) - redirect when available
+    ✔ don't append trailing slash if URL has a extension name
+    ✔ only send headers on HEAD request
+    ✔ redirect to root URL if root is not `/`
+    ✔ display localhost instead of 0.0.0.0
+    ✔ display localhost instead of [::]
+
+
+  24 passing (485ms)
+
+************* run test done *************
+hexo-server is testing ./Variants/compression/variant5/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 467 packages in 2s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 704ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 557ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 469 packages in 2s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> hexo-server@3.0.0 test
+> mocha test/index.js
+
+************* run test done *************
+hexo-server is testing ./Variants/compression/variant4/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 467 packages in 3s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 908ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 561ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 469 packages in 3s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> hexo-server@3.0.0 test
+> mocha test/index.js
+
+
+
+  server
+    ✔ X-Powered-By header (47ms)
+    ✔ Remove X-Powered-By header if options.header is false
+    ✔ Content-Type header
+    ✔ Do not try to overwrite Content-Type header
+    ✔ Enable compression if options.compress is true
+    ✔ Disable compression if options.compress is false
+    ✔ static asset
+    ✔ invalid port
+    ✔ invalid port > 65535
+    ✔ change port setting
+    ✔ check port before starting
+    ✔ change ip setting
+    ✔ proxy to .html if available
+    ✔ append trailing slash
+    ✔ redirects to valid path if available
+    ✔ trailing_html (default) - no redirect
+    ✔ trailing_html (false) - redirect when available
+    ✔ trailing_index (default) - no redirect
+    ✔ trailing_index (false) - redirect when available
+    ✔ don't append trailing slash if URL has a extension name
+    ✔ only send headers on HEAD request
+    ✔ redirect to root URL if root is not `/`
+    ✔ display localhost instead of 0.0.0.0
+    ✔ display localhost instead of [::]
+
+
+  24 passing (375ms)
+
+************* run test done *************
+hexo-server is testing ./Variants/compression/variant3/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 467 packages in 3s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 447ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 469 packages in 3s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> hexo-server@3.0.0 test
+> mocha test/index.js
+
+
+
+  server
+    ✔ X-Powered-By header (47ms)
+    ✔ Remove X-Powered-By header if options.header is false
+    ✔ Content-Type header
+    ✔ Do not try to overwrite Content-Type header
+    ✔ Enable compression if options.compress is true
+    ✔ Disable compression if options.compress is false
+    ✔ static asset
+    ✔ invalid port
+    ✔ invalid port > 65535
+    ✔ change port setting
+    ✔ check port before starting
+    ✔ change ip setting
+    ✔ proxy to .html if available
+    ✔ append trailing slash
+    ✔ redirects to valid path if available
+    ✔ trailing_html (default) - no redirect
+    ✔ trailing_html (false) - redirect when available
+    ✔ trailing_index (default) - no redirect
+    ✔ trailing_index (false) - redirect when available
+    ✔ don't append trailing slash if URL has a extension name
+    ✔ only send headers on HEAD request
+    ✔ redirect to root URL if root is not `/`
+    ✔ display localhost instead of 0.0.0.0
+    ✔ display localhost instead of [::]
+
+
+  24 passing (376ms)
+
+************* run test done *************
+hexo-server is testing ./Variants/compression/variant2/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 467 packages in 2s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 697ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 549ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 469 packages in 3s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> hexo-server@3.0.0 test
+> mocha test/index.js
+
+
+
+  server
+    ✔ X-Powered-By header (60ms)
+    ✔ Remove X-Powered-By header if options.header is false
+    ✔ Content-Type header
+    ✔ Do not try to overwrite Content-Type header
+    ✔ Enable compression if options.compress is true
+    ✔ Disable compression if options.compress is false
+    ✔ static asset
+    ✔ invalid port
+    ✔ invalid port > 65535
+    ✔ change port setting
+    ✔ check port before starting
+    ✔ change ip setting
+    ✔ proxy to .html if available
+    ✔ append trailing slash
+    ✔ redirects to valid path if available
+    ✔ trailing_html (default) - no redirect
+    ✔ trailing_html (false) - redirect when available
+    ✔ trailing_index (default) - no redirect
+    ✔ trailing_index (false) - redirect when available
+    ✔ don't append trailing slash if URL has a extension name
+    ✔ only send headers on HEAD request
+    ✔ redirect to root URL if root is not `/`
+    ✔ display localhost instead of 0.0.0.0
+    ✔ display localhost instead of [::]
+
+
+  24 passing (510ms)
+
+************* run test done *************
+hexo-server is testing ./Variants/compression/variant1/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 467 packages in 3s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 616ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 519ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 469 packages in 3s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> hexo-server@3.0.0 test
+> mocha test/index.js
+
+
+
+  server
+    ✔ X-Powered-By header (56ms)
+    ✔ Remove X-Powered-By header if options.header is false
+    ✔ Content-Type header
+    ✔ Do not try to overwrite Content-Type header
+    ✔ Enable compression if options.compress is true
+    ✔ Disable compression if options.compress is false
+    ✔ static asset
+    ✔ invalid port
+    ✔ invalid port > 65535
+    ✔ change port setting
+    ✔ check port before starting
+    ✔ change ip setting
+    ✔ proxy to .html if available
+    ✔ append trailing slash
+    ✔ redirects to valid path if available
+    ✔ trailing_html (default) - no redirect
+    ✔ trailing_html (false) - redirect when available
+    ✔ trailing_index (default) - no redirect
+    ✔ trailing_index (false) - redirect when available
+    ✔ don't append trailing slash if URL has a extension name
+    ✔ only send headers on HEAD request
+    ✔ redirect to root URL if root is not `/`
+    ✔ display localhost instead of 0.0.0.0
+    ✔ display localhost instead of [::]
+
+
+  24 passing (360ms)
+
+************* run test done *************
+variantsDepsNum: 4
+/data/js-variants/multee
+4
+hexo-server is testing ./VariantsDeps/compression/variant4/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 467 packages in 3s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 972ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 524ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 469 packages in 3s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> hexo-server@3.0.0 test
+> mocha test/index.js
+
+
+
+  server
+    ✔ X-Powered-By header (57ms)
+    ✔ Remove X-Powered-By header if options.header is false
+    ✔ Content-Type header
+    ✔ Do not try to overwrite Content-Type header
+    ✔ Enable compression if options.compress is true
+    ✔ Disable compression if options.compress is false
+    ✔ static asset
+    ✔ invalid port
+    ✔ invalid port > 65535
+    ✔ change port setting
+    ✔ check port before starting
+    ✔ change ip setting
+    ✔ proxy to .html if available
+    ✔ append trailing slash
+    ✔ redirects to valid path if available
+    ✔ trailing_html (default) - no redirect
+    ✔ trailing_html (false) - redirect when available
+    ✔ trailing_index (default) - no redirect
+    ✔ trailing_index (false) - redirect when available
+    ✔ don't append trailing slash if URL has a extension name
+    ✔ only send headers on HEAD request
+    ✔ redirect to root URL if root is not `/`
+    ✔ display localhost instead of 0.0.0.0
+    ✔ display localhost instead of [::]
+
+
+  24 passing (418ms)
+
+************* run test done *************
+hexo-server is testing ./VariantsDeps/compression/variant3/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 467 packages in 3s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 531ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 550ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 469 packages in 2s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> hexo-server@3.0.0 test
+> mocha test/index.js
+
+************* run test done *************
+hexo-server is testing ./VariantsDeps/compression/variant2/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 467 packages in 3s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 902ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 542ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 469 packages in 3s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> hexo-server@3.0.0 test
+> mocha test/index.js
+
+
+
+  server
+    ✔ X-Powered-By header (44ms)
+    ✔ Remove X-Powered-By header if options.header is false
+    ✔ Content-Type header
+    ✔ Do not try to overwrite Content-Type header
+    ✔ Enable compression if options.compress is true
+    ✔ Disable compression if options.compress is false
+    ✔ static asset
+    ✔ invalid port
+    ✔ invalid port > 65535
+    ✔ change port setting
+    ✔ check port before starting
+    ✔ change ip setting
+    ✔ proxy to .html if available
+    ✔ append trailing slash
+    ✔ redirects to valid path if available
+    ✔ trailing_html (default) - no redirect
+    ✔ trailing_html (false) - redirect when available
+    ✔ trailing_index (default) - no redirect
+    ✔ trailing_index (false) - redirect when available
+    ✔ don't append trailing slash if URL has a extension name
+    ✔ only send headers on HEAD request
+    ✔ redirect to root URL if root is not `/`
+    ✔ display localhost instead of 0.0.0.0
+    ✔ display localhost instead of [::]
+
+
+  24 passing (575ms)
+
+************* run test done *************
+hexo-server is testing ./VariantsDeps/compression/variant1/compression
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 467 packages in 3s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 926ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 548ms
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 469 packages in 3s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> hexo-server@3.0.0 test
+> mocha test/index.js
+
+
+
+  server
+    ✔ X-Powered-By header
+    ✔ Remove X-Powered-By header if options.header is false
+    ✔ Content-Type header
+    ✔ Do not try to overwrite Content-Type header
+    ✔ Enable compression if options.compress is true
+    ✔ Disable compression if options.compress is false
+    ✔ static asset
+    ✔ invalid port
+    ✔ invalid port > 65535
+    ✔ change port setting
+    ✔ check port before starting
+    ✔ change ip setting
+    ✔ proxy to .html if available
+    ✔ append trailing slash
+    ✔ redirects to valid path if available
+    ✔ trailing_html (default) - no redirect
+    ✔ trailing_html (false) - redirect when available
+    ✔ trailing_index (default) - no redirect
+    ✔ trailing_index (false) - redirect when available
+    ✔ don't append trailing slash if URL has a extension name
+    ✔ only send headers on HEAD request
+    ✔ redirect to root URL if root is not `/`
+    ✔ display localhost instead of 0.0.0.0
+    ✔ display localhost instead of [::]
+
+
+  24 passing (609ms)
+
+************* run test done *************

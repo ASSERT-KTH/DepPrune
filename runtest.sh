@@ -4,7 +4,7 @@ modeName=$2
 variantsNum=`cd $modeName/$projectName && ls -l |grep "^d"|wc -l`
 # variantsNum=44
 echo $variantsNum
-echo $variantsNum > /dev/stderr
+echo $variantsNum >> /dev/stderr
 
 for (( i=$variantsNum; i>=1; i--))
 do
