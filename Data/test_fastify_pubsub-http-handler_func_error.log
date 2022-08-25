@@ -1,0 +1,1911 @@
+84
+pubsub-http-handler is testing ./Variants/fastify/variant84/fastify
+************* start run test *************
+FAIL src/__tests__/fastify-plugin.test.ts (5.971 s)
+  ● fastify-plugin › should forward requests
+
+    ReferenceError: lyx is not defined
+
+      at validate10 (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/lib/configValidator.js:10:3)
+      at doInject (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/index.js:144:23)
+
+  ● fastify-plugin › should forward statusCode
+
+    ReferenceError: lyx is not defined
+
+      at validate10 (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/lib/configValidator.js:10:3)
+      at doInject (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/index.js:144:23)
+
+  ● fastify-plugin › should return onError on throw
+
+    ReferenceError: lyx is not defined
+
+      at validate10 (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/lib/configValidator.js:10:3)
+      at doInject (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/index.js:144:23)
+
+  ● fastify-plugin › should not return onError on throw
+
+    ReferenceError: lyx is not defined
+
+      at validate10 (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/lib/configValidator.js:10:3)
+      at doInject (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/index.js:144:23)
+
+  ● fastify-plugin › should not throw if request is missing attributes
+
+    ReferenceError: lyx is not defined
+
+      at validate10 (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/lib/configValidator.js:10:3)
+      at doInject (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/index.js:144:23)
+
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+FAIL src/__tests__/server.test.ts
+  ● server › should forward requests
+
+    ReferenceError: lyx is not defined
+
+      at validate10 (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/lib/configValidator.js:10:3)
+      at doInject (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../Variants/fastify/variant84/fastify/node_modules/light-my-request/index.js:144:23)
+
+PASS src/__tests__/server-utils.test.ts
+Jest: "global" coverage threshold for branches (80%) not met: 68.42%
+
+Test Suites: 2 failed, 4 passed, 6 total
+Tests:       6 failed, 8 passed, 14 total
+Snapshots:   1 passed, 1 total
+Time:        9.962 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant83/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.897 s, estimated 10 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant82/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.924 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant81/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.782 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant80/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.758 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant79/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.764 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant78/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.835 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant77/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.777 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant76/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.76 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant75/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.813 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant74/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.82 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant73/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.782 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant72/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.799 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant71/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.815 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant70/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.792 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant69/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.796 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant68/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.774 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant67/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.782 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant66/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.724 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant65/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.799 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant64/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.798 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant63/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.778 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant62/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.708 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant61/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.8 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant60/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.791 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant59/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.791 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant58/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.787 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant57/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.779 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant56/fastify
+************* start run test *************
+FAIL src/__tests__/fastify-plugin.test.ts
+  ● fastify-plugin › should forward requests
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../Variants/fastify/variant56/fastify/lib/route.js:319:21)
+      at ../../../Variants/fastify/variant56/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:224:9)
+
+  ● fastify-plugin › should forward statusCode
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../Variants/fastify/variant56/fastify/lib/route.js:319:21)
+      at ../../../Variants/fastify/variant56/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:224:9)
+
+  ● fastify-plugin › should return onError on throw
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../Variants/fastify/variant56/fastify/lib/route.js:319:21)
+      at ../../../Variants/fastify/variant56/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:224:9)
+
+  ● fastify-plugin › should not return onError on throw
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../Variants/fastify/variant56/fastify/lib/route.js:319:21)
+      at ../../../Variants/fastify/variant56/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:224:9)
+
+  ● fastify-plugin › should not throw if request is missing attributes
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../Variants/fastify/variant56/fastify/lib/route.js:319:21)
+      at ../../../Variants/fastify/variant56/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:224:9)
+
+FAIL src/__tests__/server.test.ts
+  ● server › should forward requests
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../Variants/fastify/variant56/fastify/lib/route.js:319:21)
+      at ../../../Variants/fastify/variant56/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../Variants/fastify/variant56/fastify/node_modules/avvio/plugin.js:224:9)
+
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+Jest: "global" coverage threshold for branches (80%) not met: 68.42%
+
+Test Suites: 2 failed, 4 passed, 6 total
+Tests:       6 failed, 8 passed, 14 total
+Snapshots:   1 passed, 1 total
+Time:        4.847 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant55/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.8 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant54/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.8 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant53/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.77 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant52/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.755 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant51/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.745 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant50/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.788 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant49/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.727 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant48/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.796 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant47/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.762 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant46/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.81 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant45/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.688 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant44/fastify
+************* start run test *************
+FAIL src/__tests__/fastify-plugin.test.ts
+  ● fastify-plugin › should forward requests
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../Variants/fastify/variant44/fastify/lib/route.js:319:21)
+      at ../../../Variants/fastify/variant44/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:224:9)
+
+  ● fastify-plugin › should forward statusCode
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../Variants/fastify/variant44/fastify/lib/route.js:319:21)
+      at ../../../Variants/fastify/variant44/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:224:9)
+
+  ● fastify-plugin › should return onError on throw
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../Variants/fastify/variant44/fastify/lib/route.js:319:21)
+      at ../../../Variants/fastify/variant44/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:224:9)
+
+  ● fastify-plugin › should not return onError on throw
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../Variants/fastify/variant44/fastify/lib/route.js:319:21)
+      at ../../../Variants/fastify/variant44/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:224:9)
+
+  ● fastify-plugin › should not throw if request is missing attributes
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../Variants/fastify/variant44/fastify/lib/route.js:319:21)
+      at ../../../Variants/fastify/variant44/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:224:9)
+
+FAIL src/__tests__/server.test.ts
+  ● server › should forward requests
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../Variants/fastify/variant44/fastify/lib/route.js:319:21)
+      at ../../../Variants/fastify/variant44/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../Variants/fastify/variant44/fastify/node_modules/avvio/plugin.js:224:9)
+
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+Jest: "global" coverage threshold for branches (80%) not met: 68.42%
+
+Test Suites: 2 failed, 4 passed, 6 total
+Tests:       6 failed, 8 passed, 14 total
+Snapshots:   1 passed, 1 total
+Time:        4.74 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant43/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.761 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant42/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.821 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant41/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.774 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant40/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.748 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant39/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.703 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant38/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.897 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant37/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.722 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant36/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.762 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant35/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.724 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant34/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.695 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant33/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.776 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant32/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.802 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant31/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.801 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant30/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.768 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant29/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.793 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant28/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.621 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant27/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.73 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant26/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.853 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant25/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.819 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant24/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.738 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant23/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.688 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant22/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.823 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant21/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.764 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant20/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.887 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant19/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.713 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant18/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.876 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant17/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.758 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant16/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.766 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant15/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.716 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant14/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.755 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant13/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.697 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant12/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.748 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant11/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.86 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant10/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.737 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant9/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.804 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant8/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.74 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant7/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.798 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant6/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.743 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant5/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.685 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant4/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.758 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant3/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.807 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant2/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.819 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./Variants/fastify/variant1/fastify
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.785 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+14
+pubsub-http-handler is testing ./VariantsDeps/fastify/variant14/fastify
+/data/js-variants/multee
+************* start run test *************
+FAIL src/__tests__/fastify-plugin.test.ts
+  ● fastify-plugin › should forward requests
+
+    ReferenceError: lyx is not defined
+
+      at validate10 (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/lib/configValidator.js:10:3)
+      at doInject (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:144:23)
+
+  ● fastify-plugin › should forward statusCode
+
+    ReferenceError: lyx is not defined
+
+      at validate10 (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/lib/configValidator.js:10:3)
+      at doInject (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:144:23)
+
+  ● fastify-plugin › should return onError on throw
+
+    ReferenceError: lyx is not defined
+
+      at validate10 (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/lib/configValidator.js:10:3)
+      at doInject (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:144:23)
+
+  ● fastify-plugin › should not return onError on throw
+
+    ReferenceError: lyx is not defined
+
+      at validate10 (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/lib/configValidator.js:10:3)
+      at doInject (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:144:23)
+
+  ● fastify-plugin › should not throw if request is missing attributes
+
+    ReferenceError: lyx is not defined
+
+      at validate10 (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/lib/configValidator.js:10:3)
+      at doInject (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:144:23)
+
+FAIL src/__tests__/server.test.ts
+  ● server › should forward requests
+
+    ReferenceError: lyx is not defined
+
+      at validate10 (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/lib/configValidator.js:10:3)
+      at doInject (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:36:27)
+      at Chain.<computed> [as then] (../../../VariantsDeps/fastify/variant14/fastify/node_modules/light-my-request/index.js:144:23)
+
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+Jest: "global" coverage threshold for branches (80%) not met: 68.42%
+
+Test Suites: 2 failed, 4 passed, 6 total
+Tests:       6 failed, 8 passed, 14 total
+Snapshots:   1 passed, 1 total
+Time:        4.565 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./VariantsDeps/fastify/variant13/fastify
+/data/js-variants/multee
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.744 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./VariantsDeps/fastify/variant12/fastify
+/data/js-variants/multee
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.808 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./VariantsDeps/fastify/variant11/fastify
+/data/js-variants/multee
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.725 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./VariantsDeps/fastify/variant10/fastify
+/data/js-variants/multee
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.675 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./VariantsDeps/fastify/variant9/fastify
+/data/js-variants/multee
+************* start run test *************
+FAIL src/__tests__/fastify-plugin.test.ts
+  ● fastify-plugin › should forward requests
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../VariantsDeps/fastify/variant9/fastify/lib/route.js:319:21)
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:224:9)
+
+  ● fastify-plugin › should forward statusCode
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../VariantsDeps/fastify/variant9/fastify/lib/route.js:319:21)
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:224:9)
+
+  ● fastify-plugin › should return onError on throw
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../VariantsDeps/fastify/variant9/fastify/lib/route.js:319:21)
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:224:9)
+
+  ● fastify-plugin › should not return onError on throw
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../VariantsDeps/fastify/variant9/fastify/lib/route.js:319:21)
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:224:9)
+
+  ● fastify-plugin › should not throw if request is missing attributes
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../VariantsDeps/fastify/variant9/fastify/lib/route.js:319:21)
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:224:9)
+
+FAIL src/__tests__/server.test.ts
+  ● server › should forward requests
+
+    FastifyError: Failed building the validation schema for POST: /, due to error lyx is not defined
+
+      317 |               compileSchemasForValidation(context, opts.validatorCompiler || schemaController.validatorCompiler)
+      318 |             } catch (error) {
+    > 319 |               throw new FST_ERR_SCH_VALIDATION_BUILD(opts.method, url, error.message)
+          |                     ^
+      320 |             }
+      321 |
+      322 |             if (opts.schema.response && !opts.serializerCompiler) {
+
+      at Boot.<anonymous> (../../../VariantsDeps/fastify/variant9/fastify/lib/route.js:319:21)
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/boot.js:160:12
+      at ../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:275:7
+      at done (../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:200:5)
+      at check (../../../VariantsDeps/fastify/variant9/fastify/node_modules/avvio/plugin.js:224:9)
+
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+Jest: "global" coverage threshold for branches (80%) not met: 68.42%
+
+Test Suites: 2 failed, 4 passed, 6 total
+Tests:       6 failed, 8 passed, 14 total
+Snapshots:   1 passed, 1 total
+Time:        4.731 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./VariantsDeps/fastify/variant8/fastify
+/data/js-variants/multee
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.808 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./VariantsDeps/fastify/variant7/fastify
+/data/js-variants/multee
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.845 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./VariantsDeps/fastify/variant6/fastify
+/data/js-variants/multee
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.665 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./VariantsDeps/fastify/variant5/fastify
+/data/js-variants/multee
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.748 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./VariantsDeps/fastify/variant4/fastify
+/data/js-variants/multee
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.775 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./VariantsDeps/fastify/variant3/fastify
+/data/js-variants/multee
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.724 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./VariantsDeps/fastify/variant2/fastify
+/data/js-variants/multee
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.744 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************
+pubsub-http-handler is testing ./VariantsDeps/fastify/variant1/fastify
+/data/js-variants/multee
+************* start run test *************
+PASS src/__tests__/fastify-plugin.test.ts
+PASS src/__tests__/server.test.ts
+PASS src/__tests__/index.test.ts
+PASS src/__tests__/cloud-functions.test.ts
+PASS src/__tests__/common.test.ts
+PASS src/__tests__/server-utils.test.ts
+
+Test Suites: 6 passed, 6 total
+Tests:       14 passed, 14 total
+Snapshots:   2 passed, 2 total
+Time:        4.734 s, estimated 5 s
+Ran all test suites matching /src/i.
+************* run test done *************

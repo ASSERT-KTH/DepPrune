@@ -48,8 +48,8 @@ do
     echo "************* start run test *************"
     echo "************* start run test *************" >> /dev/stderr
     # timeout -k 30s 2m npm run test
-    # timeout -k 300s 2m npm run test
-    npm run test
+    timeout -k 300s 2m npm run test
+    # npm run test
     cd ../../..
     echo "************* run test done *************"
     echo "************* run test done *************" >> /dev/stderr
@@ -96,8 +96,8 @@ do
     echo "************* start run test *************"
     echo "************* start run test *************" >> /dev/stderr
     # timeout -k 30s 2m npm run test
-    # timeout -k 300s 2m npm run test
-    npm run test
+    timeout -k 300s 2m npm run test
+    # npm run test
     cd ../../..
     echo "************* run test done *************"
     echo "************* run test done *************" >> /dev/stderr

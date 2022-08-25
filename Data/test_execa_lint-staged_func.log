@@ -1,0 +1,1853 @@
+/data/js-variants/multee
+11
+lint-staged is testing ./Variants/execa/variant11/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 747ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 385ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |     100 |      100 |     100 |     100 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |     100 |      100 |     100 |     100 |                   
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |     100 |      100 |     100 |     100 |                   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |      100 |     100 |     100 |                   
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |     100 |      100 |     100 |     100 |                   
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+lint-staged is testing ./Variants/execa/variant10/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 749ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 381ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |     100 |      100 |     100 |     100 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |     100 |      100 |     100 |     100 |                   
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |     100 |      100 |     100 |     100 |                   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |      100 |     100 |     100 |                   
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |     100 |      100 |     100 |     100 |                   
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+lint-staged is testing ./Variants/execa/variant9/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 745ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 363ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|------------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s      
+-----------------------|---------|----------|---------|---------|------------------------
+All files              |   78.95 |    81.84 |   77.27 |   78.84 |                        
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                        
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                        
+ execGit.js            |   88.88 |      100 |     100 |   88.88 | 25                     
+ figures.js            |     100 |      100 |     100 |     100 |                        
+ file.js               |   73.68 |       40 |   66.66 |   73.68 | 19-20,38,51-52         
+ generateTasks.js      |     100 |      100 |     100 |     100 |                        
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                        
+ getRenderer.js        |     100 |      100 |     100 |     100 |                        
+ getStagedFiles.js     |    12.5 |        0 |       0 |   16.66 | 10-16                  
+ gitWorkflow.js        |   25.19 |    20.58 |      16 |   24.79 | 35-43,63-65,93,123-347 
+ groupFilesByConfig.js |     100 |    81.81 |     100 |     100 | 32-38                  
+ index.js              |     100 |    84.61 |     100 |     100 | 65,81,119-121          
+ loadConfig.js         |     100 |      100 |     100 |     100 |                        
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                        
+ messages.js           |     100 |       75 |     100 |     100 | 35                     
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                        
+ printTaskOutput.js    |   83.33 |      100 |     100 |      80 | 10                     
+ resolveGitRepo.js     |   13.79 |        0 |       0 |   14.28 | 18-24,31-39,47-68      
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                        
+ runAll.js             |   90.52 |    89.06 |   86.95 |   91.86 | 96-98,105,173,282,297  
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                        
+ state.js              |   92.85 |    89.28 |     100 |   91.66 | 42-43                  
+ symbols.js            |     100 |      100 |     100 |     100 |                        
+ validateBraces.js     |     100 |      100 |     100 |     100 |                        
+ validateConfig.js     |     100 |      100 |     100 |     100 |                        
+ validateOptions.js    |     100 |      100 |     100 |     100 |                        
+-----------------------|---------|----------|---------|---------|------------------------
+************* run test done *************
+lint-staged is testing ./Variants/execa/variant8/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 748ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 356ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|------------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s      
+-----------------------|---------|----------|---------|---------|------------------------
+All files              |   82.87 |    86.74 |    80.3 |   82.58 |                        
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                        
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                        
+ execGit.js            |     100 |      100 |     100 |     100 |                        
+ figures.js            |     100 |      100 |     100 |     100 |                        
+ file.js               |   73.68 |       40 |   66.66 |   73.68 | 19-20,38,51-52         
+ generateTasks.js      |     100 |      100 |     100 |     100 |                        
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                        
+ getRenderer.js        |     100 |      100 |     100 |     100 |                        
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                        
+ gitWorkflow.js        |   25.19 |    20.58 |      16 |   24.79 | 35-43,63-65,93,123-347 
+ groupFilesByConfig.js |     100 |    81.81 |     100 |     100 | 32-38                  
+ index.js              |     100 |    96.15 |     100 |     100 | 121                    
+ loadConfig.js         |     100 |      100 |     100 |     100 |                        
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                        
+ messages.js           |     100 |       75 |     100 |     100 | 35                     
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                        
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                        
+ resolveGitRepo.js     |   62.06 |    77.77 |   66.66 |   64.28 | 18-24,59-65            
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                        
+ runAll.js             |   94.73 |    93.75 |   86.95 |   95.34 | 105,173,282,297        
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                        
+ state.js              |   92.85 |    89.28 |     100 |   91.66 | 42-43                  
+ symbols.js            |     100 |      100 |     100 |     100 |                        
+ validateBraces.js     |     100 |      100 |     100 |     100 |                        
+ validateConfig.js     |     100 |      100 |     100 |     100 |                        
+ validateOptions.js    |     100 |      100 |     100 |     100 |                        
+-----------------------|---------|----------|---------|---------|------------------------
+************* run test done *************
+lint-staged is testing ./Variants/execa/variant7/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 812ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 369ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |   96.51 |     97.4 |   97.72 |   96.42 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |   84.21 |       70 |   66.66 |   84.21 | 38,51-52          
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |   84.25 |    88.23 |      92 |   84.29 | 157,281,296-334   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |    96.15 |     100 |     100 | 121               
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |   96.42 |    96.42 |     100 |   95.83 | 43                
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+lint-staged is testing ./Variants/execa/variant6/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 754ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 359ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|------------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s      
+-----------------------|---------|----------|---------|---------|------------------------
+All files              |   82.87 |    86.74 |    80.3 |   82.58 |                        
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                        
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                        
+ execGit.js            |     100 |      100 |     100 |     100 |                        
+ figures.js            |     100 |      100 |     100 |     100 |                        
+ file.js               |   73.68 |       40 |   66.66 |   73.68 | 19-20,38,51-52         
+ generateTasks.js      |     100 |      100 |     100 |     100 |                        
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                        
+ getRenderer.js        |     100 |      100 |     100 |     100 |                        
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                        
+ gitWorkflow.js        |   25.19 |    20.58 |      16 |   24.79 | 35-43,63-65,93,123-347 
+ groupFilesByConfig.js |     100 |    81.81 |     100 |     100 | 32-38                  
+ index.js              |     100 |    96.15 |     100 |     100 | 121                    
+ loadConfig.js         |     100 |      100 |     100 |     100 |                        
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                        
+ messages.js           |     100 |       75 |     100 |     100 | 35                     
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                        
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                        
+ resolveGitRepo.js     |   62.06 |    77.77 |   66.66 |   64.28 | 18-24,59-65            
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                        
+ runAll.js             |   94.73 |    93.75 |   86.95 |   95.34 | 105,173,282,297        
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                        
+ state.js              |   92.85 |    89.28 |     100 |   91.66 | 42-43                  
+ symbols.js            |     100 |      100 |     100 |     100 |                        
+ validateBraces.js     |     100 |      100 |     100 |     100 |                        
+ validateConfig.js     |     100 |      100 |     100 |     100 |                        
+ validateOptions.js    |     100 |      100 |     100 |     100 |                        
+-----------------------|---------|----------|---------|---------|------------------------
+************* run test done *************
+lint-staged is testing ./Variants/execa/variant5/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 763ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 370ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |     100 |      100 |     100 |     100 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |     100 |      100 |     100 |     100 |                   
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |     100 |      100 |     100 |     100 |                   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |      100 |     100 |     100 |                   
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |     100 |      100 |     100 |     100 |                   
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+lint-staged is testing ./Variants/execa/variant4/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 779ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 377ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |     100 |      100 |     100 |     100 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |     100 |      100 |     100 |     100 |                   
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |     100 |      100 |     100 |     100 |                   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |      100 |     100 |     100 |                   
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |     100 |      100 |     100 |     100 |                   
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+lint-staged is testing ./Variants/execa/variant3/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 737ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 382ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |     100 |      100 |     100 |     100 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |     100 |      100 |     100 |     100 |                   
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |     100 |      100 |     100 |     100 |                   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |      100 |     100 |     100 |                   
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |     100 |      100 |     100 |     100 |                   
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+lint-staged is testing ./Variants/execa/variant2/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 771ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 365ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |   96.51 |     97.4 |   97.72 |   96.42 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |   84.21 |       70 |   66.66 |   84.21 | 38,51-52          
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |   84.25 |    88.23 |      92 |   84.29 | 157,281,296-334   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |    96.15 |     100 |     100 | 121               
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |   96.42 |    96.42 |     100 |   95.83 | 43                
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+lint-staged is testing ./Variants/execa/variant1/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 738ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 358ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |   96.51 |     97.4 |   97.72 |   96.42 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |   84.21 |       70 |   66.66 |   84.21 | 38,51-52          
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |   84.25 |    88.23 |      92 |   84.29 | 157,281,296-334   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |    96.15 |     100 |     100 | 121               
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |   96.42 |    96.42 |     100 |   95.83 | 43                
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+variantsDepsNum: 13
+/data/js-variants/multee
+13
+lint-staged is testing ./VariantsDeps/execa/variant13/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 733ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 370ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |     100 |      100 |     100 |     100 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |     100 |      100 |     100 |     100 |                   
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |     100 |      100 |     100 |     100 |                   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |      100 |     100 |     100 |                   
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |     100 |      100 |     100 |     100 |                   
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+lint-staged is testing ./VariantsDeps/execa/variant12/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 764ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 372ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |     100 |      100 |     100 |     100 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |     100 |      100 |     100 |     100 |                   
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |     100 |      100 |     100 |     100 |                   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |      100 |     100 |     100 |                   
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |     100 |      100 |     100 |     100 |                   
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+lint-staged is testing ./VariantsDeps/execa/variant11/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 735ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 384ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|------------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s      
+-----------------------|---------|----------|---------|---------|------------------------
+All files              |   78.95 |    81.84 |   77.27 |   78.84 |                        
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                        
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                        
+ execGit.js            |   88.88 |      100 |     100 |   88.88 | 25                     
+ figures.js            |     100 |      100 |     100 |     100 |                        
+ file.js               |   73.68 |       40 |   66.66 |   73.68 | 19-20,38,51-52         
+ generateTasks.js      |     100 |      100 |     100 |     100 |                        
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                        
+ getRenderer.js        |     100 |      100 |     100 |     100 |                        
+ getStagedFiles.js     |    12.5 |        0 |       0 |   16.66 | 10-16                  
+ gitWorkflow.js        |   25.19 |    20.58 |      16 |   24.79 | 35-43,63-65,93,123-347 
+ groupFilesByConfig.js |     100 |    81.81 |     100 |     100 | 32-38                  
+ index.js              |     100 |    84.61 |     100 |     100 | 65,81,119-121          
+ loadConfig.js         |     100 |      100 |     100 |     100 |                        
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                        
+ messages.js           |     100 |       75 |     100 |     100 | 35                     
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                        
+ printTaskOutput.js    |   83.33 |      100 |     100 |      80 | 10                     
+ resolveGitRepo.js     |   13.79 |        0 |       0 |   14.28 | 18-24,31-39,47-68      
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                        
+ runAll.js             |   90.52 |    89.06 |   86.95 |   91.86 | 96-98,105,173,282,297  
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                        
+ state.js              |   92.85 |    89.28 |     100 |   91.66 | 42-43                  
+ symbols.js            |     100 |      100 |     100 |     100 |                        
+ validateBraces.js     |     100 |      100 |     100 |     100 |                        
+ validateConfig.js     |     100 |      100 |     100 |     100 |                        
+ validateOptions.js    |     100 |      100 |     100 |     100 |                        
+-----------------------|---------|----------|---------|---------|------------------------
+************* run test done *************
+lint-staged is testing ./VariantsDeps/execa/variant10/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 768ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 355ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |     100 |      100 |     100 |     100 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |     100 |      100 |     100 |     100 |                   
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |     100 |      100 |     100 |     100 |                   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |      100 |     100 |     100 |                   
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |     100 |      100 |     100 |     100 |                   
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+lint-staged is testing ./VariantsDeps/execa/variant9/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 754ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 362ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|------------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s      
+-----------------------|---------|----------|---------|---------|------------------------
+All files              |   82.87 |    86.74 |    80.3 |   82.58 |                        
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                        
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                        
+ execGit.js            |     100 |      100 |     100 |     100 |                        
+ figures.js            |     100 |      100 |     100 |     100 |                        
+ file.js               |   73.68 |       40 |   66.66 |   73.68 | 19-20,38,51-52         
+ generateTasks.js      |     100 |      100 |     100 |     100 |                        
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                        
+ getRenderer.js        |     100 |      100 |     100 |     100 |                        
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                        
+ gitWorkflow.js        |   25.19 |    20.58 |      16 |   24.79 | 35-43,63-65,93,123-347 
+ groupFilesByConfig.js |     100 |    81.81 |     100 |     100 | 32-38                  
+ index.js              |     100 |    96.15 |     100 |     100 | 121                    
+ loadConfig.js         |     100 |      100 |     100 |     100 |                        
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                        
+ messages.js           |     100 |       75 |     100 |     100 | 35                     
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                        
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                        
+ resolveGitRepo.js     |   62.06 |    77.77 |   66.66 |   64.28 | 18-24,59-65            
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                        
+ runAll.js             |   94.73 |    93.75 |   86.95 |   95.34 | 105,173,282,297        
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                        
+ state.js              |   92.85 |    89.28 |     100 |   91.66 | 42-43                  
+ symbols.js            |     100 |      100 |     100 |     100 |                        
+ validateBraces.js     |     100 |      100 |     100 |     100 |                        
+ validateConfig.js     |     100 |      100 |     100 |     100 |                        
+ validateOptions.js    |     100 |      100 |     100 |     100 |                        
+-----------------------|---------|----------|---------|---------|------------------------
+************* run test done *************
+lint-staged is testing ./VariantsDeps/execa/variant8/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 759ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 384ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |     100 |      100 |     100 |     100 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |     100 |      100 |     100 |     100 |                   
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |     100 |      100 |     100 |     100 |                   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |      100 |     100 |     100 |                   
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |     100 |      100 |     100 |     100 |                   
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+lint-staged is testing ./VariantsDeps/execa/variant7/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 798ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 419ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|------------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s      
+-----------------------|---------|----------|---------|---------|------------------------
+All files              |   82.87 |    86.74 |    80.3 |   82.58 |                        
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                        
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                        
+ execGit.js            |     100 |      100 |     100 |     100 |                        
+ figures.js            |     100 |      100 |     100 |     100 |                        
+ file.js               |   73.68 |       40 |   66.66 |   73.68 | 19-20,38,51-52         
+ generateTasks.js      |     100 |      100 |     100 |     100 |                        
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                        
+ getRenderer.js        |     100 |      100 |     100 |     100 |                        
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                        
+ gitWorkflow.js        |   25.19 |    20.58 |      16 |   24.79 | 35-43,63-65,93,123-347 
+ groupFilesByConfig.js |     100 |    81.81 |     100 |     100 | 32-38                  
+ index.js              |     100 |    96.15 |     100 |     100 | 121                    
+ loadConfig.js         |     100 |      100 |     100 |     100 |                        
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                        
+ messages.js           |     100 |       75 |     100 |     100 | 35                     
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                        
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                        
+ resolveGitRepo.js     |   62.06 |    77.77 |   66.66 |   64.28 | 18-24,59-65            
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                        
+ runAll.js             |   94.73 |    93.75 |   86.95 |   95.34 | 105,173,282,297        
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                        
+ state.js              |   92.85 |    89.28 |     100 |   91.66 | 42-43                  
+ symbols.js            |     100 |      100 |     100 |     100 |                        
+ validateBraces.js     |     100 |      100 |     100 |     100 |                        
+ validateConfig.js     |     100 |      100 |     100 |     100 |                        
+ validateOptions.js    |     100 |      100 |     100 |     100 |                        
+-----------------------|---------|----------|---------|---------|------------------------
+************* run test done *************
+lint-staged is testing ./VariantsDeps/execa/variant6/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 729ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 2s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |     100 |      100 |     100 |     100 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |     100 |      100 |     100 |     100 |                   
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |     100 |      100 |     100 |     100 |                   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |      100 |     100 |     100 |                   
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |     100 |      100 |     100 |     100 |                   
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+lint-staged is testing ./VariantsDeps/execa/variant5/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 787ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 368ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |     100 |      100 |     100 |     100 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |     100 |      100 |     100 |     100 |                   
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |     100 |      100 |     100 |     100 |                   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |      100 |     100 |     100 |                   
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |     100 |      100 |     100 |     100 |                   
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+lint-staged is testing ./VariantsDeps/execa/variant4/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 755ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 364ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |   96.51 |     97.4 |   97.72 |   96.42 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |   84.21 |       70 |   66.66 |   84.21 | 38,51-52          
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |   84.25 |    88.23 |      92 |   84.29 | 157,281,296-334   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |    96.15 |     100 |     100 | 121               
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |   96.42 |    96.42 |     100 |   95.83 | 43                
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+lint-staged is testing ./VariantsDeps/execa/variant3/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 725ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 360ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |     100 |      100 |     100 |     100 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |     100 |      100 |     100 |     100 |                   
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |     100 |      100 |     100 |     100 |                   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |      100 |     100 |     100 |                   
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |     100 |      100 |     100 |     100 |                   
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+lint-staged is testing ./VariantsDeps/execa/variant2/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 792ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 353ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |     100 |      100 |     100 |     100 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |     100 |      100 |     100 |     100 |                   
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |     100 |      100 |     100 |     100 |                   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |      100 |     100 |     100 |                   
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |     100 |      100 |     100 |     100 |                   
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
+lint-staged is testing ./VariantsDeps/execa/variant1/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 641 packages in 2s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 739ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 353ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 643 packages in 2s
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link module done *************
+************* start run test *************
+
+> lint-staged@0.0.0-development test
+> jest --coverage
+
+jest-haste-map: duplicate manual mock found: my-config
+  The following files share their name; please delete one of them:
+    * <rootDir>/test/unit/__mocks__/my-config.cjs
+    * <rootDir>/test/unit/__mocks__/my-config.json
+
+-----------------------|---------|----------|---------|---------|-------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------|---------|----------|---------|---------|-------------------
+All files              |     100 |      100 |     100 |     100 |                   
+ chunkFiles.js         |     100 |      100 |     100 |     100 |                   
+ dynamicImport.js      |     100 |      100 |     100 |     100 |                   
+ execGit.js            |     100 |      100 |     100 |     100 |                   
+ figures.js            |     100 |      100 |     100 |     100 |                   
+ file.js               |     100 |      100 |     100 |     100 |                   
+ generateTasks.js      |     100 |      100 |     100 |     100 |                   
+ getDiffCommand.js     |     100 |      100 |     100 |     100 |                   
+ getRenderer.js        |     100 |      100 |     100 |     100 |                   
+ getStagedFiles.js     |     100 |      100 |     100 |     100 |                   
+ gitWorkflow.js        |     100 |      100 |     100 |     100 |                   
+ groupFilesByConfig.js |     100 |      100 |     100 |     100 |                   
+ index.js              |     100 |      100 |     100 |     100 |                   
+ loadConfig.js         |     100 |      100 |     100 |     100 |                   
+ makeCmdTasks.js       |     100 |      100 |     100 |     100 |                   
+ messages.js           |     100 |      100 |     100 |     100 |                   
+ parseGitZOutput.js    |     100 |      100 |     100 |     100 |                   
+ printTaskOutput.js    |     100 |      100 |     100 |     100 |                   
+ resolveGitRepo.js     |     100 |      100 |     100 |     100 |                   
+ resolveTaskFn.js      |     100 |      100 |     100 |     100 |                   
+ runAll.js             |     100 |      100 |     100 |     100 |                   
+ searchConfigs.js      |     100 |      100 |     100 |     100 |                   
+ state.js              |     100 |      100 |     100 |     100 |                   
+ symbols.js            |     100 |      100 |     100 |     100 |                   
+ validateBraces.js     |     100 |      100 |     100 |     100 |                   
+ validateConfig.js     |     100 |      100 |     100 |     100 |                   
+ validateOptions.js    |     100 |      100 |     100 |     100 |                   
+-----------------------|---------|----------|---------|---------|-------------------
+************* run test done *************
