@@ -1,8 +1,8 @@
 projectName=$1
 
 # body-parser
-# clientNames=("express" "skipper" "json-server" "loopback" "routing-controllers")
-# gitUrls=("https://github.com/expressjs/express.git" "https://github.com/sailshq/skipper.git" "https://github.com/typicode/json-server.git" "https://github.com/strongloop/loopback.git" "https://github.com/typestack/routing-controllers.git")
+clientNames=("express" "skipper" "json-server" "loopback" "routing-controllers")
+gitUrls=("https://github.com/expressjs/express.git" "https://github.com/sailshq/skipper.git" "https://github.com/typicode/json-server.git" "https://github.com/strongloop/loopback.git" "https://github.com/typestack/routing-controllers.git")
 
 # send
 # clientNames=("serve-static" "restify" "gulp-connect" "fastify-static" "connect-gzip-static")
@@ -38,8 +38,8 @@ projectName=$1
 
 
 # compression
-clientNames=("hexo-server" "koop-core" "kraken-js" "molstar" "router")
-gitUrls=("https://github.com/hexojs/hexo-server.git" "https://github.com/koopjs/koop-core.git" "https://github.com/krakenjs/kraken-js.git" "https://github.com/molstar/molstar.git" "https://github.com/nxus/router.git")
+# clientNames=("hexo-server" "koop-core" "kraken-js" "molstar" "router")
+# gitUrls=("https://github.com/hexojs/hexo-server.git" "https://github.com/koopjs/koop-core.git" "https://github.com/krakenjs/kraken-js.git" "https://github.com/molstar/molstar.git" "https://github.com/nxus/router.git")
 
 
 cd Clients/$projectName
