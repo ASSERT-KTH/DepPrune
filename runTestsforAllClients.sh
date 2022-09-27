@@ -11,6 +11,4 @@
 # sh runTestClients.sh compression router 2>>Data/test_compression_router_file_error.log >> Data/test_compression_router_file.log
 
 
-sh runTestClients.sh fastify fastify-vhost 2>>Data/test_fastify_fastify-vhost_func_error.log >> Data/test_fastify_fastify-vhost_func.log
-sh runTestClients.sh fastify pubsub-http-handler 2>>Data/test_fastify_pubsub-http-handler_func_error.log >> Data/test_fastify_pubsub-http-handler_func.log
-sh runTestClients.sh yeoman-generator sfdx-plugin-generate 2>>Data/test_yeoman-generator_sfdx-plugin-generate_func_error.log >> Data/test_yeoman-generator_sfdx-plugin-generate_func.log
+sh runTestClients.sh execa username 2>>Data/test_execa_username_func_error.log >> Data/test_execa_username_func.log

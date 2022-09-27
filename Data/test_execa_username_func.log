@@ -1,0 +1,1938 @@
+/data/js-variants/multee
+11
+username is testing ./Variants/execa/variant11/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+up to date, audited 672 packages in 3s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+up to date, audited 1 package in 187ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 443ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, changed 6 packages, and audited 674 packages in 3s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./Variants/execa/variant10/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 4s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 913ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 540ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 3s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./Variants/execa/variant9/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 4s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 415ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 3s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./Variants/execa/variant8/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 4s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 908ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 435ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 3s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./Variants/execa/variant7/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 5s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 936ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 429ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 3s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+  ✖ test.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./Variants/execa/variant6/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 6s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 940ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 731ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 4s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./Variants/execa/variant5/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 6s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 625ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 5s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./Variants/execa/variant4/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 7s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 2s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 767ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 4s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./Variants/execa/variant3/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 5s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 2s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 538ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 4s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./Variants/execa/variant2/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 6s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 539ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 4s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./Variants/execa/variant1/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 6s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 963ms
+
+found 0 vulnerabilities
+************* npm unlink globally done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 512ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 5s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+variantsDepsNum: 13
+/data/js-variants/multee
+13
+username is testing ./VariantsDeps/execa/variant13/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 5s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 991ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 565ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 4s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./VariantsDeps/execa/variant12/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 6s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 461ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 4s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./VariantsDeps/execa/variant11/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 6s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 419ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 5s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./VariantsDeps/execa/variant10/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 6s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 491ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 4s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./VariantsDeps/execa/variant9/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 6s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 1s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 556ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 5s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./VariantsDeps/execa/variant8/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 9s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 2s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 652ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 7s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./VariantsDeps/execa/variant7/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 9s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 2s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 795ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 7s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./VariantsDeps/execa/variant6/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 8s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 2s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 519ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 7s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./VariantsDeps/execa/variant5/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 8s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 2s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 549ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 6s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./VariantsDeps/execa/variant4/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 9s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 2s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 834ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 8s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./VariantsDeps/execa/variant3/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 8s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 2s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 480ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 7s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./VariantsDeps/execa/variant2/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 9s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 2s
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 612ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 7s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
+username is testing ./VariantsDeps/execa/variant1/execa
+/data/js-variants/multee
+************* npm unlink module *************
+
+removed 1 package, and audited 673 packages in 7s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm unlink module done *************
+************* npm unlink globally *************
+
+removed 1 package, and audited 1 package in 916ms
+
+found 0 vulnerabilities
+************* npm unlink module done *************
+************* npm link globally *************
+
+added 1 package, and audited 3 packages in 427ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+************* npm link globally done *************
+************* npm link module *************
+
+added 1 package, and audited 674 packages in 4s
+
+162 packages are looking for funding
+  run `npm fund` for details
+
+5 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+************* npm link module done *************
+************* start run test *************
+
+> username@6.0.0 test
+> xo && ava && tsd
+
+
+  Uncaught exception in test-fallback.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  Uncaught exception in test.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test.js exited with a non-zero exit code: 1
+  ✖ test-fallback.js exited with a non-zero exit code: 1
+
+  Uncaught exception in test-userinfo.js
+
+  file:///data/js-variants/multee/Clients/execa/username/index.js:3
+  import execa from 'execa';
+         ^^^^^
+  SyntaxError: The requested module 'execa' does not provide an export named 'default'
+
+  ✖ test-userinfo.js exited with a non-zero exit code: 1
+  ─
+
+  3 uncaught exceptions
+************* run test done *************
