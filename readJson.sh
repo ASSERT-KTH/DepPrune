@@ -77,8 +77,8 @@ do
 
     # node generate-variant-byDep.js  $folderPath $projectName $repoUrl $commit
 
-    node generate-variant-subtree.js  $folderPath $projectName $repoUrl $commit
+    # node generate-variant-subtree.js  $folderPath $projectName $repoUrl $commit
 
-    # node generate-variant-pureDep.js  $folderPath $projectName $repoUrl $commit
+    node generate-variant-pureDep.js  $folderPath $projectName $repoUrl $commit
 
 done
