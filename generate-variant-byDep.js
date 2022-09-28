@@ -8,9 +8,9 @@ const fs = require('fs')
 const { spawn } = require("child_process")
 
 
-const bloatedDepsData = fs.readFileSync(`./Data/${projectName}_bloated_deps.txt`, 'utf-8')
-const bloatedNodesData = fs.readFileSync(`./Data/${projectName}_bloated_nodes.txt`, 'utf-8')
-fs.writeFileSync(`./Data/${projectName}_bloated_deps_variants.txt`, '')
+const bloatedDepsData = fs.readFileSync(`./Data/${projectName}/${projectName}_bloated_deps.txt`, 'utf-8')
+const bloatedNodesData = fs.readFileSync(`./Data/${projectName}/${projectName}_bloated_nodes.txt`, 'utf-8')
+fs.writeFileSync(`./Data/${projectName}/${projectName}_bloated_deps_variants.txt`, '')
 
 let bloatedDeps = bloatedDepsData.split('\n')
 bloatedDeps.pop()
@@ -50,5 +50,5 @@ bloatedNodes.forEach(node => {
 
     // Change names for files in each dep
     const newPath = node.replace(`${folderPath}`, `${variantPath}`)
-    fs.appendFileSync(`./Data/${projectName}_bloated_deps_variants.txt`, newPath + '\n')
+    fs.appendFileSync(`./Data/${projectName}/${projectName}_bloated_deps_variants.txt`, newPath + '\n')
 })
