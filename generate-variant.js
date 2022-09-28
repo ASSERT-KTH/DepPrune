@@ -274,6 +274,7 @@ fs.writeFileSync(`./${folderPath}/wrapped-dependency-tree.json`, JSON.stringify(
 
 checkNode(result)
 
+// de-duplicate
 unusedNodesSet.forEach(set => {
     str = JSON.stringify(set)
     if (candidates.indexOf(str) == -1) {
