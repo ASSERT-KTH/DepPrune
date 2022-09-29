@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repoSet.json")
+jsonlist=$(jq -r '.projects' "repoPro.json")
 # mkdir Variants
 # mkdir VariantsDeps
 # mkdir VariantsSubtree
@@ -31,54 +31,54 @@ do
     # cd VariantsDeps
     # mkdir $projectName
 
-    # cd VariantsSubtree
-    # mkdir $projectName
+    cd VariantsSubtree
+    mkdir $projectName
 
-    # cd ..
+    cd ..
 
-    # cd VariantsPureDep
-    # mkdir $projectName
+    cd VariantsPureDep
+    mkdir $projectName
 
-    # cd ..
+    cd ..
 
-    rm -rf $folderPath
+    # rm -rf $folderPath
     
-    git clone $repoUrl $folderPath
+    # git clone $repoUrl $folderPath
 
-    cd $folderPath
+    # cd $folderPath
     
-    git checkout $commit
+    # git checkout $commit
 
-    cd ../..
+    # cd ../..
 
-    ./resetProject.sh $folderPath
+    # ./resetProject.sh $folderPath
 
-    python3 genDepList.py $folderPath "npm install "
+    # python3 genDepList.py $folderPath "npm install "
 
-    python3 genNycRc.py $folderPath "${folderPath}/dep_list.txt" 
+    # python3 genNycRc.py $folderPath "${folderPath}/dep_list.txt" 
     
-    cd $folderPath
+    # cd $folderPath
 
-    echo "Start Generating test coverage report..."
+    # echo "Start Generating test coverage report..."
 
-    nyc npm run test
+    # nyc npm run test
 
-    cd ../..
+    # cd ../..
 
-    echo "Start discovering bloated files..."
+    # echo "Start discovering bloated files..."
 
-    ./transform.sh $folderPath "dynamic" false
+    # ./transform.sh $folderPath "dynamic" false
 
-    npm install --save dependency-tree
+    # npm install --save dependency-tree
 
-    node dep-tree.js $folderPath $entryFile
+    # node dep-tree.js $folderPath $entryFile
 
     # node generate-variant.js  $folderPath $projectName $repoUrl $commit
 
     # node generate-variant-byDep.js  $folderPath $projectName $repoUrl $commit
 
-    # node generate-variant-subtree.js  $folderPath $projectName $repoUrl $commit
+    node generate-variant-subtree.js  $folderPath $projectName $repoUrl $commit
 
-    # node generate-variant-pureDep.js  $folderPath $projectName $repoUrl $commit
+    node generate-variant-pureDep.js  $folderPath $projectName $repoUrl $commit
 
 done

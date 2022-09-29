@@ -7,6 +7,7 @@ const fs = require('fs')
 
 const { spawn } = require("child_process")
 
+fs.writeFileSync(`./Data/${projectName}/${projectName}_bloated_subtree_variants.txt`, '')
 const wrappedJsonData = fs.readFileSync(`./${folderPath}/wrapped-dependency-tree.json`)
 const dataObj = JSON.parse(wrappedJsonData)
 let unusedSubtrees = []
