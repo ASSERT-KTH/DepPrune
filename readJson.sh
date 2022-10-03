@@ -1,6 +1,6 @@
-jsonlist=$(jq -r '.projects' "repoPro.json")
-# mkdir Variants
-# mkdir VariantsDeps
+jsonlist=$(jq -r '.projects' "repoSet.json")
+mkdir Variants
+mkdir VariantsDeps
 # mkdir VariantsSubtree
 # mkdir VariantsPureDep
 
@@ -73,12 +73,12 @@ do
 
     # node dep-tree.js $folderPath $entryFile
 
-    # node generate-variant.js  $folderPath $projectName $repoUrl $commit
+    node generate-variant.js  $folderPath $projectName $repoUrl $commit
 
     # node generate-variant-byDep.js  $folderPath $projectName $repoUrl $commit
 
     node generate-variant-subtree.js  $folderPath $projectName $repoUrl $commit
 
-    node generate-variant-pureDep.js  $folderPath $projectName $repoUrl $commit
+    # node generate-variant-pureDep.js  $folderPath $projectName $repoUrl $commit
 
 done

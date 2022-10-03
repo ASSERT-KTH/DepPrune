@@ -13,8 +13,8 @@ const dataObj = JSON.parse(jsonData)
 const unusedFiles = unusedFilesData.split('\n')
 
 fs.writeFileSync(`./${folderPath}/wrapped-dependency-tree.json`, '')
-fs.writeFileSync(`./Data/${projectName}_bloated_variants.txt`, '')
-fs.writeFileSync(`./Data/${projectName}_bloated_nodes.txt`, '')
+fs.writeFileSync(`./Data/${projectName}/${projectName}_bloated_variants.txt`, '')
+fs.writeFileSync(`./Data/${projectName}/${projectName}_bloated_nodes.txt`, '')
 console.log(folderPath)
 
 let unusedNodesSet = []
@@ -206,13 +206,13 @@ function collectBloadedNodes(node) {
         // log unused nodes
         if (bloatedNodes.indexOf(path) === -1) {
             bloatedNodes.push(path)
-            fs.appendFileSync(`./Data/${projectName}_bloated_nodes.txt`, path + '\n')
+            fs.appendFileSync(`./Data/${projectName}/${projectName}_bloated_nodes.txt`, path + '\n')
         }
 
         // log unused leaves
         if (node.isLeaf && bloatedLeaves.indexOf(path) === -1) {
             bloatedLeaves.push(path)
-            fs.appendFileSync(`./Data/${projectName}_bloated_leaves.txt`, path + '\n')
+            fs.appendFileSync(`./Data/${projectName}/${projectName}_bloated_leaves.txt`, path + '\n')
         }
 
         // log unused dependencies
@@ -221,7 +221,7 @@ function collectBloadedNodes(node) {
         const depName = pathArr[nodeMIdx + 1]
         if (bloatedDep.indexOf(depName) === -1) {
             bloatedDep.push(depName)
-            fs.appendFileSync(`./Data/${projectName}_bloated_deps.txt`, depName + '\n')
+            fs.appendFileSync(`./Data/${projectName}/${projectName}_bloated_deps.txt`, depName + '\n')
         }
     }
     const children = node.children
@@ -258,7 +258,7 @@ function generateVariant(files, index) {
     newfiles.forEach(file => {
         console.log(file)
         const fileStr = file + '\n'
-        fs.appendFileSync(`./Data/${projectName}_bloated_variants.txt`, fileStr)
+        fs.appendFileSync(`./Data/${projectName}/${projectName}_bloated_variants.txt`, fileStr)
     })
 }
 
@@ -283,11 +283,11 @@ unusedNodesSet.forEach(set => {
 })
 
 console.log(`Candidates in ${projectName}: ${candidates.length} \n\n`)
-fs.appendFileSync(`./Data/${projectName}_bloated_candidates.txt`, `Candidates in ${projectName}: ${candidates.length} \n\n`)
+fs.appendFileSync(`./Data/${projectName}/${projectName}_bloated_candidates.txt`, `Candidates in ${projectName}: ${candidates.length} \n\n`)
 candidates.forEach((candidate, index) => {
     const files = JSON.parse(candidate)
     console.log(files)
-    fs.appendFileSync(`./Data/${projectName}_bloated_candidates.txt`, candidate + '\n')
+    fs.appendFileSync(`./Data/${projectName}/${projectName}_bloated_candidates.txt`, candidate + '\n')
     generateVariant(files, index)
     jsonObj[`variant${index + 1}`] = {
         "files": files,
@@ -296,7 +296,7 @@ candidates.forEach((candidate, index) => {
 })
 
 
-fs.writeFileSync(`./Data/${projectName}_variants.json`, JSON.stringify(jsonObj))
+fs.writeFileSync(`./Data/${projectName}/${projectName}_variants.json`, JSON.stringify(jsonObj))
 
 collectBloadedNodes(result)
 
