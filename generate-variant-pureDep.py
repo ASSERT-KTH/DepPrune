@@ -45,6 +45,3 @@ for diff in diffDeps:
     print(diff)
     pureBloatedDepsFile.writelines(diff + '\n')
 pureBloatedDepsFile.close()
-
-# for index, dep in diffDeps:
-#     variantPath = f'{os.getcwd()}/VariantsPureDep/{project}/variant{index+1}/{project}'

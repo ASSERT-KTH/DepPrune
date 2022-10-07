@@ -1,10 +1,64 @@
 {
   "projects": [
     {
-      "gitURL": "https://github.com/sindresorhus/meow.git",
+      "gitURL": "https://github.com/expressjs/body-parser.git",
       "entryFile": "index.js",
-      "folder": "meow",
-      "commit": "85dc1e9c35f7844941690740c68b839691bd515f"
+      "folder": "body-parser",
+      "commit": "1f6f58e1f8dc222f2b6cfc7eb3a3bf5145ff2b56"
+    },
+    {
+      "gitURL": "https://github.com/inspect-js/node-deep-equal.git",
+      "entryFile": "index.js",
+      "folder": "deep-equal",
+      "commit": "9e64ec93a8c5cbe87315d30dd62a8fe6dcf842b4"
+    },
+    {
+      "gitURL": "https://github.com/sindresorhus/execa.git",
+      "entryFile": "index.js",
+      "folder": "execa",
+      "commit": "d9ca38420a85e554c100df50e99b60cce3dec82a"
+    },
+    {
+      "gitURL": "https://github.com/expressjs/session.git",
+      "entryFile": "index.js",
+      "folder": "session",
+      "commit": "1010fadc2f071ddf2add94235d72224cf65159c6"
+    },
+    {
+      "gitURL": "https://github.com/lovell/sharp.git",
+      "entryFile": "lib/index.js",
+      "folder": "sharp",
+      "commit": "e40a881ab4a5e7b0e37ba17e31b3b186aef8cbf6"
+    },
+    {
+      "gitURL": "https://github.com/pillarjs/send.git",
+      "entryFile": "index.js",
+      "folder": "send",
+      "commit": "b69cbb3dc4c09c37917d08a4c13fcd1bac97ade5"
+    },
+    {
+      "gitURL": "https://github.com/expressjs/serve-index.git",
+      "entryFile": "index.js",
+      "folder": "serve-index",
+      "commit": "d2922cd872f8038d4d4c60d936954c35200cfbad"
+    },
+    {
+      "gitURL": "https://github.com/pillarjs/finalhandler.git",
+      "entryFile": "index.js",
+      "folder": "finalhandler",
+      "commit": "5ceb3e3e2482404cb71e9810bd10a422fe748f20"
+    },
+    {
+      "gitURL": "https://github.com/Level/levelup.git",
+      "entryFile": "lib/levelup.js",
+      "folder": "levelup",
+      "commit": "d31652d30a96b0132841bc4814b1f6a444f76e34"
+    },
+    {
+      "gitURL": "https://github.com/Level/memdown.git",
+      "entryFile": "memdown.js",
+      "folder": "memdown",
+      "commit": "2d4b09c567f6f128b3f9896a9bebe0b8777e0a29"
     }
   ]
 }
