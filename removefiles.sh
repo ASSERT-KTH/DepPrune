@@ -1,15 +1,8 @@
 projectName=$1
-filesName='./Data/'$projectName'/'$projectName'_bloated_variants.txt'
-filesNameDeps='./Data/'$projectName'/'$projectName'_bloated_deps_variants.txt'
+strategyName=$2
+filesName='./Data/'$projectName'/'$projectName'_bloated_'$strategyName'_variants.txt'
 
 cat $filesName | while read rows
-do
-echo $rows
-cat /dev/null > $rows
-done
-
-
-cat $filesNameDeps | while read rows
 do
 echo $rows
 cat /dev/null > $rows

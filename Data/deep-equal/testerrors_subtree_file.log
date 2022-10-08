@@ -1,0 +1,60 @@
+7
+(node:79327) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+npm WARN config production Use `--omit=dev` instead.
+(node:79597) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+/data/js-variants/multee/VariantsSubtree/deep-equal/variant6/deep-equal/index.js:29
+if((++cov_35zsg2kv9.b[49][0],resultB.value)&&(++cov_35zsg2kv9.b[49][1],typeof resultB.value==='object')){++cov_35zsg2kv9.b[48][0];++cov_35zsg2kv9.s[114];if(!setHasEqualElement(set,resultB.value,opts.strict,channel)){++cov_35zsg2kv9.b[50][0];++cov_35zsg2kv9.s[115];return false;}else{++cov_35zsg2kv9.b[50][1];}}else{++cov_35zsg2kv9.b[48][1];++cov_35zsg2kv9.s[116];if((++cov_35zsg2kv9.b[52][0],!opts.strict)&&(++cov_35zsg2kv9.b[52][1],!$setHas(a,resultB.value))&&(++cov_35zsg2kv9.b[52][2],!setHasEqualElement(set,resultB.value,opts.strict,channel))){++cov_35zsg2kv9.b[51][0];++cov_35zsg2kv9.s[117];return false;}else{++cov_35zsg2kv9.b[51][1];}}}++cov_35zsg2kv9.s[118];return $setSize(set)===0;}else{++cov_35zsg2kv9.b[46][1];}++cov_35zsg2kv9.s[119];return true;}function mapEquiv(a,b,opts,channel){++cov_35zsg2kv9.f[9];++cov_35zsg2kv9.s[120];if($mapSize(a)!==$mapSize(b)){++cov_35zsg2kv9.b[53][0];++cov_35zsg2kv9.s[121];return false;}else{++cov_35zsg2kv9.b[53][1];}var iA=(++cov_35zsg2kv9.s[122],getIterator(a));var iB=(++cov_35zsg2kv9.s[123],getIterator(b));var resultA;var resultB;var set;var key;var item1;var item2;++cov_35zsg2kv9.s[124];while((++cov_35zsg2kv9.b[54][0],resultA=iA.next())&&(++cov_35zsg2kv9.b[54][1],!resultA.done)){++cov_35zsg2kv9.s[125];key=resultA.value[0];++cov_35zsg2kv9.s[126];item1=resultA.value[1];++cov_35zsg2kv9.s[127];if((++cov_35zsg2kv9.b[56][0],key)&&(++cov_35zsg2kv9.b[56][1],typeof key==='object')){++cov_35zsg2kv9.b[55][0];++cov_35zsg2kv9.s[128];if(!set){++cov_35zsg2kv9.b[57][0];++cov_35zsg2kv9.s[129];set=new $Set();}else{++cov_35zsg2kv9.b[57][1];}++cov_35zsg2kv9.s[130];$setAdd(set,key);}else{++cov_35zsg2kv9.b[55][1];++cov_35zsg2kv9.s[131];item2=$mapGet(b,key);++cov_35zsg2kv9.s[132];if((++cov_35zsg2kv9.b[59][0],typeof item2==='undefined')&&(++cov_35zsg2kv9.b[59][1],!$mapHas(b,key))||(++cov_35zsg2kv9.b[59][2],!internalDeepEqual(item1,item2,opts,channel))){++cov_35zsg2kv9.b[58][0];++cov_35zsg2kv9.s[133];if(opts.strict){++cov_35zsg2kv9.b[60][0];++cov_35zsg2kv9.s[134];return false;}else{++cov_35zsg2kv9.b[60][1];}++cov_35zsg2kv9.s[135];if(!mapMightHaveLoosePrim(a,b,key,item1,opts,channel)){++cov_35zsg2kv9.b[61][0];++cov_35zsg2kv9.s[136];return false;}else{++cov_35zsg2kv9.b[61][1];}++cov_35zsg2kv9.s[137];if(!set){++cov_35zsg2kv9.b[62][0];++cov_35zsg2kv9.s[138];set=new $Set();}else{++cov_35zsg2kv9.b[62][1];}++cov_35zsg2kv9.s[139];$setAdd(set,key);}else{++cov_35zsg2kv9.b[58][1];}}}++cov_35zsg2kv9.s[140];if(set){++cov_35zsg2kv9.b[63][0];++cov_35zsg2kv9.s[141];while((++cov_35zsg2kv9.b[64][0],resultB=iB.next())&&(++cov_35zsg2kv9.b[64][1],!resultB.done)){++cov_35zsg2kv9.s[142];key=resultB.value[0];++cov_35zsg2kv9.s[143];item2=resultB.value[1];++cov_35zsg2kv9.s[144];if((++cov_35zsg2kv9.b[66][0],key)&&(++cov_35zsg2kv9.b[66][1],typeof key==='object')){++cov_35zsg2kv9.b[65][0];++cov_35zsg2kv9.s[145];if(!mapHasEqualEntry(set,a,key,item2,opts,channel)){++cov_35zsg2kv9.b[67][0];++cov_35zsg2kv9.s[146];return false;}else{++cov_35zsg2kv9.b[67][1];}}else{++cov_35zsg2kv9.b[65][1];++cov_35zsg2kv9.s[147];if((++cov_35zsg2kv9.b[69][0],!opts.strict)&&((++cov_35zsg2kv9.b[69][1],!a.has(key))||(++cov_35zsg2kv9.b[69][2],!internalDeepEqual($mapGet(a,key),item2,opts,channel)))&&(++cov_35zsg2kv9.b[69][3],!mapHasEqualEntry(set,a,key,item2,assign({},opts,{strict:false}),channel))){++cov_35zsg2kv9.b[68][0];++cov_35zsg2kv9.s[148];return false;}else{++cov_35zsg2kv9.b[68][1];}}}++cov_35zsg2kv9.s[149];return $setSize(set)===0;}else{++cov_35zsg2kv9.b[63][1];}++cov_35zsg2kv9.s[150];return true;}function objEquiv(a,b,opts,channel){++cov_35zsg2kv9.f[10];/* eslint max-statements: [2, 100], max-lines-per-function: [2, 120], max-depth: [2, 5], max-lines: [2, 400] */var i,key;++cov_35zsg2kv9.s[151];if(typeof a!==typeof b){++cov_35zsg2kv9.b[70][0];++cov_35zsg2kv9.s[152];return false;}else{++cov_35zsg2kv9.b[70][1];}++cov_35zsg2kv9.s[153];if((++cov_35zsg2kv9.b[72][0],a==null)||(++cov_35zsg2kv9.b[72][1],b==null)){++cov_35zsg2kv9.b[71][0];++cov_35zsg2kv9.s[154];return false;}else{++cov_35zsg2kv9.b[71][1];}++cov_35zsg2kv9.s[155];if($objToString(a)!==$objToString(b)){++cov_35zsg2kv9.b[73][0];++cov_35zsg2kv9.s[156];return false;}else{++cov_35zsg2kv9.b[73][1];}++cov_35zsg2kv9.s[157];if(isArguments(a)!==isArguments(b)){++cov_35zsg2kv9.b[74][0];++cov_35zsg2kv9.s[158];return false;}else{++cov_35zsg2kv9.b[74][1];}var aIsArray=(++cov_35zsg2kv9.s[159],isArray(a));var bIsArray=(++cov_35zsg2kv9.s[160],isArray(b));++cov_35zsg2kv9.s[161];if(aIsArray!==bIsArray){++cov_35zsg2kv9.b[75][0];++cov_35zsg2kv9.s[162];return false;}else{++cov_35zsg2kv9.b[75][1];}// TODO: replace when a cross-realm brand check is available
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+
+TypeError: isArray is not a function
+    at objEquiv (/data/js-variants/multee/VariantsSubtree/deep-equal/variant6/deep-equal/index.js:29:4378)
+    at internalDeepEqual (/data/js-variants/multee/VariantsSubtree/deep-equal/variant6/deep-equal/index.js:28:30)
+    at deepEqual (/data/js-variants/multee/VariantsSubtree/deep-equal/variant6/deep-equal/index.js:40:223)
+    at equalReversed (/data/js-variants/multee/VariantsSubtree/deep-equal/variant6/deep-equal/test/_tape.js:25:7)
+    at deepEqualTest (/data/js-variants/multee/VariantsSubtree/deep-equal/variant6/deep-equal/test/_tape.js:36:3)
+    at Test.deepEqualTest (/data/js-variants/multee/VariantsSubtree/deep-equal/variant6/deep-equal/test/_tape.js:41:10)
+    at Test.bound [as deepEqualTest] (/data/js-variants/multee/VariantsSubtree/deep-equal/variant6/deep-equal/node_modules/tape/lib/test.js:95:17)
+    at Test.<anonymous> (/data/js-variants/multee/VariantsSubtree/deep-equal/variant6/deep-equal/test/cmp.js:29:5)
+    at Test.bound [as _cb] (/data/js-variants/multee/VariantsSubtree/deep-equal/variant6/deep-equal/node_modules/tape/lib/test.js:95:17)
+    at Test.run (/data/js-variants/multee/VariantsSubtree/deep-equal/variant6/deep-equal/node_modules/tape/lib/test.js:115:28)
+(node:79685) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+npm WARN config production Use `--omit=dev` instead.
+/data/js-variants/multee/VariantsSubtree/deep-equal/variant4/deep-equal/node_modules/get-intrinsic/index.js:201
+var $concat = bind.call(Function.call, Array.prototype.concat);
+                   ^
+
+TypeError: bind.call is not a function
+    at Object.<anonymous> (/data/js-variants/multee/VariantsSubtree/deep-equal/variant4/deep-equal/node_modules/get-intrinsic/index.js:201:20)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsSubtree/deep-equal/variant4/deep-equal/node_modules/nyc/node_modules/append-transform/index.js:58:13)
+    at module.exports (/data/js-variants/multee/VariantsSubtree/deep-equal/variant4/deep-equal/node_modules/nyc/node_modules/default-require-extensions/js.js:8:9)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsSubtree/deep-equal/variant4/deep-equal/node_modules/nyc/node_modules/append-transform/index.js:62:4)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsSubtree/deep-equal/variant4/deep-equal/node_modules/call-bind/callBound.js:3:20)
+/data/js-variants/multee/VariantsSubtree/deep-equal/variant3/deep-equal/node_modules/has/src/index.js:5
+module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
+                      ^
+
+TypeError: bind.call is not a function
+    at Object.<anonymous> (/data/js-variants/multee/VariantsSubtree/deep-equal/variant3/deep-equal/node_modules/has/src/index.js:5:23)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsSubtree/deep-equal/variant3/deep-equal/node_modules/nyc/node_modules/append-transform/index.js:58:13)
+    at module.exports (/data/js-variants/multee/VariantsSubtree/deep-equal/variant3/deep-equal/node_modules/nyc/node_modules/default-require-extensions/js.js:8:9)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsSubtree/deep-equal/variant3/deep-equal/node_modules/nyc/node_modules/append-transform/index.js:62:4)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsSubtree/deep-equal/variant3/deep-equal/node_modules/get-intrinsic/index.js:200:14)
+(node:80060) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+npm WARN config production Use `--omit=dev` instead.
+(node:80252) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+npm WARN config production Use `--omit=dev` instead.
