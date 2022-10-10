@@ -1,0 +1,117 @@
+2
+./VariantsPureDep/compression/variant2/compression
+
+> compression@1.7.4 test
+> mocha --check-leaks --reporter spec --bail
+
+
+
+  compression()
+    ✔ should skip HEAD
+    ✔ should skip unknown accept-encoding
+    ✔ should skip if content-encoding already set
+    ✔ should set Vary
+    ✔ should set Vary even if Accept-Encoding is not set
+    ✔ should not set Vary if Content-Type does not pass filter
+    ✔ should set Vary for HEAD request
+    ✔ should transfer chunked
+    ✔ should remove Content-Length for chunked
+    ✔ should work with encoding arguments
+    ✔ should allow writing after close
+    ✔ should back-pressure when compressed
+    ✔ should back-pressure when uncompressed
+    ✔ should transfer large bodies
+    ✔ should transfer large bodies with multiple writes
+    threshold
+      ✔ should not compress responses below the threshold size
+      ✔ should compress responses above the threshold size
+      ✔ should compress when streaming without a content-length
+      ✔ should not compress when streaming and content-length is lower than threshold
+      ✔ should compress when streaming and content-length is larger than threshold
+      ✔ should handle writing hex data
+      ✔ should consider res.end() as 0 length
+      ✔ should work with res.end(null)
+    when "Accept-Encoding: gzip"
+      ✔ should respond with gzip
+      ✔ should return false writing after end
+    when "Accept-Encoding: deflate"
+      ✔ should respond with deflate
+    when "Accept-Encoding: gzip, deflate"
+      ✔ should respond with gzip
+    when "Accept-Encoding: deflate, gzip"
+      ✔ should respond with gzip
+    when "Cache-Control: no-transform" response header
+      ✔ should not compress response
+      ✔ should not set Vary headerh
+    .filter
+      ✔ should be a function
+      ✔ should return false on empty response
+      ✔ should return true for "text/plain"
+      ✔ should return false for "application/x-bogus"
+    res.flush()
+      ✔ should always be present
+      ✔ should flush the response
+      ✔ should flush small chunks for gzip
+      ✔ should flush small chunks for deflate
+
+
+  38 passing (162ms)
+
+./VariantsPureDep/compression/variant1/compression
+
+> compression@1.7.4 test
+> mocha --check-leaks --reporter spec --bail
+
+
+
+  compression()
+    ✔ should skip HEAD
+    ✔ should skip unknown accept-encoding
+    ✔ should skip if content-encoding already set
+    ✔ should set Vary
+    ✔ should set Vary even if Accept-Encoding is not set
+    ✔ should not set Vary if Content-Type does not pass filter
+    ✔ should set Vary for HEAD request
+    ✔ should transfer chunked
+    ✔ should remove Content-Length for chunked
+    ✔ should work with encoding arguments
+    ✔ should allow writing after close
+    ✔ should back-pressure when compressed
+    ✔ should back-pressure when uncompressed
+    ✔ should transfer large bodies
+    ✔ should transfer large bodies with multiple writes
+    threshold
+      ✔ should not compress responses below the threshold size
+      ✔ should compress responses above the threshold size
+      ✔ should compress when streaming without a content-length
+      ✔ should not compress when streaming and content-length is lower than threshold
+      ✔ should compress when streaming and content-length is larger than threshold
+      ✔ should handle writing hex data
+      ✔ should consider res.end() as 0 length
+      ✔ should work with res.end(null)
+    when "Accept-Encoding: gzip"
+      ✔ should respond with gzip
+      ✔ should return false writing after end
+    when "Accept-Encoding: deflate"
+      ✔ should respond with deflate
+    when "Accept-Encoding: gzip, deflate"
+      ✔ should respond with gzip
+    when "Accept-Encoding: deflate, gzip"
+      ✔ should respond with gzip
+    when "Cache-Control: no-transform" response header
+      ✔ should not compress response
+      ✔ should not set Vary headerh
+    .filter
+      ✔ should be a function
+      ✔ should return false on empty response
+      ✔ should return true for "text/plain"
+      ✔ should return false for "application/x-bogus"
+    res.flush()
+      ✔ should always be present
+      ✔ should flush the response
+      ✔ should flush small chunks for gzip
+      ✔ should flush small chunks for deflate
+
+
+  38 passing (162ms)
+

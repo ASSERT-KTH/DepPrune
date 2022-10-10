@@ -1,0 +1,464 @@
+5
+./VariantsFile/send/variant5/send
+
+> send@0.18.0 test
+> mocha --check-leaks --reporter spec --bail
+
+
+
+  send(file).pipe(res)
+    ✔ should stream the file contents
+    ✔ should stream a zero-length file
+    ✔ should decode the given path as a URI
+    ✔ should serve files with dots in name
+    ✔ should treat a malformed URI as a bad request
+    ✔ should 400 on NULL bytes
+    ✔ should treat an ENAMETOOLONG as a 404
+    ✔ should handle headers already sent error
+    ✔ should support HEAD
+    ✔ should add an ETag header field
+    ✔ should add a Date header field
+    ✔ should add a Last-Modified header field
+    ✔ should add a Accept-Ranges header field
+    ✔ should 404 if the file does not exist
+    ✔ should emit ENOENT if the file does not exist
+    ✔ should not override content-type
+    ✔ should set Content-Type via mime map
+    ✔ should 404 if file disappears after stat, before open
+    ✔ should 500 on file stream error
+    "headers" event
+      ✔ should fire when sending file
+      ✔ should not fire on 404
+      ✔ should fire on index
+      ✔ should not fire on redirect
+      ✔ should provide path
+      ✔ should provide stat
+      ✔ should allow altering headers
+    when "directory" listeners are present
+      ✔ should be called when sending directory
+      ✔ should be called with path
+    when no "directory" listeners are present
+      ✔ should redirect directories to trailing slash
+      ✔ should respond with an HTML redirect
+      ✔ should respond with default Content-Security-Policy
+      ✔ should not redirect to protocol-relative locations
+      ✔ should respond with an HTML redirect
+    when no "error" listeners are present
+      ✔ should respond to errors directly
+      ✔ should respond with default Content-Security-Policy
+      ✔ should remove all previously-set headers
+    with conditional-GET
+      ✔ should remove Content headers with 304
+      ✔ should not remove all Content-* headers
+      where "If-Match" is set
+        ✔ should respond with 200 when "*"
+        ✔ should respond with 412 when ETag unmatched
+        ✔ should respond with 200 when ETag matched
+      where "If-Modified-Since" is set
+        ✔ should respond with 304 when unmodified
+        ✔ should respond with 200 when modified
+      where "If-None-Match" is set
+        ✔ should respond with 304 when ETag matched
+        ✔ should respond with 200 when ETag unmatched
+      where "If-Unmodified-Since" is set
+        ✔ should respond with 200 when unmodified
+        ✔ should respond with 412 when modified
+        ✔ should respond with 200 when invalid date
+    with Range request
+      ✔ should support byte ranges
+      ✔ should ignore non-byte ranges
+      ✔ should be inclusive
+      ✔ should set Content-Range
+      ✔ should support -n
+      ✔ should support n-
+      ✔ should respond with 206 "Partial Content"
+      ✔ should set Content-Length to the # of octets transferred
+      when last-byte-pos of the range is greater the length
+        ✔ is taken to be equal to one less than the length
+        ✔ should adapt the Content-Length accordingly
+      when the first- byte-pos of the range is greater length
+        ✔ should respond with 416
+        ✔ should emit error 416 with content-range header
+      when syntactically invalid
+        ✔ should respond with 200 and the entire contents
+      when multiple ranges
+        ✔ should respond with 200 and the entire contents
+        ✔ should respond with 206 is all ranges can be combined
+      when if-range present
+        ✔ should respond with parts when etag unchanged
+        ✔ should respond with 200 when etag changed
+        ✔ should respond with parts when modified unchanged
+        ✔ should respond with 200 when modified changed
+        ✔ should respond with 200 when invalid value
+    when "options" is specified
+      ✔ should support start/end
+      ✔ should adjust too large end
+      ✔ should support start/end with Range request
+      ✔ should support start/end with unsatisfiable Range request
+    .etag()
+      ✔ should support disabling etags
+    .from()
+      ✔ should set with deprecated from
+    .hidden()
+      ✔ should default support sending hidden files
+    .index()
+      ✔ should be configurable
+      ✔ should support disabling
+      ✔ should support fallbacks
+    .maxage()
+      ✔ should default to 0
+      ✔ should floor to integer
+      ✔ should accept string
+      ✔ should max at 1 year
+    .root()
+      ✔ should set root
+
+  send(file, options)
+    acceptRanges
+      ✔ should support disabling accept-ranges
+      ✔ should ignore requested range
+    cacheControl
+      ✔ should support disabling cache-control
+      ✔ should ignore maxAge option
+    etag
+      ✔ should support disabling etags
+    extensions
+      ✔ should reject numbers
+      ✔ should reject true
+      ✔ should be not be enabled by default
+      ✔ should be configurable
+      ✔ should support disabling extensions
+      ✔ should support fallbacks
+      ✔ should 404 if nothing found
+      ✔ should skip directories
+      ✔ should not search if file has extension
+    lastModified
+      ✔ should support disabling last-modified
+    from
+      ✔ should set with deprecated from
+    dotfiles
+      ✔ should default to "ignore"
+      ✔ should allow file within dotfile directory for back-compat
+      ✔ should reject bad value
+      when "allow"
+        ✔ should send dotfile
+        ✔ should send within dotfile directory
+        ✔ should 404 for non-existent dotfile
+      when "deny"
+        ✔ should 403 for dotfile
+        ✔ should 403 for dotfile directory
+        ✔ should 403 for dotfile directory with trailing slash
+        ✔ should 403 for file within dotfile directory
+        ✔ should 403 for non-existent dotfile
+        ✔ should 403 for non-existent dotfile directory
+        ✔ should 403 for dotfile in directory
+        ✔ should 403 for dotfile in dotfile directory
+        ✔ should send files in root dotfile directory
+        ✔ should 403 for dotfile without root
+      when "ignore"
+        ✔ should 404 for dotfile
+        ✔ should 404 for dotfile directory
+        ✔ should 404 for dotfile directory with trailing slash
+        ✔ should 404 for file within dotfile directory
+        ✔ should 404 for non-existent dotfile
+        ✔ should 404 for non-existent dotfile directory
+        ✔ should send files in root dotfile directory
+        ✔ should 404 for dotfile without root
+    hidden
+      ✔ should default to false
+      ✔ should default support sending hidden files
+    immutable
+      ✔ should default to false
+      ✔ should set immutable directive in Cache-Control
+    maxAge
+      ✔ should default to 0
+      ✔ should floor to integer
+      ✔ should accept string
+      ✔ should max at 1 year
+    index
+      ✔ should reject numbers
+      ✔ should reject true
+      ✔ should default to index.html
+      ✔ should be configurable
+      ✔ should support disabling
+      ✔ should support fallbacks
+      ✔ should 404 if no index file found (file)
+      ✔ should 404 if no index file found (dir)
+      ✔ should not follow directories
+      ✔ should work without root
+    root
+      when given
+        ✔ should join root
+        ✔ should work with trailing slash
+        ✔ should work with empty path
+        ✔ should try as file with empty path
+        ✔ should restrict paths to within root
+        ✔ should allow .. in root
+        ✔ should not allow root transversal
+        ✔ should not allow root path disclosure
+      when missing
+        ✔ should consider .. malicious
+        ✔ should still serve files with dots in name
+
+  send.mime
+    ✔ should be exposed
+    .default_type
+      ✔ should change the default type
+      ✔ should not add Content-Type for undefined default
+
+
+  154 passing (356ms)
+
+./VariantsFile/send/variant4/send
+
+> send@0.18.0 test
+> mocha --check-leaks --reporter spec --bail
+
+./VariantsFile/send/variant3/send
+
+> send@0.18.0 test
+> mocha --check-leaks --reporter spec --bail
+
+
+
+  send(file).pipe(res)
+    ✔ should stream the file contents
+    ✔ should stream a zero-length file
+    ✔ should decode the given path as a URI
+    ✔ should serve files with dots in name
+    ✔ should treat a malformed URI as a bad request
+    ✔ should 400 on NULL bytes
+    ✔ should treat an ENAMETOOLONG as a 404
+    ✔ should handle headers already sent error
+    ✔ should support HEAD
+    ✔ should add an ETag header field
+    ✔ should add a Date header field
+    ✔ should add a Last-Modified header field
+    ✔ should add a Accept-Ranges header field
+    ✔ should 404 if the file does not exist
+    ✔ should emit ENOENT if the file does not exist
+    ✔ should not override content-type
+    ✔ should set Content-Type via mime map
+    ✔ should 404 if file disappears after stat, before open
+    ✔ should 500 on file stream error
+    "headers" event
+      ✔ should fire when sending file
+      ✔ should not fire on 404
+      ✔ should fire on index
+      ✔ should not fire on redirect
+      ✔ should provide path
+      ✔ should provide stat
+      ✔ should allow altering headers
+    when "directory" listeners are present
+      ✔ should be called when sending directory
+      ✔ should be called with path
+    when no "directory" listeners are present
+      ✔ should redirect directories to trailing slash
+      ✔ should respond with an HTML redirect
+      ✔ should respond with default Content-Security-Policy
+      ✔ should not redirect to protocol-relative locations
+      ✔ should respond with an HTML redirect
+    when no "error" listeners are present
+      ✔ should respond to errors directly
+      ✔ should respond with default Content-Security-Policy
+      ✔ should remove all previously-set headers
+    with conditional-GET
+      ✔ should remove Content headers with 304
+      ✔ should not remove all Content-* headers
+      where "If-Match" is set
+        ✔ should respond with 200 when "*"
+        ✔ should respond with 412 when ETag unmatched
+        ✔ should respond with 200 when ETag matched
+      where "If-Modified-Since" is set
+        ✔ should respond with 304 when unmodified
+        ✔ should respond with 200 when modified
+      where "If-None-Match" is set
+        ✔ should respond with 304 when ETag matched
+        ✔ should respond with 200 when ETag unmatched
+      where "If-Unmodified-Since" is set
+        ✔ should respond with 200 when unmodified
+        ✔ should respond with 412 when modified
+        ✔ should respond with 200 when invalid date
+    with Range request
+      ✔ should support byte ranges
+      ✔ should ignore non-byte ranges
+      ✔ should be inclusive
+      ✔ should set Content-Range
+      ✔ should support -n
+      ✔ should support n-
+      ✔ should respond with 206 "Partial Content"
+      ✔ should set Content-Length to the # of octets transferred
+      when last-byte-pos of the range is greater the length
+        ✔ is taken to be equal to one less than the length
+        ✔ should adapt the Content-Length accordingly
+      when the first- byte-pos of the range is greater length
+        ✔ should respond with 416
+        ✔ should emit error 416 with content-range header
+      when syntactically invalid
+        ✔ should respond with 200 and the entire contents
+      when multiple ranges
+        ✔ should respond with 200 and the entire contents
+        ✔ should respond with 206 is all ranges can be combined
+      when if-range present
+        ✔ should respond with parts when etag unchanged
+        ✔ should respond with 200 when etag changed
+        ✔ should respond with parts when modified unchanged
+        ✔ should respond with 200 when modified changed
+        ✔ should respond with 200 when invalid value
+    when "options" is specified
+      ✔ should support start/end
+      ✔ should adjust too large end
+      ✔ should support start/end with Range request
+      ✔ should support start/end with unsatisfiable Range request
+    .etag()
+      ✔ should support disabling etags
+    .from()
+      ✔ should set with deprecated from
+    .hidden()
+      ✔ should default support sending hidden files
+    .index()
+      ✔ should be configurable
+      ✔ should support disabling
+      ✔ should support fallbacks
+    .maxage()
+      ✔ should default to 0
+      ✔ should floor to integer
+      ✔ should accept string
+      ✔ should max at 1 year
+    .root()
+      ✔ should set root
+
+  send(file, options)
+    acceptRanges
+      ✔ should support disabling accept-ranges
+      ✔ should ignore requested range
+    cacheControl
+      ✔ should support disabling cache-control
+      ✔ should ignore maxAge option
+    etag
+      ✔ should support disabling etags
+    extensions
+      ✔ should reject numbers
+      ✔ should reject true
+      ✔ should be not be enabled by default
+      ✔ should be configurable
+      ✔ should support disabling extensions
+      ✔ should support fallbacks
+      ✔ should 404 if nothing found
+      ✔ should skip directories
+      ✔ should not search if file has extension
+    lastModified
+      ✔ should support disabling last-modified
+    from
+      ✔ should set with deprecated from
+    dotfiles
+      ✔ should default to "ignore"
+      ✔ should allow file within dotfile directory for back-compat
+      ✔ should reject bad value
+      when "allow"
+        ✔ should send dotfile
+        ✔ should send within dotfile directory
+        ✔ should 404 for non-existent dotfile
+      when "deny"
+        ✔ should 403 for dotfile
+        ✔ should 403 for dotfile directory
+        ✔ should 403 for dotfile directory with trailing slash
+        ✔ should 403 for file within dotfile directory
+        ✔ should 403 for non-existent dotfile
+        ✔ should 403 for non-existent dotfile directory
+        ✔ should 403 for dotfile in directory
+        ✔ should 403 for dotfile in dotfile directory
+        ✔ should send files in root dotfile directory
+        ✔ should 403 for dotfile without root
+      when "ignore"
+        ✔ should 404 for dotfile
+        ✔ should 404 for dotfile directory
+        ✔ should 404 for dotfile directory with trailing slash
+        ✔ should 404 for file within dotfile directory
+        ✔ should 404 for non-existent dotfile
+        ✔ should 404 for non-existent dotfile directory
+        ✔ should send files in root dotfile directory
+        ✔ should 404 for dotfile without root
+    hidden
+      ✔ should default to false
+      ✔ should default support sending hidden files
+    immutable
+      ✔ should default to false
+      ✔ should set immutable directive in Cache-Control
+    maxAge
+      ✔ should default to 0
+      ✔ should floor to integer
+      ✔ should accept string
+      ✔ should max at 1 year
+    index
+      ✔ should reject numbers
+      ✔ should reject true
+      ✔ should default to index.html
+      ✔ should be configurable
+      ✔ should support disabling
+      ✔ should support fallbacks
+      ✔ should 404 if no index file found (file)
+      ✔ should 404 if no index file found (dir)
+      ✔ should not follow directories
+      ✔ should work without root
+    root
+      when given
+        ✔ should join root
+        ✔ should work with trailing slash
+        ✔ should work with empty path
+        ✔ should try as file with empty path
+        ✔ should restrict paths to within root
+        ✔ should allow .. in root
+        ✔ should not allow root transversal
+        ✔ should not allow root path disclosure
+      when missing
+        ✔ should consider .. malicious
+        ✔ should still serve files with dots in name
+
+  send.mime
+    ✔ should be exposed
+    .default_type
+      ✔ should change the default type
+      ✔ should not add Content-Type for undefined default
+
+
+  154 passing (357ms)
+
+./VariantsFile/send/variant2/send
+
+> send@0.18.0 test
+> mocha --check-leaks --reporter spec --bail
+
+./VariantsFile/send/variant1/send
+
+> send@0.18.0 test
+> mocha --check-leaks --reporter spec --bail
+
+
+
+  send(file).pipe(res)
+    ✔ should stream the file contents
+    ✔ should stream a zero-length file
+    ✔ should decode the given path as a URI
+    ✔ should serve files with dots in name
+    1) should treat a malformed URI as a bad request
+
+
+  4 passing (39ms)
+  1 failing
+
+  1) send(file).pipe(res)
+       should treat a malformed URI as a bad request:
+     Uncaught TypeError: setPrototypeOf is not a function
+      at new BadRequestError (node_modules/http-errors/index.js:139:5)
+      at createError (node_modules/http-errors/index.js:87:9)
+      at createHttpError (index.js:979:12)
+      at SendStream.error (index.js:270:31)
+      at SendStream.pipe (index.js:516:10)
+      at Server.<anonymous> (test/send.js:24:6)
+      at Server.emit (node:events:513:28)
+      at parserOnIncoming (node:_http_server:980:12)
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+
+
+

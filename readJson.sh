@@ -1,7 +1,7 @@
 jsonlist=$(jq -r '.projects' "repoSet.json")
 
-# mkdir VariantsDep
-mkdir VariantsSubtree
+mkdir VariantsPureDep
+# mkdir VariantsSubtree
 # mkdir VariantsFile
 
 # inside the loop, you cant use the fuction _jq() to get values from each object.
@@ -25,13 +25,13 @@ do
     echo $commit
 
 
-    cd VariantsSubtree
-    mkdir $projectName
-    cd ..
-
-    # cd VariantsDep
+    # cd VariantsSubtree
     # mkdir $projectName
     # cd ..
+
+    cd VariantsPureDep
+    mkdir $projectName
+    cd ..
 
     # cd VariantsFile
     # mkdir $projectName

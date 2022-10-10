@@ -1,0 +1,209 @@
+2
+./VariantsPureDep/session/variant2/session
+
+> express-session@1.17.3 test
+> mocha --require test/support/env --check-leaks --bail --no-exit --reporter spec test/
+
+
+
+  new Cookie()
+    ✔ should create a new cookie object
+    ✔ should default expires to null
+    ✔ should default httpOnly to true
+    ✔ should default path to "/"
+    ✔ should default maxAge to null
+    with options
+      ✔ should create a new cookie object
+      ✔ should reject non-objects
+      ✔ should ignore "data" option
+      expires
+        ✔ should set expires
+        ✔ should set maxAge
+      httpOnly
+        ✔ should set httpOnly
+      maxAge
+        ✔ should set expires
+        ✔ should set maxAge
+        ✔ should accept Date object
+        ✔ should reject invalid types
+      path
+        ✔ should set path
+
+  session()
+    ✔ should export constructors
+    ✔ should do nothing if req.session exists
+    ✔ should error without secret
+    ✔ should get secret from req.secret
+    ✔ should create a new session
+    ✔ should load session from cookie sid
+    ✔ should pass session fetch error
+    ✔ should treat ENOENT session fetch error as not found
+    ✔ should create multiple sessions
+    ✔ should handle empty req.url
+    ✔ should handle multiple res.end calls
+    ✔ should handle res.end(null) calls
+    ✔ should handle reserved properties in storage
+    ✔ should only have session data enumerable (and cookie)
+    ✔ should not save with bogus req.sessionID
+    ✔ should update cookie expiration when slow write (913ms)
+    when response ended
+      ✔ should have saved session (204ms)
+      ✔ should have saved session even with empty response (202ms)
+      ✔ should have saved session even with multi-write (204ms)
+      ✔ should have saved session even with non-chunked response (202ms)
+      ✔ should have saved session with updated cookie expiration (985ms)
+    when sid not in store
+      ✔ should create a new session
+      ✔ should have a new sid
+    when sid not properly signed
+      ✔ should generate new session
+      ✔ should not attempt fetch from store
+    when session expired in store
+      ✔ should create a new session
+      ✔ should have a new sid
+      ✔ should not exist in store
+    when session without cookie property in store
+      ✔ should pass error from inflate
+    proxy option
+      when enabled
+        ✔ should trust X-Forwarded-Proto when string
+        ✔ should trust X-Forwarded-Proto when comma-separated list
+        ✔ should work when no header
+      when disabled
+        ✔ should not trust X-Forwarded-Proto
+        ✔ should ignore req.secure
+      when unspecified
+        ✔ should not trust X-Forwarded-Proto
+        ✔ should use req.secure
+    cookie option
+      when "path" set to "/foo/bar"
+        ✔ should not set cookie for "/" request
+        ✔ should not set cookie for "http://foo/bar" request
+        ✔ should set cookie for "/foo/bar" request
+        ✔ should set cookie for "/foo/bar/baz" request
+        when mounted at "/foo"
+          ✔ should set cookie for "/foo/bar" request
+          ✔ should not set cookie for "/foo/foo/bar" request
+      when "secure" set to "auto"
+        when "proxy" is "true"
+          ✔ should set secure when X-Forwarded-Proto is https
+        when "proxy" is "false"
+          ✔ should not set secure when X-Forwarded-Proto is https
+        when "proxy" is undefined
+          ✔ should set secure if req.secure = true
+          ✔ should not set secure if req.secure = false
+    genid option
+      ✔ should reject non-function values
+      ✔ should provide default generator
+      ✔ should allow custom function
+      ✔ should encode unsafe chars
+      ✔ should provide req argument
+    key option
+      ✔ should default to "connect.sid"
+      ✔ should allow overriding
+    name option
+      ✔ should default to "connect.sid"
+      ✔ should set the cookie name
+    rolling option
+      ✔ should default to false
+      ✔ should force cookie on unmodified session
+      ✔ should not force cookie on uninitialized session if saveUninitialized option is set to false
+      ✔ should force cookie and save uninitialized session if saveUninitialized option is set to true
+      ✔ should force cookie and save modified session even if saveUninitialized option is set to false
+    resave option
+      ✔ should default to true
+      when true
+        ✔ should force save on unmodified session
+      when false
+        ✔ should prevent save on unmodified session
+        ✔ should still save modified session
+        ✔ should detect a "cookie" property as modified
+        ✔ should pass session touch error
+    saveUninitialized option
+      ✔ should default to true
+      ✔ should force save of uninitialized session
+      ✔ should prevent save of uninitialized session
+      ✔ should still save modified session
+      ✔ should pass session save error
+      ✔ should prevent uninitialized session from being touched
+    secret option
+      ✔ should reject empty arrays
+      when an array
+        ✔ should sign cookies
+        ✔ should sign cookies with first element
+        ✔ should read cookies using all elements
+    unset option
+      ✔ should reject unknown values
+      ✔ should default to keep
+      ✔ should allow destroy on req.session = null
+      ✔ should not set cookie if initial session destroyed
+      ✔ should pass session destroy error
+    res.end patch
+      ✔ should correctly handle res.end/res.write patched prior
+      ✔ should correctly handle res.end/res.write patched after
+      ✔ should error when res.end is called twice
+    req.session
+      ✔ should persist
+      ✔ should only set-cookie when modified
+      ✔ should not have enumerable methods
+      ✔ should not be set if store is disconnected
+      ✔ should be set when store reconnects
+      .destroy()
+        ✔ should destroy the previous session
+      .regenerate()
+        ✔ should destroy/replace the previous session
+      .reload()
+        ✔ should reload session from store
+        ✔ should error is session missing
+        ✔ should not override an overriden `reload` in case of errors
+      .save()
+        ✔ should save session to store
+        ✔ should prevent end-of-request save
+        ✔ should prevent end-of-request save on reloaded session
+        when saveUninitialized is false
+          ✔ should prevent end-of-request save
+      .touch()
+        ✔ should reset session expiration (103ms)
+      .cookie
+        .*
+          ✔ should serialize as parameters
+          ✔ should default to a browser-session length cookie
+          ✔ should Set-Cookie only once for browser-session cookies
+          ✔ should override defaults
+          ✔ should preserve cookies set before writeHead is called
+          ✔ should preserve cookies set in writeHead
+        .originalMaxAge
+          ✔ should equal original maxAge
+          ✔ should equal original maxAge for all requests (105ms)
+          ✔ should equal original maxAge for all requests (105ms)
+        .secure
+          ✔ should set cookie when secure
+          ✔ should not set-cookie when insecure
+        .maxAge
+          ✔ should set cookie expires relative to maxAge
+          ✔ should modify cookie expires when changed
+          ✔ should modify cookie expires when changed to large value
+        .expires
+          when given a Date
+            ✔ should set absolute
+          when null
+            ✔ should be a browser-session cookie
+            ✔ should not reset cookie
+            ✔ should not reset cookie when modified
+    synchronous store
+      ✔ should respond correctly on save
+      ✔ should respond correctly on destroy
+    cookieParser()
+      ✔ should read from req.cookies
+      ✔ should reject unsigned from req.cookies
+      ✔ should reject invalid signature from req.cookies
+      ✔ should read from req.signedCookies
+
+
+  139 passing (3s)
+
+./VariantsPureDep/session/variant1/session
+
+> express-session@1.17.3 test
+> mocha --require test/support/env --check-leaks --bail --no-exit --reporter spec test/
+

@@ -1,0 +1,2666 @@
+3
+./VariantsPureDep/sharp/variant3/sharp
+
+> sharp@0.30.7 test
+> npm run test-lint && npm run test-unit && npm run test-licensing
+
+
+> sharp@0.30.7 test-lint
+> semistandard && cpplint
+
+
+> sharp@0.30.7 test-unit
+> nyc --reporter=lcov --branches=99 mocha --slow=1000 --timeout=60000 ./test/unit/*.js
+
+
+
+  Affine transform
+    ✔ Applies identity matrix
+    ✔ Applies resize affine matrix
+    ✔ Resizes and applies affine transform
+    ✔ Extracts and applies affine transform
+    ✔ Rotates and applies affine transform
+    ✔ Extracts, rotates and applies affine transform
+    ✔ Applies affine transform with background color
+    ✔ Applies affine transform with background color and output offsets
+    ✔ Applies affine transform with background color and all offsets
+    ✔ Animated image rejects
+    Invalid input
+      ✔ Missing matrix
+      ✔ Invalid 1d matrix
+      ✔ Invalid 2d matrix
+      ✔ Invalid options parameter type
+      ✔ Invalid background color
+      ✔ Invalid idx offset type
+      ✔ Invalid idy offset type
+      ✔ Invalid odx offset type
+      ✔ Invalid ody offset type
+      ✔ Invalid interpolator
+    Interpolations
+      ✔ Performs 2x upscale with nearest interpolation
+      ✔ Performs 2x upscale with bilinear interpolation
+      ✔ Performs 2x upscale with bicubic interpolation
+      ✔ Performs 2x upscale with locallyBoundedBicubic interpolation
+      ✔ Performs 2x upscale with nohalo interpolation
+      ✔ Performs 2x upscale with vertexSplitQuadraticBasisSpline interpolation
+
+  HTTP agent
+    ✔ Without proxy
+    ✔ HTTPS proxy with auth from HTTPS_PROXY
+    ✔ HTTPS proxy with auth from HTTPS_PROXY using credentials containing special characters
+    ✔ HTTP proxy without auth from npm_config_proxy
+
+  Alpha transparency
+    ✔ Flatten to black
+    ✔ Flatten to RGB orange
+    ✔ Flatten to CSS/hex orange
+    ✔ Flatten 16-bit PNG with transparency to orange
+    ✔ Do not flatten
+    ✔ Ignored for JPEG
+    ✔ Flatten with options but without colour does not throw
+    ✔ Flatten to invalid colour throws
+    ✔ Enlargement with non-nearest neighbor interpolation shouldn’t cause dark edges (1049ms)
+    ✔ Reduction with non-nearest neighbor interpolation shouldn’t cause dark edges (748ms)
+    ✔ Removes alpha from fixtures with transparency, ignores those without
+    ✔ Ensures alpha from fixtures without transparency, ignores those with
+    ✔ Valid ensureAlpha value used for alpha channel
+    ✔ Invalid ensureAlpha value throws
+
+  AVIF
+    ✔ called without options does not throw an error
+    ✔ can convert AVIF to JPEG
+    ✔ can convert JPEG to AVIF
+    ✔ can passthrough AVIF
+    ✔ can convert animated GIF to non-animated AVIF
+
+  Bandbool per-channel boolean operations
+    ✔ and operation
+    ✔ or operation
+    ✔ eor operation
+    ✔ sRGB image retains 3 channels
+    ✔ Invalid operation
+    ✔ Missing operation
+
+  Blur
+    ✔ specific radius 1
+    ✔ specific radius 10
+    ✔ specific radius 0.3
+    ✔ mild blur
+    ✔ invalid radius
+    ✔ blurred image is smaller than non-blurred
+
+  Boolean operation between two images
+    ✔ and operation, file
+    ✔ and operation, buffer
+    ✔ and operation, raw
+    ✔ or operation, file
+    ✔ or operation, buffer
+    ✔ or operation, raw
+    ✔ eor operation, file
+    ✔ eor operation, buffer
+    ✔ eor operation, raw
+    ✔ Invalid operation
+    ✔ Invalid operation, non-string
+    ✔ Missing input
+
+  Clahe
+    ✔ width 5 width 5 maxSlope 0
+    ✔ width 5 width 5 maxSlope 5
+    ✔ width 11 width 25 maxSlope 14
+    ✔ width 50 width 50 maxSlope 0
+    ✔ width 50 width 50 maxSlope 14
+    ✔ width 100 width 50 maxSlope 3
+    ✔ width 100 width 100 maxSlope 0
+    ✔ invalid maxSlope
+    ✔ invalid width
+    ✔ invalid height
+    ✔ invalid options object
+    ✔ uses default maxSlope of 3
+
+  Clone
+    ✔ Read from Stream and write to multiple Streams
+    ✔ Stream-based input attaches finish event listener to original
+    ✔ Non Stream-based input does not attach finish event listeners
+
+  Colour space conversion
+    ✔ To greyscale
+    ✔ To greyscale with gamma correction
+    ✔ Not to greyscale
+    ✔ Greyscale with single channel output
+    ✔ From 1-bit TIFF to sRGB WebP
+    ✔ From CMYK to sRGB
+    ✔ From CMYK to sRGB with white background, not yellow
+    ✔ From profile-less CMYK to sRGB
+    ✔ From sRGB with RGB16 pipeline, resize with gamma, to sRGB
+    ✔ Convert P3 to sRGB
+    ✔ Passthrough P3
+    ✔ Invalid pipelineColourspace input
+    ✔ Invalid toColourspace input
+
+  composite
+    ✔ blend over
+    ✔ blend xor
+    ✔ blend saturate
+    ✔ blend dest-over
+    ✔ premultiplied true
+    ✔ premultiplied false
+    ✔ premultiplied absent
+    ✔ multiple
+    ✔ zero offset
+    ✔ offset and gravity
+    ✔ negative offset and gravity
+    ✔ offset, gravity and tile
+    ✔ offset and tile
+    ✔ centre gravity should replicate correct number of tiles
+    ✔ cutout via dest-in
+    ✔ Allow offset beyond bottom/right edge
+    ✔ Ensure tiled composition works with resized fit=outside
+    numeric gravity
+      ✔ center
+      ✔ centre
+      ✔ north
+      ✔ east
+      ✔ south
+      ✔ west
+      ✔ northeast
+      ✔ southeast
+      ✔ southwest
+      ✔ northwest
+    string gravity
+      ✔ center
+      ✔ centre
+      ✔ north
+      ✔ east
+      ✔ south
+      ✔ west
+      ✔ northeast
+      ✔ southeast
+      ✔ southwest
+      ✔ northwest
+    tile and gravity
+      ✔ center
+      ✔ centre
+      ✔ north
+      ✔ east
+      ✔ south
+      ✔ west
+      ✔ northeast
+      ✔ southeast
+      ✔ southwest
+      ✔ northwest
+    validation
+      ✔ missing images
+      ✔ invalid images
+      ✔ missing input
+      ✔ invalid blend
+      ✔ invalid tile
+      ✔ invalid premultiplied
+      ✔ invalid left
+      ✔ invalid top
+      ✔ left but no top
+      ✔ top but no left
+      ✔ invalid gravity
+
+  Convolve
+    ✔ specific convolution kernel 1
+    ✔ specific convolution kernel 2
+    ✔ horizontal Sobel operator
+    invalid kernel specification
+      ✔ missing
+      ✔ incorrect data format
+      ✔ incorrect dimensions
+
+  Extend
+    ✔ extend all sides equally with RGB
+    ✔ extend sides unequally with RGBA
+    ✔ missing parameter fails
+    ✔ negative fails
+    ✔ invalid top fails
+    ✔ invalid bottom fails
+    ✔ invalid left fails
+    ✔ invalid right fails
+    ✔ can set all edges apart from right
+    ✔ should add alpha channel before extending with a transparent Background
+    ✔ PNG with 2 channels
+    ✔ Premultiply background when compositing
+    extend all sides equally via a single value
+      ✔ JPEG
+      ✔ Animated WebP
+
+  Partial image extraction
+    ✔ JPEG
+    ✔ PNG
+    ✔ WebP
+    ✔ TIFF
+    ✔ Before resize
+    ✔ After resize and crop
+    ✔ Before and after resize and crop
+    ✔ Extract then rotate
+    ✔ Rotate then extract
+    ✔ Extract then rotate non-90 anagle
+    ✔ Rotate then extract non-90 angle
+    Animated WebP
+      ✔ Before resize
+      ✔ After resize
+    Apply exif orientation and mirroring then extract
+      ✔ EXIF-1
+      ✔ EXIF-2
+      ✔ EXIF-3
+      ✔ EXIF-4
+      ✔ EXIF-5
+      ✔ EXIF-6
+      ✔ EXIF-7
+      ✔ EXIF-8
+    Invalid parameters
+      ✔ Undefined
+      ✔ String top
+      ✔ Non-integral left
+      ✔ Negative width - negative
+      ✔ Null height
+      ✔ Bad image area
+      using the legacy extract(top,left,width,height) syntax
+        ✔ String top
+        ✔ Non-integral left
+        ✔ Negative width - negative
+        ✔ Null height
+
+  Image channel extraction
+    ✔ Red channel
+    ✔ Green channel
+    ✔ Blue channel
+    ✔ Blue channel by number
+    ✔ With colorspace conversion
+    ✔ Alpha from 16-bit PNG
+    ✔ Alpha from 2-channel input
+    ✔ Invalid channel number
+    ✔ No arguments
+    ✔ Non-existent channel
+
+  failOn
+    ✔ handles truncated JPEG
+    ✔ handles truncated PNG, emits warnings
+    ✔ throws for invalid options
+    ✔ deprecated failOnError
+    ✔ returns errors to callback for truncated JPEG
+    ✔ returns errors to callback for truncated PNG
+    ✔ rejects promises for truncated JPEG
+    ✔ handles stream-based input
+
+  Test fixtures
+    assertMaxColourDistance
+      ✔ should throw an Error when images have a different number of channels
+      ✔ should throw an Error when images have different dimensions
+      ✔ should accept a zero threshold when comparing an image to itself (938ms)
+      ✔ should accept a numeric threshold for two different images (899ms)
+
+  Gamma correction
+    ✔ value of 0.0 (disabled)
+    ✔ value of 2.2 (default)
+    ✔ value of 3.0
+    ✔ input value of 2.2, output value of 3.0
+    ✔ alpha transparency
+    ✔ invalid first parameter value
+    ✔ invalid second parameter value
+
+  GIF input
+    ✔ GIF Buffer to JPEG Buffer
+    ✔ 2 channel GIF file to PNG Buffer
+    ✔ Animated GIF first page to PNG
+    ✔ Animated GIF all pages to PNG "toilet roll"
+    ✔ GIF with reduced colours, no dither, low effort reduces file size
+    ✔ invalid loop throws
+    ✔ invalid delay throws
+    ✔ invalid colour throws
+    ✔ invalid effort throws
+    ✔ invalid dither throws
+    ✔ should work with streams when only animated is set
+    ✔ should work with streams when only pages is set
+
+  HEIF
+    ✔ called without options does not throw an error
+    ✔ valid quality does not throw an error
+    ✔ invalid quality should throw an error
+    ✔ non-numeric quality should throw an error
+    ✔ valid lossless does not throw an error
+    ✔ non-boolean lossless should throw an error
+    ✔ valid compression does not throw an error
+    ✔ unknown compression should throw an error
+    ✔ invalid compression should throw an error
+    ✔ valid effort does not throw an error
+    ✔ out of range effort should throw an error
+    ✔ invalid effort should throw an error
+    ✔ valid speed does not throw an error
+    ✔ out of range speed should throw an error
+    ✔ invalid speed should throw an error
+    ✔ invalid chromaSubsampling should throw an error
+    ✔ valid chromaSubsampling does not throw an error
+
+  Input/output
+    ✔ Read from File and write to Stream
+    ✔ Read from Buffer and write to Stream
+    ✔ Read from Stream and write to File
+    ✔ Read from Stream and write to Buffer
+    ✔ Read from Stream and write to Buffer via Promise resolved with Buffer
+    ✔ Read from Stream and write to Buffer via Promise resolved with Object
+    ✔ Read from File and write to Buffer via Promise resolved with Buffer
+    ✔ Read from File and write to Buffer via Promise resolved with Object
+    ✔ Read from Stream and write to Stream
+    ✔ Read from Uint8Array and write to Buffer
+    ✔ Read from Uint8ClampedArray and output to Buffer
+    ✔ Read from Uint8ClampedArray with byteOffset and output to Buffer
+    ✔ Stream should emit info event
+    ✔ Stream should emit close event
+    ✔ Handle Stream to Stream error 
+    ✔ Handle File to Stream error
+    ✔ Readable side of Stream can start flowing after Writable side has finished
+    ✔ Invalid sequential read option throws
+    ✔ Sequential read, force JPEG
+    ✔ Not sequential read, force JPEG
+    ✔ Support output to jpg format
+    ✔ Support output to tif format
+    ✔ Allow use of toBuffer and toFile with same instance
+    ✔ Fail when output File is input File
+    ✔ Fail when output File is input File via Promise
+    ✔ Fail when output File is input File (relative output, absolute input)
+    ✔ Fail when output File is input File via Promise (relative output, absolute input)
+    ✔ Fail when output File is input File (relative input, absolute output)
+    ✔ Fail when output File is input File via Promise (relative input, absolute output)
+    ✔ Fail when output File is empty
+    ✔ Fail when output File is empty via Promise
+    ✔ Fail when input is invalid Buffer
+    ✔ Fail when input file path is missing
+    ✔ Promises/A+
+    ✔ Invalid output format
+    ✔ File input with corrupt header fails gracefully
+    ✔ Buffer input with corrupt header fails gracefully
+    ✔ Stream input with corrupt header fails gracefully
+    ✔ Input and output formats match when not forcing
+    ✔ Can force output format with output chaining
+    ✔ toFormat=JPEG takes precedence over WebP extension
+    ✔ toFormat=WebP takes precedence over JPEG extension (662ms)
+    ✔ Load Vips V file
+    ✔ Save Vips V file
+    ✔ Fails when writing to missing directory
+    ✔ Queue length change events
+    ✔ Info event data
+    Fail for unsupported input
+      ✔ Undefined
+      ✔ Null
+      ✔ Numeric
+      ✔ Boolean
+      ✔ Error Object
+    Output filename with unknown extension
+      ✔ Match JPEG input
+      ✔ Match PNG input
+      ✔ Match WebP input
+      ✔ Match TIFF input
+      ✔ Force JPEG format for PNG input
+    Switch off safety limits for PNG/SVG input
+      ✔ Valid
+      ✔ Invalid
+    Limit pixel count of input image
+      ✔ Invalid fails - negative
+      ✔ Invalid fails - float
+      ✔ Invalid fails - integer overflow
+      ✔ Invalid fails - string
+      ✔ Same size as input works
+      ✔ Disabling limit works
+      ✔ Enabling default limit works and fails with a large image
+      ✔ Smaller than input fails
+    Input options
+      ✔ Option-less
+      ✔ Ignore unknown attribute
+      ✔ undefined with options fails
+      ✔ null with options fails
+      ✔ Non-Object options fails
+      ✔ Invalid density: string
+      ✔ Setting animated property updates pages property
+      ✔ Invalid animated property throws
+      ✔ Invalid page property throws
+      ✔ Invalid pages property throws
+      ✔ Valid level property
+      ✔ Invalid level property (string) throws
+      ✔ Invalid level property (negative) throws
+      ✔ Valid subifd property
+      ✔ Invalid subifd property (string) throws
+      ✔ Invalid subifd property (float) throws
+    create new image
+      ✔ RGB
+      ✔ RGBA
+      ✔ Invalid channels
+      ✔ Missing background
+
+  Image channel insertion
+    ✔ Grayscale to RGB, buffer
+    ✔ Grayscale to RGB, file
+    ✔ Grayscale to RGBA, buffer
+    ✔ Grayscale to RGBA, file
+    ✔ Grayscale to CMYK, buffers
+    ✔ Join raw buffers to RGB
+    ✔ Grayscale to RGBA, files, two arrays
+    ✔ Invalid raw buffer description
+    ✔ Invalid input
+    ✔ No arguments
+
+  JP2 output
+    ✔ JP2 output should fail due to missing OpenJPEG
+    ✔ JP2 file output should fail due to missing OpenJPEG
+
+  JPEG
+    ✔ JPEG quality
+    ✔ Progressive JPEG image
+    ✔ Without chroma subsampling generates larger file
+    ✔ Invalid JPEG chromaSubsampling value throws error
+    ✔ Trellis quantisation
+    ✔ Overshoot deringing
+    ✔ Optimise scans generates different output length
+    ✔ Optimise coding generates smaller output length
+    ✔ Specifying quantisation table provides different JPEG
+    ✔ Specifying quantization table provides different JPEG
+    ✔ Can use mozjpeg defaults
+    ✔ Invalid mozjpeg value throws error
+    Invalid JPEG quality
+      ✔ -1
+      ✔ 88.2
+      ✔ test
+    Invalid JPEG quantisation table
+      ✔ -1
+      ✔ 88.2
+      ✔ test
+
+  libvips binaries
+    Windows platform
+      ✔ pkgConfigPath returns empty string
+      ✔ globalLibvipsVersion returns empty string
+      ✔ globalLibvipsVersion is always false
+    non-Windows platforms
+      ✔ pkgConfigPath returns a string (1378ms)
+      ✔ globalLibvipsVersion returns a string (987ms)
+      ✔ globalLibvipsVersion returns a boolean (995ms)
+    platform agnostic
+      ✔ minimumLibvipsVersion returns a valid semver
+      ✔ hasVendoredLibvips returns a boolean
+      ✔ useGlobalLibvips can be ignored via an env var
+      ✔ cachePath returns a valid path ending with _libvips
+    integrity
+      ✔ reads value from environment variable
+      ✔ reads value from package.json
+    safe directory creation
+    logger
+      ✔ logs an info message
+      ✔ logs an error message
+
+  Linear adjustment
+    ✔ applies linear levels adjustment w/o alpha ch
+    ✔ applies slope level adjustment w/o alpha ch
+    ✔ applies offset level adjustment w/o alpha ch
+    ✔ applies linear levels adjustment w alpha ch
+    ✔ applies slope level adjustment w alpha ch
+    ✔ applies offset level adjustment w alpha ch
+    ✔ Invalid linear arguments
+
+  Median filter
+    ✔ 1x1 window
+    ✔ 3x3 window
+    ✔ 7x7 window
+    ✔ default window (3x3)
+    ✔ invalid radius
+
+  Image metadata
+    ✔ JPEG
+    ✔ JPEG with EXIF/ICC
+    ✔ JPEG with IPTC/XMP
+    ✔ TIFF
+    ✔ Multipage TIFF
+    ✔ PNG
+    ✔ Transparent PNG
+    ✔ WebP
+    ✔ Animated WebP
+    ✔ Animated WebP with all pages
+    ✔ Animated WebP with limited looping
+    ✔ GIF
+    ✔ GIF grey+alpha
+    ✔ Animated GIF
+    ✔ Animated GIF with limited looping
+    ✔ vips
+    ✔ File in, Promise out
+    ✔ Non-existent file in, Promise out
+    ✔ Stream in, Promise out
+    ✔ Stream in, rejected Promise out
+    ✔ Stream
+    ✔ Resize to half width using metadata
+    ✔ Keep EXIF metadata and add sRGB profile after a resize
+    ✔ Apply CMYK output ICC profile
+    ✔ Apply custom output ICC profile
+    ✔ Include metadata in output, enabled via empty object
+    ✔ Remove EXIF metadata after a resize
+    ✔ Remove metadata from PNG output
+    ✔ Add EXIF metadata to JPEG
+    ✔ Set density of JPEG
+    ✔ Set density of PNG
+    ✔ chromaSubsampling 4:4:4:4 CMYK JPEG
+    ✔ chromaSubsampling 4:4:4 RGB JPEG
+    ✔ isProgressive JPEG
+    ✔ isProgressive PNG
+    ✔ 16-bit TIFF with TIFFTAG_PHOTOSHOP metadata
+    ✔ AVIF
+    ✔ File input with corrupt header fails gracefully
+    ✔ Buffer input with corrupt header fails gracefully
+    ✔ Unsupported lossless JPEG passes underlying error message
+    Invalid withMetadata parameters
+      ✔ String orientation
+      ✔ Negative orientation
+      ✔ Zero orientation
+      ✔ Too large orientation
+      ✔ Non-numeric density
+      ✔ Negative density
+      ✔ Non string icc
+      ✔ Non object exif
+      ✔ Non string value in object exif
+      ✔ Non string value in nested object exif
+
+  Modulate
+    ✔ should be able to hue-rotate
+    ✔ should be able to brighten
+    ✔ should be able to darken
+    ✔ should be able to saturate
+    ✔ should be able to desaturate
+    ✔ should be able to lighten
+    ✔ should be able to modulate all channels
+    ✔ should be able to use linear and modulate together
+    Invalid options
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+    hue-rotate
+      ✔ should hue rotate by 30 deg
+      ✔ should hue rotate by 60 deg
+      ✔ should hue rotate by 90 deg
+      ✔ should hue rotate by 120 deg
+      ✔ should hue rotate by 150 deg
+      ✔ should hue rotate by 180 deg
+      ✔ should hue rotate by 210 deg
+      ✔ should hue rotate by 240 deg
+      ✔ should hue rotate by 270 deg
+      ✔ should hue rotate by 300 deg
+      ✔ should hue rotate by 330 deg
+      ✔ should hue rotate by 360 deg
+
+  Negate
+    ✔ negate (jpeg)
+    ✔ negate (png)
+    ✔ negate (png, trans)
+    ✔ negate (png, alpha)
+    ✔ negate (webp)
+    ✔ negate (webp, trans)
+    ✔ negate (true)
+    ✔ negate (false)
+    ✔ negate ({alpha: true})
+    ✔ negate non-alpha channels (png)
+    ✔ negate non-alpha channels (png, trans)
+    ✔ negate non-alpha channels (png, alpha)
+    ✔ negate non-alpha channels (webp)
+    ✔ negate non-alpha channels (webp, trans)
+    ✔ negate create
+    ✔ invalid alpha value
+
+  Gaussian noise
+    ✔ generate single-channel gaussian noise
+    ✔ generate 3-channels gaussian noise
+    ✔ overlay 3-channels gaussian noise over image
+    ✔ overlay strong single-channel (sRGB) gaussian noise with 25% transparency over transparent png image (529ms)
+    ✔ no create object properties specified
+    ✔ invalid noise object
+    ✔ unknown type of noise
+    ✔ gaussian noise, invalid amount of channels
+    ✔ gaussian noise, invalid mean
+    ✔ gaussian noise, invalid sigma
+
+  Normalization
+    ✔ spreads rgb image values between 0 and 255
+    ✔ spreads grayscaled image values between 0 and 255
+    ✔ stretches greyscale images with alpha channel
+    ✔ keeps an existing alpha channel
+    ✔ keeps the alpha channel of greyscale images intact
+    ✔ does not alter images with only one color
+    ✔ works with 16-bit RGBA images
+
+  Platform-detection
+    ✔ Can override arch with npm_config_arch
+    ✔ Can override platform with npm_config_platform
+    ✔ Can override ARM version via --arm-version
+    ✔ Can override ARM64 version via --arm-version
+    ✔ Defaults to ARMv6 for 32-bit
+    ✔ Defaults to ARMv8 for 64-bit
+    ✔ Can ensure version ARMv7 if electron version is present
+    ✔ Can override libc if platform is linux
+    ✔ Handles libc value "glibc" as default linux
+    ✔ Discards libc value on non-linux platform
+
+  PNG
+    ✔ compression level is valid
+    ✔ compression level is invalid
+    ✔ default compressionLevel generates smaller file than compressionLevel=0
+    ✔ without adaptiveFiltering generates smaller file
+    ✔ Invalid PNG adaptiveFiltering value throws error
+    ✔ Progressive PNG image
+    ✔ 16-bit grey+alpha PNG identity transform
+    ✔ 16-bit grey+alpha PNG roundtrip
+    ✔ palette decode/encode roundtrip
+    ✔ Valid PNG libimagequant palette value does not throw error
+    ✔ Invalid PNG libimagequant palette value throws error
+    ✔ Valid PNG libimagequant quality value produces image of same size or smaller
+    ✔ Invalid PNG libimagequant quality value throws error
+    ✔ Invalid effort value throws error
+    ✔ Valid PNG libimagequant colours value produces image of same size or smaller
+    ✔ Invalid PNG libimagequant colours value throws error
+    ✔ Invalid PNG libimagequant colors value throws error
+    ✔ Valid PNG libimagequant dither value produces image of same size or smaller
+    ✔ Invalid PNG libimagequant dither value throws error
+
+  Raw pixel data
+    Raw pixel input
+      ✔ Empty data
+      ✔ Missing options
+      ✔ Incomplete options
+      ✔ Invalid channels
+      ✔ Invalid height
+      ✔ Invalid width
+      ✔ RGB
+      ✔ RGBA
+      ✔ RGBA premultiplied
+      ✔ JPEG to raw Stream and back again
+    Output raw, uncompressed image data
+      ✔ 1 channel greyscale image
+      ✔ 3 channel colour image without transparency
+      ✔ 4 channel colour image with transparency
+      ✔ Extract A from RGBA
+    Raw pixel depths
+      ✔ Invalid depth
+      ✔ Uint8Array
+      ✔ Uint8Array
+      ✔ Uint8ClampedArray
+      ✔ Int8Array
+      ✔ Uint16Array
+      ✔ Int16Array
+      ✔ Uint32Array
+      ✔ Int32Array
+      ✔ Float32Array
+      ✔ Float64Array
+
+  Recomb
+    ✔ applies a sepia filter using recomb
+    ✔ applies a sepia filter using recomb to an PNG with Alpha
+    ✔ recomb with a single channel input
+    ✔ applies a different sepia filter using recomb
+    ✔ increases the saturation of the image
+    invalid matrix specification
+      ✔ missing
+      ✔ incorrect flat data
+      ✔ incorrect sub size
+      ✔ incorrect top size
+
+  Resize fit=contain
+    ✔ Allows specifying the position as a string
+    ✔ JPEG within PNG, no alpha channel
+    ✔ JPEG within WebP, to include alpha channel
+    ✔ PNG with alpha channel
+    ✔ 16-bit PNG with alpha channel
+    ✔ 16-bit PNG with alpha channel onto RGBA
+    ✔ PNG with 2 channels
+    ✔ TIFF in LAB colourspace onto RGBA background
+    ✔ Enlarge
+    ✔ Invalid position values should fail
+    ✔ Position horizontal top
+    ✔ Position horizontal right top
+    ✔ Position horizontal right
+    ✔ Position horizontal right bottom
+    ✔ Position horizontal bottom
+    ✔ Position horizontal left bottom
+    ✔ Position horizontal left
+    ✔ Position horizontal left top
+    ✔ Position horizontal north
+    ✔ Position horizontal northeast
+    ✔ Position horizontal east
+    ✔ Position horizontal southeast
+    ✔ Position horizontal south
+    ✔ Position horizontal southwest
+    ✔ Position horizontal west
+    ✔ Position horizontal northwest
+    ✔ Position horizontal center
+    ✔ Position vertical top
+    ✔ Position vertical right top
+    ✔ Position vertical right
+    ✔ Position vertical right bottom
+    ✔ Position vertical bottom
+    ✔ Position vertical left bottom
+    ✔ Position vertical left
+    ✔ Position vertical left top
+    ✔ Position vertical north
+    ✔ Position vertical northeast
+    ✔ Position vertical east
+    ✔ Position vertical southeast
+    ✔ Position vertical south
+    ✔ Position vertical southwest
+    ✔ Position vertical west
+    ✔ Position vertical northwest
+    ✔ Position vertical center
+    Animated WebP
+      ✔ Width only
+      ✔ Height only
+
+  Resize fit=cover
+    ✔ Position: top
+    ✔ Position: right
+    ✔ Position: bottom
+    ✔ Position: left
+    ✔ Position: right top (top)
+    ✔ Position: right top (right)
+    ✔ Position: right bottom (bottom)
+    ✔ Position: right bottom (right)
+    ✔ Position: left bottom (bottom)
+    ✔ Position: left bottom (left)
+    ✔ Position: left top (top)
+    ✔ Position: left top (left)
+    ✔ Gravity: north
+    ✔ Gravity: east
+    ✔ Gravity: south
+    ✔ Gravity: west
+    ✔ Gravity: center
+    ✔ Gravity: centre
+    ✔ Default (centre)
+    ✔ Gravity: northeast (north)
+    ✔ Gravity: northeast (east)
+    ✔ Gravity: southeast (south)
+    ✔ Gravity: southeast (east)
+    ✔ Gravity: southwest (south)
+    ✔ Gravity: southwest (west)
+    ✔ Gravity: northwest (north)
+    ✔ Gravity: northwest (west)
+    ✔ Allows specifying the gravity as a string
+    ✔ Invalid position values fail
+    ✔ Uses default value when none specified
+    ✔ Skip crop when post-resize dimensions are at target
+    Animated WebP
+      ✔ Width only
+      ✔ Height only
+    Entropy-based strategy
+      ✔ JPEG
+      ✔ PNG
+      ✔ supports the strategy passed as a string
+      ✔ Animated image rejects
+    Attention strategy
+      ✔ JPEG
+      ✔ PNG
+      ✔ supports the strategy passed as a string
+      ✔ Animated image rejects
+
+  Resize dimensions
+    ✔ Exact crop
+    ✔ Fixed width
+    ✔ Fixed height
+    ✔ Identity transform
+    ✔ Upscale
+    ✔ Invalid width - NaN
+    ✔ Invalid height - NaN
+    ✔ Invalid width - float
+    ✔ Invalid height - float
+    ✔ Invalid width - via options
+    ✔ Invalid height - via options
+    ✔ Invalid width - too large
+    ✔ Invalid height - too large
+    ✔ Webp resize then extract large image
+    ✔ WebP shrink-on-load rounds to zero, ensure recalculation is correct
+    ✔ JPEG shrink-on-load with 90 degree rotation, ensure recalculation is correct
+    ✔ TIFF embed known to cause rounding errors
+    ✔ TIFF known to cause rounding errors
+    ✔ fit=inside, portrait
+    ✔ fit=outside, portrait
+    ✔ fit=inside, landscape
+    ✔ fit=outside, landscape
+    ✔ fit=inside, provide only one dimension
+    ✔ fit=outside, provide only one dimension
+    ✔ Do not enlarge when input width is already less than output width
+    ✔ Do not enlarge when input height is already less than output height
+    ✔ Do crop when fit = cover and withoutEnlargement = true and width >= outputWidth, and height < outputHeight
+    ✔ Do crop when fit = cover and withoutEnlargement = true and width < outputWidth, and height >= outputHeight
+    ✔ Do enlarge when input width is less than output width
+    ✔ Do enlarge when input width is less than output width
+    ✔ Do enlarge when input height is less than output height
+    ✔ Do enlarge when input width is less than output width
+    ✔ Do not resize when both withoutEnlargement and withoutReduction are true
+    ✔ Do not reduce size when fit = outside and withoutReduction are true and height > outputHeight and width > outputWidth
+    ✔ Do resize when fit = outside and withoutReduction are true and input height > height and input width > width  (560ms)
+    ✔ fit=fill, downscale width and height
+    ✔ fit=fill, downscale width
+    ✔ fit=fill, downscale height
+    ✔ fit=fill, upscale width and height
+    ✔ fit=fill, upscale width
+    ✔ fit=fill, upscale height
+    ✔ fit=fill, downscale width, upscale height
+    ✔ fit=fill, upscale width, downscale height
+    ✔ fit=fill, identity transform
+    ✔ Dimensions that result in differing even shrinks on each axis
+    ✔ Dimensions that result in differing odd shrinks on each axis
+    ✔ fastShrinkOnLoad: true does not causes image shifts
+    ✔ fastShrinkOnLoad: false does not causes image shifts
+    ✔ kernel nearest
+    ✔ kernel cubic
+    ✔ kernel mitchell
+    ✔ kernel lanczos2
+    ✔ kernel lanczos3
+    ✔ nearest upsampling with integral factor
+    ✔ Ensure shortest edge (height) is at least 1 pixel
+    ✔ Ensure shortest edge (width) is at least 1 pixel
+    ✔ Ensure embedded shortest edge (height) is at least 1 pixel
+    ✔ Ensure embedded shortest edge (width) is at least 1 pixel
+    ✔ Skip shrink-on-load where one dimension <4px
+    ✔ Skip JPEG shrink-on-load for known libjpeg rounding errors
+    ✔ unknown kernel throws
+    ✔ unknown fit throws
+    ✔ unknown position throws
+
+  Rotation
+    ✔ Input image has Orientation EXIF tag value of (1), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (2), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (3), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (4), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (5), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (6), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (7), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (8), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (1), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (2), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (3), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (4), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (5), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (6), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (7), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (8), auto-rotate
+    ✔ Rotate by 30 degrees with semi-transparent background
+    ✔ Rotate by 30 degrees with solid background
+    ✔ Rotate by 90 degrees, respecting output input size
+    ✔ Rotate by 30 degrees, respecting output input size
+    ✔ Rotate by any 90-multiple angle (-3690deg)
+    ✔ Rotate by any 90-multiple angle (-450deg)
+    ✔ Rotate by any 90-multiple angle (-90deg)
+    ✔ Rotate by any 90-multiple angle (90deg)
+    ✔ Rotate by any 90-multiple angle (450deg)
+    ✔ Rotate by any 90-multiple angle (3690deg)
+    ✔ Rotate by any 30-multiple angle (-3750deg)
+    ✔ Rotate by any 30-multiple angle (-510deg)
+    ✔ Rotate by any 30-multiple angle (-150deg)
+    ✔ Rotate by any 30-multiple angle (30deg)
+    ✔ Rotate by any 30-multiple angle (390deg)
+    ✔ Rotate by any 30-multiple angle (3630deg)
+    ✔ Rotate by any 180-multiple angle (-3780deg)
+    ✔ Rotate by any 180-multiple angle (-540deg)
+    ✔ Rotate by any 180-multiple angle (0deg)
+    ✔ Rotate by any 180-multiple angle (180deg)
+    ✔ Rotate by any 180-multiple angle (540deg)
+    ✔ Rotate by any 180-multiple angle (3780deg)
+    ✔ Rotate by 270 degrees, square output ignoring aspect ratio
+    ✔ Rotate by 315 degrees, square output ignoring aspect ratio
+    ✔ Rotate by 270 degrees, rectangular output ignoring aspect ratio
+    ✔ Rotate by 30 degrees, rectangular output ignoring aspect ratio
+    ✔ Input image has Orientation EXIF tag but do not rotate output
+    ✔ Input image has Orientation EXIF tag value of 8 (270 degrees), auto-rotate
+    ✔ Override EXIF Orientation tag metadata after auto-rotate
+    ✔ Input image has Orientation EXIF tag value of 5 (270 degrees + flip), auto-rotate
+    ✔ Attempt to auto-rotate using image that has no EXIF
+    ✔ Attempt to auto-rotate image format without EXIF support
+    ✔ Rotate with a string argument, should fail
+    ✔ Animated image rotate-then-extract rejects
+    ✔ Animated image extract-then-rotate rejects
+    ✔ Flip - vertical
+    ✔ Flop - horizontal
+    ✔ Flip and flop
+    ✔ Neither flip nor flop
+    ✔ Auto-rotate and flip
+    ✔ Auto-rotate and flop
+
+  Sharpen
+    ✔ specific radius 10 (sigma 6)
+    ✔ specific radius 3 (sigma 1.5) and levels 0.5, 2.5
+    ✔ specific radius 5 (sigma 3.5) and levels 2, 4
+    ✔ sigma=3.5, m1=2, m2=4
+    ✔ sigma=3.5, m1=2, m2=4, x1=2, y2=5, y3=25
+    ✔ specific radius/levels with alpha channel
+    ✔ mild sharpen
+    ✔ invalid sigma
+    ✔ invalid flat
+    ✔ invalid jagged
+    ✔ invalid options.sigma
+    ✔ invalid options.m1
+    ✔ invalid options.m2
+    ✔ invalid options.x1
+    ✔ invalid options.y2
+    ✔ invalid options.y3
+    ✔ sharpened image is larger than non-sharpened
+
+  Image Stats
+    ✔ JPEG
+    ✔ PNG without transparency
+    ✔ PNG with transparency
+    ✔ PNG fully transparent
+    ✔ Tiff
+    ✔ WebP
+    ✔ GIF
+    ✔ Grayscale GIF with alpha
+    ✔ CMYK input without profile
+    ✔ Dominant colour
+    ✔ Entropy and sharpness of 1x1 input are zero
+    ✔ Stream in, Callback out
+    ✔ Stream in, Promise out
+    ✔ File in, Promise out
+    ✔ Blurred image has lower sharpness than original (845ms)
+    ✔ File input with corrupt header fails gracefully
+    ✔ File input with corrupt header fails gracefully, Promise out
+    ✔ File input with corrupt header fails gracefully, Stream In, Promise Out
+    ✔ Buffer input with corrupt header fails gracefully
+    ✔ Non-existent file in, Promise out
+
+  SVG input
+    ✔ Convert SVG to PNG at default 72DPI
+    ✔ Convert SVG to PNG at 1200DPI
+    ✔ Convert SVG to PNG at DPI larger than 2400
+    ✔ Convert SVG to PNG utilizing scale-on-load
+    ✔ Convert SVG to PNG at 14.4DPI
+    ✔ Convert SVG with embedded images to PNG, respecting dimensions, autoconvert to PNG
+    ✔ Converts SVG with truncated embedded PNG
+    ✔ Fails to render SVG larger than 32767x32767
+    ✔ Fails to render scaled SVG larger than 32767x32767
+    ✔ Detects SVG passed as a string
+
+  Threshold
+    ✔ threshold 1 jpeg
+    ✔ threshold 40 jpeg
+    ✔ threshold 128
+    ✔ threshold true (=128)
+    ✔ threshold false (=0)
+    ✔ threshold grayscale: true (=128)
+    ✔ threshold default jpeg
+    ✔ threshold default png transparency
+    ✔ threshold default png alpha
+    ✔ threshold default webp transparency
+    ✔ color threshold
+    ✔ invalid threshold -1
+    ✔ invalid threshold 256
+
+  TIFF
+    ✔ Load TIFF from Buffer
+    ✔ Load multi-page TIFF from file
+    ✔ Load multi-page TIFF from Buffer
+    ✔ Save TIFF to Buffer
+    ✔ Increasing TIFF quality increases file size
+    ✔ Invalid TIFF quality throws error
+    ✔ Missing TIFF quality does not throw error
+    ✔ Not squashing TIFF to a bit depth of 1 should not change the file size
+    ✔ Squashing TIFF to a bit depth of 1 should significantly reduce file size
+    ✔ Invalid TIFF bitdepth value throws error
+    ✔ TIFF setting xres and yres on file
+    ✔ TIFF setting xres and yres on buffer
+    ✔ TIFF imputes xres and yres from withMetadataDensity if not explicitly provided
+    ✔ TIFF uses xres and yres over withMetadataDensity if explicitly provided
+    ✔ TIFF invalid xres value should throw an error
+    ✔ TIFF invalid yres value should throw an error
+    ✔ TIFF lzw compression with horizontal predictor shrinks test file
+    ✔ TIFF LZW RGBA toFile
+    ✔ TIFF LZW RGBA toBuffer
+    ✔ TIFF ccittfax4 compression shrinks b-w test file
+    ✔ TIFF resolutionUnit of inch (default)
+    ✔ TIFF resolutionUnit of inch
+    ✔ TIFF resolutionUnit of cm
+    ✔ TIFF deflate compression with horizontal predictor shrinks test file
+    ✔ TIFF deflate compression with float predictor shrinks test file
+    ✔ TIFF deflate compression without predictor shrinks test file
+    ✔ TIFF jpeg compression shrinks test file
+    ✔ TIFF none compression does not throw error
+    ✔ TIFF lzw compression does not throw error
+    ✔ TIFF deflate compression does not throw error
+    ✔ TIFF invalid compression option throws
+    ✔ TIFF invalid compression option throws
+    ✔ TIFF invalid predictor option throws
+    ✔ TIFF invalid resolutionUnit option throws
+    ✔ TIFF horizontal predictor does not throw error
+    ✔ TIFF float predictor does not throw error
+    ✔ TIFF none predictor does not throw error
+    ✔ TIFF tiled pyramid image without compression enlarges test file
+    ✔ TIFF pyramid true value does not throw error
+    ✔ Invalid TIFF pyramid value throws error
+    ✔ Invalid TIFF tile value throws error
+    ✔ TIFF tile true value does not throw error
+    ✔ Valid TIFF tileHeight value does not throw error
+    ✔ Valid TIFF tileWidth value does not throw error
+    ✔ Invalid TIFF tileHeight value throws error
+    ✔ Invalid TIFF tileWidth value throws error
+    ✔ Invalid TIFF tileHeight value throws error
+    ✔ Invalid TIFF tileWidth value throws error
+    ✔ TIFF file input with invalid page fails gracefully
+    ✔ TIFF buffer input with invalid page fails gracefully
+
+  Tile
+    ✔ Valid size values pass
+    ✔ Invalid size values fail
+    ✔ Valid overlap values pass
+    ✔ Invalid overlap values fail
+    ✔ Valid container values pass
+    ✔ Invalid container values fail
+    ✔ Valid layout values pass
+    ✔ Invalid layout values fail
+    ✔ Valid formats pass
+    ✔ Invalid formats fail
+    ✔ Valid depths pass
+    ✔ Invalid depths fail
+    ✔ Prevent larger overlap than default size
+    ✔ Prevent larger overlap than provided size
+    ✔ Valid rotation angle values pass
+    ✔ Invalid rotation angle values fail
+    ✔ Valid skipBlanks threshold values pass
+    ✔ InvalidskipBlanks threshold values fail
+    ✔ Invalid center parameter value fail
+    ✔ Valid id parameter value passes
+    ✔ Invalid id parameter value fails
+    ✔ Deep Zoom layout (528ms)
+    ✔ Deep Zoom layout with custom size+overlap
+    ✔ Deep Zoom layout with custom size+angle
+    ✔ Deep Zoom layout with depth of one
+    ✔ Deep Zoom layout with depth of onepixel
+    ✔ Deep Zoom layout with depth of onetile
+    ✔ Deep Zoom layout with skipBlanks
+    ✔ Zoomify layout
+    ✔ Zoomify layout with depth one
+    ✔ Zoomify layout with depth onetile
+    ✔ Zoomify layout with depth onepixel
+    ✔ Zoomify layout with skip blanks
+    ✔ Google layout (529ms)
+    ✔ Google layout with jpeg format
+    ✔ Google layout with png format (534ms)
+    ✔ Google layout with webp format (685ms)
+    ✔ Google layout with depth one
+    ✔ Google layout with depth onepixel (549ms)
+    ✔ Google layout with depth onetile (513ms)
+    ✔ Google layout with default skip Blanks (555ms)
+    ✔ Google layout with center image in tile (665ms)
+    ✔ Google layout with center image in tile centre (653ms)
+    ✔ IIIFv2 layout
+    ✔ IIIFv3 layout
+    ✔ Write to ZIP container using file extension (651ms)
+    ✔ Write to ZIP container using container tile option (602ms)
+
+  Timeout
+    ✔ Will timeout after 1s when performing slow blur operation (1113ms)
+    ✔ invalid object
+    ✔ invalid seconds
+
+  Tint
+    ✔ tints rgb image red
+    ✔ tints rgb image green
+    ✔ tints rgb image blue
+    ✔ tints rgb image with sepia tone
+    ✔ tints rgb image with sepia tone with rgb colour
+    ✔ tints rgb image with alpha channel
+    ✔ tints cmyk image red
+
+  toBuffer
+    ✔ reusing same sharp object does not reset previously passed parameters to toBuffer
+    ✔ correctly process animated webp with height > 16383
+
+  toFormat
+    ✔ accepts upper case characters as format parameter (string)
+    ✔ accepts upper case characters as format parameter (object)
+
+  Trim borders
+    ✔ Threshold default
+    ✔ Skip shrink-on-load
+    ✔ single colour PNG where alpha channel provides the image
+    ✔ 16-bit PNG with alpha channel
+    ✔ Attempt to trim 2x2 pixel image fails
+    ✔ should rotate before trim
+    ✔ Animated image rejects
+    Invalid thresholds
+      ✔ -1
+      ✔ "fail"
+      ✔ {}
+
+  Utilities
+    Cache
+      ✔ Can be disabled
+      ✔ Can be enabled with defaults
+      ✔ Can be set to zero
+      ✔ Can be set to a maximum of 10MB, 100 files and 1000 items
+      ✔ Ignores invalid values
+    Concurrency
+      ✔ Can be set to use 16 threads
+      ✔ Can be reset to default
+      ✔ Ignores invalid values
+    Counters
+      ✔ Have zero value at rest
+    SIMD
+      ✔ Can get current state
+      ✔ Can disable
+      ✔ Can attempt to enable
+    Format
+      ✔ Contains expected attributes
+      ✔ Raw file=false, buffer=true, stream=true
+      ✔ vips format supports filesystem only
+    Versions
+      ✔ Contains expected attributes
+    Vendor
+      ✔ Contains expected attributes
+
+  WebP
+    ✔ WebP output
+    ✔ Invalid WebP quality throws error
+    ✔ Invalid WebP alpha quality throws error
+    ✔ should work for webp alpha quality
+    ✔ should work for webp lossless
+    ✔ should work for webp near-lossless
+    ✔ should use near-lossless when both lossless and nearLossless are specified
+    ✔ should produce a larger file size using smartSubsample
+    ✔ invalid smartSubsample throws
+    ✔ should produce a smaller file size with increased effort
+    ✔ invalid effort throws
+    ✔ invalid reductionEffort (deprecated) throws
+    ✔ out of range effort throws
+    ✔ should set effort to 0
+    ✔ invalid loop throws
+    ✔ invalid delay throws
+    ✔ should repeat a single delay for all frames
+    ✔ should limit animation loop
+    ✔ should change delay between frames
+    ✔ should preserve delay between frames
+    ✔ should work with streams when only animated is set
+    ✔ should work with streams when only pages is set
+    ✔ should resize animated image to page height
+    ✔ should take page parameter into account when animated is set
+
+
+  1022 passing (60s)
+
+
+> sharp@0.30.7 test-licensing
+> license-checker --production --summary --onlyAllow="Apache-2.0;BSD;ISC;MIT"
+
+├─ MIT: 32
+├─ ISC: 8
+├─ Apache-2.0: 3
+├─ (MIT OR WTFPL): 1
+├─ BSD-3-Clause: 1
+└─ (BSD-2-Clause OR MIT OR Apache-2.0): 1
+
+./VariantsPureDep/sharp/variant2/sharp
+
+> sharp@0.30.7 test
+> npm run test-lint && npm run test-unit && npm run test-licensing
+
+
+> sharp@0.30.7 test-lint
+> semistandard && cpplint
+
+
+> sharp@0.30.7 test-unit
+> nyc --reporter=lcov --branches=99 mocha --slow=1000 --timeout=60000 ./test/unit/*.js
+
+./VariantsPureDep/sharp/variant1/sharp
+
+> sharp@0.30.7 test
+> npm run test-lint && npm run test-unit && npm run test-licensing
+
+
+> sharp@0.30.7 test-lint
+> semistandard && cpplint
+
+
+> sharp@0.30.7 test-unit
+> nyc --reporter=lcov --branches=99 mocha --slow=1000 --timeout=60000 ./test/unit/*.js
+
+
+
+  Affine transform
+    ✔ Applies identity matrix
+    ✔ Applies resize affine matrix
+    ✔ Resizes and applies affine transform
+    ✔ Extracts and applies affine transform
+    ✔ Rotates and applies affine transform
+    1) Extracts, rotates and applies affine transform
+    2) Applies affine transform with background color
+    3) Applies affine transform with background color and output offsets
+    4) Applies affine transform with background color and all offsets
+    ✔ Animated image rejects
+    Invalid input
+      ✔ Missing matrix
+      ✔ Invalid 1d matrix
+      ✔ Invalid 2d matrix
+      ✔ Invalid options parameter type
+      ✔ Invalid background color
+      ✔ Invalid idx offset type
+      ✔ Invalid idy offset type
+      ✔ Invalid odx offset type
+      ✔ Invalid ody offset type
+      ✔ Invalid interpolator
+    Interpolations
+      ✔ Performs 2x upscale with nearest interpolation
+      ✔ Performs 2x upscale with bilinear interpolation
+      ✔ Performs 2x upscale with bicubic interpolation
+      ✔ Performs 2x upscale with locallyBoundedBicubic interpolation
+      ✔ Performs 2x upscale with nohalo interpolation
+      ✔ Performs 2x upscale with vertexSplitQuadraticBasisSpline interpolation
+
+  HTTP agent
+    ✔ Without proxy
+    ✔ HTTPS proxy with auth from HTTPS_PROXY
+    ✔ HTTPS proxy with auth from HTTPS_PROXY using credentials containing special characters
+    ✔ HTTP proxy without auth from npm_config_proxy
+
+  Alpha transparency
+    ✔ Flatten to black
+    ✔ Flatten to RGB orange
+    ✔ Flatten to CSS/hex orange
+    ✔ Flatten 16-bit PNG with transparency to orange
+    ✔ Do not flatten
+    ✔ Ignored for JPEG
+    ✔ Flatten with options but without colour does not throw
+    ✔ Flatten to invalid colour throws
+    ✔ Enlargement with non-nearest neighbor interpolation shouldn’t cause dark edges (1014ms)
+    ✔ Reduction with non-nearest neighbor interpolation shouldn’t cause dark edges
+    ✔ Removes alpha from fixtures with transparency, ignores those without
+    ✔ Ensures alpha from fixtures without transparency, ignores those with
+    ✔ Valid ensureAlpha value used for alpha channel
+    ✔ Invalid ensureAlpha value throws
+
+  AVIF
+    ✔ called without options does not throw an error
+    ✔ can convert AVIF to JPEG
+    ✔ can convert JPEG to AVIF
+    ✔ can passthrough AVIF
+    ✔ can convert animated GIF to non-animated AVIF
+
+  Bandbool per-channel boolean operations
+    ✔ and operation
+    ✔ or operation
+    ✔ eor operation
+    ✔ sRGB image retains 3 channels
+    ✔ Invalid operation
+    ✔ Missing operation
+
+  Blur
+    ✔ specific radius 1
+    ✔ specific radius 10
+    ✔ specific radius 0.3
+    ✔ mild blur
+    ✔ invalid radius
+    ✔ blurred image is smaller than non-blurred
+
+  Boolean operation between two images
+    ✔ and operation, file
+    ✔ and operation, buffer
+    ✔ and operation, raw
+    ✔ or operation, file
+    ✔ or operation, buffer
+    ✔ or operation, raw
+    ✔ eor operation, file
+    ✔ eor operation, buffer
+    ✔ eor operation, raw
+    ✔ Invalid operation
+    ✔ Invalid operation, non-string
+    ✔ Missing input
+
+  Clahe
+    ✔ width 5 width 5 maxSlope 0
+    ✔ width 5 width 5 maxSlope 5
+    ✔ width 11 width 25 maxSlope 14
+    ✔ width 50 width 50 maxSlope 0
+    ✔ width 50 width 50 maxSlope 14
+    ✔ width 100 width 50 maxSlope 3
+    ✔ width 100 width 100 maxSlope 0
+    ✔ invalid maxSlope
+    ✔ invalid width
+    ✔ invalid height
+    ✔ invalid options object
+    ✔ uses default maxSlope of 3
+
+  Clone
+    ✔ Read from Stream and write to multiple Streams
+    ✔ Stream-based input attaches finish event listener to original
+    ✔ Non Stream-based input does not attach finish event listeners
+
+  Colour space conversion
+    ✔ To greyscale
+    ✔ To greyscale with gamma correction
+    ✔ Not to greyscale
+    ✔ Greyscale with single channel output
+    ✔ From 1-bit TIFF to sRGB WebP
+    ✔ From CMYK to sRGB
+    5) From CMYK to sRGB with white background, not yellow
+    ✔ From profile-less CMYK to sRGB
+    ✔ From sRGB with RGB16 pipeline, resize with gamma, to sRGB
+    ✔ Convert P3 to sRGB
+    ✔ Passthrough P3
+    ✔ Invalid pipelineColourspace input
+    ✔ Invalid toColourspace input
+
+  composite
+    ✔ blend over
+    ✔ blend xor
+    ✔ blend saturate
+    ✔ blend dest-over
+    ✔ premultiplied true
+    ✔ premultiplied false
+    ✔ premultiplied absent
+    ✔ multiple
+    ✔ zero offset
+    ✔ offset and gravity
+    ✔ negative offset and gravity
+    ✔ offset, gravity and tile
+    ✔ offset and tile
+    ✔ centre gravity should replicate correct number of tiles
+    ✔ cutout via dest-in
+    ✔ Allow offset beyond bottom/right edge
+    6) Ensure tiled composition works with resized fit=outside
+    numeric gravity
+      ✔ center
+      ✔ centre
+      ✔ north
+      ✔ east
+      ✔ south
+      ✔ west
+      ✔ northeast
+      ✔ southeast
+      ✔ southwest
+      ✔ northwest
+    string gravity
+      ✔ center
+      ✔ centre
+      ✔ north
+      ✔ east
+      ✔ south
+      ✔ west
+      ✔ northeast
+      ✔ southeast
+      ✔ southwest
+      ✔ northwest
+    tile and gravity
+      ✔ center
+      ✔ centre
+      ✔ north
+      ✔ east
+      ✔ south
+      ✔ west
+      ✔ northeast
+      ✔ southeast
+      ✔ southwest
+      ✔ northwest
+    validation
+      ✔ missing images
+      ✔ invalid images
+      ✔ missing input
+      ✔ invalid blend
+      ✔ invalid tile
+      ✔ invalid premultiplied
+      ✔ invalid left
+      ✔ invalid top
+      ✔ left but no top
+      ✔ top but no left
+      ✔ invalid gravity
+
+  Convolve
+    ✔ specific convolution kernel 1
+    ✔ specific convolution kernel 2
+    ✔ horizontal Sobel operator
+    invalid kernel specification
+      ✔ missing
+      ✔ incorrect data format
+      ✔ incorrect dimensions
+
+  Extend
+    ✔ extend all sides equally with RGB
+    ✔ extend sides unequally with RGBA
+    ✔ missing parameter fails
+    ✔ negative fails
+    ✔ invalid top fails
+    ✔ invalid bottom fails
+    ✔ invalid left fails
+    ✔ invalid right fails
+    ✔ can set all edges apart from right
+    ✔ should add alpha channel before extending with a transparent Background
+    ✔ PNG with 2 channels
+    ✔ Premultiply background when compositing
+    extend all sides equally via a single value
+      ✔ JPEG
+      ✔ Animated WebP
+
+  Partial image extraction
+    ✔ JPEG
+    ✔ PNG
+    ✔ WebP
+    ✔ TIFF
+    ✔ Before resize
+    ✔ After resize and crop
+    ✔ Before and after resize and crop
+    ✔ Extract then rotate
+    ✔ Rotate then extract
+    ✔ Extract then rotate non-90 anagle
+    ✔ Rotate then extract non-90 angle
+    Animated WebP
+      ✔ Before resize
+      ✔ After resize
+    Apply exif orientation and mirroring then extract
+      ✔ EXIF-1
+      ✔ EXIF-2
+      ✔ EXIF-3
+      ✔ EXIF-4
+      ✔ EXIF-5
+      ✔ EXIF-6
+      ✔ EXIF-7
+      ✔ EXIF-8
+    Invalid parameters
+      ✔ Undefined
+      ✔ String top
+      ✔ Non-integral left
+      ✔ Negative width - negative
+      ✔ Null height
+      ✔ Bad image area
+      using the legacy extract(top,left,width,height) syntax
+        ✔ String top
+        ✔ Non-integral left
+        ✔ Negative width - negative
+        ✔ Null height
+
+  Image channel extraction
+    ✔ Red channel
+    ✔ Green channel
+    ✔ Blue channel
+    ✔ Blue channel by number
+    ✔ With colorspace conversion
+    ✔ Alpha from 16-bit PNG
+    ✔ Alpha from 2-channel input
+    ✔ Invalid channel number
+    ✔ No arguments
+    ✔ Non-existent channel
+
+  failOn
+    ✔ handles truncated JPEG
+    ✔ handles truncated PNG, emits warnings
+    ✔ throws for invalid options
+    ✔ deprecated failOnError
+    ✔ returns errors to callback for truncated JPEG
+    ✔ returns errors to callback for truncated PNG
+    ✔ rejects promises for truncated JPEG
+    ✔ handles stream-based input
+
+  Test fixtures
+    assertMaxColourDistance
+      ✔ should throw an Error when images have a different number of channels
+      ✔ should throw an Error when images have different dimensions
+      ✔ should accept a zero threshold when comparing an image to itself (919ms)
+      ✔ should accept a numeric threshold for two different images (878ms)
+
+  Gamma correction
+    ✔ value of 0.0 (disabled)
+    ✔ value of 2.2 (default)
+    ✔ value of 3.0
+    ✔ input value of 2.2, output value of 3.0
+    ✔ alpha transparency
+    ✔ invalid first parameter value
+    ✔ invalid second parameter value
+
+  GIF input
+    ✔ GIF Buffer to JPEG Buffer
+    ✔ 2 channel GIF file to PNG Buffer
+    ✔ Animated GIF first page to PNG
+    ✔ Animated GIF all pages to PNG "toilet roll"
+    ✔ GIF with reduced colours, no dither, low effort reduces file size
+    ✔ invalid loop throws
+    ✔ invalid delay throws
+    ✔ invalid colour throws
+    ✔ invalid effort throws
+    ✔ invalid dither throws
+    ✔ should work with streams when only animated is set
+    ✔ should work with streams when only pages is set
+
+  HEIF
+    ✔ called without options does not throw an error
+    ✔ valid quality does not throw an error
+    ✔ invalid quality should throw an error
+    ✔ non-numeric quality should throw an error
+    ✔ valid lossless does not throw an error
+    ✔ non-boolean lossless should throw an error
+    ✔ valid compression does not throw an error
+    ✔ unknown compression should throw an error
+    ✔ invalid compression should throw an error
+    ✔ valid effort does not throw an error
+    ✔ out of range effort should throw an error
+    ✔ invalid effort should throw an error
+    ✔ valid speed does not throw an error
+    ✔ out of range speed should throw an error
+    ✔ invalid speed should throw an error
+    ✔ invalid chromaSubsampling should throw an error
+    ✔ valid chromaSubsampling does not throw an error
+
+  Input/output
+    ✔ Read from File and write to Stream
+    ✔ Read from Buffer and write to Stream
+    ✔ Read from Stream and write to File
+    ✔ Read from Stream and write to Buffer
+    ✔ Read from Stream and write to Buffer via Promise resolved with Buffer
+    ✔ Read from Stream and write to Buffer via Promise resolved with Object
+    ✔ Read from File and write to Buffer via Promise resolved with Buffer
+    ✔ Read from File and write to Buffer via Promise resolved with Object
+    ✔ Read from Stream and write to Stream
+    ✔ Read from Uint8Array and write to Buffer
+    ✔ Read from Uint8ClampedArray and output to Buffer
+    ✔ Read from Uint8ClampedArray with byteOffset and output to Buffer
+    ✔ Stream should emit info event
+    ✔ Stream should emit close event
+    ✔ Handle Stream to Stream error 
+    ✔ Handle File to Stream error
+    ✔ Readable side of Stream can start flowing after Writable side has finished
+    ✔ Invalid sequential read option throws
+    ✔ Sequential read, force JPEG
+    ✔ Not sequential read, force JPEG
+    ✔ Support output to jpg format
+    ✔ Support output to tif format
+    7) Allow use of toBuffer and toFile with same instance
+    ✔ Fail when output File is input File
+    ✔ Fail when output File is input File via Promise
+    ✔ Fail when output File is input File (relative output, absolute input)
+    ✔ Fail when output File is input File via Promise (relative output, absolute input)
+    ✔ Fail when output File is input File (relative input, absolute output)
+    ✔ Fail when output File is input File via Promise (relative input, absolute output)
+    ✔ Fail when output File is empty
+    ✔ Fail when output File is empty via Promise
+    ✔ Fail when input is invalid Buffer
+    ✔ Fail when input file path is missing
+    ✔ Promises/A+
+    ✔ Invalid output format
+    ✔ File input with corrupt header fails gracefully
+    ✔ Buffer input with corrupt header fails gracefully
+    ✔ Stream input with corrupt header fails gracefully
+    ✔ Input and output formats match when not forcing
+    ✔ Can force output format with output chaining
+    ✔ toFormat=JPEG takes precedence over WebP extension
+    ✔ toFormat=WebP takes precedence over JPEG extension (618ms)
+    ✔ Load Vips V file
+    ✔ Save Vips V file
+    ✔ Fails when writing to missing directory
+    ✔ Queue length change events
+    ✔ Info event data
+    Fail for unsupported input
+      ✔ Undefined
+      ✔ Null
+      ✔ Numeric
+      ✔ Boolean
+      ✔ Error Object
+    Output filename with unknown extension
+      ✔ Match JPEG input
+      ✔ Match PNG input
+      ✔ Match WebP input
+      ✔ Match TIFF input
+      ✔ Force JPEG format for PNG input
+    Switch off safety limits for PNG/SVG input
+      ✔ Valid
+      ✔ Invalid
+    Limit pixel count of input image
+      ✔ Invalid fails - negative
+      ✔ Invalid fails - float
+      ✔ Invalid fails - integer overflow
+      ✔ Invalid fails - string
+      ✔ Same size as input works
+      ✔ Disabling limit works
+      ✔ Enabling default limit works and fails with a large image
+      ✔ Smaller than input fails
+    Input options
+      ✔ Option-less
+      ✔ Ignore unknown attribute
+      ✔ undefined with options fails
+      ✔ null with options fails
+      ✔ Non-Object options fails
+      ✔ Invalid density: string
+      ✔ Setting animated property updates pages property
+      ✔ Invalid animated property throws
+      ✔ Invalid page property throws
+      ✔ Invalid pages property throws
+      ✔ Valid level property
+      ✔ Invalid level property (string) throws
+      ✔ Invalid level property (negative) throws
+      ✔ Valid subifd property
+      ✔ Invalid subifd property (string) throws
+      ✔ Invalid subifd property (float) throws
+    create new image
+      ✔ RGB
+      ✔ RGBA
+      ✔ Invalid channels
+      ✔ Missing background
+
+  Image channel insertion
+    ✔ Grayscale to RGB, buffer
+    ✔ Grayscale to RGB, file
+    ✔ Grayscale to RGBA, buffer
+    ✔ Grayscale to RGBA, file
+    ✔ Grayscale to CMYK, buffers
+    ✔ Join raw buffers to RGB
+    ✔ Grayscale to RGBA, files, two arrays
+    ✔ Invalid raw buffer description
+    ✔ Invalid input
+    ✔ No arguments
+
+  JP2 output
+    ✔ JP2 output should fail due to missing OpenJPEG
+    ✔ JP2 file output should fail due to missing OpenJPEG
+
+  JPEG
+    ✔ JPEG quality
+    ✔ Progressive JPEG image
+    ✔ Without chroma subsampling generates larger file
+    ✔ Invalid JPEG chromaSubsampling value throws error
+    ✔ Trellis quantisation
+    ✔ Overshoot deringing
+    ✔ Optimise scans generates different output length
+    ✔ Optimise coding generates smaller output length
+    ✔ Specifying quantisation table provides different JPEG
+    ✔ Specifying quantization table provides different JPEG
+    ✔ Can use mozjpeg defaults
+    ✔ Invalid mozjpeg value throws error
+    Invalid JPEG quality
+      ✔ -1
+      ✔ 88.2
+      ✔ test
+    Invalid JPEG quantisation table
+      ✔ -1
+      ✔ 88.2
+      ✔ test
+
+  libvips binaries
+    Windows platform
+      ✔ pkgConfigPath returns empty string
+      ✔ globalLibvipsVersion returns empty string
+      ✔ globalLibvipsVersion is always false
+    non-Windows platforms
+      ✔ pkgConfigPath returns a string (995ms)
+      ✔ globalLibvipsVersion returns a string (975ms)
+      ✔ globalLibvipsVersion returns a boolean (1011ms)
+    platform agnostic
+      ✔ minimumLibvipsVersion returns a valid semver
+      ✔ hasVendoredLibvips returns a boolean
+      ✔ useGlobalLibvips can be ignored via an env var
+      ✔ cachePath returns a valid path ending with _libvips
+    integrity
+      ✔ reads value from environment variable
+      ✔ reads value from package.json
+    safe directory creation
+    logger
+      ✔ logs an info message
+      ✔ logs an error message
+
+  Linear adjustment
+    ✔ applies linear levels adjustment w/o alpha ch
+    ✔ applies slope level adjustment w/o alpha ch
+    ✔ applies offset level adjustment w/o alpha ch
+    ✔ applies linear levels adjustment w alpha ch
+    ✔ applies slope level adjustment w alpha ch
+    ✔ applies offset level adjustment w alpha ch
+    ✔ Invalid linear arguments
+
+  Median filter
+    ✔ 1x1 window
+    ✔ 3x3 window
+    ✔ 7x7 window
+    ✔ default window (3x3)
+    ✔ invalid radius
+
+  Image metadata
+    ✔ JPEG
+    ✔ JPEG with EXIF/ICC
+    ✔ JPEG with IPTC/XMP
+    ✔ TIFF
+    ✔ Multipage TIFF
+    ✔ PNG
+    ✔ Transparent PNG
+    ✔ WebP
+    ✔ Animated WebP
+    ✔ Animated WebP with all pages
+    ✔ Animated WebP with limited looping
+    ✔ GIF
+    ✔ GIF grey+alpha
+    ✔ Animated GIF
+    ✔ Animated GIF with limited looping
+    ✔ vips
+    ✔ File in, Promise out
+    ✔ Non-existent file in, Promise out
+    ✔ Stream in, Promise out
+    ✔ Stream in, rejected Promise out
+    ✔ Stream
+    ✔ Resize to half width using metadata
+    ✔ Keep EXIF metadata and add sRGB profile after a resize
+    ✔ Apply CMYK output ICC profile
+    ✔ Apply custom output ICC profile
+    ✔ Include metadata in output, enabled via empty object
+    ✔ Remove EXIF metadata after a resize
+    ✔ Remove metadata from PNG output
+    8) Add EXIF metadata to JPEG
+    9) Set density of JPEG
+    10) Set density of PNG
+    ✔ chromaSubsampling 4:4:4:4 CMYK JPEG
+    ✔ chromaSubsampling 4:4:4 RGB JPEG
+    ✔ isProgressive JPEG
+    ✔ isProgressive PNG
+    ✔ 16-bit TIFF with TIFFTAG_PHOTOSHOP metadata
+    ✔ AVIF
+    ✔ File input with corrupt header fails gracefully
+    ✔ Buffer input with corrupt header fails gracefully
+    ✔ Unsupported lossless JPEG passes underlying error message
+    Invalid withMetadata parameters
+      ✔ String orientation
+      ✔ Negative orientation
+      ✔ Zero orientation
+      ✔ Too large orientation
+      ✔ Non-numeric density
+      ✔ Negative density
+      ✔ Non string icc
+      ✔ Non object exif
+      ✔ Non string value in object exif
+      ✔ Non string value in nested object exif
+
+  Modulate
+    ✔ should be able to hue-rotate
+    ✔ should be able to brighten
+    ✔ should be able to darken
+    ✔ should be able to saturate
+    ✔ should be able to desaturate
+    ✔ should be able to lighten
+    ✔ should be able to modulate all channels
+    ✔ should be able to use linear and modulate together
+    Invalid options
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+      ✔ should throw
+    hue-rotate
+      ✔ should hue rotate by 30 deg
+      ✔ should hue rotate by 60 deg
+      ✔ should hue rotate by 90 deg
+      ✔ should hue rotate by 120 deg
+      ✔ should hue rotate by 150 deg
+      ✔ should hue rotate by 180 deg
+      ✔ should hue rotate by 210 deg
+      ✔ should hue rotate by 240 deg
+      ✔ should hue rotate by 270 deg
+      ✔ should hue rotate by 300 deg
+      ✔ should hue rotate by 330 deg
+      ✔ should hue rotate by 360 deg
+
+  Negate
+    ✔ negate (jpeg)
+    ✔ negate (png)
+    ✔ negate (png, trans)
+    ✔ negate (png, alpha)
+    ✔ negate (webp)
+    ✔ negate (webp, trans)
+    ✔ negate (true)
+    ✔ negate (false)
+    ✔ negate ({alpha: true})
+    ✔ negate non-alpha channels (png)
+    ✔ negate non-alpha channels (png, trans)
+    ✔ negate non-alpha channels (png, alpha)
+    ✔ negate non-alpha channels (webp)
+    ✔ negate non-alpha channels (webp, trans)
+    ✔ negate create
+    ✔ invalid alpha value
+
+  Gaussian noise
+    ✔ generate single-channel gaussian noise
+    ✔ generate 3-channels gaussian noise
+    ✔ overlay 3-channels gaussian noise over image
+    ✔ overlay strong single-channel (sRGB) gaussian noise with 25% transparency over transparent png image (567ms)
+    ✔ no create object properties specified
+    ✔ invalid noise object
+    ✔ unknown type of noise
+    ✔ gaussian noise, invalid amount of channels
+    ✔ gaussian noise, invalid mean
+    ✔ gaussian noise, invalid sigma
+
+  Normalization
+    ✔ spreads rgb image values between 0 and 255
+    ✔ spreads grayscaled image values between 0 and 255
+    ✔ stretches greyscale images with alpha channel
+    ✔ keeps an existing alpha channel
+    ✔ keeps the alpha channel of greyscale images intact
+    ✔ does not alter images with only one color
+    ✔ works with 16-bit RGBA images
+
+  Platform-detection
+    ✔ Can override arch with npm_config_arch
+    ✔ Can override platform with npm_config_platform
+    ✔ Can override ARM version via --arm-version
+    ✔ Can override ARM64 version via --arm-version
+    ✔ Defaults to ARMv6 for 32-bit
+    ✔ Defaults to ARMv8 for 64-bit
+    ✔ Can ensure version ARMv7 if electron version is present
+    ✔ Can override libc if platform is linux
+    ✔ Handles libc value "glibc" as default linux
+    ✔ Discards libc value on non-linux platform
+
+  PNG
+    ✔ compression level is valid
+    ✔ compression level is invalid
+    ✔ default compressionLevel generates smaller file than compressionLevel=0
+    ✔ without adaptiveFiltering generates smaller file
+    ✔ Invalid PNG adaptiveFiltering value throws error
+    ✔ Progressive PNG image
+    ✔ 16-bit grey+alpha PNG identity transform
+    ✔ 16-bit grey+alpha PNG roundtrip
+    ✔ palette decode/encode roundtrip
+    ✔ Valid PNG libimagequant palette value does not throw error
+    ✔ Invalid PNG libimagequant palette value throws error
+    ✔ Valid PNG libimagequant quality value produces image of same size or smaller
+    ✔ Invalid PNG libimagequant quality value throws error
+    ✔ Invalid effort value throws error
+    ✔ Valid PNG libimagequant colours value produces image of same size or smaller
+    ✔ Invalid PNG libimagequant colours value throws error
+    ✔ Invalid PNG libimagequant colors value throws error
+    ✔ Valid PNG libimagequant dither value produces image of same size or smaller
+    ✔ Invalid PNG libimagequant dither value throws error
+
+  Raw pixel data
+    Raw pixel input
+      ✔ Empty data
+      ✔ Missing options
+      ✔ Incomplete options
+      ✔ Invalid channels
+      ✔ Invalid height
+      ✔ Invalid width
+      ✔ RGB
+      ✔ RGBA
+      ✔ RGBA premultiplied
+      ✔ JPEG to raw Stream and back again
+    Output raw, uncompressed image data
+      ✔ 1 channel greyscale image
+      ✔ 3 channel colour image without transparency
+      ✔ 4 channel colour image with transparency
+      ✔ Extract A from RGBA
+    Raw pixel depths
+      ✔ Invalid depth
+      ✔ Uint8Array
+      ✔ Uint8Array
+      ✔ Uint8ClampedArray
+      ✔ Int8Array
+      ✔ Uint16Array
+      ✔ Int16Array
+      ✔ Uint32Array
+      ✔ Int32Array
+      ✔ Float32Array
+      ✔ Float64Array
+
+  Recomb
+    ✔ applies a sepia filter using recomb
+    ✔ applies a sepia filter using recomb to an PNG with Alpha
+    ✔ recomb with a single channel input
+    ✔ applies a different sepia filter using recomb
+    ✔ increases the saturation of the image
+    invalid matrix specification
+      ✔ missing
+      ✔ incorrect flat data
+      ✔ incorrect sub size
+      ✔ incorrect top size
+
+  Resize fit=contain
+    ✔ Allows specifying the position as a string
+    ✔ JPEG within PNG, no alpha channel
+    ✔ JPEG within WebP, to include alpha channel
+    ✔ PNG with alpha channel
+    ✔ 16-bit PNG with alpha channel
+    ✔ 16-bit PNG with alpha channel onto RGBA
+    ✔ PNG with 2 channels
+    ✔ TIFF in LAB colourspace onto RGBA background
+    ✔ Enlarge
+    ✔ Invalid position values should fail
+    ✔ Position horizontal top
+    ✔ Position horizontal right top
+    ✔ Position horizontal right
+    ✔ Position horizontal right bottom
+    ✔ Position horizontal bottom
+    ✔ Position horizontal left bottom
+    ✔ Position horizontal left
+    ✔ Position horizontal left top
+    ✔ Position horizontal north
+    ✔ Position horizontal northeast
+    ✔ Position horizontal east
+    ✔ Position horizontal southeast
+    ✔ Position horizontal south
+    ✔ Position horizontal southwest
+    ✔ Position horizontal west
+    ✔ Position horizontal northwest
+    ✔ Position horizontal center
+    ✔ Position vertical top
+    ✔ Position vertical right top
+    ✔ Position vertical right
+    ✔ Position vertical right bottom
+    ✔ Position vertical bottom
+    ✔ Position vertical left bottom
+    ✔ Position vertical left
+    ✔ Position vertical left top
+    ✔ Position vertical north
+    ✔ Position vertical northeast
+    ✔ Position vertical east
+    ✔ Position vertical southeast
+    ✔ Position vertical south
+    ✔ Position vertical southwest
+    ✔ Position vertical west
+    ✔ Position vertical northwest
+    ✔ Position vertical center
+    Animated WebP
+      ✔ Width only
+      ✔ Height only
+
+  Resize fit=cover
+    ✔ Position: top
+    ✔ Position: right
+    ✔ Position: bottom
+    ✔ Position: left
+    ✔ Position: right top (top)
+    ✔ Position: right top (right)
+    ✔ Position: right bottom (bottom)
+    ✔ Position: right bottom (right)
+    ✔ Position: left bottom (bottom)
+    ✔ Position: left bottom (left)
+    ✔ Position: left top (top)
+    ✔ Position: left top (left)
+    ✔ Gravity: north
+    ✔ Gravity: east
+    ✔ Gravity: south
+    ✔ Gravity: west
+    ✔ Gravity: center
+    ✔ Gravity: centre
+    ✔ Default (centre)
+    ✔ Gravity: northeast (north)
+    ✔ Gravity: northeast (east)
+    ✔ Gravity: southeast (south)
+    ✔ Gravity: southeast (east)
+    ✔ Gravity: southwest (south)
+    ✔ Gravity: southwest (west)
+    ✔ Gravity: northwest (north)
+    ✔ Gravity: northwest (west)
+    ✔ Allows specifying the gravity as a string
+    ✔ Invalid position values fail
+    ✔ Uses default value when none specified
+    ✔ Skip crop when post-resize dimensions are at target
+    Animated WebP
+      ✔ Width only
+      ✔ Height only
+    Entropy-based strategy
+      ✔ JPEG
+      ✔ PNG
+      ✔ supports the strategy passed as a string
+      ✔ Animated image rejects
+    Attention strategy
+      ✔ JPEG
+      ✔ PNG
+      ✔ supports the strategy passed as a string
+      ✔ Animated image rejects
+
+  Resize dimensions
+    ✔ Exact crop
+    ✔ Fixed width
+    ✔ Fixed height
+    ✔ Identity transform
+    ✔ Upscale (558ms)
+    ✔ Invalid width - NaN
+    ✔ Invalid height - NaN
+    ✔ Invalid width - float
+    ✔ Invalid height - float
+    ✔ Invalid width - via options
+    ✔ Invalid height - via options
+    ✔ Invalid width - too large
+    ✔ Invalid height - too large
+    ✔ Webp resize then extract large image
+    ✔ WebP shrink-on-load rounds to zero, ensure recalculation is correct
+    ✔ JPEG shrink-on-load with 90 degree rotation, ensure recalculation is correct
+    ✔ TIFF embed known to cause rounding errors
+    ✔ TIFF known to cause rounding errors
+    ✔ fit=inside, portrait
+    ✔ fit=outside, portrait
+    ✔ fit=inside, landscape
+    ✔ fit=outside, landscape
+    ✔ fit=inside, provide only one dimension
+    ✔ fit=outside, provide only one dimension
+    ✔ Do not enlarge when input width is already less than output width
+    ✔ Do not enlarge when input height is already less than output height
+    ✔ Do crop when fit = cover and withoutEnlargement = true and width >= outputWidth, and height < outputHeight
+    ✔ Do crop when fit = cover and withoutEnlargement = true and width < outputWidth, and height >= outputHeight
+    ✔ Do enlarge when input width is less than output width
+    ✔ Do enlarge when input width is less than output width
+    ✔ Do enlarge when input height is less than output height
+    ✔ Do enlarge when input width is less than output width
+    ✔ Do not resize when both withoutEnlargement and withoutReduction are true
+    ✔ Do not reduce size when fit = outside and withoutReduction are true and height > outputHeight and width > outputWidth
+    ✔ Do resize when fit = outside and withoutReduction are true and input height > height and input width > width  (553ms)
+    ✔ fit=fill, downscale width and height
+    ✔ fit=fill, downscale width
+    ✔ fit=fill, downscale height
+    ✔ fit=fill, upscale width and height
+    ✔ fit=fill, upscale width
+    ✔ fit=fill, upscale height
+    ✔ fit=fill, downscale width, upscale height
+    ✔ fit=fill, upscale width, downscale height
+    ✔ fit=fill, identity transform
+    ✔ Dimensions that result in differing even shrinks on each axis
+    ✔ Dimensions that result in differing odd shrinks on each axis
+    ✔ fastShrinkOnLoad: true does not causes image shifts
+    ✔ fastShrinkOnLoad: false does not causes image shifts
+    ✔ kernel nearest
+    ✔ kernel cubic
+    ✔ kernel mitchell
+    ✔ kernel lanczos2
+    ✔ kernel lanczos3
+    ✔ nearest upsampling with integral factor
+    11) Ensure shortest edge (height) is at least 1 pixel
+    12) Ensure shortest edge (width) is at least 1 pixel
+    13) Ensure embedded shortest edge (height) is at least 1 pixel
+    14) Ensure embedded shortest edge (width) is at least 1 pixel
+    15) Skip shrink-on-load where one dimension <4px
+    16) Skip JPEG shrink-on-load for known libjpeg rounding errors
+    ✔ unknown kernel throws
+    ✔ unknown fit throws
+    ✔ unknown position throws
+
+  Rotation
+    ✔ Input image has Orientation EXIF tag value of (1), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (2), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (3), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (4), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (5), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (6), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (7), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (8), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (1), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (2), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (3), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (4), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (5), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (6), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (7), auto-rotate
+    ✔ Input image has Orientation EXIF tag value of (8), auto-rotate
+    ✔ Rotate by 30 degrees with semi-transparent background
+    ✔ Rotate by 30 degrees with solid background
+    ✔ Rotate by 90 degrees, respecting output input size
+    ✔ Rotate by 30 degrees, respecting output input size
+    ✔ Rotate by any 90-multiple angle (-3690deg)
+    ✔ Rotate by any 90-multiple angle (-450deg)
+    ✔ Rotate by any 90-multiple angle (-90deg)
+    ✔ Rotate by any 90-multiple angle (90deg)
+    ✔ Rotate by any 90-multiple angle (450deg)
+    ✔ Rotate by any 90-multiple angle (3690deg)
+    ✔ Rotate by any 30-multiple angle (-3750deg)
+    ✔ Rotate by any 30-multiple angle (-510deg)
+    ✔ Rotate by any 30-multiple angle (-150deg)
+    ✔ Rotate by any 30-multiple angle (30deg)
+    ✔ Rotate by any 30-multiple angle (390deg)
+    ✔ Rotate by any 30-multiple angle (3630deg)
+    ✔ Rotate by any 180-multiple angle (-3780deg)
+    ✔ Rotate by any 180-multiple angle (-540deg)
+    ✔ Rotate by any 180-multiple angle (0deg)
+    ✔ Rotate by any 180-multiple angle (180deg)
+    ✔ Rotate by any 180-multiple angle (540deg)
+    ✔ Rotate by any 180-multiple angle (3780deg)
+    ✔ Rotate by 270 degrees, square output ignoring aspect ratio
+    ✔ Rotate by 315 degrees, square output ignoring aspect ratio
+    ✔ Rotate by 270 degrees, rectangular output ignoring aspect ratio
+    ✔ Rotate by 30 degrees, rectangular output ignoring aspect ratio
+    ✔ Input image has Orientation EXIF tag but do not rotate output
+    ✔ Input image has Orientation EXIF tag value of 8 (270 degrees), auto-rotate
+    ✔ Override EXIF Orientation tag metadata after auto-rotate
+    ✔ Input image has Orientation EXIF tag value of 5 (270 degrees + flip), auto-rotate
+    ✔ Attempt to auto-rotate using image that has no EXIF
+    ✔ Attempt to auto-rotate image format without EXIF support
+    ✔ Rotate with a string argument, should fail
+    ✔ Animated image rotate-then-extract rejects
+    ✔ Animated image extract-then-rotate rejects
+    ✔ Flip - vertical
+    ✔ Flop - horizontal
+    ✔ Flip and flop
+    ✔ Neither flip nor flop
+    ✔ Auto-rotate and flip
+    ✔ Auto-rotate and flop
+
+  Sharpen
+    ✔ specific radius 10 (sigma 6)
+    ✔ specific radius 3 (sigma 1.5) and levels 0.5, 2.5
+    ✔ specific radius 5 (sigma 3.5) and levels 2, 4
+    ✔ sigma=3.5, m1=2, m2=4
+    ✔ sigma=3.5, m1=2, m2=4, x1=2, y2=5, y3=25
+    ✔ specific radius/levels with alpha channel
+    ✔ mild sharpen
+    ✔ invalid sigma
+    ✔ invalid flat
+    ✔ invalid jagged
+    ✔ invalid options.sigma
+    ✔ invalid options.m1
+    ✔ invalid options.m2
+    ✔ invalid options.x1
+    ✔ invalid options.y2
+    ✔ invalid options.y3
+    ✔ sharpened image is larger than non-sharpened
+
+  Image Stats
+    ✔ JPEG
+    ✔ PNG without transparency
+    ✔ PNG with transparency
+    ✔ PNG fully transparent
+    ✔ Tiff
+    ✔ WebP
+    ✔ GIF
+    ✔ Grayscale GIF with alpha
+    ✔ CMYK input without profile
+    ✔ Dominant colour
+    17) Entropy and sharpness of 1x1 input are zero
+    ✔ Stream in, Callback out
+    ✔ Stream in, Promise out
+    ✔ File in, Promise out
+    ✔ Blurred image has lower sharpness than original (831ms)
+    ✔ File input with corrupt header fails gracefully
+    ✔ File input with corrupt header fails gracefully, Promise out
+    ✔ File input with corrupt header fails gracefully, Stream In, Promise Out
+    ✔ Buffer input with corrupt header fails gracefully
+    ✔ Non-existent file in, Promise out
+
+  SVG input
+    ✔ Convert SVG to PNG at default 72DPI
+    ✔ Convert SVG to PNG at 1200DPI
+    ✔ Convert SVG to PNG at DPI larger than 2400
+    ✔ Convert SVG to PNG utilizing scale-on-load
+    ✔ Convert SVG to PNG at 14.4DPI
+    ✔ Convert SVG with embedded images to PNG, respecting dimensions, autoconvert to PNG
+    ✔ Converts SVG with truncated embedded PNG
+    ✔ Fails to render SVG larger than 32767x32767
+    ✔ Fails to render scaled SVG larger than 32767x32767
+    ✔ Detects SVG passed as a string
+
+  Threshold
+    ✔ threshold 1 jpeg
+    ✔ threshold 40 jpeg
+    ✔ threshold 128
+    ✔ threshold true (=128)
+    ✔ threshold false (=0)
+    ✔ threshold grayscale: true (=128)
+    ✔ threshold default jpeg
+    ✔ threshold default png transparency
+    ✔ threshold default png alpha
+    ✔ threshold default webp transparency
+    ✔ color threshold
+    ✔ invalid threshold -1
+    ✔ invalid threshold 256
+
+  TIFF
+    ✔ Load TIFF from Buffer
+    ✔ Load multi-page TIFF from file
+    ✔ Load multi-page TIFF from Buffer
+    ✔ Save TIFF to Buffer
+    ✔ Increasing TIFF quality increases file size
+    ✔ Invalid TIFF quality throws error
+    ✔ Missing TIFF quality does not throw error
+    ✔ Not squashing TIFF to a bit depth of 1 should not change the file size
+    ✔ Squashing TIFF to a bit depth of 1 should significantly reduce file size
+    ✔ Invalid TIFF bitdepth value throws error
+    ✔ TIFF setting xres and yres on file
+    ✔ TIFF setting xres and yres on buffer
+    ✔ TIFF imputes xres and yres from withMetadataDensity if not explicitly provided
+    ✔ TIFF uses xres and yres over withMetadataDensity if explicitly provided
+    ✔ TIFF invalid xres value should throw an error
+    ✔ TIFF invalid yres value should throw an error
+    ✔ TIFF lzw compression with horizontal predictor shrinks test file
+    18) TIFF LZW RGBA toFile
+    19) TIFF LZW RGBA toBuffer
+    ✔ TIFF ccittfax4 compression shrinks b-w test file
+    20) TIFF resolutionUnit of inch (default)
+    21) TIFF resolutionUnit of inch
+    22) TIFF resolutionUnit of cm
+    ✔ TIFF deflate compression with horizontal predictor shrinks test file
+    ✔ TIFF deflate compression with float predictor shrinks test file
+    ✔ TIFF deflate compression without predictor shrinks test file
+    ✔ TIFF jpeg compression shrinks test file
+    ✔ TIFF none compression does not throw error
+    ✔ TIFF lzw compression does not throw error
+    ✔ TIFF deflate compression does not throw error
+    ✔ TIFF invalid compression option throws
+    ✔ TIFF invalid compression option throws
+    ✔ TIFF invalid predictor option throws
+    ✔ TIFF invalid resolutionUnit option throws
+    ✔ TIFF horizontal predictor does not throw error
+    ✔ TIFF float predictor does not throw error
+    ✔ TIFF none predictor does not throw error
+    ✔ TIFF tiled pyramid image without compression enlarges test file
+    ✔ TIFF pyramid true value does not throw error
+    ✔ Invalid TIFF pyramid value throws error
+    ✔ Invalid TIFF tile value throws error
+    ✔ TIFF tile true value does not throw error
+    ✔ Valid TIFF tileHeight value does not throw error
+    ✔ Valid TIFF tileWidth value does not throw error
+    ✔ Invalid TIFF tileHeight value throws error
+    ✔ Invalid TIFF tileWidth value throws error
+    ✔ Invalid TIFF tileHeight value throws error
+    ✔ Invalid TIFF tileWidth value throws error
+    ✔ TIFF file input with invalid page fails gracefully
+    ✔ TIFF buffer input with invalid page fails gracefully
+
+  Tile
+    ✔ Valid size values pass
+    ✔ Invalid size values fail
+    ✔ Valid overlap values pass
+    ✔ Invalid overlap values fail
+    ✔ Valid container values pass
+    ✔ Invalid container values fail
+    ✔ Valid layout values pass
+    ✔ Invalid layout values fail
+    ✔ Valid formats pass
+    ✔ Invalid formats fail
+    ✔ Valid depths pass
+    ✔ Invalid depths fail
+    ✔ Prevent larger overlap than default size
+    ✔ Prevent larger overlap than provided size
+    ✔ Valid rotation angle values pass
+    ✔ Invalid rotation angle values fail
+    ✔ Valid skipBlanks threshold values pass
+    ✔ InvalidskipBlanks threshold values fail
+    ✔ Invalid center parameter value fail
+    ✔ Valid id parameter value passes
+    ✔ Invalid id parameter value fails
+    ✔ Deep Zoom layout (511ms)
+    ✔ Deep Zoom layout with custom size+overlap
+    ✔ Deep Zoom layout with custom size+angle
+    ✔ Deep Zoom layout with depth of one
+    ✔ Deep Zoom layout with depth of onepixel
+    ✔ Deep Zoom layout with depth of onetile (535ms)
+    ✔ Deep Zoom layout with skipBlanks
+    ✔ Zoomify layout
+    ✔ Zoomify layout with depth one
+    ✔ Zoomify layout with depth onetile
+    ✔ Zoomify layout with depth onepixel
+    ✔ Zoomify layout with skip blanks
+    ✔ Google layout (550ms)
+    ✔ Google layout with jpeg format
+    ✔ Google layout with png format (507ms)
+    ✔ Google layout with webp format (671ms)
+    ✔ Google layout with depth one
+    ✔ Google layout with depth onepixel (552ms)
+    ✔ Google layout with depth onetile (548ms)
+    ✔ Google layout with default skip Blanks (523ms)
+    ✔ Google layout with center image in tile (665ms)
+    ✔ Google layout with center image in tile centre (639ms)
+    ✔ IIIFv2 layout
+    ✔ IIIFv3 layout
+    ✔ Write to ZIP container using file extension (594ms)
+    ✔ Write to ZIP container using container tile option (588ms)
+
+  Timeout
+    ✔ Will timeout after 1s when performing slow blur operation (1066ms)
+    ✔ invalid object
+    ✔ invalid seconds
+
+  Tint
+    ✔ tints rgb image red
+    ✔ tints rgb image green
+    ✔ tints rgb image blue
+    ✔ tints rgb image with sepia tone
+    ✔ tints rgb image with sepia tone with rgb colour
+    ✔ tints rgb image with alpha channel
+    ✔ tints cmyk image red
+
+  toBuffer
+    ✔ reusing same sharp object does not reset previously passed parameters to toBuffer
+    ✔ correctly process animated webp with height > 16383
+
+  toFormat
+    ✔ accepts upper case characters as format parameter (string)
+    ✔ accepts upper case characters as format parameter (object)
+
+  Trim borders
+    ✔ Threshold default
+    ✔ Skip shrink-on-load
+    ✔ single colour PNG where alpha channel provides the image
+    ✔ 16-bit PNG with alpha channel
+    23) Attempt to trim 2x2 pixel image fails
+    24) should rotate before trim
+    ✔ Animated image rejects
+    Invalid thresholds
+      ✔ -1
+      ✔ "fail"
+      ✔ {}
+
+  Utilities
+    Cache
+      ✔ Can be disabled
+      ✔ Can be enabled with defaults
+      ✔ Can be set to zero
+      ✔ Can be set to a maximum of 10MB, 100 files and 1000 items
+      ✔ Ignores invalid values
+    Concurrency
+      ✔ Can be set to use 16 threads
+      ✔ Can be reset to default
+      ✔ Ignores invalid values
+    Counters
+      ✔ Have zero value at rest
+    SIMD
+      ✔ Can get current state
+      ✔ Can disable
+      ✔ Can attempt to enable
+    Format
+      ✔ Contains expected attributes
+      ✔ Raw file=false, buffer=true, stream=true
+      ✔ vips format supports filesystem only
+    Versions
+      ✔ Contains expected attributes
+    Vendor
+      ✔ Contains expected attributes
+
+  WebP
+    ✔ WebP output
+    ✔ Invalid WebP quality throws error
+    ✔ Invalid WebP alpha quality throws error
+    ✔ should work for webp alpha quality
+    ✔ should work for webp lossless
+    ✔ should work for webp near-lossless
+    ✔ should use near-lossless when both lossless and nearLossless are specified
+    ✔ should produce a larger file size using smartSubsample
+    ✔ invalid smartSubsample throws
+    ✔ should produce a smaller file size with increased effort
+    ✔ invalid effort throws
+    ✔ invalid reductionEffort (deprecated) throws
+    ✔ out of range effort throws
+    ✔ should set effort to 0
+    ✔ invalid loop throws
+    ✔ invalid delay throws
+    ✔ should repeat a single delay for all frames
+    ✔ should limit animation loop
+    ✔ should change delay between frames
+    ✔ should preserve delay between frames
+    ✔ should work with streams when only animated is set
+    ✔ should work with streams when only pages is set
+    ✔ should resize animated image to page height
+    ✔ should take page parameter into account when animated is set
+
+
+  998 passing (59s)
+  24 failing
+
+  1) Affine transform
+       Extracts, rotates and applies affine transform:
+     Error: Unable to parse color from string: blue
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp.rotate (lib/operation.js:36:763)
+      at Context.<anonymous> (test/unit/affine.js:124:8)
+      at processImmediate (node:internal/timers:466:21)
+
+  2) Affine transform
+       Applies affine transform with background color:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._setBackgroundColourOption (lib/colour.js:83:337)
+      at Sharp.affine (lib/operation.js:96:647)
+      at Context.<anonymous> (test/unit/affine.js:134:8)
+      at processImmediate (node:internal/timers:466:21)
+
+  3) Affine transform
+       Applies affine transform with background color and output offsets:
+     Error: Unable to parse color from string: blue
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._setBackgroundColourOption (lib/colour.js:83:337)
+      at Sharp.affine (lib/operation.js:96:647)
+      at Context.<anonymous> (test/unit/affine.js:143:8)
+      at processImmediate (node:internal/timers:466:21)
+
+  4) Affine transform
+       Applies affine transform with background color and all offsets:
+     Error: Unable to parse color from string: yellow
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._setBackgroundColourOption (lib/colour.js:83:337)
+      at Sharp.affine (lib/operation.js:96:647)
+      at Context.<anonymous> (test/unit/affine.js:152:8)
+      at processImmediate (node:internal/timers:466:21)
+
+  5) Colour space conversion
+       From CMYK to sRGB with white background, not yellow:
+     Error: Unable to parse color from string: white
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._setBackgroundColourOption (lib/colour.js:83:337)
+      at Sharp.resize (lib/resize.js:159:31)
+      at Context.<anonymous> (test/unit/colourspace.js:69:8)
+      at processImmediate (node:internal/timers:466:21)
+
+  6) composite
+       Ensure tiled composition works with resized fit=outside:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/composite.js:425:28)
+      at processImmediate (node:internal/timers:466:21)
+
+  7) Input/output
+       Allow use of toBuffer and toFile with same instance:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/io.js:350:22)
+      at processImmediate (node:internal/timers:466:21)
+
+  8) Image metadata
+       Add EXIF metadata to JPEG:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/metadata.js:624:24)
+      at processImmediate (node:internal/timers:466:21)
+
+  9) Image metadata
+       Set density of JPEG:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/metadata.js:648:24)
+      at processImmediate (node:internal/timers:466:21)
+
+  10) Image metadata
+       Set density of PNG:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/metadata.js:667:24)
+      at processImmediate (node:internal/timers:466:21)
+
+  11) Resize dimensions
+       Ensure shortest edge (height) is at least 1 pixel:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/resize.js:669:12)
+      at processImmediate (node:internal/timers:466:21)
+
+  12) Resize dimensions
+       Ensure shortest edge (width) is at least 1 pixel:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/resize.js:686:12)
+      at processImmediate (node:internal/timers:466:21)
+
+  13) Resize dimensions
+       Ensure embedded shortest edge (height) is at least 1 pixel:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/resize.js:703:12)
+      at processImmediate (node:internal/timers:466:21)
+
+  14) Resize dimensions
+       Ensure embedded shortest edge (width) is at least 1 pixel:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/resize.js:720:12)
+      at processImmediate (node:internal/timers:466:21)
+
+  15) Resize dimensions
+       Skip shrink-on-load where one dimension <4px:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/resize.js:737:24)
+      at processImmediate (node:internal/timers:466:21)
+
+  16) Resize dimensions
+       Skip JPEG shrink-on-load for known libjpeg rounding errors:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/resize.js:757:25)
+      at processImmediate (node:internal/timers:466:21)
+
+  17) Image Stats
+       Entropy and sharpness of 1x1 input are zero:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/stats.js:466:42)
+      at processImmediate (node:internal/timers:466:21)
+
+  18) TIFF
+       TIFF LZW RGBA toFile:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/tiff.js:240:5)
+      at processImmediate (node:internal/timers:466:21)
+
+  19) TIFF
+       TIFF LZW RGBA toBuffer:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/tiff.js:258:5)
+      at processImmediate (node:internal/timers:466:21)
+
+  20) TIFF
+       TIFF resolutionUnit of inch (default):
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/tiff.js:292:24)
+      at processImmediate (node:internal/timers:466:21)
+
+  21) TIFF
+       TIFF resolutionUnit of inch:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/tiff.js:300:24)
+      at processImmediate (node:internal/timers:466:21)
+
+  22) TIFF
+       TIFF resolutionUnit of cm:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/tiff.js:308:24)
+      at processImmediate (node:internal/timers:466:21)
+
+  23) Trim borders
+       Attempt to trim 2x2 pixel image fails:
+     Error: Unable to parse color from string: red
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/trim.js:77:5)
+      at processImmediate (node:internal/timers:466:21)
+
+  24) Trim borders
+       should rotate before trim:
+     Error: Unable to parse color from string: white
+      at new Color (node_modules/color/index.js:49:10)
+      at Color (node_modules/color/index.js:24:10)
+      at Sharp._createInputDescriptor (lib/input.js:25:2306)
+      at new Sharp (lib/constructor.js:127:174)
+      at Sharp (lib/constructor.js:121:434)
+      at Context.<anonymous> (test/unit/trim.js:98:5)
+      at processImmediate (node:internal/timers:466:21)
+
+
+

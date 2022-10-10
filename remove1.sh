@@ -1,31 +1,47 @@
-sh removefunctions.sh meow file
-sh removefunctions.sh yeoman-generator file
-sh removefunctions.sh serve-index file
-sh removefunctions.sh session file
-sh removefunctions.sh sharp file
-sh removefunctions.sh finalhandler file
-sh removefunctions.sh memdown file
-sh removefunctions.sh levelup file
-sh removefunctions.sh deep-equal file
-sh removefunctions.sh send file
-sh removefunctions.sh execa file
-sh removefunctions.sh fastify file
-sh removefunctions.sh compression file
-sh removefunctions.sh body-parser file
-sh removefunctions.sh express file
+# sh removefunctions.sh meow pure_deps
+# sh removefunctions.sh yeoman-generator file
+# sh removefunctions.sh serve-index pure_deps
+# sh removefunctions.sh session pure_deps
+# sh removefunctions.sh sharp pure_deps
+# sh removefunctions.sh finalhandler pure_deps
+# sh removefunctions.sh memdown pure_deps
+# sh removefunctions.sh levelup pure_deps
+# sh removefunctions.sh deep-equal pure_deps
+# sh removefunctions.sh send pure_deps
+# sh removefunctions.sh execa pure_deps
+# sh removefunctions.sh fastify pure_deps
+# sh removefunctions.sh compression pure_deps
+# sh removefunctions.sh body-parser pure_deps
+# sh removefunctions.sh express pure_deps
 
-# sh removefiles.sh meow file
-# sh removefiles.sh yeoman-generator file
-# sh removefiles.sh serve-index file
-# sh removefiles.sh session file
-# sh removefiles.sh sharp file
-# sh removefiles.sh finalhandler file
-# sh removefiles.sh memdown file
-# sh removefiles.sh levelup file
-# sh removefiles.sh deep-equal file
-# sh removefiles.sh send file
-# sh removefiles.sh execa file
-# sh removefiles.sh fastify file
-# sh removefiles.sh compression file
-# sh removefiles.sh body-parser file
-# sh removefiles.sh express file
+# sh removefiles.sh meow pure_deps
+sh removefiles.sh yeoman-generator file
+# sh removefiles.sh serve-index pure_deps
+# sh removefiles.sh session pure_deps
+# sh removefiles.sh sharp pure_deps
+# sh removefiles.sh finalhandler pure_deps
+# sh removefiles.sh memdown pure_deps
+# sh removefiles.sh levelup pure_deps
+# sh removefiles.sh deep-equal pure_deps
+# sh removefiles.sh send pure_deps
+# sh removefiles.sh execa pure_deps
+# sh removefiles.sh fastify pure_deps
+# sh removefiles.sh compression pure_deps
+# sh removefiles.sh body-parser pure_deps
+# sh removefiles.sh express pure_deps
+
+
+sh removedeps.sh meow
+sh removedeps.sh serve-index
+sh removedeps.sh session
+sh removedeps.sh sharp
+sh removedeps.sh finalhandler
+sh removedeps.sh memdown
+sh removedeps.sh levelup
+sh removedeps.sh deep-equal
+sh removedeps.sh send
+sh removedeps.sh execa
+sh removedeps.sh fastify
+# sh removedeps.sh compression
+sh removedeps.sh body-parser
+sh removedeps.sh express

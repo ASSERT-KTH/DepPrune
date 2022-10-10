@@ -1,9 +1,9 @@
 #!/bin/bash
 projectName=$1
 
-variantsNum=`cd VariantsSubtree/$projectName && ls -l |grep "^d"|wc -l`
+variantsNum=`cd VariantsFile/$projectName && ls -l |grep "^d"|wc -l`
 # variantsNum=44
-cd VariantsSubtree/$projectName
+cd VariantsFile/$projectName
 
 echo $variantsNum
 
@@ -23,7 +23,7 @@ do
     cd ../..
 done
 
-cd ../..
+# cd ../..
 
 
 # variantsDepsNum=`cd VariantsDeps/$projectName && ls -l |grep "^d"|wc -l`
