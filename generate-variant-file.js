@@ -6,7 +6,6 @@ const commit = args[3]
 const fs = require('fs')
 
 const { spawn } = require("child_process")
-const { json } = require('stream/consumers')
 
 fs.writeFileSync(`./Data/${projectName}/${projectName}_bloated_file_variants.txt`, '')
 fs.writeFileSync(`./Data/${projectName}/${projectName}_bloated_file_candidates.txt`, '')
