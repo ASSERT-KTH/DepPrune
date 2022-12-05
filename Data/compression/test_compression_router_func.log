@@ -1,852 +1,0 @@
-/data/js-variants/multee
-7
-router is testing ./Variants/compression/variant7/compression
-/data/js-variants/multee
-************* npm unlink module *************
-
-removed 1 package, and audited 744 packages in 9s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 952ms
-
-found 0 vulnerabilities
-************* npm unlink globally done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 771ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 746 packages in 4s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> nxus-router@4.0.1 test
-> NODE_ENV=test mocha --recursive --compilers js:babel-register -R spec src/test/* src/modules/**/test/*
-
-
-
-  Router
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-    Init
-      ✓ should register for app lifecycle
-      ✓ should have port after load
-      ✓ should have default config after load
-    Providers
-      ✓ should return an expressApp
-      ✓ should return the routing table
-
-  RouterSessions
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-      ✓ should have default config
-
-
-  10 passing (90ms)
-
-************* run test done *************
-router is testing ./Variants/compression/variant6/compression
-/data/js-variants/multee
-************* npm unlink module *************
-
-removed 1 package, and audited 744 packages in 5s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 978ms
-
-found 0 vulnerabilities
-************* npm unlink globally done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 454ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 746 packages in 4s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> nxus-router@4.0.1 test
-> NODE_ENV=test mocha --recursive --compilers js:babel-register -R spec src/test/* src/modules/**/test/*
-
-
-
-  Router
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-    Init
-      ✓ should register for app lifecycle
-      ✓ should have port after load
-      ✓ should have default config after load
-    Providers
-      ✓ should return an expressApp
-      ✓ should return the routing table
-
-  RouterSessions
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-      ✓ should have default config
-
-
-  10 passing (116ms)
-
-************* run test done *************
-router is testing ./Variants/compression/variant5/compression
-/data/js-variants/multee
-************* npm unlink module *************
-
-removed 1 package, and audited 744 packages in 5s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 1s
-
-found 0 vulnerabilities
-************* npm unlink globally done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 1s
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 746 packages in 4s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> nxus-router@4.0.1 test
-> NODE_ENV=test mocha --recursive --compilers js:babel-register -R spec src/test/* src/modules/**/test/*
-
-
-
-  Router
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-    Init
-      ✓ should register for app lifecycle
-      ✓ should have port after load
-      ✓ should have default config after load
-    Providers
-      ✓ should return an expressApp
-      ✓ should return the routing table
-
-  RouterSessions
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-      ✓ should have default config
-
-
-  10 passing (91ms)
-
-************* run test done *************
-router is testing ./Variants/compression/variant4/compression
-/data/js-variants/multee
-************* npm unlink module *************
-
-removed 1 package, and audited 744 packages in 4s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 885ms
-
-found 0 vulnerabilities
-************* npm unlink globally done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 453ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 746 packages in 4s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> nxus-router@4.0.1 test
-> NODE_ENV=test mocha --recursive --compilers js:babel-register -R spec src/test/* src/modules/**/test/*
-
-
-
-  Router
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-    Init
-      ✓ should register for app lifecycle
-      ✓ should have port after load
-      ✓ should have default config after load
-    Providers
-      ✓ should return an expressApp
-      ✓ should return the routing table
-
-  RouterSessions
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-      ✓ should have default config
-
-
-  10 passing (93ms)
-
-************* run test done *************
-router is testing ./Variants/compression/variant3/compression
-/data/js-variants/multee
-************* npm unlink module *************
-
-removed 1 package, and audited 744 packages in 5s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 732ms
-
-found 0 vulnerabilities
-************* npm unlink globally done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 511ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 746 packages in 4s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> nxus-router@4.0.1 test
-> NODE_ENV=test mocha --recursive --compilers js:babel-register -R spec src/test/* src/modules/**/test/*
-
-
-
-  Router
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-    Init
-      ✓ should register for app lifecycle
-      ✓ should have port after load
-      ✓ should have default config after load
-    Providers
-      ✓ should return an expressApp
-      ✓ should return the routing table
-
-  RouterSessions
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-      ✓ should have default config
-
-
-  10 passing (83ms)
-
-************* run test done *************
-router is testing ./Variants/compression/variant2/compression
-/data/js-variants/multee
-************* npm unlink module *************
-
-removed 1 package, and audited 744 packages in 5s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 715ms
-
-found 0 vulnerabilities
-************* npm unlink globally done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 521ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 746 packages in 4s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> nxus-router@4.0.1 test
-> NODE_ENV=test mocha --recursive --compilers js:babel-register -R spec src/test/* src/modules/**/test/*
-
-
-
-  Router
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-    Init
-      ✓ should register for app lifecycle
-      ✓ should have port after load
-      ✓ should have default config after load
-    Providers
-      ✓ should return an expressApp
-      ✓ should return the routing table
-
-  RouterSessions
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-      ✓ should have default config
-
-
-  10 passing (91ms)
-
-************* run test done *************
-router is testing ./Variants/compression/variant1/compression
-/data/js-variants/multee
-************* npm unlink module *************
-
-removed 1 package, and audited 744 packages in 4s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 938ms
-
-found 0 vulnerabilities
-************* npm unlink globally done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 485ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 746 packages in 4s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> nxus-router@4.0.1 test
-> NODE_ENV=test mocha --recursive --compilers js:babel-register -R spec src/test/* src/modules/**/test/*
-
-
-
-  Router
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-    Init
-      ✓ should register for app lifecycle
-      ✓ should have port after load
-      ✓ should have default config after load
-    Providers
-      ✓ should return an expressApp
-      ✓ should return the routing table
-
-  RouterSessions
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-      ✓ should have default config
-
-
-  10 passing (112ms)
-
-************* run test done *************
-variantsDepsNum: 4
-/data/js-variants/multee
-4
-router is testing ./VariantsDeps/compression/variant4/compression
-/data/js-variants/multee
-************* npm unlink module *************
-
-removed 1 package, and audited 744 packages in 5s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 686ms
-
-found 0 vulnerabilities
-************* npm unlink module done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 527ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 746 packages in 4s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> nxus-router@4.0.1 test
-> NODE_ENV=test mocha --recursive --compilers js:babel-register -R spec src/test/* src/modules/**/test/*
-
-
-
-  Router
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-    Init
-      ✓ should register for app lifecycle
-      ✓ should have port after load
-      ✓ should have default config after load
-    Providers
-      ✓ should return an expressApp
-      ✓ should return the routing table
-
-  RouterSessions
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-      ✓ should have default config
-
-
-  10 passing (104ms)
-
-************* run test done *************
-router is testing ./VariantsDeps/compression/variant3/compression
-/data/js-variants/multee
-************* npm unlink module *************
-
-removed 1 package, and audited 744 packages in 5s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 805ms
-
-found 0 vulnerabilities
-************* npm unlink module done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 600ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 746 packages in 4s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> nxus-router@4.0.1 test
-> NODE_ENV=test mocha --recursive --compilers js:babel-register -R spec src/test/* src/modules/**/test/*
-
-
-
-  Router
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-    Init
-      ✓ should register for app lifecycle
-      ✓ should have port after load
-      ✓ should have default config after load
-    Providers
-      ✓ should return an expressApp
-      ✓ should return the routing table
-
-  RouterSessions
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-      ✓ should have default config
-
-
-  10 passing (122ms)
-
-************* run test done *************
-router is testing ./VariantsDeps/compression/variant2/compression
-/data/js-variants/multee
-************* npm unlink module *************
-
-removed 1 package, and audited 744 packages in 5s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 861ms
-
-found 0 vulnerabilities
-************* npm unlink module done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 511ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 746 packages in 4s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> nxus-router@4.0.1 test
-> NODE_ENV=test mocha --recursive --compilers js:babel-register -R spec src/test/* src/modules/**/test/*
-
-
-
-  Router
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-    Init
-      ✓ should register for app lifecycle
-      ✓ should have port after load
-      ✓ should have default config after load
-    Providers
-      ✓ should return an expressApp
-      ✓ should return the routing table
-
-  RouterSessions
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-      ✓ should have default config
-
-
-  10 passing (112ms)
-
-************* run test done *************
-router is testing ./VariantsDeps/compression/variant1/compression
-/data/js-variants/multee
-************* npm unlink module *************
-
-removed 1 package, and audited 744 packages in 5s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 747ms
-
-found 0 vulnerabilities
-************* npm unlink module done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 458ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 746 packages in 4s
-
-47 vulnerabilities (3 low, 8 moderate, 28 high, 8 critical)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> nxus-router@4.0.1 test
-> NODE_ENV=test mocha --recursive --compilers js:babel-register -R spec src/test/* src/modules/**/test/*
-
-
-
-  Router
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-    Init
-      ✓ should register for app lifecycle
-      ✓ should have port after load
-      ✓ should have default config after load
-    Providers
-      ✓ should return an expressApp
-      ✓ should return the routing table
-
-  RouterSessions
-    Load
-      ✓ should not be null
-      ✓ should be instantiated
-      ✓ should have default config
-
-
-  10 passing (176ms)
-
-************* run test done *************

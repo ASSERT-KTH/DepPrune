@@ -25,3 +25,20 @@ do
         cd ../../..
     done
 done
+
+
+projectName=$1
+
+clientsPath='Data/'$projectName'_dependants.log'
+
+cat $clientsPath | while read rows
+do
+echo $rows
+echo "git"
+x=$(( x+1 ))
+variantPath='variant'$x'/'$projectName
+cd $variantPath
+echo "uninstalling the dependency "$rows
+npm uninstall $rows
+cd ../..
+done

@@ -1,716 +1,0 @@
-/data/js-variants/multee
-4
-level-test is testing ./Variants/memdown/variant4/memdown
-/data/js-variants/multee
-************* npm unlink module *************
-
-removed 1 package, and audited 1081 packages in 5s
-
-203 packages are looking for funding
-  run `npm fund` for details
-
-12 vulnerabilities (3 moderate, 8 high, 1 critical)
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 1s
-
-found 0 vulnerabilities
-************* npm unlink globally done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 421ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 1083 packages in 3s
-
-203 packages are looking for funding
-  run `npm fund` for details
-
-12 vulnerabilities (3 moderate, 8 high, 1 critical)
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> level-test@9.0.0 test
-> standard && hallmark && (nyc -s node test/node.js | faucet) && nyc report
-
-# without arguments[K
-  ok [1m[32m1[0m got expected down[K  ok [1m[32m2[0m undefined[K  ok [1m[32m3[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m4[0m null[K  ok [1m[32m5[0m should be truthy[K  ok [1m[32m6[0m got expected down[K  ok [1m[32m7[0m should be falsy[K  ok [1m[32m8[0m null[K  ok [1m[32m9[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m10[0m got expected down[K  ok [1m[32m11[0m should be falsy[K  ok [1m[32m12[0m null[K  ok [1m[32m13[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m14[0m null[K  ok [1m[32m15[0m should be truthy[K  ok [1m[32m16[0m got expected down[K  ok [1m[32m17[0m should be falsy[K  ok [1m[32m18[0m null[K  ok [1m[32m19[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m20[0m got expected down[K  ok [1m[32m21[0m undefined[K  ok [1m[32m22[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m23[0m null[K  ok [1m[32m24[0m should be truthy[K  ok [1m[32m25[0m got expected down[K  ok [1m[32m26[0m should be falsy[K  ok [1m[32m27[0m null[K  ok [1m[32m28[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m29[0m got expected down[K  ok [1m[32m30[0m should be falsy[K  ok [1m[32m31[0m null[K  ok [1m[32m32[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m33[0m null[K  ok [1m[32m34[0m should be truthy[K  ok [1m[32m35[0m got expected down[K  ok [1m[32m36[0m should be falsy[K  ok [1m[32m37[0m null[K  ok [1m[32m38[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m39[0m got expected down[K  ok [1m[32m40[0m undefined[K  ok [1m[32m41[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m42[0m null[K  ok [1m[32m43[0m should be truthy[K  ok [1m[32m44[0m got expected down[K  ok [1m[32m45[0m should be falsy[K  ok [1m[32m46[0m null[K  ok [1m[32m47[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m48[0m got expected down[K  ok [1m[32m49[0m should be falsy[K  ok [1m[32m50[0m null[K  ok [1m[32m51[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m52[0m null[K  ok [1m[32m53[0m should be truthy[K  ok [1m[32m54[0m got expected down[K  ok [1m[32m55[0m should be falsy[K  ok [1m[32m56[0m null[K  ok [1m[32m57[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m58[0m got expected down[K  ok [1m[32m59[0m undefined[K  ok [1m[32m60[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m61[0m null[K  ok [1m[32m62[0m should be truthy[K  ok [1m[32m63[0m got expected down[K  ok [1m[32m64[0m should be falsy[K  ok [1m[32m65[0m null[K  ok [1m[32m66[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m67[0m got expected down[K  ok [1m[32m68[0m should be falsy[K  ok [1m[32m69[0m null[K  ok [1m[32m70[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m71[0m null[K  ok [1m[32m72[0m should be truthy[K  ok [1m[32m73[0m got expected down[K  ok [1m[32m74[0m should be falsy[K  ok [1m[32m75[0m null[K  ok [1m[32m76[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m77[0m null[K  ok [1m[32m78[0m got db[K  ok [1m[32m79[0m got expected down[K  ok [1m[32m80[0m got expected up[K  ok [1m[32m81[0m should be falsy[K  ok [1m[32m82[0m null[K  ok [1m[32m83[0m should be strictly equal[K  ok [1m[32m84[0m null[K  ok [1m[32m85[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m86[0m null[K  ok [1m[32m87[0m got db[K  ok [1m[32m88[0m got expected down[K  ok [1m[32m89[0m got expected up[K  ok [1m[32m90[0m should be falsy[K  ok [1m[32m91[0m null[K  ok [1m[32m92[0m should be strictly equal[K  ok [1m[32m93[0m null[K  ok [1m[32m94[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m95[0m null[K  ok [1m[32m96[0m got db[K  ok [1m[32m97[0m got expected down[K  ok [1m[32m98[0m got expected up[K  ok [1m[32m99[0m should be falsy[K  ok [1m[32m100[0m null[K  ok [1m[32m101[0m should be strictly equal[K  ok [1m[32m102[0m null[K  ok [1m[32m103[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m104[0m null[K  ok [1m[32m105[0m got db[K  ok [1m[32m106[0m got expected down[K  ok [1m[32m107[0m got expected up[K  ok [1m[32m108[0m should be falsy[K  ok [1m[32m109[0m null[K  ok [1m[32m110[0m should be strictly equal[K  ok [1m[32m111[0m null[K  ok [1m[32m112[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m113[0m null[K  ok [1m[32m114[0m got db[K  ok [1m[32m115[0m got expected down[K  ok [1m[32m116[0m got expected up[K  ok [1m[32m117[0m should be falsy[K  ok [1m[32m118[0m null[K  ok [1m[32m119[0m should be strictly equal[K  ok [1m[32m120[0m null[K  ok [1m[32m121[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m122[0m null[K  ok [1m[32m123[0m got db[K  ok [1m[32m124[0m got expected down[K  ok [1m[32m125[0m got expected up[K  ok [1m[32m126[0m should be falsy[K  ok [1m[32m127[0m null[K  ok [1m[32m128[0m should be strictly equal[K  ok [1m[32m129[0m null[K  ok [1m[32m130[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# opts precedence[K
-  ok [1m[32m131[0m undefined[K  ok [1m[32m132[0m null[K  ok [1m[32m133[0m should be strictly equal[K  ok [1m[32m134[0m undefined[K  ok [1m[32m135[0m null[K  ok [1m[32m136[0m should be deeply equivalent[K[1A[1G[1m[32m✓ opts precedence[0m[1B[1G# test db open and use, level(location, cb)[K
-  ok [1m[32m137[0m no error[K  ok [1m[32m138[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, cb)[0m[1B[1G# test db open and use, level(location, options, cb)[K
-  ok [1m[32m139[0m no error[K  ok [1m[32m140[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb)[0m[1B[1G# test db open and use, db=level(location)[K
-  ok [1m[32m141[0m no error[K[1A[1G[1m[32m✓ test db open and use, db=level(location)[0m[1B[1G# options.keyEncoding and options.valueEncoding are passed on to encoding-down[K
-  ok [1m[32m142[0m keyEncoding correct[K  ok [1m[32m143[0m valueEncoding correct[K[1A[1G[1m[32m✓ options.keyEncoding and options.valueEncoding are passed on to encoding-down[0m[1B[1G# encoding options default to utf8[K
-  ok [1m[32m144[0m keyEncoding correct[K  ok [1m[32m145[0m valueEncoding correct[K[1A[1G[1m[32m✓ encoding options default to utf8[0m[1B[1G# test db values[K
-  ok [1m[32m146[0m no error[K  ok [1m[32m147[0m no error[K  ok [1m[32m148[0m should be strictly equal[K  ok [1m[32m149[0m no error[K  ok [1m[32m150[0m should be strictly equal[K  ok [1m[32m151[0m no error[K  ok [1m[32m152[0m should be strictly equal[K[1A[1G[1m[32m✓ test db values[0m[1B[1G# test db open and use, level(location, options, cb) force error[K
-  ok [1m[32m153[0m got error opening existing db[K  ok [1m[32m154[0m no db[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb) force error[0m[1B[1G# test repair[K
-  ok [1m[32m155[0m no error[K[1A[1G[1m[32m✓ test repair[0m[1B[1G# test destroy[K
-  ok [1m[32m156[0m sanity check, directory exists[K  ok [1m[32m157[0m sanity check, CURRENT exists[K  ok [1m[32m158[0m no error[K  ok [1m[32m159[0m db gone (mostly)[K[1A[1G[1m[32m✓ test destroy[0m[1B[1G# test db open and use, level(location, cb)[K
-  ok [1m[32m160[0m no error[K  ok [1m[32m161[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, cb)[0m[1B[1G# test db open and use, level(location, options, cb)[K
-  ok [1m[32m162[0m no error[K  ok [1m[32m163[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb)[0m[1B[1G# test db open and use, db=level(location)[K
-  ok [1m[32m164[0m no error[K[1A[1G[1m[32m✓ test db open and use, db=level(location)[0m[1B[1G# options.keyEncoding and options.valueEncoding are passed on to encoding-down[K
-  ok [1m[32m165[0m keyEncoding correct[K  ok [1m[32m166[0m valueEncoding correct[K[1A[1G[1m[32m✓ options.keyEncoding and options.valueEncoding are passed on to encoding-down[0m[1B[1G# encoding options default to utf8[K
-  ok [1m[32m167[0m keyEncoding correct[K  ok [1m[32m168[0m valueEncoding correct[K[1A[1G[1m[32m✓ encoding options default to utf8[0m[1B[1G# test db values[K
-  ok [1m[32m169[0m no error[K  ok [1m[32m170[0m no error[K  ok [1m[32m171[0m should be strictly equal[K  ok [1m[32m172[0m no error[K  ok [1m[32m173[0m should be strictly equal[K  ok [1m[32m174[0m no error[K  ok [1m[32m175[0m should be strictly equal[K[1A[1G[1m[32m✓ test db values[0m[1B[1G# tests 175[K
-tests 175# pass  175[K
-pass  175# ok[K
-[1A[1G[1m[32m✓ ok[0m[1B[1G-------------|---------|----------|---------|---------|-------------------
-File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
--------------|---------|----------|---------|---------|-------------------
-All files    |     100 |      100 |     100 |     100 |                   
- index.js    |     100 |      100 |     100 |     100 |                   
- location.js |     100 |      100 |     100 |     100 |                   
--------------|---------|----------|---------|---------|-------------------
-************* run test done *************
-level-test is testing ./Variants/memdown/variant3/memdown
-/data/js-variants/multee
-************* npm unlink module *************
-
-removed 1 package, and audited 1081 packages in 3s
-
-203 packages are looking for funding
-  run `npm fund` for details
-
-12 vulnerabilities (3 moderate, 8 high, 1 critical)
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 1s
-
-found 0 vulnerabilities
-************* npm unlink globally done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 430ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 1083 packages in 3s
-
-203 packages are looking for funding
-  run `npm fund` for details
-
-12 vulnerabilities (3 moderate, 8 high, 1 critical)
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> level-test@9.0.0 test
-> standard && hallmark && (nyc -s node test/node.js | faucet) && nyc report
-
-# without arguments[K
-  ok [1m[32m1[0m got expected down[K  ok [1m[32m2[0m undefined[K  ok [1m[32m3[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m4[0m null[K  ok [1m[32m5[0m should be truthy[K  ok [1m[32m6[0m got expected down[K  ok [1m[32m7[0m should be falsy[K  ok [1m[32m8[0m null[K  ok [1m[32m9[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m10[0m got expected down[K  ok [1m[32m11[0m should be falsy[K  ok [1m[32m12[0m null[K  ok [1m[32m13[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m14[0m null[K  ok [1m[32m15[0m should be truthy[K  ok [1m[32m16[0m got expected down[K  ok [1m[32m17[0m should be falsy[K  ok [1m[32m18[0m null[K  ok [1m[32m19[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m20[0m got expected down[K  ok [1m[32m21[0m undefined[K  ok [1m[32m22[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m23[0m null[K  ok [1m[32m24[0m should be truthy[K  ok [1m[32m25[0m got expected down[K  ok [1m[32m26[0m should be falsy[K  ok [1m[32m27[0m null[K  ok [1m[32m28[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m29[0m got expected down[K  ok [1m[32m30[0m should be falsy[K  ok [1m[32m31[0m null[K  ok [1m[32m32[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m33[0m null[K  ok [1m[32m34[0m should be truthy[K  ok [1m[32m35[0m got expected down[K  ok [1m[32m36[0m should be falsy[K  ok [1m[32m37[0m null[K  ok [1m[32m38[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m39[0m got expected down[K  ok [1m[32m40[0m undefined[K  ok [1m[32m41[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m42[0m null[K  ok [1m[32m43[0m should be truthy[K  ok [1m[32m44[0m got expected down[K  ok [1m[32m45[0m should be falsy[K  ok [1m[32m46[0m null[K  ok [1m[32m47[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m48[0m got expected down[K  ok [1m[32m49[0m should be falsy[K  ok [1m[32m50[0m null[K  ok [1m[32m51[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m52[0m null[K  ok [1m[32m53[0m should be truthy[K  ok [1m[32m54[0m got expected down[K  ok [1m[32m55[0m should be falsy[K  ok [1m[32m56[0m null[K  ok [1m[32m57[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m58[0m got expected down[K  ok [1m[32m59[0m undefined[K  ok [1m[32m60[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m61[0m null[K  ok [1m[32m62[0m should be truthy[K  ok [1m[32m63[0m got expected down[K  ok [1m[32m64[0m should be falsy[K  ok [1m[32m65[0m null[K  ok [1m[32m66[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m67[0m got expected down[K  ok [1m[32m68[0m should be falsy[K  ok [1m[32m69[0m null[K  ok [1m[32m70[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m71[0m null[K  ok [1m[32m72[0m should be truthy[K  ok [1m[32m73[0m got expected down[K  ok [1m[32m74[0m should be falsy[K  ok [1m[32m75[0m null[K  ok [1m[32m76[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m77[0m null[K  ok [1m[32m78[0m got db[K  ok [1m[32m79[0m got expected down[K  ok [1m[32m80[0m got expected up[K  ok [1m[32m81[0m should be falsy[K  ok [1m[32m82[0m null[K  ok [1m[32m83[0m should be strictly equal[K  ok [1m[32m84[0m null[K  ok [1m[32m85[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m86[0m null[K  ok [1m[32m87[0m got db[K  ok [1m[32m88[0m got expected down[K  ok [1m[32m89[0m got expected up[K  ok [1m[32m90[0m should be falsy[K  ok [1m[32m91[0m null[K  ok [1m[32m92[0m should be strictly equal[K  ok [1m[32m93[0m null[K  ok [1m[32m94[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m95[0m null[K  ok [1m[32m96[0m got db[K  ok [1m[32m97[0m got expected down[K  ok [1m[32m98[0m got expected up[K  ok [1m[32m99[0m should be falsy[K  ok [1m[32m100[0m null[K  ok [1m[32m101[0m should be strictly equal[K  ok [1m[32m102[0m null[K  ok [1m[32m103[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m104[0m null[K  ok [1m[32m105[0m got db[K  ok [1m[32m106[0m got expected down[K  ok [1m[32m107[0m got expected up[K  ok [1m[32m108[0m should be falsy[K  ok [1m[32m109[0m null[K  ok [1m[32m110[0m should be strictly equal[K  ok [1m[32m111[0m null[K  ok [1m[32m112[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m113[0m null[K  ok [1m[32m114[0m got db[K  ok [1m[32m115[0m got expected down[K  ok [1m[32m116[0m got expected up[K  ok [1m[32m117[0m should be falsy[K  ok [1m[32m118[0m null[K  ok [1m[32m119[0m should be strictly equal[K  ok [1m[32m120[0m null[K  ok [1m[32m121[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m122[0m null[K  ok [1m[32m123[0m got db[K  ok [1m[32m124[0m got expected down[K  ok [1m[32m125[0m got expected up[K  ok [1m[32m126[0m should be falsy[K  ok [1m[32m127[0m null[K  ok [1m[32m128[0m should be strictly equal[K  ok [1m[32m129[0m null[K  ok [1m[32m130[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# opts precedence[K
-  ok [1m[32m131[0m undefined[K  ok [1m[32m132[0m null[K  ok [1m[32m133[0m should be strictly equal[K  ok [1m[32m134[0m undefined[K  ok [1m[32m135[0m null[K  ok [1m[32m136[0m should be deeply equivalent[K[1A[1G[1m[32m✓ opts precedence[0m[1B[1G# test db open and use, level(location, cb)[K
-  ok [1m[32m137[0m no error[K  ok [1m[32m138[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, cb)[0m[1B[1G# test db open and use, level(location, options, cb)[K
-  ok [1m[32m139[0m no error[K  ok [1m[32m140[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb)[0m[1B[1G# test db open and use, db=level(location)[K
-  ok [1m[32m141[0m no error[K[1A[1G[1m[32m✓ test db open and use, db=level(location)[0m[1B[1G# options.keyEncoding and options.valueEncoding are passed on to encoding-down[K
-  ok [1m[32m142[0m keyEncoding correct[K  ok [1m[32m143[0m valueEncoding correct[K[1A[1G[1m[32m✓ options.keyEncoding and options.valueEncoding are passed on to encoding-down[0m[1B[1G# encoding options default to utf8[K
-  ok [1m[32m144[0m keyEncoding correct[K  ok [1m[32m145[0m valueEncoding correct[K[1A[1G[1m[32m✓ encoding options default to utf8[0m[1B[1G# test db values[K
-  ok [1m[32m146[0m no error[K  ok [1m[32m147[0m no error[K  ok [1m[32m148[0m should be strictly equal[K  ok [1m[32m149[0m no error[K  ok [1m[32m150[0m should be strictly equal[K  ok [1m[32m151[0m no error[K  ok [1m[32m152[0m should be strictly equal[K[1A[1G[1m[32m✓ test db values[0m[1B[1G# test db open and use, level(location, options, cb) force error[K
-  ok [1m[32m153[0m got error opening existing db[K  ok [1m[32m154[0m no db[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb) force error[0m[1B[1G# test repair[K
-  ok [1m[32m155[0m no error[K[1A[1G[1m[32m✓ test repair[0m[1B[1G# test destroy[K
-  ok [1m[32m156[0m sanity check, directory exists[K  ok [1m[32m157[0m sanity check, CURRENT exists[K  ok [1m[32m158[0m no error[K  ok [1m[32m159[0m db gone (mostly)[K[1A[1G[1m[32m✓ test destroy[0m[1B[1G# test db open and use, level(location, cb)[K
-  ok [1m[32m160[0m no error[K  ok [1m[32m161[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, cb)[0m[1B[1G# test db open and use, level(location, options, cb)[K
-  ok [1m[32m162[0m no error[K  ok [1m[32m163[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb)[0m[1B[1G# test db open and use, db=level(location)[K
-  ok [1m[32m164[0m no error[K[1A[1G[1m[32m✓ test db open and use, db=level(location)[0m[1B[1G# options.keyEncoding and options.valueEncoding are passed on to encoding-down[K
-  ok [1m[32m165[0m keyEncoding correct[K  ok [1m[32m166[0m valueEncoding correct[K[1A[1G[1m[32m✓ options.keyEncoding and options.valueEncoding are passed on to encoding-down[0m[1B[1G# encoding options default to utf8[K
-  ok [1m[32m167[0m keyEncoding correct[K  ok [1m[32m168[0m valueEncoding correct[K[1A[1G[1m[32m✓ encoding options default to utf8[0m[1B[1G# test db values[K
-  ok [1m[32m169[0m no error[K  ok [1m[32m170[0m no error[K  ok [1m[32m171[0m should be strictly equal[K  ok [1m[32m172[0m no error[K  ok [1m[32m173[0m should be strictly equal[K  ok [1m[32m174[0m no error[K  ok [1m[32m175[0m should be strictly equal[K[1A[1G[1m[32m✓ test db values[0m[1B[1G# tests 175[K
-tests 175# pass  175[K
-pass  175# ok[K
-[1A[1G[1m[32m✓ ok[0m[1B[1G-------------|---------|----------|---------|---------|-------------------
-File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
--------------|---------|----------|---------|---------|-------------------
-All files    |     100 |      100 |     100 |     100 |                   
- index.js    |     100 |      100 |     100 |     100 |                   
- location.js |     100 |      100 |     100 |     100 |                   
--------------|---------|----------|---------|---------|-------------------
-************* run test done *************
-level-test is testing ./Variants/memdown/variant2/memdown
-/data/js-variants/multee
-************* npm unlink module *************
-
-removed 1 package, and audited 1081 packages in 3s
-
-203 packages are looking for funding
-  run `npm fund` for details
-
-12 vulnerabilities (3 moderate, 8 high, 1 critical)
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 1s
-
-found 0 vulnerabilities
-************* npm unlink globally done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 403ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 1083 packages in 3s
-
-203 packages are looking for funding
-  run `npm fund` for details
-
-12 vulnerabilities (3 moderate, 8 high, 1 critical)
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> level-test@9.0.0 test
-> standard && hallmark && (nyc -s node test/node.js | faucet) && nyc report
-
-# without arguments[K
-  ok [1m[32m1[0m got expected down[K  ok [1m[32m2[0m undefined[K  ok [1m[32m3[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m4[0m null[K  ok [1m[32m5[0m should be truthy[K  ok [1m[32m6[0m got expected down[K  ok [1m[32m7[0m should be falsy[K  ok [1m[32m8[0m null[K  ok [1m[32m9[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m10[0m got expected down[K  ok [1m[32m11[0m should be falsy[K  ok [1m[32m12[0m null[K  ok [1m[32m13[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m14[0m null[K  ok [1m[32m15[0m should be truthy[K  ok [1m[32m16[0m got expected down[K  ok [1m[32m17[0m should be falsy[K  ok [1m[32m18[0m null[K  ok [1m[32m19[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m20[0m got expected down[K  ok [1m[32m21[0m undefined[K  ok [1m[32m22[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m23[0m null[K  ok [1m[32m24[0m should be truthy[K  ok [1m[32m25[0m got expected down[K  ok [1m[32m26[0m should be falsy[K  ok [1m[32m27[0m null[K  ok [1m[32m28[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m29[0m got expected down[K  ok [1m[32m30[0m should be falsy[K  ok [1m[32m31[0m null[K  ok [1m[32m32[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m33[0m null[K  ok [1m[32m34[0m should be truthy[K  ok [1m[32m35[0m got expected down[K  ok [1m[32m36[0m should be falsy[K  ok [1m[32m37[0m null[K  ok [1m[32m38[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m39[0m got expected down[K  ok [1m[32m40[0m undefined[K  ok [1m[32m41[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m42[0m null[K  ok [1m[32m43[0m should be truthy[K  ok [1m[32m44[0m got expected down[K  ok [1m[32m45[0m should be falsy[K  ok [1m[32m46[0m null[K  ok [1m[32m47[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m48[0m got expected down[K  ok [1m[32m49[0m should be falsy[K  ok [1m[32m50[0m null[K  ok [1m[32m51[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m52[0m null[K  ok [1m[32m53[0m should be truthy[K  ok [1m[32m54[0m got expected down[K  ok [1m[32m55[0m should be falsy[K  ok [1m[32m56[0m null[K  ok [1m[32m57[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m58[0m got expected down[K  ok [1m[32m59[0m undefined[K  ok [1m[32m60[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m61[0m null[K  ok [1m[32m62[0m should be truthy[K  ok [1m[32m63[0m got expected down[K  ok [1m[32m64[0m should be falsy[K  ok [1m[32m65[0m null[K  ok [1m[32m66[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m67[0m got expected down[K  ok [1m[32m68[0m should be falsy[K  ok [1m[32m69[0m null[K  ok [1m[32m70[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m71[0m null[K  ok [1m[32m72[0m should be truthy[K  ok [1m[32m73[0m got expected down[K  ok [1m[32m74[0m should be falsy[K  ok [1m[32m75[0m null[K  ok [1m[32m76[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m77[0m null[K  ok [1m[32m78[0m got db[K  ok [1m[32m79[0m got expected down[K  ok [1m[32m80[0m got expected up[K  ok [1m[32m81[0m should be falsy[K  ok [1m[32m82[0m null[K  ok [1m[32m83[0m should be strictly equal[K  ok [1m[32m84[0m null[K  ok [1m[32m85[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m86[0m null[K  ok [1m[32m87[0m got db[K  ok [1m[32m88[0m got expected down[K  ok [1m[32m89[0m got expected up[K  ok [1m[32m90[0m should be falsy[K  ok [1m[32m91[0m null[K  ok [1m[32m92[0m should be strictly equal[K  ok [1m[32m93[0m null[K  ok [1m[32m94[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m95[0m null[K  ok [1m[32m96[0m got db[K  ok [1m[32m97[0m got expected down[K  ok [1m[32m98[0m got expected up[K  ok [1m[32m99[0m should be falsy[K  ok [1m[32m100[0m null[K  ok [1m[32m101[0m should be strictly equal[K  ok [1m[32m102[0m null[K  ok [1m[32m103[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m104[0m null[K  ok [1m[32m105[0m got db[K  ok [1m[32m106[0m got expected down[K  ok [1m[32m107[0m got expected up[K  ok [1m[32m108[0m should be falsy[K  ok [1m[32m109[0m null[K  ok [1m[32m110[0m should be strictly equal[K  ok [1m[32m111[0m null[K  ok [1m[32m112[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m113[0m null[K  ok [1m[32m114[0m got db[K  ok [1m[32m115[0m got expected down[K  ok [1m[32m116[0m got expected up[K  ok [1m[32m117[0m should be falsy[K  ok [1m[32m118[0m null[K  ok [1m[32m119[0m should be strictly equal[K  ok [1m[32m120[0m null[K  ok [1m[32m121[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m122[0m null[K  ok [1m[32m123[0m got db[K  ok [1m[32m124[0m got expected down[K  ok [1m[32m125[0m got expected up[K  ok [1m[32m126[0m should be falsy[K  ok [1m[32m127[0m null[K  ok [1m[32m128[0m should be strictly equal[K  ok [1m[32m129[0m null[K  ok [1m[32m130[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# opts precedence[K
-  ok [1m[32m131[0m undefined[K  ok [1m[32m132[0m null[K  ok [1m[32m133[0m should be strictly equal[K  ok [1m[32m134[0m undefined[K  ok [1m[32m135[0m null[K  ok [1m[32m136[0m should be deeply equivalent[K[1A[1G[1m[32m✓ opts precedence[0m[1B[1G# test db open and use, level(location, cb)[K
-  ok [1m[32m137[0m no error[K  ok [1m[32m138[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, cb)[0m[1B[1G# test db open and use, level(location, options, cb)[K
-  ok [1m[32m139[0m no error[K  ok [1m[32m140[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb)[0m[1B[1G# test db open and use, db=level(location)[K
-  ok [1m[32m141[0m no error[K[1A[1G[1m[32m✓ test db open and use, db=level(location)[0m[1B[1G# options.keyEncoding and options.valueEncoding are passed on to encoding-down[K
-  ok [1m[32m142[0m keyEncoding correct[K  ok [1m[32m143[0m valueEncoding correct[K[1A[1G[1m[32m✓ options.keyEncoding and options.valueEncoding are passed on to encoding-down[0m[1B[1G# encoding options default to utf8[K
-  ok [1m[32m144[0m keyEncoding correct[K  ok [1m[32m145[0m valueEncoding correct[K[1A[1G[1m[32m✓ encoding options default to utf8[0m[1B[1G# test db values[K
-  ok [1m[32m146[0m no error[K  ok [1m[32m147[0m no error[K  ok [1m[32m148[0m should be strictly equal[K  ok [1m[32m149[0m no error[K  ok [1m[32m150[0m should be strictly equal[K  ok [1m[32m151[0m no error[K  ok [1m[32m152[0m should be strictly equal[K[1A[1G[1m[32m✓ test db values[0m[1B[1G# test db open and use, level(location, options, cb) force error[K
-  ok [1m[32m153[0m got error opening existing db[K  ok [1m[32m154[0m no db[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb) force error[0m[1B[1G# test repair[K
-  ok [1m[32m155[0m no error[K[1A[1G[1m[32m✓ test repair[0m[1B[1G# test destroy[K
-  ok [1m[32m156[0m sanity check, directory exists[K  ok [1m[32m157[0m sanity check, CURRENT exists[K  ok [1m[32m158[0m no error[K  ok [1m[32m159[0m db gone (mostly)[K[1A[1G[1m[32m✓ test destroy[0m[1B[1G# test db open and use, level(location, cb)[K
-  ok [1m[32m160[0m no error[K  ok [1m[32m161[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, cb)[0m[1B[1G# test db open and use, level(location, options, cb)[K
-  ok [1m[32m162[0m no error[K  ok [1m[32m163[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb)[0m[1B[1G# test db open and use, db=level(location)[K
-  ok [1m[32m164[0m no error[K[1A[1G[1m[32m✓ test db open and use, db=level(location)[0m[1B[1G# options.keyEncoding and options.valueEncoding are passed on to encoding-down[K
-  ok [1m[32m165[0m keyEncoding correct[K  ok [1m[32m166[0m valueEncoding correct[K[1A[1G[1m[32m✓ options.keyEncoding and options.valueEncoding are passed on to encoding-down[0m[1B[1G# encoding options default to utf8[K
-  ok [1m[32m167[0m keyEncoding correct[K  ok [1m[32m168[0m valueEncoding correct[K[1A[1G[1m[32m✓ encoding options default to utf8[0m[1B[1G# test db values[K
-  ok [1m[32m169[0m no error[K  ok [1m[32m170[0m no error[K  ok [1m[32m171[0m should be strictly equal[K  ok [1m[32m172[0m no error[K  ok [1m[32m173[0m should be strictly equal[K  ok [1m[32m174[0m no error[K  ok [1m[32m175[0m should be strictly equal[K[1A[1G[1m[32m✓ test db values[0m[1B[1G# tests 175[K
-tests 175# pass  175[K
-pass  175# ok[K
-[1A[1G[1m[32m✓ ok[0m[1B[1G-------------|---------|----------|---------|---------|-------------------
-File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
--------------|---------|----------|---------|---------|-------------------
-All files    |     100 |      100 |     100 |     100 |                   
- index.js    |     100 |      100 |     100 |     100 |                   
- location.js |     100 |      100 |     100 |     100 |                   
--------------|---------|----------|---------|---------|-------------------
-************* run test done *************
-level-test is testing ./Variants/memdown/variant1/memdown
-/data/js-variants/multee
-************* npm unlink module *************
-
-removed 1 package, and audited 1081 packages in 3s
-
-203 packages are looking for funding
-  run `npm fund` for details
-
-12 vulnerabilities (3 moderate, 8 high, 1 critical)
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 1s
-
-found 0 vulnerabilities
-************* npm unlink globally done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 390ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 1083 packages in 3s
-
-203 packages are looking for funding
-  run `npm fund` for details
-
-12 vulnerabilities (3 moderate, 8 high, 1 critical)
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> level-test@9.0.0 test
-> standard && hallmark && (nyc -s node test/node.js | faucet) && nyc report
-
-# without arguments[K
-  ok [1m[32m1[0m got expected down[K  ok [1m[32m2[0m undefined[K  ok [1m[32m3[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m4[0m null[K  ok [1m[32m5[0m should be truthy[K  ok [1m[32m6[0m got expected down[K  ok [1m[32m7[0m should be falsy[K  ok [1m[32m8[0m null[K  ok [1m[32m9[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m10[0m got expected down[K  ok [1m[32m11[0m should be falsy[K  ok [1m[32m12[0m null[K  ok [1m[32m13[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m14[0m null[K  ok [1m[32m15[0m should be truthy[K  ok [1m[32m16[0m got expected down[K  ok [1m[32m17[0m should be falsy[K  ok [1m[32m18[0m null[K  ok [1m[32m19[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m20[0m got expected down[K  ok [1m[32m21[0m undefined[K  ok [1m[32m22[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m23[0m null[K  ok [1m[32m24[0m should be truthy[K  ok [1m[32m25[0m got expected down[K  ok [1m[32m26[0m should be falsy[K  ok [1m[32m27[0m null[K  ok [1m[32m28[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m29[0m got expected down[K  ok [1m[32m30[0m should be falsy[K  ok [1m[32m31[0m null[K  ok [1m[32m32[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m33[0m null[K  ok [1m[32m34[0m should be truthy[K  ok [1m[32m35[0m got expected down[K  ok [1m[32m36[0m should be falsy[K  ok [1m[32m37[0m null[K  ok [1m[32m38[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m39[0m got expected down[K  ok [1m[32m40[0m undefined[K  ok [1m[32m41[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m42[0m null[K  ok [1m[32m43[0m should be truthy[K  ok [1m[32m44[0m got expected down[K  ok [1m[32m45[0m should be falsy[K  ok [1m[32m46[0m null[K  ok [1m[32m47[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m48[0m got expected down[K  ok [1m[32m49[0m should be falsy[K  ok [1m[32m50[0m null[K  ok [1m[32m51[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m52[0m null[K  ok [1m[32m53[0m should be truthy[K  ok [1m[32m54[0m got expected down[K  ok [1m[32m55[0m should be falsy[K  ok [1m[32m56[0m null[K  ok [1m[32m57[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m58[0m got expected down[K  ok [1m[32m59[0m undefined[K  ok [1m[32m60[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m61[0m null[K  ok [1m[32m62[0m should be truthy[K  ok [1m[32m63[0m got expected down[K  ok [1m[32m64[0m should be falsy[K  ok [1m[32m65[0m null[K  ok [1m[32m66[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m67[0m got expected down[K  ok [1m[32m68[0m should be falsy[K  ok [1m[32m69[0m null[K  ok [1m[32m70[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m71[0m null[K  ok [1m[32m72[0m should be truthy[K  ok [1m[32m73[0m got expected down[K  ok [1m[32m74[0m should be falsy[K  ok [1m[32m75[0m null[K  ok [1m[32m76[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m77[0m null[K  ok [1m[32m78[0m got db[K  ok [1m[32m79[0m got expected down[K  ok [1m[32m80[0m got expected up[K  ok [1m[32m81[0m should be falsy[K  ok [1m[32m82[0m null[K  ok [1m[32m83[0m should be strictly equal[K  ok [1m[32m84[0m null[K  ok [1m[32m85[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m86[0m null[K  ok [1m[32m87[0m got db[K  ok [1m[32m88[0m got expected down[K  ok [1m[32m89[0m got expected up[K  ok [1m[32m90[0m should be falsy[K  ok [1m[32m91[0m null[K  ok [1m[32m92[0m should be strictly equal[K  ok [1m[32m93[0m null[K  ok [1m[32m94[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m95[0m null[K  ok [1m[32m96[0m got db[K  ok [1m[32m97[0m got expected down[K  ok [1m[32m98[0m got expected up[K  ok [1m[32m99[0m should be falsy[K  ok [1m[32m100[0m null[K  ok [1m[32m101[0m should be strictly equal[K  ok [1m[32m102[0m null[K  ok [1m[32m103[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m104[0m null[K  ok [1m[32m105[0m got db[K  ok [1m[32m106[0m got expected down[K  ok [1m[32m107[0m got expected up[K  ok [1m[32m108[0m should be falsy[K  ok [1m[32m109[0m null[K  ok [1m[32m110[0m should be strictly equal[K  ok [1m[32m111[0m null[K  ok [1m[32m112[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m113[0m null[K  ok [1m[32m114[0m got db[K  ok [1m[32m115[0m got expected down[K  ok [1m[32m116[0m got expected up[K  ok [1m[32m117[0m should be falsy[K  ok [1m[32m118[0m null[K  ok [1m[32m119[0m should be strictly equal[K  ok [1m[32m120[0m null[K  ok [1m[32m121[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m122[0m null[K  ok [1m[32m123[0m got db[K  ok [1m[32m124[0m got expected down[K  ok [1m[32m125[0m got expected up[K  ok [1m[32m126[0m should be falsy[K  ok [1m[32m127[0m null[K  ok [1m[32m128[0m should be strictly equal[K  ok [1m[32m129[0m null[K  ok [1m[32m130[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# opts precedence[K
-  ok [1m[32m131[0m undefined[K  ok [1m[32m132[0m null[K  ok [1m[32m133[0m should be strictly equal[K  ok [1m[32m134[0m undefined[K  ok [1m[32m135[0m null[K  ok [1m[32m136[0m should be deeply equivalent[K[1A[1G[1m[32m✓ opts precedence[0m[1B[1G# test db open and use, level(location, cb)[K
-  ok [1m[32m137[0m no error[K  ok [1m[32m138[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, cb)[0m[1B[1G# test db open and use, level(location, options, cb)[K
-  ok [1m[32m139[0m no error[K  ok [1m[32m140[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb)[0m[1B[1G# test db open and use, db=level(location)[K
-  ok [1m[32m141[0m no error[K[1A[1G[1m[32m✓ test db open and use, db=level(location)[0m[1B[1G# options.keyEncoding and options.valueEncoding are passed on to encoding-down[K
-  ok [1m[32m142[0m keyEncoding correct[K  ok [1m[32m143[0m valueEncoding correct[K[1A[1G[1m[32m✓ options.keyEncoding and options.valueEncoding are passed on to encoding-down[0m[1B[1G# encoding options default to utf8[K
-  ok [1m[32m144[0m keyEncoding correct[K  ok [1m[32m145[0m valueEncoding correct[K[1A[1G[1m[32m✓ encoding options default to utf8[0m[1B[1G# test db values[K
-  ok [1m[32m146[0m no error[K  ok [1m[32m147[0m no error[K  ok [1m[32m148[0m should be strictly equal[K  ok [1m[32m149[0m no error[K  ok [1m[32m150[0m should be strictly equal[K  ok [1m[32m151[0m no error[K  ok [1m[32m152[0m should be strictly equal[K[1A[1G[1m[32m✓ test db values[0m[1B[1G# test db open and use, level(location, options, cb) force error[K
-  ok [1m[32m153[0m got error opening existing db[K  ok [1m[32m154[0m no db[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb) force error[0m[1B[1G# test repair[K
-  ok [1m[32m155[0m no error[K[1A[1G[1m[32m✓ test repair[0m[1B[1G# test destroy[K
-  ok [1m[32m156[0m sanity check, directory exists[K  ok [1m[32m157[0m sanity check, CURRENT exists[K  ok [1m[32m158[0m no error[K  ok [1m[32m159[0m db gone (mostly)[K[1A[1G[1m[32m✓ test destroy[0m[1B[1G# test db open and use, level(location, cb)[K
-  ok [1m[32m160[0m no error[K  ok [1m[32m161[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, cb)[0m[1B[1G# test db open and use, level(location, options, cb)[K
-  ok [1m[32m162[0m no error[K  ok [1m[32m163[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb)[0m[1B[1G# test db open and use, db=level(location)[K
-  ok [1m[32m164[0m no error[K[1A[1G[1m[32m✓ test db open and use, db=level(location)[0m[1B[1G# options.keyEncoding and options.valueEncoding are passed on to encoding-down[K
-  ok [1m[32m165[0m keyEncoding correct[K  ok [1m[32m166[0m valueEncoding correct[K[1A[1G[1m[32m✓ options.keyEncoding and options.valueEncoding are passed on to encoding-down[0m[1B[1G# encoding options default to utf8[K
-  ok [1m[32m167[0m keyEncoding correct[K  ok [1m[32m168[0m valueEncoding correct[K[1A[1G[1m[32m✓ encoding options default to utf8[0m[1B[1G# test db values[K
-  ok [1m[32m169[0m no error[K  ok [1m[32m170[0m no error[K  ok [1m[32m171[0m should be strictly equal[K  ok [1m[32m172[0m no error[K  ok [1m[32m173[0m should be strictly equal[K  ok [1m[32m174[0m no error[K  ok [1m[32m175[0m should be strictly equal[K[1A[1G[1m[32m✓ test db values[0m[1B[1G# tests 175[K
-tests 175# pass  175[K
-pass  175# ok[K
-[1A[1G[1m[32m✓ ok[0m[1B[1G-------------|---------|----------|---------|---------|-------------------
-File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
--------------|---------|----------|---------|---------|-------------------
-All files    |     100 |      100 |     100 |     100 |                   
- index.js    |     100 |      100 |     100 |     100 |                   
- location.js |     100 |      100 |     100 |     100 |                   
--------------|---------|----------|---------|---------|-------------------
-************* run test done *************
-variantsDepsNum: 3
-/data/js-variants/multee
-3
-level-test is testing ./VariantsDeps/memdown/variant3/memdown
-************* npm unlink module *************
-
-removed 1 package, and audited 1081 packages in 3s
-
-203 packages are looking for funding
-  run `npm fund` for details
-
-12 vulnerabilities (3 moderate, 8 high, 1 critical)
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 1s
-
-found 0 vulnerabilities
-************* npm unlink module done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 410ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 1083 packages in 3s
-
-203 packages are looking for funding
-  run `npm fund` for details
-
-12 vulnerabilities (3 moderate, 8 high, 1 critical)
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> level-test@9.0.0 test
-> standard && hallmark && (nyc -s node test/node.js | faucet) && nyc report
-
-# without arguments[K
-  ok [1m[32m1[0m got expected down[K  ok [1m[32m2[0m undefined[K  ok [1m[32m3[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m4[0m null[K  ok [1m[32m5[0m should be truthy[K  ok [1m[32m6[0m got expected down[K  ok [1m[32m7[0m should be falsy[K  ok [1m[32m8[0m null[K  ok [1m[32m9[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m10[0m got expected down[K  ok [1m[32m11[0m should be falsy[K  ok [1m[32m12[0m null[K  ok [1m[32m13[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m14[0m null[K  ok [1m[32m15[0m should be truthy[K  ok [1m[32m16[0m got expected down[K  ok [1m[32m17[0m should be falsy[K  ok [1m[32m18[0m null[K  ok [1m[32m19[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m20[0m got expected down[K  ok [1m[32m21[0m undefined[K  ok [1m[32m22[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m23[0m null[K  ok [1m[32m24[0m should be truthy[K  ok [1m[32m25[0m got expected down[K  ok [1m[32m26[0m should be falsy[K  ok [1m[32m27[0m null[K  ok [1m[32m28[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m29[0m got expected down[K  ok [1m[32m30[0m should be falsy[K  ok [1m[32m31[0m null[K  ok [1m[32m32[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m33[0m null[K  ok [1m[32m34[0m should be truthy[K  ok [1m[32m35[0m got expected down[K  ok [1m[32m36[0m should be falsy[K  ok [1m[32m37[0m null[K  ok [1m[32m38[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m39[0m got expected down[K  ok [1m[32m40[0m undefined[K  ok [1m[32m41[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m42[0m null[K  ok [1m[32m43[0m should be truthy[K  ok [1m[32m44[0m got expected down[K  ok [1m[32m45[0m should be falsy[K  ok [1m[32m46[0m null[K  ok [1m[32m47[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m48[0m got expected down[K  ok [1m[32m49[0m should be falsy[K  ok [1m[32m50[0m null[K  ok [1m[32m51[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m52[0m null[K  ok [1m[32m53[0m should be truthy[K  ok [1m[32m54[0m got expected down[K  ok [1m[32m55[0m should be falsy[K  ok [1m[32m56[0m null[K  ok [1m[32m57[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m58[0m got expected down[K  ok [1m[32m59[0m undefined[K  ok [1m[32m60[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m61[0m null[K  ok [1m[32m62[0m should be truthy[K  ok [1m[32m63[0m got expected down[K  ok [1m[32m64[0m should be falsy[K  ok [1m[32m65[0m null[K  ok [1m[32m66[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m67[0m got expected down[K  ok [1m[32m68[0m should be falsy[K  ok [1m[32m69[0m null[K  ok [1m[32m70[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m71[0m null[K  ok [1m[32m72[0m should be truthy[K  ok [1m[32m73[0m got expected down[K  ok [1m[32m74[0m should be falsy[K  ok [1m[32m75[0m null[K  ok [1m[32m76[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m77[0m null[K  ok [1m[32m78[0m got db[K  ok [1m[32m79[0m got expected down[K  ok [1m[32m80[0m got expected up[K  ok [1m[32m81[0m should be falsy[K  ok [1m[32m82[0m null[K  ok [1m[32m83[0m should be strictly equal[K  ok [1m[32m84[0m null[K  ok [1m[32m85[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m86[0m null[K  ok [1m[32m87[0m got db[K  ok [1m[32m88[0m got expected down[K  ok [1m[32m89[0m got expected up[K  ok [1m[32m90[0m should be falsy[K  ok [1m[32m91[0m null[K  ok [1m[32m92[0m should be strictly equal[K  ok [1m[32m93[0m null[K  ok [1m[32m94[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m95[0m null[K  ok [1m[32m96[0m got db[K  ok [1m[32m97[0m got expected down[K  ok [1m[32m98[0m got expected up[K  ok [1m[32m99[0m should be falsy[K  ok [1m[32m100[0m null[K  ok [1m[32m101[0m should be strictly equal[K  ok [1m[32m102[0m null[K  ok [1m[32m103[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m104[0m null[K  ok [1m[32m105[0m got db[K  ok [1m[32m106[0m got expected down[K  ok [1m[32m107[0m got expected up[K  ok [1m[32m108[0m should be falsy[K  ok [1m[32m109[0m null[K  ok [1m[32m110[0m should be strictly equal[K  ok [1m[32m111[0m null[K  ok [1m[32m112[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m113[0m null[K  ok [1m[32m114[0m got db[K  ok [1m[32m115[0m got expected down[K  ok [1m[32m116[0m got expected up[K  ok [1m[32m117[0m should be falsy[K  ok [1m[32m118[0m null[K  ok [1m[32m119[0m should be strictly equal[K  ok [1m[32m120[0m null[K  ok [1m[32m121[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m122[0m null[K  ok [1m[32m123[0m got db[K  ok [1m[32m124[0m got expected down[K  ok [1m[32m125[0m got expected up[K  ok [1m[32m126[0m should be falsy[K  ok [1m[32m127[0m null[K  ok [1m[32m128[0m should be strictly equal[K  ok [1m[32m129[0m null[K  ok [1m[32m130[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# opts precedence[K
-  ok [1m[32m131[0m undefined[K  ok [1m[32m132[0m null[K  ok [1m[32m133[0m should be strictly equal[K  ok [1m[32m134[0m undefined[K  ok [1m[32m135[0m null[K  ok [1m[32m136[0m should be deeply equivalent[K[1A[1G[1m[32m✓ opts precedence[0m[1B[1G# test db open and use, level(location, cb)[K
-  ok [1m[32m137[0m no error[K  ok [1m[32m138[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, cb)[0m[1B[1G# test db open and use, level(location, options, cb)[K
-  ok [1m[32m139[0m no error[K  ok [1m[32m140[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb)[0m[1B[1G# test db open and use, db=level(location)[K
-  ok [1m[32m141[0m no error[K[1A[1G[1m[32m✓ test db open and use, db=level(location)[0m[1B[1G# options.keyEncoding and options.valueEncoding are passed on to encoding-down[K
-  ok [1m[32m142[0m keyEncoding correct[K  ok [1m[32m143[0m valueEncoding correct[K[1A[1G[1m[32m✓ options.keyEncoding and options.valueEncoding are passed on to encoding-down[0m[1B[1G# encoding options default to utf8[K
-  ok [1m[32m144[0m keyEncoding correct[K  ok [1m[32m145[0m valueEncoding correct[K[1A[1G[1m[32m✓ encoding options default to utf8[0m[1B[1G# test db values[K
-  ok [1m[32m146[0m no error[K  ok [1m[32m147[0m no error[K  ok [1m[32m148[0m should be strictly equal[K  ok [1m[32m149[0m no error[K  ok [1m[32m150[0m should be strictly equal[K  ok [1m[32m151[0m no error[K  ok [1m[32m152[0m should be strictly equal[K[1A[1G[1m[32m✓ test db values[0m[1B[1G# test db open and use, level(location, options, cb) force error[K
-  ok [1m[32m153[0m got error opening existing db[K  ok [1m[32m154[0m no db[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb) force error[0m[1B[1G# test repair[K
-  ok [1m[32m155[0m no error[K[1A[1G[1m[32m✓ test repair[0m[1B[1G# test destroy[K
-  ok [1m[32m156[0m sanity check, directory exists[K  ok [1m[32m157[0m sanity check, CURRENT exists[K  ok [1m[32m158[0m no error[K  ok [1m[32m159[0m db gone (mostly)[K[1A[1G[1m[32m✓ test destroy[0m[1B[1G# test db open and use, level(location, cb)[K
-  ok [1m[32m160[0m no error[K  ok [1m[32m161[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, cb)[0m[1B[1G# test db open and use, level(location, options, cb)[K
-  ok [1m[32m162[0m no error[K  ok [1m[32m163[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb)[0m[1B[1G# test db open and use, db=level(location)[K
-  ok [1m[32m164[0m no error[K[1A[1G[1m[32m✓ test db open and use, db=level(location)[0m[1B[1G# options.keyEncoding and options.valueEncoding are passed on to encoding-down[K
-  ok [1m[32m165[0m keyEncoding correct[K  ok [1m[32m166[0m valueEncoding correct[K[1A[1G[1m[32m✓ options.keyEncoding and options.valueEncoding are passed on to encoding-down[0m[1B[1G# encoding options default to utf8[K
-  ok [1m[32m167[0m keyEncoding correct[K  ok [1m[32m168[0m valueEncoding correct[K[1A[1G[1m[32m✓ encoding options default to utf8[0m[1B[1G# test db values[K
-  ok [1m[32m169[0m no error[K  ok [1m[32m170[0m no error[K  ok [1m[32m171[0m should be strictly equal[K  ok [1m[32m172[0m no error[K  ok [1m[32m173[0m should be strictly equal[K  ok [1m[32m174[0m no error[K  ok [1m[32m175[0m should be strictly equal[K[1A[1G[1m[32m✓ test db values[0m[1B[1G# tests 175[K
-tests 175# pass  175[K
-pass  175# ok[K
-[1A[1G[1m[32m✓ ok[0m[1B[1G-------------|---------|----------|---------|---------|-------------------
-File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
--------------|---------|----------|---------|---------|-------------------
-All files    |     100 |      100 |     100 |     100 |                   
- index.js    |     100 |      100 |     100 |     100 |                   
- location.js |     100 |      100 |     100 |     100 |                   
--------------|---------|----------|---------|---------|-------------------
-************* run test done *************
-level-test is testing ./VariantsDeps/memdown/variant2/memdown
-************* npm unlink module *************
-
-removed 1 package, and audited 1081 packages in 3s
-
-203 packages are looking for funding
-  run `npm fund` for details
-
-12 vulnerabilities (3 moderate, 8 high, 1 critical)
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 1s
-
-found 0 vulnerabilities
-************* npm unlink module done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 392ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 1083 packages in 3s
-
-203 packages are looking for funding
-  run `npm fund` for details
-
-12 vulnerabilities (3 moderate, 8 high, 1 critical)
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> level-test@9.0.0 test
-> standard && hallmark && (nyc -s node test/node.js | faucet) && nyc report
-
-# without arguments[K
-  ok [1m[32m1[0m got expected down[K  ok [1m[32m2[0m undefined[K  ok [1m[32m3[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m4[0m null[K  ok [1m[32m5[0m should be truthy[K  ok [1m[32m6[0m got expected down[K  ok [1m[32m7[0m should be falsy[K  ok [1m[32m8[0m null[K  ok [1m[32m9[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m10[0m got expected down[K  ok [1m[32m11[0m should be falsy[K  ok [1m[32m12[0m null[K  ok [1m[32m13[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m14[0m null[K  ok [1m[32m15[0m should be truthy[K  ok [1m[32m16[0m got expected down[K  ok [1m[32m17[0m should be falsy[K  ok [1m[32m18[0m null[K  ok [1m[32m19[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m20[0m got expected down[K  ok [1m[32m21[0m undefined[K  ok [1m[32m22[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m23[0m null[K  ok [1m[32m24[0m should be truthy[K  ok [1m[32m25[0m got expected down[K  ok [1m[32m26[0m should be falsy[K  ok [1m[32m27[0m null[K  ok [1m[32m28[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m29[0m got expected down[K  ok [1m[32m30[0m should be falsy[K  ok [1m[32m31[0m null[K  ok [1m[32m32[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m33[0m null[K  ok [1m[32m34[0m should be truthy[K  ok [1m[32m35[0m got expected down[K  ok [1m[32m36[0m should be falsy[K  ok [1m[32m37[0m null[K  ok [1m[32m38[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m39[0m got expected down[K  ok [1m[32m40[0m undefined[K  ok [1m[32m41[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m42[0m null[K  ok [1m[32m43[0m should be truthy[K  ok [1m[32m44[0m got expected down[K  ok [1m[32m45[0m should be falsy[K  ok [1m[32m46[0m null[K  ok [1m[32m47[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m48[0m got expected down[K  ok [1m[32m49[0m should be falsy[K  ok [1m[32m50[0m null[K  ok [1m[32m51[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m52[0m null[K  ok [1m[32m53[0m should be truthy[K  ok [1m[32m54[0m got expected down[K  ok [1m[32m55[0m should be falsy[K  ok [1m[32m56[0m null[K  ok [1m[32m57[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m58[0m got expected down[K  ok [1m[32m59[0m undefined[K  ok [1m[32m60[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m61[0m null[K  ok [1m[32m62[0m should be truthy[K  ok [1m[32m63[0m got expected down[K  ok [1m[32m64[0m should be falsy[K  ok [1m[32m65[0m null[K  ok [1m[32m66[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m67[0m got expected down[K  ok [1m[32m68[0m should be falsy[K  ok [1m[32m69[0m null[K  ok [1m[32m70[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m71[0m null[K  ok [1m[32m72[0m should be truthy[K  ok [1m[32m73[0m got expected down[K  ok [1m[32m74[0m should be falsy[K  ok [1m[32m75[0m null[K  ok [1m[32m76[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m77[0m null[K  ok [1m[32m78[0m got db[K  ok [1m[32m79[0m got expected down[K  ok [1m[32m80[0m got expected up[K  ok [1m[32m81[0m should be falsy[K  ok [1m[32m82[0m null[K  ok [1m[32m83[0m should be strictly equal[K  ok [1m[32m84[0m null[K  ok [1m[32m85[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m86[0m null[K  ok [1m[32m87[0m got db[K  ok [1m[32m88[0m got expected down[K  ok [1m[32m89[0m got expected up[K  ok [1m[32m90[0m should be falsy[K  ok [1m[32m91[0m null[K  ok [1m[32m92[0m should be strictly equal[K  ok [1m[32m93[0m null[K  ok [1m[32m94[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m95[0m null[K  ok [1m[32m96[0m got db[K  ok [1m[32m97[0m got expected down[K  ok [1m[32m98[0m got expected up[K  ok [1m[32m99[0m should be falsy[K  ok [1m[32m100[0m null[K  ok [1m[32m101[0m should be strictly equal[K  ok [1m[32m102[0m null[K  ok [1m[32m103[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m104[0m null[K  ok [1m[32m105[0m got db[K  ok [1m[32m106[0m got expected down[K  ok [1m[32m107[0m got expected up[K  ok [1m[32m108[0m should be falsy[K  ok [1m[32m109[0m null[K  ok [1m[32m110[0m should be strictly equal[K  ok [1m[32m111[0m null[K  ok [1m[32m112[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m113[0m null[K  ok [1m[32m114[0m got db[K  ok [1m[32m115[0m got expected down[K  ok [1m[32m116[0m got expected up[K  ok [1m[32m117[0m should be falsy[K  ok [1m[32m118[0m null[K  ok [1m[32m119[0m should be strictly equal[K  ok [1m[32m120[0m null[K  ok [1m[32m121[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m122[0m null[K  ok [1m[32m123[0m got db[K  ok [1m[32m124[0m got expected down[K  ok [1m[32m125[0m got expected up[K  ok [1m[32m126[0m should be falsy[K  ok [1m[32m127[0m null[K  ok [1m[32m128[0m should be strictly equal[K  ok [1m[32m129[0m null[K  ok [1m[32m130[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# opts precedence[K
-  ok [1m[32m131[0m undefined[K  ok [1m[32m132[0m null[K  ok [1m[32m133[0m should be strictly equal[K  ok [1m[32m134[0m undefined[K  ok [1m[32m135[0m null[K  ok [1m[32m136[0m should be deeply equivalent[K[1A[1G[1m[32m✓ opts precedence[0m[1B[1G# test db open and use, level(location, cb)[K
-  ok [1m[32m137[0m no error[K  ok [1m[32m138[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, cb)[0m[1B[1G# test db open and use, level(location, options, cb)[K
-  ok [1m[32m139[0m no error[K  ok [1m[32m140[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb)[0m[1B[1G# test db open and use, db=level(location)[K
-  ok [1m[32m141[0m no error[K[1A[1G[1m[32m✓ test db open and use, db=level(location)[0m[1B[1G# options.keyEncoding and options.valueEncoding are passed on to encoding-down[K
-  ok [1m[32m142[0m keyEncoding correct[K  ok [1m[32m143[0m valueEncoding correct[K[1A[1G[1m[32m✓ options.keyEncoding and options.valueEncoding are passed on to encoding-down[0m[1B[1G# encoding options default to utf8[K
-  ok [1m[32m144[0m keyEncoding correct[K  ok [1m[32m145[0m valueEncoding correct[K[1A[1G[1m[32m✓ encoding options default to utf8[0m[1B[1G# test db values[K
-  ok [1m[32m146[0m no error[K  ok [1m[32m147[0m no error[K  ok [1m[32m148[0m should be strictly equal[K  ok [1m[32m149[0m no error[K  ok [1m[32m150[0m should be strictly equal[K  ok [1m[32m151[0m no error[K  ok [1m[32m152[0m should be strictly equal[K[1A[1G[1m[32m✓ test db values[0m[1B[1G# test db open and use, level(location, options, cb) force error[K
-  ok [1m[32m153[0m got error opening existing db[K  ok [1m[32m154[0m no db[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb) force error[0m[1B[1G# test repair[K
-  ok [1m[32m155[0m no error[K[1A[1G[1m[32m✓ test repair[0m[1B[1G# test destroy[K
-  ok [1m[32m156[0m sanity check, directory exists[K  ok [1m[32m157[0m sanity check, CURRENT exists[K  ok [1m[32m158[0m no error[K  ok [1m[32m159[0m db gone (mostly)[K[1A[1G[1m[32m✓ test destroy[0m[1B[1G# test db open and use, level(location, cb)[K
-  ok [1m[32m160[0m no error[K  ok [1m[32m161[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, cb)[0m[1B[1G# test db open and use, level(location, options, cb)[K
-  ok [1m[32m162[0m no error[K  ok [1m[32m163[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb)[0m[1B[1G# test db open and use, db=level(location)[K
-  ok [1m[32m164[0m no error[K[1A[1G[1m[32m✓ test db open and use, db=level(location)[0m[1B[1G# options.keyEncoding and options.valueEncoding are passed on to encoding-down[K
-  ok [1m[32m165[0m keyEncoding correct[K  ok [1m[32m166[0m valueEncoding correct[K[1A[1G[1m[32m✓ options.keyEncoding and options.valueEncoding are passed on to encoding-down[0m[1B[1G# encoding options default to utf8[K
-  ok [1m[32m167[0m keyEncoding correct[K  ok [1m[32m168[0m valueEncoding correct[K[1A[1G[1m[32m✓ encoding options default to utf8[0m[1B[1G# test db values[K
-  ok [1m[32m169[0m no error[K  ok [1m[32m170[0m no error[K  ok [1m[32m171[0m should be strictly equal[K  ok [1m[32m172[0m no error[K  ok [1m[32m173[0m should be strictly equal[K  ok [1m[32m174[0m no error[K  ok [1m[32m175[0m should be strictly equal[K[1A[1G[1m[32m✓ test db values[0m[1B[1G# tests 175[K
-tests 175# pass  175[K
-pass  175# ok[K
-[1A[1G[1m[32m✓ ok[0m[1B[1G-------------|---------|----------|---------|---------|-------------------
-File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
--------------|---------|----------|---------|---------|-------------------
-All files    |     100 |      100 |     100 |     100 |                   
- index.js    |     100 |      100 |     100 |     100 |                   
- location.js |     100 |      100 |     100 |     100 |                   
--------------|---------|----------|---------|---------|-------------------
-************* run test done *************
-level-test is testing ./VariantsDeps/memdown/variant1/memdown
-************* npm unlink module *************
-
-removed 1 package, and audited 1081 packages in 3s
-
-203 packages are looking for funding
-  run `npm fund` for details
-
-12 vulnerabilities (3 moderate, 8 high, 1 critical)
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm unlink module done *************
-************* npm unlink globally *************
-
-removed 1 package, and audited 1 package in 1s
-
-found 0 vulnerabilities
-************* npm unlink module done *************
-************* npm link globally *************
-
-added 1 package, and audited 3 packages in 385ms
-
-found 0 vulnerabilities
-************* npm link globally done *************
-************* npm link module *************
-
-added 1 package, and audited 1083 packages in 3s
-
-203 packages are looking for funding
-  run `npm fund` for details
-
-12 vulnerabilities (3 moderate, 8 high, 1 critical)
-
-To address all issues possible (including breaking changes), run:
-  npm audit fix --force
-
-Some issues need review, and may require choosing
-a different dependency.
-
-Run `npm audit` for details.
-************* npm link module done *************
-************* start run test *************
-
-> level-test@9.0.0 test
-> standard && hallmark && (nyc -s node test/node.js | faucet) && nyc report
-
-# without arguments[K
-  ok [1m[32m1[0m got expected down[K  ok [1m[32m2[0m undefined[K  ok [1m[32m3[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m4[0m null[K  ok [1m[32m5[0m should be truthy[K  ok [1m[32m6[0m got expected down[K  ok [1m[32m7[0m should be falsy[K  ok [1m[32m8[0m null[K  ok [1m[32m9[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m10[0m got expected down[K  ok [1m[32m11[0m should be falsy[K  ok [1m[32m12[0m null[K  ok [1m[32m13[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m14[0m null[K  ok [1m[32m15[0m should be truthy[K  ok [1m[32m16[0m got expected down[K  ok [1m[32m17[0m should be falsy[K  ok [1m[32m18[0m null[K  ok [1m[32m19[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m20[0m got expected down[K  ok [1m[32m21[0m undefined[K  ok [1m[32m22[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m23[0m null[K  ok [1m[32m24[0m should be truthy[K  ok [1m[32m25[0m got expected down[K  ok [1m[32m26[0m should be falsy[K  ok [1m[32m27[0m null[K  ok [1m[32m28[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m29[0m got expected down[K  ok [1m[32m30[0m should be falsy[K  ok [1m[32m31[0m null[K  ok [1m[32m32[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m33[0m null[K  ok [1m[32m34[0m should be truthy[K  ok [1m[32m35[0m got expected down[K  ok [1m[32m36[0m should be falsy[K  ok [1m[32m37[0m null[K  ok [1m[32m38[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m39[0m got expected down[K  ok [1m[32m40[0m undefined[K  ok [1m[32m41[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m42[0m null[K  ok [1m[32m43[0m should be truthy[K  ok [1m[32m44[0m got expected down[K  ok [1m[32m45[0m should be falsy[K  ok [1m[32m46[0m null[K  ok [1m[32m47[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m48[0m got expected down[K  ok [1m[32m49[0m should be falsy[K  ok [1m[32m50[0m null[K  ok [1m[32m51[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m52[0m null[K  ok [1m[32m53[0m should be truthy[K  ok [1m[32m54[0m got expected down[K  ok [1m[32m55[0m should be falsy[K  ok [1m[32m56[0m null[K  ok [1m[32m57[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# without arguments[K
-  ok [1m[32m58[0m got expected down[K  ok [1m[32m59[0m undefined[K  ok [1m[32m60[0m should be falsy[K[1A[1G[1m[32m✓ without arguments[0m[1B[1G# with options and callback[K
-  ok [1m[32m61[0m null[K  ok [1m[32m62[0m should be truthy[K  ok [1m[32m63[0m got expected down[K  ok [1m[32m64[0m should be falsy[K  ok [1m[32m65[0m null[K  ok [1m[32m66[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options and callback[0m[1B[1G# with options[K
-  ok [1m[32m67[0m got expected down[K  ok [1m[32m68[0m should be falsy[K  ok [1m[32m69[0m null[K  ok [1m[32m70[0m should be deeply equivalent[K[1A[1G[1m[32m✓ with options[0m[1B[1G# with callback[K
-  ok [1m[32m71[0m null[K  ok [1m[32m72[0m should be truthy[K  ok [1m[32m73[0m got expected down[K  ok [1m[32m74[0m should be falsy[K  ok [1m[32m75[0m null[K  ok [1m[32m76[0m should be strictly equal[K[1A[1G[1m[32m✓ with callback[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m77[0m null[K  ok [1m[32m78[0m got db[K  ok [1m[32m79[0m got expected down[K  ok [1m[32m80[0m got expected up[K  ok [1m[32m81[0m should be falsy[K  ok [1m[32m82[0m null[K  ok [1m[32m83[0m should be strictly equal[K  ok [1m[32m84[0m null[K  ok [1m[32m85[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m86[0m null[K  ok [1m[32m87[0m got db[K  ok [1m[32m88[0m got expected down[K  ok [1m[32m89[0m got expected up[K  ok [1m[32m90[0m should be falsy[K  ok [1m[32m91[0m null[K  ok [1m[32m92[0m should be strictly equal[K  ok [1m[32m93[0m null[K  ok [1m[32m94[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m95[0m null[K  ok [1m[32m96[0m got db[K  ok [1m[32m97[0m got expected down[K  ok [1m[32m98[0m got expected up[K  ok [1m[32m99[0m should be falsy[K  ok [1m[32m100[0m null[K  ok [1m[32m101[0m should be strictly equal[K  ok [1m[32m102[0m null[K  ok [1m[32m103[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m104[0m null[K  ok [1m[32m105[0m got db[K  ok [1m[32m106[0m got expected down[K  ok [1m[32m107[0m got expected up[K  ok [1m[32m108[0m should be falsy[K  ok [1m[32m109[0m null[K  ok [1m[32m110[0m should be strictly equal[K  ok [1m[32m111[0m null[K  ok [1m[32m112[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m113[0m null[K  ok [1m[32m114[0m got db[K  ok [1m[32m115[0m got expected down[K  ok [1m[32m116[0m got expected up[K  ok [1m[32m117[0m should be falsy[K  ok [1m[32m118[0m null[K  ok [1m[32m119[0m should be strictly equal[K  ok [1m[32m120[0m null[K  ok [1m[32m121[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# custom layers with auto-open[K
-  ok [1m[32m122[0m null[K  ok [1m[32m123[0m got db[K  ok [1m[32m124[0m got expected down[K  ok [1m[32m125[0m got expected up[K  ok [1m[32m126[0m should be falsy[K  ok [1m[32m127[0m null[K  ok [1m[32m128[0m should be strictly equal[K  ok [1m[32m129[0m null[K  ok [1m[32m130[0m should be strictly equal[K[1A[1G[1m[32m✓ custom layers with auto-open[0m[1B[1G# opts precedence[K
-  ok [1m[32m131[0m undefined[K  ok [1m[32m132[0m null[K  ok [1m[32m133[0m should be strictly equal[K  ok [1m[32m134[0m undefined[K  ok [1m[32m135[0m null[K  ok [1m[32m136[0m should be deeply equivalent[K[1A[1G[1m[32m✓ opts precedence[0m[1B[1G# test db open and use, level(location, cb)[K
-  ok [1m[32m137[0m no error[K  ok [1m[32m138[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, cb)[0m[1B[1G# test db open and use, level(location, options, cb)[K
-  ok [1m[32m139[0m no error[K  ok [1m[32m140[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb)[0m[1B[1G# test db open and use, db=level(location)[K
-  ok [1m[32m141[0m no error[K[1A[1G[1m[32m✓ test db open and use, db=level(location)[0m[1B[1G# options.keyEncoding and options.valueEncoding are passed on to encoding-down[K
-  ok [1m[32m142[0m keyEncoding correct[K  ok [1m[32m143[0m valueEncoding correct[K[1A[1G[1m[32m✓ options.keyEncoding and options.valueEncoding are passed on to encoding-down[0m[1B[1G# encoding options default to utf8[K
-  ok [1m[32m144[0m keyEncoding correct[K  ok [1m[32m145[0m valueEncoding correct[K[1A[1G[1m[32m✓ encoding options default to utf8[0m[1B[1G# test db values[K
-  ok [1m[32m146[0m no error[K  ok [1m[32m147[0m no error[K  ok [1m[32m148[0m should be strictly equal[K  ok [1m[32m149[0m no error[K  ok [1m[32m150[0m should be strictly equal[K  ok [1m[32m151[0m no error[K  ok [1m[32m152[0m should be strictly equal[K[1A[1G[1m[32m✓ test db values[0m[1B[1G# test db open and use, level(location, options, cb) force error[K
-  ok [1m[32m153[0m got error opening existing db[K  ok [1m[32m154[0m no db[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb) force error[0m[1B[1G# test repair[K
-  ok [1m[32m155[0m no error[K[1A[1G[1m[32m✓ test repair[0m[1B[1G# test destroy[K
-  ok [1m[32m156[0m sanity check, directory exists[K  ok [1m[32m157[0m sanity check, CURRENT exists[K  ok [1m[32m158[0m no error[K  ok [1m[32m159[0m db gone (mostly)[K[1A[1G[1m[32m✓ test destroy[0m[1B[1G# test db open and use, level(location, cb)[K
-  ok [1m[32m160[0m no error[K  ok [1m[32m161[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, cb)[0m[1B[1G# test db open and use, level(location, options, cb)[K
-  ok [1m[32m162[0m no error[K  ok [1m[32m163[0m no error[K[1A[1G[1m[32m✓ test db open and use, level(location, options, cb)[0m[1B[1G# test db open and use, db=level(location)[K
-  ok [1m[32m164[0m no error[K[1A[1G[1m[32m✓ test db open and use, db=level(location)[0m[1B[1G# options.keyEncoding and options.valueEncoding are passed on to encoding-down[K
-  ok [1m[32m165[0m keyEncoding correct[K  ok [1m[32m166[0m valueEncoding correct[K[1A[1G[1m[32m✓ options.keyEncoding and options.valueEncoding are passed on to encoding-down[0m[1B[1G# encoding options default to utf8[K
-  ok [1m[32m167[0m keyEncoding correct[K  ok [1m[32m168[0m valueEncoding correct[K[1A[1G[1m[32m✓ encoding options default to utf8[0m[1B[1G# test db values[K
-  ok [1m[32m169[0m no error[K  ok [1m[32m170[0m no error[K  ok [1m[32m171[0m should be strictly equal[K  ok [1m[32m172[0m no error[K  ok [1m[32m173[0m should be strictly equal[K  ok [1m[32m174[0m no error[K  ok [1m[32m175[0m should be strictly equal[K[1A[1G[1m[32m✓ test db values[0m[1B[1G# tests 175[K
-tests 175# pass  175[K
-pass  175# ok[K
-[1A[1G[1m[32m✓ ok[0m[1B[1G-------------|---------|----------|---------|---------|-------------------
-File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
--------------|---------|----------|---------|---------|-------------------
-All files    |     100 |      100 |     100 |     100 |                   
- index.js    |     100 |      100 |     100 |     100 |                   
- location.js |     100 |      100 |     100 |     100 |                   
--------------|---------|----------|---------|---------|-------------------
-************* run test done *************
