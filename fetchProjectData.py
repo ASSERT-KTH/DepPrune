@@ -65,15 +65,6 @@ class WebScraper(object):
 
             print(self.all_data)
 
-            # Storing the raw HTML data.
-            # for html in htmls:
-            #     if html is not None:
-            #         print(html)
-            #     else:
-            #         continue
-        # result = await loop.run_in_executor(None, blocking_func)
-        # return result
-
 
 loop = asyncio.get_event_loop()
 loop_result = loop.run_until_complete(WebScraper(urls=urls, loop=loop))
