@@ -1,6 +1,6 @@
 projectName=$1
 
-x=0
+x=$2
 
 # echo "remove direct dep before install"
 
@@ -10,7 +10,8 @@ cat $path | while read rows
 do
 echo $rows
 x=$(( x+1 ))
-mkdir ClientTempDir
+sudo mkdir ClientTempDir
+# sudo chmod 777 ClientTempDir
 cd ClientTempDir
 echo "I am client "$x", and I am git cloning...."$rows
 echo "I am client "$x", and I am git cloning...."$rows >> /dev/stderr
