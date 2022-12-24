@@ -14,7 +14,7 @@ divWithLinks = soup.find_all(
 with open('top271_300.txt', 'w') as f:
 
     for link in divWithLinks:
-        projectLink = link.find('a').get('href') + '\n\n\n'
+        projectLink = link.find('a').get('href') + '\n'
         f.write(projectLink)
     # hrefInLink = link.get('href')
 
