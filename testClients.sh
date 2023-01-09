@@ -11,7 +11,7 @@ do
 echo $rows
 x=$(( x+1 ))
 sudo mkdir ClientTempDir
-# sudo chmod 777 ClientTempDir
+sudo chmod 777 ClientTempDir
 cd ClientTempDir
 echo "I am client "$x", and I am git cloning...."$rows
 echo "I am client "$x", and I am git cloning...."$rows >> /dev/stderr
@@ -32,6 +32,6 @@ echo "I am runing test of "$dirs" after uninstall"
 echo "I am runing test of "$dirs" after uninstall" >> /dev/stderr
 timeout -k 10s 5m npm run test
 cd ../..
-rm -rf ClientTempDir
+sudo rm -rf ClientTempDir
 
 done

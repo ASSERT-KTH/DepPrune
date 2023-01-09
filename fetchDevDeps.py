@@ -22,7 +22,7 @@ with open("top100install.txt", "a") as myfile:
         if pres is not None:
             hasInfo = False
             for pre in pres:
-                if "npm install " in pre.get_text() and package in pre.get_text():
+                if "npm install " in pre.get_text() or "&nbsp;npm&nbsp;install" in pre.get_text() or "npm i" in pre.get_text() and package in pre.get_text():
                     installText = pre.get_text()
                     print(installText)
                     myfile.write(str(idx) + "," + package + "," + installText + "\n")

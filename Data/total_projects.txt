@@ -9,7 +9,7 @@ cannot collect coverage info via nyc
 13 deps, 80% coverage
 
 /npm/fs-extra
-3 deps, no coverage
+3 deps, 96.47% coverage
 
 /npm/axios
 2 deps, 94% coverage
@@ -24,22 +24,22 @@ cannot collect coverage info via nyc
 15 deps, 69% coverage
 
 /npm/standard
-8 deps, no coverage
+8 deps, --save-dev
 
 /npm/shelljs
 3 deps, 97% coverage
 
 /npm/ava
-45 deps, no coverage
+45 deps, no coverage, --save-dev
 
 /npm/body-parser
 12 deps❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️, 100% coverage
 
 /npm/jsdom
-27 deps, no coverage
+27 deps, no coverage, can not run npm i
 
 /npm/gulp-mocha
-6 deps, no coverage
+6 deps, no coverage, --save-dev
 
 /npm/yeoman-generator
 13 deps❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️, 94% coverage
@@ -60,19 +60,19 @@ cannot collect coverage info via nyc
 0 deps, no coverage
 
 /npm/gulp-autoprefixer
-6 deps, no coverage
+6 deps, no coverage, --save-dev
 
 /npm/morgan
 5 deps, 82% coverage
 
 /npm/globby
-5 deps, no coverage
+5 deps❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️, 100% coverage
 
 /npm/cookie-parser
 2 deps, 100% coverage
 
 /npm/resolve
-3 deps, 0 coverage
+3 deps, 98.48% coverage
 
 /npm/cors
 2 deps, 100% coverage
@@ -81,13 +81,13 @@ cannot collect coverage info via nyc
 npm itself
 
 /npm/xml2js
-2 deps, no coverage
+2 deps, 100% coverage
 
 /npm/redis
 6 deps, 96% coverage, nyc coverage failed
 
 /npm/node-notifier
-6 deps, no coverage
+6 deps, 62.79% coverage
 
 /npm/esm
 0 deps, no coverage
@@ -237,7 +237,7 @@ npm itself
 8 deps, no coverage
 
 /npm/amqplib
-4 deps
+4 deps, functions 66%
 
 /npm/@nestjs%2Fcore
 7 deps, 94% coverage, global
