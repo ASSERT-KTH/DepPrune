@@ -3,10 +3,9 @@ const folderPath = args[0]
 
 const fs = require('fs')
 
-let rawdata = fs.readFileSync(`${folderPath}/newbom.json`)
+let rawdata = fs.readFileSync(`${folderPath}/npmlist_runtime.json`)
 
 let rawObj = JSON.parse(rawdata)
 
 const dependencies = rawObj.dependencies
-console.log(folderPath)
-console.log(dependencies.length - 1)
+console.log(folderPath, ',', dependencies.length - 1)

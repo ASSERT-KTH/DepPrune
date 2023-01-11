@@ -1,16 +1,16 @@
 const args = process.argv.slice(2)
 const project = args[0]
-const client = args[1]
+// const client = args[1]
 
 const repoUrl = require('get-repository-url')
 const fs = require('fs')
 
 // takes a callback
-repoUrl(client, function (err, url) {
+repoUrl(project, function (err, url) {
   if (err) console.log('err: ', err)
-  console.log(`project: ${project}, client: ${client}`, url)
+  // console.log(`project: ${project}, client: ${client}`, url)
   if (url == 'null') return
-  fs.appendFileSync(`${project}_dependants_url.txt`, url + '\n')
+  fs.appendFileSync(`top43_url.txt`, `${project},${url}` + '\n')
 })
 
 //  or returns a promise
