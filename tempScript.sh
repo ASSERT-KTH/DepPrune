@@ -51,4 +51,8 @@ done
 
 
 # Shell to git clone and parse package.json
-# Record production packages from the package.jsons
+# 1. fetch package name
+# 2. collect git url
+# 3. revise package name (folder name)
+# 4. git clone and parse package.json
+# 5. record production packages and development packages from the package.jsons

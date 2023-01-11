@@ -1,21 +1,23 @@
 import requests
 from bs4 import BeautifulSoup
 
-curLink = 'https://libraries.io/search?keywords=nodejs&languages=&order=desc&page=10&platforms=npm&sort=dependents_count'
 
-req = requests.get(curLink)
-req.encoding = 'utf-8'
+for num in range(0,1):
+    curLink = 'https://libraries.io/search?keywords=nodejs&order=desc&page=' + str(num) + '&platforms=npm&sort=rank'
 
-soup = BeautifulSoup(req.text, features='html.parser')
+    req = requests.get(curLink)
+    req.encoding = 'utf-8'
 
-divWithLinks = soup.find_all(
-    'div', {'class': 'project'})
+    soup = BeautifulSoup(req.text, features='html.parser')
 
-with open('top271_300.txt', 'w') as f:
+    divWithLinks = soup.find_all(
+        'div', {'class': 'project'})
 
-    for link in divWithLinks:
-        projectLink = link.find('a').get('href') + '\n'
-        f.write(projectLink)
+    with open('top3000.txt', 'a') as f:
+
+        for link in divWithLinks:
+            projectLink = link.find('a').get('href') + '\n'
+            f.write(projectLink)
     # hrefInLink = link.get('href')
 
     # subReq = requests.get(hrefInLink)
