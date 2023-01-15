@@ -10,7 +10,7 @@ repoUrl(project, function (err, url) {
   if (err) console.log('err: ', err)
   // console.log(`project: ${project}, client: ${client}`, url)
   if (url == 'null') return
-  fs.appendFileSync(`top43_url.txt`, `${project},${url}` + '\n')
+  fs.appendFileSync(`top3000_url.txt`, `${project},${url}` + '\n')
 })
 
 //  or returns a promise

@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-for num in range(0,1):
+for num in range(85,101):
     curLink = 'https://libraries.io/search?keywords=nodejs&order=desc&page=' + str(num) + '&platforms=npm&sort=rank'
 
     req = requests.get(curLink)
