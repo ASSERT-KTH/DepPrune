@@ -1,7 +1,7 @@
 import sys
 import json
 
-# project = sys.argv[1]
+project = sys.argv[1]
 # filePath = f'./Data/{project}/{project}_dependants_url.txt'
 # newFilePath = f'./Data/{project}/{project}_dependants_url_100.txt'
 
@@ -71,30 +71,55 @@ import json
 
 # newFile.close()
 
-
-# # # scan production dependencies from npm list
-def get_production_deps(dictionary, productionsFile):
-
+totalDeps = []
+extraneousDeps = []
+directDepsLen = 0
+# scan production dependencies from npm list
+def get_production_deps(dictionary):
     for key, value in dictionary.items():
         if key == "dependencies" and isinstance(value, dict):
             childDict = value
             output = list(childDict.keys())
+            for subKey, subValue in childDict.items():
+                for subSubKey, subSubValue in subValue.items():
+                    if subSubKey == "extraneous" and subSubValue == True:
+                        extraneousDeps.append(subSubKey)
             for dep in output:
-                # depStr = "" + dep
-                print(dep)
-                productionsFile.writelines(dep + '\n')
-            
+                totalDeps.append(dep)
             for itemKey, itemValue in childDict.items():
-                get_production_deps(itemValue, productionsFile)
+                get_production_deps(itemValue)
 
-filePath = f'productionDependencies.json'
-productionDepPath = f'../../productionCollected.txt'
-productionsFile = open(productionDepPath, 'a')
-f = open(filePath, encoding="utf-8")
-productionDict = json.load(f)
+def get_direct_deps(dictionary):
+    if "dependencies" in dictionary.keys():
+        directDeps = list(dictionary['dependencies'])
+        print('directDeps: ', directDeps)
+        return len(directDeps)
+    return 0
 
-dependencies = get_production_deps(productionDict, productionsFile)
-productionsFile.close()
+
+filePath_package = f'package.json'    
+f_package = open(filePath_package, encoding="utf-8")  
+packageDict = json.load(f_package)
+directDepsLen = get_direct_deps(packageDict)
+
+filePath_deps = f'productionDependencies.json'
+f_deps = open(filePath_deps, encoding="utf-8")
+productionDict = json.load(f_deps)
+get_production_deps(productionDict)
+
+extraneousDepsLen = len(extraneousDeps)
+totalDepsLen = len(totalDeps) - extraneousDepsLen
+transDepsLen = totalDepsLen - directDepsLen
+print("extraneousDeps: ", extraneousDeps)
+
+if (directDepsLen >= 1):
+    line = project + ',' + str(extraneousDepsLen) + "," + str(directDepsLen) + "," + str(transDepsLen) + ',' + str(totalDepsLen) + '\n'
+
+    productionDepPath = f'../../top_dependencies_greater1.txt'
+    productionsFile = open(productionDepPath, 'a')
+
+    productionsFile.writelines(line)
+    productionsFile.close()
 
 
 # # collect productions from the dataset of the production packages
