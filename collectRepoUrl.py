@@ -71,6 +71,7 @@ project = sys.argv[1]
 
 # newFile.close()
 
+# # calculate direct dependencies, transitive dependencies
 totalDeps = []
 extraneousDeps = []
 directDepsLen = 0
@@ -96,11 +97,20 @@ def get_direct_deps(dictionary):
         return len(directDeps)
     return 0
 
+def has_test(dictionary):
+    if "scripts" in dictionary.keys():
+        scripts = list(dictionary['scripts'])
+        if "test" in scripts:
+            return True
+    return False
+
 
 filePath_package = f'package.json'    
 f_package = open(filePath_package, encoding="utf-8")  
 packageDict = json.load(f_package)
 directDepsLen = get_direct_deps(packageDict)
+
+hasTest = has_test(packageDict)
 
 filePath_deps = f'productionDependencies.json'
 f_deps = open(filePath_deps, encoding="utf-8")
@@ -112,10 +122,9 @@ totalDepsLen = len(totalDeps) - extraneousDepsLen
 transDepsLen = totalDepsLen - directDepsLen
 print("extraneousDeps: ", extraneousDeps)
 
-if (directDepsLen >= 1):
-    line = project + ',' + str(extraneousDepsLen) + "," + str(directDepsLen) + "," + str(transDepsLen) + ',' + str(totalDepsLen) + '\n'
-
-    productionDepPath = f'../../top_dependencies_greater1.txt'
+if (directDepsLen >= 1) and hasTest:
+    line = project + ',' + str(extraneousDepsLen) + "," + str(directDepsLen) + "," + str(transDepsLen) + ',' + str(totalDepsLen) + ',' + str(hasTest) + '\n'
+    productionDepPath = f'../../top_dependencies_greater1_test.txt'
     productionsFile = open(productionDepPath, 'a')
 
     productionsFile.writelines(line)
