@@ -98,7 +98,24 @@
 #     echo $x
 # done
 
-path='top1361_folder_commit.txt'
+# path='top1361_folder_commit.txt'
+# # path='top5_test.txt'
+
+# cat $path | while read rows
+# do
+#     cd Original
+#     array=(${rows//,/ })
+#     folder=${array[0]}
+#     cd $folder
+#     echo `pwd`
+#     # calculate the number of direct dependencies, transitive dependencies and total dependencies.
+#     # str=$folder","$url","$commitID
+#     # echo $str >> ../../top_number_dependencies.txt
+#     python3 ../../collectRepoUrl.py $folder
+#     cd ../..
+# done
+
+path='top_dependencies_greater1_test_random.txt'
 # path='top5_test.txt'
 
 cat $path | while read rows
@@ -111,6 +128,6 @@ do
     # calculate the number of direct dependencies, transitive dependencies and total dependencies.
     # str=$folder","$url","$commitID
     # echo $str >> ../../top_number_dependencies.txt
-    python3 ../../collectRepoUrl.py $folder
+    nyc npm run test > top_dependencies_greater1_test_result.log
     cd ../..
 done
