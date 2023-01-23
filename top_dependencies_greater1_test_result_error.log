@@ -1,0 +1,1423 @@
+I am package concat-iterator
+I am package node-cache-manager-redis
+/data/js-variants/multee/Original/node-cache-manager-redis/node_modules/sol-redis-pool/index.js:7
+bluebird.promisifyAll(redis.RedisClient.prototype);
+                                        ^
+
+TypeError: Cannot read properties of undefined (reading 'prototype')
+    at Object.<anonymous> (/data/js-variants/multee/Original/node-cache-manager-redis/node_modules/sol-redis-pool/index.js:7:41)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Module.replacementCompile (/usr/local/lib/node_modules/nyc/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Object.<anonymous> (/usr/local/lib/node_modules/nyc/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Original/node-cache-manager-redis/index.js:2:128)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Module.replacementCompile (/usr/local/lib/node_modules/nyc/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Object.<anonymous> (/usr/local/lib/node_modules/nyc/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/Original/node-cache-manager-redis/test/lib/redis-store-spec.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Module.replacementCompile (/usr/local/lib/node_modules/nyc/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Object.<anonymous> (/usr/local/lib/node_modules/nyc/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/Original/node-cache-manager-redis/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/Original/node-cache-manager-redis/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/js-variants/multee/Original/node-cache-manager-redis/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/js-variants/multee/Original/node-cache-manager-redis/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Module.replacementCompile (/usr/local/lib/node_modules/nyc/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Object.<anonymous> (/usr/local/lib/node_modules/nyc/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+I am package rewiremock
+`rewiremock` was not found in imports at /data/js-variants/multee/Original/rewiremock/_tests/babel/test/dynamic.spec.js , but it was used.
+`rewiremock` was not found in imports at /data/js-variants/multee/Original/rewiremock/_tests/babel/test/hoisted.spec.js , but it was used.
+(node:44510) DeprecationWarning: "--compilers" will be removed in a future version of Mocha; see https://git.io/vdcSr for more info
+(Use `node --trace-deprecation ...` to show where the warning was created)
+`rewiremock` was not found in imports at unknown , but it was used.
+`rewiremock` was not found in imports at unknown , but it was used.
+rewiremock: exported type mismatch: ./b.js:default. Expected function, got object
+rewiremock: exported type mismatch: ./b.js:default. Expected function, got number
+rewiremock: exported type mismatch: ./b.js:default. Expected function, got object
+rewiremock: mocked export "somethingMissing" does not exists in ./b.js
+I am package functions-framework-nodejs
+Function 'functionDoesNotExist' is not defined in the provided module.
+Did you specify the correct target function to execute?
+I am package shellcheck
+PASS tests/shellcheck/architecture.test.ts
+  Architecture
+    ✓ should succeed supporting platform 'darwin' architecture 'x64' (3 ms)
+    ✓ should succeed supporting platform 'linux' architecture 'arm64' (1 ms)
+    ✓ should succeed supporting platform 'linux' architecture 'x64'
+    ✓ should succeed supporting platform 'win32' architecture 'x64' (1 ms)
+    ✓ should fail supporting platform 'aix' architecture 'arm' (8 ms)
+    ✓ should fail supporting platform 'aix' architecture 'arm64' (1 ms)
+    ✓ should fail supporting platform 'aix' architecture 'ia32' (1 ms)
+    ✓ should fail supporting platform 'aix' architecture 'mips' (2 ms)
+    ✓ should fail supporting platform 'aix' architecture 'mipsel' (1 ms)
+    ✓ should fail supporting platform 'aix' architecture 'ppc' (2 ms)
+    ✓ should fail supporting platform 'aix' architecture 'ppc64' (1 ms)
+    ✓ should fail supporting platform 'aix' architecture 's390' (2 ms)
+    ✓ should fail supporting platform 'aix' architecture 's390x' (14 ms)
+    ✓ should fail supporting platform 'aix' architecture 'x64' (2 ms)
+    ✓ should fail supporting platform 'android' architecture 'arm' (1 ms)
+    ✓ should fail supporting platform 'android' architecture 'arm64' (1 ms)
+    ✓ should fail supporting platform 'android' architecture 'ia32' (1 ms)
+    ✓ should fail supporting platform 'android' architecture 'mips' (1 ms)
+    ✓ should fail supporting platform 'android' architecture 'mipsel' (1 ms)
+    ✓ should fail supporting platform 'android' architecture 'ppc' (1 ms)
+    ✓ should fail supporting platform 'android' architecture 'ppc64' (1 ms)
+    ✓ should fail supporting platform 'android' architecture 's390' (1 ms)
+    ✓ should fail supporting platform 'android' architecture 's390x' (1 ms)
+    ✓ should fail supporting platform 'android' architecture 'x64' (1 ms)
+    ✓ should fail supporting platform 'cygwin' architecture 'arm' (1 ms)
+    ✓ should fail supporting platform 'cygwin' architecture 'arm64' (1 ms)
+    ✓ should fail supporting platform 'cygwin' architecture 'ia32' (1 ms)
+    ✓ should fail supporting platform 'cygwin' architecture 'mips'
+    ✓ should fail supporting platform 'cygwin' architecture 'mipsel' (2 ms)
+    ✓ should fail supporting platform 'cygwin' architecture 'ppc' (2 ms)
+    ✓ should fail supporting platform 'cygwin' architecture 'ppc64' (1 ms)
+    ✓ should fail supporting platform 'cygwin' architecture 's390' (1 ms)
+    ✓ should fail supporting platform 'cygwin' architecture 's390x' (1 ms)
+    ✓ should fail supporting platform 'cygwin' architecture 'x64' (1 ms)
+    ✓ should fail supporting platform 'darwin' architecture 'arm' (1 ms)
+    ✓ should fail supporting platform 'darwin' architecture 'arm64' (1 ms)
+    ✓ should fail supporting platform 'darwin' architecture 'ia32' (1 ms)
+    ✓ should fail supporting platform 'darwin' architecture 'mips' (1 ms)
+    ✓ should fail supporting platform 'darwin' architecture 'mipsel' (1 ms)
+    ✓ should fail supporting platform 'darwin' architecture 'ppc' (1 ms)
+    ✓ should fail supporting platform 'darwin' architecture 'ppc64' (1 ms)
+    ✓ should fail supporting platform 'darwin' architecture 's390'
+    ✓ should fail supporting platform 'darwin' architecture 's390x' (1 ms)
+    ✓ should fail supporting platform 'freebsd' architecture 'arm' (1 ms)
+    ✓ should fail supporting platform 'freebsd' architecture 'arm64' (1 ms)
+    ✓ should fail supporting platform 'freebsd' architecture 'ia32' (1 ms)
+    ✓ should fail supporting platform 'freebsd' architecture 'mips' (1 ms)
+    ✓ should fail supporting platform 'freebsd' architecture 'mipsel' (1 ms)
+    ✓ should fail supporting platform 'freebsd' architecture 'ppc' (2 ms)
+    ✓ should fail supporting platform 'freebsd' architecture 'ppc64' (1 ms)
+    ✓ should fail supporting platform 'freebsd' architecture 's390' (2 ms)
+    ✓ should fail supporting platform 'freebsd' architecture 's390x' (1 ms)
+    ✓ should fail supporting platform 'freebsd' architecture 'x64' (18 ms)
+    ✓ should fail supporting platform 'haiku' architecture 'arm' (1 ms)
+    ✓ should fail supporting platform 'haiku' architecture 'arm64' (2 ms)
+    ✓ should fail supporting platform 'haiku' architecture 'ia32' (1 ms)
+    ✓ should fail supporting platform 'haiku' architecture 'mips' (1 ms)
+    ✓ should fail supporting platform 'haiku' architecture 'mipsel' (2 ms)
+    ✓ should fail supporting platform 'haiku' architecture 'ppc' (1 ms)
+    ✓ should fail supporting platform 'haiku' architecture 'ppc64' (1 ms)
+    ✓ should fail supporting platform 'haiku' architecture 's390' (1 ms)
+    ✓ should fail supporting platform 'haiku' architecture 's390x' (1 ms)
+    ✓ should fail supporting platform 'haiku' architecture 'x64' (1 ms)
+    ✓ should fail supporting platform 'linux' architecture 'arm' (1 ms)
+    ✓ should fail supporting platform 'linux' architecture 'ia32' (1 ms)
+    ✓ should fail supporting platform 'linux' architecture 'mips' (1 ms)
+    ✓ should fail supporting platform 'linux' architecture 'mipsel' (1 ms)
+    ✓ should fail supporting platform 'linux' architecture 'ppc' (1 ms)
+    ✓ should fail supporting platform 'linux' architecture 'ppc64' (1 ms)
+    ✓ should fail supporting platform 'linux' architecture 's390' (1 ms)
+    ✓ should fail supporting platform 'linux' architecture 's390x' (1 ms)
+    ✓ should fail supporting platform 'netbsd' architecture 'arm' (2 ms)
+    ✓ should fail supporting platform 'netbsd' architecture 'arm64' (1 ms)
+    ✓ should fail supporting platform 'netbsd' architecture 'ia32' (1 ms)
+    ✓ should fail supporting platform 'netbsd' architecture 'mips' (2 ms)
+    ✓ should fail supporting platform 'netbsd' architecture 'mipsel' (1 ms)
+    ✓ should fail supporting platform 'netbsd' architecture 'ppc' (1 ms)
+    ✓ should fail supporting platform 'netbsd' architecture 'ppc64' (2 ms)
+    ✓ should fail supporting platform 'netbsd' architecture 's390' (1 ms)
+    ✓ should fail supporting platform 'netbsd' architecture 's390x' (1 ms)
+    ✓ should fail supporting platform 'netbsd' architecture 'x64' (2 ms)
+    ✓ should fail supporting platform 'openbsd' architecture 'arm' (1 ms)
+    ✓ should fail supporting platform 'openbsd' architecture 'arm64' (1 ms)
+    ✓ should fail supporting platform 'openbsd' architecture 'ia32' (2 ms)
+    ✓ should fail supporting platform 'openbsd' architecture 'mips' (1 ms)
+    ✓ should fail supporting platform 'openbsd' architecture 'mipsel' (1 ms)
+    ✓ should fail supporting platform 'openbsd' architecture 'ppc' (1 ms)
+    ✓ should fail supporting platform 'openbsd' architecture 'ppc64' (1 ms)
+    ✓ should fail supporting platform 'openbsd' architecture 's390' (12 ms)
+    ✓ should fail supporting platform 'openbsd' architecture 's390x' (2 ms)
+    ✓ should fail supporting platform 'openbsd' architecture 'x64' (1 ms)
+    ✓ should fail supporting platform 'sunos' architecture 'arm' (1 ms)
+    ✓ should fail supporting platform 'sunos' architecture 'arm64' (1 ms)
+    ✓ should fail supporting platform 'sunos' architecture 'ia32' (1 ms)
+    ✓ should fail supporting platform 'sunos' architecture 'mips' (1 ms)
+    ✓ should fail supporting platform 'sunos' architecture 'mipsel' (1 ms)
+    ✓ should fail supporting platform 'sunos' architecture 'ppc' (1 ms)
+    ✓ should fail supporting platform 'sunos' architecture 'ppc64' (4 ms)
+    ✓ should fail supporting platform 'sunos' architecture 's390' (1 ms)
+    ✓ should fail supporting platform 'sunos' architecture 's390x' (1 ms)
+    ✓ should fail supporting platform 'sunos' architecture 'x64' (1 ms)
+    ✓ should fail supporting platform 'win32' architecture 'arm' (1 ms)
+    ✓ should fail supporting platform 'win32' architecture 'arm64' (1 ms)
+    ✓ should fail supporting platform 'win32' architecture 'ia32' (1 ms)
+    ✓ should fail supporting platform 'win32' architecture 'mips' (2 ms)
+    ✓ should fail supporting platform 'win32' architecture 'mipsel' (1 ms)
+    ✓ should fail supporting platform 'win32' architecture 'ppc' (2 ms)
+    ✓ should fail supporting platform 'win32' architecture 'ppc64' (2 ms)
+    ✓ should fail supporting platform 'win32' architecture 's390' (1 ms)
+    ✓ should fail supporting platform 'win32' architecture 's390x' (1 ms)
+
+PASS tests/shellcheck/quoting/quoting.test.ts
+  Quoting
+    ✓ should fail ShellCheck checks (50 ms)
+
+PASS tests/shellcheck/platform.test.ts
+  Platform
+    ✓ should succeed supporting platform 'darwin' (2 ms)
+    ✓ should succeed supporting platform 'linux'
+    ✓ should succeed supporting platform 'win32'
+    ✓ should fail supporting platform 'aix' (8 ms)
+    ✓ should fail supporting platform 'android' (1 ms)
+    ✓ should fail supporting platform 'cygwin' (1 ms)
+    ✓ should fail supporting platform 'freebsd'
+    ✓ should fail supporting platform 'haiku' (1 ms)
+    ✓ should fail supporting platform 'netbsd' (1 ms)
+    ✓ should fail supporting platform 'openbsd' (1 ms)
+    ✓ should fail supporting platform 'sunos' (2 ms)
+
+Test Suites: 3 passed, 3 total
+Tests:       122 passed, 122 total
+Snapshots:   0 total
+Time:        2.639 s
+Ran all test suites.
+I am package global-prefix
+I am package find-file-up
+I am package magnet-uri
+I am package shelljs
+Warning: skipping platform-dependent test 'Windows can search with or without a .exe extension'
+I am package gulp-hb
+  [32mfixture/a.js[39m
+[90m    global data:[39m
+      greeting
+      recipient
+[90m    local data:[39m
+      a
+      greeting
+[90m    decorators:[39m
+      baz
+      inline
+[90m    helpers:[39m
+      bar
+      blockHelperMissing
+      each
+      helperMissing
+      if
+      log
+      lookup
+      unless
+      with
+[90m    partials:[39m
+      foo
+
+  [32mfixture/b.js[39m
+[90m    global data:[39m
+      greeting
+      recipient
+[90m    local data:[39m
+      b
+      greeting
+[90m    decorators:[39m
+      baz
+      inline
+[90m    helpers:[39m
+      bar
+      blockHelperMissing
+      each
+      helperMissing
+      if
+      log
+      lookup
+      unless
+      with
+[90m    partials:[39m
+      foo
+
+  [32mfixture/c.js[39m
+[90m    global data:[39m
+      greeting
+      recipient
+[90m    local data:[39m
+      
+[90m    decorators:[39m
+      baz
+      inline
+[90m    helpers:[39m
+      bar
+      blockHelperMissing
+      each
+      helperMissing
+      if
+      log
+      lookup
+      unless
+      with
+[90m    partials:[39m
+      foo
+
+I am package csv-stream
+I am package node-lambda-log
+PASS lib/LogMessage.test.js
+PASS lib/LambdaLog.test.js
+PASS ./index.test.js
+
+Test Suites: 3 passed, 3 total
+Tests:       106 passed, 106 total
+Snapshots:   0 total
+Time:        2.712 s
+Ran all test suites.
+I am package gulp-myth
+(node:46518) [DEP0128] DeprecationWarning: Invalid 'main' field in '/data/js-variants/multee/Original/gulp-myth/node_modules/rework-rebeccapurple/package.json' of 'lib/index.js'. Please either fix that or report it to the module author
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:46518) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+I am package bookshelf
+sh: eslint: command not found
+I am package handlebars-helpers
+I am package Snoostorm
+I am package node-fs-extra
+(node:46776) [fs-extra-WARN0003] Warning: fs.realpath.native is not a function. Is fs being monkey-patched?
+(Use `node --trace-warnings ...` to show where the warning was created)
+ESM tests pass!
+I am package grunt-php
+I am package write
+I am package nest-cli
+PASS test/lib/compiler/helpers/get-value-or-default.spec.ts (5.34 s)
+- Installation in progress... ☕
+✔ Installation in progress... ☕
+- Package installation in progress... ☕
+✔ Package installation in progress... ☕
+- Package installation in progress... ☕
+✔ Package installation in progress... ☕
+PASS test/lib/package-managers/pnpm.package-manager.spec.ts
+  ● Console
+
+    console.info
+      undefined
+
+      at PnpmPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:39:25)
+
+    console.info
+      🚀  Successfully created project /tmp
+
+      at PnpmPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:40:25)
+
+    console.info
+      👉  Get started with the following commands:
+
+      at PnpmPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:41:25)
+
+    console.info
+      undefined
+
+      at PnpmPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:42:25)
+
+    console.info
+      $ cd /tmp
+
+      at PnpmPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:43:25)
+
+    console.info
+      $ pnpm run start
+
+      at PnpmPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:44:25)
+
+    console.info
+      undefined
+
+      at PnpmPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:45:25)
+
+- Installation in progress... ☕
+✔ Installation in progress... ☕
+- Package installation in progress... ☕
+✔ Package installation in progress... ☕
+- Package installation in progress... ☕
+✔ Package installation in progress... ☕
+PASS test/lib/package-managers/npm.package-manager.spec.ts
+  ● Console
+
+    console.info
+      undefined
+
+      at NpmPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:39:25)
+
+    console.info
+      🚀  Successfully created project /tmp
+
+      at NpmPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:40:25)
+
+    console.info
+      👉  Get started with the following commands:
+
+      at NpmPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:41:25)
+
+    console.info
+      undefined
+
+      at NpmPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:42:25)
+
+    console.info
+      $ cd /tmp
+
+      at NpmPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:43:25)
+
+    console.info
+      $ npm run start
+
+      at NpmPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:44:25)
+
+    console.info
+      undefined
+
+      at NpmPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:45:25)
+
+- Installation in progress... ☕
+✔ Installation in progress... ☕
+- Package installation in progress... ☕
+✔ Package installation in progress... ☕
+- Package installation in progress... ☕
+✔ Package installation in progress... ☕
+PASS test/lib/package-managers/yarn.package-manager.spec.ts
+  ● Console
+
+    console.info
+      undefined
+
+      at YarnPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:39:25)
+
+    console.info
+      🚀  Successfully created project /tmp
+
+      at YarnPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:40:25)
+
+    console.info
+      👉  Get started with the following commands:
+
+      at YarnPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:41:25)
+
+    console.info
+      undefined
+
+      at YarnPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:42:25)
+
+    console.info
+      $ cd /tmp
+
+      at YarnPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:43:25)
+
+    console.info
+      $ yarn run start
+
+      at YarnPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:44:25)
+
+    console.info
+      undefined
+
+      at YarnPackageManager.<anonymous> (../lib/package-managers/abstract.package-manager.ts:45:25)
+
+PASS test/lib/schematics/nest.collection.spec.ts
+PASS test/lib/schematics/schematic.option.spec.ts
+PASS test/lib/configuration/nest-configuration.loader.spec.ts
+PASS test/lib/compiler/hooks/tsconfig-paths.hook.spec.ts (31.211 s)
+PASS test/lib/runners/schematic.runner.spec.ts
+PASS test/lib/readers/file-system.reader.spec.ts
+PASS test/lib/questions/questions.spec.ts
+PASS test/lib/utils/get-default-tsconfig-path.spec.ts
+
+Test Suites: 12 passed, 12 total
+Tests:       99 passed, 99 total
+Snapshots:   2 passed, 2 total
+Time:        42.194 s
+Ran all test suites.
+I am package play-sound
+I am package aigle
+[31mTypeError: error2[0m
+
+[31mTypeError: error2[0m
+
+[31m1[0m
+
+[31mError: error[0m
+
+[31mReferenceError: test is not defined[0m
+
+[31mError: error[0m
+
+[31mError: error[0m
+
+[31mTypeError: error[0m
+
+[31mundefined[0m
+
+[31mundefined[0m
+
+[31mundefined[0m
+
+[31mundefined[0m
+
+[31m1[0m
+
+[31m1[0m
+
+[31mTypeError: error2[0m
+
+[31mTypeError: error2[0m
+
+I am package opentype.js
+Undefined CHARARRAY encountered and treated as an empty string. This is probably caused by a missing glyph name.
+I am package matrix
+I am package omit-deep
+I am package libRmath.js
+ts-jest[ts-jest-transformer] (WARN) Define `ts-jest` config under `globals` is deprecated. Please do
+transform: {
+    <transform_regex>: ['ts-jest', { /* ts-jest config goes here in Jest */ }],
+},
+PASS src/lib/distributions/gamma/__test__/pgamma.test.ts (11.678 s)
+  pgamma
+    invalid input
+      ✓ x=NaN, shape=1.6, defaults (4 ms)
+      ✓ x=0, shape=-5(<0), defaults (84 ms)
+    edge cases
+      ✓ x=4(>0), shape=0, log=true (1 ms)
+      ✓ x=0|x=1, shape=0, defaults (1 ms)
+      ✓ x=-1(<0), shape=34
+      ✓ x=Infinity, shape=34
+      ✓ x=1e-308, shape=1 (3 ms)
+    with fixtures
+      region: 0 < x < 1
+        ✓ 0 < x < 1, various shape={5,0.8}, lower=true, log={false,true} (18 ms)
+      region A: x >=1 && x > shape - 1  && x < 0.8*(shape + 50)
+        ✓ shape=196, 4 < x < 195, variations: log={true, false}, lower={true,false} (5 ms)
+      region B: 1 <= x && shape - 1 < x && shape*1.25 -50 < x
+        ✓ shape={0.5, 1.5} x ∈ [2,10], variations: log={true, false}, lower={true,false} (6 ms)
+        ✓ shape = 0.5, x=(1-shape)/EPSILON*1.2
+      regionC:1 <= x && (not in region A and region B, aka shape >= 196)
+        ✓ shape=300(>196) for this shape, x must be ∈ [200,325] (11 ms)
+
+PASS src/lib/distributions/binomial-negative/__test__/pnbinom.test.ts
+  pnbinom
+    using prob, not "mu" parameter
+      ✓ x=NaN, prob=0.5, size=10 (2 ms)
+      ✓ x=10, prob=NaN, size=20
+      ✓ x=10, prob=0.3, size=NaN (6 ms)
+      ✓ x=10, prob=Infinity, size=30 (13 ms)
+      ✓ x=10, prob=0, size=30 (1 ms)
+      ✓ x=10, prob=1.2, size=30 (1 ms)
+      ✓ x=10, prob=0.2, size=0 (1 ms)
+      ✓ x=-10, prob=0.2, size=0 (1 ms)
+      ✓ x=-10, prob=0.2, size=30 (1 ms)
+      ✓ x=10, prob=0.2, size=30 (5 ms)
+      ✓ x=Infinity, prob=0.2, size=30
+      ✓ x= [0,200], prob=0.2, size=30 (19 ms)
+    using mu, not "prob" parameter
+      ✓ x=NaN, size=30, mu=f(size=30,prob=0.3) (1 ms)
+      ✓ x=4, size=NaN, mu=f(size=30,prob=0.3) (1 ms)
+      ✓ x=4, size=30, mu=NaN
+      ✓ x=4, size=Infinity, mu=f(size=30, prob=0.3) (1 ms)
+      ✓ x=4, size=30, mu=Infinity (2 ms)
+      ✓ x=4, size=-30, mu=f(size=30, prob=0.3) (1 ms)
+      ✓ x=4, size=30, mu=-20 (<0) (8 ms)
+      ✓ x=4, size=0, mu=f(size=30, prob=0.3) (1 ms)
+      ✓ x=-4, size=0, mu=f(size=30, prob=0.3)
+      ✓ x=-4, size=35, mu=f(size=35, prob=0.3) (1 ms)
+      ✓ x=Infinity, size=35, mu=f(size=35, prob=0.3)
+      ✓ x=4, size=35, mu=f(size=35, prob=0.3) (1 ms)
+      ✓ x=4, size=35, mu=f(size=35, prob=0.3), log=true (1 ms)
+      ✓ x=4, size=35, mu=f(size=35, prob=0.3), lower=false, log=true
+      ✓ x= [0,100, step10], psize=300, mu=35 (prob=0.5384615384615384) (2 ms)
+
+PASS src/lib/distributions/hypergeometric/__test__/qhyper.test.ts (49.447 s)
+  qhyper(p,m,n,k,log)
+    invalid input
+      ✓ test inputs p, nr, ,b, n on NaN (5 ms)
+      ✓ test inputs p,nr, nb, n on infinity (44 ms)
+      ✓ test inputs nr < 0, nb <0, n <0 n > (nb+nr) (6 ms)
+      ✓ p < 0 || p > 1 (2 ms)
+    edge cases
+      ✓ (p=1 and p=1, m=300 n=150, k=400
+    with fixtures
+      ✓ p ∈ [0,1], m=300, n=150, k=400 (k < 1000, "small"), lower={true|false}, log={true|false} (16 ms)
+      ✓ p ∈ [0,1], m=1300, n=150, k=1400 (k >= 1000, "big"), lower={true|false}, log={true|false} (8 ms)
+    wasm accelerator test
+      ✓ (28 sec) wasm-accelerated test, p=0.5, nr=2**31-1, nb=2**31-1, n=2**31-1 (46896 ms)
+      ○ skipped (481 sec) non wasm-accelerated test, n=1, nr=2**31-1, nb=2**31-1, n=2**31-1
+
+PASS src/lib/distributions/hypergeometric/__test__/rhyper.test.ts (40.639 s)
+  rhyper
+    invalid input
+      ✓ n=1, other params are NaNs or Infinity (106 ms)
+      ✓ test inputs nr < 0, nb <0, n <0 n > (nb+nr) (5 ms)
+    edge cases
+      ✓ test with k=1 AND m, n, bigger then INT_MAX (2^31-1) (3 ms)
+      ✓ (wasm) with k=2^31-1 AND m, n, bigger then INT_MAX (2^31-1 (39071 ms)
+    reguler
+      ✓ n=50, NR=30, NB=15, K=20 (5 ms)
+      ✓ n=50, NR=15, NB=30,k=20 (3 ms)
+      ✓ n=50, 2*K > (NR+NB) and swap NR and NB (3 ms)
+      ✓ solution I: degeneracy (4 ms)
+      ✓ solution III:  III : H2PE Algorithm (3 ms)
+      ✓ solution(2) III:  III : H2PE Algorithm (11 ms)
+
+PASS src/lib/distributions/signrank/__test__/qsign.test.ts (91.226 s)
+  qsignrank (wilcox sign rank)
+    invalid input and edge cases
+      ✓ p = NaN | n = NaN (3 ms)
+      ✓ p = Infinite | n = Inf (32 ms)
+      ✓ p < 0 | p > 1 (3 ms)
+      ✓ n <= 0 (3 ms)
+      ✓ p = 0 | p = log(exp(1)) if pAsLog=true && lowerTail = true (1 ms)
+      ✓ p = 1 | p = 0 if lowerTail=false (with all combinations of pAsLog) (1 ms)
+      ✓ n > DBL_MIN_VALUE_LN/M_LN2 (=1074), should give NaN (1 ms)
+      ✓ n === DBL_MIN_VALUE_LN/M_LN2 (=1074), p=eps*12 should give 207584 (1521 ms)
+      ✎ todo (diverge from fedility) qsignrank((log(0), 4, lowerTail=true, pAsLog = TRUE) sould be 0 not a NaN
+      ✎ todo n > 1074 should give NaN add to upstream
+    fidelity
+      ✓ qsignrank(psignrank(X, 40, T), 40) == X (13 ms)
+      ✓ n = 40, check via qsignrank(psignrank(x, 40) === x, 40) (71 ms)
+      ✓ n = 40, check via qsignrank(psignrank(x, 40) === x, 40) (72 ms)
+      ✓ (wasm) n = 1074 (12778 ms)
+      ✓ (no wasm) n = 1074 (74974 ms)
+      ✎ todo upstream qsignrank(log(0), asLogP=true) should not return a NaN
+
+PASS src/lib/distributions/student-t/__test__/rt.test.ts
+  rt (n,df,ncp)
+    invalid input and edge cases
+      ncp = undefined
+        ✓ n=NaN (42 ms)
+        ✓ df = NaN | df <= 0 (22 ms)
+        ✓ df = Infinity, ncp = undefined (8 ms)
+      ncp defined
+        ✓ ncp=0, n = NaN (2 ms)
+        ✓ ncp=0, n = 1, df = NaN (3 ms)
+    fidelity
+      ncp = undefined
+        ✓ samples for df = 0.5|df = 5| df=50| df=500 (8 ms)
+        ✓ (ncp=0 | ncp=10) n = 10, df = 0.5 (4 ms)
+        ✓ (ncp=20 | ncp=30) n = 10, df = 15 (2 ms)
+
+PASS src/lib/distributions/student-t/__test__/qt.test.ts
+  partialQtf(x, df, lower.tail, log.p)
+    invalid input and edge cases
+      ✓ p=NaN| df = NaN (5 ms)
+      ✓ bounderies p <= 0, p => 1 (34 ms)
+      ✓ df <= 0 (1 ms)
+      ✓ df > 1e20 (1 ms)
+      ✓ df = 1.1e10, p=0.7|p=0.2, lowerTail=true|false asLog=true|false (9 ms)
+      ✓ p < DBL_MIN, df= 45, p=0.7, lowerTail=true, log=true
+      ✓ p close to 0 lowertail=T , aslog = false
+      ✓ p = 0.5  df=1, lowertail=True, aslog= false  (1 ms)
+      ○ skipped df < 2.1 && P > 0.5 (lowerTail=false && p ~ 0
+      ○ skipped p close to 1 or 0 (-+ EPSILON)
+      ○ skipped p close to 0 , df=1 lowertail=T , aslog = false
+    fidelity
+      ✓ range(0,1), df= 0.2, tail=true, log=false (98 ms)
+      ✓ range(0,1), df= 2 (15 ms)
+      ✓ range(0,1), df= 1 (10 ms)
+
+PASS src/lib/distributions/binomial-negative/__test__/dnbinom.test.ts
+  dnbinom
+    using prob, not "mu" parameter
+      ✓ ranges x ∊ [0, 200] size=34, prob=0.2 (61 ms)
+      ✓ x=NaN, prob=0.5, size=10
+      ✓ x=10, prob=0, size=20 (67 ms)
+      ✓ x=23.4 (non integer), prob=0.3, size=20
+      ✓ x=-4 (non integer), prob=0.3, size=20 (1 ms)
+      ✓ x=0, size=0, prob=0.3 (1 ms)
+      ✓ x=0, size=0, prob=0.3, aslog=true
+      ✓ x=15, size=23, prob=0.3, aslog=true
+    using mu, not "prob" parameter
+      ✓ x=NaN, size=30, mu=f(size=30,prob=0.3)
+      ✓ x=4, size=NaN, mu=f(size=30,prob=0.3)
+      ✓ x=4, size=30, mu=NaN (1 ms)
+      ✓ x=4, size = -30 (<0), mu=45 (1 ms)
+      ✓ x=4, size = 30, mu=20(prob=0.4)
+      ✓ x=4.2 (non int), size = 30, mu=20(prob=0.4) (1 ms)
+      ✓ x=4.2, size = 30, mu=20(prob=0.4), log=true
+      ✓ x=-1(<0), size = 30, mu=20(prob=0.4), log=true
+      ✓ x=0, size=0, mu=20(prob=0.4), log=true
+      ✓ x=0, size=30, mu=20(prob=0.4), log=true (1 ms)
+      ✓ x=0, size=40, mu=45(prob=0.52941176), log=true
+      ✓ x<size*1e-10 =3, size=40000000000, mu=size*1.5(prob=0.6)
+      ✓ x<size*1e-10 =3, size=40000000000, mu=size*0.5(prob=1/3)
+      ✓ x=size/2, size=40000000000, mu=size*0.5(prob=1/3) (1 ms)
+      ✓ x=size/2, size=40000000000, mu=size*0.5(prob=1/3), log=true
+
+PASS src/lib/distributions/hypergeometric/__test__/phyper.test.ts
+  phyper(x,m,n,k,log)
+    invalid input
+      ✓ test all inputs on NaN (4 ms)
+      ✓ test all inputs (except x) on negative of non integer (29 ms)
+    edge cases
+      ✓ (negative x)x=-1, m=0 n=2, k=1 (8 ms)
+      ✓ flip when x*(n+m) > k*m ), x=2, m=0 n=2, k=2 (1 ms)
+      ✓ (sample black balls more then avail), x = 3, m=3 n=2, k=4
+      ✓ x >= k and k=nr so x=>nr (20 ms)
+      ✓ x >= k while x < nr is not testable
+      ✓ small chances x=10, nr=4000, nb=2000, nn=k=1000 (1 ms)
+    with fixtures
+      ✓ x ∈ [0,15], m=15, n=20, k=15 (4 ms)
+
+PASS src/lib/distributions/student-t/__test__/dt.test.ts
+  dt (n,df,ncp, giveLog)
+    invalid input and edge cases
+      ncp = undefined
+        ✓ x=Nan|df=NaN (4 ms)
+        ✓ df <= 0 (56 ms)
+        ✓ x = Infinite (1 ms)
+      ncp defined
+        ✓ ncp=Nan (1 ms)
+        ✎ todo isNaN(ncp) check apply to upstream dnt.c
+    fidelity
+      ncp = undefined
+        ✓ x=seq(-2,2), df=5 (17 ms)
+        ✓ df = Infinite x=(-4,4) (15 ms)
+        ✓ (x*x)/df > (1 / DBL_EPSILON); (1 ms)
+      ncp defined
+        ✓ ncp=42.2 , x=seq(0,90), df=5 (6 ms)
+        ✓ x close to zero, ncp=100 and df=1000 (abs(x) <= sqrt(df * DBL_EPSILON) (2 ms)
+        ✓ df >= 1e8 (1e9) it will become dnorm with mu=ncp variance=1 (1 ms)
+
+PASS src/lib/distributions/chi-2/__test__/pnchisq.test.ts
+  pnchisq
+    ✓ ranges x ∊ [0, 40, step 0.5] df=13, ncp=8 (120 ms)
+    ✓ ranges x ∊ [0, 40, step 0.5] df=13, ncp=8, log=true (69 ms)
+    ✓ ranges x ∊ [80, 100] df=13, ncp=8, log=true (17 ms)
+    ✓ x=NaN df=13, ncp=8, log=true
+    ✓ x=80 df=Infinity, ncp=8, log=true (35 ms)
+    ✓ x=80 df=-3(<0), ncp=8, log=true (1 ms)
+    ✓ ranges x ∊ [80, 100], df=13, ncp=85(>80) log=true (7 ms)
+    ✓ (precison warning): x = 490, df=13, ncp=85, lower=false, log=false (2 ms)
+    ✓ (precison warning): x = 490, df=13, ncp=85, lower=false, log=true (1 ms)
+    ✓ x = 200, df=13, ncp=85, lower=false, log=true (1 ms)
+    ✓ x = 0, df=0, ncp=85, lower=false, log=false (1 ms)
+    ✓ x = 0, df=0, ncp=85, lower=false, log=true (1 ms)
+    ✓ x = Inf, df=0, ncp=85, lower=false, log=true|false
+    ✓ x = 45, df=1000, ncp=75, lower=false, log=false|true (3 ms)
+    ✓ x = 45, df=1000, ncp=2000, lower=false, log=false|true
+
+PASS src/lib/special/gamma/__test__/digamma.test.ts
+  digamma
+    ✓ ranges [0.05, 9.95] and [-1.00 , 0] and [-11.00, -10.00] (30 ms)
+    ✓ value 0,-1,-2  single values (1 ms)
+
+PASS src/lib/distributions/beta/__test__/rbeta.test.ts
+  rbeta
+    ✓ sample 5 numbers, n=5, scp1=2, scp2=2 (5 ms)
+    ✓ scp1=-1, scp2=2 (70 ms)
+    ✓ scp1=NAN, scp2=2 (2 ms)
+    ✓ scp1=Inf, scp2=Inf
+    ✓ scp1=0, scp2=0 (1 ms)
+    ✓ scp1=Inf, scp2=4 (1 ms)
+    ✓ scp1=Inf, scp2=4
+    ✓ scp1=.2,scp2=8.2 (2 ms)
+    ✓ n=12, scp1=2,scp2=5, ncp=4 (3 ms)
+
+PASS src/lib/distributions/signrank/__test__/dsign.test.ts (111.177 s)
+  dsignrank (wilcox sign rank)
+    invalid input and edge cases
+      ✓ x = NaN | n = NaN (2 ms)
+      ✓ n <= 0 (31 ms)
+      ✓ trunc(x)-x < 1e7 and trunc(x)-x > 1e7 (3 ms)
+      ✓ x < 0 or x > n*(n+1)/2 (1 ms)
+      ✎ todo run over all W+ for n=1 and n=2
+    fidelity
+      ✓ for n = 3 calculate  0 < w < n*(n+1)/2 for n lambda = 0
+      ✓ for n = 10 all W+ (21 ms)
+      ✓ for n = 10 check for W=24 and W=31
+      ✓ wasm acc test large inputnumbers n = 4000, W= 4025500 (11656 ms)
+      ✓ (no wasm) test large inputnumbers n = 4000, W= 4025500 (98060 ms)
+      ✎ todo check why [0.037109375] differs [0.037109374999999993] is only 3 mantissa bits, should be more
+
+PASS src/lib/distributions/beta/__test__/qbeta.test.ts
+  qbeta
+    ✓ ranges x ∊ [0, 1], shape1=1, shape2=2 (15 ms)
+    ✓ shape1 x ∊ [0, 10], x=0.5, shape2=2 (36 ms)
+    ✓ shape1 x ∊ [0, 10], x=0.5, shape2=2, tail=true, logp=true (4 ms)
+    ✓ shape1 x ∊ [0, 10], x=0.5, shape2=2 (12 ms)
+    ✓ shape1=NaN, q=0.2, shape2=4, ncp=undefined (1 ms)
+    ✓ shape1=-1, q=0.2, shape2=4, ncp=undefined (79 ms)
+    ✓ shape1=3, q=0.2, shape2=4, ncp=undefined, log.p=TRUE (2 ms)
+    ✓ shape1=3, q=-40.2, shape2=4, ncp=undefined, log.p=false (2 ms)
+    ✓ shape1=0, q=-40.2, shape2=0, ncp=undefined, lower=false, log.p=false
+    ✓ shape1=0, q=0.2, shape2=0, ncp=undefined, lowertail=true, log.p=true (1 ms)
+    ✓ shape1=0, q=0.4, shape2=0, ncp=undefined, lowertail=true, log.p=false
+    ✓ shape1=0, q=0.4, shape2=0, ncp=undefined, lowertail=true, log.p=false
+    ✓ shape1=3, q=0.6, shape2=Infinity, ncp=undefined, lowertail=true, log.p=false (1 ms)
+    ✓ shape1=Infinity, q=0.6, shape2=8, ncp=undefined, lowertail=true, log.p=false
+    ✓ shape1=Infinity, q=0.6, shape2=Infinity, ncp=undefined, lowertail=true, log.p=false (1 ms)
+
+PASS src/lib/distributions/student-t/__test__/pt.test.ts
+  pt(x,df, ncp, log.p)
+    ncp is defined
+      ✓ x=Nan|df=NaN|ncp=NaN (5 ms)
+      ✓ df <= 0 (52 ms)
+      ✓ x = -Infinity| x= Infinity (1 ms)
+      ✓ ncp=x = -Infinity| x= Infinity
+      ✓ df > 4e5 (23 ms)
+      ✓ df < 4e5 && ncp >  SQRT(2 * M_LN2 * -(DBL_MIN_EXP = -1024)) (8 ms)
+      ✓ x <= 0 && ncp < 45 & df < 4e5 (5 ms)
+      ✓ x <= 0 && ncp > 40 && (logp=false | lowerTail = false) (2 ms)
+      ✎ todo check why pt(-2, 15, 8) returns 8.804068585277491e-14 instead of 8.3266726846886741e-15 (10x smaller)
+    ncp = 0 or undefined
+      ✓ df = Infinite (1 ms)
+      ✓ df > 4e5 (2 ms)
+      ✓ x*x >= df (1 ms)
+      ✓ 1+(x/df)*x > 1e100, lower.tail = True|False and Log.p=True|False (2 ms)
+
+PASS src/lib/distributions/normal/__test__/pnorm.test.ts
+  pnorm
+    invalid input check and edge cases
+      ✓ q = NaN or mu = Nan, or sigma = NaN (4 ms)
+      ✓ x = ± Infinity and equal to µ (= ± Infinity) gives NaN (2 ms)
+      ✓ sd < 0 (34 ms)
+      ✓ sd == 0, (unit step function) (3 ms)
+      ✓ limit q < u,  u= Number.MAX_VALUE and sd == Number.MIN_VALUE (4 ms)
+    fidelity
+      ✓ -10 < z < 10, mhu=0, sd=1, lower=T, aslog=F (9 ms)
+      ✓ -10 < z < 10, mhu=0, sd=1, lower=F, aslog=F (4 ms)
+      ✓ -10 < z < 10, mhu=0, sd=1, lower=T, aslog=T (3 ms)
+      ✓ -10 < z < 10, mhu=0, sd=1, lower=F, aslog=T (3 ms)
+
+PASS src/lib/distributions/normal/__test__/dnorm.test.ts
+  dnorm
+    invalid input check and edge cases
+      ✓ x = NaN or mu = Nan, or sigma = NaN (3 ms)
+      ✓ dnorm is zero for all x if variance is infinite (1 ms)
+      ✓ x = ± Infinity and equal to µ (= ± Infinity) gives NaN (1 ms)
+      ✓ x = ± Infinity, when µ is 1. Finite or is 2. Infinite (with opposite sign of x) (1 ms)
+      ✓ sd < 0 (28 ms)
+      ✓ sd == 0, (a dirac delta function) (1 ms)
+      ✓ z (z-norm) > 2 * sqrt(DBL_MAX)
+      ✓ abs(z) >= 38.6 (special cutoff), gives zero
+    fidelity
+      ✓ log = true for dnorm(x, µ, σ) (3 ms)
+      ✓ abs(z) < 5 dnorm(x, µ, σ) (3 ms)
+      ✓ abs(z) >= 5  && <= 38.0 dnorm(x, µ, σ) (2 ms)
+
+PASS src/lib/distributions/gamma/__test__/rgamma.test.ts
+  rgamma
+    invalid input
+      ✓ n=-1(<0) (52 ms)
+      ✓ n=1, scale=NaN  shape=4 (21 ms)
+    edge cases
+      ✓ n=0, shape=1.6, defaults (1 ms)
+      ✓ n=1, scale=0, shape=4 (1 ms)
+      ✓ n=1, scale=3, shape=0
+    fidelity, Mersenne-Twister & Inversion
+      ✓ n=100, shape=1, scale=3 (7 ms)
+      ✓ n=100, shape=0.2 (<1), scale=3 (3 ms)
+      ✓ n=100, shape=2.5 (1< shape <3.68), scale=3 (6 ms)
+      ✓ n=100, shape=2.5 (3.68 < shape < 13.022), scale=3 (4 ms)
+      ✓ n=10, shape=34,  (1 ms)
+
+PASS src/lib/distributions/normal/__test__/qnorm.test.ts
+  qnorm
+    invalid input check and edge cases
+      ✓ p = NaN or mu = Nan, or sigma = NaN (10 ms)
+      ✓ p = 1 | p = 0 with all combinations of lower.tail and p.AsLog (18 ms)
+      ✓ p > 0 and logp = TRUE, gives boundary error (30 ms)
+      ✓ p < 0 and logp = FALSE, gives boundary error (1 ms)
+      ✓ p > 1 and logp = FALSE, gives boundary error (1 ms)
+      ✓ p > 0 and logp = FALSE, gives boundary error (2 ms)
+      ✓ sigma < 0 (1 ms)
+      ✓ sigma == 0
+    fidelity
+      ✓ p =(0,1) mhu=0, sd=1, lower=T, aslog=F (9 ms)
+      ✓ p is very close to zero or 1, p=1-EPSILON and p = EPSILON mhu=0, sd=1, lower=F, aslog=F
+
+PASS src/lib/distributions/gamma/__test__/dgamma.test.ts
+  dgamma
+    invalid input
+      ✓ x=NaN, shape=0 (3 ms)
+      ✓ x=4, shape=-1(<0) (52 ms)
+    edge cases
+      ✓ x=4, shape=0
+      ✓ x=0, shape=0
+      ✓ x=0, shape=(0,1)
+      ✓ x=0, shape=(1,inf)
+    fixture-tests
+      ✓ x ∈ [-2,2], shape=1.6, rate=1.5 (35 ms)
+      ✓ x ∈ [1,5], shape=0.1, scale=4 (2 ms)
+      ✓ x ∈ [1,5], shape=0.1, scale=4, log=true (2 ms)
+      ✓ x ∈ [1,5], shape=5, scale=400, log=true (27 ms)
+    other
+      ✓ x = 4, shape=1.6, rate=undefined, scale=undefined (1 ms)
+      ✓ x = 4, shape=1.6, rate=2, scale=4, should throw error (1 ms)
+      ✓ x= 4, shape=1.6, rate=undefined, scale=4 (2 ms)
+      ✓ x=0, shape=1, scale=100
+      ✓ x=0, shape=1, scale=100, aslog=true
+
+PASS src/lib/distributions/beta/__test__/dbeta.test.ts
+  dbeta
+    ✓ ranges x ∊ [0, 1] (7 ms)
+    ✓ x=NaN, shape1=2,shape2=3
+    ✓ x=0.5, shape1=-2, shape2=3 (32 ms)
+    ✓ x ∊ {-1.5,1.2}, shape1=2, shape2=3 (1 ms)
+    ✓ x= ∊ {0,1,0.5,}, shape1=0, shape2=0 (1 ms)
+    ✓ x=0.5, shape1=0, shape2=4 (1 ms)
+    ✓ x=0,shape1=0,shape2=4 (1 ms)
+    ✓ x=0,shape1=3,shape2=Inf
+    ✓ x=0,shape1=Infinity,shape2=2
+    ✓ x=1,shape1=Infinity,shape2=2 (1 ms)
+    ✓ x=0.5,shape1=Infinity,shape2=Infinity (1 ms)
+    ✓ x=0.25,shape1=Infinity,shape2=Infinity
+    ✓ x=0,shape1=0.2,shape2=3 (1 ms)
+    ✓ x=0,shape1=1,shape2=3 (1 ms)
+    ✓ x=1,shape1=4,shape2=0.2 (1 ms)
+    ✓ x=1,shape1=4,shape2=1 (1 ms)
+    ✓ x=0.6,shape1=3,shape2=1 (1 ms)
+    ✓ x=0.6,shape1=3,shape2=3 (1 ms)
+
+PASS src/lib/distributions/poisson/__test__/dpois.test.ts
+  dpois
+    invalid input and edge cases
+      ✓ x and lambda are NaN (4 ms)
+      ✓ lamnda < 0 (42 ms)
+      ✓ x is non integer (1 ms)
+      ✓ x < 0 or x is Infinite (1 ms)
+      ✓ x = 1 lambda = Infinite (1 ms)
+    fidelity
+      ✓ x > 0 lambda = 0 (5 ms)
+      ✓ x > 0 lambda = 1 (5 ms)
+      ✓ x > 0 lambda = 2 (2 ms)
+      ✓ x > 0 lambda = 4 (2 ms)
+      ✓ x > 0 lambda = 10 (1 ms)
+      ✓ lambda < MAX_SAFE_INTEGER * DBL_MIN (1 ms)
+      ✎ todo any reasonable value of "lambda < x * DBL_MIN" slaps result to zero investigate
+
+PASS src/lib/special/gamma/__test__/gamma.test.ts
+  gamma
+    ✓ gamma, range "0" to "0.5703" (24 ms)
+    ✓ value -1,-2  should return NaN (1 ms)
+    ✓ negative fraction -1.2 and -0.2, 1.2 (1 ms)
+    ✓ force number argument (1 ms)
+    ✓ process float32Array (1 ms)
+    ✓ 1E-308 should become Infinity (1 ms)
+    ✓ -1E-308 should become -1.000000000000000011e+308 (2 ms)
+    ✓ 5e-309  should become -Infinity
+    ✓ -1+1E-16  should become -9007199254740992 (1 ms)
+    ✓ -1.0000000000000002 should become 4503599627370495.5
+    ✓ overflow x > 171.61447887182298 (5 ms)
+    ✓ underflow x < -170.5674972726612 (2 ms)
+    ✓ 2, 4, 5, 6 (1 ms)
+    ✓ 30, 35, 40, 45, 50 (2 ms)
+    ✓ 130, 135, 140, 145, 150 (1 ms)
+    ✓ -50.5, -1.000000000000004, -55.000000000000004 (2 ms)
+
+PASS src/lib/distributions/binomial-negative/__test__/qnbinom.test.ts
+  qnbinom
+    using prob, not "mu" parameter
+      ✓ p=NaN, prob=0.5, size=10 (1 ms)
+      ✓ p=1, prob=NaN, size=10 (1 ms)
+      ✓ p=1, prob=0.5, size=NaN
+      ✓ p=1, prob=0, size=0 (1 ms)
+      ✓ p=0.5, prob=-1(<0), size=0 (24 ms)
+      ✓ p=1, prob=0.3, size=-4 (1 ms)
+      ✓ p=1, prob=1, size=4
+      ✓ p=1, prob=0.5, size=0
+      ✓ p=1, prob=0.3, size=5 (1 ms)
+      ✓ p=0.8, prob=0.3, size=5 (4 ms)
+      ✓ p=0.8, prob=0.3, size=5, lower=false (1 ms)
+      ✓ p=log(1), prob=0.3, size=5, lower=true, log.p=true
+      ✓ p=log(1), prob=0.3, size=5, lower=false, log.p=true
+      ✓ p=1-epsilon/2, prob=0.3, size=5
+      ✓ p=0.8, prob=0.0003, size=50 (1 ms)
+    using mu, not "prob" parameter
+      ✓ p=0.8, size=500, mu=600, (prob=0.5454545454545454) (2 ms)
+
+PASS src/lib/special/bessel/besselJ/__test__/test.ts
+  bessel function of first kind (besselJ)
+    invalid input and edge cases
+      ✓ [NaN] in, NaN (10 ms)
+      ✓ [-1] in, NaN (1 ms)
+      ✓ x=4,nu=1e9 gives NaN
+      ✓ x=4E5,nu=-52 gives warning (3 ms)
+      ✓ x=27.595, nu=398.5 (2 ms)
+    fidelity
+      ✓ x=0.1,nu=-0.5 (1 ms)
+      ✓ x=0.1,nu=-0.9 (1 ms)
+      ✓ x< 1E-4, nu=-4.9 (1 ms)
+      ✓ x > 25, nu = 3 (1 ms)
+
+PASS src/lib/distributions/binomial/__test__/dbinom.test.ts
+  dbinom
+    ✓ ranges x ∊ [0, 12] size=12, prob=0.01 (6 ms)
+    ✓ x=0, size=12, prob=0, asLog=true|false (1 ms)
+    ✓ x=4 (x!=0 || x!=12), size=12, prob=0, asLog=true|false (1 ms)
+    ✓ x=12, size=12, prob=0, asLog=true|false
+    ✓ x=8, size=12, prob=0, asLog=true|false
+    ✓ x=0, size=0, prob=0.2, asLog=true|false
+    ✓ x=0, size=100, prob=0.99, asLog=true (1 ms)
+    ✓ x=100, size=100, prob=0.99, asLog=true (1 ms)
+    ✓ x=-1|x=101, size=100, prob=0.99 (1 ms)
+    ✓ x=4, size=100, prob=3 (>1) (35 ms)
+    ✓ x=4, size=NaN, prob=0.5 (1 ms)
+    ✓ x=4.4 (nonint), size=100, prob=0.5
+
+PASS src/lib/distributions/tukey/__test__/qtukey.test.ts (6.449 s)
+  qtukey
+    invalid input and edge cases
+      ✓ p=Nan|nmeans=NaN|df=NaN|ranges=NaN (5 ms)
+      ✓ df < 2 | ranges < 1 | nmeans < 2 (103 ms)
+      ✓ p > 1 | p < 0 (5 ms)
+      ✓ p =0  | p = 1 (2 ms)
+    fidelity
+      ✓ p=0.01,nmeans=2,df=2,nranges=1,lower_tail=true,log_p=false (665 ms)
+      ✓ p=0.01,nmeans=4,df=2,nranges=1,lower_tail=true,log_p=false (1120 ms)
+      ✓ p=0.01,nmeans=4,df=2,nranges=1,lower_tail=true,log_p=false (1507 ms)
+      ✓ p=0.02,nmeans=4,df=2,nranges=1,lower_tail=true,log_p=false (1133 ms)
+      ✓ p=0.01,nmeans=62,df=2,nranges=1,lower_tail=true,log_p=false (51 ms)
+      ✓ p=0.01,nmeans=72,df=8,nranges=1,lower_tail=true,log_p=false (148 ms)
+      ✓ p=0.9 means=3, df=2 (266 ms)
+
+PASS src/lib/distributions/tukey/__test__/ptukey.test.ts
+  ptukey
+    invalid input and edge cases
+      ✓ p=Nan|nmeans=NaN|df=NaN|ranges=NaN (77 ms)
+      ✓ x <= 0 | x -> infinity (1 ms)
+      ✓ df < 2| nmeans < 2| nrnanges < 1 (5 ms)
+      ✓ df > 25000, use wprob (2 ms)
+      ✓ df <= 100 (66 ms)
+      ✓ df <= 800 (13 ms)
+      ✓ df <= 800 (8 ms)
+      ✓ df <= 5000 (7 ms)
+      ✓ 5000 > df > 25000 (6 ms)
+    fidelity
+      ✓ q=1,means=2,df=2 (150 ms)
+      ✓ q=1,means=10,df=2 (120 ms)
+      ✓ q=3,means=2,df=2 (75 ms)
+      ✓ q=1,means=15,df=2 (131 ms)
+
+PASS src/lib/rng/__test__/test.ts
+  irng
+    ✓ test emitting event on init (7 ms)
+    ✓ test unregister specific callback (1 ms)
+    ✓ test unregister all callbacks
+    ✓ test register 2 callbacks and remove 1
+    ✓ unregister nonexisting callback
+  fixup
+    ✓ correction if <=0 (2 ms)
+    ✓ correction if >=1
+
+PASS src/lib/distributions/binomial-negative/__test__/rnbinom.test.ts
+  rnbinom
+    using prob, not "mu" parameter
+      ✓ n=10, size=4, prob=0.5 (7 ms)
+      ✓ n=10, size=400E+3, prob=0.5 (2 ms)
+      ✓ n=1, size=Infinity, prob=0.5 (54 ms)
+      ✓ n=1, size=1, prob=1
+      ✓ n=1, size=1, prob=1 (1 ms)
+    using mu, not "prob" parameter
+      ✓ n=10, size=8, mu=12 (prob=0.6)
+      ✓ (check M.E.)n=1, size=8, mu=NaN (1 ms)
+      ✓ n=1, size=8, mu=0
+
+PASS src/lib/distributions/gamma/__test__/qgamma.test.ts
+  qgamma
+    invalid input
+      ✓ p=NaN, shape=1.6, defaults (4 ms)
+      ✓ p=0.5, shape<0 or scale<0, defaults (102 ms)
+      ✓ p=-2 shape=1.6, defaults (2 ms)
+    edge cases
+      ✓ p=0 or p=1, shape=1.6, defaults
+      ✓ shape=0, p=0.5 (0,1) defaults
+      ✓ shape<1e-10, p=0.9 (0,1) defaults (22 ms)
+      ✓ shape=5, (1 - 1e-14) < p < 1, defaults (61 ms)
+      ✓ shape=1e9 (shape high because p<<<1 and need to skip some checks), 0 < p < 1e-100, defaults (11 ms)
+    with fixtures
+      ✓ 0 < p < 1, various shape={9}, lower={false,true}, log={false,true} (36 ms)
+
+PASS src/lib/distributions/poisson/__test__/qpois.test.ts
+  qpois
+    invalid input and edge cases
+      ✓ p = NaN | lambda = NaN (3 ms)
+      ✓ lambda = Infinite (27 ms)
+      ✓ lambda < 0 (2 ms)
+      ✓ lambda = 0 (1 ms)
+      ✓ p <= 0 or p >= 1 any lambda > 0 (3 ms)
+      ✓ asLog = true, and exp(log(p < -10_000)) will go 0 or 1 (lower_tail = false) (1 ms)
+      ✓ 1 - p < 1.01*EPSILON -> Infinity )
+    fidelity
+      ✓ p = [0,1] lambda = 4 (8 ms)
+      ✓ p = [0,1] lambda > 1e5 (1e6) (36 ms)
+
+PASS src/lib/distributions/multinom/__test__/dmultinom.test.ts
+  dmultinom
+    invalid input check and edge cases
+      ✓ non equal arrays x, prob, x=[1,2], prob=[0.4] (45 ms)
+      ✓ probabilities must be finite, positive, and not all 0 (1 ms)
+      ✓ some x[i] are negative
+      ✓ prob[i] = 0 cannot have a x[i] bin that is nonzero, result p = 0 (4 ms)
+    fidelity
+      ✓ for some i, prob[i] = 0 aswell as x[i] (2 ms)
+
+PASS src/lib/distributions/chi-2/__test__/qnchisq.test.ts (5.047 s)
+  qnchisq
+    ✓ p=NaN, df=2, ncp=80 (4 ms)
+    ✓ p=.2, df=NaN, ncp=80 (1 ms)
+    ✓ p=.2, df=2, ncp=NaN
+    ✓ p=.2, df=Infinite, ncp=80 (52 ms)
+    ✓ p=.2, df=-4(<0), ncp=80 (2 ms)
+    ✓ p=.2, df=4, ncp=-80(<0) (1 ms)
+    ✓ bounderies, p=(0,1,1.2,-0.2), df=4, ncp=80 (4 ms)
+    ✓ p=.8, df=42, ncp=80 (46 ms)
+    ✓ p=1-EPS/2, df=4, ncp=75
+    ✓ p=0.3, df=4, ncp=99, lowerTail=false (5 ms)
+    ✓ p [0,1], df=3, ncp=25, lower=false (2696 ms)
+    ✓ p [0,1], df=3, ncp=85, lower=false (474 ms)
+
+PASS src/lib/distributions/hypergeometric/__test__/dhyper.test.ts
+  dhyper(x,m,n,k,log)
+    invalid input
+      ✓ test all inputs on NaN (4 ms)
+      ✓ test all inputs (except x) on negative of non integer (85 ms)
+    edge cases
+      ✓ x = -1, m=0 n=2, k=1 (1 ms)
+      ✓ x = 0, m=0 n=2, k=1 (1 ms)
+      ✓ sample more then avail, x = 3, m=2 n=2, k=1
+      ✓ x is a non integer (1 ms)
+      ✓ (contradiction) n = 0( no samples drawn), x > 0 (1 ms)
+      ✓ n = 0 && x=0
+    with fixtures
+      ✓ x ∈ [0,15], m=20, n=10, k=15 (4 ms)
+
+PASS src/lib/distributions/wilcoxon/__test__/rwilcox.test.ts
+  rwilcox
+    invalid input and edge cases
+      ✓ m=NaN|m=NaN|n=NaN (14 ms)
+      ✓ m < 0 | n < 0 (42 ms)
+      ✓ m == 0 | n == 0 (1 ms)
+      ✓ ( m + n ) > 800_000_000 (1 ms)
+    fidelity
+      ✓ n=100, m = 100 & n= 20, sample.kind=rounding (119 ms)
+      ✓ n=100, m = 100 & n= 20, sample.kind=rejection (48 ms)
+      ✎ todo for rwilcox we are diverging for R for high population number 2**20 etc, investigate
+
+PASS src/lib/distributions/multinom/__test__/rmultinom.test.ts
+  rmultinom
+    invalid input check and edge cases
+      ✓ size < 0 throws exception (26 ms)
+      ✓ n < 0 throws exception (1 ms)
+      ✓ probs = [], size = 0, n = 0, no positive probabilities (2 ms)
+      ✓ probs = [-0.4], size = 1, n = 1, negative probability  (1 ms)
+      ✓ probs = [0, 0], size = 1, n = 1, no positive probabilities (1 ms)
+    fidelity
+      ✓ probs = [0.4,0.4,0.0], size = 0, n = 0, empty array output (2 ms)
+      ✓ probs = [0.4,0.4,0.0], size = 0, n = 1, array(prob.length) with zero elements (1 ms)
+      ✓ probs=c(0.25,4,9,8), size=100, n = 1 (23 ms)
+      ✓ probs=c(0.25,4,0,8), size=100, n = 1 (3 ms)
+
+PASS src/lib/distributions/binomial/__test__/rbinom.test.ts
+  rbinom
+    ✓ n=10, unifrom=Mersenne T, norm=Inversion, size=100, n=10, prob=0.2 (6 ms)
+    ✓ n=10, size=Inf, prob=0.4 (78 ms)
+    ✓ n=10, size=10.2 prob=0.4 (23 ms)
+    ✓ n=10, size=10 prob=1.4 (5 ms)
+    ✓ n=10, size=0 prob=0.4 (1 ms)
+    ✓ n=10, size=4 prob=1 (1 ms)
+    ✓ n=10, size=Number.MAX_SAFE_INTEGER * 2, prob=0.5 (6 ms)
+    ✓ n=100, size=500, prob=0.9 (5 ms)
+    ✓ n=100, size=500, prob=0.001 (4 ms)
+
+PASS src/lib/distributions/binomial/__test__/qbinom.test.ts
+  qbinom
+    ✓ ranges p ∊ [0, 1, step 0.01] size=10, prob=0.5 (39 ms)
+    ✓ p = NaN, size=NaN, prob=0.01 (1 ms)
+    ✓ p = Infinity, size=10, prob=0.5 (43 ms)
+    ✓ p = 0.5, size=Infinity, prob=0.5 (2 ms)
+    ✓ p = 0.5, size=5.2 (non integer), prob=0.5 (1 ms)
+    ✓ p = 0.5, size=-5 (<0), prob=0.5 (2 ms)
+    ✓ p = 0.5, size=5 , prob=0 (1 ms)
+    ✓ p = 0.5, size=5 , prob=1 (1 ms)
+    ✓ p=-2.302, size=50 , prob=0.5, tail=TRUE, logp=TRUE (1 ms)
+    ✓ p=(1-EPSILON/2), size=50 , prob=0.3 (2 ms)
+    ✓ p=0.99, size=50 , prob=0.99 (1 ms)
+    ✓ p=0.99, size=1e6 , prob=0.99 (4 ms)
+    ✓ p=0.72, size=2147483647 , prob=0.80 (4 ms)
+    ✓ p = 0.3, size=NaN, prob=NaN (1 ms)
+
+PASS src/lib/distributions/student-t/__test__/qnt.test.ts
+  qnt(x, df, ncp, lower.tail, log.p)
+    invalid input and edge cases
+      ✓ x=NaN | df=NaN | ncp=NaN (3 ms)
+      ✓ df <= 0 (26 ms)
+      ✓ df <= 0 (1 ms)
+      ✓ p <= 0 | p >= 1 (5 ms)
+      ✓ df = Infinity (1 ms)
+      ✓ p > 1- DBL-EPSILON
+      ✓ ncp = 0, df >= 1 (15 ms)
+    fidelity
+      ✓ p=seq(0,1) df=4 ncp=6 (309 ms)
+
+PASS src/lib/special/gamma/__test__/lgamma.test.ts
+  lgamma
+    ✓ ranges [0.09, 3.99] and [-0.09,-3.99] (10 ms)
+    ✓ force number argument
+    ✓ process float32Array
+    ✓ -1,-2,-10 should return +Infinity (1 ms)
+    ✓ x < 1e-306
+    ✓ |x| > 2.53e+305 (1 ms)
+    ✓ x > 10 (1 ms)
+    ✓ x > 1e17 (4 ms)
+    ✓ x > 4934720 (2 ms)
+    ✓ NaN should return NaN (1 ms)
+    ✓ x < -10 (2 ms)
+    ✓ x = -19.999999999 very close to negative integer should trigger warning (2 ms)
+    ✓ x=-0.5 should return sign -1, x=-1.5 should return sign 1 (7 ms)
+
+PASS src/lib/rng/normal/buggy-kinderman-ramage/__test__/test.ts
+  rng buggy kinderman-ramage
+    ✓ compare 10 samples seed=1234 (5 ms)
+    ✓ get from underlying uniform rng (2 ms)
+    ✓ get from normal rng after get from underlying uniform rng (1 ms)
+    ✓ get uniform from underlying rng (2 ms)
+    ✓ get from normal rng after reset underlying uniform rng (3 ms)
+    ✓ identity and flush-test (26 ms)
+
+PASS src/lib/rng/normal/ahrens-dieter/__test__/test.ts
+  rng ahrens-dieter
+    ✓ compare 1000 samples seed=1234 (25 ms)
+    ✓ compare 10 samples seed=1234 (1 ms)
+    ✓ get from underlying uniform rng (1 ms)
+    ✓ get from normal rng after get from underlying uniform rng
+    ✓ get uniform from underlying rng (1 ms)
+    ✓ get from normal rng after reset underlying uniform rng
+    ✓ identity (1 ms)
+
+PASS src/lib/rng/normal/kinderman-ramage/__test__/test.ts
+  rng kinderman ramage
+    ✓ compare 10 samples seed=1234 (4 ms)
+    ✓ get from underlying uniform rng (1 ms)
+    ✓ get from normal rng after get from underlying uniform rng (1 ms)
+    ✓ get uniform from underlying rng (1 ms)
+    ✓ get from normal rng after reset underlying uniform rng (15 ms)
+    ✓ identity and slush check (14 ms)
+
+PASS src/lib/distributions/logis/__test__/plogis.test.ts
+  plogis
+    edge cases
+      ✓ x = NaN or location = Nan, or scale = NaN or give_log = NaN (3 ms)
+      ✓ scale <= 0 (35 ms)
+      ✓ x = -Infinity and x = Infinity (2 ms)
+    fidelity
+      ✓ x=0.4, location=4, scale = 0.4, lower.tail = false (7 ms)
+      ✓ x=0.4, location=4, scale = 0.4, lower.tail = true
+      ✓ x=0.4, location=4, scale = 0.4, lower.tail = true, log = true (1 ms)
+      ✓ x=0.4, location=4, scale = 0.4, lower.tail = false, log = true
+      ✓ x=252, location=4, scale = 0.4, lower.tail = false, log=true (1 ms)
+      ✓ x = 14, location = 4, scale = 0.4, lower.tail = false, log=true
+
+PASS src/lib/distributions/logis/__test__/qlogis.test.ts
+  qlogis
+    edge cases
+      ✓ x = NaN or location = Nan, or scale = NaN or give_log = NaN (4 ms)
+      ✓ p = 0 (1 ms)
+      ✓ p = 1 (1 ms)
+      ✓ p = -1 and p = 1.2 (44 ms)
+      ✓ scale <= 0 (3 ms)
+      ✓ scale == 0
+    fidelity
+      ✓ x=0.4, location=4, scale = 0.4, lower.tail = false
+      ✓ x=0.4, location=4, scale = 0.4, lower.tail = true (1 ms)
+      ✓ x=0.4, location=4, scale = 0.4, lower.tail = false, log.p=true (1 ms)
+      ✓ x=0.4, location=4, scale = 0.4, lower.tail = true, log.p=true
+
+PASS src/lib/distributions/wilcoxon/__test__/qwilcox.test.ts
+  qwilcox
+    invalid input and edge cases
+      ✓ x=NaN|m=NaN|n=NaN (19 ms)
+      ✓ x=Inf | m = Inf | n = Inf (75 ms)
+      ✓ m <= 0 | n <= 0 (4 ms)
+      ✓ q < 0 || q > 1 (3 ms)
+      ✓ q = 0 | q = 1 (1 ms)
+    fidelity
+      ✓ p=(0,1) qwilcox(p, 10, 10) (20 ms)
+
+PASS src/lib/distributions/signrank/__test__/psign.test.ts
+  psignrank (wilcox sign rank)
+    invalid input and edge cases
+      ✓ x = NaN | n = NaN (7 ms)
+      ✓ n <= 0| n = Inf (56 ms)
+      ✓ x < 0 or x > n*(n+1)/2 (1 ms)
+      ✎ todo run over all W+ for n=1 and n=2
+    fidelity
+      ✓ (non wasm) n = 40, 0 < x < n*(n+1)/2  (404 ms)
+      ✓ (wasm acc) n = 40, 0 < x < n*(n+1)/2  (149 ms)
+
+PASS src/lib/rng/normal/inversion/__test__/test.ts
+  rng inversion
+    ✓ compare 10 samples seed=1234 (6 ms)
+    ✓ get from underlying uniform rng (1 ms)
+    ✓ get from normal rng after get from underlying uniform rng (1 ms)
+    ✓ get uniform from underlying rng (10 ms)
+    ✓ get from normal rng after reset underlying uniform rng (15 ms)
+    ✓ identity (1 ms)
+
+PASS src/lib/distributions/uniform/__test__/runif.test.ts
+  runif
+    invalid input and edge cases
+      ✓ n=Nan (62 ms)
+      ✓ n=0 (10 ms)
+      ✓ n=0 (1 ms)
+      ✓ a = Infinite| b = Infinite| a > b (17 ms)
+      ✓ a = Infinite| b = Infinite| a > b (5 ms)
+    fidelity
+      ✓ default input (4 ms)
+
+PASS src/lib/distributions/weibull/__test__/pweibull.test.ts
+  pweibull
+    invalid input and edge cases
+      ✓ x=NaN|shape=NaN|scale=NaN (4 ms)
+      ✓ shape < 0 | scale < 0 (53 ms)
+      ✓ x < 0 (1 ms)
+      ✓ x = Infinite (1 ms)
+      ✓ x == 0 && shape < 1 (1 ms)
+    fidelity
+      ✓ x=34, shape=23.9, scale=45 (2 ms)
+      ✓ x=34, shape=23.9, scale=45, giveLog=true (12 ms)
+      ✓ x=22, shape=0.123, scale= 10, lower_tail=false, givelog=true (1 ms)
+      ✓ x=22, shape=0.123, scale= undefined, lower_tail=false, givelog=true
+
+PASS src/lib/distributions/poisson/__test__/ppois.test.ts
+  ppois
+    invalid input and edge cases
+      ✓ x and lambda are NaN (6 ms)
+      ✓ lambda < 0 (67 ms)
+      ✓ x < 0 (1 ms)
+      ✓ lambda = 0 (1 ms)
+      ✓ x = Infinity lambda = 4 (1 ms)
+    fidelity
+      ✓ x > 0 lambda = 10 (6 ms)
+      ✓ x > 0 lambda = 5 (5 ms)
+      ✓ x > 0 lambda = 20 (40 ms)
+
+PASS src/lib/special/gamma/__test__/psigamma.test.ts
+  psigamma
+    ✓ deriv > 100 always returns NaN (19 ms)
+    ✓ ranges (1,2,3) (33 ms)
+    ✓ deriv=-1 should return NaN (1 ms)
+    ✓ -1.5 deriv=3 makes 194.5943 (4 ms)
+    ✓ -1.5 deriv=4 makes NaN (2 ms)
+    ✓ n=0 and x*ln(x) > 0.5/Number.EPSILON should use shortcut (3 ms)
+    ✓ n=3 and x > n*0.5/Number.EPSILON should use shortcut (1 ms)
+    ✓ n=33 and x = Number.EPSILON * 0.25, trigger overflow (1 ms)
+    ✓ n=3 and x  =  Number.EPSILON * 0.25, trigger overflow
+    ✓ flush test (125 ms)
+
+PASS src/lib/distributions/uniform/__test__/punif.test.ts
+  punif
+    invalid input and edge cases
+      ✓ x=Nan|min=NaN|max=NaN (13 ms)
+      ✓ x < min=(0) | x > max=(1) (1 ms)
+      ✓ x = min | x = max (1 ms)
+      ✓ min >= max (62 ms)
+      ✓ min = Infinity | max = Infinity (2 ms)
+    fidelity
+      ✓ x = 9, a=10, b=11, lowerTail=false|log=true (1 ms)
+      ✓ 4 < x < 4.001, lowerTail=false, giveLog=True (1 ms)
+      ✓ 4 < x < 4.001, lowerTail=true, giveLog=True (1 ms)
+
+PASS src/lib/distributions/lognormal/__test__/dlnorm.test.ts (5.041 s)
+  dlnorm
+    invalid input
+      ✓ x=NaN | meanLog=NaN | sdLog=NaN, giveLog=false (24 ms)
+      ✓ sdLob = 0 and ln(y) != meanLog (13 ms)
+      ✓ sdLob = 0 and ln(y) == meanLog
+      ✓ sdLob < 0 (112 ms)
+      ✓ x < 0 (1 ms)
+    fidelity
+      ✓ x = [0,100, step 1], mhu=4, sd=8 (20 ms)
+
+PASS src/lib/distributions/lognormal/__test__/qlnorm.test.ts
+  qlnorm
+    invalid input
+      ✓ p=NaN | meanLog=NaN | sdLog=NaN (8 ms)
+      ✓ p < 0 (119 ms)
+      ✓ p <= 0 | p >= 1 (13 ms)
+    fidelity (defer to qnorm for most)
+      ✓ x = [0,1, step 0.1], mhu=4, sd=8 (25 ms)
+
+PASS src/lib/distributions/wilcoxon/__test__/dwilcox.test.ts
+  dwilcox
+    invalid input and edge cases
+      ✓ x=NaN|m=NaN|n=NaN (13 ms)
+      ✓ m <= 0 | n <= 0 (103 ms)
+      ✓ if x is larger then an integer by 1e-7 return 0 (19 ms)
+      ✓ x < 0 || x > m*n (1 ms)
+    fidelity
+      ✓ n=4, m=5 (27 ms)
+
+PASS src/lib/distributions/f-distro/__test__/df.test.ts (5.652 s)
+  df
+    ✓ x ∈ [-0.125, 3.1250], df1=23, df2=52 (67 ms)
+    ✓ x=1, df1=NaN, df2=4 (1 ms)
+    ✓ x=1, df1=-1(<0), df2=4 (75 ms)
+    ✓ x=0, df1=3(>2), df2=4 (1 ms)
+    ✓ x=0, df1=2, df2=4
+    ✓ x=0, df1=1, df2=4
+    ✓ x=4, df1=inf, df2=inf (1 ms)
+    ✓ x=1, df1=inf, df2=inf
+    ✓ x=1, df1=44, df2=inf (66 ms)
+    ✓ x=1, df1=1e15, df2=234 (2 ms)
+    ✓ x=1, df1=1e15, df2=234, log=true (7 ms)
+    ✓ x=1, df1=1, df2=1
+    ✓ x=1, df1=1, df2=1, log=true (1 ms)
+
+PASS src/lib/distributions/f-distro/__test__/dnf.test.ts
+  dnf (df with ncp is finite)
+    ✓ x ∈ [-0.125, 3.1250], df1=23, df2=52, ncp=98 (44 ms)
+    ✓ x=1, df1=NaN, df2=4, ncp=98
+    ✓ x=1, df1=-1(<=0), df2=4, ncp=98 (94 ms)
+    ✓ x=1, df1=2, df2=4, ncp=Inf (2 ms)
+    ✓ x=4, df1=inf, df2=inf, ncp=98 (1 ms)
+    ✓ x=1, df1=inf, df2=inf, ncp=98 (1 ms)
+    ✓ x=1, df1=44, df2=inf, ncp=98 (78 ms)
+    ✓ x=1, df1=1e15, df2=234, ncp=98 (3 ms)
+    ✓ x=1, df1=1e15, df2=23, ncp=98 log=true (6 ms)
+    ✓ x=5, df1=3, df2=5, ncp=24, log=true (2 ms)
+    ✓ x=1, df1=1, df2=1, log=true (1 ms)
+
+I am package egg
+sh: eslint: command not found
+I am package level-ttl
+standard: Use JavaScript Standard Style (https://standardjs.com)
+standard: Run `standard --fix` to automatically fix some problems.
+
+/data/js-variants/multee/Original/level-ttl/node_modules/levelup/lib/levelup.js:216
+      return callback(new WriteError(err))
+                      ^
+Error [WriteError]: key cannot be `null` or `undefined`
+    at /data/js-variants/multee/Original/level-ttl/node_modules/levelup/lib/levelup.js:216:23
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  [cause]: Error: key cannot be `null` or `undefined`
+      at DB.AbstractLevelDOWN._checkKey (/data/js-variants/multee/Original/level-ttl/node_modules/abstract-leveldown/abstract-leveldown.js:351:12)
+      at DB.AbstractLevelDOWN.put (/data/js-variants/multee/Original/level-ttl/node_modules/abstract-leveldown/abstract-leveldown.js:149:20)
+      at LevelUP.put (/data/js-variants/multee/Original/level-ttl/node_modules/levelup/lib/levelup.js:214:11)
+      at put (/data/js-variants/multee/Original/level-ttl/level-ttl.js:8:5023)
+      at Test.throws (/data/js-variants/multee/Original/level-ttl/node_modules/tape/lib/test.js:630:3)
+      at Test.bound [as throws] (/data/js-variants/multee/Original/level-ttl/node_modules/tape/lib/test.js:95:17)
+      at /data/js-variants/multee/Original/level-ttl/test.js:134:5
+      at /data/js-variants/multee/Original/level-ttl/test.js:41:5
+      at /data/js-variants/multee/Original/level-ttl/test.js:33:7
+      at /data/js-variants/multee/Original/level-ttl/node_modules/levelup/lib/levelup.js:130:5
+      at /data/js-variants/multee/Original/level-ttl/node_modules/abstract-leveldown/abstract-leveldown.js:44:5
+      at onopen (/data/js-variants/multee/Original/level-ttl/node_modules/deferred-leveldown/deferred-leveldown.js:68:5)
+      at /data/js-variants/multee/Original/level-ttl/node_modules/abstract-leveldown/abstract-leveldown.js:44:5
+      at /data/js-variants/multee/Original/level-ttl/node_modules/abstract-leveldown/abstract-leveldown.js:44:5
+}
+I am package nodejs-logging-winston
+I am package file-type

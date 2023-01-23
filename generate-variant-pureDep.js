@@ -39,7 +39,7 @@ bloatedNodes.forEach(node => {
     const nodeMIdx = pathArr.indexOf("node_modules")
     const depName = pathArr[nodeMIdx + 1]
     const variantIndex = bloatedPureDeps.indexOf(depName)
-    
+
     if (variantIndex >= 0) {
         const variantPath = `VariantsPureDep/${projectName}/variant${variantIndex + 1}/${projectName}`
 
