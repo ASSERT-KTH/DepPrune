@@ -98,21 +98,31 @@
 #     echo $x
 # done
 
-path='top1361_folder_commit.txt'
+path='top_dependencies_greater1.txt'
 # path='top5_test.txt'
-
+m=5
+n=90
 cat $path | while read rows
 do
-    cd Original
+    # cd Original
     array=(${rows//,/ })
-    folder=${array[0]}
-    cd $folder
-    echo `pwd`
+    # folder=${array[0]}
+    total=${array[4]}
+    if [ $total -ge $m ];then
+        if [ $total -le $n ];then
+        # str=$total","
+        # echo -n $str >> top_dependencies_temp.txt
+            echo $rows >> top_blabla.txt
+        fi
+    fi
+    # cd $folder
+    # echo `pwd`
     # calculate the number of direct dependencies, transitive dependencies and total dependencies.
-    # str=$folder","$url","$commitID
-    # echo $str >> ../../top_number_dependencies.txt
-    python3 ../../collectRepoUrl.py $folder
-    cd ../..
+    # str=$total","
+    # echo -n $str >> top_dependencies_temp.txt
+    # echo $str >> top_dependencies_temp.txt
+    # python3 ../../collectRepoUrl.py $folder
+    # cd ../..
 done
 
 # path='top_dependencies_greater1_test_random.txt'

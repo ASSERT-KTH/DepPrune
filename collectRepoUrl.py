@@ -2,7 +2,7 @@ import sys
 import json
 import random
 
-project = sys.argv[1]
+# project = sys.argv[1]
 # filePath = f'./Data/{project}/{project}_dependants_url.txt'
 # newFilePath = f'./Data/{project}/{project}_dependants_url_100.txt'
 
@@ -73,65 +73,65 @@ project = sys.argv[1]
 # newFile.close()
 
 # # # calculate direct dependencies, transitive dependencies
-totalDeps = []
-extraneousDeps = []
-directDepsLen = 0
-# scan production dependencies from npm list
-def get_production_deps(dictionary):
-    for key, value in dictionary.items():
-        if key == "dependencies" and isinstance(value, dict):
-            childDict = value
-            output = list(childDict.keys())
-            for subKey, subValue in childDict.items():
-                for subSubKey, subSubValue in subValue.items():
-                    if subSubKey == "extraneous" and subSubValue == True:
-                        extraneousDeps.append(subSubKey)
-            for dep in output:
-                totalDeps.append(dep)
-            for itemKey, itemValue in childDict.items():
-                get_production_deps(itemValue)
+# totalDeps = []
+# extraneousDeps = []
+# directDepsLen = 0
+# # scan production dependencies from npm list
+# def get_production_deps(dictionary):
+#     for key, value in dictionary.items():
+#         if key == "dependencies" and isinstance(value, dict):
+#             childDict = value
+#             output = list(childDict.keys())
+#             for subKey, subValue in childDict.items():
+#                 for subSubKey, subSubValue in subValue.items():
+#                     if subSubKey == "extraneous" and subSubValue == True:
+#                         extraneousDeps.append(subSubKey)
+#             for dep in output:
+#                 totalDeps.append(dep)
+#             for itemKey, itemValue in childDict.items():
+#                 get_production_deps(itemValue)
 
-def get_direct_deps(dictionary):
-    if "dependencies" in dictionary.keys():
-        directDeps = list(dictionary['dependencies'])
-        print('directDeps: ', directDeps)
-        return len(directDeps)
-    return 0
+# def get_direct_deps(dictionary):
+#     if "dependencies" in dictionary.keys():
+#         directDeps = list(dictionary['dependencies'])
+#         print('directDeps: ', directDeps)
+#         return len(directDeps)
+#     return 0
 
-def has_test(dictionary):
-    if "scripts" in dictionary.keys():
-        scripts = list(dictionary['scripts'])
-        if "test" in scripts:
-            return True
-    return False
+# def has_test(dictionary):
+#     if "scripts" in dictionary.keys():
+#         scripts = list(dictionary['scripts'])
+#         if "test" in scripts:
+#             return True
+#     return False
 
 
-filePath_package = f'package.json'    
-f_package = open(filePath_package, encoding="utf-8")  
-packageDict = json.load(f_package)
-directDepsLen = get_direct_deps(packageDict)
+# filePath_package = f'package.json'    
+# f_package = open(filePath_package, encoding="utf-8")  
+# packageDict = json.load(f_package)
+# directDepsLen = get_direct_deps(packageDict)
 
-hasTest = has_test(packageDict)
+# hasTest = has_test(packageDict)
 
-filePath_deps = f'productionDependencies.json'
-f_deps = open(filePath_deps, encoding="utf-8")
-productionDict = json.load(f_deps)
-get_production_deps(productionDict)
+# filePath_deps = f'productionDependencies.json'
+# f_deps = open(filePath_deps, encoding="utf-8")
+# productionDict = json.load(f_deps)
+# get_production_deps(productionDict)
 
-extraneousDepsLen = len(extraneousDeps)
-totalDepsLen = len(totalDeps) - extraneousDepsLen
-transDepsLen = totalDepsLen - directDepsLen
-print("extraneousDeps: ", extraneousDeps)
+# extraneousDepsLen = len(extraneousDeps)
+# totalDepsLen = len(totalDeps) - extraneousDepsLen
+# transDepsLen = totalDepsLen - directDepsLen
+# print("extraneousDeps: ", extraneousDeps)
 
-if (totalDepsLen >= 5) and hasTest:
-# if (totalDepsLen >= 5):
-    line = project + ',' + str(extraneousDepsLen) + "," + str(directDepsLen) + "," + str(transDepsLen) + ',' + str(totalDepsLen) + ',' + str(hasTest) + '\n'
-    # line = project + ',' + str(extraneousDepsLen) + "," + str(directDepsLen) + "," + str(transDepsLen) + ',' + str(totalDepsLen) + '\n'
-    productionDepPath = f'../../top_dependencies_greater5_test.txt'
-    productionsFile = open(productionDepPath, 'a')
+# if (totalDepsLen >= 5) and hasTest:
+# # if (totalDepsLen >= 5):
+#     line = project + ',' + str(extraneousDepsLen) + "," + str(directDepsLen) + "," + str(transDepsLen) + ',' + str(totalDepsLen) + ',' + str(hasTest) + '\n'
+#     # line = project + ',' + str(extraneousDepsLen) + "," + str(directDepsLen) + "," + str(transDepsLen) + ',' + str(totalDepsLen) + '\n'
+#     productionDepPath = f'../../top_dependencies_greater5_test.txt'
+#     productionsFile = open(productionDepPath, 'a')
 
-    productionsFile.writelines(line)
-    productionsFile.close()
+#     productionsFile.writelines(line)
+#     productionsFile.close()
 
 
 # # collect productions from the dataset of the production packages
