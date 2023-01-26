@@ -1,0 +1,467 @@
+/data/js-variants/multee/Original/ascii-progress
+I am package ascii-progress
+
+> ascii-progress@1.0.1 test
+> echo
+
+
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |       0 |        0 |       0 |       0 |                   
+----------|---------|----------|---------|---------|-------------------
+/data/js-variants/multee/Original/gofer
+I am package gofer
+
+> gofer@5.2.4 pretest
+> npm-run-all pretest:*
+
+
+> gofer@5.2.4 pretest:lint
+> npm-run-all lint:*
+
+
+> gofer@5.2.4 lint:js
+> eslint .
+
+
+> gofer@5.2.4 test
+> npm-run-all test:*
+
+
+> gofer@5.2.4 test:unit
+> c8 mocha
+
+
+
+  in a browser
+    1) works (almost) just the same
+
+  config handling
+    ✔ applies service-level default
+    ✔ falls back to global default
+    ✔ does not apply endpoint default if endpointName is not provided
+    ✔ does not apply endpoint default for other endpoints
+    ✔ applies endpoint-level defaults
+    ✔ falls back to service-level defaults
+    ✔ merges fetch-argument qs obj with nothing
+    ✔ merges fetch-argument qs URLSearchParams with nothing
+    ✔ merges fetch-argument qs obj with config obj
+    ✔ merges fetch-argument qs URLSearchParams with config obj
+    ✔ merges fetch-argument & config URLSearchParams
+    ✔ merges fetch-argument qs obj with config URLSearchParams
+
+  fetch: the basics
+    ✔ can load using just a url string
+    ✔ exposes the url on the response
+    ✔ can load using path and baseUrl option
+    ✔ has a convenience .json method
+    ✔ exposes the response body on status code error object
+    ✔ exposes the full URL and HTTP method on status code error object
+    ✔ when option "captureAsyncStack" is set, extends async error stack with previous stack in error object
+    ✔ can add query string arguments
+    ✔ can add URLSearchParams
+    ✔ can replace path params
+    ✔ fails when a {pathParam} is not provided
+    ✔ fails when a {pathParam} in the baseUrl is not provided
+    ✔ does not fail when a pathParam is not used
+    ✔ throws when the url is not a string
+    ✔ throws when the baseUrl contains a query string
+    ✔ exposes a promise to a response body stream
+    ✔ allows controlling the http method
+    ✔ allows passing headers
+    ✔ allows passing in nested query string params
+    ✔ sets basic auth header from string
+    ✔ sets basic auth header from object
+    ✔ returns response headers
+    host header
+      ✔ sends a valid host header
+      ✔ sends a valid host header with baseUrl
+
+  fetch: https
+    ✔ can load from valid https remote (431ms)
+    ✔ fails with self-signed https
+    ✔ supports rejectUnauthorized=false
+    ✔ can load from self-signed https remote
+    ✔ can load using reusable secureContext
+
+  fetch: searchDomain
+    ✔ appends the searchDomain to non-fqdns in uri (151ms)
+    ✔ appends the searchDomain to non-fqdns in baseUrl
+    ✔ never appends the searchDomain to fqdns in uri (109ms)
+    ✔ never appends the searchDomain to fqdns in baseUrl (101ms)
+    localhost and IP
+      ✔ never appends the searchDomain to localhost
+      ✔ never appends the searchDomain to an IP address
+
+  fetch: timeouts
+    ✔ succeeds if timeout is not exceeded (103ms)
+    ✔ response- & read-timeout are independent (203ms)
+    ✔ will time out if response takes too long (102ms)
+    ✔ will time out if body takes too long (103ms)
+    ✔ connection timed out (102ms)
+    timeout in the presence of blocking event loop
+      ✔ gives it a last chance (173ms)
+      ✔ can be aborted with AbortController signal (Node 15+)
+    completionTimeout
+      ✔ does not pass an error when timeout is not exceeded
+      ✔ passes an error when timeout is exceeded
+      ✔ is triggered by a constant trickle of packages (202ms)
+
+  gofer
+    ✔ exports a `fetch` function
+    ✔ exposes Gofer as exports.default
+    direct usage
+      ✔ can fetch something
+    call that sets a header
+      ✔ does not affect defaults
+    sub-class
+      ✔ can fetch something
+
+  Verify instrumentation support
+    direct request
+      ✔ sets the meta data
+    call endpoint
+      ✔ sets the meta data
+    with explicit methodName
+      ✔ sets the meta data
+
+  legacy / callback mode
+    using Gofer.fetch
+      ✔ returns undefined
+      ✔ returns the parsed body as data
+      ✔ includes the response object
+      ✔ includes the parsed body on 404s
+    registerEndpoints
+      ✔ can be used as a promise
+      ✔ turns into errback-style when callback is provided
+    using new Gofer().*
+      ✔ exposes the legacy mode interface
+
+  fetch: maxSockets
+    ✔ loads two one after the other (213ms)
+
+  fetch: multi-part via form-data
+    ✔ can send a complex form with file uploads
+
+  fetch: sending a body
+    ✔ can send a string
+    ✔ can send a Buffer
+    ✔ can send a node ReadableStream
+    ✔ can send a JSON body
+    ✔ can send a form body
+
+
+  79 passing (5s)
+  1 failing
+
+  1) in a browser
+       works (almost) just the same:
+     Error: Command failed: /data/js-variants/multee/Original/gofer/node_modules/mochify/bin/cmd.js --allow-chrome-as-root ./test/**/*.test.js
+Error: Failed to launch the browser process!
+/data/js-variants/multee/Original/gofer/node_modules/puppeteer/.local-chromium/linux-961656/chrome-linux/chrome: error while loading shared libraries: libatk-1.0.so.0: cannot open shared object file: No such file or directory
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
+
+
+
+      at ChildProcess.exithandler (node:child_process:400:12)
+      at ChildProcess.emit (node:events:513:28)
+      at maybeClose (node:internal/child_process:1093:16)
+      at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)
+
+
+
+-------------|---------|----------|---------|---------|-------------------------------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                         
+-------------|---------|----------|---------|---------|-------------------------------------------
+All files    |   93.81 |     83.7 |   91.35 |   93.81 |                                           
+ errors.js   |   77.59 |    54.55 |   66.67 |   77.59 | 31,58-60,63-65,68-70,89-102,109-110       
+ fetch.js    |   93.43 |       80 |     100 |   93.43 | 31,69-70,78-79,138-144,158-159,182-185    
+ gofer.js    |    98.3 |       90 |   94.12 |    98.3 | 31,121-122                                
+ legacy.js   |   93.15 |    82.35 |     100 |   93.15 | 31,50-51,65-66                            
+ request.js  |   96.21 |    90.12 |   86.49 |   96.21 | 31,43,91-93,95-97,104-105,123-124,129-130 
+ response.js |   92.92 |    78.95 |     100 |   92.92 | 31,50-52,79-82                            
+ url.js      |    98.9 |    82.61 |     100 |    98.9 | 39                                        
+-------------|---------|----------|---------|---------|-------------------------------------------
+-------------|---------|----------|---------|---------|---------------------------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                     
+-------------|---------|----------|---------|---------|---------------------------------------
+All files    |   90.66 |    85.11 |   88.88 |    91.4 |                                       
+ errors.js   |   70.27 |    18.18 |   57.14 |   70.27 | 59,64,69,93-102,109-110               
+ fetch.js    |   87.25 |    83.62 |     100 |   88.04 | 69,78,105,110,124,138-143,158,182,253 
+ gofer.js    |   98.41 |     92.1 |   93.75 |   98.41 | 121                                   
+ legacy.js   |   89.47 |      100 |    87.5 |   88.88 | 50,65                                 
+ request.js  |   95.75 |    92.18 |   86.84 |   96.87 | 92-96,104,123-129                     
+ response.js |   77.77 |       80 |    90.9 |   77.77 | 50-53,79-81                           
+ url.js      |   96.15 |    90.47 |     100 |     100 | 57,89                                 
+-------------|---------|----------|---------|---------|---------------------------------------
+/data/js-variants/multee/Original/q-i
+I am package q-i
+
+> q-i@2.0.1 pretest
+> npm run lint
+
+
+> q-i@2.0.1 lint
+> eslint . --cache --fix
+
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |       0 |        0 |       0 |       0 |                   
+----------|---------|----------|---------|---------|-------------------
+/data/js-variants/multee/Original/iterator-stream
+I am package iterator-stream
+
+> level-iterator-stream@5.0.0 test
+> standard && hallmark && (nyc -s node test.js | faucet) && nyc report
+
+# setup[K
+  ok [1m[32m1[0m no error[K  ok [1m[32m2[0m no error[K[1A[1G[1m[32m✓ setup[0m[1B[1G# keys and values[K
+  ok [1m[32m3[0m should be truthy[K  ok [1m[32m4[0m should be truthy[K  ok [1m[32m5[0m should be strictly equal[K  ok [1m[32m6[0m should be strictly equal[K  ok [1m[32m7[0m should be truthy[K  ok [1m[32m8[0m should be truthy[K  ok [1m[32m9[0m should be strictly equal[K  ok [1m[32m10[0m should be strictly equal[K  ok [1m[32m11[0m should be truthy[K  ok [1m[32m12[0m should be truthy[K  ok [1m[32m13[0m should be strictly equal[K  ok [1m[32m14[0m should be strictly equal[K  ok [1m[32m15[0m should be strictly equal[K[1A[1G[1m[32m✓ keys and values[0m[1B[1G# normal event order[K
+  ok [1m[32m16[0m should be deeply equivalent[K[1A[1G[1m[32m✓ normal event order[0m[1B[1G# error from iterator.next[K
+  ok [1m[32m17[0m event order[K[1A[1G[1m[32m✓ error from iterator.next[0m[1B[1G# error from iterator end[K
+  ok [1m[32m18[0m undefined[K  ok [1m[32m19[0m should be deeply equivalent[K[1A[1G[1m[32m✓ error from iterator end[0m[1B[1G# .destroy[K
+  ok [1m[32m20[0m should be deeply equivalent[K[1A[1G[1m[32m✓ .destroy[0m[1B[1G# .destroy(err)[K
+  ok [1m[32m21[0m should be deeply equivalent[K[1A[1G[1m[32m✓ .destroy(err)[0m[1B[1G# .destroy(err, callback)[K
+  ok [1m[32m22[0m got error[K  ok [1m[32m23[0m should be deeply equivalent[K[1A[1G[1m[32m✓ .destroy(err, callback)[0m[1B[1G# .destroy(null, callback)[K
+  ok [1m[32m24[0m no error[K  ok [1m[32m25[0m should be deeply equivalent[K[1A[1G[1m[32m✓ .destroy(null, callback)[0m[1B[1G# .destroy() during iterator.next[K
+  ok [1m[32m26[0m event order[K[1A[1G[1m[32m✓ .destroy() during iterator.next[0m[1B[1G# .destroy(err) during iterator.next[K
+  ok [1m[32m27[0m event order[K[1A[1G[1m[32m✓ .destroy(err) during iterator.next[0m[1B[1G# .destroy(err, callback) during iterator.next[K
+  ok [1m[32m28[0m got error[K  ok [1m[32m29[0m event order[K[1A[1G[1m[32m✓ .destroy(err, callback) during iterator.next[0m[1B[1G# .destroy(null, callback) during iterator.next[K
+  ok [1m[32m30[0m no error[K  ok [1m[32m31[0m event order[K[1A[1G[1m[32m✓ .destroy(null, callback) during iterator.next[0m[1B[1G# .destroy during iterator.next 1[K
+  ok [1m[32m32[0m should be called once[K[1A[1G[1m[32m✓ .destroy during iterator.next 1[0m[1B[1G# .destroy during iterator.next 2[K
+  ok [1m[32m33[0m should be called[K  ok [1m[32m34[0m should be called[K  ok [1m[32m35[0m should be called[K[1A[1G[1m[32m✓ .destroy during iterator.next 2[0m[1B[1G# .destroy after iterator.next 1[K
+  ok [1m[32m36[0m should be called[K[1A[1G[1m[32m✓ .destroy after iterator.next 1[0m[1B[1G# .destroy after iterator.next 2[K
+  ok [1m[32m37[0m should be called[K  ok [1m[32m38[0m should be called[K  ok [1m[32m39[0m should be called[K[1A[1G[1m[32m✓ .destroy after iterator.next 2[0m[1B[1G# keys=false[K
+  ok [1m[32m40[0m should be strictly equal[K[1A[1G[1m[32m✓ keys=false[0m[1B[1G# values=false[K
+  ok [1m[32m41[0m should be strictly equal[K[1A[1G[1m[32m✓ values=false[0m[1B[1G# keeps a reference to the iterator[K
+  ok [1m[32m42[0m has reference[K[1A[1G[1m[32m✓ keeps a reference to the iterator[0m[1B[1G# it is safe to close db on end of stream[K
+  ok [1m[32m43[0m no error[K[1A[1G[1m[32m✓ it is safe to close db on end of stream[0m[1B[1G# tests 43[K
+tests 43# pass  43[K
+pass  43# ok[K
+[1A[1G[1m[32m✓ ok[0m[1B[1G----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ index.js |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+/data/js-variants/multee/Original/base
+I am package base
+
+> base@3.0.0 test
+> mocha
+
+
+
+  constructor
+    ✓ should return an instance of Base
+    ✓ should "visit" over an object to extend the instance
+    ✓ should map "visit" over an array to extend the instance
+    ✓ should set options passed as the second argument
+    ✓ should merge options throughout the inheritance chain
+    ✓ should set isApp on the instance
+
+  static properties
+    ✓ should expose `.use` method
+    ✓ should extend static properties
+    .use
+      ✓ should use a globally loaded plugin through the static use method
+      ✓ should use a globally loaded plugin through the static use method with namespace
+      ✓ should use different globally installed plugins when using different namespaces
+
+  extend prototype methods
+    ✓ should extend the prototype of the given Ctor
+    ✓ should expose `prototype.set` method
+    ✓ should expose `prototype.get` method
+    ✓ should expose `prototype.del` method
+    ✓ should expose `prototype.visit` method
+    ✓ should expose `prototype.define` method
+    ✓ should add prototype methods to the given Ctor
+
+  instance properties
+    ✓ should expose the options property
+    ✓ should expose the cache property
+
+  prototype methods
+    .use
+      ✓ should expose a .use method
+      ✓ should call the function passed to `use`
+      ✓ should expose the app instance
+      ✓ should expose the app instance as "this"
+      ✓ should run a plugin multiple times
+      ✓ should not run a plugin more than once when a plugin name is given
+    when `isRegistered` is used
+      ✓ should not call a plugin more than once on the same instance
+      ✓ should not register a plugin when `false` is passed as the 2nd arg
+      ✓ should not call a plugin more than once on the same instance
+    .define
+      ✓ should define a key-value pair on the instance
+      ✓ should define an own property
+      ✓ should define a non-emumerable property
+      ✓ should multiple properties
+    .set
+      ✓ should set a key-value pair on the instance
+      ✓ should set nested property
+      ✓ should set a nested property with the key as an array
+      ✓ should set an object on the instance
+    .get
+      ✓ should get a property from the instance
+      ✓ should get a nested property from the instance
+      ✓ should get a property using an array
+      ✓ should get a property using an array of path segments
+    .has
+      ✓ should work with namespaces
+      ✓ should check for a property from the instance
+      ✓ should check for a nested property from the instance
+      ✓ should check for a property using an array
+      ✓ should check for a property using a list of arguments
+    .visit
+      ✓ should visit an object with the given method
+      ✓ should visit an array with the given method
+    .del
+      ✓ should remove a property
+      ✓ should remove an array of properties
+
+  namespaces
+    constructor
+      ✓ should expose `namespace`
+      ✓ should extend the given Ctor with static methods
+    prototype methods
+      set
+        ✓ should set a key-value pair on the instance
+        ✓ should set an object on the instance
+      get
+        ✓ should get a property from the instance
+        ✓ should visit an object with the given method
+        ✓ should visit an array with the given method
+      del
+        ✓ should remove a property
+
+  .base
+    ✓ should set a `base` property on the instance
+    ✓ should use `parent` to set app.base
+
+  .is
+    ✓ should set a name prefixed with `is` on the instance
+    ✓ should remove isApp when another type is set
+
+  events
+    ✓ should emit and listen for events
+    ✓ should emit set
+    ✓ should emit get
+    ✓ should emit del
+    ✓ should emit when a named plugin is registered the first time
+
+
+  67 passing (36ms)
+
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |   98.18 |    96.29 |      90 |   98.07 |                   
+ index.js |   98.18 |    96.29 |      90 |   98.07 | 253               
+----------|---------|----------|---------|---------|-------------------
+/data/js-variants/multee/Original/docker-modem
+I am package docker-modem
+
+> docker-modem@3.0.6 test
+> ./node_modules/mocha/bin/mocha -R spec --exit
+
+
+
+  Modem
+    ✔ should default to default socket path
+    ✔ should use specific cert, key and ca
+    ✔ shouldn't default to default socket path
+    ✔ should use default value if argument not defined in constructor parameter object
+    ✔ should allow DOCKER_HOST=unix:///path/to/docker.sock
+    ✔ should interpret DOCKER_HOST=unix:// as /var/run/docker.sock
+    ✔ should interpret DOCKER_HOST=tcp://N.N.N.N:2376 as https
+    ✔ should interpret DOCKER_HOST=tcp://[::1]:12345
+    ✔ should interpret DOCKER_HOST=tcp://N.N.N.N:5555 as http
+    ✔ should interpret DOCKER_HOST=tcp://N.N.N.N:5555 as http
+    ✔ should accept DOCKER_HOST=N.N.N.N:5555 as http
+    ✔ should auto encode querystring option maps as JSON
+    ✔ should parse DOCKER_CLIENT_TIMEOUT from environment
+    ✔ should use default http agent when no agent is specified
+    ✔ should use custom http agent
+    ✔ should set default ssh agent options from DOCKER_HOST
+    ✔ should combine custom ssh agent options
+
+
+  17 passing (12ms)
+
+----------------|---------|----------|---------|---------|------------------------------------------
+File            | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                        
+----------------|---------|----------|---------|---------|------------------------------------------
+All files       |    28.6 |    17.88 |    12.5 |   29.23 |                                          
+ http.js        |   35.71 |        0 |   42.85 |   36.58 | 23-73,80-82                              
+ http_duplex.js |   28.12 |        0 |       0 |   31.03 | 9-16,20-29,34,38-39,43-44,48-49          
+ modem.js       |   27.98 |    20.52 |    12.5 |    28.3 | ...9-222,226-334,339-373,379-417,421-469 
+ ssh.js         |   15.78 |        0 |       0 |   16.66 | 5-29                                     
+ utils.js       |   38.46 |        0 |       0 |   38.46 | 8-15,19-22                               
+----------------|---------|----------|---------|---------|------------------------------------------
+/data/js-variants/multee/Original/express-status-monitor
+I am package express-status-monitor
+
+> express-status-monitor@1.3.4 test
+> mocha --recursive --watch
+
+[?25l
+
+  on-headers-listener
+    when invoked
+      ✔ then for all spans, responses length should equal 1
+      when invoked after 1 second
+        ✔ then for span interval 1, responses length should equal 2
+
+  send-metrics
+    when invoked
+      ✔ then io.emit called
+
+  socket-io-init
+    when invoked
+      ✔ then all spans should have os and responses property
+
+  validate
+    when config is null or undefined
+      ✔ then title === Express Status
+      ✔ then path === /status
+      ✔ then spans === [{"interval":1,"retention":60},{"interval":5,"retention":60},{"interval":15,"retention":60}]
+      ✔ then port === null
+      ✔ then websocket === null
+    when config is invalid
+      ✔ then title === Express Status
+      ✔ then path === /status
+      ✔ then spans === [{"interval":1,"retention":60},{"interval":5,"retention":60},{"interval":15,"retention":60}]
+      ✔ then port === null
+      ✔ then websocket === null
+    when config is valid
+      ✔ then title === Custom title
+      ✔ then path === /custom-path
+      ✔ then spans === [{},{},{}]
+      ✔ then websocket === {}
+      ✔ then port === 9999
+
+  middleware-wrapper
+    when initialised
+      ✔ then it should be an instance of a Function
+      when invoked
+        ✔ and req.path === /status, then res.send called
+        ✔ and req.path !== /status, then res.send not called
+        ✔ and res.removeHeader is present, then header is removed
+        and used as separate middleware and page handler
+          ✔ exposes a page handler
+
+
+  24 passing (64ms)
+
