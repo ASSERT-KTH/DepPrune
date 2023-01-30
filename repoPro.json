@@ -113,6 +113,18 @@
       "entryFile": "build/src/index.js",
       "folder": "gaxios",
       "commit": "acdfc1d"
+    },
+    {
+      "gitURL": "https://github.com/elpheria/rpc-websockets.git",
+      "entryFile": "dist/index.js",
+      "folder": "rpc-websockets",
+      "commit": "1275bba"
+    },
+    {
+      "gitURL": "https://github.com/sindresorhus/gulp-chmod.git",
+      "entryFile": "index.js",
+      "folder": "gulp-chmod",
+      "commit": "a1d3464"
     }
   ]
 }
