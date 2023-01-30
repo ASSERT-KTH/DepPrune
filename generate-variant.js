@@ -13,8 +13,8 @@ const dataObj = JSON.parse(jsonData)
 const unusedFiles = unusedFilesData.split('\n')
 
 fs.writeFileSync(`./${folderPath}/wrapped-dependency-tree.json`, '')
-fs.writeFileSync(`./Data/${projectName}/${projectName}_bloated_variants.txt`, '')
-fs.writeFileSync(`./Data/${projectName}/${projectName}_bloated_nodes.txt`, '')
+// fs.writeFileSync(`./Data/${projectName}/${projectName}_bloated_variants.txt`, '')
+// fs.writeFileSync(`./Data/${projectName}/${projectName}_bloated_nodes.txt`, '')
 console.log(folderPath)
 
 let unusedNodesSet = []
@@ -275,28 +275,28 @@ fs.writeFileSync(`./${folderPath}/wrapped-dependency-tree.json`, JSON.stringify(
 checkNode(result)
 
 // de-duplicate
-unusedNodesSet.forEach(set => {
-    str = JSON.stringify(set)
-    if (candidates.indexOf(str) == -1) {
-        candidates.push(str)
-    }
-})
+// unusedNodesSet.forEach(set => {
+//     str = JSON.stringify(set)
+//     if (candidates.indexOf(str) == -1) {
+//         candidates.push(str)
+//     }
+// })
 
-console.log(`Candidates in ${projectName}: ${candidates.length} \n\n`)
-fs.appendFileSync(`./Data/${projectName}/${projectName}_bloated_candidates.txt`, `Candidates in ${projectName}: ${candidates.length} \n\n`)
-candidates.forEach((candidate, index) => {
-    const files = JSON.parse(candidate)
-    console.log(files)
-    fs.appendFileSync(`./Data/${projectName}/${projectName}_bloated_candidates.txt`, candidate + '\n')
-    // generateVariant(files, index)
-    jsonObj[`variant${index + 1}`] = {
-        "files": files,
-        "fileNum": files.length
-    }
-})
+// console.log(`Candidates in ${projectName}: ${candidates.length} \n\n`)
+// fs.appendFileSync(`./Data/${projectName}/${projectName}_bloated_candidates.txt`, `Candidates in ${projectName}: ${candidates.length} \n\n`)
+// candidates.forEach((candidate, index) => {
+//     const files = JSON.parse(candidate)
+//     console.log(files)
+//     fs.appendFileSync(`./Data/${projectName}/${projectName}_bloated_candidates.txt`, candidate + '\n')
+//     // generateVariant(files, index)
+//     jsonObj[`variant${index + 1}`] = {
+//         "files": files,
+//         "fileNum": files.length
+//     }
+// })
 
 
-fs.writeFileSync(`./Data/${projectName}/${projectName}_variants.json`, JSON.stringify(jsonObj))
+// fs.writeFileSync(`./Data/${projectName}/${projectName}_variants.json`, JSON.stringify(jsonObj))
 
 collectBloadedNodes(result)
 

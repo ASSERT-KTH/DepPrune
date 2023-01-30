@@ -7,20 +7,26 @@ const fs = require('fs')
 
 const { spawn } = require("child_process")
 
-const bloatedPureDepsData = fs.readFileSync(`./Data/${projectName}/${projectName}_bloated_pure_deps.txt`, 'utf-8')
-const bloatedNodesData = fs.readFileSync(`./Data/${projectName}/${projectName}_bloated_nodes.txt`, 'utf-8')
+const bloatedPureDepsData = fs.readFileSync(`./Data/${projectName}/${projectName}_pure_bloated_deps.txt`, 'utf-8')
+const bloatedNodesData = fs.readFileSync(`./Data/${projectName}/${projectName}_pure_bloated_nodes.txt`, 'utf-8')
 fs.writeFileSync(`./Data/${projectName}/${projectName}_bloated_pure_deps_variants.txt`, '')
 let bloatedPureDeps = bloatedPureDepsData.split('\n')
 bloatedPureDeps.pop()
+console.log(bloatedPureDeps, bloatedPureDeps.length)
 
-const bloatedNodes = bloatedNodesData.split('\n')
 
-bloatedPureDeps.forEach((dep, index) => {
-    const variantPath = `VariantsPureDep/${projectName}/variant${index + 1}/${projectName}`
+let bloatedNodes = bloatedNodesData.split('\n')
+bloatedNodes.pop()
+console.log(bloatedNodes, bloatedNodes.length)
+
+debloatingStrategies = ['functions', 'files', 'deps']
+
+function generateVariant(name) {
+    const variantPath = `VariantsPureDep/${projectName}/variant${name}/${projectName}`
     const gitCommand = spawn(`git clone ${repoUrl} ${variantPath} && cd ${variantPath} && git checkout ${commit} && npm install && cd ../../.. `, {
         shell: true
     })
-    console.log('start generating deps variants', index + 1)
+    console.log('start generating deps variants', name)
     gitCommand.stdout.on("data", data => {
         console.log(`stdout: ${data}`);
     });
@@ -32,6 +38,14 @@ bloatedPureDeps.forEach((dep, index) => {
     gitCommand.on("close", code => {
         console.log(`child process exited with code ${code}`);
     });
+}
+
+bloatedPureDeps.forEach((dep, index) => {
+    generateVariant(String(index + 1))
+})
+
+debloatingStrategies.forEach(strategy => {
+    generateVariant('_' + strategy)
 })
 
 bloatedNodes.forEach(node => {

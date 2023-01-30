@@ -3,11 +3,10 @@
 jsonFile='.json'
 jsonEmpty='{}'
 projectName=$1
-strategyName=$2
-# file / subtree / pure_deps
 
-fileName='./Data/'$projectName'/'$projectName'_bloated_'$strategyName'_variants.txt'
-# fileNameDeps='./Data/'$projectName'/'$projectName'_bloated_deps_variants.txt'
+# fileName='./Data/'$projectName'/'$projectName'_bloated_pure_deps_variants.txt'
+fileName='./Data/'$projectName'/'$projectName'_function_removal.txt'
+# fileNameDeps='./Data/'$projectName'/'$projectName'_function_removal.txt'
 
 cat $fileName | while read rows
 do

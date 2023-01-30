@@ -1,6 +1,5 @@
 projectName=$1
-strategyName=$2
-filesName='./Data/'$projectName'/'$projectName'_bloated_'$strategyName'_variants.txt'
+filesName='./Data/'$projectName'/'$projectName'_file_removal.txt'
 
 cat $filesName | while read rows
 do

@@ -1,18 +1,21 @@
 import sys
 import os
-import subprocess
 
 project = sys.argv[1]
 
+debloatStrategy = ['functions', 'files', 'deps']
 unbloatedDeps = []
+bloatedDeps = []
+bloatedPureDeps = []
+pureBloatedNodes = []
 
-totalNodesPath = f'{os.getcwd()}/Data/{project}/dependency-tree-list.txt'
-bloatedNodesPath = f'{os.getcwd()}/Data/{project}/{project}_bloated_nodes.txt'
-bloatedUnpureDepsPath = f'{os.getcwd()}/Data/{project}/{project}_bloated_deps.txt'
-
+# get all nodes on the dependency tree
+totalNodesPath = f'{os.getcwd()}/Playground/{project}/dependency-tree-list.txt'
 totalNodes = set(open(totalNodesPath, 'r').readlines())
-bloatedNodes = set(open(bloatedNodesPath, 'r').readlines())
-bloatedUnpureDeps = set(open(bloatedUnpureDepsPath, 'r').read().splitlines())
+
+# get all bloated nodes
+totalBloatedNodesPath = f'{os.getcwd()}/Playground/{project}/unused-files.txt'
+totalBloatedNodes = set(open(totalBloatedNodesPath, 'r').readlines())
 
 
 def cutTotalStr(str):
@@ -20,28 +23,94 @@ def cutTotalStr(str):
 def cutBloatedStr(str):
     return str[36:]
 
-totalFiles = list(map(cutTotalStr, totalNodes))
-bloatFiles = list(map(cutBloatedStr, bloatedNodes))
-
-diffNodes = list(set(totalFiles).difference(set(bloatFiles)))
-
-for nodePath in diffNodes:
-    pathArr = nodePath.split('/')
+def getDepByNode(nodeStr):
+    pathArr = nodeStr.split('/')
     if ('node_modules' in pathArr):
         nodeMIdx = pathArr.index('node_modules')
         depName = pathArr[nodeMIdx + 1]
-        if (depName not in unbloatedDeps):
-            unbloatedDeps.append(depName)
+        return depName
+    return ''
 
-print(unbloatedDeps)
-print(bloatedUnpureDeps)
+# diffNodes: nodes on the tree that are not bloated
+diffNodes = list(set(totalNodes).difference(set(totalBloatedNodes)))
 
-diffDeps = list(set(bloatedUnpureDeps).difference(set(unbloatedDeps)))
-print(diffDeps)
+# interNodes: nodes on the tree that are bloated
+interNodes = list(set(totalNodes).intersection(set(totalBloatedNodes)))
 
-pureBloatedDepsPath = f'./Data/{project}/{project}_bloated_pure_deps.txt'
+
+# record deps that is used on tree, even though they have bloated nodes.
+for nodePath in diffNodes:
+    depName = getDepByNode(nodePath)
+    if (depName not in unbloatedDeps):
+        unbloatedDeps.append(depName)
+
+# record deps that have bloated node(s) on tree
+for nodePath in interNodes:
+    depName = getDepByNode(nodePath)
+    if (depName not in bloatedDeps):
+        bloatedDeps.append(depName)
+
+# print('bloatedDeps', bloatedDeps)
+
+# record deps that are pure bloated meaning that all files in the deps are bloated
+pureBloatedDeps = list(set(bloatedDeps).difference(set(unbloatedDeps)))
+print('bloatedPureDeps', pureBloatedDeps)
+
+# record nodes that are from pure bloated deps
+for nodePath in interNodes:
+    depName = getDepByNode(nodePath)
+    if depName in pureBloatedDeps:
+        pureBloatedNodes.append(nodePath)
+print('pureBloatedNodes', pureBloatedNodes)
+
+# generate variants: 
+# For each pure bloated dependency, use one variant to represent for later usage.
+# For each bloating strategy ('function', 'file', 'dependency'), use one variant to represent.
+pureBloatedDepsPath = f'./Data/{project}/{project}_pure_bloated_deps.txt'
 pureBloatedDepsFile = open(pureBloatedDepsPath, 'w')
-for diff in diffDeps:
-    print(diff)
-    pureBloatedDepsFile.writelines(diff + '\n')
+for dep in pureBloatedDeps:
+    print(dep)
+    pureBloatedDepsFile.writelines(dep + '\n')
 pureBloatedDepsFile.close()
+
+pureBloatedNodesPath = f'./Data/{project}/{project}_pure_bloated_nodes.txt'
+pureBloatedNodesFile = open(pureBloatedNodesPath, 'w')
+for node in pureBloatedNodes:
+    print(node)
+    pureBloatedNodesFile.writelines(node)
+pureBloatedNodesFile.close()
+
+
+
+
+
+# # diffDeps: calculate the difference of deps (with at least one bloated node) and deps with at least one used node.
+# # Then we get pure bloated dependencies
+# diffDeps = list(set(bloatedUnpureDeps).difference(set(unbloatedDeps)))
+# print(diffDeps)
+
+
+# pureBloatedDepsPath = f'./Data/{project}/{project}_bloated_pure_deps.txt'
+# pureBloatedDepsFile = open(pureBloatedDepsPath, 'w')
+# for diff in diffDeps:
+#     print(diff)
+#     pureBloatedDepsFile.writelines(diff + '\n')
+# pureBloatedDepsFile.close()
+
+# # We also collect nodes in the pure bloated dependencies so that we can remove them as a whole
+
+# for nodePath in bloatFiles:
+#     pathArr = nodePath.split('/')
+#     if ('node_modules' in pathArr):
+#         nodeMIdx = pathArr.index('node_modules')
+#         depName = pathArr[nodeMIdx + 1]
+#         if (depName in diffDeps):
+#             bloatedNodesFromPureDeps.append(nodePath)
+
+
+# pureBloatedNodesPath = f'./Data/{project}/{project}_nodes_in_bloated_pure_deps.txt'
+# pureBloatedNodesFile = open(pureBloatedNodesPath, 'w')
+# for node in bloatedNodesFromPureDeps:
+#     print(node)
+#     pureBloatedNodesFile.writelines(node + '\n')
+# pureBloatedNodesFile.close()

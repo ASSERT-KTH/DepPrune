@@ -1,9 +1,5 @@
 jsonlist=$(jq -r '.projects' "repoSet.json")
 
-mkdir VariantsPureDep
-# mkdir VariantsSubtree
-# mkdir VariantsFile
-
 # inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
 do
@@ -24,18 +20,13 @@ do
     echo $projectName 
     echo $commit
 
-
-    # cd VariantsSubtree
-    # mkdir $projectName
-    # cd ..
+    cd Data
+    mkdir $projectName
+    cd ..
 
     cd VariantsPureDep
     mkdir $projectName
     cd ..
-
-    # cd VariantsFile
-    # mkdir $projectName
-    # cd ..
 
     rm -rf $folderPath
     
@@ -71,10 +62,10 @@ do
 
     # node generate-variant.js  $folderPath $projectName $repoUrl $commit
 
-    # node generate-variant-subtree.js  $folderPath $projectName $repoUrl $commit
+    python3 generate-variant-pureDep.py $projectName
 
     node generate-variant-pureDep.js  $folderPath $projectName $repoUrl $commit
 
-    # node generate-variant-file.js  $folderPath $projectName $repoUrl $commit
-
+    python3 cpVariantPath.py $projectName
+    
 done

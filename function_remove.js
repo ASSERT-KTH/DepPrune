@@ -14,7 +14,6 @@ const astBody = ast.program.body
 const fileNameArr = folderPath.split('/')
 const nmIndex = fileNameArr.indexOf('node_modules')
 const depIndex = nmIndex + 1
-const variantNum = fileNameArr[nmIndex - 2]
 const depFileName = fileNameArr.slice(depIndex).join('/')
 
 function removeUFF(node) {
