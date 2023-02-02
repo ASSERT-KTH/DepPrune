@@ -125,7 +125,7 @@
 #     # cd ../..
 # done
 
-path='top_491_with_deps_5_90_random.txt'
+path='top_491_for_nyc_collection.txt'
 # path='top5_test.txt'
 
 cat $path | while read rows
