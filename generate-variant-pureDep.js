@@ -40,9 +40,9 @@ function generateVariant(name) {
     });
 }
 
-bloatedPureDeps.forEach((dep, index) => {
-    generateVariant(String(index + 1))
-})
+// bloatedPureDeps.forEach((dep, index) => {
+//     generateVariant(String(index + 1))
+// })
 
 debloatingStrategies.forEach(strategy => {
     generateVariant('_' + strategy)
@@ -51,6 +51,7 @@ debloatingStrategies.forEach(strategy => {
 bloatedNodes.forEach(node => {
     const pathArr = node.split("/")
     const nodeMIdx = pathArr.indexOf("node_modules")
+    if (nodeMIdx == -1) continue
     const depName = pathArr[nodeMIdx + 1]
     const variantIndex = bloatedPureDeps.indexOf(depName)
 
