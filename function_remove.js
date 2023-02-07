@@ -3,6 +3,7 @@ const fs = require('fs')
 
 const args = process.argv.slice(2)
 const folderPath = args[0]
+const projectName = args[1]
 
 const sourceFileString = fs.readFileSync(folderPath)
 const ast = recast.parse(sourceFileString)

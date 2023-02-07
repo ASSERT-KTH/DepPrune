@@ -197,6 +197,24 @@
       "entryFile": "lib/ours/index.js",
       "folder": "readable-stream",
       "commit": "232e711"
+    },
+    {
+      "gitURL": "https://github.com/browserify/resolve.git",
+      "entryFile": "index.js",
+      "folder": "resolve",
+      "commit": "23a4e07"
+    },
+    {
+      "gitURL": "https://github.com/svg/svgo.git",
+      "entryFile": "lib/svgo-node.js",
+      "folder": "svgo",
+      "commit": "aa5d667"
+    },
+    {
+      "gitURL": "https://github.com/expressjs/compression.git",
+      "entryFile": "index.js",
+      "folder": "compression",
+      "commit": "ad5113b"
     }
   ]
 }

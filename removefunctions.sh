@@ -13,7 +13,7 @@ do
 echo $rows
 if [ ${rows:0-5} = ${jsonFile} ]
 then echo $jsonEmpty > $rows
-else node function_remove.js $rows
+else node function_remove.js $rows $projectName
 fi
 done
 

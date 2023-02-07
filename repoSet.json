@@ -1,10 +1,16 @@
 {
   "projects": [
     {
-      "gitURL": "https://github.com/nodejs/readable-stream.git",
-      "entryFile": "lib/ours/index.js",
-      "folder": "readable-stream",
-      "commit": "232e711"
+      "gitURL": "https://github.com/browserify/node-util.git",
+      "entryFile": "util.js",
+      "folder": "node-util",
+      "commit": "ef98472"
+    },
+    {
+      "gitURL": "https://github.com/pillarjs/finalhandler.git",
+      "entryFile": "index.js",
+      "folder": "finalhandler",
+      "commit": "5ceb3e3"
     }
   ]
 }

@@ -29,6 +29,7 @@ def get_file_start():
 	"*.js",
     "dist/**",
     "lib/**",
+    "lib/ours/**",
     "bin/**",
     "src/**\"""")
 

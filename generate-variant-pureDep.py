@@ -35,13 +35,14 @@ def getDepByNode(nodeStr):
 diffNodes = list(set(totalNodes).difference(set(totalBloatedNodes)))
 
 # interNodes: nodes on the tree that are bloated
-interNodes = list(set(totalNodes).intersection(set(totalBloatedNodes)))
+interNodesWithOwn = list(set(totalNodes).intersection(set(totalBloatedNodes)))
+interNodes = [s for s in interNodesWithOwn if 'node_modules' in s]
 
 
 # record deps that is used on tree, even though they have bloated nodes.
 for nodePath in diffNodes:
     depName = getDepByNode(nodePath)
-    if (depName not in unbloatedDeps):
+    if (depName not in unbloatedDeps and depName != ''):
         unbloatedDeps.append(depName)
 
 # record deps that have bloated node(s) on tree
