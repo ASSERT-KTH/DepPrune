@@ -24,6 +24,7 @@ function removeUFF(node) {
 
     const funcName = node.loc ? `${depFileName}_function_${node.loc.start.line}_${node.loc.start.column}` : `${depFileName}_function_in_class`
     console.log(`${funcName} has been removed`)
+    fs.appendFileSync(`./Data/${projectName}/${projectName}_bloated_functions.txt`, `${funcName} has been removed` + '\n')
 }
 
 function forRemoveCycle(nodeArr) {

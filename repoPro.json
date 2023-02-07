@@ -185,6 +185,18 @@
       "entryFile": "lib/index.js",
       "folder": "node-fs-extra",
       "commit": "f3a7f0b"
+    },
+    {
+      "gitURL": "https://github.com/ljharb/qs.git",
+      "entryFile": "lib/index.js",
+      "folder": "qs",
+      "commit": "20820fa"
+    },
+    {
+      "gitURL": "https://github.com/nodejs/readable-stream.git",
+      "entryFile": "lib/ours/index.js",
+      "folder": "readable-stream",
+      "commit": "232e711"
     }
   ]
 }

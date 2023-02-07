@@ -19,7 +19,29 @@ let bloatedNodes = bloatedNodesData.split('\n')
 bloatedNodes.pop()
 console.log(bloatedNodes, bloatedNodes.length)
 
-debloatingStrategies = ['functions', 'files', 'deps']
+if (bloatedPureDeps.length) {
+    debloatingStrategies = ['functions', 'files', 'deps']
+
+    debloatingStrategies.forEach(strategy => {
+        generateVariant('_' + strategy)
+    })
+    
+    bloatedNodes.forEach(node => {
+        const pathArr = node.split("/")
+        const nodeMIdx = pathArr.indexOf("node_modules")
+        const depName = pathArr[nodeMIdx + 1]
+        const variantIndex = bloatedPureDeps.indexOf(depName)
+    
+        if (variantIndex >= 0) {
+            const variantPath = `VariantsPureDep/${projectName}/variant${variantIndex + 1}/${projectName}`
+    
+            // Change names for files in each dep
+            const newPath = node.replace(`${folderPath}`, `${variantPath}`)
+            fs.appendFileSync(`./Data/${projectName}/${projectName}_bloated_pure_deps_variants.txt`, newPath + '\n')
+        }
+    })
+}
+
 
 function generateVariant(name) {
     const variantPath = `VariantsPureDep/${projectName}/variant${name}/${projectName}`
@@ -44,22 +66,4 @@ function generateVariant(name) {
 //     generateVariant(String(index + 1))
 // })
 
-debloatingStrategies.forEach(strategy => {
-    generateVariant('_' + strategy)
-})
 
-bloatedNodes.forEach(node => {
-    const pathArr = node.split("/")
-    const nodeMIdx = pathArr.indexOf("node_modules")
-    if (nodeMIdx == -1) continue
-    const depName = pathArr[nodeMIdx + 1]
-    const variantIndex = bloatedPureDeps.indexOf(depName)
-
-    if (variantIndex >= 0) {
-        const variantPath = `VariantsPureDep/${projectName}/variant${variantIndex + 1}/${projectName}`
-
-        // Change names for files in each dep
-        const newPath = node.replace(`${folderPath}`, `${variantPath}`)
-        fs.appendFileSync(`./Data/${projectName}/${projectName}_bloated_pure_deps_variants.txt`, newPath + '\n')
-    }
-})
