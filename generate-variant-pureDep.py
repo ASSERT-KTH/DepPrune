@@ -34,7 +34,7 @@ def getDepByNode(nodeStr):
 # diffNodes: nodes on the tree that are not bloated
 diffNodes = list(set(totalNodes).difference(set(totalBloatedNodes)))
 
-# interNodes: nodes on the tree that are bloated
+# interNodesWithOwn: nodes on the tree that are bloated
 interNodesWithOwn = list(set(totalNodes).intersection(set(totalBloatedNodes)))
 interNodes = [s for s in interNodesWithOwn if 'node_modules' in s]
 
@@ -64,22 +64,24 @@ for nodePath in interNodes:
         pureBloatedNodes.append(nodePath)
 print('pureBloatedNodes', pureBloatedNodes)
 
-# generate variants: 
-# For each pure bloated dependency, use one variant to represent for later usage.
-# For each bloating strategy ('function', 'file', 'dependency'), use one variant to represent.
+
 pureBloatedDepsPath = f'./Data/{project}/{project}_pure_bloated_deps.txt'
 pureBloatedDepsFile = open(pureBloatedDepsPath, 'w')
 for dep in pureBloatedDeps:
-    print(dep)
     pureBloatedDepsFile.writelines(dep + '\n')
 pureBloatedDepsFile.close()
 
 pureBloatedNodesPath = f'./Data/{project}/{project}_pure_bloated_nodes.txt'
 pureBloatedNodesFile = open(pureBloatedNodesPath, 'w')
 for node in pureBloatedNodes:
-    print(node)
     pureBloatedNodesFile.writelines(node)
 pureBloatedNodesFile.close()
+
+bloatedNodesOnTreePath = f'./Data/{project}/{project}_bloated_nodes_on_tree.txt'
+bloatedNodesOnTreeFile = open(bloatedNodesOnTreePath, 'w')
+for node in interNodes:
+    bloatedNodesOnTreeFile.writelines(node)
+bloatedNodesOnTreeFile.close()
 
 
 

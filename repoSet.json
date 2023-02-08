@@ -1,16 +1,166 @@
 {
   "projects": [
     {
-      "gitURL": "https://github.com/browserify/node-util.git",
-      "entryFile": "util.js",
-      "folder": "node-util",
-      "commit": "ef98472"
+      "gitURL": "https://github.com/DavidAnson/markdownlint-cli2.git",
+      "entryFile": "markdownlint-cli2.js",
+      "folder": "markdownlint-cli2",
+      "commit": "e3c981c"
     },
     {
-      "gitURL": "https://github.com/pillarjs/finalhandler.git",
+      "gitURL": "https://github.com/sindresorhus/gulp-jasmine.git",
       "entryFile": "index.js",
-      "folder": "finalhandler",
-      "commit": "5ceb3e3"
+      "folder": "gulp-jasmine",
+      "commit": "84ad68c"
+    },
+    {
+      "gitURL": "https://github.com/sindresorhus/gulp-nunjucks.git",
+      "entryFile": "index.js",
+      "folder": "gulp-nunjucks",
+      "commit": "e303828"
+    },
+    {
+      "gitURL": "https://github.com/shelljs/shelljs.git",
+      "entryFile": "shell.js",
+      "folder": "shelljs",
+      "commit": "a3a7e74"
+    },
+    {
+      "gitURL": "https://github.com/sindresorhus/gulp-zip.git",
+      "entryFile": "index.js",
+      "folder": "gulp-zip",
+      "commit": "1990751"
+    },
+    {
+      "gitURL": "https://github.com/untu/comedy.git",
+      "entryFile": "index.js",
+      "folder": "comedy",
+      "commit": "a0520d1"
+    },
+    {
+      "gitURL": "https://github.com/Level/mem.git",
+      "entryFile": "level-mem.js",
+      "folder": "mem",
+      "commit": "20c1cda"
+    },
+    {
+      "gitURL": "https://github.com/bitcoinjs/bitcoinjs-lib.git",
+      "entryFile": "src/index.js",
+      "folder": "bitcoinjs-lib",
+      "commit": "3e9827c0"
+    },
+    {
+      "gitURL": "https://github.com/jonschlinkert/cache-base.git",
+      "entryFile": "index.js",
+      "folder": "cache-base",
+      "commit": "afb51c8"
+    },
+    {
+      "gitURL": "https://github.com/alexa-js/alexa-app.git",
+      "entryFile": "index.js",
+      "folder": "alexa-app",
+      "commit": "20901fe"
+    },
+    {
+      "gitURL": "https://github.com/sindresorhus/gulp-size.git",
+      "entryFile": "index.js",
+      "folder": "gulp-size",
+      "commit": "b419330"
+    },
+    {
+      "gitURL": "https://github.com/Level/level-rocksdb.git",
+      "entryFile": "level-rocksdb.js",
+      "folder": "level-rocksdb",
+      "commit": "7dfa92f"
+    },
+    {
+      "gitURL": "https://github.com/hjr265/node-whois.git",
+      "entryFile": "index.js",
+      "folder": "node-whois",
+      "commit": "d159482"
+    },
+    {
+      "gitURL": "https://github.com/vitaly-t/pg-monitor.git",
+      "entryFile": "lib/index.js",
+      "folder": "pg-monitor",
+      "commit": "927f6e5"
+    },
+    {
+      "gitURL": "https://github.com/sindresorhus/gulp-filter.git",
+      "entryFile": "index.js",
+      "folder": "gulp-filter",
+      "commit": "d75da43"
+    },
+    {
+      "gitURL": "https://github.com/Level/packager.git",
+      "entryFile": "level-packager.js",
+      "folder": "packager",
+      "commit": "2c621e5"
+    },
+    {
+      "gitURL": "https://github.com/sindresorhus/gulp-debug.git",
+      "entryFile": "index.js",
+      "folder": "gulp-debug",
+      "commit": "90130dd"
+    },
+    {
+      "gitURL": "https://github.com/agenda/agenda.git",
+      "entryFile": "dist/index.js",
+      "folder": "agenda",
+      "commit": "41a2b37"
+    },
+    {
+      "gitURL": "https://github.com/Azure/ms-rest-azure-js.git",
+      "entryFile": "dist/msRestAzure.js",
+      "folder": "ms-rest-azure-js",
+      "commit": "a9cee44"
+    },
+    {
+      "gitURL": "https://github.com/asyncapi/parser-js.git",
+      "entryFile": "lib/index.js",
+      "folder": "parser-js",
+      "commit": "2edde95"
+    },
+    {
+      "gitURL": "https://github.com/jonschlinkert/pretty.git",
+      "entryFile": "index.js",
+      "folder": "pretty",
+      "commit": "6b0e725"
+    },
+    {
+      "gitURL": "https://github.com/Automattic/socket.io.git",
+      "entryFile": "dist/index.js",
+      "folder": "socket.io",
+      "commit": "54d5ee0"
+    },
+    {
+      "gitURL": "https://github.com/sindresorhus/gulp-changed.git",
+      "entryFile": "index.js",
+      "folder": "gulp-changed",
+      "commit": "610074a"
+    },
+    {
+      "gitURL": "https://github.com/Azure/ms-rest-js.git",
+      "entryFile": "dist/msRest.node.js",
+      "folder": "ms-rest-js",
+      "commit": "6055ce3"
+    },
+    {
+      "gitURL": "https://github.com/sindresorhus/eslint-formatter-pretty.git",
+      "entryFile": "index.js",
+      "folder": "eslint-formatter-pretty",
+      "commit": "f8a490d"
+    },
+    {
+      "gitURL": "https://github.com/anvilresearch/webcrypto.git",
+      "entryFile": "src/index.js",
+      "folder": "webcrypto",
+      "commit": "210653f"
+    },
+    {
+      "gitURL": "https://github.com/sindresorhus/ink-big-text.git",
+      "entryFile": "index.js",
+      "folder": "ink-big-text",
+      "commit": "26504fb"
     }
   ]
 }

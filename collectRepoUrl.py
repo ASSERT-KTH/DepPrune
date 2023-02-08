@@ -1,6 +1,6 @@
 import sys
 import json
-import random
+# import random
 
 # project = sys.argv[1]
 # filePath = f'./Data/{project}/{project}_dependants_url.txt'
@@ -287,30 +287,58 @@ import random
 
 # random.sample(list, n)
 
-# # get repo links and number of dependencies
-filePath1 = f'top_coverage_80_100.txt'
-filePath2 = f'top1448_unique_commit.txt'
-filePath3 = f'top_dependencies_greater1.txt'
-resultPath = f'top_coverage_80_100_info.txt'
+# # # get repo links and number of dependencies
+# filePath1 = f'top_coverage_80_100.txt'
+# filePath2 = f'top1448_unique_commit.txt'
+# filePath3 = f'top_dependencies_greater1.txt'
+# resultPath = f'top_coverage_80_100_info.txt'
 
+# with open(filePath1) as f:
+#     packages = f.read().splitlines()
+# with open(filePath2) as f:
+#     packageRepos = f.read().splitlines()
+# with open(filePath3) as f:
+#     packageDeps = f.read().splitlines()
+
+# resultFile = open(resultPath, 'a')
+# for item in packageRepos:
+#     itemRepo = item.split(',')
+#     project = itemRepo[0]
+#     if project in packages:
+#         print(project)
+#         for itemDep in packageDeps:
+#             print(itemDep)
+#             dep = itemDep.split(',')
+#             projectDep = dep[0]
+#             if projectDep == project:
+#                 projectStr = item + ',' + dep[1] + ',' + dep[2] + ',' + dep[3] + ',' + dep[4]
+#                 resultFile.writelines(projectStr + '\n')
+# resultFile.close()
+
+
+# transform txt to json
+filePath1 = f'top_coverage_80_100_info.txt'
 with open(filePath1) as f:
     packages = f.read().splitlines()
-with open(filePath2) as f:
-    packageRepos = f.read().splitlines()
-with open(filePath3) as f:
-    packageDeps = f.read().splitlines()
 
-resultFile = open(resultPath, 'a')
-for item in packageRepos:
-    itemRepo = item.split(',')
-    project = itemRepo[0]
-    if project in packages:
-        print(project)
-        for itemDep in packageDeps:
-            print(itemDep)
-            dep = itemDep.split(',')
-            projectDep = dep[0]
-            if projectDep == project:
-                projectStr = item + ',' + dep[1] + ',' + dep[2] + ',' + dep[3] + ',' + dep[4]
-                resultFile.writelines(projectStr + '\n')
-resultFile.close()
+jsonArr = []
+
+for item in packages:
+    itemArr = item.split(',')
+    projectName = itemArr[0]
+    repoUrl = itemArr[1] + '.git'
+    commit = itemArr[2]
+    jsonDict = {
+        "gitURL": repoUrl,
+        "entryFile": "",
+        "folder": projectName,
+        "commit": commit
+    }
+    jsonArr.append(jsonDict)
+
+projectDict = {
+    "projects": jsonArr
+}
+
+with open('json.txt', 'w') as json_file:
+  json.dump(projectDict, json_file)
