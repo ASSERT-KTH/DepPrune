@@ -31,6 +31,7 @@ def get_file_start():
     "lib/**",
     "build/**",
     "bin/**",
+    "source/**",
     "src/**\"""")
 
 
