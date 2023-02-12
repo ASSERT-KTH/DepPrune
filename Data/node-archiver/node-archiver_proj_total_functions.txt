@@ -1,63 +1,89 @@
-/data/js-variants/multee/Playground/node-archiver/benchmark/common.js_function_1_0
-/data/js-variants/multee/Playground/node-archiver/examples/express.js_function_5_13
-/data/js-variants/multee/Playground/node-archiver/examples/pack-tar.js_function_8_19
-/data/js-variants/multee/Playground/node-archiver/examples/pack-tar.js_function_13_20
-/data/js-variants/multee/Playground/node-archiver/examples/pack-tgz.js_function_12_19
-/data/js-variants/multee/Playground/node-archiver/examples/pack-tgz.js_function_17_20
-/data/js-variants/multee/Playground/node-archiver/examples/pack-zip.js_function_8_19
-/data/js-variants/multee/Playground/node-archiver/examples/pack-zip.js_function_13_20
-/data/js-variants/multee/Playground/node-archiver/examples/progress.js_function_16_25
-/data/js-variants/multee/Playground/node-archiver/examples/progress.js_function_54_0
-/data/js-variants/multee/Playground/node-archiver/examples/progress.js_function_89_0
-/data/js-variants/multee/Playground/node-archiver/index.js_function_20_14
-/data/js-variants/multee/Playground/node-archiver/index.js_function_31_17
-/data/js-variants/multee/Playground/node-archiver/index.js_function_50_25
-/data/js-variants/multee/Playground/node-archiver/index.js_function_72_29
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_25_15
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_77_28
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_95_29
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_131_31
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_150_36
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_173_35
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_231_37
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_247_33
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_260_37
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_274_35
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_287_41
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_358_36
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_373_35
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_391_34
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_416_38
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_460_31
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_474_32
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_490_47
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_537_27
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_558_28
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_605_31
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_700_26
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_725_26
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_770_30
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_813_31
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_830_31
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_857_29
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_902_29
-/data/js-variants/multee/Playground/node-archiver/lib/core.js_function_913_25
-/data/js-variants/multee/Playground/node-archiver/lib/error.js_function_30_0
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/json.js_function_18_11
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/json.js_function_46_28
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/json.js_function_56_35
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/json.js_function_69_24
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/json.js_function_100_26
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_17_10
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_51_35
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_63_23
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_99_25
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_108_19
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_119_21
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_132_23
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/zip.js_function_21_10
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/zip.js_function_55_23
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/zip.js_function_62_25
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/zip.js_function_69_19
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/zip.js_function_76_21
-/data/js-variants/multee/Playground/node-archiver/lib/plugins/zip.js_function_83_23
+FunctionDeclaration, /data/js-variants/multee/Playground/node-archiver/benchmark/common.js_function_{"line":1,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/express.js_function_{"line":9,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/express.js_function_{"line":14,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/express.js_function_{"line":5,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/pack-tar.js_function_{"line":8,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/pack-tar.js_function_{"line":13,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/pack-tgz.js_function_{"line":12,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/pack-tgz.js_function_{"line":17,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/pack-zip.js_function_{"line":8,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/pack-zip.js_function_{"line":13,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/progress.js_function_{"line":20,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/progress.js_function_{"line":24,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/progress.js_function_{"line":31,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/progress.js_function_{"line":16,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/progress.js_function_{"line":78,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/progress.js_function_{"line":79,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/progress.js_function_{"line":78,"column":81}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/progress.js_function_{"line":72,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/examples/progress.js_function_{"line":59,"column":16}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-archiver/examples/progress.js_function_{"line":54,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-archiver/examples/progress.js_function_{"line":89,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/index.js_function_{"line":20,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/index.js_function_{"line":31,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/index.js_function_{"line":50,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/index.js_function_{"line":72,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":25,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":77,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":95,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":131,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":150,"column":36}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":179,"column":36}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":173,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":231,"column":37}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":247,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":260,"column":37}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":274,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":287,"column":41}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":358,"column":36}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":373,"column":35}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":392,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":391,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":422,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":416,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":460,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":474,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":490,"column":47}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":537,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":558,"column":28}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":637,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":642,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":646,"column":2}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":605,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":700,"column":26}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":733,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":738,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":742,"column":2}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":725,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":794,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":800,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":791,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":770,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":813,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":830,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":857,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":902,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/core.js_function_{"line":913,"column":25}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-archiver/lib/error.js_function_{"line":30,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/json.js_function_{"line":18,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/json.js_function_{"line":46,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/json.js_function_{"line":56,"column":35}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-archiver/lib/plugins/json.js_function_{"line":74,"column":2}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/json.js_function_{"line":69,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/json.js_function_{"line":100,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_{"line":17,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_{"line":51,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_{"line":74,"column":42}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_{"line":68,"column":2}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_{"line":84,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_{"line":63,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_{"line":99,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_{"line":108,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_{"line":119,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/tar.js_function_{"line":132,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/zip.js_function_{"line":21,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/zip.js_function_{"line":55,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/zip.js_function_{"line":62,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/zip.js_function_{"line":69,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/zip.js_function_{"line":76,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/node-archiver/lib/plugins/zip.js_function_{"line":83,"column":23}

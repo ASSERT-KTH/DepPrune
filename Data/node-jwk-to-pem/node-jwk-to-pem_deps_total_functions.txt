@@ -1,409 +1,736 @@
-asn1.js/lib/asn1/api.js_function_9_13
-asn1.js/lib/asn1/api.js_function_13_0
-asn1.js/lib/asn1/api.js_function_21_32
-asn1.js/lib/asn1/api.js_function_35_31
-asn1.js/lib/asn1/api.js_function_43_26
-asn1.js/lib/asn1/api.js_function_47_31
-asn1.js/lib/asn1/api.js_function_55_26
-asn1.js/lib/asn1/base/buffer.js_function_7_0
-asn1.js/lib/asn1/base/buffer.js_function_21_32
-asn1.js/lib/asn1/base/buffer.js_function_42_31
-asn1.js/lib/asn1/base/buffer.js_function_46_34
-asn1.js/lib/asn1/base/buffer.js_function_58_34
-asn1.js/lib/asn1/base/buffer.js_function_62_36
-asn1.js/lib/asn1/base/buffer.js_function_69_31
-asn1.js/lib/asn1/base/buffer.js_function_84_30
-asn1.js/lib/asn1/base/buffer.js_function_88_0
-asn1.js/lib/asn1/base/buffer.js_function_114_32
-asn1.js/lib/asn1/base/buffer.js_function_128_31
-asn1.js/lib/asn1/base/node.js_function_32_0
-asn1.js/lib/asn1/base/node.js_function_72_23
-asn1.js/lib/asn1/base/node.js_function_83_23
-asn1.js/lib/asn1/base/node.js_function_94_23
-asn1.js/lib/asn1/base/node.js_function_107_26
-asn1.js/lib/asn1/base/node.js_function_150_18
-asn1.js/lib/asn1/base/node.js_function_161_13
-asn1.js/lib/asn1/base/node.js_function_175_21
-asn1.js/lib/asn1/base/node.js_function_185_26
-asn1.js/lib/asn1/base/node.js_function_193_21
-asn1.js/lib/asn1/base/node.js_function_203_26
-asn1.js/lib/asn1/base/node.js_function_212_26
-asn1.js/lib/asn1/base/node.js_function_221_21
-asn1.js/lib/asn1/base/node.js_function_233_21
-asn1.js/lib/asn1/base/node.js_function_242_21
-asn1.js/lib/asn1/base/node.js_function_250_24
-asn1.js/lib/asn1/base/node.js_function_262_26
-asn1.js/lib/asn1/base/node.js_function_275_25
-asn1.js/lib/asn1/base/node.js_function_403_32
-asn1.js/lib/asn1/base/node.js_function_435_25
-asn1.js/lib/asn1/base/node.js_function_449_31
-asn1.js/lib/asn1/base/node.js_function_481_38
-asn1.js/lib/asn1/base/node.js_function_485_25
-asn1.js/lib/asn1/base/node.js_function_500_30
-asn1.js/lib/asn1/base/node.js_function_596_31
-asn1.js/lib/asn1/base/node.js_function_609_34
-asn1.js/lib/asn1/base/node.js_function_632_27
-asn1.js/lib/asn1/base/node.js_function_636_29
-asn1.js/lib/asn1/base/reporter.js_function_5_0
-asn1.js/lib/asn1/base/reporter.js_function_15_29
-asn1.js/lib/asn1/base/reporter.js_function_19_26
-asn1.js/lib/asn1/base/reporter.js_function_25_29
-asn1.js/lib/asn1/base/reporter.js_function_32_30
-asn1.js/lib/asn1/base/reporter.js_function_36_29
-asn1.js/lib/asn1/base/reporter.js_function_42_30
-asn1.js/lib/asn1/base/reporter.js_function_50_26
-asn1.js/lib/asn1/base/reporter.js_function_54_33
-asn1.js/lib/asn1/base/reporter.js_function_62_33
-asn1.js/lib/asn1/base/reporter.js_function_70_27
-asn1.js/lib/asn1/base/reporter.js_function_92_32
-asn1.js/lib/asn1/base/reporter.js_function_103_0
-asn1.js/lib/asn1/base/reporter.js_function_109_34
-asn1.js/lib/asn1/constants/der.js_function_4_0
-asn1.js/lib/asn1/constants/index.js_function_6_21
-asn1.js/lib/asn1/decoders/der.js_function_12_0
-asn1.js/lib/asn1/decoders/der.js_function_23_30
-asn1.js/lib/asn1/decoders/der.js_function_33_0
-asn1.js/lib/asn1/decoders/der.js_function_38_29
-asn1.js/lib/asn1/decoders/der.js_function_53_31
-asn1.js/lib/asn1/decoders/der.js_function_90_34
-asn1.js/lib/asn1/decoders/der.js_function_114_32
-asn1.js/lib/asn1/decoders/der.js_function_130_31
-asn1.js/lib/asn1/decoders/der.js_function_171_33
-asn1.js/lib/asn1/decoders/der.js_function_207_32
-asn1.js/lib/asn1/decoders/der.js_function_241_32
-asn1.js/lib/asn1/decoders/der.js_function_245_32
-asn1.js/lib/asn1/decoders/der.js_function_253_31
-asn1.js/lib/asn1/decoders/der.js_function_264_25
-asn1.js/lib/asn1/decoders/der.js_function_272_0
-asn1.js/lib/asn1/decoders/der.js_function_305_0
-asn1.js/lib/asn1/decoders/pem.js_function_8_0
-asn1.js/lib/asn1/decoders/pem.js_function_15_30
-asn1.js/lib/asn1/encoders/der.js_function_10_0
-asn1.js/lib/asn1/encoders/der.js_function_21_30
-asn1.js/lib/asn1/encoders/der.js_function_27_0
-asn1.js/lib/asn1/encoders/der.js_function_32_37
-asn1.js/lib/asn1/encoders/der.js_function_62_31
-asn1.js/lib/asn1/encoders/der.js_function_97_33
-asn1.js/lib/asn1/encoders/der.js_function_143_0
-asn1.js/lib/asn1/encoders/der.js_function_150_32
-asn1.js/lib/asn1/encoders/der.js_function_181_32
-asn1.js/lib/asn1/encoders/der.js_function_185_31
-asn1.js/lib/asn1/encoders/der.js_function_239_32
-asn1.js/lib/asn1/encoders/der.js_function_243_25
-asn1.js/lib/asn1/encoders/der.js_function_249_33
-asn1.js/lib/asn1/encoders/der.js_function_271_0
-asn1.js/lib/asn1/encoders/pem.js_function_7_0
-asn1.js/lib/asn1/encoders/pem.js_function_14_30
-bn.js/lib/bn.js_function_1_1
-brorand/index.js_function_3_17
-brorand/index.js_function_10_0
-brorand/index.js_function_15_26
-brorand/index.js_function_20_23
-brorand/index.js_function_33_27
-brorand/index.js_function_40_27
-brorand/index.js_function_49_27
-brorand/index.js_function_60_27
-brorand/test/api-test.js_function_4_20
-elliptic/lib/elliptic/curve/base.js_function_9_0
-elliptic/lib/elliptic/curve/base.js_function_44_28
-elliptic/lib/elliptic/curve/base.js_function_48_31
-elliptic/lib/elliptic/curve/base.js_function_52_35
-elliptic/lib/elliptic/curve/base.js_function_86_31
-elliptic/lib/elliptic/curve/base.js_function_128_34
-elliptic/lib/elliptic/curve/base.js_function_255_0
-elliptic/lib/elliptic/curve/base.js_function_262_25
-elliptic/lib/elliptic/curve/base.js_function_266_31
-elliptic/lib/elliptic/curve/base.js_function_270_34
-elliptic/lib/elliptic/curve/base.js_function_294_39
-elliptic/lib/elliptic/curve/base.js_function_298_30
-elliptic/lib/elliptic/curve/base.js_function_308_29
-elliptic/lib/elliptic/curve/base.js_function_312_33
-elliptic/lib/elliptic/curve/base.js_function_329_34
-elliptic/lib/elliptic/curve/base.js_function_340_34
-elliptic/lib/elliptic/curve/base.js_function_357_36
-elliptic/lib/elliptic/curve/base.js_function_372_31
-elliptic/lib/elliptic/curve/base.js_function_376_27
-elliptic/lib/elliptic/curve/edwards.js_function_10_0
-elliptic/lib/elliptic/curve/edwards.js_function_31_31
-elliptic/lib/elliptic/curve/edwards.js_function_38_31
-elliptic/lib/elliptic/curve/edwards.js_function_46_32
-elliptic/lib/elliptic/curve/edwards.js_function_50_36
-elliptic/lib/elliptic/curve/edwards.js_function_71_36
-elliptic/lib/elliptic/curve/edwards.js_function_99_34
-elliptic/lib/elliptic/curve/edwards.js_function_114_0
-elliptic/lib/elliptic/curve/edwards.js_function_147_39
-elliptic/lib/elliptic/curve/edwards.js_function_151_31
-elliptic/lib/elliptic/curve/edwards.js_function_155_17
-elliptic/lib/elliptic/curve/edwards.js_function_159_26
-elliptic/lib/elliptic/curve/edwards.js_function_167_29
-elliptic/lib/elliptic/curve/edwards.js_function_174_26
-elliptic/lib/elliptic/curve/edwards.js_function_207_27
-elliptic/lib/elliptic/curve/edwards.js_function_268_22
-elliptic/lib/elliptic/curve/edwards.js_function_279_26
-elliptic/lib/elliptic/curve/edwards.js_function_311_27
-elliptic/lib/elliptic/curve/edwards.js_function_350_22
-elliptic/lib/elliptic/curve/edwards.js_function_362_22
-elliptic/lib/elliptic/curve/edwards.js_function_369_25
-elliptic/lib/elliptic/curve/edwards.js_function_373_26
-elliptic/lib/elliptic/curve/edwards.js_function_377_28
-elliptic/lib/elliptic/curve/edwards.js_function_392_22
-elliptic/lib/elliptic/curve/edwards.js_function_399_23
-elliptic/lib/elliptic/curve/edwards.js_function_404_23
-elliptic/lib/elliptic/curve/edwards.js_function_409_21
-elliptic/lib/elliptic/curve/edwards.js_function_415_25
-elliptic/lib/elliptic/curve/mont.js_function_9_0
-elliptic/lib/elliptic/curve/mont.js_function_21_31
-elliptic/lib/elliptic/curve/mont.js_function_30_0
-elliptic/lib/elliptic/curve/mont.js_function_46_34
-elliptic/lib/elliptic/curve/mont.js_function_50_28
-elliptic/lib/elliptic/curve/mont.js_function_54_36
-elliptic/lib/elliptic/curve/mont.js_function_58_29
-elliptic/lib/elliptic/curve/mont.js_function_62_26
-elliptic/lib/elliptic/curve/mont.js_function_66_17
-elliptic/lib/elliptic/curve/mont.js_function_70_26
-elliptic/lib/elliptic/curve/mont.js_function_77_29
-elliptic/lib/elliptic/curve/mont.js_function_82_22
-elliptic/lib/elliptic/curve/mont.js_function_103_22
-elliptic/lib/elliptic/curve/mont.js_function_107_26
-elliptic/lib/elliptic/curve/mont.js_function_130_22
-elliptic/lib/elliptic/curve/mont.js_function_155_25
-elliptic/lib/elliptic/curve/mont.js_function_159_26
-elliptic/lib/elliptic/curve/mont.js_function_163_21
-elliptic/lib/elliptic/curve/mont.js_function_167_28
-elliptic/lib/elliptic/curve/mont.js_function_173_23
-elliptic/lib/elliptic/curve/short.js_function_10_0
-elliptic/lib/elliptic/curve/short.js_function_28_40
-elliptic/lib/elliptic/curve/short.js_function_77_37
-elliptic/lib/elliptic/curve/short.js_function_92_37
-elliptic/lib/elliptic/curve/short.js_function_168_34
-elliptic/lib/elliptic/curve/short.js_function_187_34
-elliptic/lib/elliptic/curve/short.js_function_206_32
-elliptic/lib/elliptic/curve/short.js_function_219_4
-elliptic/lib/elliptic/curve/short.js_function_251_0
-elliptic/lib/elliptic/curve/short.js_function_274_29
-elliptic/lib/elliptic/curve/short.js_function_278_37
-elliptic/lib/elliptic/curve/short.js_function_282_27
-elliptic/lib/elliptic/curve/short.js_function_312_25
-elliptic/lib/elliptic/curve/short.js_function_328_17
-elliptic/lib/elliptic/curve/short.js_function_354_26
-elliptic/lib/elliptic/curve/short.js_function_361_29
-elliptic/lib/elliptic/curve/short.js_function_365_22
-elliptic/lib/elliptic/curve/short.js_function_394_22
-elliptic/lib/elliptic/curve/short.js_function_414_23
-elliptic/lib/elliptic/curve/short.js_function_418_23
-elliptic/lib/elliptic/curve/short.js_function_422_22
-elliptic/lib/elliptic/curve/short.js_function_434_25
-elliptic/lib/elliptic/curve/short.js_function_443_26
-elliptic/lib/elliptic/curve/short.js_function_452_21
-elliptic/lib/elliptic/curve/short.js_function_458_22
-elliptic/lib/elliptic/curve/short.js_function_482_22
-elliptic/lib/elliptic/curve/short.js_function_490_0
-elliptic/lib/elliptic/curve/short.js_function_512_30
-elliptic/lib/elliptic/curve/short.js_function_516_23
-elliptic/lib/elliptic/curve/short.js_function_528_23
-elliptic/lib/elliptic/curve/short.js_function_532_23
-elliptic/lib/elliptic/curve/short.js_function_569_28
-elliptic/lib/elliptic/curve/short.js_function_605_24
-elliptic/lib/elliptic/curve/short.js_function_656_23
-elliptic/lib/elliptic/curve/short.js_function_668_28
-elliptic/lib/elliptic/curve/short.js_function_739_29
-elliptic/lib/elliptic/curve/short.js_function_802_24
-elliptic/lib/elliptic/curve/short.js_function_832_24
-elliptic/lib/elliptic/curve/short.js_function_883_23
-elliptic/lib/elliptic/curve/short.js_function_889_22
-elliptic/lib/elliptic/curve/short.js_function_908_26
-elliptic/lib/elliptic/curve/short.js_function_927_27
-elliptic/lib/elliptic/curve/short.js_function_935_30
-elliptic/lib/elliptic/curves.js_function_11_0
-elliptic/lib/elliptic/curves.js_function_27_0
-elliptic/lib/elliptic/ec/index.js_function_13_0
-elliptic/lib/elliptic/ec/index.js_function_43_23
-elliptic/lib/elliptic/ec/index.js_function_47_30
-elliptic/lib/elliptic/ec/index.js_function_51_29
-elliptic/lib/elliptic/ec/index.js_function_55_26
-elliptic/lib/elliptic/ec/index.js_function_81_28
-elliptic/lib/elliptic/ec/index.js_function_91_20
-elliptic/lib/elliptic/ec/index.js_function_156_22
-elliptic/lib/elliptic/ec/index.js_function_196_29
-elliptic/lib/elliptic/ec/index.js_function_226_35
-elliptic/lib/elliptic/ec/key.js_function_7_0
-elliptic/lib/elliptic/ec/key.js_function_20_21
-elliptic/lib/elliptic/ec/key.js_function_30_22
-elliptic/lib/elliptic/ec/key.js_function_40_29
-elliptic/lib/elliptic/ec/key.js_function_53_30
-elliptic/lib/elliptic/ec/key.js_function_69_31
-elliptic/lib/elliptic/ec/key.js_function_76_35
-elliptic/lib/elliptic/ec/key.js_function_84_34
-elliptic/lib/elliptic/ec/key.js_function_102_27
-elliptic/lib/elliptic/ec/key.js_function_110_25
-elliptic/lib/elliptic/ec/key.js_function_114_27
-elliptic/lib/elliptic/ec/key.js_function_118_28
-elliptic/lib/elliptic/ec/signature.js_function_8_0
-elliptic/lib/elliptic/ec/signature.js_function_25_0
-elliptic/lib/elliptic/ec/signature.js_function_29_0
-elliptic/lib/elliptic/ec/signature.js_function_57_0
-elliptic/lib/elliptic/ec/signature.js_function_69_33
-elliptic/lib/elliptic/ec/signature.js_function_126_0
-elliptic/lib/elliptic/ec/signature.js_function_139_28
-elliptic/lib/elliptic/eddsa/index.js_function_11_0
-elliptic/lib/elliptic/eddsa/index.js_function_34_23
-elliptic/lib/elliptic/eddsa/index.js_function_52_25
-elliptic/lib/elliptic/eddsa/index.js_function_62_26
-elliptic/lib/elliptic/eddsa/index.js_function_69_32
-elliptic/lib/elliptic/eddsa/index.js_function_73_32
-elliptic/lib/elliptic/eddsa/index.js_function_77_32
-elliptic/lib/elliptic/eddsa/index.js_function_91_30
-elliptic/lib/elliptic/eddsa/index.js_function_97_30
-elliptic/lib/elliptic/eddsa/index.js_function_108_28
-elliptic/lib/elliptic/eddsa/index.js_function_112_28
-elliptic/lib/elliptic/eddsa/index.js_function_116_26
-elliptic/lib/elliptic/eddsa/key.js_function_17_0
-elliptic/lib/elliptic/eddsa/key.js_function_26_21
-elliptic/lib/elliptic/eddsa/key.js_function_32_21
-elliptic/lib/elliptic/eddsa/key.js_function_38_27
-elliptic/lib/elliptic/eddsa/key.js_function_42_36
-elliptic/lib/elliptic/eddsa/key.js_function_46_31
-elliptic/lib/elliptic/eddsa/key.js_function_52_37
-elliptic/lib/elliptic/eddsa/key.js_function_65_32
-elliptic/lib/elliptic/eddsa/key.js_function_69_32
-elliptic/lib/elliptic/eddsa/key.js_function_73_41
-elliptic/lib/elliptic/eddsa/key.js_function_77_25
-elliptic/lib/elliptic/eddsa/key.js_function_82_27
-elliptic/lib/elliptic/eddsa/key.js_function_86_30
-elliptic/lib/elliptic/eddsa/key.js_function_91_30
-elliptic/lib/elliptic/eddsa/signature.js_function_17_0
-elliptic/lib/elliptic/eddsa/signature.js_function_41_31
-elliptic/lib/elliptic/eddsa/signature.js_function_45_31
-elliptic/lib/elliptic/eddsa/signature.js_function_49_38
-elliptic/lib/elliptic/eddsa/signature.js_function_53_38
-elliptic/lib/elliptic/eddsa/signature.js_function_57_30
-elliptic/lib/elliptic/eddsa/signature.js_function_61_28
-elliptic/lib/elliptic/utils.js_function_15_0
-elliptic/lib/elliptic/utils.js_function_44_0
-elliptic/lib/elliptic/utils.js_function_100_0
-elliptic/lib/elliptic/utils.js_function_109_0
-elliptic/lib/elliptic/utils.js_function_115_0
-hash.js/lib/hash/common.js_function_6_0
-hash.js/lib/hash/common.js_function_20_29
-hash.js/lib/hash/common.js_function_47_29
-hash.js/lib/hash/common.js_function_54_27
-hash.js/lib/hash/hmac.js_function_6_0
-hash.js/lib/hash/hmac.js_function_19_23
-hash.js/lib/hash/hmac.js_function_39_24
-hash.js/lib/hash/hmac.js_function_44_24
-hash.js/lib/hash/ripemd.js_function_12_0
-hash.js/lib/hash/ripemd.js_function_29_30
-hash.js/lib/hash/ripemd.js_function_70_30
-hash.js/lib/hash/ripemd.js_function_77_0
-hash.js/lib/hash/ripemd.js_function_90_0
-hash.js/lib/hash/ripemd.js_function_103_0
-hash.js/lib/hash/sha/1.js_function_18_0
-hash.js/lib/hash/sha/1.js_function_37_25
-hash.js/lib/hash/sha/1.js_function_69_25
-hash.js/lib/hash/sha/224.js_function_6_0
-hash.js/lib/hash/sha/224.js_function_23_27
-hash.js/lib/hash/sha/256.js_function_39_0
-hash.js/lib/hash/sha/256.js_function_59_27
-hash.js/lib/hash/sha/256.js_function_100_27
-hash.js/lib/hash/sha/384.js_function_7_0
-hash.js/lib/hash/sha/384.js_function_30_27
-hash.js/lib/hash/sha/512.js_function_64_0
-hash.js/lib/hash/sha/512.js_function_89_33
-hash.js/lib/hash/sha/512.js_function_118_27
-hash.js/lib/hash/sha/512.js_function_209_27
-hash.js/lib/hash/sha/512.js_function_216_0
-hash.js/lib/hash/sha/512.js_function_223_0
-hash.js/lib/hash/sha/512.js_function_230_0
-hash.js/lib/hash/sha/512.js_function_237_0
-hash.js/lib/hash/sha/512.js_function_244_0
-hash.js/lib/hash/sha/512.js_function_255_0
-hash.js/lib/hash/sha/512.js_function_266_0
-hash.js/lib/hash/sha/512.js_function_277_0
-hash.js/lib/hash/sha/512.js_function_288_0
-hash.js/lib/hash/sha/512.js_function_299_0
-hash.js/lib/hash/sha/512.js_function_310_0
-hash.js/lib/hash/sha/512.js_function_321_0
-hash.js/lib/hash/sha/common.js_function_6_0
-hash.js/lib/hash/sha/common.js_function_16_0
-hash.js/lib/hash/sha/common.js_function_21_0
-hash.js/lib/hash/sha/common.js_function_26_0
-hash.js/lib/hash/sha/common.js_function_31_0
-hash.js/lib/hash/sha/common.js_function_36_0
-hash.js/lib/hash/sha/common.js_function_41_0
-hash.js/lib/hash/sha/common.js_function_46_0
-hash.js/lib/hash/utils.js_function_8_0
-hash.js/lib/hash/utils.js_function_18_0
-hash.js/lib/hash/utils.js_function_65_0
-hash.js/lib/hash/utils.js_function_73_0
-hash.js/lib/hash/utils.js_function_82_0
-hash.js/lib/hash/utils.js_function_94_0
-hash.js/lib/hash/utils.js_function_102_0
-hash.js/lib/hash/utils.js_function_122_0
-hash.js/lib/hash/utils.js_function_138_0
-hash.js/lib/hash/utils.js_function_158_0
-hash.js/lib/hash/utils.js_function_163_0
-hash.js/lib/hash/utils.js_function_168_0
-hash.js/lib/hash/utils.js_function_173_0
-hash.js/lib/hash/utils.js_function_178_0
-hash.js/lib/hash/utils.js_function_183_0
-hash.js/lib/hash/utils.js_function_188_0
-hash.js/lib/hash/utils.js_function_199_0
-hash.js/lib/hash/utils.js_function_206_0
-hash.js/lib/hash/utils.js_function_212_0
-hash.js/lib/hash/utils.js_function_227_0
-hash.js/lib/hash/utils.js_function_233_0
-hash.js/lib/hash/utils.js_function_250_0
-hash.js/lib/hash/utils.js_function_257_0
-hash.js/lib/hash/utils.js_function_263_0
-hash.js/lib/hash/utils.js_function_269_0
-hash.js/lib/hash/utils.js_function_274_0
-hash.js/test/hash-test.js_function_8_17
-hash.js/test/hmac-test.js_function_7_17
-hmac-drbg/lib/hmac-drbg.js_function_7_0
-hmac-drbg/lib/hmac-drbg.js_function_30_27
-hmac-drbg/lib/hmac-drbg.js_function_45_27
-hmac-drbg/lib/hmac-drbg.js_function_49_29
-hmac-drbg/lib/hmac-drbg.js_function_68_28
-hmac-drbg/lib/hmac-drbg.js_function_86_30
-hmac-drbg/test/drbg-test.js_function_7_22
-inherits/inherits_browser.js_function_3_19
-inherits/inherits_browser.js_function_18_19
-minimalistic-assert/index.js_function_3_0
-minimalistic-assert/index.js_function_8_15
-minimalistic-crypto-utils/lib/utils.js_function_5_0
-minimalistic-crypto-utils/lib/utils.js_function_37_0
-minimalistic-crypto-utils/lib/utils.js_function_45_0
-minimalistic-crypto-utils/lib/utils.js_function_53_15
-minimalistic-crypto-utils/test/utils-test.js_function_6_18
-safe-buffer/index.js_function_7_0
-safe-buffer/index.js_function_20_0
-safe-buffer/index.js_function_29_18
-safe-buffer/index.js_function_36_19
-safe-buffer/index.js_function_53_25
-safe-buffer/index.js_function_60_29
-safer-buffer/dangerous.js_function_35_27
-safer-buffer/dangerous.js_function_47_31
-safer-buffer/safer.js_function_28_15
-safer-buffer/safer.js_function_40_16
-safer-buffer/tests.js_function_15_25
-safer-buffer/tests.js_function_22_26
-safer-buffer/tests.js_function_34_27
-safer-buffer/tests.js_function_48_27
-safer-buffer/tests.js_function_56_47
-safer-buffer/tests.js_function_68_57
-safer-buffer/tests.js_function_78_64
-safer-buffer/tests.js_function_89_64
-safer-buffer/tests.js_function_100_51
-safer-buffer/tests.js_function_108_51
-safer-buffer/tests.js_function_127_65
-safer-buffer/tests.js_function_149_31
-safer-buffer/tests.js_function_172_37
-safer-buffer/tests.js_function_195_28
-safer-buffer/tests.js_function_249_41
-safer-buffer/tests.js_function_268_45
-safer-buffer/tests.js_function_287_59
-safer-buffer/tests.js_function_309_78
-safer-buffer/tests.js_function_332_44
-safer-buffer/tests.js_function_350_44
-safer-buffer/tests.js_function_381_69
-safer-buffer/tests.js_function_394_53
+FunctionExpression, asn1.js/lib/asn1/api.js_function_{"line":9,"column":13}
+FunctionDeclaration, asn1.js/lib/asn1/api.js_function_{"line":13,"column":0}
+FunctionDeclaration, asn1.js/lib/asn1/api.js_function_{"line":24,"column":2}
+FunctionExpression, asn1.js/lib/asn1/api.js_function_{"line":28,"column":35}
+FunctionExpression, asn1.js/lib/asn1/api.js_function_{"line":21,"column":32}
+FunctionExpression, asn1.js/lib/asn1/api.js_function_{"line":35,"column":31}
+FunctionExpression, asn1.js/lib/asn1/api.js_function_{"line":43,"column":26}
+FunctionExpression, asn1.js/lib/asn1/api.js_function_{"line":47,"column":31}
+FunctionExpression, asn1.js/lib/asn1/api.js_function_{"line":55,"column":26}
+FunctionDeclaration, asn1.js/lib/asn1/base/buffer.js_function_{"line":7,"column":0}
+FunctionExpression, asn1.js/lib/asn1/base/buffer.js_function_{"line":21,"column":32}
+FunctionExpression, asn1.js/lib/asn1/base/buffer.js_function_{"line":42,"column":31}
+FunctionExpression, asn1.js/lib/asn1/base/buffer.js_function_{"line":46,"column":34}
+FunctionExpression, asn1.js/lib/asn1/base/buffer.js_function_{"line":58,"column":34}
+FunctionExpression, asn1.js/lib/asn1/base/buffer.js_function_{"line":62,"column":36}
+FunctionExpression, asn1.js/lib/asn1/base/buffer.js_function_{"line":69,"column":31}
+FunctionExpression, asn1.js/lib/asn1/base/buffer.js_function_{"line":84,"column":30}
+FunctionExpression, asn1.js/lib/asn1/base/buffer.js_function_{"line":91,"column":27}
+FunctionDeclaration, asn1.js/lib/asn1/base/buffer.js_function_{"line":88,"column":0}
+FunctionExpression, asn1.js/lib/asn1/base/buffer.js_function_{"line":114,"column":32}
+FunctionExpression, asn1.js/lib/asn1/base/buffer.js_function_{"line":138,"column":23}
+FunctionExpression, asn1.js/lib/asn1/base/buffer.js_function_{"line":128,"column":31}
+FunctionDeclaration, asn1.js/lib/asn1/base/node.js_function_{"line":32,"column":0}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":75,"column":21}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":72,"column":23}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":86,"column":19}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":85,"column":18}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":83,"column":23}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":101,"column":41}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":94,"column":23}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":111,"column":31}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":114,"column":21}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":123,"column":21}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":135,"column":31}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":130,"column":33}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":107,"column":26}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":151,"column":27}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":150,"column":18}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":162,"column":24}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":161,"column":13}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":175,"column":21}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":185,"column":26}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":193,"column":21}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":203,"column":26}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":212,"column":26}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":221,"column":21}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":233,"column":21}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":242,"column":21}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":255,"column":37}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":250,"column":24}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":262,"column":26}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":375,"column":29}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":275,"column":25}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":403,"column":32}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":435,"column":25}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":454,"column":33}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":449,"column":31}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":481,"column":38}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":485,"column":25}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":532,"column":33}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":547,"column":20}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":562,"column":51}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":500,"column":30}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":596,"column":31}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":609,"column":34}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":632,"column":27}
+FunctionExpression, asn1.js/lib/asn1/base/node.js_function_{"line":636,"column":29}
+FunctionDeclaration, asn1.js/lib/asn1/base/reporter.js_function_{"line":5,"column":0}
+FunctionExpression, asn1.js/lib/asn1/base/reporter.js_function_{"line":15,"column":29}
+FunctionExpression, asn1.js/lib/asn1/base/reporter.js_function_{"line":19,"column":26}
+FunctionExpression, asn1.js/lib/asn1/base/reporter.js_function_{"line":25,"column":29}
+FunctionExpression, asn1.js/lib/asn1/base/reporter.js_function_{"line":32,"column":30}
+FunctionExpression, asn1.js/lib/asn1/base/reporter.js_function_{"line":36,"column":29}
+FunctionExpression, asn1.js/lib/asn1/base/reporter.js_function_{"line":42,"column":30}
+FunctionExpression, asn1.js/lib/asn1/base/reporter.js_function_{"line":50,"column":26}
+FunctionExpression, asn1.js/lib/asn1/base/reporter.js_function_{"line":54,"column":33}
+FunctionExpression, asn1.js/lib/asn1/base/reporter.js_function_{"line":62,"column":33}
+FunctionExpression, asn1.js/lib/asn1/base/reporter.js_function_{"line":78,"column":43}
+FunctionExpression, asn1.js/lib/asn1/base/reporter.js_function_{"line":70,"column":27}
+FunctionExpression, asn1.js/lib/asn1/base/reporter.js_function_{"line":92,"column":32}
+FunctionDeclaration, asn1.js/lib/asn1/base/reporter.js_function_{"line":103,"column":0}
+FunctionExpression, asn1.js/lib/asn1/base/reporter.js_function_{"line":109,"column":34}
+FunctionExpression, asn1.js/lib/asn1/constants/der.js_function_{"line":7,"column":27}
+FunctionDeclaration, asn1.js/lib/asn1/constants/der.js_function_{"line":4,"column":0}
+FunctionExpression, asn1.js/lib/asn1/constants/index.js_function_{"line":9,"column":27}
+FunctionExpression, asn1.js/lib/asn1/constants/index.js_function_{"line":6,"column":21}
+FunctionDeclaration, asn1.js/lib/asn1/decoders/der.js_function_{"line":12,"column":0}
+FunctionExpression, asn1.js/lib/asn1/decoders/der.js_function_{"line":23,"column":30}
+FunctionDeclaration, asn1.js/lib/asn1/decoders/der.js_function_{"line":33,"column":0}
+FunctionExpression, asn1.js/lib/asn1/decoders/der.js_function_{"line":38,"column":29}
+FunctionExpression, asn1.js/lib/asn1/decoders/der.js_function_{"line":53,"column":31}
+FunctionExpression, asn1.js/lib/asn1/decoders/der.js_function_{"line":90,"column":34}
+FunctionExpression, asn1.js/lib/asn1/decoders/der.js_function_{"line":114,"column":32}
+FunctionExpression, asn1.js/lib/asn1/decoders/der.js_function_{"line":130,"column":31}
+FunctionExpression, asn1.js/lib/asn1/decoders/der.js_function_{"line":171,"column":33}
+FunctionExpression, asn1.js/lib/asn1/decoders/der.js_function_{"line":207,"column":32}
+FunctionExpression, asn1.js/lib/asn1/decoders/der.js_function_{"line":241,"column":32}
+FunctionExpression, asn1.js/lib/asn1/decoders/der.js_function_{"line":245,"column":32}
+FunctionExpression, asn1.js/lib/asn1/decoders/der.js_function_{"line":253,"column":31}
+FunctionExpression, asn1.js/lib/asn1/decoders/der.js_function_{"line":264,"column":25}
+FunctionDeclaration, asn1.js/lib/asn1/decoders/der.js_function_{"line":272,"column":0}
+FunctionDeclaration, asn1.js/lib/asn1/decoders/der.js_function_{"line":305,"column":0}
+FunctionDeclaration, asn1.js/lib/asn1/decoders/pem.js_function_{"line":8,"column":0}
+FunctionExpression, asn1.js/lib/asn1/decoders/pem.js_function_{"line":15,"column":30}
+FunctionDeclaration, asn1.js/lib/asn1/encoders/der.js_function_{"line":10,"column":0}
+FunctionExpression, asn1.js/lib/asn1/encoders/der.js_function_{"line":21,"column":30}
+FunctionDeclaration, asn1.js/lib/asn1/encoders/der.js_function_{"line":27,"column":0}
+FunctionExpression, asn1.js/lib/asn1/encoders/der.js_function_{"line":32,"column":37}
+FunctionExpression, asn1.js/lib/asn1/encoders/der.js_function_{"line":62,"column":31}
+FunctionExpression, asn1.js/lib/asn1/encoders/der.js_function_{"line":97,"column":33}
+FunctionDeclaration, asn1.js/lib/asn1/encoders/der.js_function_{"line":143,"column":0}
+FunctionExpression, asn1.js/lib/asn1/encoders/der.js_function_{"line":150,"column":32}
+FunctionExpression, asn1.js/lib/asn1/encoders/der.js_function_{"line":181,"column":32}
+FunctionExpression, asn1.js/lib/asn1/encoders/der.js_function_{"line":185,"column":31}
+FunctionExpression, asn1.js/lib/asn1/encoders/der.js_function_{"line":239,"column":32}
+FunctionExpression, asn1.js/lib/asn1/encoders/der.js_function_{"line":243,"column":25}
+FunctionExpression, asn1.js/lib/asn1/encoders/der.js_function_{"line":249,"column":33}
+FunctionDeclaration, asn1.js/lib/asn1/encoders/der.js_function_{"line":271,"column":0}
+FunctionDeclaration, asn1.js/lib/asn1/encoders/pem.js_function_{"line":7,"column":0}
+FunctionExpression, asn1.js/lib/asn1/encoders/pem.js_function_{"line":14,"column":30}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":5,"column":2}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":13,"column":19}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":11,"column":2}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":21,"column":2}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":61,"column":12}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":70,"column":11}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":75,"column":11}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":80,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":113,"column":29}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":143,"column":28}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":186,"column":2}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":200,"column":2}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":208,"column":27}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":251,"column":2}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":275,"column":28}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":322,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":332,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":338,"column":25}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":346,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":353,"column":27}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":361,"column":25}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":442,"column":26}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":511,"column":26}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":524,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":528,"column":26}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":533,"column":25}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":537,"column":29}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":578,"column":30}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":582,"column":30}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":605,"column":27}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":634,"column":27}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":640,"column":2}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":654,"column":26}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":666,"column":28}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":670,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":677,"column":26}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":684,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":689,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":693,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":702,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":714,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":720,"column":20}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":725,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":731,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":749,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":755,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":760,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":766,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":793,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":799,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":804,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":810,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":837,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":842,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":860,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":915,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":935,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1001,"column":21}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":1005,"column":2}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1049,"column":20}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":1627,"column":2}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":1668,"column":2}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1673,"column":23}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":1692,"column":2}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1697,"column":27}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1708,"column":26}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1722,"column":27}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1729,"column":29}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1772,"column":31}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1783,"column":29}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1799,"column":32}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1818,"column":30}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1836,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1845,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1886,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1893,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1900,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1904,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1928,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1933,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1938,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1943,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1965,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2003,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2012,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2069,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2076,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2080,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2085,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2089,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2094,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2110,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2135,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2140,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2163,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2181,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2209,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2213,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2217,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2223,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2227,"column":30}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2263,"column":26}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2341,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2437,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2442,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2446,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2451,"column":26}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2470,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2483,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2496,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2500,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2582,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2648,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2688,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2692,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2696,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2701,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2706,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2735,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2739,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2768,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2778,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2799,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2803,"column":20}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2807,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2811,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2815,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2819,"column":20}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2823,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2827,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2831,"column":21}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2835,"column":20}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2843,"column":11}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2847,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2853,"column":25}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2858,"column":27}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2863,"column":26}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2868,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2873,"column":25}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2878,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2883,"column":25}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2888,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2893,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2899,"column":25}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2905,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2911,"column":25}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2918,"column":25}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2924,"column":25}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2931,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2937,"column":24}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":2952,"column":2}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2962,"column":26}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":2968,"column":29}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3000,"column":27}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3004,"column":27}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":3008,"column":2}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3016,"column":25}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3050,"column":25}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":3075,"column":2}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":3083,"column":2}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":3091,"column":2}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3100,"column":27}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3118,"column":14}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":3142,"column":2}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3154,"column":27}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3159,"column":27}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3165,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3170,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3178,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3188,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3198,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3208,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3218,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3223,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3228,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3233,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3237,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3241,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3298,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3308,"column":22}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3356,"column":28}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3362,"column":30}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3372,"column":12}
+FunctionDeclaration, bn.js/lib/bn.js_function_{"line":3376,"column":2}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3394,"column":29}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3398,"column":31}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3404,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3425,"column":23}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":3441,"column":24}
+FunctionExpression, bn.js/lib/bn.js_function_{"line":1,"column":1}
+FunctionExpression, brorand/index.js_function_{"line":3,"column":17}
+FunctionDeclaration, brorand/index.js_function_{"line":10,"column":0}
+FunctionExpression, brorand/index.js_function_{"line":15,"column":26}
+FunctionExpression, brorand/index.js_function_{"line":20,"column":23}
+FunctionExpression, brorand/index.js_function_{"line":33,"column":27}
+FunctionExpression, brorand/index.js_function_{"line":40,"column":27}
+FunctionExpression, brorand/index.js_function_{"line":49,"column":27}
+FunctionExpression, brorand/index.js_function_{"line":60,"column":27}
+FunctionExpression, brorand/test/api-test.js_function_{"line":5,"column":39}
+FunctionExpression, brorand/test/api-test.js_function_{"line":4,"column":20}
+FunctionDeclaration, elliptic/lib/elliptic/curve/base.js_function_{"line":9,"column":0}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":44,"column":28}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":48,"column":31}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":52,"column":35}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":86,"column":31}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":128,"column":34}
+FunctionDeclaration, elliptic/lib/elliptic/curve/base.js_function_{"line":255,"column":0}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":262,"column":25}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":266,"column":31}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":270,"column":34}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":294,"column":39}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":298,"column":30}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":308,"column":29}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":312,"column":33}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":329,"column":34}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":340,"column":34}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":357,"column":36}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":372,"column":31}
+FunctionExpression, elliptic/lib/elliptic/curve/base.js_function_{"line":376,"column":27}
+FunctionDeclaration, elliptic/lib/elliptic/curve/edwards.js_function_{"line":10,"column":0}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":31,"column":31}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":38,"column":31}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":46,"column":32}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":50,"column":36}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":71,"column":36}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":99,"column":34}
+FunctionDeclaration, elliptic/lib/elliptic/curve/edwards.js_function_{"line":114,"column":0}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":147,"column":39}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":151,"column":31}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":155,"column":17}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":159,"column":26}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":167,"column":29}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":174,"column":26}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":207,"column":27}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":268,"column":22}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":279,"column":26}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":311,"column":27}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":350,"column":22}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":362,"column":22}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":369,"column":25}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":373,"column":26}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":377,"column":28}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":392,"column":22}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":399,"column":23}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":404,"column":23}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":409,"column":21}
+FunctionExpression, elliptic/lib/elliptic/curve/edwards.js_function_{"line":415,"column":25}
+FunctionDeclaration, elliptic/lib/elliptic/curve/mont.js_function_{"line":9,"column":0}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":21,"column":31}
+FunctionDeclaration, elliptic/lib/elliptic/curve/mont.js_function_{"line":30,"column":0}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":46,"column":34}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":50,"column":28}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":54,"column":36}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":58,"column":29}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":62,"column":26}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":66,"column":17}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":70,"column":26}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":77,"column":29}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":82,"column":22}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":103,"column":22}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":107,"column":26}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":130,"column":22}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":155,"column":25}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":159,"column":26}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":163,"column":21}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":167,"column":28}
+FunctionExpression, elliptic/lib/elliptic/curve/mont.js_function_{"line":173,"column":23}
+FunctionDeclaration, elliptic/lib/elliptic/curve/short.js_function_{"line":10,"column":0}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":60,"column":27}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":28,"column":40}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":77,"column":37}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":92,"column":37}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":168,"column":34}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":187,"column":34}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":206,"column":32}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":219,"column":4}
+FunctionDeclaration, elliptic/lib/elliptic/curve/short.js_function_{"line":251,"column":0}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":274,"column":29}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":278,"column":37}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":293,"column":18}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":282,"column":27}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":312,"column":25}
+FunctionDeclaration, elliptic/lib/elliptic/curve/short.js_function_{"line":335,"column":2}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":328,"column":17}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":354,"column":26}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":361,"column":29}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":365,"column":22}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":394,"column":22}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":414,"column":23}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":418,"column":23}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":422,"column":22}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":434,"column":25}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":443,"column":26}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":452,"column":21}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":465,"column":17}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":458,"column":22}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":482,"column":22}
+FunctionDeclaration, elliptic/lib/elliptic/curve/short.js_function_{"line":490,"column":0}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":512,"column":30}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":516,"column":23}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":528,"column":23}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":532,"column":23}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":569,"column":28}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":605,"column":24}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":656,"column":23}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":668,"column":28}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":739,"column":29}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":802,"column":24}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":832,"column":24}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":883,"column":23}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":889,"column":22}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":908,"column":26}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":927,"column":27}
+FunctionExpression, elliptic/lib/elliptic/curve/short.js_function_{"line":935,"column":30}
+FunctionDeclaration, elliptic/lib/elliptic/curves.js_function_{"line":11,"column":0}
+FunctionExpression, elliptic/lib/elliptic/curves.js_function_{"line":31,"column":9}
+FunctionDeclaration, elliptic/lib/elliptic/curves.js_function_{"line":27,"column":0}
+FunctionDeclaration, elliptic/lib/elliptic/ec/index.js_function_{"line":13,"column":0}
+FunctionExpression, elliptic/lib/elliptic/ec/index.js_function_{"line":43,"column":23}
+FunctionExpression, elliptic/lib/elliptic/ec/index.js_function_{"line":47,"column":30}
+FunctionExpression, elliptic/lib/elliptic/ec/index.js_function_{"line":51,"column":29}
+FunctionExpression, elliptic/lib/elliptic/ec/index.js_function_{"line":55,"column":26}
+FunctionExpression, elliptic/lib/elliptic/ec/index.js_function_{"line":81,"column":28}
+FunctionExpression, elliptic/lib/elliptic/ec/index.js_function_{"line":91,"column":20}
+FunctionExpression, elliptic/lib/elliptic/ec/index.js_function_{"line":156,"column":22}
+FunctionExpression, elliptic/lib/elliptic/ec/index.js_function_{"line":196,"column":29}
+FunctionExpression, elliptic/lib/elliptic/ec/index.js_function_{"line":226,"column":35}
+FunctionDeclaration, elliptic/lib/elliptic/ec/key.js_function_{"line":7,"column":0}
+FunctionExpression, elliptic/lib/elliptic/ec/key.js_function_{"line":20,"column":21}
+FunctionExpression, elliptic/lib/elliptic/ec/key.js_function_{"line":30,"column":22}
+FunctionExpression, elliptic/lib/elliptic/ec/key.js_function_{"line":40,"column":29}
+FunctionExpression, elliptic/lib/elliptic/ec/key.js_function_{"line":53,"column":30}
+FunctionExpression, elliptic/lib/elliptic/ec/key.js_function_{"line":69,"column":31}
+FunctionExpression, elliptic/lib/elliptic/ec/key.js_function_{"line":76,"column":35}
+FunctionExpression, elliptic/lib/elliptic/ec/key.js_function_{"line":84,"column":34}
+FunctionExpression, elliptic/lib/elliptic/ec/key.js_function_{"line":102,"column":27}
+FunctionExpression, elliptic/lib/elliptic/ec/key.js_function_{"line":110,"column":25}
+FunctionExpression, elliptic/lib/elliptic/ec/key.js_function_{"line":114,"column":27}
+FunctionExpression, elliptic/lib/elliptic/ec/key.js_function_{"line":118,"column":28}
+FunctionDeclaration, elliptic/lib/elliptic/ec/signature.js_function_{"line":8,"column":0}
+FunctionDeclaration, elliptic/lib/elliptic/ec/signature.js_function_{"line":25,"column":0}
+FunctionDeclaration, elliptic/lib/elliptic/ec/signature.js_function_{"line":29,"column":0}
+FunctionDeclaration, elliptic/lib/elliptic/ec/signature.js_function_{"line":57,"column":0}
+FunctionExpression, elliptic/lib/elliptic/ec/signature.js_function_{"line":69,"column":33}
+FunctionDeclaration, elliptic/lib/elliptic/ec/signature.js_function_{"line":126,"column":0}
+FunctionExpression, elliptic/lib/elliptic/ec/signature.js_function_{"line":139,"column":28}
+FunctionDeclaration, elliptic/lib/elliptic/eddsa/index.js_function_{"line":11,"column":0}
+FunctionExpression, elliptic/lib/elliptic/eddsa/index.js_function_{"line":34,"column":23}
+FunctionExpression, elliptic/lib/elliptic/eddsa/index.js_function_{"line":52,"column":25}
+FunctionExpression, elliptic/lib/elliptic/eddsa/index.js_function_{"line":62,"column":26}
+FunctionExpression, elliptic/lib/elliptic/eddsa/index.js_function_{"line":69,"column":32}
+FunctionExpression, elliptic/lib/elliptic/eddsa/index.js_function_{"line":73,"column":32}
+FunctionExpression, elliptic/lib/elliptic/eddsa/index.js_function_{"line":77,"column":32}
+FunctionExpression, elliptic/lib/elliptic/eddsa/index.js_function_{"line":91,"column":30}
+FunctionExpression, elliptic/lib/elliptic/eddsa/index.js_function_{"line":97,"column":30}
+FunctionExpression, elliptic/lib/elliptic/eddsa/index.js_function_{"line":108,"column":28}
+FunctionExpression, elliptic/lib/elliptic/eddsa/index.js_function_{"line":112,"column":28}
+FunctionExpression, elliptic/lib/elliptic/eddsa/index.js_function_{"line":116,"column":26}
+FunctionDeclaration, elliptic/lib/elliptic/eddsa/key.js_function_{"line":17,"column":0}
+FunctionExpression, elliptic/lib/elliptic/eddsa/key.js_function_{"line":26,"column":21}
+FunctionExpression, elliptic/lib/elliptic/eddsa/key.js_function_{"line":32,"column":21}
+FunctionExpression, elliptic/lib/elliptic/eddsa/key.js_function_{"line":38,"column":27}
+FunctionExpression, elliptic/lib/elliptic/eddsa/key.js_function_{"line":42,"column":36}
+FunctionExpression, elliptic/lib/elliptic/eddsa/key.js_function_{"line":46,"column":31}
+FunctionExpression, elliptic/lib/elliptic/eddsa/key.js_function_{"line":52,"column":37}
+FunctionExpression, elliptic/lib/elliptic/eddsa/key.js_function_{"line":65,"column":32}
+FunctionExpression, elliptic/lib/elliptic/eddsa/key.js_function_{"line":69,"column":32}
+FunctionExpression, elliptic/lib/elliptic/eddsa/key.js_function_{"line":73,"column":41}
+FunctionExpression, elliptic/lib/elliptic/eddsa/key.js_function_{"line":77,"column":25}
+FunctionExpression, elliptic/lib/elliptic/eddsa/key.js_function_{"line":82,"column":27}
+FunctionExpression, elliptic/lib/elliptic/eddsa/key.js_function_{"line":86,"column":30}
+FunctionExpression, elliptic/lib/elliptic/eddsa/key.js_function_{"line":91,"column":30}
+FunctionDeclaration, elliptic/lib/elliptic/eddsa/signature.js_function_{"line":17,"column":0}
+FunctionExpression, elliptic/lib/elliptic/eddsa/signature.js_function_{"line":41,"column":31}
+FunctionExpression, elliptic/lib/elliptic/eddsa/signature.js_function_{"line":45,"column":31}
+FunctionExpression, elliptic/lib/elliptic/eddsa/signature.js_function_{"line":49,"column":38}
+FunctionExpression, elliptic/lib/elliptic/eddsa/signature.js_function_{"line":53,"column":38}
+FunctionExpression, elliptic/lib/elliptic/eddsa/signature.js_function_{"line":57,"column":30}
+FunctionExpression, elliptic/lib/elliptic/eddsa/signature.js_function_{"line":61,"column":28}
+FunctionDeclaration, elliptic/lib/elliptic/utils.js_function_{"line":15,"column":0}
+FunctionDeclaration, elliptic/lib/elliptic/utils.js_function_{"line":44,"column":0}
+FunctionExpression, elliptic/lib/elliptic/utils.js_function_{"line":102,"column":24}
+FunctionDeclaration, elliptic/lib/elliptic/utils.js_function_{"line":100,"column":0}
+FunctionDeclaration, elliptic/lib/elliptic/utils.js_function_{"line":109,"column":0}
+FunctionDeclaration, elliptic/lib/elliptic/utils.js_function_{"line":115,"column":0}
+FunctionDeclaration, hash.js/lib/hash/common.js_function_{"line":6,"column":0}
+FunctionExpression, hash.js/lib/hash/common.js_function_{"line":20,"column":29}
+FunctionExpression, hash.js/lib/hash/common.js_function_{"line":47,"column":29}
+FunctionExpression, hash.js/lib/hash/common.js_function_{"line":54,"column":27}
+FunctionDeclaration, hash.js/lib/hash/hmac.js_function_{"line":6,"column":0}
+FunctionExpression, hash.js/lib/hash/hmac.js_function_{"line":19,"column":23}
+FunctionExpression, hash.js/lib/hash/hmac.js_function_{"line":39,"column":24}
+FunctionExpression, hash.js/lib/hash/hmac.js_function_{"line":44,"column":24}
+FunctionDeclaration, hash.js/lib/hash/ripemd.js_function_{"line":12,"column":0}
+FunctionExpression, hash.js/lib/hash/ripemd.js_function_{"line":29,"column":30}
+FunctionExpression, hash.js/lib/hash/ripemd.js_function_{"line":70,"column":30}
+FunctionDeclaration, hash.js/lib/hash/ripemd.js_function_{"line":77,"column":0}
+FunctionDeclaration, hash.js/lib/hash/ripemd.js_function_{"line":90,"column":0}
+FunctionDeclaration, hash.js/lib/hash/ripemd.js_function_{"line":103,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/1.js_function_{"line":18,"column":0}
+FunctionExpression, hash.js/lib/hash/sha/1.js_function_{"line":37,"column":25}
+FunctionExpression, hash.js/lib/hash/sha/1.js_function_{"line":69,"column":25}
+FunctionDeclaration, hash.js/lib/hash/sha/224.js_function_{"line":6,"column":0}
+FunctionExpression, hash.js/lib/hash/sha/224.js_function_{"line":23,"column":27}
+FunctionDeclaration, hash.js/lib/hash/sha/256.js_function_{"line":39,"column":0}
+FunctionExpression, hash.js/lib/hash/sha/256.js_function_{"line":59,"column":27}
+FunctionExpression, hash.js/lib/hash/sha/256.js_function_{"line":100,"column":27}
+FunctionDeclaration, hash.js/lib/hash/sha/384.js_function_{"line":7,"column":0}
+FunctionExpression, hash.js/lib/hash/sha/384.js_function_{"line":30,"column":27}
+FunctionDeclaration, hash.js/lib/hash/sha/512.js_function_{"line":64,"column":0}
+FunctionExpression, hash.js/lib/hash/sha/512.js_function_{"line":89,"column":33}
+FunctionExpression, hash.js/lib/hash/sha/512.js_function_{"line":118,"column":27}
+FunctionExpression, hash.js/lib/hash/sha/512.js_function_{"line":209,"column":27}
+FunctionDeclaration, hash.js/lib/hash/sha/512.js_function_{"line":216,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/512.js_function_{"line":223,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/512.js_function_{"line":230,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/512.js_function_{"line":237,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/512.js_function_{"line":244,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/512.js_function_{"line":255,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/512.js_function_{"line":266,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/512.js_function_{"line":277,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/512.js_function_{"line":288,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/512.js_function_{"line":299,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/512.js_function_{"line":310,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/512.js_function_{"line":321,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/common.js_function_{"line":6,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/common.js_function_{"line":16,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/common.js_function_{"line":21,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/common.js_function_{"line":26,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/common.js_function_{"line":31,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/common.js_function_{"line":36,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/common.js_function_{"line":41,"column":0}
+FunctionDeclaration, hash.js/lib/hash/sha/common.js_function_{"line":46,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":8,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":18,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":65,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":73,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":82,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":94,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":102,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":122,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":138,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":158,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":163,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":168,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":173,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":178,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":183,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":188,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":199,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":206,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":212,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":227,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":233,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":250,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":257,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":263,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":269,"column":0}
+FunctionDeclaration, hash.js/lib/hash/utils.js_function_{"line":274,"column":0}
+FunctionDeclaration, hash.js/test/hash-test.js_function_{"line":9,"column":2}
+FunctionExpression, hash.js/test/hash-test.js_function_{"line":26,"column":30}
+FunctionExpression, hash.js/test/hash-test.js_function_{"line":41,"column":30}
+FunctionExpression, hash.js/test/hash-test.js_function_{"line":56,"column":33}
+FunctionExpression, hash.js/test/hash-test.js_function_{"line":73,"column":28}
+FunctionExpression, hash.js/test/hash-test.js_function_{"line":90,"column":30}
+FunctionExpression, hash.js/test/hash-test.js_function_{"line":108,"column":30}
+ArrowFunctionExpression, hash.js/test/hash-test.js_function_{"line":134,"column":10}
+FunctionExpression, hash.js/test/hash-test.js_function_{"line":126,"column":49}
+FunctionExpression, hash.js/test/hash-test.js_function_{"line":8,"column":17}
+FunctionExpression, hash.js/test/hmac-test.js_function_{"line":51,"column":43}
+FunctionDeclaration, hash.js/test/hmac-test.js_function_{"line":50,"column":4}
+FunctionExpression, hash.js/test/hmac-test.js_function_{"line":8,"column":32}
+FunctionExpression, hash.js/test/hmac-test.js_function_{"line":7,"column":17}
+FunctionDeclaration, hmac-drbg/lib/hmac-drbg.js_function_{"line":7,"column":0}
+FunctionExpression, hmac-drbg/lib/hmac-drbg.js_function_{"line":30,"column":27}
+FunctionExpression, hmac-drbg/lib/hmac-drbg.js_function_{"line":45,"column":27}
+FunctionExpression, hmac-drbg/lib/hmac-drbg.js_function_{"line":49,"column":29}
+FunctionExpression, hmac-drbg/lib/hmac-drbg.js_function_{"line":68,"column":28}
+FunctionExpression, hmac-drbg/lib/hmac-drbg.js_function_{"line":86,"column":30}
+FunctionDeclaration, hmac-drbg/test/drbg-test.js_function_{"line":9,"column":4}
+ArrowFunctionExpression, hmac-drbg/test/drbg-test.js_function_{"line":8,"column":40}
+FunctionExpression, hmac-drbg/test/drbg-test.js_function_{"line":44,"column":43}
+FunctionExpression, hmac-drbg/test/drbg-test.js_function_{"line":43,"column":54}
+FunctionExpression, hmac-drbg/test/drbg-test.js_function_{"line":42,"column":26}
+FunctionExpression, hmac-drbg/test/drbg-test.js_function_{"line":63,"column":24}
+FunctionExpression, hmac-drbg/test/drbg-test.js_function_{"line":62,"column":24}
+ArrowFunctionExpression, hmac-drbg/test/drbg-test.js_function_{"line":7,"column":22}
+FunctionExpression, inherits/inherits_browser.js_function_{"line":3,"column":19}
+FunctionExpression, inherits/inherits_browser.js_function_{"line":21,"column":21}
+FunctionExpression, inherits/inherits_browser.js_function_{"line":18,"column":19}
+FunctionDeclaration, minimalistic-assert/index.js_function_{"line":3,"column":0}
+FunctionExpression, minimalistic-assert/index.js_function_{"line":8,"column":15}
+FunctionDeclaration, minimalistic-crypto-utils/lib/utils.js_function_{"line":5,"column":0}
+FunctionDeclaration, minimalistic-crypto-utils/lib/utils.js_function_{"line":37,"column":0}
+FunctionDeclaration, minimalistic-crypto-utils/lib/utils.js_function_{"line":45,"column":0}
+FunctionExpression, minimalistic-crypto-utils/lib/utils.js_function_{"line":53,"column":15}
+ArrowFunctionExpression, minimalistic-crypto-utils/test/utils-test.js_function_{"line":7,"column":32}
+ArrowFunctionExpression, minimalistic-crypto-utils/test/utils-test.js_function_{"line":15,"column":36}
+ArrowFunctionExpression, minimalistic-crypto-utils/test/utils-test.js_function_{"line":20,"column":30}
+ArrowFunctionExpression, minimalistic-crypto-utils/test/utils-test.js_function_{"line":24,"column":22}
+ArrowFunctionExpression, minimalistic-crypto-utils/test/utils-test.js_function_{"line":6,"column":18}
+FunctionDeclaration, safe-buffer/index.js_function_{"line":7,"column":0}
+FunctionDeclaration, safe-buffer/index.js_function_{"line":20,"column":0}
+FunctionExpression, safe-buffer/index.js_function_{"line":29,"column":18}
+FunctionExpression, safe-buffer/index.js_function_{"line":36,"column":19}
+FunctionExpression, safe-buffer/index.js_function_{"line":53,"column":25}
+FunctionExpression, safe-buffer/index.js_function_{"line":60,"column":29}
+FunctionExpression, safer-buffer/dangerous.js_function_{"line":35,"column":27}
+FunctionExpression, safer-buffer/dangerous.js_function_{"line":47,"column":31}
+FunctionExpression, safer-buffer/safer.js_function_{"line":28,"column":15}
+FunctionExpression, safer-buffer/safer.js_function_{"line":40,"column":16}
+FunctionExpression, safer-buffer/tests.js_function_{"line":15,"column":25}
+FunctionExpression, safer-buffer/tests.js_function_{"line":23,"column":36}
+FunctionExpression, safer-buffer/tests.js_function_{"line":27,"column":19}
+FunctionExpression, safer-buffer/tests.js_function_{"line":22,"column":26}
+FunctionExpression, safer-buffer/tests.js_function_{"line":36,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":37,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":38,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":39,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":40,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":41,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":42,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":43,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":35,"column":36}
+FunctionExpression, safer-buffer/tests.js_function_{"line":34,"column":27}
+FunctionExpression, safer-buffer/tests.js_function_{"line":49,"column":36}
+FunctionExpression, safer-buffer/tests.js_function_{"line":48,"column":27}
+FunctionExpression, safer-buffer/tests.js_function_{"line":57,"column":25}
+FunctionExpression, safer-buffer/tests.js_function_{"line":61,"column":22}
+FunctionExpression, safer-buffer/tests.js_function_{"line":56,"column":47}
+FunctionExpression, safer-buffer/tests.js_function_{"line":70,"column":38}
+FunctionExpression, safer-buffer/tests.js_function_{"line":69,"column":59}
+FunctionExpression, safer-buffer/tests.js_function_{"line":68,"column":57}
+FunctionExpression, safer-buffer/tests.js_function_{"line":81,"column":38}
+FunctionExpression, safer-buffer/tests.js_function_{"line":79,"column":30}
+FunctionExpression, safer-buffer/tests.js_function_{"line":78,"column":64}
+FunctionExpression, safer-buffer/tests.js_function_{"line":92,"column":38}
+FunctionExpression, safer-buffer/tests.js_function_{"line":90,"column":37}
+FunctionExpression, safer-buffer/tests.js_function_{"line":89,"column":64}
+FunctionExpression, safer-buffer/tests.js_function_{"line":101,"column":36}
+FunctionExpression, safer-buffer/tests.js_function_{"line":100,"column":51}
+FunctionExpression, safer-buffer/tests.js_function_{"line":111,"column":38}
+FunctionExpression, safer-buffer/tests.js_function_{"line":109,"column":29}
+FunctionExpression, safer-buffer/tests.js_function_{"line":119,"column":38}
+FunctionExpression, safer-buffer/tests.js_function_{"line":118,"column":36}
+FunctionExpression, safer-buffer/tests.js_function_{"line":108,"column":51}
+FunctionExpression, safer-buffer/tests.js_function_{"line":130,"column":38}
+FunctionExpression, safer-buffer/tests.js_function_{"line":128,"column":33}
+FunctionExpression, safer-buffer/tests.js_function_{"line":139,"column":38}
+FunctionExpression, safer-buffer/tests.js_function_{"line":137,"column":40}
+FunctionExpression, safer-buffer/tests.js_function_{"line":127,"column":65}
+FunctionExpression, safer-buffer/tests.js_function_{"line":150,"column":36}
+FunctionExpression, safer-buffer/tests.js_function_{"line":165,"column":45}
+FunctionExpression, safer-buffer/tests.js_function_{"line":149,"column":31}
+FunctionExpression, safer-buffer/tests.js_function_{"line":173,"column":36}
+FunctionExpression, safer-buffer/tests.js_function_{"line":188,"column":23}
+FunctionExpression, safer-buffer/tests.js_function_{"line":172,"column":37}
+FunctionExpression, safer-buffer/tests.js_function_{"line":197,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":198,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":199,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":200,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":201,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":202,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":203,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":204,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":205,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":206,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":207,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":208,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":209,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":210,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":211,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":212,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":213,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":214,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":215,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":216,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":217,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":218,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":219,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":220,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":221,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":222,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":223,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":224,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":196,"column":36}
+FunctionExpression, safer-buffer/tests.js_function_{"line":227,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":228,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":229,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":230,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":231,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":235,"column":15}
+FunctionExpression, safer-buffer/tests.js_function_{"line":236,"column":15}
+FunctionExpression, safer-buffer/tests.js_function_{"line":237,"column":15}
+FunctionExpression, safer-buffer/tests.js_function_{"line":239,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":240,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":241,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":242,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":243,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":244,"column":13}
+FunctionExpression, safer-buffer/tests.js_function_{"line":226,"column":45}
+FunctionExpression, safer-buffer/tests.js_function_{"line":195,"column":28}
+FunctionExpression, safer-buffer/tests.js_function_{"line":250,"column":36}
+FunctionExpression, safer-buffer/tests.js_function_{"line":261,"column":45}
+FunctionExpression, safer-buffer/tests.js_function_{"line":249,"column":41}
+FunctionExpression, safer-buffer/tests.js_function_{"line":275,"column":12}
+FunctionExpression, safer-buffer/tests.js_function_{"line":268,"column":45}
+FunctionExpression, safer-buffer/tests.js_function_{"line":287,"column":59}
+FunctionExpression, safer-buffer/tests.js_function_{"line":310,"column":45}
+FunctionExpression, safer-buffer/tests.js_function_{"line":309,"column":78}
+FunctionExpression, safer-buffer/tests.js_function_{"line":332,"column":44}
+FunctionExpression, safer-buffer/tests.js_function_{"line":350,"column":44}
+FunctionExpression, safer-buffer/tests.js_function_{"line":382,"column":36}
+FunctionExpression, safer-buffer/tests.js_function_{"line":381,"column":69}
+FunctionExpression, safer-buffer/tests.js_function_{"line":395,"column":36}
+FunctionExpression, safer-buffer/tests.js_function_{"line":394,"column":53}

@@ -1,74 +1,170 @@
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_9_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_35_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_49_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_54_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_63_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_69_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_77_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_81_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_85_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_89_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_97_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_102_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_108_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_112_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_120_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_156_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_10_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_48_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_60_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_66_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_82_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_87_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_98_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_106_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_119_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_123_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_127_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_134_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_138_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_148_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_153_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_163_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_170_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_176_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_194_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_231_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink-paths.js_function_29_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink-paths.js_function_67_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_42_9
-/data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_53_12
-/data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_59_17
-/data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_70_15
-/data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_87_16
-/data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_103_16
-/data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_119_17
-/data/js-variants/multee/Playground/node-fs-extra/lib/json/output-json-sync.js_function_6_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/json/output-json.js_function_6_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/mkdirs/utils.js_function_11_27
-/data/js-variants/multee/Playground/node-fs-extra/lib/move/move-sync.js_function_10_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/move/move-sync.js_function_20_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/move/move-sync.js_function_26_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/move/move-sync.js_function_36_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/move/move-sync.js_function_45_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_11_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_35_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_41_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_56_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_64_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/output-file/index.js_function_9_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/output-file/index.js_function_28_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/path-exists/index.js_function_5_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/remove/index.js_function_6_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/remove/index.js_function_10_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_7_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_20_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_35_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_66_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_98_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_114_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_131_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_137_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_143_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/util/utimes.js_function_5_0
-/data/js-variants/multee/Playground/node-fs-extra/lib/util/utimes.js_function_17_0
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":9,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":35,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":49,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":54,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":63,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":69,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":77,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":81,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":85,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":89,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":97,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":102,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":109,"column":30}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":108,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":112,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":120,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy-sync.js_function_{"line":156,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":18,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":38,"column":33}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":36,"column":54}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":33,"column":43}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":10,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":53,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":50,"column":25}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":48,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":63,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":63,"column":40}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":60,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":68,"column":12}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":66,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":82,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":89,"column":20}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":87,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":99,"column":25}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":98,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":111,"column":43}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":106,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":119,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":123,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":128,"column":31}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":127,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":134,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":142,"column":15}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":138,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":148,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":156,"column":29}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":154,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":153,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":164,"column":18}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":163,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":170,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":186,"column":50}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":183,"column":53}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":179,"column":37}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":176,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":204,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":195,"column":19}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":194,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":232,"column":18}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/copy/copy.js_function_{"line":231,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/empty/index.js_function_{"line":17,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/empty/index.js_function_{"line":9,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/empty/index.js_function_{"line":28,"column":16}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/empty/index.js_function_{"line":20,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/file.js_function_{"line":10,"column":27}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/file.js_function_{"line":9,"column":2}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/file.js_function_{"line":23,"column":35}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/file.js_function_{"line":35,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/file.js_function_{"line":19,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/file.js_function_{"line":16,"column":16}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/file.js_function_{"line":8,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/file.js_function_{"line":43,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/link.js_function_{"line":12,"column":30}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/link.js_function_{"line":11,"column":2}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/link.js_function_{"line":30,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/link.js_function_{"line":27,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/link.js_function_{"line":19,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/link.js_function_{"line":18,"column":20}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/link.js_function_{"line":10,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/link.js_function_{"line":39,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink-paths.js_function_{"line":31,"column":29}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink-paths.js_function_{"line":52,"column":33}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink-paths.js_function_{"line":44,"column":37}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink-paths.js_function_{"line":29,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink-paths.js_function_{"line":67,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink-type.js_function_{"line":9,"column":20}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink-type.js_function_{"line":5,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink-type.js_function_{"line":16,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink.js_function_{"line":31,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink.js_function_{"line":26,"column":20}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink.js_function_{"line":22,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink.js_function_{"line":49,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink.js_function_{"line":46,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink.js_function_{"line":43,"column":38}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink.js_function_{"line":40,"column":33}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink.js_function_{"line":39,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/ensure/symlink.js_function_{"line":58,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_{"line":42,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_{"line":53,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_{"line":63,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_{"line":59,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_{"line":75,"column":50}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_{"line":74,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_{"line":70,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_{"line":93,"column":34}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_{"line":92,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_{"line":87,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_{"line":109,"column":35}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_{"line":108,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_{"line":103,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_{"line":125,"column":36}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_{"line":124,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/fs/index.js_function_{"line":119,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/json/output-json-sync.js_function_{"line":6,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/json/output-json.js_function_{"line":6,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/mkdirs/make-dir.js_function_{"line":5,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/mkdirs/make-dir.js_function_{"line":11,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/mkdirs/make-dir.js_function_{"line":20,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/mkdirs/utils.js_function_{"line":11,"column":27}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move-sync.js_function_{"line":10,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move-sync.js_function_{"line":20,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move-sync.js_function_{"line":26,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move-sync.js_function_{"line":36,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move-sync.js_function_{"line":45,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_{"line":27,"column":33}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_{"line":24,"column":54}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_{"line":21,"column":43}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_{"line":11,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_{"line":35,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_{"line":44,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_{"line":49,"column":19}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_{"line":41,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_{"line":57,"column":23}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_{"line":56,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_{"line":69,"column":24}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/move/move.js_function_{"line":64,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/output-file/index.js_function_{"line":20,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/output-file/index.js_function_{"line":16,"column":18}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/output-file/index.js_function_{"line":9,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/output-file/index.js_function_{"line":28,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/path-exists/index.js_function_{"line":6,"column":30}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/path-exists/index.js_function_{"line":6,"column":48}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/path-exists/index.js_function_{"line":5,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/remove/index.js_function_{"line":6,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/remove/index.js_function_{"line":10,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":9,"column":6}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":10,"column":6}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":13,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":17,"column":10}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":7,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":23,"column":6}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":24,"column":6}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":20,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":36,"column":46}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":35,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":66,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":102,"column":40}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":98,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":114,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":131,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":138,"column":58}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":139,"column":60}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":140,"column":23}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":137,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/util/stat.js_function_{"line":143,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/util/utimes.js_function_{"line":10,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/util/utimes.js_function_{"line":9,"column":33}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-fs-extra/lib/util/utimes.js_function_{"line":7,"column":22}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/util/utimes.js_function_{"line":5,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-fs-extra/lib/util/utimes.js_function_{"line":17,"column":0}

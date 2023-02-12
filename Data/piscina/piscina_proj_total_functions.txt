@@ -1,94 +1,241 @@
-/data/js-variants/multee/Playground/piscina/benchmark/fixtures/add.js_function_2_17
-/data/js-variants/multee/Playground/piscina/dist/src/common.js_function_17_0
-/data/js-variants/multee/Playground/piscina/dist/src/common.js_function_26_0
-/data/js-variants/multee/Playground/piscina/dist/src/common.js_function_30_0
-/data/js-variants/multee/Playground/piscina/dist/src/common.js_function_39_0
-/data/js-variants/multee/Playground/piscina/examples/abort/index.js_function_11_1
-/data/js-variants/multee/Playground/piscina/examples/abort/index2.js_function_11_1
-/data/js-variants/multee/Playground/piscina/examples/abort/index3.js_function_11_1
-/data/js-variants/multee/Playground/piscina/examples/abort/index4.js_function_10_1
-/data/js-variants/multee/Playground/piscina/examples/abort/worker.js_function_6_17
-/data/js-variants/multee/Playground/piscina/examples/async_load/index.js_function_8_1
-/data/js-variants/multee/Playground/piscina/examples/async_load/worker.js_function_6_18
-/data/js-variants/multee/Playground/piscina/examples/async_load/worker.mjs_function_5_0
-/data/js-variants/multee/Playground/piscina/examples/es-module/worker.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/message_port/index.js_function_11_1
-/data/js-variants/multee/Playground/piscina/examples/message_port/worker.js_function_3_17
-/data/js-variants/multee/Playground/piscina/examples/messages/index.js_function_10_1
-/data/js-variants/multee/Playground/piscina/examples/messages/worker.js_function_4_17
-/data/js-variants/multee/Playground/piscina/examples/move/index.js_function_9_1
-/data/js-variants/multee/Playground/piscina/examples/move/worker.js_function_3_17
-/data/js-variants/multee/Playground/piscina/examples/multiple-workers/add_worker.js_function_3_17
-/data/js-variants/multee/Playground/piscina/examples/multiple-workers/index.js_function_12_1
-/data/js-variants/multee/Playground/piscina/examples/multiple-workers/multiply_worker.js_function_3_17
-/data/js-variants/multee/Playground/piscina/examples/multiple-workers-one-file/index.js_function_12_1
-/data/js-variants/multee/Playground/piscina/examples/multiple-workers-one-file/worker.js_function_3_0
-/data/js-variants/multee/Playground/piscina/examples/multiple-workers-one-file/worker.js_function_4_0
-/data/js-variants/multee/Playground/piscina/examples/multiple-workers-one-file/worker.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/multiple-workers-one-file/worker.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/n-api/index.js_function_8_1
-/data/js-variants/multee/Playground/piscina/examples/named/helper.js_function_1_0
-/data/js-variants/multee/Playground/piscina/examples/named/helper.js_function_5_0
-/data/js-variants/multee/Playground/piscina/examples/named/index.js_function_11_1
-/data/js-variants/multee/Playground/piscina/examples/named/worker.js_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/named/worker.js_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/progress/index.js_function_14_0
-/data/js-variants/multee/Playground/piscina/examples/progress/index.js_function_26_9
-/data/js-variants/multee/Playground/piscina/examples/progress/worker.js_function_3_17
-/data/js-variants/multee/Playground/piscina/examples/react-ssr/components/greeting.js_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/react-ssr/pooled.js_function_14_17
-/data/js-variants/multee/Playground/piscina/examples/react-ssr/pooled.js_function_17_14
-/data/js-variants/multee/Playground/piscina/examples/react-ssr/pooled.js_function_26_21
-/data/js-variants/multee/Playground/piscina/examples/react-ssr/unpooled.js_function_10_17
-/data/js-variants/multee/Playground/piscina/examples/react-ssr/unpooled.js_function_28_14
-/data/js-variants/multee/Playground/piscina/examples/react-ssr/worker.js_function_8_17
-/data/js-variants/multee/Playground/piscina/examples/resourceLimits/index.js_function_16_1
-/data/js-variants/multee/Playground/piscina/examples/resourceLimits/worker.js_function_3_17
-/data/js-variants/multee/Playground/piscina/examples/scrypt/monitor.js_function_12_19
-/data/js-variants/multee/Playground/piscina/examples/scrypt/scrypt.js_function_11_17
-/data/js-variants/multee/Playground/piscina/examples/scrypt/scrypt_sync.js_function_7_17
-/data/js-variants/multee/Playground/piscina/examples/server/async-sleep-pooled.js_function_16_17
-/data/js-variants/multee/Playground/piscina/examples/server/async-sleep-pooled.js_function_19_14
-/data/js-variants/multee/Playground/piscina/examples/server/async-sleep-unpooled.js_function_8_17
-/data/js-variants/multee/Playground/piscina/examples/server/async-sleep-unpooled.js_function_14_14
-/data/js-variants/multee/Playground/piscina/examples/server/sync-sleep-pooled.js_function_16_17
-/data/js-variants/multee/Playground/piscina/examples/server/sync-sleep-pooled.js_function_19_14
-/data/js-variants/multee/Playground/piscina/examples/server/sync-sleep-unpooled.js_function_9_17
-/data/js-variants/multee/Playground/piscina/examples/server/sync-sleep-unpooled.js_function_15_14
-/data/js-variants/multee/Playground/piscina/examples/server/worker.js_function_6_17
-/data/js-variants/multee/Playground/piscina/examples/server/worker2.js_function_6_17
-/data/js-variants/multee/Playground/piscina/examples/simple/index.js_function_10_1
-/data/js-variants/multee/Playground/piscina/examples/simple/worker.js_function_3_17
-/data/js-variants/multee/Playground/piscina/examples/simple_async/index.js_function_10_1
-/data/js-variants/multee/Playground/piscina/examples/simple_async/worker.js_function_6_17
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream/worker.mjs_function_in_class
-/data/js-variants/multee/Playground/piscina/examples/stream-in/index.js_function_15_34
-/data/js-variants/multee/Playground/piscina/examples/stream-in/index.js_function_29_17
-/data/js-variants/multee/Playground/piscina/examples/stream-in/index.js_function_37_24
-/data/js-variants/multee/Playground/piscina/examples/stream-in/index.js_function_43_14
-/data/js-variants/multee/Playground/piscina/examples/stream-in/index.js_function_59_15
-/data/js-variants/multee/Playground/piscina/examples/stream-in/index.js_function_63_13
-/data/js-variants/multee/Playground/piscina/examples/stream-in/index.js_function_70_19
-/data/js-variants/multee/Playground/piscina/examples/stream-in/worker.js_function_1_17
-/data/js-variants/multee/Playground/piscina/examples/task-queue/worker.js_function_6_17
-/data/js-variants/multee/Playground/piscina/examples/worker_options/index.js_function_14_1
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/benchmark/fixtures/add.js_function_{"line":2,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/dist/src/common.js_function_{"line":17,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/dist/src/common.js_function_{"line":26,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/dist/src/common.js_function_{"line":30,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/dist/src/common.js_function_{"line":39,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":2,"column":70}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":8,"column":70}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":13,"column":56}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":31,"column":18}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":41,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":50,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":53,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":56,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":59,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":60,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":63,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":66,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":92,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":96,"column":79}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":97,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":100,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":104,"column":85}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":105,"column":25}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":108,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":116,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":144,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":149,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":163,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":168,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":171,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":179,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":182,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":191,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":199,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":197,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":208,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":212,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":226,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":230,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":233,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":241,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":246,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":247,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":248,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":249,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":258,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":252,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":263,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":272,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":278,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":282,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":288,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":296,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":322,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":337,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":344,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":381,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":351,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":386,"column":25}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":417,"column":8}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":435,"column":8}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":443,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":446,"column":29}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":451,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":449,"column":27}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":477,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":391,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":485,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":499,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":526,"column":48}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":503,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":550,"column":32}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":551,"column":74}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":569,"column":37}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":534,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":639,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":643,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":648,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":667,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":725,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":754,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":773,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":776,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":779,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":782,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":785,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":792,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":796,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":799,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":803,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":807,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":827,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":830,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":833,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":836,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":839,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":842,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":856,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":857,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/index.js_function_{"line":858,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":4,"column":58}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":2,"column":74}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":5,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":9,"column":80}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":11,"column":5}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":14,"column":50}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":34,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":51,"column":47}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":43,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":87,"column":46}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":82,"column":5}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":79,"column":42}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":102,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":156,"column":34}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":159,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":133,"column":5}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":130,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":181,"column":21}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/dist/src/worker.js_function_{"line":180,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/abort/index.js_function_{"line":11,"column":1}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/abort/index2.js_function_{"line":11,"column":1}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/abort/index3.js_function_{"line":14,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/abort/index3.js_function_{"line":11,"column":1}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/abort/index4.js_function_{"line":17,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/abort/index4.js_function_{"line":10,"column":1}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/abort/worker.js_function_{"line":6,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/async_load/index.js_function_{"line":8,"column":1}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/async_load/worker.js_function_{"line":8,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/async_load/worker.js_function_{"line":6,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/async_load/worker.mjs_function_{"line":7,"column":9}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/examples/async_load/worker.mjs_function_{"line":5,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/es-module/worker.mjs_function_{"line":1,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/message_port/index.js_function_{"line":13,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/message_port/index.js_function_{"line":11,"column":1}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/message_port/worker.js_function_{"line":3,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/messages/index.js_function_{"line":11,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/messages/index.js_function_{"line":10,"column":1}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/messages/worker.js_function_{"line":4,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/move/index.js_function_{"line":9,"column":1}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/move/worker.js_function_{"line":3,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/multiple-workers/add_worker.js_function_{"line":3,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/multiple-workers/index.js_function_{"line":12,"column":1}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/multiple-workers/multiply_worker.js_function_{"line":3,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/multiple-workers-one-file/index.js_function_{"line":12,"column":1}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/examples/multiple-workers-one-file/worker.js_function_{"line":3,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/examples/multiple-workers-one-file/worker.js_function_{"line":4,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/examples/multiple-workers-one-file/worker.mjs_function_{"line":1,"column":7}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/examples/multiple-workers-one-file/worker.mjs_function_{"line":2,"column":7}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/n-api/index.js_function_{"line":8,"column":1}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/examples/named/helper.js_function_{"line":1,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/named/helper.js_function_{"line":6,"column":9}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/examples/named/helper.js_function_{"line":5,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/named/index.js_function_{"line":11,"column":1}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/named/worker.js_function_{"line":6,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/named/worker.js_function_{"line":7,"column":6}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/progress/index.js_function_{"line":17,"column":23}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/examples/progress/index.js_function_{"line":14,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/progress/index.js_function_{"line":26,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/progress/worker.js_function_{"line":3,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/react-ssr/components/greeting.js_function_{"line":6,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/react-ssr/pooled.js_function_{"line":14,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/react-ssr/pooled.js_function_{"line":17,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/react-ssr/pooled.js_function_{"line":26,"column":21}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/react-ssr/unpooled.js_function_{"line":10,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/react-ssr/unpooled.js_function_{"line":28,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/react-ssr/worker.js_function_{"line":8,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/resourceLimits/index.js_function_{"line":16,"column":1}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/resourceLimits/worker.js_function_{"line":3,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/scrypt/pooled.js_function_{"line":10,"column":36}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/scrypt/pooled.js_function_{"line":20,"column":19}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/examples/scrypt/pooled.js_function_{"line":32,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/scrypt/pooled.js_function_{"line":40,"column":1}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/scrypt/pooled_sync.js_function_{"line":10,"column":36}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/scrypt/pooled_sync.js_function_{"line":19,"column":19}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/examples/scrypt/pooled_sync.js_function_{"line":31,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/scrypt/pooled_sync.js_function_{"line":39,"column":1}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/scrypt/scrypt.js_function_{"line":11,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/scrypt/scrypt_sync.js_function_{"line":7,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/scrypt/unpooled.js_function_{"line":11,"column":36}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/examples/scrypt/unpooled.js_function_{"line":16,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/scrypt/unpooled.js_function_{"line":24,"column":1}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/scrypt/unpooled_sync.js_function_{"line":11,"column":36}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/examples/scrypt/unpooled_sync.js_function_{"line":16,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/scrypt/unpooled_sync.js_function_{"line":24,"column":1}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/server/async-sleep-pooled.js_function_{"line":16,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/server/async-sleep-pooled.js_function_{"line":19,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/server/async-sleep-unpooled.js_function_{"line":8,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/server/async-sleep-unpooled.js_function_{"line":14,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/server/sync-sleep-pooled.js_function_{"line":16,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/server/sync-sleep-pooled.js_function_{"line":19,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/server/sync-sleep-unpooled.js_function_{"line":9,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/server/sync-sleep-unpooled.js_function_{"line":15,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/server/worker.js_function_{"line":6,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/server/worker2.js_function_{"line":6,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/simple/index.js_function_{"line":10,"column":1}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/simple/worker.js_function_{"line":3,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/simple_async/index.js_function_{"line":10,"column":1}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/simple_async/worker.js_function_{"line":6,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/index.mjs_function_{"line":19,"column":2}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":10,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":15,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":20,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":31,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":37,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":36,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":40,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":41,"column":6}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":48,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":45,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":51,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":56,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":55,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":62,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":63,"column":6}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":70,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":67,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":73,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":77,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":82,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":93,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":99,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":98,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":105,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/stream.mjs_function_{"line":106,"column":6}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/worker.mjs_function_{"line":5,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/worker.mjs_function_{"line":10,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream/worker.mjs_function_{"line":11,"column":19}
+FunctionDeclaration, /data/js-variants/multee/Playground/piscina/examples/stream/worker.mjs_function_{"line":3,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream-in/index.js_function_{"line":15,"column":34}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream-in/index.js_function_{"line":29,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream-in/index.js_function_{"line":37,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream-in/index.js_function_{"line":47,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream-in/index.js_function_{"line":50,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream-in/index.js_function_{"line":43,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream-in/index.js_function_{"line":59,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream-in/index.js_function_{"line":63,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream-in/index.js_function_{"line":70,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/stream-in/worker.js_function_{"line":1,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/task-queue/worker.js_function_{"line":6,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/piscina/examples/worker_options/index.js_function_{"line":14,"column":1}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/piscina/examples/worker_options/worker.js_function_{"line":6,"column":17}

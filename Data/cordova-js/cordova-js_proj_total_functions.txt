@@ -1,102 +1,140 @@
-/data/js-variants/multee/Playground/cordova-js/Gruntfile.js_function_23_17
-/data/js-variants/multee/Playground/cordova-js/build-tools/build-id.js_function_25_0
-/data/js-variants/multee/Playground/cordova-js/build-tools/build-id.js_function_32_0
-/data/js-variants/multee/Playground/cordova-js/build-tools/bundle.js_function_20_17
-/data/js-variants/multee/Playground/cordova-js/build-tools/bundle.js_function_29_23
-/data/js-variants/multee/Playground/cordova-js/build-tools/common.js_function_in_class
-/data/js-variants/multee/Playground/cordova-js/build-tools/common.js_function_in_class
-/data/js-variants/multee/Playground/cordova-js/build-tools/common.js_function_in_class
-/data/js-variants/multee/Playground/cordova-js/build-tools/common.js_function_in_class
-/data/js-variants/multee/Playground/cordova-js/build-tools/common.js_function_in_class
-/data/js-variants/multee/Playground/cordova-js/build-tools/modules.js_function_31_17
-/data/js-variants/multee/Playground/cordova-js/build-tools/modules.js_function_38_0
-/data/js-variants/multee/Playground/cordova-js/build-tools/modules.js_function_47_0
-/data/js-variants/multee/Playground/cordova-js/build-tools/modules.js_function_57_0
-/data/js-variants/multee/Playground/cordova-js/build-tools/modules.js_function_64_0
-/data/js-variants/multee/Playground/cordova-js/build-tools/modules.js_function_69_23
-/data/js-variants/multee/Playground/cordova-js/build-tools/scripts.js_function_30_17
-/data/js-variants/multee/Playground/cordova-js/build-tools/scripts.js_function_36_0
-/data/js-variants/multee/Playground/cordova-js/build-tools/scripts.js_function_45_0
-/data/js-variants/multee/Playground/cordova-js/build-tools/scripts.js_function_53_0
-/data/js-variants/multee/Playground/cordova-js/karma.conf.js_function_23_17
-/data/js-variants/multee/Playground/cordova-js/src/common/argscheck.js_function_35_0
-/data/js-variants/multee/Playground/cordova-js/src/common/argscheck.js_function_68_0
-/data/js-variants/multee/Playground/cordova-js/src/common/argscheck.js_function_102_0
-/data/js-variants/multee/Playground/cordova-js/src/common/base64.js_function_24_25
-/data/js-variants/multee/Playground/cordova-js/src/common/base64.js_function_28_23
-/data/js-variants/multee/Playground/cordova-js/src/common/base64.js_function_32_0
-/data/js-variants/multee/Playground/cordova-js/src/common/base64.js_function_43_0
-/data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_24_0
-/data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_32_0
-/data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_47_0
-/data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_60_0
-/data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_104_0
-/data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_121_35
-/data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_124_30
-/data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_127_28
-/data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_63_14
-/data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_82_10
-/data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_97_12
-/data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_100_18
-/data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_117_27
-/data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_130_28
-/data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_138_0
-/data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_154_30
-/data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_197_32
-/data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_223_25
-/data/js-variants/multee/Playground/cordova-js/src/common/exec/proxy.js_function_28_9
-/data/js-variants/multee/Playground/cordova-js/src/common/exec/proxy.js_function_35_12
-/data/js-variants/multee/Playground/cordova-js/src/common/exec/proxy.js_function_42_9
-/data/js-variants/multee/Playground/cordova-js/src/common/init.js_function_30_0
-/data/js-variants/multee/Playground/cordova-js/src/common/init.js_function_38_18
-/data/js-variants/multee/Playground/cordova-js/src/common/init.js_function_48_13
-/data/js-variants/multee/Playground/cordova-js/src/common/init.js_function_52_26
-/data/js-variants/multee/Playground/cordova-js/src/common/init.js_function_67_50
-/data/js-variants/multee/Playground/cordova-js/src/common/init.js_function_88_11
-/data/js-variants/multee/Playground/cordova-js/src/common/init.js_function_97_13
-/data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_26_16
-/data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_31_0
-/data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_42_19
-/data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_46_17
-/data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_50_19
-/data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_54_15
-/data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_58_0
-/data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_67_21
-/data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_98_28
-/data/js-variants/multee/Playground/cordova-js/src/common/pluginloader.js_function_26_23
-/data/js-variants/multee/Playground/cordova-js/src/common/pluginloader.js_function_36_0
-/data/js-variants/multee/Playground/cordova-js/src/common/pluginloader.js_function_51_0
-/data/js-variants/multee/Playground/cordova-js/src/common/pluginloader.js_function_79_0
-/data/js-variants/multee/Playground/cordova-js/src/common/pluginloader.js_function_98_0
-/data/js-variants/multee/Playground/cordova-js/src/common/pluginloader.js_function_115_15
-/data/js-variants/multee/Playground/cordova-js/src/common/urlutil.js_function_26_23
-/data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_27_27
-/data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_50_21
-/data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_66_20
-/data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_74_17
-/data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_82_16
-/data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_87_15
-/data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_94_14
-/data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_125_14
-/data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_133_0
-/data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_148_19
-/data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_160_16
-/data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_175_14
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_46_28
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_55_26
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_64_31
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_74_29
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_84_0
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_107_27
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_110_35
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_113_29
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_116_30
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_119_32
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_128_25
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_145_23
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_164_21
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_198_21
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_205_19
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_214_24
-/data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_242_20
-/data/js-variants/multee/Playground/cordova-js/src/scripts/require.js_function_25_1
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/Gruntfile.js_function_{"line":51,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/Gruntfile.js_function_{"line":38,"column":62}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/Gruntfile.js_function_{"line":23,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/build-tools/build-id.js_function_{"line":25,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/build-tools/build-id.js_function_{"line":32,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/build.js_function_{"line":28,"column":35}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/build.js_function_{"line":61,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/build.js_function_{"line":27,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/bundle.js_function_{"line":22,"column":29}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/bundle.js_function_{"line":23,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/bundle.js_function_{"line":20,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/bundle.js_function_{"line":29,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/common.js_function_{"line":30,"column":36}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/common.js_function_{"line":29,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/common.js_function_{"line":35,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/common.js_function_{"line":33,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/common.js_function_{"line":40,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/common.js_function_{"line":47,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/common.js_function_{"line":57,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/common.js_function_{"line":61,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/common.js_function_{"line":62,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/common.js_function_{"line":55,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/modules.js_function_{"line":34,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/modules.js_function_{"line":31,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/build-tools/modules.js_function_{"line":38,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/modules.js_function_{"line":48,"column":11}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/build-tools/modules.js_function_{"line":47,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/modules.js_function_{"line":58,"column":11}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/build-tools/modules.js_function_{"line":57,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/build-tools/modules.js_function_{"line":64,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/modules.js_function_{"line":69,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/scripts.js_function_{"line":30,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/build-tools/scripts.js_function_{"line":36,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/scripts.js_function_{"line":46,"column":11}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/build-tools/scripts.js_function_{"line":45,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-js/build-tools/scripts.js_function_{"line":55,"column":16}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/build-tools/scripts.js_function_{"line":53,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/karma.conf.js_function_{"line":23,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/argscheck.js_function_{"line":35,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/argscheck.js_function_{"line":68,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/argscheck.js_function_{"line":102,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/base64.js_function_{"line":24,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/base64.js_function_{"line":28,"column":23}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/base64.js_function_{"line":32,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/base64.js_function_{"line":43,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_{"line":24,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_{"line":41,"column":37}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_{"line":32,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_{"line":49,"column":37}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_{"line":47,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_{"line":61,"column":18}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_{"line":60,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_{"line":104,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_{"line":121,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_{"line":124,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/builder.js_function_{"line":127,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_{"line":63,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_{"line":85,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_{"line":82,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_{"line":97,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_{"line":100,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_{"line":117,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_{"line":130,"column":28}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_{"line":138,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_{"line":154,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_{"line":197,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/channel.js_function_{"line":223,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/exec/proxy.js_function_{"line":28,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/exec/proxy.js_function_{"line":35,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/exec/proxy.js_function_{"line":42,"column":9}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/init.js_function_{"line":30,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/init.js_function_{"line":38,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/init.js_function_{"line":48,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/init.js_function_{"line":52,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/init.js_function_{"line":67,"column":50}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/init.js_function_{"line":89,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/init.js_function_{"line":88,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/init.js_function_{"line":108,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/init.js_function_{"line":97,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_{"line":26,"column":16}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_{"line":31,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_{"line":42,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_{"line":46,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_{"line":50,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_{"line":54,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_{"line":62,"column":40}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_{"line":58,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_{"line":67,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/modulemapper.js_function_{"line":98,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/pluginloader.js_function_{"line":26,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/pluginloader.js_function_{"line":41,"column":34}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/pluginloader.js_function_{"line":36,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/pluginloader.js_function_{"line":51,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/pluginloader.js_function_{"line":87,"column":4}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/pluginloader.js_function_{"line":79,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/pluginloader.js_function_{"line":98,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/pluginloader.js_function_{"line":121,"column":80}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/pluginloader.js_function_{"line":115,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/urlutil.js_function_{"line":26,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_{"line":27,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_{"line":50,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_{"line":66,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_{"line":74,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_{"line":82,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_{"line":87,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_{"line":94,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_{"line":126,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_{"line":125,"column":14}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_{"line":133,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_{"line":148,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_{"line":162,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_{"line":164,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_{"line":160,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/common/utils.js_function_{"line":175,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":46,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":55,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":64,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":74,"column":29}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":84,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":107,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":110,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":113,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":116,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":119,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":128,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":151,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":145,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":167,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":164,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":198,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":205,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":214,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":243,"column":41}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/cordova.js_function_{"line":242,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/scripts/require.js_function_{"line":35,"column":27}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-js/src/scripts/require.js_function_{"line":33,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/scripts/require.js_function_{"line":49,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/scripts/require.js_function_{"line":69,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/scripts/require.js_function_{"line":80,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-js/src/scripts/require.js_function_{"line":25,"column":1}

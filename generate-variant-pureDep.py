@@ -15,7 +15,10 @@ totalNodes = set(open(totalNodesPath, 'r').readlines())
 
 # get all bloated nodes
 totalBloatedNodesPath = f'{os.getcwd()}/Playground/{project}/unused-files.txt'
-totalBloatedNodes = set(open(totalBloatedNodesPath, 'r').readlines())
+if not os.path.exists(totalBloatedNodesPath):
+    totalBloatedNodes = []
+else:
+    totalBloatedNodes = set(open(totalBloatedNodesPath, 'r').readlines())
 
 
 def cutTotalStr(str):

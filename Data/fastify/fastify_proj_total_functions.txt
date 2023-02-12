@@ -1,166 +1,459 @@
-/data/js-variants/multee/Playground/fastify/build/build-validation.js_function_in_class
-/data/js-variants/multee/Playground/fastify/build/build-validation.js_function_in_class
-/data/js-variants/multee/Playground/fastify/examples/asyncawait.js_function_20_0
-/data/js-variants/multee/Playground/fastify/examples/asyncawait.js_function_25_25
-/data/js-variants/multee/Playground/fastify/examples/asyncawait.js_function_29_20
-/data/js-variants/multee/Playground/fastify/examples/asyncawait.js_function_34_31
-/data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark-async-await.js_function_20_0
-/data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark-async-await.js_function_24_0
-/data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark-async-await.js_function_36_23
-/data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark-async-await.js_function_40_31
-/data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark.js_function_21_24
-/data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark.js_function_24_24
-/data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark.js_function_29_25
-/data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark.js_function_32_25
-/data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark.js_function_35_25
-/data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark.js_function_40_21
-/data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark.js_function_44_23
-/data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark.js_function_48_31
-/data/js-variants/multee/Playground/fastify/examples/benchmark/simple.js_function_23_20
-/data/js-variants/multee/Playground/fastify/examples/benchmark/simple.js_function_28_31
-/data/js-variants/multee/Playground/fastify/examples/hooks.js_function_36_24
-/data/js-variants/multee/Playground/fastify/examples/hooks.js_function_40_25
-/data/js-variants/multee/Playground/fastify/examples/hooks.js_function_44_28
-/data/js-variants/multee/Playground/fastify/examples/hooks.js_function_48_25
-/data/js-variants/multee/Playground/fastify/examples/hooks.js_function_52_31
-/data/js-variants/multee/Playground/fastify/examples/hooks.js_function_56_22
-/data/js-variants/multee/Playground/fastify/examples/hooks.js_function_60_21
-/data/js-variants/multee/Playground/fastify/examples/hooks.js_function_64_25
-/data/js-variants/multee/Playground/fastify/examples/hooks.js_function_68_22
-/data/js-variants/multee/Playground/fastify/examples/hooks.js_function_71_22
-/data/js-variants/multee/Playground/fastify/examples/hooks.js_function_76_23
-/data/js-variants/multee/Playground/fastify/examples/hooks.js_function_80_28
-/data/js-variants/multee/Playground/fastify/examples/hooks.js_function_84_31
-/data/js-variants/multee/Playground/fastify/examples/http2.js_function_30_18
-/data/js-variants/multee/Playground/fastify/examples/http2.js_function_35_31
-/data/js-variants/multee/Playground/fastify/examples/https.js_function_29_18
-/data/js-variants/multee/Playground/fastify/examples/https.js_function_34_31
-/data/js-variants/multee/Playground/fastify/examples/parser.js_function_11_50
-/data/js-variants/multee/Playground/fastify/examples/parser.js_function_18_66
-/data/js-variants/multee/Playground/fastify/examples/parser.js_function_45_13
-/data/js-variants/multee/Playground/fastify/examples/parser.js_function_49_31
-/data/js-variants/multee/Playground/fastify/examples/plugin.js_function_3_17
-/data/js-variants/multee/Playground/fastify/examples/route-prefix.js_function_18_17
-/data/js-variants/multee/Playground/fastify/examples/route-prefix.js_function_26_17
-/data/js-variants/multee/Playground/fastify/examples/route-prefix.js_function_34_31
-/data/js-variants/multee/Playground/fastify/examples/shared-schema.js_function_30_18
-/data/js-variants/multee/Playground/fastify/examples/shared-schema.js_function_34_31
-/data/js-variants/multee/Playground/fastify/examples/simple-stream.js_function_10_12
-/data/js-variants/multee/Playground/fastify/examples/simple-stream.js_function_15_31
-/data/js-variants/multee/Playground/fastify/examples/simple.js_function_23_20
-/data/js-variants/multee/Playground/fastify/examples/simple.js_function_28_31
-/data/js-variants/multee/Playground/fastify/examples/simple.mjs_function_23_21
-/data/js-variants/multee/Playground/fastify/examples/use-plugin.js_function_17_44
-/data/js-variants/multee/Playground/fastify/examples/use-plugin.js_function_21_31
-/data/js-variants/multee/Playground/fastify/integration/server.js_function_10_17
-/data/js-variants/multee/Playground/fastify/integration/server.js_function_14_26
-/data/js-variants/multee/Playground/fastify/integration/server.js_function_19_24
-/data/js-variants/multee/Playground/fastify/integration/server.js_function_24_30
-/data/js-variants/multee/Playground/fastify/lib/configValidator.js_function_10_0
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_30_0
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_41_34
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_78_40
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_82_45
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_93_40
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_134_40
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_141_37
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_155_34
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_195_0
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_275_0
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_293_0
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_297_0
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_304_0
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_313_0
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_335_0
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_339_0
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_353_0
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_361_0
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_380_0
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_391_0
-/data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_403_36
-/data/js-variants/multee/Playground/fastify/lib/context.js_function_21_0
-/data/js-variants/multee/Playground/fastify/lib/context.js_function_81_0
-/data/js-variants/multee/Playground/fastify/lib/context.js_function_98_0
-/data/js-variants/multee/Playground/fastify/lib/decorate.js_function_21_0
-/data/js-variants/multee/Playground/fastify/lib/decorate.js_function_38_0
-/data/js-variants/multee/Playground/fastify/lib/decorate.js_function_59_0
-/data/js-variants/multee/Playground/fastify/lib/decorate.js_function_65_0
-/data/js-variants/multee/Playground/fastify/lib/decorate.js_function_71_0
-/data/js-variants/multee/Playground/fastify/lib/decorate.js_function_79_0
-/data/js-variants/multee/Playground/fastify/lib/decorate.js_function_86_0
-/data/js-variants/multee/Playground/fastify/lib/decorate.js_function_91_0
-/data/js-variants/multee/Playground/fastify/lib/decorate.js_function_96_0
-/data/js-variants/multee/Playground/fastify/lib/decorate.js_function_113_0
-/data/js-variants/multee/Playground/fastify/lib/decorate.js_function_120_0
-/data/js-variants/multee/Playground/fastify/lib/decorate.js_function_127_0
-/data/js-variants/multee/Playground/fastify/lib/error-handler.js_function_in_class
-/data/js-variants/multee/Playground/fastify/lib/error-handler.js_function_28_0
-/data/js-variants/multee/Playground/fastify/lib/error-handler.js_function_74_0
-/data/js-variants/multee/Playground/fastify/lib/error-handler.js_function_94_0
-/data/js-variants/multee/Playground/fastify/lib/error-handler.js_function_133_0
-/data/js-variants/multee/Playground/fastify/lib/error-handler.js_function_143_0
-/data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_in_class
-/data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_in_class
-/data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_in_class
-/data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_in_class
-/data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_in_class
-/data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_in_class
-/data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_in_class
-/data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_in_class
-/data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_in_class
-/data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_151_4
-/data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_157_4
-/data/js-variants/multee/Playground/fastify/lib/errors.js_function_305_0
-/data/js-variants/multee/Playground/fastify/lib/fourOhFour.js_function_33_0
-/data/js-variants/multee/Playground/fastify/lib/handleRequest.js_function_11_0
-/data/js-variants/multee/Playground/fastify/lib/handleRequest.js_function_65_0
-/data/js-variants/multee/Playground/fastify/lib/handleRequest.js_function_83_0
-/data/js-variants/multee/Playground/fastify/lib/handleRequest.js_function_116_0
-/data/js-variants/multee/Playground/fastify/lib/headRoute.js_function_2_0
-/data/js-variants/multee/Playground/fastify/lib/headRoute.js_function_24_0
-/data/js-variants/multee/Playground/fastify/lib/hooks.js_function_35_0
-/data/js-variants/multee/Playground/fastify/lib/hooks.js_function_50_27
-/data/js-variants/multee/Playground/fastify/lib/hooks.js_function_58_22
-/data/js-variants/multee/Playground/fastify/lib/hooks.js_function_63_0
-/data/js-variants/multee/Playground/fastify/lib/hooks.js_function_80_0
-/data/js-variants/multee/Playground/fastify/lib/hooks.js_function_163_0
-/data/js-variants/multee/Playground/fastify/lib/hooks.js_function_199_0
-/data/js-variants/multee/Playground/fastify/lib/hooks.js_function_244_0
-/data/js-variants/multee/Playground/fastify/lib/initialConfigValidation.js_function_7_0
-/data/js-variants/multee/Playground/fastify/lib/initialConfigValidation.js_function_19_0
-/data/js-variants/multee/Playground/fastify/lib/logger.js_function_14_0
-/data/js-variants/multee/Playground/fastify/lib/logger.js_function_49_7
-/data/js-variants/multee/Playground/fastify/lib/logger.js_function_60_7
-/data/js-variants/multee/Playground/fastify/lib/logger.js_function_67_0
-/data/js-variants/multee/Playground/fastify/lib/logger.js_function_72_0
-/data/js-variants/multee/Playground/fastify/lib/logger.js_function_103_0
-/data/js-variants/multee/Playground/fastify/lib/noop-set.js_function_3_17
-/data/js-variants/multee/Playground/fastify/lib/pluginOverride.js_function_27_17
-/data/js-variants/multee/Playground/fastify/lib/pluginOverride.js_function_67_0
-/data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_12_0
-/data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_16_0
-/data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_42_0
-/data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_47_0
-/data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_51_0
-/data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_55_0
-/data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_71_0
-/data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_89_0
-/data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_100_0
-/data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_122_0
-/data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_131_0
-/data/js-variants/multee/Playground/fastify/lib/reqIdGenFactory.js_function_3_17
-/data/js-variants/multee/Playground/fastify/lib/schemas.js_function_16_0
-/data/js-variants/multee/Playground/fastify/lib/schemas.js_function_20_24
-/data/js-variants/multee/Playground/fastify/lib/schemas.js_function_39_31
-/data/js-variants/multee/Playground/fastify/lib/schemas.js_function_43_30
-/data/js-variants/multee/Playground/fastify/lib/schemas.js_function_47_0
-/data/js-variants/multee/Playground/fastify/lib/schemas.js_function_118_0
-/data/js-variants/multee/Playground/fastify/lib/schemas.js_function_135_0
-/data/js-variants/multee/Playground/fastify/lib/schemas.js_function_157_0
-/data/js-variants/multee/Playground/fastify/lib/schemas.js_function_in_class
-/data/js-variants/multee/Playground/fastify/lib/validation.js_function_12_0
-/data/js-variants/multee/Playground/fastify/lib/validation.js_function_51_0
-/data/js-variants/multee/Playground/fastify/lib/validation.js_function_94_0
-/data/js-variants/multee/Playground/fastify/lib/validation.js_function_103_0
-/data/js-variants/multee/Playground/fastify/lib/validation.js_function_124_0
-/data/js-variants/multee/Playground/fastify/lib/wrapThenable.js_function_8_0
+FunctionExpression, /data/js-variants/multee/Playground/fastify/.github/scripts/lint-ecosystem.js_function_{"line":14,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/.github/scripts/lint-ecosystem.js_function_{"line":19,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/.github/scripts/lint-ecosystem.js_function_{"line":96,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/.github/scripts/lint-ecosystem.js_function_{"line":102,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/.github/scripts/lint-ecosystem.js_function_{"line":112,"column":21}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/.github/scripts/lint-ecosystem.js_function_{"line":83,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/.github/scripts/lint-ecosystem.js_function_{"line":134,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/build/build-validation.js_function_{"line":10,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/build/build-validation.js_function_{"line":148,"column":13}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/examples/asyncawait.js_function_{"line":20,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/asyncawait.js_function_{"line":25,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/asyncawait.js_function_{"line":29,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/examples/asyncawait.js_function_{"line":34,"column":31}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark-async-await.js_function_{"line":20,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark-async-await.js_function_{"line":24,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark-async-await.js_function_{"line":36,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark-async-await.js_function_{"line":40,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark.js_function_{"line":21,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark.js_function_{"line":24,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark.js_function_{"line":29,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark.js_function_{"line":32,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark.js_function_{"line":35,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark.js_function_{"line":40,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark.js_function_{"line":44,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/benchmark/hooks-benchmark.js_function_{"line":48,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/benchmark/simple.js_function_{"line":23,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/examples/benchmark/simple.js_function_{"line":28,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/hooks.js_function_{"line":36,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/hooks.js_function_{"line":40,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/hooks.js_function_{"line":44,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/hooks.js_function_{"line":48,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/hooks.js_function_{"line":52,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/hooks.js_function_{"line":56,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/hooks.js_function_{"line":60,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/hooks.js_function_{"line":64,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/hooks.js_function_{"line":68,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/hooks.js_function_{"line":71,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/hooks.js_function_{"line":76,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/hooks.js_function_{"line":80,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/hooks.js_function_{"line":84,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/http2.js_function_{"line":30,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/examples/http2.js_function_{"line":35,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/https.js_function_{"line":29,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/examples/https.js_function_{"line":34,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/parser.js_function_{"line":12,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/parser.js_function_{"line":11,"column":50}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/parser.js_function_{"line":20,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/parser.js_function_{"line":23,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/parser.js_function_{"line":18,"column":66}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/parser.js_function_{"line":45,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/examples/parser.js_function_{"line":49,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/plugin.js_function_{"line":5,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/plugin.js_function_{"line":8,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/plugin.js_function_{"line":3,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/examples/route-prefix.js_function_{"line":20,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/route-prefix.js_function_{"line":18,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/examples/route-prefix.js_function_{"line":28,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/route-prefix.js_function_{"line":26,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/route-prefix.js_function_{"line":34,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/shared-schema.js_function_{"line":30,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/examples/shared-schema.js_function_{"line":34,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/simple-stream.js_function_{"line":10,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/examples/simple-stream.js_function_{"line":15,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/simple.js_function_{"line":23,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/examples/simple.js_function_{"line":28,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/simple.mjs_function_{"line":23,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/use-plugin.js_function_{"line":17,"column":44}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/examples/use-plugin.js_function_{"line":21,"column":31}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":81,"column":46}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":75,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":157,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":245,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":248,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":251,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":254,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":257,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":260,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":263,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":266,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":270,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":275,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":307,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":315,"column":47}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":317,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":313,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":343,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":352,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":356,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":360,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":364,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":368,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":397,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":404,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":403,"column":25}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":465,"column":2}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":494,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":500,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":499,"column":28}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":472,"column":2}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":519,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":527,"column":26}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":525,"column":4}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":537,"column":4}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":511,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":561,"column":2}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":595,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":604,"column":30}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":602,"column":4}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":566,"column":2}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":612,"column":28}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":609,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":616,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":645,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":656,"column":2}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":677,"column":11}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":675,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":699,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":706,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":712,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":719,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":725,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":735,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":743,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":750,"column":2}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":758,"column":11}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":756,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":88,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/fastify.js_function_{"line":780,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/integration/server.js_function_{"line":10,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/integration/server.js_function_{"line":14,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/integration/server.js_function_{"line":19,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/integration/server.js_function_{"line":24,"column":30}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/configValidator.js_function_{"line":10,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":30,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":41,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":78,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":82,"column":45}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":93,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":134,"column":40}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":148,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":141,"column":37}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":177,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":183,"column":29}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":181,"column":2}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":155,"column":34}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":224,"column":2}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":270,"column":18}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":242,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":195,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":278,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":275,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":293,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":297,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":304,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":327,"column":24}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":313,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":335,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":339,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":353,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":361,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":380,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":391,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/contentTypeParser.js_function_{"line":403,"column":36}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/context.js_function_{"line":21,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/context.js_function_{"line":85,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/context.js_function_{"line":91,"column":10}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/context.js_function_{"line":81,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/context.js_function_{"line":98,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/decorate.js_function_{"line":21,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/decorate.js_function_{"line":38,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/decorate.js_function_{"line":59,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/decorate.js_function_{"line":65,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/decorate.js_function_{"line":71,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/decorate.js_function_{"line":81,"column":25}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/decorate.js_function_{"line":79,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/decorate.js_function_{"line":86,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/decorate.js_function_{"line":91,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/decorate.js_function_{"line":96,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/decorate.js_function_{"line":113,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/decorate.js_function_{"line":120,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/decorate.js_function_{"line":127,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/error-handler.js_function_{"line":23,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/error-handler.js_function_{"line":33,"column":39}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/error-handler.js_function_{"line":28,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/error-handler.js_function_{"line":74,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/error-handler.js_function_{"line":94,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/error-handler.js_function_{"line":133,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/error-handler.js_function_{"line":143,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_{"line":9,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_{"line":26,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_{"line":42,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_{"line":53,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_{"line":57,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_{"line":68,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_{"line":79,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_{"line":90,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_{"line":115,"column":16}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_{"line":151,"column":4}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/error-serializer.js_function_{"line":157,"column":4}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/errors.js_function_{"line":305,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/fourOhFour.js_function_{"line":42,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/fourOhFour.js_function_{"line":50,"column":2}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/fourOhFour.js_function_{"line":62,"column":11}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/fourOhFour.js_function_{"line":61,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/fourOhFour.js_function_{"line":73,"column":2}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/fourOhFour.js_function_{"line":98,"column":48}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/fourOhFour.js_function_{"line":106,"column":54}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/fourOhFour.js_function_{"line":130,"column":15}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/fourOhFour.js_function_{"line":79,"column":2}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/fourOhFour.js_function_{"line":149,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/fourOhFour.js_function_{"line":144,"column":27}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/fourOhFour.js_function_{"line":136,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/fourOhFour.js_function_{"line":166,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/fourOhFour.js_function_{"line":33,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/handleRequest.js_function_{"line":11,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/handleRequest.js_function_{"line":65,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/handleRequest.js_function_{"line":83,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/handleRequest.js_function_{"line":116,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/headRoute.js_function_{"line":10,"column":24}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/headRoute.js_function_{"line":2,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/headRoute.js_function_{"line":24,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":35,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":50,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":58,"column":22}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":63,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":87,"column":2}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":114,"column":13}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":103,"column":2}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":137,"column":11}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":136,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":80,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":166,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":184,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":188,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":163,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":202,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":229,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":233,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":199,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/hooks.js_function_{"line":244,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/initialConfigValidation.js_function_{"line":11,"column":83}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/initialConfigValidation.js_function_{"line":7,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/initialConfigValidation.js_function_{"line":19,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/logger.js_function_{"line":14,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/logger.js_function_{"line":49,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/logger.js_function_{"line":60,"column":7}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/logger.js_function_{"line":67,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/logger.js_function_{"line":81,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/logger.js_function_{"line":86,"column":46}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/logger.js_function_{"line":72,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/logger.js_function_{"line":103,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/noop-set.js_function_{"line":5,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/noop-set.js_function_{"line":6,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/noop-set.js_function_{"line":7,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/noop-set.js_function_{"line":8,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/noop-set.js_function_{"line":3,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/pluginOverride.js_function_{"line":27,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/pluginOverride.js_function_{"line":67,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_{"line":12,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_{"line":16,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_{"line":44,"column":53}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_{"line":42,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_{"line":47,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_{"line":51,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_{"line":63,"column":23}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_{"line":55,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_{"line":71,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_{"line":92,"column":21}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_{"line":89,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_{"line":100,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_{"line":122,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/pluginUtils.js_function_{"line":131,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":52,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":69,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":76,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":81,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":87,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":91,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":107,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":110,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":116,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":121,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":201,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":211,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":218,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":224,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":231,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":252,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":280,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":293,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":297,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":303,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":316,"column":43}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":332,"column":45}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":372,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":406,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":418,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":423,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":428,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":437,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":442,"column":34}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":463,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":457,"column":23}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":478,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":492,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":515,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":519,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":533,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":541,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":603,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":620,"column":52}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":636,"column":11}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":613,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":678,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":694,"column":4}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":713,"column":18}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":668,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":728,"column":20}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":726,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":739,"column":6}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":731,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":749,"column":24}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":746,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":773,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":777,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":802,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":799,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":830,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":864,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reply.js_function_{"line":872,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/reqIdGenFactory.js_function_{"line":11,"column":2}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reqIdGenFactory.js_function_{"line":20,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/reqIdGenFactory.js_function_{"line":3,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":28,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":45,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":49,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":53,"column":35}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":39,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":59,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":69,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":67,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":94,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":109,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":114,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":119,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":127,"column":10}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":100,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":143,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":148,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":153,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":158,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":164,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":169,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":188,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":193,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":198,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":203,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":208,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":217,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":222,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":229,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":234,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":241,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":247,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":252,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":262,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/request.js_function_{"line":300,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":69,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":91,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":95,"column":21}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":104,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":111,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":116,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":120,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":125,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":155,"column":2}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":332,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":328,"column":31}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":317,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":225,"column":4}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":164,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":389,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":47,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":489,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":500,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":510,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":517,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":537,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":565,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":569,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":534,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":585,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/route.js_function_{"line":589,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/schema-controller.js_function_{"line":13,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/schema-controller.js_function_{"line":41,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/schema-controller.js_function_{"line":60,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/schema-controller.js_function_{"line":65,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/schema-controller.js_function_{"line":69,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/schema-controller.js_function_{"line":74,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/schema-controller.js_function_{"line":79,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/schema-controller.js_function_{"line":84,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/schema-controller.js_function_{"line":88,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/schema-controller.js_function_{"line":92,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/schema-controller.js_function_{"line":96,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/schema-controller.js_function_{"line":105,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/schema-controller.js_function_{"line":118,"column":18}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/schemas.js_function_{"line":16,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/schemas.js_function_{"line":20,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/schemas.js_function_{"line":39,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/schemas.js_function_{"line":43,"column":30}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/schemas.js_function_{"line":47,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/schemas.js_function_{"line":118,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/schemas.js_function_{"line":135,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/schemas.js_function_{"line":157,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/schemas.js_function_{"line":202,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":65,"column":81}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":58,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":83,"column":85}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":82,"column":29}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":81,"column":30}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":20,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":14,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":119,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":134,"column":61}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":134,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":154,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":102,"column":48}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":97,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":162,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":173,"column":9}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":161,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":199,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":198,"column":33}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":206,"column":35}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":205,"column":31}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":196,"column":27}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":189,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":264,"column":9}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":240,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":271,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":305,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":333,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":338,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":356,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":365,"column":9}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":364,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/server.js_function_{"line":370,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/validation.js_function_{"line":18,"column":12}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/validation.js_function_{"line":12,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/validation.js_function_{"line":68,"column":33}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/validation.js_function_{"line":70,"column":76}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/fastify/lib/validation.js_function_{"line":74,"column":46}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/validation.js_function_{"line":51,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/validation.js_function_{"line":94,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/validation.js_function_{"line":103,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/validation.js_function_{"line":124,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/wrapThenable.js_function_{"line":9,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/fastify/lib/wrapThenable.js_function_{"line":31,"column":5}
+FunctionDeclaration, /data/js-variants/multee/Playground/fastify/lib/wrapThenable.js_function_{"line":8,"column":0}

@@ -4,7 +4,7 @@ import os
 
 # import random
 
-# project = sys.argv[1]
+project = sys.argv[1]
 # filePath = f'./Data/{project}/{project}_dependants_url.txt'
 # newFilePath = f'./Data/{project}/{project}_dependants_url_100.txt'
 
@@ -93,12 +93,14 @@ import os
 #             for itemKey, itemValue in childDict.items():
 #                 get_production_deps(itemValue)
 
-# def get_direct_deps(dictionary):
-#     if "dependencies" in dictionary.keys():
-#         directDeps = list(dictionary['dependencies'])
-#         # print('directDeps: ', directDeps)
-#         return len(directDeps)
-#     return 0
+def get_direct_deps(dictionary):
+    if "dependencies" in dictionary.keys():
+        directDeps = list(dictionary['dependencies'])
+        # print('directDeps: ', directDeps)
+        # return len(directDeps)
+        return directDeps
+    # return 0
+    return []
 
 # def has_test(dictionary):
 #     if "scripts" in dictionary.keys():
@@ -364,13 +366,89 @@ import os
 
 # print(os.path.getsize())
 
-with open('top_target_untested_empty.txt') as f:
-    packages = f.read().splitlines()
 
-with open('top_target_untested_without_functions.txt') as f:
-    tested = f.read().splitlines()
+# # calculate differences
+# with open('top_target_untested_empty.txt') as f:
+#     packages = f.read().splitlines()
 
-difference = list(set(packages).difference(set(tested)))
-print(difference)
+# with open('top_target_untested_without_functions.txt') as f:
+#     tested = f.read().splitlines()
 
+# difference = list(set(packages).difference(set(tested)))
+# print(difference)
 
+# count data
+funcProjPath = f'./Data/{project}/{project}_proj_total_functions.txt'
+funcDepsPath = f'./Data/{project}/{project}_deps_total_functions.txt'
+funcRemovedPath = f'./Data/{project}/{project}_bloated_functions.txt'
+fileBloatedPath = f'./Data/{project}/{project}_bloated_nodes_on_tree.txt'
+fileRemovedPath = f'./Data/{project}/{project}_pure_bloated_nodes.txt'
+depBloatedPath = f'./Data/{project}/{project}_pure_bloated_deps.txt'
+depDirectPath = f'./Data/{project}/{project}_direct_deps.txt'
+
+if not os.path.exists(funcProjPath):
+    projTotalFunctions = []
+else:
+    with open(funcProjPath) as f:
+        projTotalFunctions = f.read().splitlines()
+
+if not os.path.exists(funcDepsPath):
+    depsTotalFunctions = []
+else:
+    with open(funcDepsPath) as f:
+        depsTotalFunctions = f.read().splitlines()
+
+if not os.path.exists(funcRemovedPath):
+    bloatedFunctions = []
+else:
+    with open(funcRemovedPath) as f:
+        bloatedFunctions = f.read().splitlines()
+
+if not os.path.exists(fileBloatedPath):
+    bloatedFilesOnTree = []
+else:
+    with open(fileBloatedPath) as f:
+        bloatedFilesOnTree = f.read().splitlines()
+
+if not os.path.exists(fileRemovedPath):
+    pureBloatedFiles = []
+else:
+    with open(fileRemovedPath) as f:
+        pureBloatedFiles = f.read().splitlines()
+
+if not os.path.exists(depBloatedPath):
+    pureBloatedDeps = []
+else:
+    with open(depBloatedPath) as f:
+        pureBloatedDeps = f.read().splitlines()
+
+with open(depDirectPath) as f:
+    directDeps = f.read().splitlines()
+
+bloatedDirectDeps = list(set(pureBloatedDeps).intersection(set(directDeps)))
+
+projFuncLen = len(projTotalFunctions)
+depFuncLen = len(depsTotalFunctions)
+remFuncLen = len(bloatedFunctions)
+bloatedFileLen = len(bloatedFilesOnTree)
+pureFileLen = len(pureBloatedFiles)
+pureDepLen = len(pureBloatedDeps)
+pureDirectDepLen = len(bloatedDirectDeps)
+pureTransDepLen = pureDepLen - pureDirectDepLen
+
+resultPath = f'top_total_collected_data.txt' 
+resultFile = open(resultPath, 'a')
+collectedStr = project + ',' + str(projFuncLen) + ',' + str(depFuncLen) + ',' + str(remFuncLen) + ',' + str(bloatedFileLen) + ',' + str(pureFileLen) + ',' + str(pureDepLen) + ',' + str(pureDirectDepLen) + ',' + str(pureTransDepLen) + '\n'
+resultFile.writelines(collectedStr)
+resultFile.close()
+
+# filePath = f'./Playground/{project}/package.json' 
+# resultPath = f'./Data/{project}/{project}_direct_deps.txt'   
+# f_package = open(filePath, encoding="utf-8")  
+# packageDict = json.load(f_package)
+# directDeps = get_direct_deps(packageDict)
+
+# resultFile = open(resultPath, 'a')
+# for item in directDeps:
+#     resultFile.writelines(item + '\n')
+# resultFile.close()

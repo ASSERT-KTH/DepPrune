@@ -1,91 +1,153 @@
-/data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_2_44
-/data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_21_0
-/data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_33_0
-/data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_40_0
-/data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_46_0
-/data/js-variants/multee/Playground/dugite/build/examples/commit.js_function_2_44
-/data/js-variants/multee/Playground/dugite/build/examples/commit.js_function_16_0
-/data/js-variants/multee/Playground/dugite/build/examples/commit.js_function_30_0
-/data/js-variants/multee/Playground/dugite/build/examples/parsing-errors.js_function_2_44
-/data/js-variants/multee/Playground/dugite/build/examples/parsing-errors.js_function_13_0
-/data/js-variants/multee/Playground/dugite/build/lib/errors.js_function_6_1
-/data/js-variants/multee/Playground/dugite/build/lib/git-environment.js_function_5_0
-/data/js-variants/multee/Playground/dugite/build/lib/git-environment.js_function_23_0
-/data/js-variants/multee/Playground/dugite/build/lib/git-environment.js_function_34_0
-/data/js-variants/multee/Playground/dugite/build/lib/git-environment.js_function_49_0
-/data/js-variants/multee/Playground/dugite/build/lib/git-environment.js_function_72_0
-/data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_2_44
-/data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_in_class
-/data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_in_class
-/data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_in_class
-/data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_in_class
-/data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_in_class
-/data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_200_0
-/data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_234_1
-/data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_in_class
-/data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_in_class
-/data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_in_class
-/data/js-variants/multee/Playground/dugite/build/lib/index.js_function_5_70
-/data/js-variants/multee/Playground/dugite/build/lib/index.js_function_6_79
-/data/js-variants/multee/Playground/dugite/build/lib/index.js_function_8_68
-/data/js-variants/multee/Playground/dugite/build/lib/index.js_function_9_91
-/data/js-variants/multee/Playground/dugite/build/lib/index.js_function_10_80
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_28_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_53_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_73_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_98_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_147_38
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_188_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_252_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_266_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_277_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_290_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_313_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_335_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_354_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_379_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_442_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_488_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_507_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_546_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_577_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_611_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_652_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_692_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_738_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_777_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_795_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_819_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_852_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_877_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_929_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_952_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_969_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_1003_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_1026_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_1055_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_1079_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_1100_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_1141_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_1151_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_1198_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_1330_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_1404_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_1424_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_1443_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_1464_0
-/data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_1543_0
-/data/js-variants/multee/Playground/dugite/script/config.js_function_8_0
-/data/js-variants/multee/Playground/dugite/script/download-git.js_function_11_19
-/data/js-variants/multee/Playground/dugite/script/download-git.js_function_24_19
-/data/js-variants/multee/Playground/dugite/script/download-git.js_function_31_26
-/data/js-variants/multee/Playground/dugite/script/download-git.js_function_104_56
-/data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_6_2
-/data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_32_2
-/data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_37_0
-/data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_45_0
-/data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_53_0
-/data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_61_0
-/data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_69_0
-/data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_77_0
-/data/js-variants/multee/Playground/dugite/script/utils.js_function_4_12
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_{"line":3,"column":70}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_{"line":3,"column":4}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_{"line":5,"column":8}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_{"line":6,"column":8}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_{"line":7,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_{"line":4,"column":36}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_{"line":2,"column":44}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_{"line":21,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_{"line":33,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_{"line":40,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_{"line":55,"column":50}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_{"line":54,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_{"line":47,"column":43}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/api-extensibility.js_function_{"line":46,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/examples/commit.js_function_{"line":3,"column":70}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/commit.js_function_{"line":3,"column":4}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/commit.js_function_{"line":5,"column":8}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/commit.js_function_{"line":6,"column":8}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/commit.js_function_{"line":7,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/examples/commit.js_function_{"line":4,"column":36}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/examples/commit.js_function_{"line":2,"column":44}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/examples/commit.js_function_{"line":17,"column":43}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/commit.js_function_{"line":16,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/examples/commit.js_function_{"line":31,"column":43}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/commit.js_function_{"line":30,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/examples/parsing-errors.js_function_{"line":3,"column":70}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/parsing-errors.js_function_{"line":3,"column":4}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/parsing-errors.js_function_{"line":5,"column":8}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/parsing-errors.js_function_{"line":6,"column":8}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/parsing-errors.js_function_{"line":7,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/examples/parsing-errors.js_function_{"line":4,"column":36}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/examples/parsing-errors.js_function_{"line":2,"column":44}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/examples/parsing-errors.js_function_{"line":14,"column":43}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/examples/parsing-errors.js_function_{"line":13,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/errors.js_function_{"line":6,"column":1}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/lib/git-environment.js_function_{"line":5,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/lib/git-environment.js_function_{"line":23,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/lib/git-environment.js_function_{"line":34,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/lib/git-environment.js_function_{"line":49,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/lib/git-environment.js_function_{"line":72,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":3,"column":70}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":3,"column":4}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":5,"column":8}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":6,"column":8}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":7,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":4,"column":36}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":2,"column":44}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":19,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":35,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":59,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":79,"column":39}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":99,"column":97}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":82,"column":45}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":77,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":163,"column":21}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":211,"column":22}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":200,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":234,"column":1}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":241,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":246,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":250,"column":47}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/git-process.js_function_{"line":249,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/index.js_function_{"line":5,"column":70}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/index.js_function_{"line":6,"column":79}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/index.js_function_{"line":8,"column":68}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/index.js_function_{"line":9,"column":91}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/build/lib/index.js_function_{"line":10,"column":80}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":28,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":53,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":73,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":98,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":147,"column":35}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":189,"column":1}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":219,"column":3}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":188,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":252,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":266,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":277,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":290,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":313,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":335,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":354,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":379,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":442,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":488,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":507,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":546,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":577,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":611,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":665,"column":20}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":652,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":692,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":738,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":777,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":795,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":819,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":854,"column":8}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":852,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":879,"column":8}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":877,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":929,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":952,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":969,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1003,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1026,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1055,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1079,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1100,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1141,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1151,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1198,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1330,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1404,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1424,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1443,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1519,"column":13}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1464,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1564,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1574,"column":28}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/git/share/gitweb/static/gitweb.js_function_{"line":1543,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/script/config.js_function_{"line":8,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/download-git.js_function_{"line":12,"column":46}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/script/download-git.js_function_{"line":11,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/download-git.js_function_{"line":25,"column":48}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/script/download-git.js_function_{"line":24,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/script/download-git.js_function_{"line":46,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/download-git.js_function_{"line":82,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/download-git.js_function_{"line":84,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/script/download-git.js_function_{"line":83,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/script/download-git.js_function_{"line":60,"column":21}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/download-git.js_function_{"line":31,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/download-git.js_function_{"line":119,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/dugite/script/download-git.js_function_{"line":110,"column":48}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/download-git.js_function_{"line":104,"column":56}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_{"line":6,"column":2}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_{"line":32,"column":2}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_{"line":38,"column":28}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_{"line":37,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_{"line":46,"column":28}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_{"line":45,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_{"line":54,"column":28}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_{"line":53,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_{"line":62,"column":28}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_{"line":61,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_{"line":70,"column":28}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_{"line":69,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_{"line":80,"column":35}
+FunctionDeclaration, /data/js-variants/multee/Playground/dugite/script/update-embedded-git.js_function_{"line":77,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/utils.js_function_{"line":18,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/utils.js_function_{"line":19,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/utils.js_function_{"line":11,"column":43}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/utils.js_function_{"line":10,"column":21}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/dugite/script/utils.js_function_{"line":4,"column":12}

@@ -146,7 +146,7 @@
 # done
 
 # re-calculate total dependencies
-path='top_target_untested_without_functions.txt'
+path='top_target_187.txt'
 cat $path | while read rows
 do
     # echo $rows
@@ -157,7 +157,7 @@ do
     # npm list --all --json --omit=dev >> productionDependenciesNew.json
     # python3 ../../collectRepoUrl.py $folder
     # cd ../..
-    # python3 collectAllData.py $rows
-    sh removefunctions.sh $rows
+    python3 collectRepoUrl.py $rows
+    # sh countfunctions.sh $rows
 done
 

@@ -1,315 +1,531 @@
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/address.js_function_26_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/address.js_function_44_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/address.js_function_54_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/address.js_function_76_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/address.js_function_87_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/address.js_function_95_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/address.js_function_119_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bip66.js_function_7_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bip66.js_function_28_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bip66.js_function_77_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_193_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_205_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_16_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_25_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_33_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_40_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_53_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/crypto.js_function_12_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/crypto.js_function_24_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/crypto.js_function_28_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/crypto.js_function_32_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/crypto.js_function_36_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/crypto.js_function_53_11
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/crypto.js_function_58_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/ecc_lib.js_function_5_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/ecc_lib.js_function_16_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/ecc_lib.js_function_24_10
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/ecc_lib.js_function_25_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/ecc_lib.js_function_69_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/index.js_function_27_7
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/index.js_function_34_7
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/index.js_function_41_7
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/index.js_function_48_7
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/index.js_function_55_7
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/merkle.js_function_4_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_19_21
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_20_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_42_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_63_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_75_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_86_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_93_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_106_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_109_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/embed.js_function_9_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/embed.js_function_16_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/index.js_function_15_7
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/index.js_function_22_7
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/index.js_function_29_7
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/index.js_function_36_7
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/index.js_function_43_7
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/index.js_function_50_7
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/index.js_function_57_7
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/index.js_function_64_7
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/lazy.js_function_4_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/lazy.js_function_24_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2ms.js_function_10_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2ms.js_function_18_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pk.js_function_11_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pkh.js_function_13_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2sh.js_function_11_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2sh.js_function_20_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_15_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_287_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wpkh.js_function_15_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wsh.js_function_12_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wsh.js_function_18_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wsh.js_function_33_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_21_16
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_32_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_49_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_56_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_69_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_81_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_86_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_91_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_103_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_111_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_133_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_149_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_158_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_165_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_172_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_183_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_189_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_205_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_213_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_230_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_249_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_268_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_290_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_302_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_313_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_327_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_343_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_354_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_21_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_38_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_61_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_76_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_80_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_87_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_109_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_119_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_919_30
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_969_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_982_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_987_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1003_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1006_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1013_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1023_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1037_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1046_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1056_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1063_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1075_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1080_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1088_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1105_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1122_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1135_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1174_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1195_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1280_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1295_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1354_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1363_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1396_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1428_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1456_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1472_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1494_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1513_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1538_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1567_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1574_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1578_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1596_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1607_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1618_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1633_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1642_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1651_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1654_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1657_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1701_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1709_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_1716_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/push_data.js_function_5_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/push_data.js_function_9_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/push_data.js_function_30_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_20_7
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_30_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_38_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_41_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_45_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_51_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_54_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_57_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_60_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_101_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_135_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_153_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_166_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_176_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_180_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_186_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script_number.js_function_4_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script_number.js_function_33_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script_number.js_function_46_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script_signature.js_function_8_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script_signature.js_function_16_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script_signature.js_function_24_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/script_signature.js_function_36_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_10_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_14_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_38_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_in_class
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_39_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_57_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_61_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_67_19
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_70_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_79_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_100_0
-/data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_108_0
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/address.js_function_{"line":26,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/address.js_function_{"line":44,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/address.js_function_{"line":54,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/address.js_function_{"line":76,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/address.js_function_{"line":87,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/address.js_function_{"line":95,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/address.js_function_{"line":119,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bip66.js_function_{"line":7,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bip66.js_function_{"line":28,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bip66.js_function_{"line":77,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":17,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":38,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":27,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":57,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":60,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":72,"column":36}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":67,"column":28}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":89,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":92,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":82,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":99,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":108,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":111,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":121,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":116,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":124,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":127,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":130,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":152,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":136,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":159,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":162,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":172,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":177,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":182,"column":22}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":193,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":213,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":209,"column":6}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/block.js_function_{"line":205,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":16,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":25,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":33,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":40,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":53,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":63,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":66,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":71,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":74,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":77,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":80,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":83,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":87,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":93,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":99,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":97,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":101,"column":5}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":113,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":118,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":123,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":128,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":133,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":138,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":143,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":151,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/bufferutils.js_function_{"line":154,"column":12}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/crypto.js_function_{"line":12,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/crypto.js_function_{"line":24,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/crypto.js_function_{"line":28,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/crypto.js_function_{"line":32,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/crypto.js_function_{"line":36,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/crypto.js_function_{"line":53,"column":11}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/crypto.js_function_{"line":58,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/ecc_lib.js_function_{"line":5,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/ecc_lib.js_function_{"line":16,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/ecc_lib.js_function_{"line":24,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/ecc_lib.js_function_{"line":58,"column":26}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/ecc_lib.js_function_{"line":25,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/ecc_lib.js_function_{"line":69,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/index.js_function_{"line":27,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/index.js_function_{"line":34,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/index.js_function_{"line":41,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/index.js_function_{"line":48,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/index.js_function_{"line":55,"column":7}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/merkle.js_function_{"line":4,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_{"line":19,"column":21}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_{"line":20,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_{"line":46,"column":14}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_{"line":42,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_{"line":63,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_{"line":75,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_{"line":86,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_{"line":93,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_{"line":106,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/bip341.js_function_{"line":109,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/embed.js_function_{"line":11,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/embed.js_function_{"line":9,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/embed.js_function_{"line":31,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/embed.js_function_{"line":35,"column":23}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/embed.js_function_{"line":16,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/index.js_function_{"line":15,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/index.js_function_{"line":22,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/index.js_function_{"line":29,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/index.js_function_{"line":36,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/index.js_function_{"line":43,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/index.js_function_{"line":50,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/index.js_function_{"line":57,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/index.js_function_{"line":64,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/lazy.js_function_{"line":8,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/lazy.js_function_{"line":13,"column":7}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/lazy.js_function_{"line":4,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/lazy.js_function_{"line":26,"column":9}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/lazy.js_function_{"line":24,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2ms.js_function_{"line":12,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2ms.js_function_{"line":10,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2ms.js_function_{"line":27,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2ms.js_function_{"line":53,"column":2}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2ms.js_function_{"line":61,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2ms.js_function_{"line":74,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2ms.js_function_{"line":79,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2ms.js_function_{"line":83,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2ms.js_function_{"line":88,"column":29}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2ms.js_function_{"line":92,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2ms.js_function_{"line":96,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2ms.js_function_{"line":100,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2ms.js_function_{"line":116,"column":27}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2ms.js_function_{"line":18,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pk.js_function_{"line":25,"column":29}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pk.js_function_{"line":30,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pk.js_function_{"line":34,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pk.js_function_{"line":38,"column":28}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pk.js_function_{"line":42,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pk.js_function_{"line":46,"column":26}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pk.js_function_{"line":11,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pkh.js_function_{"line":29,"column":30}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pkh.js_function_{"line":35,"column":29}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pkh.js_function_{"line":40,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pkh.js_function_{"line":47,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pkh.js_function_{"line":52,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pkh.js_function_{"line":62,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pkh.js_function_{"line":66,"column":28}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pkh.js_function_{"line":70,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pkh.js_function_{"line":75,"column":26}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2pkh.js_function_{"line":13,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2sh.js_function_{"line":13,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2sh.js_function_{"line":11,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2sh.js_function_{"line":50,"column":30}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2sh.js_function_{"line":56,"column":29}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2sh.js_function_{"line":59,"column":29}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2sh.js_function_{"line":70,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2sh.js_function_{"line":77,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2sh.js_function_{"line":83,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2sh.js_function_{"line":88,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2sh.js_function_{"line":92,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2sh.js_function_{"line":98,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2sh.js_function_{"line":102,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2sh.js_function_{"line":135,"column":24}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2sh.js_function_{"line":20,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_{"line":50,"column":30}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_{"line":61,"column":30}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_{"line":71,"column":31}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_{"line":78,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_{"line":84,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_{"line":100,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_{"line":104,"column":32}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_{"line":115,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_{"line":125,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_{"line":134,"column":33}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_{"line":140,"column":28}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_{"line":146,"column":26}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_{"line":15,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_{"line":289,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2tr.js_function_{"line":287,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wpkh.js_function_{"line":34,"column":30}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wpkh.js_function_{"line":46,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wpkh.js_function_{"line":52,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wpkh.js_function_{"line":57,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wpkh.js_function_{"line":61,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wpkh.js_function_{"line":66,"column":28}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wpkh.js_function_{"line":70,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wpkh.js_function_{"line":74,"column":26}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wpkh.js_function_{"line":15,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wsh.js_function_{"line":14,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wsh.js_function_{"line":12,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wsh.js_function_{"line":18,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wsh.js_function_{"line":58,"column":30}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wsh.js_function_{"line":68,"column":30}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wsh.js_function_{"line":76,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wsh.js_function_{"line":82,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wsh.js_function_{"line":87,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wsh.js_function_{"line":91,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wsh.js_function_{"line":99,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wsh.js_function_{"line":103,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wsh.js_function_{"line":123,"column":23}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/payments/p2wsh.js_function_{"line":33,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":21,"column":16}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":32,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":49,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":56,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":69,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":81,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":86,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":91,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":103,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":111,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":133,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":149,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":160,"column":19}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":158,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":165,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":176,"column":40}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":172,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":183,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":189,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":205,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":213,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":230,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":249,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":270,"column":68}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":273,"column":65}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":281,"column":68}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":268,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":290,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":308,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":309,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":310,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":311,"column":9}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":302,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":313,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":333,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":334,"column":10}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":327,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":351,"column":22}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":343,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/bip371.js_function_{"line":354,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":22,"column":9}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":21,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":40,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":43,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":49,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":53,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":38,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":66,"column":30}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":61,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":76,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":82,"column":20}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":80,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":87,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":117,"column":19}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":109,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":128,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":131,"column":9}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt/psbtutils.js_function_{"line":119,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":65,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":69,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":73,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":100,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":79,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":108,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":111,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":114,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":117,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":120,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":124,"column":37}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":123,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":131,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":130,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":147,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":146,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":150,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":156,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":160,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":168,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":176,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":188,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":187,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":191,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":221,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":220,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":224,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":251,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":262,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":270,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":275,"column":43}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":273,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":278,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":289,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":304,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":328,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":359,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":374,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":378,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":385,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":389,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":398,"column":55}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":401,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":396,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":403,"column":27}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":421,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":445,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":413,"column":28}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":471,"column":39}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":482,"column":43}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":447,"column":34}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":511,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":495,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":529,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":532,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":539,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":538,"column":40}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":520,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":516,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":555,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":546,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":568,"column":35}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":572,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":563,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":558,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":593,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":578,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":610,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":613,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":620,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":619,"column":40}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":599,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":598,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":627,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":642,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":656,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":692,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":693,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":700,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":701,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":677,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":718,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":717,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":734,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":733,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":761,"column":52}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":749,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":786,"column":43}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":790,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":800,"column":48}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":804,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":802,"column":55}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":822,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":821,"column":47}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":771,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":825,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":853,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":857,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":861,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":865,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":869,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":886,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":896,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":900,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":904,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":908,"column":21}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":919,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":925,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":933,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":939,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":954,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":965,"column":10}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":969,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":982,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":994,"column":31}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":992,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":996,"column":14}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":987,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1003,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1007,"column":9}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1006,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1013,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1023,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1038,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1037,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1049,"column":21}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1046,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1056,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1065,"column":4}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1063,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1076,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1075,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1080,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1089,"column":9}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1088,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1105,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1122,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1135,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1174,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1195,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1287,"column":52}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1290,"column":38}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1280,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1308,"column":30}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1311,"column":38}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1312,"column":30}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1327,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1328,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1336,"column":6}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1338,"column":9}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1295,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1354,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1363,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1396,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1434,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1441,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1447,"column":36}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1428,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1463,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1460,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1470,"column":12}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1456,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1474,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1478,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1483,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1486,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1472,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1494,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1522,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1533,"column":7}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1513,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1540,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1557,"column":38}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1538,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1567,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1574,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1578,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1596,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1607,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1618,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1633,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1642,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1651,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1654,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1657,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1701,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1709,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/psbt.js_function_{"line":1716,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/push_data.js_function_{"line":5,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/push_data.js_function_{"line":9,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/push_data.js_function_{"line":30,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":20,"column":7}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":30,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":38,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":41,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":45,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":51,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":54,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":57,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":64,"column":35}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":78,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":60,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":101,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":140,"column":9}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":135,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":156,"column":23}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":153,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":169,"column":20}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":166,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":176,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":180,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script.js_function_{"line":186,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script_number.js_function_{"line":4,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script_number.js_function_{"line":33,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script_number.js_function_{"line":46,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script_signature.js_function_{"line":8,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script_signature.js_function_{"line":16,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script_signature.js_function_{"line":24,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/script_signature.js_function_{"line":36,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":10,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":18,"column":22}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":14,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":38,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":42,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":48,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":94,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":97,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":104,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":109,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":133,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":144,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":143,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":148,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":153,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":162,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":165,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":169,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":156,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":179,"column":29}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":188,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":175,"column":7}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":213,"column":46}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":222,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":237,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":249,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":204,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":294,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":302,"column":21}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":305,"column":48}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":307,"column":29}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":314,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":319,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":320,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":322,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":260,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":408,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":421,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":430,"column":42}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":435,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":395,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":467,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":472,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":478,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":481,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":484,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":488,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":505,"column":21}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":512,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":521,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/transaction.js_function_{"line":492,"column":12}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_{"line":39,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_{"line":57,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_{"line":61,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_{"line":67,"column":19}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_{"line":70,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_{"line":79,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_{"line":100,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_{"line":111,"column":26}
+FunctionDeclaration, /data/js-variants/multee/Playground/bitcoinjs-lib/src/types.js_function_{"line":108,"column":0}

@@ -1,228 +1,287 @@
-/data/js-variants/multee/Playground/node-sparkpost/examples/baseObject/getDomainsList.js_function_11_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/baseObject/getDomainsList.js_function_15_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/baseObject/getDomainsList.js_function_21_20
-/data/js-variants/multee/Playground/node-sparkpost/examples/events/search_message.js_function_11_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/events/search_message.js_function_15_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/events/search_message.js_function_21_32
-/data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/create.js_function_10_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/create.js_function_14_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/create.js_function_20_41
-/data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/delete.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/delete.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/delete.js_function_19_45
-/data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/get.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/get.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/get.js_function_19_42
-/data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/list.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/list.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/list.js_function_19_27
-/data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_campaignClicks.js_function_13_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_campaignClicks.js_function_17_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_campaignClicks.js_function_23_42
-/data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_default.js_function_11_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_default.js_function_15_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_default.js_function_21_32
-/data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_messageEvents.js_function_17_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_messageEvents.js_function_21_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_messageEvents.js_function_27_42
-/data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/create.js_function_30_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/create.js_function_34_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/create.js_function_40_44
-/data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/delete.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/delete.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/delete.js_function_19_47
-/data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/get.js_function_12_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/get.js_function_16_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/get.js_function_22_53
-/data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/list.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/list.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/list.js_function_19_27
-/data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/update.js_function_30_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/update.js_function_34_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/update.js_function_39_44
-/data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/create.js_function_16_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/create.js_function_20_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/create.js_function_26_37
-/data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/delete.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/delete.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/delete.js_function_19_41
-/data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/get.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/get.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/get.js_function_19_38
-/data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/list.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/list.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/list.js_function_19_26
-/data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/update.js_function_12_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/update.js_function_16_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/update.js_function_22_50
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/create.js_function_18_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/create.js_function_22_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/create.js_function_28_41
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/delete.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/delete.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/delete.js_function_19_45
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/get.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/get.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/get.js_function_19_42
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/list.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/list.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/list.js_function_19_27
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/update.js_function_16_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/update.js_function_20_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/update.js_function_26_57
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/verify.js_function_15_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/verify.js_function_19_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/verify.js_function_25_54
-/data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/create.js_function_17_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/create.js_function_21_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/create.js_function_27_38
-/data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/get.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/get.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/get.js_function_19_30
-/data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/list.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/list.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/list.js_function_19_24
-/data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/update.js_function_13_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/update.js_function_17_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/update.js_function_23_45
-/data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/delete.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/delete.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/delete.js_function_19_47
-/data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/get.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/get.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/get.js_function_19_44
-/data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/list.js_function_14_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/list.js_function_18_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/list.js_function_24_40
-/data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/upsert.js_function_15_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/upsert.js_function_19_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/upsert.js_function_25_41
-/data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/upsert_bulk.js_function_29_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/upsert_bulk.js_function_33_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/upsert_bulk.js_function_39_43
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/create.js_function_18_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/create.js_function_22_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/create.js_function_28_34
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/delete.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/delete.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/delete.js_function_19_35
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/get.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/get.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/get.js_function_19_32
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/get_draft.js_function_12_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/get_draft.js_function_16_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/get_draft.js_function_22_41
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/list.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/list.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/list.js_function_19_22
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/preview.js_function_12_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/preview.js_function_16_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/preview.js_function_22_46
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/update.js_function_16_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/update.js_function_20_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/update.js_function_26_45
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/update_published.js_function_19_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/update_published.js_function_23_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/templates/update_published.js_function_29_54
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/get.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/get.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/get.js_function_19_50
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list.js_function_18_26
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list_by_campaign.js_function_11_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list_by_campaign.js_function_15_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list_by_campaign.js_function_21_35
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list_by_template.js_function_12_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list_by_template.js_function_16_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list_by_template.js_function_22_35
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_all_fields.js_function_56_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_all_fields.js_function_60_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_all_fields.js_function_66_39
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_inline_image.js_function_25_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_inline_image.js_function_29_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_inline_image.js_function_35_40
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_mime_parts.js_function_22_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_mime_parts.js_function_26_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_mime_parts.js_function_32_40
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_rfc822.js_function_15_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_rfc822.js_function_19_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_rfc822.js_function_25_40
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_recipients_inline_content.js_function_20_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_recipients_inline_content.js_function_24_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_recipients_inline_content.js_function_30_40
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_recipients_stored_content.js_function_19_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_recipients_stored_content.js_function_23_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_recipients_stored_content.js_function_29_40
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_template.js_function_19_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_template.js_function_23_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_template.js_function_29_49
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_bcc.js_function_40_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_bcc.js_function_44_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_bcc.js_function_50_40
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_bcc_sugar.js_function_41_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_bcc_sugar.js_function_45_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_bcc_sugar.js_function_51_40
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_cc.js_function_44_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_cc.js_function_48_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_cc.js_function_54_40
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_cc_sugar.js_function_42_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_cc_sugar.js_function_46_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_cc_sugar.js_function_52_40
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/create.js_function_20_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/create.js_function_24_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/create.js_function_30_32
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/delete.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/delete.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/delete.js_function_19_44
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/get.js_function_12_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/get.js_function_16_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/get.js_function_22_50
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getBatchStatus.js_function_12_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getBatchStatus.js_function_16_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getBatchStatus.js_function_22_61
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getDocumentation.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getDocumentation.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getDocumentation.js_function_19_33
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getSamples.js_function_12_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getSamples.js_function_16_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getSamples.js_function_22_36
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/list.js_function_9_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/list.js_function_13_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/list.js_function_19_21
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/update.js_function_16_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/update.js_function_20_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/update.js_function_26_53
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/validate.js_function_14_8
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/validate.js_function_18_9
-/data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/validate.js_function_24_55
-/data/js-variants/multee/Playground/node-sparkpost/lib/events.js_function_9_17
-/data/js-variants/multee/Playground/node-sparkpost/lib/inboundDomains.js_function_5_17
-/data/js-variants/multee/Playground/node-sparkpost/lib/messageEvents.js_function_9_17
-/data/js-variants/multee/Playground/node-sparkpost/lib/recipientLists.js_function_5_17
-/data/js-variants/multee/Playground/node-sparkpost/lib/relayWebhooks.js_function_5_17
-/data/js-variants/multee/Playground/node-sparkpost/lib/sendingDomains.js_function_5_17
-/data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_16_19
-/data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_23_22
-/data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_37_29
-/data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_47_25
-/data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_55_18
-/data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_92_30
-/data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_141_26
-/data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_148_27
-/data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_154_26
-/data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_160_29
-/data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_166_29
-/data/js-variants/multee/Playground/node-sparkpost/lib/subaccounts.js_function_5_17
-/data/js-variants/multee/Playground/node-sparkpost/lib/suppressionList.js_function_5_17
-/data/js-variants/multee/Playground/node-sparkpost/lib/templates.js_function_7_17
-/data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_11_17
-/data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_85_0
-/data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_116_0
-/data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_135_0
-/data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_139_0
-/data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_146_0
-/data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_158_0
-/data/js-variants/multee/Playground/node-sparkpost/lib/webhooks.js_function_5_17
-/data/js-variants/multee/Playground/node-sparkpost/lib/withCallback.js_function_17_0
-/data/js-variants/multee/Playground/node-sparkpost/lib/withCallback.js_function_31_0
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/baseObject/getDomainsList.js_function_{"line":11,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/baseObject/getDomainsList.js_function_{"line":15,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/baseObject/getDomainsList.js_function_{"line":21,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/events/search_message.js_function_{"line":11,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/events/search_message.js_function_{"line":15,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/events/search_message.js_function_{"line":21,"column":32}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/create.js_function_{"line":10,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/create.js_function_{"line":14,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/create.js_function_{"line":20,"column":41}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/delete.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/delete.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/delete.js_function_{"line":19,"column":45}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/get.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/get.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/get.js_function_{"line":19,"column":42}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/list.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/list.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/inboundDomains/list.js_function_{"line":19,"column":27}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_campaignClicks.js_function_{"line":13,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_campaignClicks.js_function_{"line":17,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_campaignClicks.js_function_{"line":23,"column":42}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_default.js_function_{"line":11,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_default.js_function_{"line":15,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_default.js_function_{"line":21,"column":32}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_messageEvents.js_function_{"line":17,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_messageEvents.js_function_{"line":21,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/messageEvents/search_messageEvents.js_function_{"line":27,"column":42}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/create.js_function_{"line":30,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/create.js_function_{"line":34,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/create.js_function_{"line":40,"column":44}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/delete.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/delete.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/delete.js_function_{"line":19,"column":47}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/get.js_function_{"line":12,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/get.js_function_{"line":16,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/get.js_function_{"line":22,"column":53}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/list.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/list.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/list.js_function_{"line":19,"column":27}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/update.js_function_{"line":30,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/update.js_function_{"line":34,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/recipientLists/update.js_function_{"line":39,"column":44}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/create.js_function_{"line":16,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/create.js_function_{"line":20,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/create.js_function_{"line":26,"column":37}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/delete.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/delete.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/delete.js_function_{"line":19,"column":41}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/get.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/get.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/get.js_function_{"line":19,"column":38}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/list.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/list.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/list.js_function_{"line":19,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/update.js_function_{"line":12,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/update.js_function_{"line":16,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/relayWebhooks/update.js_function_{"line":22,"column":50}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/create.js_function_{"line":18,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/create.js_function_{"line":22,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/create.js_function_{"line":28,"column":41}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/delete.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/delete.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/delete.js_function_{"line":19,"column":45}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/get.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/get.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/get.js_function_{"line":19,"column":42}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/list.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/list.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/list.js_function_{"line":19,"column":27}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/update.js_function_{"line":16,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/update.js_function_{"line":20,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/update.js_function_{"line":26,"column":57}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/verify.js_function_{"line":15,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/verify.js_function_{"line":19,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/sendingDomains/verify.js_function_{"line":25,"column":54}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/create.js_function_{"line":17,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/create.js_function_{"line":21,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/create.js_function_{"line":27,"column":38}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/get.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/get.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/get.js_function_{"line":19,"column":30}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/list.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/list.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/list.js_function_{"line":19,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/update.js_function_{"line":13,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/update.js_function_{"line":17,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/subaccounts/update.js_function_{"line":23,"column":45}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/delete.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/delete.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/delete.js_function_{"line":19,"column":47}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/get.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/get.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/get.js_function_{"line":19,"column":44}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/list.js_function_{"line":14,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/list.js_function_{"line":18,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/list.js_function_{"line":24,"column":40}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/upsert.js_function_{"line":15,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/upsert.js_function_{"line":19,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/upsert.js_function_{"line":25,"column":41}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/upsert_bulk.js_function_{"line":29,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/upsert_bulk.js_function_{"line":33,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/suppressionList/upsert_bulk.js_function_{"line":39,"column":43}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/create.js_function_{"line":18,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/create.js_function_{"line":22,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/create.js_function_{"line":28,"column":34}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/delete.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/delete.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/delete.js_function_{"line":19,"column":35}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/get.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/get.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/get.js_function_{"line":19,"column":32}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/get_draft.js_function_{"line":12,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/get_draft.js_function_{"line":16,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/get_draft.js_function_{"line":22,"column":41}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/list.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/list.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/list.js_function_{"line":19,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/preview.js_function_{"line":12,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/preview.js_function_{"line":16,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/preview.js_function_{"line":22,"column":46}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/update.js_function_{"line":16,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/update.js_function_{"line":20,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/update.js_function_{"line":26,"column":45}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/update_published.js_function_{"line":19,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/update_published.js_function_{"line":23,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/templates/update_published.js_function_{"line":29,"column":54}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/get.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/get.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/get.js_function_{"line":19,"column":50}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list.js_function_{"line":18,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list_by_campaign.js_function_{"line":11,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list_by_campaign.js_function_{"line":15,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list_by_campaign.js_function_{"line":21,"column":35}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list_by_template.js_function_{"line":12,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list_by_template.js_function_{"line":16,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/list_by_template.js_function_{"line":22,"column":35}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_all_fields.js_function_{"line":56,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_all_fields.js_function_{"line":60,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_all_fields.js_function_{"line":66,"column":39}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_inline_image.js_function_{"line":25,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_inline_image.js_function_{"line":29,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_inline_image.js_function_{"line":35,"column":40}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_mime_parts.js_function_{"line":22,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_mime_parts.js_function_{"line":26,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_mime_parts.js_function_{"line":32,"column":40}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_rfc822.js_function_{"line":15,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_rfc822.js_function_{"line":19,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_rfc822.js_function_{"line":25,"column":40}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_recipients_inline_content.js_function_{"line":20,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_recipients_inline_content.js_function_{"line":24,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_recipients_inline_content.js_function_{"line":30,"column":40}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_recipients_stored_content.js_function_{"line":19,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_recipients_stored_content.js_function_{"line":23,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_recipients_stored_content.js_function_{"line":29,"column":40}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_template.js_function_{"line":19,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_template.js_function_{"line":23,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_stored_template.js_function_{"line":29,"column":49}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_bcc.js_function_{"line":40,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_bcc.js_function_{"line":44,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_bcc.js_function_{"line":50,"column":40}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_bcc_sugar.js_function_{"line":41,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_bcc_sugar.js_function_{"line":45,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_bcc_sugar.js_function_{"line":51,"column":40}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_cc.js_function_{"line":44,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_cc.js_function_{"line":48,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_cc.js_function_{"line":54,"column":40}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_cc_sugar.js_function_{"line":42,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_cc_sugar.js_function_{"line":46,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/transmissions/send_with_cc_sugar.js_function_{"line":52,"column":40}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/create.js_function_{"line":20,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/create.js_function_{"line":24,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/create.js_function_{"line":30,"column":32}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/delete.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/delete.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/delete.js_function_{"line":19,"column":44}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/get.js_function_{"line":12,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/get.js_function_{"line":16,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/get.js_function_{"line":22,"column":50}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getBatchStatus.js_function_{"line":12,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getBatchStatus.js_function_{"line":16,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getBatchStatus.js_function_{"line":22,"column":61}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getDocumentation.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getDocumentation.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getDocumentation.js_function_{"line":19,"column":33}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getSamples.js_function_{"line":12,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getSamples.js_function_{"line":16,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/getSamples.js_function_{"line":22,"column":36}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/list.js_function_{"line":9,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/list.js_function_{"line":13,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/list.js_function_{"line":19,"column":21}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/update.js_function_{"line":16,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/update.js_function_{"line":20,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/update.js_function_{"line":26,"column":53}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/validate.js_function_{"line":14,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/validate.js_function_{"line":18,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/examples/webhooks/validate.js_function_{"line":24,"column":55}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/events.js_function_{"line":24,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/events.js_function_{"line":18,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/events.js_function_{"line":9,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/inboundDomains.js_function_{"line":13,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/inboundDomains.js_function_{"line":26,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/inboundDomains.js_function_{"line":43,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/inboundDomains.js_function_{"line":61,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/inboundDomains.js_function_{"line":5,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/messageEvents.js_function_{"line":24,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/messageEvents.js_function_{"line":18,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/messageEvents.js_function_{"line":9,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/recipientLists.js_function_{"line":14,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/recipientLists.js_function_{"line":30,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/recipientLists.js_function_{"line":61,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/recipientLists.js_function_{"line":88,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/recipientLists.js_function_{"line":117,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/recipientLists.js_function_{"line":5,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/relayWebhooks.js_function_{"line":13,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/relayWebhooks.js_function_{"line":26,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/relayWebhooks.js_function_{"line":44,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/relayWebhooks.js_function_{"line":64,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/relayWebhooks.js_function_{"line":87,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/relayWebhooks.js_function_{"line":5,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sendingDomains.js_function_{"line":13,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sendingDomains.js_function_{"line":28,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sendingDomains.js_function_{"line":47,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sendingDomains.js_function_{"line":68,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sendingDomains.js_function_{"line":92,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sendingDomains.js_function_{"line":112,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sendingDomains.js_function_{"line":5,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_{"line":16,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_{"line":23,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_{"line":37,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_{"line":47,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_{"line":55,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_{"line":121,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_{"line":120,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_{"line":92,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_{"line":141,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_{"line":148,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_{"line":154,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_{"line":160,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/sparkpost.js_function_{"line":166,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/subaccounts.js_function_{"line":13,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/subaccounts.js_function_{"line":26,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/subaccounts.js_function_{"line":43,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/subaccounts.js_function_{"line":62,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/subaccounts.js_function_{"line":5,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/suppressionList.js_function_{"line":16,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/suppressionList.js_function_{"line":31,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/suppressionList.js_function_{"line":50,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/suppressionList.js_function_{"line":74,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/suppressionList.js_function_{"line":5,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/templates.js_function_{"line":15,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/templates.js_function_{"line":29,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/templates.js_function_{"line":55,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/templates.js_function_{"line":76,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/templates.js_function_{"line":106,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/templates.js_function_{"line":124,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/templates.js_function_{"line":7,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_{"line":20,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_{"line":41,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_{"line":60,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_{"line":11,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_{"line":94,"column":59}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_{"line":85,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_{"line":121,"column":70}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_{"line":116,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_{"line":136,"column":32}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_{"line":135,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_{"line":141,"column":50}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_{"line":143,"column":35}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_{"line":139,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_{"line":146,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-sparkpost/lib/transmissions.js_function_{"line":158,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/webhooks.js_function_{"line":16,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/webhooks.js_function_{"line":43,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/webhooks.js_function_{"line":72,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/webhooks.js_function_{"line":93,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/webhooks.js_function_{"line":119,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/webhooks.js_function_{"line":140,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/webhooks.js_function_{"line":168,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/webhooks.js_function_{"line":196,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/webhooks.js_function_{"line":211,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/webhooks.js_function_{"line":5,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/withCallback.js_function_{"line":22,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/node-sparkpost/lib/withCallback.js_function_{"line":24,"column":11}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-sparkpost/lib/withCallback.js_function_{"line":17,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/node-sparkpost/lib/withCallback.js_function_{"line":31,"column":0}

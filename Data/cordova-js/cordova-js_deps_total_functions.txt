@@ -1,571 +1,1276 @@
-@nodelib/fs.scandir/out/adapters/fs.js_function_13_0
-@nodelib/fs.scandir/out/index.js_function_8_0
-@nodelib/fs.scandir/out/index.js_function_16_0
-@nodelib/fs.scandir/out/index.js_function_21_0
-@nodelib/fs.scandir/out/providers/async.js_function_9_0
-@nodelib/fs.scandir/out/providers/async.js_function_17_0
-@nodelib/fs.scandir/out/providers/async.js_function_43_0
-@nodelib/fs.scandir/out/providers/async.js_function_63_0
-@nodelib/fs.scandir/out/providers/async.js_function_99_0
-@nodelib/fs.scandir/out/providers/async.js_function_102_0
-@nodelib/fs.scandir/out/providers/common.js_function_4_0
-@nodelib/fs.scandir/out/providers/sync.js_function_8_0
-@nodelib/fs.scandir/out/providers/sync.js_function_15_0
-@nodelib/fs.scandir/out/providers/sync.js_function_38_0
-@nodelib/fs.scandir/out/settings.js_function_in_class
-@nodelib/fs.scandir/out/settings.js_function_in_class
-@nodelib/fs.scandir/out/utils/fs.js_function_in_class
-@nodelib/fs.scandir/out/utils/fs.js_function_16_0
-@nodelib/fs.stat/out/adapters/fs.js_function_11_0
-@nodelib/fs.stat/out/index.js_function_8_0
-@nodelib/fs.stat/out/index.js_function_16_0
-@nodelib/fs.stat/out/index.js_function_21_0
-@nodelib/fs.stat/out/providers/async.js_function_4_0
-@nodelib/fs.stat/out/providers/async.js_function_31_0
-@nodelib/fs.stat/out/providers/async.js_function_34_0
-@nodelib/fs.stat/out/providers/sync.js_function_4_0
-@nodelib/fs.stat/out/settings.js_function_in_class
-@nodelib/fs.stat/out/settings.js_function_in_class
-@nodelib/fs.walk/out/index.js_function_9_0
-@nodelib/fs.walk/out/index.js_function_17_0
-@nodelib/fs.walk/out/index.js_function_23_0
-@nodelib/fs.walk/out/index.js_function_29_0
-@nodelib/fs.walk/out/providers/async.js_function_in_class
-@nodelib/fs.walk/out/providers/async.js_function_in_class
-@nodelib/fs.walk/out/providers/async.js_function_25_0
-@nodelib/fs.walk/out/providers/async.js_function_28_0
-@nodelib/fs.walk/out/providers/stream.js_function_in_class
-@nodelib/fs.walk/out/providers/stream.js_function_in_class
-@nodelib/fs.walk/out/providers/sync.js_function_in_class
-@nodelib/fs.walk/out/providers/sync.js_function_in_class
-@nodelib/fs.walk/out/readers/async.js_function_in_class
-@nodelib/fs.walk/out/readers/async.js_function_in_class
-@nodelib/fs.walk/out/readers/async.js_function_in_class
-@nodelib/fs.walk/out/readers/async.js_function_in_class
-@nodelib/fs.walk/out/readers/async.js_function_in_class
-@nodelib/fs.walk/out/readers/async.js_function_in_class
-@nodelib/fs.walk/out/readers/async.js_function_in_class
-@nodelib/fs.walk/out/readers/async.js_function_in_class
-@nodelib/fs.walk/out/readers/async.js_function_in_class
-@nodelib/fs.walk/out/readers/async.js_function_in_class
-@nodelib/fs.walk/out/readers/async.js_function_in_class
-@nodelib/fs.walk/out/readers/async.js_function_in_class
-@nodelib/fs.walk/out/readers/common.js_function_4_0
-@nodelib/fs.walk/out/readers/common.js_function_11_0
-@nodelib/fs.walk/out/readers/common.js_function_15_0
-@nodelib/fs.walk/out/readers/common.js_function_19_0
-@nodelib/fs.walk/out/readers/reader.js_function_in_class
-@nodelib/fs.walk/out/readers/sync.js_function_in_class
-@nodelib/fs.walk/out/readers/sync.js_function_in_class
-@nodelib/fs.walk/out/readers/sync.js_function_in_class
-@nodelib/fs.walk/out/readers/sync.js_function_in_class
-@nodelib/fs.walk/out/readers/sync.js_function_in_class
-@nodelib/fs.walk/out/readers/sync.js_function_in_class
-@nodelib/fs.walk/out/readers/sync.js_function_in_class
-@nodelib/fs.walk/out/readers/sync.js_function_in_class
-@nodelib/fs.walk/out/settings.js_function_in_class
-@nodelib/fs.walk/out/settings.js_function_in_class
-array-union/index.js_function_3_17
-at-least-node/index.js_function_1_17
-braces/index.js_function_22_15
-braces/index.js_function_58_15
-braces/index.js_function_74_19
-braces/index.js_function_96_17
-braces/index.js_function_120_16
-braces/index.js_function_156_16
-braces/lib/expand.js_function_7_15
-braces/lib/expand.js_function_33_15
-braces/lib/parse.js_function_31_14
-braces/lib/stringify.js_function_5_17
-braces/lib/utils.js_function_3_20
-braces/lib/utils.js_function_17_15
-braces/lib/utils.js_function_23_23
-braces/lib/utils.js_function_33_21
-braces/lib/utils.js_function_49_23
-braces/lib/utils.js_function_62_25
-braces/lib/utils.js_function_80_24
-braces/lib/utils.js_function_91_17
-braces/lib/utils.js_function_101_18
-cross-spawn/index.js_function_7_0
-cross-spawn/index.js_function_21_0
-cross-spawn/lib/enoent.js_function_5_0
-cross-spawn/lib/enoent.js_function_15_0
-cross-spawn/lib/enoent.js_function_38_0
-cross-spawn/lib/enoent.js_function_46_0
-cross-spawn/lib/parse.js_function_12_0
-cross-spawn/lib/parse.js_function_27_0
-cross-spawn/lib/parse.js_function_65_0
-cross-spawn/lib/util/escape.js_function_6_0
-cross-spawn/lib/util/escape.js_function_13_0
-cross-spawn/lib/util/readShebang.js_function_6_0
-cross-spawn/lib/util/resolveCommand.js_function_7_0
-cross-spawn/lib/util/resolveCommand.js_function_48_0
-execa/lib/command.js_function_2_22
-execa/lib/command.js_function_13_18
-execa/lib/command.js_function_21_20
-execa/lib/command.js_function_25_26
-execa/lib/command.js_function_32_21
-execa/lib/error.js_function_4_23
-execa/lib/error.js_function_28_18
-execa/lib/kill.js_function_8_20
-execa/lib/kill.js_function_14_23
-execa/lib/kill.js_function_33_24
-execa/lib/kill.js_function_37_18
-execa/lib/kill.js_function_42_33
-execa/lib/kill.js_function_55_22
-execa/lib/kill.js_function_63_20
-execa/lib/kill.js_function_69_21
-execa/lib/kill.js_function_88_24
-execa/lib/kill.js_function_95_23
-execa/lib/stdio.js_function_4_17
-execa/lib/stdio.js_function_6_23
-execa/lib/stdio.js_function_36_22
-execa/lib/stream.js_function_7_20
-execa/lib/stream.js_function_22_22
-execa/lib/stream.js_function_41_24
-execa/lib/stream.js_function_55_25
-execa/lib/stream.js_function_68_25
-execa/lib/stream.js_function_85_26
-fast-glob/out/index.js_function_9_0
-fast-glob/out/index.js_function_17_1
-fast-glob/out/index.js_function_54_0
-fast-glob/out/index.js_function_61_0
-fast-glob/out/managers/patterns.js_function_10_0
-fast-glob/out/managers/patterns.js_function_18_0
-fast-glob/out/managers/tasks.js_function_5_0
-fast-glob/out/managers/tasks.js_function_21_0
-fast-glob/out/managers/tasks.js_function_41_0
-fast-glob/out/managers/tasks.js_function_45_0
-fast-glob/out/managers/tasks.js_function_51_0
-fast-glob/out/managers/tasks.js_function_65_0
-fast-glob/out/managers/tasks.js_function_71_0
-fast-glob/out/providers/async.js_function_in_class
-fast-glob/out/providers/async.js_function_in_class
-fast-glob/out/providers/async.js_function_in_class
-fast-glob/out/providers/filters/deep.js_function_in_class
-fast-glob/out/providers/filters/deep.js_function_in_class
-fast-glob/out/providers/filters/deep.js_function_in_class
-fast-glob/out/providers/filters/deep.js_function_in_class
-fast-glob/out/providers/filters/deep.js_function_in_class
-fast-glob/out/providers/filters/deep.js_function_in_class
-fast-glob/out/providers/filters/deep.js_function_in_class
-fast-glob/out/providers/filters/deep.js_function_in_class
-fast-glob/out/providers/filters/deep.js_function_in_class
-fast-glob/out/providers/filters/deep.js_function_in_class
-fast-glob/out/providers/filters/entry.js_function_in_class
-fast-glob/out/providers/filters/entry.js_function_in_class
-fast-glob/out/providers/filters/entry.js_function_in_class
-fast-glob/out/providers/filters/entry.js_function_in_class
-fast-glob/out/providers/filters/entry.js_function_in_class
-fast-glob/out/providers/filters/entry.js_function_in_class
-fast-glob/out/providers/filters/entry.js_function_in_class
-fast-glob/out/providers/filters/entry.js_function_in_class
-fast-glob/out/providers/filters/entry.js_function_in_class
-fast-glob/out/providers/filters/error.js_function_in_class
-fast-glob/out/providers/filters/error.js_function_in_class
-fast-glob/out/providers/filters/error.js_function_in_class
-fast-glob/out/providers/matchers/matcher.js_function_in_class
-fast-glob/out/providers/matchers/matcher.js_function_in_class
-fast-glob/out/providers/matchers/matcher.js_function_in_class
-fast-glob/out/providers/matchers/matcher.js_function_in_class
-fast-glob/out/providers/matchers/partial.js_function_in_class
-fast-glob/out/providers/provider.js_function_in_class
-fast-glob/out/providers/provider.js_function_in_class
-fast-glob/out/providers/provider.js_function_in_class
-fast-glob/out/providers/provider.js_function_in_class
-fast-glob/out/providers/stream.js_function_in_class
-fast-glob/out/providers/stream.js_function_in_class
-fast-glob/out/providers/stream.js_function_in_class
-fast-glob/out/providers/sync.js_function_in_class
-fast-glob/out/providers/sync.js_function_in_class
-fast-glob/out/providers/sync.js_function_in_class
-fast-glob/out/providers/transformers/entry.js_function_in_class
-fast-glob/out/providers/transformers/entry.js_function_in_class
-fast-glob/out/providers/transformers/entry.js_function_in_class
-fast-glob/out/readers/reader.js_function_in_class
-fast-glob/out/readers/reader.js_function_in_class
-fast-glob/out/readers/reader.js_function_in_class
-fast-glob/out/readers/reader.js_function_in_class
-fast-glob/out/readers/stream.js_function_in_class
-fast-glob/out/readers/stream.js_function_in_class
-fast-glob/out/readers/stream.js_function_in_class
-fast-glob/out/readers/stream.js_function_in_class
-fast-glob/out/readers/stream.js_function_in_class
-fast-glob/out/readers/sync.js_function_in_class
-fast-glob/out/readers/sync.js_function_in_class
-fast-glob/out/readers/sync.js_function_in_class
-fast-glob/out/readers/sync.js_function_in_class
-fast-glob/out/readers/sync.js_function_in_class
-fast-glob/out/settings.js_function_in_class
-fast-glob/out/settings.js_function_in_class
-fast-glob/out/settings.js_function_in_class
-fast-glob/out/utils/array.js_function_4_0
-fast-glob/out/utils/array.js_function_8_0
-fast-glob/out/utils/errno.js_function_4_0
-fast-glob/out/utils/fs.js_function_in_class
-fast-glob/out/utils/fs.js_function_16_0
-fast-glob/out/utils/path.js_function_10_0
-fast-glob/out/utils/path.js_function_14_0
-fast-glob/out/utils/path.js_function_18_0
-fast-glob/out/utils/path.js_function_22_0
-fast-glob/out/utils/pattern.js_function_14_0
-fast-glob/out/utils/pattern.js_function_18_0
-fast-glob/out/utils/pattern.js_function_46_0
-fast-glob/out/utils/pattern.js_function_58_0
-fast-glob/out/utils/pattern.js_function_62_0
-fast-glob/out/utils/pattern.js_function_66_0
-fast-glob/out/utils/pattern.js_function_70_0
-fast-glob/out/utils/pattern.js_function_74_0
-fast-glob/out/utils/pattern.js_function_78_0
-fast-glob/out/utils/pattern.js_function_89_0
-fast-glob/out/utils/pattern.js_function_100_0
-fast-glob/out/utils/pattern.js_function_104_0
-fast-glob/out/utils/pattern.js_function_108_0
-fast-glob/out/utils/pattern.js_function_112_0
-fast-glob/out/utils/pattern.js_function_116_0
-fast-glob/out/utils/pattern.js_function_120_0
-fast-glob/out/utils/pattern.js_function_125_0
-fast-glob/out/utils/pattern.js_function_131_0
-fast-glob/out/utils/pattern.js_function_138_0
-fast-glob/out/utils/pattern.js_function_158_0
-fast-glob/out/utils/pattern.js_function_162_0
-fast-glob/out/utils/pattern.js_function_166_0
-fast-glob/out/utils/stream.js_function_5_0
-fast-glob/out/utils/stream.js_function_15_0
-fast-glob/out/utils/string.js_function_4_0
-fast-glob/out/utils/string.js_function_8_0
-fastq/bench.js_function_13_0
-fastq/bench.js_function_32_0
-fastq/bench.js_function_36_0
-fastq/bench.js_function_40_0
-fastq/bench.js_function_44_0
-fastq/bench.js_function_48_0
-fastq/bench.js_function_52_0
-fastq/bench.js_function_56_0
-fastq/example.js_function_7_15
-fastq/example.js_function_12_0
-fastq/example.mjs_function_9_0
-fastq/queue.js_function_7_0
-fastq/queue.js_function_179_0
-fastq/queue.js_function_181_0
-fastq/queue.js_function_205_0
-fastq/test/promise.js_function_9_20
-fastq/test/promise.js_function_19_25
-fastq/test/promise.js_function_32_14
-fastq/test/promise.js_function_45_28
-fastq/test/promise.js_function_62_16
-fastq/test/promise.js_function_90_48
-fastq/test/promise.js_function_106_36
-fastq/test/promise.js_function_132_17
-fastq/test/promise.js_function_144_16
-fastq/test/promise.js_function_162_40
-fastq/test/promise.js_function_180_43
-fastq/test/promise.js_function_193_37
-fastq/test/promise.js_function_208_40
-fastq/test/test.js_function_8_20
-fastq/test/test.js_function_18_25
-fastq/test/test.js_function_34_14
-fastq/test/test.js_function_53_28
-fastq/test/test.js_function_76_47
-fastq/test/test.js_function_100_17
-fastq/test/test.js_function_117_14
-fastq/test/test.js_function_139_24
-fastq/test/test.js_function_169_34
-fastq/test/test.js_function_198_29
-fastq/test/test.js_function_229_15
-fastq/test/test.js_function_260_18
-fastq/test/test.js_function_291_15
-fastq/test/test.js_function_315_17
-fastq/test/test.js_function_342_16
-fastq/test/test.js_function_365_25
-fastq/test/test.js_function_393_22
-fastq/test/test.js_function_421_13
-fastq/test/test.js_function_456_21
-fastq/test/test.js_function_491_22
-fastq/test/test.js_function_526_24
-fastq/test/test.js_function_539_27
-fastq/test/test.js_function_552_40
-fs-extra/lib/copy/copy.js_function_10_0
-fs-extra/lib/copy/copy.js_function_41_0
-fs-extra/lib/copy/copy.js_function_53_0
-fs-extra/lib/copy/copy.js_function_60_0
-fs-extra/lib/copy/copy.js_function_65_0
-fs-extra/lib/copy/copy.js_function_78_0
-fs-extra/lib/copy/copy.js_function_83_0
-fs-extra/lib/copy/copy.js_function_94_0
-fs-extra/lib/copy/copy.js_function_102_0
-fs-extra/lib/copy/copy.js_function_115_0
-fs-extra/lib/copy/copy.js_function_119_0
-fs-extra/lib/copy/copy.js_function_123_0
-fs-extra/lib/copy/copy.js_function_130_0
-fs-extra/lib/copy/copy.js_function_134_0
-fs-extra/lib/copy/copy.js_function_144_0
-fs-extra/lib/copy/copy.js_function_152_0
-fs-extra/lib/copy/copy.js_function_162_0
-fs-extra/lib/copy/copy.js_function_169_0
-fs-extra/lib/copy/copy.js_function_175_0
-fs-extra/lib/copy/copy.js_function_188_0
-fs-extra/lib/copy/copy.js_function_225_0
-fs-extra/lib/copy-sync/copy-sync.js_function_9_0
-fs-extra/lib/copy-sync/copy-sync.js_function_29_0
-fs-extra/lib/copy-sync/copy-sync.js_function_36_0
-fs-extra/lib/copy-sync/copy-sync.js_function_41_0
-fs-extra/lib/copy-sync/copy-sync.js_function_52_0
-fs-extra/lib/copy-sync/copy-sync.js_function_57_0
-fs-extra/lib/copy-sync/copy-sync.js_function_66_0
-fs-extra/lib/copy-sync/copy-sync.js_function_72_0
-fs-extra/lib/copy-sync/copy-sync.js_function_80_0
-fs-extra/lib/copy-sync/copy-sync.js_function_84_0
-fs-extra/lib/copy-sync/copy-sync.js_function_88_0
-fs-extra/lib/copy-sync/copy-sync.js_function_92_0
-fs-extra/lib/copy-sync/copy-sync.js_function_100_0
-fs-extra/lib/copy-sync/copy-sync.js_function_108_0
-fs-extra/lib/copy-sync/copy-sync.js_function_114_0
-fs-extra/lib/copy-sync/copy-sync.js_function_118_0
-fs-extra/lib/copy-sync/copy-sync.js_function_125_0
-fs-extra/lib/copy-sync/copy-sync.js_function_161_0
-fs-extra/lib/ensure/link.js_function_9_0
-fs-extra/lib/ensure/link.js_function_39_0
-fs-extra/lib/ensure/symlink-paths.js_function_29_0
-fs-extra/lib/ensure/symlink-paths.js_function_67_0
-fs-extra/lib/ensure/symlink.js_function_20_0
-fs-extra/lib/ensure/symlink.js_function_46_0
-fs-extra/lib/fs/index.js_function_42_9
-fs-extra/lib/fs/index.js_function_51_24
-fs-extra/lib/fs/index.js_function_61_12
-fs-extra/lib/fs/index.js_function_67_17
-fs-extra/lib/fs/index.js_function_78_15
-fs-extra/lib/fs/index.js_function_95_16
-fs-extra/lib/fs/index.js_function_113_19
-fs-extra/lib/json/output-json-sync.js_function_6_0
-fs-extra/lib/json/output-json.js_function_6_0
-fs-extra/lib/move/move.js_function_11_0
-fs-extra/lib/move/move.js_function_32_0
-fs-extra/lib/move/move.js_function_46_0
-fs-extra/lib/move/move.js_function_54_0
-fs-extra/lib/move-sync/move-sync.js_function_10_0
-fs-extra/lib/move-sync/move-sync.js_function_20_0
-fs-extra/lib/move-sync/move-sync.js_function_29_0
-fs-extra/lib/move-sync/move-sync.js_function_38_0
-fs-extra/lib/output/index.js_function_9_0
-fs-extra/lib/output/index.js_function_28_0
-fs-extra/lib/path-exists/index.js_function_5_0
-fs-extra/lib/util/stat.js_function_9_13
-fs-extra/lib/util/stat.js_function_10_17
-fs-extra/lib/util/stat.js_function_12_0
-fs-extra/lib/util/stat.js_function_22_0
-fs-extra/lib/util/stat.js_function_34_0
-fs-extra/lib/util/stat.js_function_48_0
-fs-extra/lib/util/stat.js_function_63_0
-fs-extra/lib/util/stat.js_function_81_0
-fs-extra/lib/util/stat.js_function_98_0
-fs-extra/lib/util/stat.js_function_123_0
-fs-extra/lib/util/stat.js_function_129_0
-fs-extra/lib/util/utimes.js_function_5_0
-fs-extra/lib/util/utimes.js_function_17_0
-glob-parent/index.js_function_19_17
-globby/gitignore.js_function_18_30
-globby/gitignore.js_function_26_23
-globby/gitignore.js_function_36_21
-globby/gitignore.js_function_48_33
-globby/gitignore.js_function_61_30
-globby/gitignore.js_function_65_16
-globby/gitignore.js_function_76_20
-globby/gitignore.js_function_87_25
-globby/gitignore.js_function_94_17
-globby/gitignore.js_function_108_22
-globby/node_modules/ignore/index.js_function_2_0
-globby/node_modules/ignore/index.js_function_28_15
-globby/node_modules/ignore/index.js_function_33_21
-globby/node_modules/ignore/index.js_function_37_22
-globby/node_modules/ignore/index.js_function_47_28
-globby/node_modules/ignore/index.js_function_71_4
-globby/node_modules/ignore/index.js_function_79_4
-globby/node_modules/ignore/index.js_function_101_4
-globby/node_modules/ignore/index.js_function_107_4
-globby/node_modules/ignore/index.js_function_117_4
-globby/node_modules/ignore/index.js_function_123_4
-globby/node_modules/ignore/index.js_function_136_4
-globby/node_modules/ignore/index.js_function_145_4
-globby/node_modules/ignore/index.js_function_177_4
-globby/node_modules/ignore/index.js_function_204_4
-globby/node_modules/ignore/index.js_function_212_4
-globby/node_modules/ignore/index.js_function_218_4
-globby/node_modules/ignore/index.js_function_227_4
-globby/node_modules/ignore/index.js_function_260_4
-globby/node_modules/ignore/index.js_function_270_4
-globby/node_modules/ignore/index.js_function_293_18
-globby/node_modules/ignore/index.js_function_309_17
-globby/node_modules/ignore/index.js_function_312_21
-globby/node_modules/ignore/index.js_function_319_21
-globby/node_modules/ignore/index.js_function_in_class
-globby/node_modules/ignore/index.js_function_335_19
-globby/node_modules/ignore/index.js_function_363_19
-globby/node_modules/ignore/index.js_function_367_18
-globby/node_modules/ignore/index.js_function_392_22
-globby/node_modules/ignore/index.js_function_395_20
-globby/node_modules/ignore/index.js_function_in_class
-globby/node_modules/ignore/index.js_function_in_class
-globby/node_modules/ignore/index.js_function_in_class
-globby/node_modules/ignore/index.js_function_in_class
-globby/node_modules/ignore/index.js_function_in_class
-globby/node_modules/ignore/index.js_function_in_class
-globby/node_modules/ignore/index.js_function_in_class
-globby/node_modules/ignore/index.js_function_in_class
-globby/node_modules/ignore/index.js_function_in_class
-globby/node_modules/ignore/index.js_function_in_class
-globby/node_modules/ignore/index.js_function_in_class
-globby/node_modules/ignore/index.js_function_in_class
-globby/node_modules/ignore/index.js_function_566_16
-globby/node_modules/ignore/index.js_function_568_20
-globby/node_modules/ignore/index.js_function_590_20
-globby/node_modules/ignore/index.js_function_600_28
-globby/node_modules/ignore/legacy.js_function_3_0
-globby/node_modules/ignore/legacy.js_function_5_0
-globby/node_modules/ignore/legacy.js_function_7_0
-globby/node_modules/ignore/legacy.js_function_10_0
-globby/node_modules/ignore/legacy.js_function_32_13
-globby/node_modules/ignore/legacy.js_function_40_19
-globby/node_modules/ignore/legacy.js_function_46_20
-globby/node_modules/ignore/legacy.js_function_55_26
-globby/node_modules/ignore/legacy.js_function_74_11
-globby/node_modules/ignore/legacy.js_function_77_10
-globby/node_modules/ignore/legacy.js_function_95_19
-globby/node_modules/ignore/legacy.js_function_98_13
-globby/node_modules/ignore/legacy.js_function_104_7
-globby/node_modules/ignore/legacy.js_function_107_8
-globby/node_modules/ignore/legacy.js_function_116_0
-globby/node_modules/ignore/legacy.js_function_122_13
-globby/node_modules/ignore/legacy.js_function_143_0
-globby/node_modules/ignore/legacy.js_function_160_0
-globby/node_modules/ignore/legacy.js_function_165_26
-globby/node_modules/ignore/legacy.js_function_168_9
-globby/node_modules/ignore/legacy.js_function_173_33
-globby/node_modules/ignore/legacy.js_function_194_0
-globby/node_modules/ignore/legacy.js_function_199_20
-globby/node_modules/ignore/legacy.js_function_213_16
-globby/node_modules/ignore/legacy.js_function_226_15
-globby/node_modules/ignore/legacy.js_function_231_19
-globby/node_modules/ignore/legacy.js_function_236_19
-globby/node_modules/ignore/legacy.js_function_240_17
-globby/node_modules/ignore/legacy.js_function_249_17
-globby/node_modules/ignore/legacy.js_function_267_17
-globby/node_modules/ignore/legacy.js_function_271_16
-globby/node_modules/ignore/legacy.js_function_290_20
-globby/node_modules/ignore/legacy.js_function_296_20
-globby/node_modules/ignore/legacy.js_function_300_26
-globby/node_modules/ignore/legacy.js_function_467_14
-globby/node_modules/ignore/legacy.js_function_471_18
-globby/node_modules/ignore/legacy.js_function_486_18
-globby/node_modules/ignore/legacy.js_function_495_28
-globby/stream-utils.js_function_in_class
-globby/stream-utils.js_function_in_class
-globby/stream-utils.js_function_in_class
-globby/stream-utils.js_function_in_class
-globby/stream-utils.js_function_in_class
-graceful-fs/clone.js_function_5_46
-graceful-fs/clone.js_function_9_0
-graceful-fs/graceful-fs.js_function_22_0
-graceful-fs/graceful-fs.js_function_24_0
-graceful-fs/graceful-fs.js_function_36_10
-graceful-fs/graceful-fs.js_function_52_14
-graceful-fs/graceful-fs.js_function_71_18
-graceful-fs/graceful-fs.js_function_85_23
-graceful-fs/graceful-fs.js_function_102_0
-graceful-fs/graceful-fs.js_function_371_0
-graceful-fs/graceful-fs.js_function_383_0
-graceful-fs/graceful-fs.js_function_397_0
-graceful-fs/legacy-streams.js_function_5_0
-graceful-fs/polyfills.js_function_8_14
-graceful-fs/polyfills.js_function_20_18
-graceful-fs/polyfills.js_function_29_0
-human-signals/build/src/realtime.js_function_2_25
-human-signals/build/src/realtime.js_function_7_24
-human-signals/build/src/signals.js_function_8_17
-human-signals/build/src/signals.js_function_20_22
-is-extglob/index.js_function_8_17
-is-glob/index.js_function_10_18
-is-glob/index.js_function_101_19
-is-glob/index.js_function_133_17
-is-number/index.js_function_10_17
-is-stream/index.js_function_3_17
-is-stream/index.js_function_8_20
-is-stream/index.js_function_14_20
-is-stream/index.js_function_20_18
-is-stream/index.js_function_24_21
-isexe/index.js_function_12_0
-isexe/index.js_function_46_0
-isexe/mode.js_function_6_0
-isexe/mode.js_function_12_0
-isexe/mode.js_function_16_0
-isexe/mode.js_function_20_0
-isexe/test/basic.js_function_20_0
-isexe/test/basic.js_function_25_25
-isexe/test/basic.js_function_39_41
-isexe/test/basic.js_function_68_21
-isexe/test/basic.js_function_77_50
-isexe/test/basic.js_function_81_34
-isexe/test/basic.js_function_90_18
-isexe/test/basic.js_function_113_18
-isexe/test/basic.js_function_118_0
-isexe/windows.js_function_6_0
-isexe/windows.js_function_27_0
-isexe/windows.js_function_34_0
-isexe/windows.js_function_40_0
-jsonfile/index.js_function_10_0
-jsonfile/index.js_function_40_0
-jsonfile/index.js_function_63_0
-jsonfile/index.js_function_73_0
-jsonfile/utils.js_function_1_0
-jsonfile/utils.js_function_8_0
-merge-stream/index.js_function_5_17
-merge2/index.js_function_15_0
-merge2/index.js_function_128_0
-mimic-fn/index.js_function_3_16
-onetime/index.js_function_6_16
-onetime/index.js_function_38_27
-path-key/index.js_function_3_16
-path-type/index.js_function_5_0
-path-type/index.js_function_22_0
-picomatch/lib/scan.js_function_22_24
-picomatch/lib/scan.js_function_26_14
-picomatch/lib/scan.js_function_49_13
-picomatch/lib/utils.js_function_12_19
-picomatch/lib/utils.js_function_13_24
-picomatch/lib/utils.js_function_14_22
-picomatch/lib/utils.js_function_15_22
-picomatch/lib/utils.js_function_16_25
-picomatch/lib/utils.js_function_18_28
-picomatch/lib/utils.js_function_24_30
-picomatch/lib/utils.js_function_32_20
-picomatch/lib/utils.js_function_39_21
-picomatch/lib/utils.js_function_46_23
-picomatch/lib/utils.js_function_55_21
-queue-microtask/index.js_function_7_4
-reusify/benchmarks/createNoCodeFunction.js_function_10_0
-reusify/benchmarks/fib.js_function_3_0
-reusify/benchmarks/reuseNoCodeFunction.js_function_9_0
-reusify/benchmarks/reuseNoCodeFunction.js_function_17_0
-reusify/reusify.js_function_3_0
-reusify/test.js_function_6_22
-reusify/test.js_function_32_34
-run-parallel/index.js_function_6_0
-shebang-command/index.js_function_4_17
-signal-exit/index.js_function_7_18
-signal-exit/index.js_function_22_19
-signal-exit/index.js_function_54_19
-signal-exit/index.js_function_82_15
-signal-exit/index.js_function_99_13
-signal-exit/index.js_function_110_18
-signal-exit/index.js_function_138_27
-signal-exit/index.js_function_144_13
-signal-exit/index.js_function_171_26
-signal-exit/index.js_function_185_20
-slash/index.js_function_2_17
-strip-final-newline/index.js_function_3_17
-universalify/index.js_function_3_23
-universalify/index.js_function_18_22
-which/which.js_function_9_25
-which/which.js_function_12_20
-which/which.js_function_43_14
-which/which.js_function_87_18
+FunctionDeclaration, @nodelib/fs.scandir/out/adapters/fs.js_function_{"line":13,"column":0}
+FunctionDeclaration, @nodelib/fs.scandir/out/index.js_function_{"line":8,"column":0}
+FunctionDeclaration, @nodelib/fs.scandir/out/index.js_function_{"line":16,"column":0}
+FunctionDeclaration, @nodelib/fs.scandir/out/index.js_function_{"line":21,"column":0}
+FunctionDeclaration, @nodelib/fs.scandir/out/providers/async.js_function_{"line":9,"column":0}
+ArrowFunctionExpression, @nodelib/fs.scandir/out/providers/async.js_function_{"line":23,"column":36}
+ArrowFunctionExpression, @nodelib/fs.scandir/out/providers/async.js_function_{"line":32,"column":34}
+ArrowFunctionExpression, @nodelib/fs.scandir/out/providers/async.js_function_{"line":33,"column":19}
+ArrowFunctionExpression, @nodelib/fs.scandir/out/providers/async.js_function_{"line":18,"column":60}
+FunctionDeclaration, @nodelib/fs.scandir/out/providers/async.js_function_{"line":17,"column":0}
+ArrowFunctionExpression, @nodelib/fs.scandir/out/providers/async.js_function_{"line":49,"column":37}
+ArrowFunctionExpression, @nodelib/fs.scandir/out/providers/async.js_function_{"line":44,"column":11}
+FunctionDeclaration, @nodelib/fs.scandir/out/providers/async.js_function_{"line":43,"column":0}
+ArrowFunctionExpression, @nodelib/fs.scandir/out/providers/async.js_function_{"line":72,"column":59}
+ArrowFunctionExpression, @nodelib/fs.scandir/out/providers/async.js_function_{"line":71,"column":19}
+ArrowFunctionExpression, @nodelib/fs.scandir/out/providers/async.js_function_{"line":69,"column":32}
+ArrowFunctionExpression, @nodelib/fs.scandir/out/providers/async.js_function_{"line":89,"column":19}
+ArrowFunctionExpression, @nodelib/fs.scandir/out/providers/async.js_function_{"line":64,"column":35}
+FunctionDeclaration, @nodelib/fs.scandir/out/providers/async.js_function_{"line":63,"column":0}
+FunctionDeclaration, @nodelib/fs.scandir/out/providers/async.js_function_{"line":99,"column":0}
+FunctionDeclaration, @nodelib/fs.scandir/out/providers/async.js_function_{"line":102,"column":0}
+FunctionDeclaration, @nodelib/fs.scandir/out/providers/common.js_function_{"line":4,"column":0}
+FunctionDeclaration, @nodelib/fs.scandir/out/providers/sync.js_function_{"line":8,"column":0}
+ArrowFunctionExpression, @nodelib/fs.scandir/out/providers/sync.js_function_{"line":17,"column":23}
+FunctionDeclaration, @nodelib/fs.scandir/out/providers/sync.js_function_{"line":15,"column":0}
+ArrowFunctionExpression, @nodelib/fs.scandir/out/providers/sync.js_function_{"line":40,"column":21}
+FunctionDeclaration, @nodelib/fs.scandir/out/providers/sync.js_function_{"line":38,"column":0}
+FunctionExpression, @nodelib/fs.scandir/out/settings.js_function_{"line":7,"column":15}
+FunctionExpression, @nodelib/fs.scandir/out/settings.js_function_{"line":20,"column":13}
+FunctionExpression, @nodelib/fs.scandir/out/utils/fs.js_function_{"line":5,"column":15}
+FunctionDeclaration, @nodelib/fs.scandir/out/utils/fs.js_function_{"line":16,"column":0}
+FunctionDeclaration, @nodelib/fs.stat/out/adapters/fs.js_function_{"line":11,"column":0}
+FunctionDeclaration, @nodelib/fs.stat/out/index.js_function_{"line":8,"column":0}
+FunctionDeclaration, @nodelib/fs.stat/out/index.js_function_{"line":16,"column":0}
+FunctionDeclaration, @nodelib/fs.stat/out/index.js_function_{"line":21,"column":0}
+ArrowFunctionExpression, @nodelib/fs.stat/out/providers/async.js_function_{"line":24,"column":38}
+ArrowFunctionExpression, @nodelib/fs.stat/out/providers/async.js_function_{"line":14,"column":31}
+ArrowFunctionExpression, @nodelib/fs.stat/out/providers/async.js_function_{"line":5,"column":28}
+FunctionDeclaration, @nodelib/fs.stat/out/providers/async.js_function_{"line":4,"column":0}
+FunctionDeclaration, @nodelib/fs.stat/out/providers/async.js_function_{"line":31,"column":0}
+FunctionDeclaration, @nodelib/fs.stat/out/providers/async.js_function_{"line":34,"column":0}
+ArrowFunctionExpression, @nodelib/fs.stat/out/providers/sync.js_function_{"line":12,"column":34}
+FunctionDeclaration, @nodelib/fs.stat/out/providers/sync.js_function_{"line":4,"column":0}
+FunctionExpression, @nodelib/fs.stat/out/settings.js_function_{"line":5,"column":15}
+FunctionExpression, @nodelib/fs.stat/out/settings.js_function_{"line":12,"column":13}
+FunctionDeclaration, @nodelib/fs.walk/out/index.js_function_{"line":9,"column":0}
+FunctionDeclaration, @nodelib/fs.walk/out/index.js_function_{"line":17,"column":0}
+FunctionDeclaration, @nodelib/fs.walk/out/index.js_function_{"line":23,"column":0}
+FunctionDeclaration, @nodelib/fs.walk/out/index.js_function_{"line":29,"column":0}
+FunctionExpression, @nodelib/fs.walk/out/providers/async.js_function_{"line":5,"column":15}
+ArrowFunctionExpression, @nodelib/fs.walk/out/providers/async.js_function_{"line":12,"column":29}
+ArrowFunctionExpression, @nodelib/fs.walk/out/providers/async.js_function_{"line":15,"column":29}
+ArrowFunctionExpression, @nodelib/fs.walk/out/providers/async.js_function_{"line":18,"column":27}
+FunctionExpression, @nodelib/fs.walk/out/providers/async.js_function_{"line":11,"column":8}
+FunctionDeclaration, @nodelib/fs.walk/out/providers/async.js_function_{"line":25,"column":0}
+FunctionDeclaration, @nodelib/fs.walk/out/providers/async.js_function_{"line":28,"column":0}
+ArrowFunctionExpression, @nodelib/fs.walk/out/providers/stream.js_function_{"line":12,"column":18}
+ArrowFunctionExpression, @nodelib/fs.walk/out/providers/stream.js_function_{"line":13,"column":21}
+FunctionExpression, @nodelib/fs.walk/out/providers/stream.js_function_{"line":6,"column":15}
+ArrowFunctionExpression, @nodelib/fs.walk/out/providers/stream.js_function_{"line":21,"column":29}
+ArrowFunctionExpression, @nodelib/fs.walk/out/providers/stream.js_function_{"line":24,"column":29}
+ArrowFunctionExpression, @nodelib/fs.walk/out/providers/stream.js_function_{"line":27,"column":27}
+FunctionExpression, @nodelib/fs.walk/out/providers/stream.js_function_{"line":20,"column":8}
+FunctionExpression, @nodelib/fs.walk/out/providers/sync.js_function_{"line":5,"column":15}
+FunctionExpression, @nodelib/fs.walk/out/providers/sync.js_function_{"line":10,"column":8}
+ArrowFunctionExpression, @nodelib/fs.walk/out/readers/async.js_function_{"line":17,"column":28}
+FunctionExpression, @nodelib/fs.walk/out/readers/async.js_function_{"line":9,"column":15}
+ArrowFunctionExpression, @nodelib/fs.walk/out/readers/async.js_function_{"line":26,"column":21}
+FunctionExpression, @nodelib/fs.walk/out/readers/async.js_function_{"line":23,"column":8}
+FunctionExpression, @nodelib/fs.walk/out/readers/async.js_function_{"line":31,"column":19}
+FunctionExpression, @nodelib/fs.walk/out/readers/async.js_function_{"line":34,"column":11}
+FunctionExpression, @nodelib/fs.walk/out/readers/async.js_function_{"line":41,"column":11}
+FunctionExpression, @nodelib/fs.walk/out/readers/async.js_function_{"line":44,"column":11}
+FunctionExpression, @nodelib/fs.walk/out/readers/async.js_function_{"line":47,"column":9}
+ArrowFunctionExpression, @nodelib/fs.walk/out/readers/async.js_function_{"line":52,"column":36}
+FunctionExpression, @nodelib/fs.walk/out/readers/async.js_function_{"line":50,"column":16}
+ArrowFunctionExpression, @nodelib/fs.walk/out/readers/async.js_function_{"line":59,"column":72}
+FunctionExpression, @nodelib/fs.walk/out/readers/async.js_function_{"line":58,"column":11}
+FunctionExpression, @nodelib/fs.walk/out/readers/async.js_function_{"line":70,"column":16}
+FunctionExpression, @nodelib/fs.walk/out/readers/async.js_function_{"line":78,"column":16}
+FunctionExpression, @nodelib/fs.walk/out/readers/async.js_function_{"line":93,"column":14}
+FunctionDeclaration, @nodelib/fs.walk/out/readers/common.js_function_{"line":4,"column":0}
+FunctionDeclaration, @nodelib/fs.walk/out/readers/common.js_function_{"line":11,"column":0}
+FunctionDeclaration, @nodelib/fs.walk/out/readers/common.js_function_{"line":15,"column":0}
+FunctionDeclaration, @nodelib/fs.walk/out/readers/common.js_function_{"line":19,"column":0}
+FunctionExpression, @nodelib/fs.walk/out/readers/reader.js_function_{"line":5,"column":15}
+FunctionExpression, @nodelib/fs.walk/out/readers/sync.js_function_{"line":7,"column":15}
+FunctionExpression, @nodelib/fs.walk/out/readers/sync.js_function_{"line":13,"column":8}
+FunctionExpression, @nodelib/fs.walk/out/readers/sync.js_function_{"line":18,"column":16}
+FunctionExpression, @nodelib/fs.walk/out/readers/sync.js_function_{"line":21,"column":16}
+FunctionExpression, @nodelib/fs.walk/out/readers/sync.js_function_{"line":26,"column":20}
+FunctionExpression, @nodelib/fs.walk/out/readers/sync.js_function_{"line":37,"column":16}
+FunctionExpression, @nodelib/fs.walk/out/readers/sync.js_function_{"line":43,"column":16}
+FunctionExpression, @nodelib/fs.walk/out/readers/sync.js_function_{"line":55,"column":18}
+FunctionExpression, @nodelib/fs.walk/out/settings.js_function_{"line":6,"column":15}
+FunctionExpression, @nodelib/fs.walk/out/settings.js_function_{"line":22,"column":13}
+ArrowFunctionExpression, array-union/index.js_function_{"line":3,"column":17}
+ArrowFunctionExpression, at-least-node/index.js_function_{"line":2,"column":49}
+ArrowFunctionExpression, at-least-node/index.js_function_{"line":3,"column":23}
+ArrowFunctionExpression, at-least-node/index.js_function_{"line":1,"column":17}
+ArrowFunctionExpression, braces/index.js_function_{"line":22,"column":15}
+ArrowFunctionExpression, braces/index.js_function_{"line":58,"column":15}
+ArrowFunctionExpression, braces/index.js_function_{"line":74,"column":19}
+ArrowFunctionExpression, braces/index.js_function_{"line":96,"column":17}
+ArrowFunctionExpression, braces/index.js_function_{"line":120,"column":16}
+ArrowFunctionExpression, braces/index.js_function_{"line":156,"column":16}
+ArrowFunctionExpression, braces/lib/compile.js_function_{"line":7,"column":13}
+ArrowFunctionExpression, braces/lib/compile.js_function_{"line":6,"column":16}
+ArrowFunctionExpression, braces/lib/expand.js_function_{"line":15,"column":46}
+ArrowFunctionExpression, braces/lib/expand.js_function_{"line":7,"column":15}
+ArrowFunctionExpression, braces/lib/expand.js_function_{"line":36,"column":13}
+ArrowFunctionExpression, braces/lib/expand.js_function_{"line":33,"column":15}
+ArrowFunctionExpression, braces/lib/parse.js_function_{"line":57,"column":18}
+ArrowFunctionExpression, braces/lib/parse.js_function_{"line":58,"column":15}
+ArrowFunctionExpression, braces/lib/parse.js_function_{"line":312,"column":26}
+ArrowFunctionExpression, braces/lib/parse.js_function_{"line":31,"column":14}
+ArrowFunctionExpression, braces/lib/stringify.js_function_{"line":6,"column":18}
+ArrowFunctionExpression, braces/lib/stringify.js_function_{"line":5,"column":17}
+ArrowFunctionExpression, braces/lib/utils.js_function_{"line":3,"column":20}
+ArrowFunctionExpression, braces/lib/utils.js_function_{"line":17,"column":47}
+ArrowFunctionExpression, braces/lib/utils.js_function_{"line":17,"column":15}
+ArrowFunctionExpression, braces/lib/utils.js_function_{"line":23,"column":23}
+ArrowFunctionExpression, braces/lib/utils.js_function_{"line":33,"column":21}
+ArrowFunctionExpression, braces/lib/utils.js_function_{"line":49,"column":23}
+ArrowFunctionExpression, braces/lib/utils.js_function_{"line":62,"column":25}
+ArrowFunctionExpression, braces/lib/utils.js_function_{"line":80,"column":24}
+ArrowFunctionExpression, braces/lib/utils.js_function_{"line":91,"column":39}
+ArrowFunctionExpression, braces/lib/utils.js_function_{"line":91,"column":17}
+ArrowFunctionExpression, braces/lib/utils.js_function_{"line":103,"column":15}
+ArrowFunctionExpression, braces/lib/utils.js_function_{"line":101,"column":18}
+FunctionDeclaration, cross-spawn/index.js_function_{"line":7,"column":0}
+FunctionDeclaration, cross-spawn/index.js_function_{"line":21,"column":0}
+FunctionDeclaration, cross-spawn/lib/enoent.js_function_{"line":5,"column":0}
+FunctionExpression, cross-spawn/lib/enoent.js_function_{"line":22,"column":14}
+FunctionDeclaration, cross-spawn/lib/enoent.js_function_{"line":15,"column":0}
+FunctionDeclaration, cross-spawn/lib/enoent.js_function_{"line":38,"column":0}
+FunctionDeclaration, cross-spawn/lib/enoent.js_function_{"line":46,"column":0}
+FunctionDeclaration, cross-spawn/lib/parse.js_function_{"line":12,"column":0}
+ArrowFunctionExpression, cross-spawn/lib/parse.js_function_{"line":53,"column":38}
+FunctionDeclaration, cross-spawn/lib/parse.js_function_{"line":27,"column":0}
+FunctionDeclaration, cross-spawn/lib/parse.js_function_{"line":65,"column":0}
+FunctionDeclaration, cross-spawn/lib/util/escape.js_function_{"line":6,"column":0}
+FunctionDeclaration, cross-spawn/lib/util/escape.js_function_{"line":13,"column":0}
+FunctionDeclaration, cross-spawn/lib/util/readShebang.js_function_{"line":6,"column":0}
+FunctionDeclaration, cross-spawn/lib/util/resolveCommand.js_function_{"line":7,"column":0}
+FunctionDeclaration, cross-spawn/lib/util/resolveCommand.js_function_{"line":48,"column":0}
+ArrowFunctionExpression, dir-glob/index.js_function_{"line":5,"column":22}
+ArrowFunctionExpression, dir-glob/index.js_function_{"line":7,"column":16}
+ArrowFunctionExpression, dir-glob/index.js_function_{"line":12,"column":22}
+ArrowFunctionExpression, dir-glob/index.js_function_{"line":30,"column":27}
+ArrowFunctionExpression, dir-glob/index.js_function_{"line":34,"column":27}
+ArrowFunctionExpression, dir-glob/index.js_function_{"line":20,"column":16}
+ArrowFunctionExpression, dir-glob/index.js_function_{"line":54,"column":54}
+ArrowFunctionExpression, dir-glob/index.js_function_{"line":44,"column":17}
+ArrowFunctionExpression, dir-glob/index.js_function_{"line":72,"column":36}
+ArrowFunctionExpression, dir-glob/index.js_function_{"line":62,"column":22}
+ArrowFunctionExpression, execa/index.js_function_{"line":17,"column":15}
+ArrowFunctionExpression, execa/index.js_function_{"line":27,"column":24}
+ArrowFunctionExpression, execa/index.js_function_{"line":61,"column":21}
+ArrowFunctionExpression, execa/index.js_function_{"line":111,"column":23}
+ArrowFunctionExpression, execa/index.js_function_{"line":74,"column":14}
+ArrowFunctionExpression, execa/index.js_function_{"line":165,"column":22}
+ArrowFunctionExpression, execa/index.js_function_{"line":228,"column":25}
+ArrowFunctionExpression, execa/index.js_function_{"line":233,"column":29}
+ArrowFunctionExpression, execa/index.js_function_{"line":245,"column":49}
+ArrowFunctionExpression, execa/index.js_function_{"line":238,"column":22}
+ArrowFunctionExpression, execa/lib/command.js_function_{"line":2,"column":22}
+ArrowFunctionExpression, execa/lib/command.js_function_{"line":13,"column":18}
+ArrowFunctionExpression, execa/lib/command.js_function_{"line":21,"column":20}
+ArrowFunctionExpression, execa/lib/command.js_function_{"line":26,"column":38}
+ArrowFunctionExpression, execa/lib/command.js_function_{"line":25,"column":26}
+ArrowFunctionExpression, execa/lib/command.js_function_{"line":32,"column":21}
+ArrowFunctionExpression, execa/lib/error.js_function_{"line":4,"column":23}
+ArrowFunctionExpression, execa/lib/error.js_function_{"line":28,"column":18}
+ArrowFunctionExpression, execa/lib/kill.js_function_{"line":8,"column":20}
+ArrowFunctionExpression, execa/lib/kill.js_function_{"line":20,"column":22}
+ArrowFunctionExpression, execa/lib/kill.js_function_{"line":14,"column":23}
+ArrowFunctionExpression, execa/lib/kill.js_function_{"line":33,"column":24}
+ArrowFunctionExpression, execa/lib/kill.js_function_{"line":37,"column":18}
+ArrowFunctionExpression, execa/lib/kill.js_function_{"line":42,"column":33}
+ArrowFunctionExpression, execa/lib/kill.js_function_{"line":55,"column":22}
+ArrowFunctionExpression, execa/lib/kill.js_function_{"line":63,"column":20}
+ArrowFunctionExpression, execa/lib/kill.js_function_{"line":76,"column":25}
+ArrowFunctionExpression, execa/lib/kill.js_function_{"line":75,"column":36}
+ArrowFunctionExpression, execa/lib/kill.js_function_{"line":81,"column":51}
+ArrowFunctionExpression, execa/lib/kill.js_function_{"line":69,"column":21}
+ArrowFunctionExpression, execa/lib/kill.js_function_{"line":88,"column":24}
+ArrowFunctionExpression, execa/lib/kill.js_function_{"line":100,"column":34}
+ArrowFunctionExpression, execa/lib/kill.js_function_{"line":104,"column":29}
+ArrowFunctionExpression, execa/lib/kill.js_function_{"line":95,"column":23}
+ArrowFunctionExpression, execa/lib/promise.js_function_{"line":3,"column":32}
+ArrowFunctionExpression, execa/lib/promise.js_function_{"line":4,"column":53}
+ArrowFunctionExpression, execa/lib/promise.js_function_{"line":14,"column":3}
+ArrowFunctionExpression, execa/lib/promise.js_function_{"line":10,"column":21}
+ArrowFunctionExpression, execa/lib/promise.js_function_{"line":26,"column":21}
+ArrowFunctionExpression, execa/lib/promise.js_function_{"line":30,"column":22}
+ArrowFunctionExpression, execa/lib/promise.js_function_{"line":35,"column":29}
+ArrowFunctionExpression, execa/lib/promise.js_function_{"line":25,"column":20}
+ArrowFunctionExpression, execa/lib/promise.js_function_{"line":24,"column":26}
+ArrowFunctionExpression, execa/lib/stdio.js_function_{"line":4,"column":41}
+ArrowFunctionExpression, execa/lib/stdio.js_function_{"line":4,"column":17}
+ArrowFunctionExpression, execa/lib/stdio.js_function_{"line":14,"column":21}
+ArrowFunctionExpression, execa/lib/stdio.js_function_{"line":18,"column":99}
+ArrowFunctionExpression, execa/lib/stdio.js_function_{"line":30,"column":29}
+ArrowFunctionExpression, execa/lib/stdio.js_function_{"line":6,"column":23}
+ArrowFunctionExpression, execa/lib/stdio.js_function_{"line":36,"column":22}
+ArrowFunctionExpression, execa/lib/stream.js_function_{"line":7,"column":20}
+ArrowFunctionExpression, execa/lib/stream.js_function_{"line":22,"column":22}
+ArrowFunctionExpression, execa/lib/stream.js_function_{"line":41,"column":24}
+ArrowFunctionExpression, execa/lib/stream.js_function_{"line":55,"column":25}
+ArrowFunctionExpression, execa/lib/stream.js_function_{"line":68,"column":25}
+ArrowFunctionExpression, execa/lib/stream.js_function_{"line":85,"column":26}
+FunctionDeclaration, fast-glob/out/index.js_function_{"line":9,"column":0}
+FunctionDeclaration, fast-glob/out/index.js_function_{"line":18,"column":4}
+FunctionDeclaration, fast-glob/out/index.js_function_{"line":24,"column":4}
+FunctionDeclaration, fast-glob/out/index.js_function_{"line":35,"column":4}
+FunctionDeclaration, fast-glob/out/index.js_function_{"line":42,"column":4}
+FunctionDeclaration, fast-glob/out/index.js_function_{"line":48,"column":4}
+FunctionExpression, fast-glob/out/index.js_function_{"line":17,"column":1}
+FunctionDeclaration, fast-glob/out/index.js_function_{"line":54,"column":0}
+ArrowFunctionExpression, fast-glob/out/index.js_function_{"line":63,"column":39}
+FunctionDeclaration, fast-glob/out/index.js_function_{"line":61,"column":0}
+ArrowFunctionExpression, fast-glob/out/managers/patterns.js_function_{"line":11,"column":24}
+FunctionDeclaration, fast-glob/out/managers/patterns.js_function_{"line":10,"column":0}
+FunctionDeclaration, fast-glob/out/managers/patterns.js_function_{"line":18,"column":0}
+ArrowFunctionExpression, fast-glob/out/managers/tasks.js_function_{"line":8,"column":51}
+ArrowFunctionExpression, fast-glob/out/managers/tasks.js_function_{"line":9,"column":52}
+FunctionDeclaration, fast-glob/out/managers/tasks.js_function_{"line":5,"column":0}
+FunctionDeclaration, fast-glob/out/managers/tasks.js_function_{"line":21,"column":0}
+FunctionDeclaration, fast-glob/out/managers/tasks.js_function_{"line":41,"column":0}
+FunctionDeclaration, fast-glob/out/managers/tasks.js_function_{"line":45,"column":0}
+ArrowFunctionExpression, fast-glob/out/managers/tasks.js_function_{"line":53,"column":27}
+FunctionDeclaration, fast-glob/out/managers/tasks.js_function_{"line":51,"column":0}
+ArrowFunctionExpression, fast-glob/out/managers/tasks.js_function_{"line":66,"column":37}
+FunctionDeclaration, fast-glob/out/managers/tasks.js_function_{"line":65,"column":0}
+FunctionDeclaration, fast-glob/out/managers/tasks.js_function_{"line":71,"column":0}
+FunctionExpression, fast-glob/out/providers/async.js_function_{"line":6,"column":15}
+ArrowFunctionExpression, fast-glob/out/providers/async.js_function_{"line":17,"column":30}
+ArrowFunctionExpression, fast-glob/out/providers/async.js_function_{"line":18,"column":31}
+ArrowFunctionExpression, fast-glob/out/providers/async.js_function_{"line":14,"column":27}
+FunctionExpression, fast-glob/out/providers/async.js_function_{"line":10,"column":8}
+FunctionExpression, fast-glob/out/providers/async.js_function_{"line":21,"column":7}
+FunctionExpression, fast-glob/out/providers/filters/deep.js_function_{"line":6,"column":15}
+ArrowFunctionExpression, fast-glob/out/providers/filters/deep.js_function_{"line":13,"column":15}
+FunctionExpression, fast-glob/out/providers/filters/deep.js_function_{"line":10,"column":13}
+FunctionExpression, fast-glob/out/providers/filters/deep.js_function_{"line":15,"column":15}
+FunctionExpression, fast-glob/out/providers/filters/deep.js_function_{"line":18,"column":26}
+FunctionExpression, fast-glob/out/providers/filters/deep.js_function_{"line":22,"column":11}
+FunctionExpression, fast-glob/out/providers/filters/deep.js_function_{"line":35,"column":20}
+FunctionExpression, fast-glob/out/providers/filters/deep.js_function_{"line":44,"column":18}
+FunctionExpression, fast-glob/out/providers/filters/deep.js_function_{"line":52,"column":26}
+FunctionExpression, fast-glob/out/providers/filters/deep.js_function_{"line":55,"column":32}
+FunctionExpression, fast-glob/out/providers/filters/deep.js_function_{"line":58,"column":32}
+FunctionExpression, fast-glob/out/providers/filters/entry.js_function_{"line":5,"column":15}
+ArrowFunctionExpression, fast-glob/out/providers/filters/entry.js_function_{"line":13,"column":15}
+FunctionExpression, fast-glob/out/providers/filters/entry.js_function_{"line":10,"column":13}
+FunctionExpression, fast-glob/out/providers/filters/entry.js_function_{"line":15,"column":11}
+FunctionExpression, fast-glob/out/providers/filters/entry.js_function_{"line":32,"column":21}
+FunctionExpression, fast-glob/out/providers/filters/entry.js_function_{"line":35,"column":22}
+FunctionExpression, fast-glob/out/providers/filters/entry.js_function_{"line":38,"column":19}
+FunctionExpression, fast-glob/out/providers/filters/entry.js_function_{"line":41,"column":24}
+FunctionExpression, fast-glob/out/providers/filters/entry.js_function_{"line":44,"column":40}
+FunctionExpression, fast-glob/out/providers/filters/entry.js_function_{"line":55,"column":22}
+FunctionExpression, fast-glob/out/providers/filters/error.js_function_{"line":5,"column":15}
+ArrowFunctionExpression, fast-glob/out/providers/filters/error.js_function_{"line":9,"column":15}
+FunctionExpression, fast-glob/out/providers/filters/error.js_function_{"line":8,"column":13}
+FunctionExpression, fast-glob/out/providers/filters/error.js_function_{"line":11,"column":20}
+FunctionExpression, fast-glob/out/providers/matchers/matcher.js_function_{"line":5,"column":15}
+FunctionExpression, fast-glob/out/providers/matchers/matcher.js_function_{"line":12,"column":16}
+ArrowFunctionExpression, fast-glob/out/providers/matchers/matcher.js_function_{"line":31,"column":25}
+FunctionExpression, fast-glob/out/providers/matchers/matcher.js_function_{"line":29,"column":23}
+ArrowFunctionExpression, fast-glob/out/providers/matchers/matcher.js_function_{"line":47,"column":47}
+FunctionExpression, fast-glob/out/providers/matchers/matcher.js_function_{"line":46,"column":30}
+ArrowFunctionExpression, fast-glob/out/providers/matchers/partial.js_function_{"line":8,"column":46}
+ArrowFunctionExpression, fast-glob/out/providers/matchers/partial.js_function_{"line":21,"column":38}
+FunctionExpression, fast-glob/out/providers/matchers/partial.js_function_{"line":5,"column":9}
+FunctionExpression, fast-glob/out/providers/provider.js_function_{"line":9,"column":15}
+FunctionExpression, fast-glob/out/providers/provider.js_function_{"line":16,"column":21}
+FunctionExpression, fast-glob/out/providers/provider.js_function_{"line":19,"column":21}
+FunctionExpression, fast-glob/out/providers/provider.js_function_{"line":35,"column":25}
+FunctionExpression, fast-glob/out/providers/stream.js_function_{"line":7,"column":15}
+ArrowFunctionExpression, fast-glob/out/providers/stream.js_function_{"line":15,"column":76}
+ArrowFunctionExpression, fast-glob/out/providers/stream.js_function_{"line":17,"column":27}
+ArrowFunctionExpression, fast-glob/out/providers/stream.js_function_{"line":18,"column":24}
+ArrowFunctionExpression, fast-glob/out/providers/stream.js_function_{"line":19,"column":25}
+ArrowFunctionExpression, fast-glob/out/providers/stream.js_function_{"line":21,"column":27}
+FunctionExpression, fast-glob/out/providers/stream.js_function_{"line":11,"column":8}
+FunctionExpression, fast-glob/out/providers/stream.js_function_{"line":24,"column":7}
+FunctionExpression, fast-glob/out/providers/sync.js_function_{"line":6,"column":15}
+FunctionExpression, fast-glob/out/providers/sync.js_function_{"line":10,"column":8}
+FunctionExpression, fast-glob/out/providers/sync.js_function_{"line":16,"column":7}
+FunctionExpression, fast-glob/out/providers/transformers/entry.js_function_{"line":5,"column":15}
+ArrowFunctionExpression, fast-glob/out/providers/transformers/entry.js_function_{"line":9,"column":15}
+FunctionExpression, fast-glob/out/providers/transformers/entry.js_function_{"line":8,"column":18}
+FunctionExpression, fast-glob/out/providers/transformers/entry.js_function_{"line":11,"column":14}
+FunctionExpression, fast-glob/out/readers/reader.js_function_{"line":7,"column":15}
+FunctionExpression, fast-glob/out/readers/reader.js_function_{"line":15,"column":21}
+FunctionExpression, fast-glob/out/readers/reader.js_function_{"line":18,"column":14}
+FunctionExpression, fast-glob/out/readers/reader.js_function_{"line":29,"column":17}
+FunctionExpression, fast-glob/out/readers/stream.js_function_{"line":8,"column":15}
+FunctionExpression, fast-glob/out/readers/stream.js_function_{"line":13,"column":11}
+ArrowFunctionExpression, fast-glob/out/readers/stream.js_function_{"line":21,"column":22}
+ArrowFunctionExpression, fast-glob/out/readers/stream.js_function_{"line":19,"column":24}
+FunctionExpression, fast-glob/out/readers/stream.js_function_{"line":16,"column":10}
+ArrowFunctionExpression, fast-glob/out/readers/stream.js_function_{"line":39,"column":18}
+ArrowFunctionExpression, fast-glob/out/readers/stream.js_function_{"line":40,"column":19}
+FunctionExpression, fast-glob/out/readers/stream.js_function_{"line":37,"column":13}
+ArrowFunctionExpression, fast-glob/out/readers/stream.js_function_{"line":49,"column":55}
+ArrowFunctionExpression, fast-glob/out/readers/stream.js_function_{"line":48,"column":27}
+FunctionExpression, fast-glob/out/readers/stream.js_function_{"line":47,"column":12}
+FunctionExpression, fast-glob/out/readers/sync.js_function_{"line":7,"column":15}
+FunctionExpression, fast-glob/out/readers/sync.js_function_{"line":12,"column":11}
+FunctionExpression, fast-glob/out/readers/sync.js_function_{"line":15,"column":10}
+FunctionExpression, fast-glob/out/readers/sync.js_function_{"line":27,"column":13}
+FunctionExpression, fast-glob/out/readers/sync.js_function_{"line":39,"column":12}
+FunctionExpression, fast-glob/out/settings.js_function_{"line":20,"column":15}
+FunctionExpression, fast-glob/out/settings.js_function_{"line":50,"column":13}
+FunctionExpression, fast-glob/out/settings.js_function_{"line":53,"column":25}
+ArrowFunctionExpression, fast-glob/out/utils/array.js_function_{"line":5,"column":24}
+FunctionDeclaration, fast-glob/out/utils/array.js_function_{"line":4,"column":0}
+FunctionDeclaration, fast-glob/out/utils/array.js_function_{"line":8,"column":0}
+FunctionDeclaration, fast-glob/out/utils/errno.js_function_{"line":4,"column":0}
+FunctionExpression, fast-glob/out/utils/fs.js_function_{"line":5,"column":15}
+FunctionDeclaration, fast-glob/out/utils/fs.js_function_{"line":16,"column":0}
+FunctionDeclaration, fast-glob/out/utils/path.js_function_{"line":10,"column":0}
+FunctionDeclaration, fast-glob/out/utils/path.js_function_{"line":14,"column":0}
+FunctionDeclaration, fast-glob/out/utils/path.js_function_{"line":18,"column":0}
+FunctionDeclaration, fast-glob/out/utils/path.js_function_{"line":22,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":14,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":18,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":46,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":58,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":62,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":66,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":70,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":74,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":78,"column":0}
+ArrowFunctionExpression, fast-glob/out/utils/pattern.js_function_{"line":90,"column":27}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":89,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":100,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":104,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":108,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":112,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":116,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":120,"column":0}
+ArrowFunctionExpression, fast-glob/out/utils/pattern.js_function_{"line":126,"column":27}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":125,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":131,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":138,"column":0}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":158,"column":0}
+ArrowFunctionExpression, fast-glob/out/utils/pattern.js_function_{"line":163,"column":24}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":162,"column":0}
+ArrowFunctionExpression, fast-glob/out/utils/pattern.js_function_{"line":167,"column":27}
+FunctionDeclaration, fast-glob/out/utils/pattern.js_function_{"line":166,"column":0}
+ArrowFunctionExpression, fast-glob/out/utils/stream.js_function_{"line":8,"column":29}
+ArrowFunctionExpression, fast-glob/out/utils/stream.js_function_{"line":7,"column":20}
+ArrowFunctionExpression, fast-glob/out/utils/stream.js_function_{"line":10,"column":31}
+ArrowFunctionExpression, fast-glob/out/utils/stream.js_function_{"line":11,"column":29}
+FunctionDeclaration, fast-glob/out/utils/stream.js_function_{"line":5,"column":0}
+ArrowFunctionExpression, fast-glob/out/utils/stream.js_function_{"line":16,"column":20}
+FunctionDeclaration, fast-glob/out/utils/stream.js_function_{"line":15,"column":0}
+FunctionDeclaration, fast-glob/out/utils/string.js_function_{"line":4,"column":0}
+FunctionDeclaration, fast-glob/out/utils/string.js_function_{"line":8,"column":0}
+FunctionDeclaration, fastq/bench.js_function_{"line":20,"column":2}
+FunctionDeclaration, fastq/bench.js_function_{"line":13,"column":0}
+FunctionDeclaration, fastq/bench.js_function_{"line":32,"column":0}
+FunctionDeclaration, fastq/bench.js_function_{"line":36,"column":0}
+FunctionDeclaration, fastq/bench.js_function_{"line":40,"column":0}
+FunctionDeclaration, fastq/bench.js_function_{"line":44,"column":0}
+FunctionDeclaration, fastq/bench.js_function_{"line":48,"column":0}
+FunctionExpression, fastq/bench.js_function_{"line":53,"column":25}
+FunctionDeclaration, fastq/bench.js_function_{"line":52,"column":0}
+FunctionDeclaration, fastq/bench.js_function_{"line":56,"column":0}
+FunctionExpression, fastq/example.js_function_{"line":7,"column":15}
+FunctionDeclaration, fastq/example.js_function_{"line":12,"column":0}
+FunctionDeclaration, fastq/queue.js_function_{"line":45,"column":2}
+FunctionDeclaration, fastq/queue.js_function_{"line":49,"column":2}
+FunctionDeclaration, fastq/queue.js_function_{"line":53,"column":2}
+FunctionDeclaration, fastq/queue.js_function_{"line":65,"column":2}
+FunctionDeclaration, fastq/queue.js_function_{"line":77,"column":2}
+FunctionDeclaration, fastq/queue.js_function_{"line":86,"column":2}
+FunctionDeclaration, fastq/queue.js_function_{"line":90,"column":2}
+FunctionDeclaration, fastq/queue.js_function_{"line":114,"column":2}
+FunctionDeclaration, fastq/queue.js_function_{"line":137,"column":2}
+FunctionDeclaration, fastq/queue.js_function_{"line":161,"column":2}
+FunctionDeclaration, fastq/queue.js_function_{"line":167,"column":2}
+FunctionDeclaration, fastq/queue.js_function_{"line":174,"column":2}
+FunctionDeclaration, fastq/queue.js_function_{"line":7,"column":0}
+FunctionDeclaration, fastq/queue.js_function_{"line":179,"column":0}
+FunctionExpression, fastq/queue.js_function_{"line":191,"column":16}
+FunctionDeclaration, fastq/queue.js_function_{"line":181,"column":0}
+FunctionExpression, fastq/queue.js_function_{"line":214,"column":12}
+FunctionDeclaration, fastq/queue.js_function_{"line":212,"column":2}
+FunctionExpression, fastq/queue.js_function_{"line":232,"column":20}
+FunctionExpression, fastq/queue.js_function_{"line":231,"column":24}
+FunctionDeclaration, fastq/queue.js_function_{"line":230,"column":2}
+FunctionExpression, fastq/queue.js_function_{"line":251,"column":23}
+FunctionExpression, fastq/queue.js_function_{"line":250,"column":24}
+FunctionDeclaration, fastq/queue.js_function_{"line":249,"column":2}
+FunctionExpression, fastq/queue.js_function_{"line":272,"column":20}
+FunctionExpression, fastq/queue.js_function_{"line":271,"column":24}
+FunctionDeclaration, fastq/queue.js_function_{"line":268,"column":2}
+FunctionDeclaration, fastq/queue.js_function_{"line":205,"column":0}
+FunctionDeclaration, fastq/test/promise.js_function_{"line":14,"column":2}
+FunctionExpression, fastq/test/promise.js_function_{"line":9,"column":20}
+FunctionDeclaration, fastq/test/promise.js_function_{"line":26,"column":2}
+FunctionExpression, fastq/test/promise.js_function_{"line":19,"column":25}
+FunctionDeclaration, fastq/test/promise.js_function_{"line":39,"column":2}
+FunctionExpression, fastq/test/promise.js_function_{"line":32,"column":14}
+FunctionExpression, fastq/test/promise.js_function_{"line":51,"column":31}
+FunctionDeclaration, fastq/test/promise.js_function_{"line":56,"column":2}
+FunctionExpression, fastq/test/promise.js_function_{"line":45,"column":28}
+FunctionDeclaration, fastq/test/promise.js_function_{"line":68,"column":2}
+FunctionExpression, fastq/test/promise.js_function_{"line":73,"column":17}
+FunctionExpression, fastq/test/promise.js_function_{"line":81,"column":17}
+FunctionExpression, fastq/test/promise.js_function_{"line":62,"column":16}
+FunctionDeclaration, fastq/test/promise.js_function_{"line":95,"column":2}
+FunctionExpression, fastq/test/promise.js_function_{"line":99,"column":17}
+FunctionExpression, fastq/test/promise.js_function_{"line":90,"column":48}
+FunctionExpression, fastq/test/promise.js_function_{"line":110,"column":16}
+FunctionDeclaration, fastq/test/promise.js_function_{"line":117,"column":2}
+FunctionExpression, fastq/test/promise.js_function_{"line":122,"column":17}
+FunctionExpression, fastq/test/promise.js_function_{"line":106,"column":36}
+FunctionDeclaration, fastq/test/promise.js_function_{"line":139,"column":2}
+FunctionExpression, fastq/test/promise.js_function_{"line":132,"column":17}
+FunctionDeclaration, fastq/test/promise.js_function_{"line":157,"column":2}
+FunctionExpression, fastq/test/promise.js_function_{"line":144,"column":16}
+FunctionExpression, fastq/test/promise.js_function_{"line":164,"column":23}
+FunctionExpression, fastq/test/promise.js_function_{"line":167,"column":10}
+FunctionExpression, fastq/test/promise.js_function_{"line":162,"column":40}
+FunctionExpression, fastq/test/promise.js_function_{"line":182,"column":23}
+FunctionExpression, fastq/test/promise.js_function_{"line":180,"column":43}
+FunctionDeclaration, fastq/test/promise.js_function_{"line":194,"column":2}
+FunctionExpression, fastq/test/promise.js_function_{"line":198,"column":23}
+FunctionExpression, fastq/test/promise.js_function_{"line":193,"column":37}
+FunctionDeclaration, fastq/test/promise.js_function_{"line":209,"column":2}
+FunctionExpression, fastq/test/promise.js_function_{"line":213,"column":23}
+FunctionExpression, fastq/test/promise.js_function_{"line":208,"column":40}
+FunctionDeclaration, fastq/test/test.js_function_{"line":13,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":8,"column":20}
+FunctionExpression, fastq/test/test.js_function_{"line":23,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":28,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":18,"column":25}
+FunctionDeclaration, fastq/test/test.js_function_{"line":43,"column":2}
+FunctionDeclaration, fastq/test/test.js_function_{"line":48,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":34,"column":14}
+FunctionExpression, fastq/test/test.js_function_{"line":60,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":64,"column":2}
+FunctionDeclaration, fastq/test/test.js_function_{"line":69,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":53,"column":28}
+FunctionDeclaration, fastq/test/test.js_function_{"line":85,"column":2}
+FunctionDeclaration, fastq/test/test.js_function_{"line":93,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":76,"column":47}
+FunctionExpression, fastq/test/test.js_function_{"line":106,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":111,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":100,"column":17}
+FunctionExpression, fastq/test/test.js_function_{"line":123,"column":17}
+FunctionExpression, fastq/test/test.js_function_{"line":128,"column":16}
+FunctionDeclaration, fastq/test/test.js_function_{"line":132,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":117,"column":14}
+FunctionExpression, fastq/test/test.js_function_{"line":149,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":162,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":139,"column":24}
+FunctionExpression, fastq/test/test.js_function_{"line":181,"column":21}
+FunctionExpression, fastq/test/test.js_function_{"line":177,"column":17}
+FunctionExpression, fastq/test/test.js_function_{"line":184,"column":17}
+FunctionExpression, fastq/test/test.js_function_{"line":194,"column":21}
+FunctionDeclaration, fastq/test/test.js_function_{"line":192,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":169,"column":34}
+FunctionDeclaration, fastq/test/test.js_function_{"line":215,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":222,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":220,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":198,"column":29}
+FunctionExpression, fastq/test/test.js_function_{"line":236,"column":17}
+FunctionExpression, fastq/test/test.js_function_{"line":246,"column":17}
+FunctionExpression, fastq/test/test.js_function_{"line":242,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":253,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":229,"column":15}
+FunctionExpression, fastq/test/test.js_function_{"line":267,"column":20}
+FunctionDeclaration, fastq/test/test.js_function_{"line":276,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":284,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":281,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":260,"column":18}
+FunctionDeclaration, fastq/test/test.js_function_{"line":304,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":309,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":308,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":291,"column":15}
+FunctionDeclaration, fastq/test/test.js_function_{"line":331,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":336,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":335,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":315,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":353,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":359,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":357,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":342,"column":16}
+FunctionExpression, fastq/test/test.js_function_{"line":373,"column":16}
+FunctionDeclaration, fastq/test/test.js_function_{"line":381,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":387,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":386,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":365,"column":25}
+FunctionExpression, fastq/test/test.js_function_{"line":401,"column":16}
+FunctionDeclaration, fastq/test/test.js_function_{"line":409,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":415,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":414,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":393,"column":22}
+FunctionExpression, fastq/test/test.js_function_{"line":429,"column":16}
+FunctionExpression, fastq/test/test.js_function_{"line":441,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":439,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":450,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":448,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":421,"column":13}
+FunctionExpression, fastq/test/test.js_function_{"line":464,"column":16}
+FunctionExpression, fastq/test/test.js_function_{"line":476,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":474,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":485,"column":17}
+FunctionDeclaration, fastq/test/test.js_function_{"line":483,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":456,"column":21}
+FunctionExpression, fastq/test/test.js_function_{"line":502,"column":17}
+FunctionExpression, fastq/test/test.js_function_{"line":520,"column":21}
+FunctionDeclaration, fastq/test/test.js_function_{"line":516,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":491,"column":22}
+FunctionDeclaration, fastq/test/test.js_function_{"line":533,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":526,"column":24}
+FunctionDeclaration, fastq/test/test.js_function_{"line":546,"column":2}
+FunctionExpression, fastq/test/test.js_function_{"line":539,"column":27}
+FunctionExpression, fastq/test/test.js_function_{"line":554,"column":21}
+FunctionExpression, fastq/test/test.js_function_{"line":557,"column":10}
+FunctionExpression, fastq/test/test.js_function_{"line":562,"column":13}
+FunctionExpression, fastq/test/test.js_function_{"line":552,"column":40}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":13,"column":17}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":16,"column":9}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":15,"column":18}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":19,"column":21}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":23,"column":17}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":25,"column":14}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":34,"column":18}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":41,"column":12}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":53,"column":17}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":64,"column":23}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":65,"column":23}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":63,"column":19}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":93,"column":16}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":105,"column":16}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":114,"column":19}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":118,"column":21}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":123,"column":20}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":159,"column":13}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":130,"column":20}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":188,"column":37}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":182,"column":20}
+ArrowFunctionExpression, fill-range/index.js_function_{"line":216,"column":13}
+FunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":18,"column":13}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":33,"column":54}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":30,"column":37}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":10,"column":0}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":46,"column":23}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":43,"column":25}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":41,"column":0}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":54,"column":47}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":57,"column":5}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":53,"column":0}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":60,"column":0}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":67,"column":12}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":65,"column":0}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":78,"column":0}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":85,"column":20}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":83,"column":0}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":95,"column":25}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":94,"column":0}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":107,"column":43}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":102,"column":0}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":115,"column":0}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":119,"column":0}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":124,"column":31}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":123,"column":0}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":130,"column":0}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":138,"column":15}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":134,"column":0}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":144,"column":0}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":155,"column":29}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":153,"column":17}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":152,"column":0}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":163,"column":18}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":162,"column":0}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":169,"column":0}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":181,"column":49}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":178,"column":45}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":175,"column":0}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":198,"column":24}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":189,"column":19}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":188,"column":0}
+ArrowFunctionExpression, fs-extra/lib/copy/copy.js_function_{"line":226,"column":18}
+FunctionDeclaration, fs-extra/lib/copy/copy.js_function_{"line":225,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":9,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":29,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":36,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":41,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":52,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":57,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":66,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":72,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":80,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":84,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":88,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":92,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":100,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":108,"column":0}
+ArrowFunctionExpression, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":115,"column":30}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":114,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":118,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":125,"column":0}
+FunctionDeclaration, fs-extra/lib/copy-sync/copy-sync.js_function_{"line":161,"column":0}
+FunctionExpression, fs-extra/lib/empty/index.js_function_{"line":10,"column":25}
+ArrowFunctionExpression, fs-extra/lib/empty/index.js_function_{"line":14,"column":22}
+ArrowFunctionExpression, fs-extra/lib/empty/index.js_function_{"line":21,"column":26}
+FunctionDeclaration, fs-extra/lib/empty/index.js_function_{"line":18,"column":4}
+ArrowFunctionExpression, fs-extra/lib/empty/index.js_function_{"line":11,"column":18}
+FunctionExpression, fs-extra/lib/empty/index.js_function_{"line":9,"column":19}
+ArrowFunctionExpression, fs-extra/lib/empty/index.js_function_{"line":37,"column":16}
+FunctionDeclaration, fs-extra/lib/empty/index.js_function_{"line":29,"column":0}
+ArrowFunctionExpression, fs-extra/lib/ensure/file.js_function_{"line":10,"column":27}
+FunctionDeclaration, fs-extra/lib/ensure/file.js_function_{"line":9,"column":2}
+ArrowFunctionExpression, fs-extra/lib/ensure/file.js_function_{"line":23,"column":35}
+ArrowFunctionExpression, fs-extra/lib/ensure/file.js_function_{"line":35,"column":24}
+ArrowFunctionExpression, fs-extra/lib/ensure/file.js_function_{"line":19,"column":17}
+ArrowFunctionExpression, fs-extra/lib/ensure/file.js_function_{"line":16,"column":16}
+FunctionDeclaration, fs-extra/lib/ensure/file.js_function_{"line":8,"column":0}
+FunctionDeclaration, fs-extra/lib/ensure/file.js_function_{"line":43,"column":0}
+ArrowFunctionExpression, fs-extra/lib/ensure/link.js_function_{"line":11,"column":30}
+FunctionDeclaration, fs-extra/lib/ensure/link.js_function_{"line":10,"column":2}
+ArrowFunctionExpression, fs-extra/lib/ensure/link.js_function_{"line":30,"column":26}
+ArrowFunctionExpression, fs-extra/lib/ensure/link.js_function_{"line":27,"column":22}
+ArrowFunctionExpression, fs-extra/lib/ensure/link.js_function_{"line":20,"column":22}
+ArrowFunctionExpression, fs-extra/lib/ensure/link.js_function_{"line":17,"column":22}
+FunctionDeclaration, fs-extra/lib/ensure/link.js_function_{"line":9,"column":0}
+FunctionDeclaration, fs-extra/lib/ensure/link.js_function_{"line":39,"column":0}
+ArrowFunctionExpression, fs-extra/lib/ensure/symlink-paths.js_function_{"line":31,"column":29}
+ArrowFunctionExpression, fs-extra/lib/ensure/symlink-paths.js_function_{"line":52,"column":33}
+ArrowFunctionExpression, fs-extra/lib/ensure/symlink-paths.js_function_{"line":44,"column":37}
+FunctionDeclaration, fs-extra/lib/ensure/symlink-paths.js_function_{"line":29,"column":0}
+FunctionDeclaration, fs-extra/lib/ensure/symlink-paths.js_function_{"line":67,"column":0}
+ArrowFunctionExpression, fs-extra/lib/ensure/symlink-type.js_function_{"line":9,"column":20}
+FunctionDeclaration, fs-extra/lib/ensure/symlink-type.js_function_{"line":5,"column":0}
+FunctionDeclaration, fs-extra/lib/ensure/symlink-type.js_function_{"line":16,"column":0}
+ArrowFunctionExpression, fs-extra/lib/ensure/symlink.js_function_{"line":36,"column":22}
+ArrowFunctionExpression, fs-extra/lib/ensure/symlink.js_function_{"line":33,"column":24}
+ArrowFunctionExpression, fs-extra/lib/ensure/symlink.js_function_{"line":30,"column":40}
+ArrowFunctionExpression, fs-extra/lib/ensure/symlink.js_function_{"line":27,"column":35}
+ArrowFunctionExpression, fs-extra/lib/ensure/symlink.js_function_{"line":24,"column":22}
+FunctionDeclaration, fs-extra/lib/ensure/symlink.js_function_{"line":20,"column":0}
+FunctionDeclaration, fs-extra/lib/ensure/symlink.js_function_{"line":46,"column":0}
+ArrowFunctionExpression, fs-extra/lib/fs/index.js_function_{"line":42,"column":9}
+ArrowFunctionExpression, fs-extra/lib/fs/index.js_function_{"line":51,"column":24}
+ArrowFunctionExpression, fs-extra/lib/fs/index.js_function_{"line":61,"column":12}
+ArrowFunctionExpression, fs-extra/lib/fs/index.js_function_{"line":71,"column":21}
+FunctionExpression, fs-extra/lib/fs/index.js_function_{"line":67,"column":17}
+ArrowFunctionExpression, fs-extra/lib/fs/index.js_function_{"line":83,"column":50}
+ArrowFunctionExpression, fs-extra/lib/fs/index.js_function_{"line":82,"column":21}
+FunctionExpression, fs-extra/lib/fs/index.js_function_{"line":78,"column":15}
+ArrowFunctionExpression, fs-extra/lib/fs/index.js_function_{"line":101,"column":34}
+ArrowFunctionExpression, fs-extra/lib/fs/index.js_function_{"line":100,"column":21}
+FunctionExpression, fs-extra/lib/fs/index.js_function_{"line":95,"column":16}
+ArrowFunctionExpression, fs-extra/lib/fs/index.js_function_{"line":119,"column":38}
+ArrowFunctionExpression, fs-extra/lib/fs/index.js_function_{"line":118,"column":23}
+FunctionExpression, fs-extra/lib/fs/index.js_function_{"line":113,"column":19}
+FunctionExpression, fs-extra/lib/index.js_function_{"line":25,"column":8}
+FunctionDeclaration, fs-extra/lib/json/output-json-sync.js_function_{"line":6,"column":0}
+FunctionDeclaration, fs-extra/lib/json/output-json.js_function_{"line":6,"column":0}
+ArrowFunctionExpression, fs-extra/lib/mkdirs/make-dir.js_function_{"line":15,"column":18}
+ArrowFunctionExpression, fs-extra/lib/mkdirs/make-dir.js_function_{"line":27,"column":23}
+ArrowFunctionExpression, fs-extra/lib/mkdirs/make-dir.js_function_{"line":33,"column":24}
+ArrowFunctionExpression, fs-extra/lib/mkdirs/make-dir.js_function_{"line":57,"column":15}
+ArrowFunctionExpression, fs-extra/lib/mkdirs/make-dir.js_function_{"line":44,"column":25}
+ArrowFunctionExpression, fs-extra/lib/mkdirs/make-dir.js_function_{"line":107,"column":15}
+ArrowFunctionExpression, fs-extra/lib/mkdirs/make-dir.js_function_{"line":94,"column":29}
+ArrowFunctionExpression, fs-extra/lib/move/move.js_function_{"line":24,"column":33}
+ArrowFunctionExpression, fs-extra/lib/move/move.js_function_{"line":22,"column":54}
+ArrowFunctionExpression, fs-extra/lib/move/move.js_function_{"line":19,"column":37}
+FunctionDeclaration, fs-extra/lib/move/move.js_function_{"line":11,"column":0}
+ArrowFunctionExpression, fs-extra/lib/move/move.js_function_{"line":34,"column":24}
+ArrowFunctionExpression, fs-extra/lib/move/move.js_function_{"line":39,"column":19}
+FunctionDeclaration, fs-extra/lib/move/move.js_function_{"line":32,"column":0}
+ArrowFunctionExpression, fs-extra/lib/move/move.js_function_{"line":47,"column":23}
+FunctionDeclaration, fs-extra/lib/move/move.js_function_{"line":46,"column":0}
+ArrowFunctionExpression, fs-extra/lib/move/move.js_function_{"line":59,"column":24}
+FunctionDeclaration, fs-extra/lib/move/move.js_function_{"line":54,"column":0}
+FunctionDeclaration, fs-extra/lib/move-sync/move-sync.js_function_{"line":10,"column":0}
+FunctionDeclaration, fs-extra/lib/move-sync/move-sync.js_function_{"line":20,"column":0}
+FunctionDeclaration, fs-extra/lib/move-sync/move-sync.js_function_{"line":29,"column":0}
+FunctionDeclaration, fs-extra/lib/move-sync/move-sync.js_function_{"line":38,"column":0}
+ArrowFunctionExpression, fs-extra/lib/output/index.js_function_{"line":20,"column":22}
+ArrowFunctionExpression, fs-extra/lib/output/index.js_function_{"line":16,"column":18}
+FunctionDeclaration, fs-extra/lib/output/index.js_function_{"line":9,"column":0}
+FunctionDeclaration, fs-extra/lib/output/index.js_function_{"line":28,"column":0}
+ArrowFunctionExpression, fs-extra/lib/path-exists/index.js_function_{"line":6,"column":30}
+ArrowFunctionExpression, fs-extra/lib/path-exists/index.js_function_{"line":6,"column":48}
+FunctionDeclaration, fs-extra/lib/path-exists/index.js_function_{"line":5,"column":0}
+ArrowFunctionExpression, fs-extra/lib/remove/rimraf.js_function_{"line":18,"column":18}
+FunctionDeclaration, fs-extra/lib/remove/rimraf.js_function_{"line":9,"column":0}
+ArrowFunctionExpression, fs-extra/lib/remove/rimraf.js_function_{"line":50,"column":26}
+FunctionExpression, fs-extra/lib/remove/rimraf.js_function_{"line":43,"column":22}
+FunctionDeclaration, fs-extra/lib/remove/rimraf.js_function_{"line":27,"column":0}
+ArrowFunctionExpression, fs-extra/lib/remove/rimraf.js_function_{"line":93,"column":22}
+ArrowFunctionExpression, fs-extra/lib/remove/rimraf.js_function_{"line":79,"column":19}
+FunctionDeclaration, fs-extra/lib/remove/rimraf.js_function_{"line":72,"column":0}
+ArrowFunctionExpression, fs-extra/lib/remove/rimraf.js_function_{"line":121,"column":22}
+ArrowFunctionExpression, fs-extra/lib/remove/rimraf.js_function_{"line":117,"column":26}
+FunctionDeclaration, fs-extra/lib/remove/rimraf.js_function_{"line":112,"column":0}
+FunctionDeclaration, fs-extra/lib/remove/rimraf.js_function_{"line":134,"column":0}
+ArrowFunctionExpression, fs-extra/lib/remove/rimraf.js_function_{"line":175,"column":19}
+FunctionDeclaration, fs-extra/lib/remove/rimraf.js_function_{"line":167,"column":0}
+ArrowFunctionExpression, fs-extra/lib/remove/rimraf.js_function_{"line":200,"column":39}
+ArrowFunctionExpression, fs-extra/lib/remove/rimraf.js_function_{"line":199,"column":18}
+ArrowFunctionExpression, fs-extra/lib/remove/rimraf.js_function_{"line":191,"column":21}
+FunctionDeclaration, fs-extra/lib/remove/rimraf.js_function_{"line":186,"column":0}
+FunctionDeclaration, fs-extra/lib/remove/rimraf.js_function_{"line":216,"column":0}
+FunctionDeclaration, fs-extra/lib/remove/rimraf.js_function_{"line":259,"column":0}
+ArrowFunctionExpression, fs-extra/lib/remove/rimraf.js_function_{"line":279,"column":33}
+FunctionDeclaration, fs-extra/lib/remove/rimraf.js_function_{"line":276,"column":0}
+ArrowFunctionExpression, fs-extra/lib/util/stat.js_function_{"line":9,"column":13}
+ArrowFunctionExpression, fs-extra/lib/util/stat.js_function_{"line":10,"column":17}
+ArrowFunctionExpression, fs-extra/lib/util/stat.js_function_{"line":15,"column":21}
+ArrowFunctionExpression, fs-extra/lib/util/stat.js_function_{"line":19,"column":10}
+FunctionDeclaration, fs-extra/lib/util/stat.js_function_{"line":12,"column":0}
+FunctionDeclaration, fs-extra/lib/util/stat.js_function_{"line":22,"column":0}
+ArrowFunctionExpression, fs-extra/lib/util/stat.js_function_{"line":35,"column":40}
+FunctionDeclaration, fs-extra/lib/util/stat.js_function_{"line":34,"column":0}
+FunctionDeclaration, fs-extra/lib/util/stat.js_function_{"line":48,"column":0}
+ArrowFunctionExpression, fs-extra/lib/util/stat.js_function_{"line":67,"column":19}
+FunctionDeclaration, fs-extra/lib/util/stat.js_function_{"line":63,"column":0}
+FunctionDeclaration, fs-extra/lib/util/stat.js_function_{"line":81,"column":0}
+FunctionDeclaration, fs-extra/lib/util/stat.js_function_{"line":98,"column":0}
+ArrowFunctionExpression, fs-extra/lib/util/stat.js_function_{"line":124,"column":58}
+ArrowFunctionExpression, fs-extra/lib/util/stat.js_function_{"line":125,"column":60}
+ArrowFunctionExpression, fs-extra/lib/util/stat.js_function_{"line":126,"column":23}
+FunctionDeclaration, fs-extra/lib/util/stat.js_function_{"line":123,"column":0}
+FunctionDeclaration, fs-extra/lib/util/stat.js_function_{"line":129,"column":0}
+ArrowFunctionExpression, fs-extra/lib/util/utimes.js_function_{"line":10,"column":19}
+ArrowFunctionExpression, fs-extra/lib/util/utimes.js_function_{"line":9,"column":33}
+ArrowFunctionExpression, fs-extra/lib/util/utimes.js_function_{"line":7,"column":22}
+FunctionDeclaration, fs-extra/lib/util/utimes.js_function_{"line":5,"column":0}
+FunctionDeclaration, fs-extra/lib/util/utimes.js_function_{"line":17,"column":0}
+ArrowFunctionExpression, get-stream/buffer-stream.js_function_{"line":31,"column":19}
+ArrowFunctionExpression, get-stream/buffer-stream.js_function_{"line":41,"column":27}
+ArrowFunctionExpression, get-stream/buffer-stream.js_function_{"line":49,"column":28}
+ArrowFunctionExpression, get-stream/buffer-stream.js_function_{"line":4,"column":17}
+FunctionExpression, get-stream/index.js_function_{"line":10,"column":12}
+ArrowFunctionExpression, get-stream/index.js_function_{"line":30,"column":24}
+ArrowFunctionExpression, get-stream/index.js_function_{"line":39,"column":3}
+ArrowFunctionExpression, get-stream/index.js_function_{"line":48,"column":20}
+ArrowFunctionExpression, get-stream/index.js_function_{"line":29,"column":19}
+FunctionDeclaration, get-stream/index.js_function_{"line":16,"column":0}
+ArrowFunctionExpression, get-stream/index.js_function_{"line":59,"column":24}
+ArrowFunctionExpression, get-stream/index.js_function_{"line":60,"column":23}
+FunctionExpression, glob-parent/index.js_function_{"line":19,"column":17}
+ArrowFunctionExpression, globby/gitignore.js_function_{"line":18,"column":38}
+ArrowFunctionExpression, globby/gitignore.js_function_{"line":18,"column":30}
+ArrowFunctionExpression, globby/gitignore.js_function_{"line":32,"column":10}
+ArrowFunctionExpression, globby/gitignore.js_function_{"line":26,"column":23}
+ArrowFunctionExpression, globby/gitignore.js_function_{"line":36,"column":21}
+ArrowFunctionExpression, globby/gitignore.js_function_{"line":48,"column":33}
+ArrowFunctionExpression, globby/gitignore.js_function_{"line":62,"column":8}
+ArrowFunctionExpression, globby/gitignore.js_function_{"line":61,"column":30}
+ArrowFunctionExpression, globby/gitignore.js_function_{"line":65,"column":16}
+ArrowFunctionExpression, globby/gitignore.js_function_{"line":76,"column":20}
+ArrowFunctionExpression, globby/gitignore.js_function_{"line":87,"column":25}
+ArrowFunctionExpression, globby/gitignore.js_function_{"line":102,"column":43}
+ArrowFunctionExpression, globby/gitignore.js_function_{"line":94,"column":17}
+ArrowFunctionExpression, globby/gitignore.js_function_{"line":116,"column":25}
+ArrowFunctionExpression, globby/gitignore.js_function_{"line":108,"column":22}
+ArrowFunctionExpression, globby/index.js_function_{"line":10,"column":23}
+ArrowFunctionExpression, globby/index.js_function_{"line":12,"column":19}
+ArrowFunctionExpression, globby/index.js_function_{"line":15,"column":21}
+ArrowFunctionExpression, globby/index.js_function_{"line":14,"column":28}
+ArrowFunctionExpression, globby/index.js_function_{"line":20,"column":23}
+ArrowFunctionExpression, globby/index.js_function_{"line":37,"column":22}
+ArrowFunctionExpression, globby/index.js_function_{"line":59,"column":11}
+ArrowFunctionExpression, globby/index.js_function_{"line":60,"column":8}
+ArrowFunctionExpression, globby/index.js_function_{"line":39,"column":26}
+ArrowFunctionExpression, globby/index.js_function_{"line":73,"column":17}
+ArrowFunctionExpression, globby/index.js_function_{"line":94,"column":19}
+ArrowFunctionExpression, globby/index.js_function_{"line":96,"column":22}
+ArrowFunctionExpression, globby/index.js_function_{"line":102,"column":27}
+ArrowFunctionExpression, globby/index.js_function_{"line":102,"column":19}
+ArrowFunctionExpression, globby/index.js_function_{"line":117,"column":19}
+ArrowFunctionExpression, globby/index.js_function_{"line":124,"column":48}
+ArrowFunctionExpression, globby/index.js_function_{"line":123,"column":18}
+ArrowFunctionExpression, globby/index.js_function_{"line":133,"column":43}
+ArrowFunctionExpression, globby/index.js_function_{"line":135,"column":36}
+ArrowFunctionExpression, globby/index.js_function_{"line":114,"column":17}
+ArrowFunctionExpression, globby/index.js_function_{"line":154,"column":23}
+ArrowFunctionExpression, globby/index.js_function_{"line":138,"column":22}
+ArrowFunctionExpression, globby/index.js_function_{"line":167,"column":39}
+ArrowFunctionExpression, globby/index.js_function_{"line":170,"column":25}
+ArrowFunctionExpression, globby/index.js_function_{"line":157,"column":24}
+ArrowFunctionExpression, globby/index.js_function_{"line":179,"column":7}
+ArrowFunctionExpression, globby/index.js_function_{"line":177,"column":26}
+FunctionDeclaration, globby/node_modules/ignore/index.js_function_{"line":2,"column":0}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":28,"column":15}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":33,"column":21}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":39,"column":2}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":37,"column":22}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":47,"column":28}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":71,"column":4}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":79,"column":4}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":101,"column":4}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":107,"column":4}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":117,"column":4}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":123,"column":4}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":136,"column":4}
+FunctionExpression, globby/node_modules/ignore/index.js_function_{"line":145,"column":4}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":177,"column":4}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":204,"column":4}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":212,"column":4}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":218,"column":4}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":227,"column":4}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":260,"column":4}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":270,"column":4}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":298,"column":6}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":293,"column":18}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":309,"column":17}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":312,"column":21}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":319,"column":21}
+FunctionExpression, globby/node_modules/ignore/index.js_function_{"line":322,"column":14}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":335,"column":19}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":363,"column":19}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":367,"column":18}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":392,"column":22}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":395,"column":20}
+FunctionExpression, globby/node_modules/ignore/index.js_function_{"line":398,"column":14}
+FunctionExpression, globby/node_modules/ignore/index.js_function_{"line":411,"column":13}
+FunctionExpression, globby/node_modules/ignore/index.js_function_{"line":416,"column":14}
+FunctionExpression, globby/node_modules/ignore/index.js_function_{"line":432,"column":6}
+FunctionExpression, globby/node_modules/ignore/index.js_function_{"line":451,"column":13}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":475,"column":24}
+FunctionExpression, globby/node_modules/ignore/index.js_function_{"line":471,"column":11}
+FunctionExpression, globby/node_modules/ignore/index.js_function_{"line":499,"column":8}
+FunctionExpression, globby/node_modules/ignore/index.js_function_{"line":515,"column":5}
+FunctionExpression, globby/node_modules/ignore/index.js_function_{"line":548,"column":10}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":553,"column":11}
+FunctionExpression, globby/node_modules/ignore/index.js_function_{"line":552,"column":15}
+FunctionExpression, globby/node_modules/ignore/index.js_function_{"line":556,"column":9}
+FunctionExpression, globby/node_modules/ignore/index.js_function_{"line":561,"column":7}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":566,"column":16}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":568,"column":20}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":590,"column":20}
+ArrowFunctionExpression, globby/node_modules/ignore/index.js_function_{"line":600,"column":28}
+FunctionDeclaration, globby/node_modules/ignore/legacy.js_function_{"line":3,"column":0}
+FunctionDeclaration, globby/node_modules/ignore/legacy.js_function_{"line":5,"column":0}
+FunctionDeclaration, globby/node_modules/ignore/legacy.js_function_{"line":7,"column":0}
+FunctionDeclaration, globby/node_modules/ignore/legacy.js_function_{"line":10,"column":0}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":32,"column":13}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":40,"column":19}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":47,"column":43}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":46,"column":20}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":55,"column":26}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":74,"column":11}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":77,"column":10}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":95,"column":19}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":98,"column":13}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":104,"column":7}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":107,"column":8}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":116,"column":0}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":122,"column":13}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":143,"column":0}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":160,"column":0}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":165,"column":26}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":168,"column":9}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":173,"column":33}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":194,"column":0}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":199,"column":20}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":217,"column":30}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":213,"column":16}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":226,"column":15}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":231,"column":19}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":236,"column":19}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":240,"column":17}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":249,"column":17}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":267,"column":17}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":271,"column":16}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":290,"column":20}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":296,"column":20}
+FunctionDeclaration, globby/node_modules/ignore/legacy.js_function_{"line":301,"column":2}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":322,"column":11}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":328,"column":11}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":346,"column":11}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":360,"column":11}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":382,"column":26}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":378,"column":11}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":405,"column":11}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":413,"column":11}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":439,"column":11}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":447,"column":13}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":444,"column":11}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":453,"column":11}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":459,"column":11}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":300,"column":26}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":467,"column":14}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":471,"column":18}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":486,"column":18}
+FunctionExpression, globby/node_modules/ignore/legacy.js_function_{"line":495,"column":28}
+FunctionExpression, globby/stream-utils.js_function_{"line":5,"column":12}
+FunctionExpression, globby/stream-utils.js_function_{"line":13,"column":12}
+FunctionExpression, globby/stream-utils.js_function_{"line":18,"column":11}
+FunctionExpression, globby/stream-utils.js_function_{"line":28,"column":12}
+FunctionExpression, globby/stream-utils.js_function_{"line":33,"column":11}
+FunctionExpression, graceful-fs/clone.js_function_{"line":5,"column":46}
+FunctionExpression, graceful-fs/clone.js_function_{"line":18,"column":42}
+FunctionDeclaration, graceful-fs/clone.js_function_{"line":9,"column":0}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":22,"column":0}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":26,"column":9}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":24,"column":0}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":36,"column":10}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":54,"column":35}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":53,"column":4}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":52,"column":14}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":72,"column":4}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":71,"column":18}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":85,"column":23}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":118,"column":40}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":117,"column":4}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":111,"column":2}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":138,"column":47}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":137,"column":4}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":131,"column":2}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":159,"column":48}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":158,"column":4}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":152,"column":2}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":181,"column":43}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":180,"column":4}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":173,"column":2}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":200,"column":8}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":205,"column":8}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":214,"column":13}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":213,"column":4}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":195,"column":2}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":253,"column":9}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":256,"column":9}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":263,"column":9}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":266,"column":9}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":276,"column":9}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":279,"column":9}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":287,"column":9}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":290,"column":9}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":297,"column":2}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":306,"column":43}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":304,"column":2}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":320,"column":2}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":329,"column":43}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":327,"column":2}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":340,"column":2}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":344,"column":2}
+FunctionExpression, graceful-fs/graceful-fs.js_function_{"line":357,"column":40}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":356,"column":4}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":350,"column":2}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":102,"column":0}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":371,"column":0}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":383,"column":0}
+FunctionDeclaration, graceful-fs/graceful-fs.js_function_{"line":397,"column":0}
+FunctionExpression, graceful-fs/legacy-streams.js_function_{"line":56,"column":23}
+FunctionExpression, graceful-fs/legacy-streams.js_function_{"line":62,"column":46}
+FunctionDeclaration, graceful-fs/legacy-streams.js_function_{"line":11,"column":2}
+FunctionDeclaration, graceful-fs/legacy-streams.js_function_{"line":75,"column":2}
+FunctionDeclaration, graceful-fs/legacy-streams.js_function_{"line":5,"column":0}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":8,"column":14}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":20,"column":18}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":75,"column":16}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":78,"column":20}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":81,"column":16}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":84,"column":20}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":107,"column":26}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":106,"column":23}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":102,"column":28}
+FunctionDeclaration, graceful-fs/polyfills.js_function_{"line":99,"column":6}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":98,"column":7}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":133,"column":19}
+FunctionDeclaration, graceful-fs/polyfills.js_function_{"line":129,"column":4}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":128,"column":5}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":150,"column":37}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":150,"column":5}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":178,"column":23}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":177,"column":28}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":170,"column":15}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":166,"column":16}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":185,"column":20}
+FunctionDeclaration, graceful-fs/polyfills.js_function_{"line":165,"column":2}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":217,"column":25}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":216,"column":33}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":211,"column":43}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":210,"column":19}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":224,"column":23}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":244,"column":19}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":245,"column":23}
+FunctionDeclaration, graceful-fs/polyfills.js_function_{"line":208,"column":2}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":252,"column":41}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":251,"column":11}
+FunctionDeclaration, graceful-fs/polyfills.js_function_{"line":249,"column":2}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":261,"column":11}
+FunctionDeclaration, graceful-fs/polyfills.js_function_{"line":259,"column":2}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":274,"column":45}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":273,"column":11}
+FunctionDeclaration, graceful-fs/polyfills.js_function_{"line":271,"column":2}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":283,"column":11}
+FunctionDeclaration, graceful-fs/polyfills.js_function_{"line":281,"column":2}
+FunctionDeclaration, graceful-fs/polyfills.js_function_{"line":301,"column":6}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":296,"column":11}
+FunctionDeclaration, graceful-fs/polyfills.js_function_{"line":292,"column":2}
+FunctionExpression, graceful-fs/polyfills.js_function_{"line":317,"column":11}
+FunctionDeclaration, graceful-fs/polyfills.js_function_{"line":313,"column":2}
+FunctionDeclaration, graceful-fs/polyfills.js_function_{"line":340,"column":2}
+FunctionDeclaration, graceful-fs/polyfills.js_function_{"line":29,"column":0}
+FunctionExpression, human-signals/build/src/main.js_function_{"line":8,"column":23}
+FunctionExpression, human-signals/build/src/main.js_function_{"line":13,"column":22}
+ArrowFunctionExpression, human-signals/build/src/main.js_function_{"line":31,"column":35}
+FunctionExpression, human-signals/build/src/main.js_function_{"line":28,"column":25}
+FunctionExpression, human-signals/build/src/main.js_function_{"line":37,"column":24}
+ArrowFunctionExpression, human-signals/build/src/main.js_function_{"line":61,"column":26}
+ArrowFunctionExpression, human-signals/build/src/main.js_function_{"line":67,"column":20}
+FunctionExpression, human-signals/build/src/main.js_function_{"line":60,"column":25}
+FunctionExpression, human-signals/build/src/realtime.js_function_{"line":2,"column":25}
+FunctionExpression, human-signals/build/src/realtime.js_function_{"line":7,"column":24}
+FunctionExpression, human-signals/build/src/signals.js_function_{"line":8,"column":17}
+FunctionExpression, human-signals/build/src/signals.js_function_{"line":20,"column":22}
+FunctionExpression, is-extglob/index.js_function_{"line":8,"column":17}
+FunctionExpression, is-glob/index.js_function_{"line":10,"column":18}
+FunctionExpression, is-glob/index.js_function_{"line":101,"column":19}
+FunctionExpression, is-glob/index.js_function_{"line":133,"column":17}
+FunctionExpression, is-number/index.js_function_{"line":10,"column":17}
+ArrowFunctionExpression, is-stream/index.js_function_{"line":3,"column":17}
+ArrowFunctionExpression, is-stream/index.js_function_{"line":8,"column":20}
+ArrowFunctionExpression, is-stream/index.js_function_{"line":14,"column":20}
+ArrowFunctionExpression, is-stream/index.js_function_{"line":20,"column":18}
+ArrowFunctionExpression, is-stream/index.js_function_{"line":24,"column":21}
+FunctionExpression, isexe/index.js_function_{"line":24,"column":33}
+FunctionExpression, isexe/index.js_function_{"line":23,"column":23}
+FunctionExpression, isexe/index.js_function_{"line":34,"column":28}
+FunctionDeclaration, isexe/index.js_function_{"line":12,"column":0}
+FunctionDeclaration, isexe/index.js_function_{"line":46,"column":0}
+FunctionExpression, isexe/mode.js_function_{"line":7,"column":16}
+FunctionDeclaration, isexe/mode.js_function_{"line":6,"column":0}
+FunctionDeclaration, isexe/mode.js_function_{"line":12,"column":0}
+FunctionDeclaration, isexe/mode.js_function_{"line":16,"column":0}
+FunctionDeclaration, isexe/mode.js_function_{"line":20,"column":0}
+FunctionDeclaration, isexe/test/basic.js_function_{"line":20,"column":0}
+FunctionExpression, isexe/test/basic.js_function_{"line":25,"column":25}
+FunctionExpression, isexe/test/basic.js_function_{"line":42,"column":21}
+FunctionExpression, isexe/test/basic.js_function_{"line":41,"column":23}
+FunctionExpression, isexe/test/basic.js_function_{"line":48,"column":21}
+FunctionExpression, isexe/test/basic.js_function_{"line":47,"column":23}
+FunctionExpression, isexe/test/basic.js_function_{"line":54,"column":23}
+FunctionExpression, isexe/test/basic.js_function_{"line":53,"column":24}
+FunctionExpression, isexe/test/basic.js_function_{"line":60,"column":46}
+FunctionExpression, isexe/test/basic.js_function_{"line":59,"column":31}
+FunctionExpression, isexe/test/basic.js_function_{"line":39,"column":41}
+FunctionExpression, isexe/test/basic.js_function_{"line":71,"column":36}
+FunctionExpression, isexe/test/basic.js_function_{"line":68,"column":21}
+FunctionExpression, isexe/test/basic.js_function_{"line":77,"column":50}
+FunctionExpression, isexe/test/basic.js_function_{"line":81,"column":34}
+FunctionExpression, isexe/test/basic.js_function_{"line":93,"column":27}
+FunctionExpression, isexe/test/basic.js_function_{"line":96,"column":24}
+FunctionExpression, isexe/test/basic.js_function_{"line":100,"column":23}
+FunctionExpression, isexe/test/basic.js_function_{"line":105,"column":37}
+FunctionExpression, isexe/test/basic.js_function_{"line":90,"column":18}
+FunctionExpression, isexe/test/basic.js_function_{"line":113,"column":18}
+FunctionExpression, isexe/test/basic.js_function_{"line":136,"column":11}
+FunctionExpression, isexe/test/basic.js_function_{"line":142,"column":18}
+FunctionExpression, isexe/test/basic.js_function_{"line":150,"column":27}
+FunctionExpression, isexe/test/basic.js_function_{"line":140,"column":23}
+FunctionExpression, isexe/test/basic.js_function_{"line":161,"column":25}
+FunctionExpression, isexe/test/basic.js_function_{"line":160,"column":23}
+FunctionExpression, isexe/test/basic.js_function_{"line":171,"column":25}
+FunctionExpression, isexe/test/basic.js_function_{"line":170,"column":23}
+FunctionExpression, isexe/test/basic.js_function_{"line":182,"column":27}
+FunctionExpression, isexe/test/basic.js_function_{"line":181,"column":25}
+FunctionExpression, isexe/test/basic.js_function_{"line":193,"column":26}
+FunctionExpression, isexe/test/basic.js_function_{"line":192,"column":24}
+FunctionExpression, isexe/test/basic.js_function_{"line":201,"column":32}
+FunctionExpression, isexe/test/basic.js_function_{"line":200,"column":31}
+FunctionExpression, isexe/test/basic.js_function_{"line":211,"column":30}
+FunctionExpression, isexe/test/basic.js_function_{"line":210,"column":40}
+FunctionDeclaration, isexe/test/basic.js_function_{"line":118,"column":0}
+FunctionDeclaration, isexe/windows.js_function_{"line":6,"column":0}
+FunctionDeclaration, isexe/windows.js_function_{"line":27,"column":0}
+FunctionExpression, isexe/windows.js_function_{"line":35,"column":16}
+FunctionDeclaration, isexe/windows.js_function_{"line":34,"column":0}
+FunctionDeclaration, isexe/windows.js_function_{"line":40,"column":0}
+FunctionDeclaration, jsonfile/index.js_function_{"line":10,"column":0}
+FunctionDeclaration, jsonfile/index.js_function_{"line":40,"column":0}
+FunctionDeclaration, jsonfile/index.js_function_{"line":63,"column":0}
+FunctionDeclaration, jsonfile/index.js_function_{"line":73,"column":0}
+FunctionDeclaration, jsonfile/utils.js_function_{"line":1,"column":0}
+FunctionDeclaration, jsonfile/utils.js_function_{"line":8,"column":0}
+FunctionDeclaration, merge-stream/index.js_function_{"line":20,"column":2}
+FunctionDeclaration, merge-stream/index.js_function_{"line":33,"column":2}
+FunctionExpression, merge-stream/index.js_function_{"line":38,"column":29}
+FunctionDeclaration, merge-stream/index.js_function_{"line":37,"column":2}
+FunctionExpression, merge-stream/index.js_function_{"line":5,"column":17}
+FunctionDeclaration, merge2/index.js_function_{"line":37,"column":2}
+FunctionDeclaration, merge2/index.js_function_{"line":62,"column":4}
+FunctionDeclaration, merge2/index.js_function_{"line":71,"column":6}
+FunctionDeclaration, merge2/index.js_function_{"line":79,"column":6}
+FunctionDeclaration, merge2/index.js_function_{"line":70,"column":4}
+FunctionDeclaration, merge2/index.js_function_{"line":45,"column":2}
+FunctionDeclaration, merge2/index.js_function_{"line":106,"column":2}
+FunctionExpression, merge2/index.js_function_{"line":117,"column":28}
+FunctionDeclaration, merge2/index.js_function_{"line":15,"column":0}
+FunctionDeclaration, merge2/index.js_function_{"line":128,"column":0}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":7,"column":22}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":36,"column":17}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":64,"column":30}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":72,"column":45}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":27,"column":19}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":104,"column":21}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":123,"column":21}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":153,"column":17}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":148,"column":17}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":194,"column":24}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":188,"column":22}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":230,"column":23}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":264,"column":19}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":259,"column":18}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":300,"column":21}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":295,"column":19}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":339,"column":35}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":334,"column":17}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":367,"column":30}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":361,"column":21}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":387,"column":20}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":403,"column":18}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":419,"column":19}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":446,"column":20}
+ArrowFunctionExpression, micromatch/index.js_function_{"line":458,"column":25}
+ArrowFunctionExpression, mimic-fn/index.js_function_{"line":3,"column":16}
+ArrowFunctionExpression, npm-run-path/index.js_function_{"line":5,"column":19}
+ArrowFunctionExpression, npm-run-path/index.js_function_{"line":34,"column":21}
+FunctionExpression, onetime/index.js_function_{"line":15,"column":17}
+ArrowFunctionExpression, onetime/index.js_function_{"line":6,"column":16}
+ArrowFunctionExpression, onetime/index.js_function_{"line":38,"column":27}
+ArrowFunctionExpression, path-key/index.js_function_{"line":11,"column":48}
+ArrowFunctionExpression, path-key/index.js_function_{"line":3,"column":16}
+FunctionDeclaration, path-type/index.js_function_{"line":5,"column":0}
+FunctionDeclaration, path-type/index.js_function_{"line":22,"column":0}
+FunctionExpression, picomatch/lib/constants.js_function_{"line":162,"column":14}
+FunctionExpression, picomatch/lib/constants.js_function_{"line":176,"column":11}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":34,"column":20}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":22,"column":20}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":44,"column":20}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":95,"column":19}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":143,"column":14}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":144,"column":28}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":145,"column":34}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":146,"column":20}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":147,"column":18}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":152,"column":17}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":157,"column":17}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":175,"column":20}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":180,"column":20}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":193,"column":15}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":223,"column":22}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":237,"column":23}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":279,"column":60}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":312,"column":40}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":55,"column":14}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":1038,"column":19}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":1043,"column":17}
+ArrowFunctionExpression, picomatch/lib/parse.js_function_{"line":1004,"column":18}
+ArrowFunctionExpression, picomatch/lib/picomatch.js_function_{"line":8,"column":17}
+ArrowFunctionExpression, picomatch/lib/picomatch.js_function_{"line":34,"column":25}
+ArrowFunctionExpression, picomatch/lib/picomatch.js_function_{"line":35,"column":25}
+ArrowFunctionExpression, picomatch/lib/picomatch.js_function_{"line":60,"column":18}
+ArrowFunctionExpression, picomatch/lib/picomatch.js_function_{"line":66,"column":18}
+ArrowFunctionExpression, picomatch/lib/picomatch.js_function_{"line":32,"column":18}
+ArrowFunctionExpression, picomatch/lib/picomatch.js_function_{"line":117,"column":17}
+ArrowFunctionExpression, picomatch/lib/picomatch.js_function_{"line":161,"column":22}
+ArrowFunctionExpression, picomatch/lib/picomatch.js_function_{"line":183,"column":20}
+ArrowFunctionExpression, picomatch/lib/picomatch.js_function_{"line":200,"column":49}
+ArrowFunctionExpression, picomatch/lib/picomatch.js_function_{"line":199,"column":18}
+ArrowFunctionExpression, picomatch/lib/picomatch.js_function_{"line":231,"column":17}
+ArrowFunctionExpression, picomatch/lib/picomatch.js_function_{"line":245,"column":22}
+ArrowFunctionExpression, picomatch/lib/picomatch.js_function_{"line":286,"column":19}
+ArrowFunctionExpression, picomatch/lib/picomatch.js_function_{"line":321,"column":20}
+ArrowFunctionExpression, picomatch/lib/scan.js_function_{"line":22,"column":24}
+ArrowFunctionExpression, picomatch/lib/scan.js_function_{"line":26,"column":14}
+ArrowFunctionExpression, picomatch/lib/scan.js_function_{"line":77,"column":14}
+ArrowFunctionExpression, picomatch/lib/scan.js_function_{"line":78,"column":15}
+ArrowFunctionExpression, picomatch/lib/scan.js_function_{"line":79,"column":18}
+ArrowFunctionExpression, picomatch/lib/scan.js_function_{"line":49,"column":13}
+ArrowFunctionExpression, picomatch/lib/utils.js_function_{"line":12,"column":19}
+ArrowFunctionExpression, picomatch/lib/utils.js_function_{"line":13,"column":24}
+ArrowFunctionExpression, picomatch/lib/utils.js_function_{"line":14,"column":22}
+ArrowFunctionExpression, picomatch/lib/utils.js_function_{"line":15,"column":22}
+ArrowFunctionExpression, picomatch/lib/utils.js_function_{"line":16,"column":25}
+ArrowFunctionExpression, picomatch/lib/utils.js_function_{"line":19,"column":45}
+ArrowFunctionExpression, picomatch/lib/utils.js_function_{"line":18,"column":28}
+ArrowFunctionExpression, picomatch/lib/utils.js_function_{"line":24,"column":30}
+ArrowFunctionExpression, picomatch/lib/utils.js_function_{"line":32,"column":20}
+ArrowFunctionExpression, picomatch/lib/utils.js_function_{"line":39,"column":21}
+ArrowFunctionExpression, picomatch/lib/utils.js_function_{"line":46,"column":23}
+ArrowFunctionExpression, picomatch/lib/utils.js_function_{"line":55,"column":21}
+ArrowFunctionExpression, queue-microtask/index.js_function_{"line":9,"column":29}
+ArrowFunctionExpression, queue-microtask/index.js_function_{"line":9,"column":11}
+ArrowFunctionExpression, queue-microtask/index.js_function_{"line":7,"column":4}
+FunctionExpression, reusify/benchmarks/createNoCodeFunction.js_function_{"line":14,"column":4}
+FunctionDeclaration, reusify/benchmarks/createNoCodeFunction.js_function_{"line":10,"column":0}
+FunctionDeclaration, reusify/benchmarks/fib.js_function_{"line":3,"column":0}
+FunctionDeclaration, reusify/benchmarks/reuseNoCodeFunction.js_function_{"line":9,"column":0}
+FunctionExpression, reusify/benchmarks/reuseNoCodeFunction.js_function_{"line":21,"column":14}
+FunctionDeclaration, reusify/benchmarks/reuseNoCodeFunction.js_function_{"line":17,"column":0}
+FunctionDeclaration, reusify/reusify.js_function_{"line":7,"column":2}
+FunctionDeclaration, reusify/reusify.js_function_{"line":22,"column":2}
+FunctionDeclaration, reusify/reusify.js_function_{"line":3,"column":0}
+FunctionDeclaration, reusify/test.js_function_{"line":9,"column":2}
+FunctionExpression, reusify/test.js_function_{"line":6,"column":22}
+FunctionDeclaration, reusify/test.js_function_{"line":33,"column":2}
+FunctionExpression, reusify/test.js_function_{"line":32,"column":34}
+FunctionDeclaration, run-parallel/index.js_function_{"line":20,"column":4}
+FunctionDeclaration, run-parallel/index.js_function_{"line":19,"column":2}
+FunctionDeclaration, run-parallel/index.js_function_{"line":28,"column":2}
+FunctionExpression, run-parallel/index.js_function_{"line":41,"column":17}
+FunctionExpression, run-parallel/index.js_function_{"line":40,"column":17}
+FunctionExpression, run-parallel/index.js_function_{"line":46,"column":11}
+FunctionExpression, run-parallel/index.js_function_{"line":45,"column":18}
+FunctionDeclaration, run-parallel/index.js_function_{"line":6,"column":0}
+ArrowFunctionExpression, shebang-command/index.js_function_{"line":4,"column":17}
+FunctionExpression, signal-exit/index.js_function_{"line":7,"column":18}
+FunctionExpression, signal-exit/index.js_function_{"line":23,"column":11}
+FunctionExpression, signal-exit/index.js_function_{"line":22,"column":19}
+FunctionExpression, signal-exit/index.js_function_{"line":57,"column":13}
+FunctionExpression, signal-exit/index.js_function_{"line":70,"column":17}
+FunctionExpression, signal-exit/index.js_function_{"line":54,"column":19}
+FunctionExpression, signal-exit/index.js_function_{"line":88,"column":20}
+FunctionExpression, signal-exit/index.js_function_{"line":82,"column":15}
+FunctionExpression, signal-exit/index.js_function_{"line":99,"column":13}
+FunctionExpression, signal-exit/index.js_function_{"line":111,"column":24}
+FunctionExpression, signal-exit/index.js_function_{"line":110,"column":18}
+FunctionExpression, signal-exit/index.js_function_{"line":138,"column":27}
+FunctionExpression, signal-exit/index.js_function_{"line":156,"column":29}
+FunctionExpression, signal-exit/index.js_function_{"line":144,"column":13}
+FunctionExpression, signal-exit/index.js_function_{"line":171,"column":26}
+FunctionExpression, signal-exit/index.js_function_{"line":185,"column":20}
+ArrowFunctionExpression, slash/index.js_function_{"line":2,"column":17}
+ArrowFunctionExpression, strip-final-newline/index.js_function_{"line":3,"column":17}
+ArrowFunctionExpression, to-regex-range/index.js_function_{"line":12,"column":21}
+FunctionDeclaration, to-regex-range/index.js_function_{"line":88,"column":0}
+FunctionDeclaration, to-regex-range/index.js_function_{"line":96,"column":0}
+FunctionDeclaration, to-regex-range/index.js_function_{"line":129,"column":0}
+FunctionDeclaration, to-regex-range/index.js_function_{"line":160,"column":0}
+FunctionDeclaration, to-regex-range/index.js_function_{"line":195,"column":0}
+FunctionDeclaration, to-regex-range/index.js_function_{"line":218,"column":0}
+FunctionDeclaration, to-regex-range/index.js_function_{"line":224,"column":0}
+ArrowFunctionExpression, to-regex-range/index.js_function_{"line":229,"column":18}
+FunctionDeclaration, to-regex-range/index.js_function_{"line":228,"column":0}
+FunctionDeclaration, to-regex-range/index.js_function_{"line":232,"column":0}
+FunctionDeclaration, to-regex-range/index.js_function_{"line":236,"column":0}
+FunctionDeclaration, to-regex-range/index.js_function_{"line":240,"column":0}
+FunctionDeclaration, to-regex-range/index.js_function_{"line":248,"column":0}
+FunctionDeclaration, to-regex-range/index.js_function_{"line":252,"column":0}
+FunctionDeclaration, to-regex-range/index.js_function_{"line":256,"column":0}
+ArrowFunctionExpression, to-regex-range/index.js_function_{"line":282,"column":26}
+ArrowFunctionExpression, universalify/index.js_function_{"line":11,"column":10}
+ArrowFunctionExpression, universalify/index.js_function_{"line":7,"column":25}
+FunctionExpression, universalify/index.js_function_{"line":4,"column":31}
+FunctionExpression, universalify/index.js_function_{"line":3,"column":23}
+ArrowFunctionExpression, universalify/index.js_function_{"line":22,"column":48}
+FunctionExpression, universalify/index.js_function_{"line":19,"column":31}
+FunctionExpression, universalify/index.js_function_{"line":18,"column":22}
+ArrowFunctionExpression, which/which.js_function_{"line":9,"column":25}
+ArrowFunctionExpression, which/which.js_function_{"line":12,"column":20}
+ArrowFunctionExpression, which/which.js_function_{"line":54,"column":32}
+ArrowFunctionExpression, which/which.js_function_{"line":54,"column":15}
+ArrowFunctionExpression, which/which.js_function_{"line":73,"column":44}
+ArrowFunctionExpression, which/which.js_function_{"line":69,"column":44}
+ArrowFunctionExpression, which/which.js_function_{"line":69,"column":18}
+ArrowFunctionExpression, which/which.js_function_{"line":84,"column":27}
+ArrowFunctionExpression, which/which.js_function_{"line":43,"column":14}
+ArrowFunctionExpression, which/which.js_function_{"line":87,"column":18}

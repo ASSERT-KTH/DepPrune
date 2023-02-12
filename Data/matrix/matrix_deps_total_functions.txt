@@ -1,50 +1,70 @@
-compute-array-dtype/lib/index.js_function_17_0
-compute-dtype/lib/index.js_function_18_0
-compute-indexspace/lib/index.js_function_109_0
-dstructs-array-constructors/lib/index.js_function_17_0
-dstructs-array-dtype/lib/index.js_function_17_0
-dstructs-cast-arrays/lib/index.js_function_21_0
-object-keys/implementation.js_function_11_44
-object-keys/implementation.js_function_21_37
-object-keys/implementation.js_function_50_36
-object-keys/implementation.js_function_68_47
-object-keys/implementation.js_function_80_15
-object-keys/index.js_function_7_26
-object-keys/index.js_function_11_16
-object-keys/isArguments.js_function_5_17
-type-name/build/type-name.js_function_1_1
-type-name/build/type-name.js_function_1_324
-type-name/index.js_function_14_0
-type-name/index.js_function_18_0
-type-name/index.js_function_26_0
-type-name/test/test.js_function_1_0
-type-name/test/test.js_function_6_17
-type-name/test/test.js_function_20_31
-type-name/test/test.js_function_44_24
-type-name/test/test_without_constructor.js_function_11_24
-utils-copy/lib/deepcopy.js_function_29_0
-utils-copy/lib/deepcopy.js_function_80_0
-utils-copy/lib/index.js_function_21_0
-utils-copy/lib/typedarrays.js_function_25_1
-utils-copy/node_modules/type-name/build/type-name.js_function_14_1
-utils-copy/node_modules/type-name/build/type-name.js_function_14_324
-utils-copy/node_modules/type-name/index.js_function_14_0
-utils-copy/node_modules/type-name/index.js_function_22_0
-utils-copy/node_modules/type-name/index.js_function_30_0
-utils-copy-error/lib/copy.js_function_18_0
-utils-indexof/lib/index.js_function_20_0
-utils-regex-from-string/lib/index.js_function_18_0
-validate.io-array/lib/index.js_function_10_0
-validate.io-array-like/lib/index.js_function_22_0
-validate.io-buffer/lib/index.js_function_10_0
-validate.io-contains/lib/index.js_function_47_0
-validate.io-function/lib/index.js_function_38_0
-validate.io-integer/lib/index.js_function_45_0
-validate.io-integer-primitive/lib/index.js_function_17_0
-validate.io-nan/lib/index.js_function_38_0
-validate.io-nan-primitive/lib/index.js_function_38_0
-validate.io-nonnegative-integer/lib/index.js_function_45_0
-validate.io-nonnegative-integer-array/lib/index.js_function_46_0
-validate.io-number/lib/index.js_function_38_0
-validate.io-number-primitive/lib/index.js_function_38_0
-validate.io-string-primitive/lib/index.js_function_9_0
+FunctionDeclaration, compute-array-dtype/lib/index.js_function_{"line":17,"column":0}
+FunctionDeclaration, compute-dtype/lib/index.js_function_{"line":18,"column":0}
+FunctionDeclaration, compute-indexspace/lib/index.js_function_{"line":109,"column":0}
+FunctionDeclaration, dstructs-array-constructors/lib/index.js_function_{"line":17,"column":0}
+FunctionDeclaration, dstructs-array-dtype/lib/index.js_function_{"line":17,"column":0}
+FunctionDeclaration, dstructs-cast-arrays/lib/index.js_function_{"line":21,"column":0}
+FunctionExpression, object-keys/implementation.js_function_{"line":11,"column":41}
+FunctionExpression, object-keys/implementation.js_function_{"line":21,"column":34}
+FunctionExpression, object-keys/implementation.js_function_{"line":50,"column":33}
+FunctionExpression, object-keys/implementation.js_function_{"line":68,"column":44}
+FunctionExpression, object-keys/implementation.js_function_{"line":80,"column":12}
+FunctionExpression, object-keys/index.js_function_{"line":7,"column":26}
+FunctionExpression, object-keys/index.js_function_{"line":13,"column":32}
+FunctionExpression, object-keys/index.js_function_{"line":19,"column":17}
+FunctionExpression, object-keys/index.js_function_{"line":11,"column":16}
+FunctionExpression, object-keys/isArguments.js_function_{"line":5,"column":17}
+FunctionExpression, type-name/build/type-name.js_function_{"line":1,"column":1}
+FunctionExpression, type-name/build/type-name.js_function_{"line":1,"column":639}
+FunctionDeclaration, type-name/build/type-name.js_function_{"line":1,"column":387}
+FunctionExpression, type-name/build/type-name.js_function_{"line":1,"column":369}
+FunctionDeclaration, type-name/build/type-name.js_function_{"line":15,"column":0}
+FunctionDeclaration, type-name/build/type-name.js_function_{"line":19,"column":0}
+FunctionDeclaration, type-name/build/type-name.js_function_{"line":27,"column":0}
+FunctionExpression, type-name/build/type-name.js_function_{"line":1,"column":818}
+FunctionExpression, type-name/build/type-name.js_function_{"line":1,"column":324}
+FunctionDeclaration, type-name/index.js_function_{"line":14,"column":0}
+FunctionDeclaration, type-name/index.js_function_{"line":18,"column":0}
+FunctionDeclaration, type-name/index.js_function_{"line":26,"column":0}
+FunctionDeclaration, type-name/test/test.js_function_{"line":1,"column":0}
+FunctionExpression, type-name/test/test.js_function_{"line":6,"column":17}
+FunctionExpression, type-name/test/test.js_function_{"line":20,"column":31}
+FunctionExpression, type-name/test/test.js_function_{"line":80,"column":40}
+FunctionExpression, type-name/test/test.js_function_{"line":76,"column":9}
+FunctionExpression, type-name/test/test.js_function_{"line":44,"column":24}
+FunctionExpression, type-name/test/test_without_constructor.js_function_{"line":21,"column":40}
+FunctionExpression, type-name/test/test_without_constructor.js_function_{"line":17,"column":9}
+FunctionExpression, type-name/test/test_without_constructor.js_function_{"line":11,"column":24}
+FunctionDeclaration, utils-copy/lib/deepcopy.js_function_{"line":29,"column":0}
+FunctionDeclaration, utils-copy/lib/deepcopy.js_function_{"line":80,"column":0}
+FunctionDeclaration, utils-copy/lib/index.js_function_{"line":21,"column":0}
+FunctionExpression, utils-copy/lib/typedarrays.js_function_{"line":25,"column":1}
+FunctionExpression, utils-copy/node_modules/type-name/build/type-name.js_function_{"line":14,"column":1}
+FunctionExpression, utils-copy/node_modules/type-name/build/type-name.js_function_{"line":14,"column":639}
+FunctionDeclaration, utils-copy/node_modules/type-name/build/type-name.js_function_{"line":14,"column":387}
+FunctionExpression, utils-copy/node_modules/type-name/build/type-name.js_function_{"line":14,"column":369}
+FunctionDeclaration, utils-copy/node_modules/type-name/build/type-name.js_function_{"line":28,"column":0}
+FunctionDeclaration, utils-copy/node_modules/type-name/build/type-name.js_function_{"line":36,"column":0}
+FunctionDeclaration, utils-copy/node_modules/type-name/build/type-name.js_function_{"line":44,"column":0}
+FunctionExpression, utils-copy/node_modules/type-name/build/type-name.js_function_{"line":14,"column":818}
+FunctionExpression, utils-copy/node_modules/type-name/build/type-name.js_function_{"line":14,"column":324}
+FunctionDeclaration, utils-copy/node_modules/type-name/index.js_function_{"line":14,"column":0}
+FunctionDeclaration, utils-copy/node_modules/type-name/index.js_function_{"line":22,"column":0}
+FunctionDeclaration, utils-copy/node_modules/type-name/index.js_function_{"line":30,"column":0}
+FunctionDeclaration, utils-copy-error/lib/copy.js_function_{"line":18,"column":0}
+FunctionDeclaration, utils-indexof/lib/index.js_function_{"line":20,"column":0}
+FunctionDeclaration, utils-regex-from-string/lib/index.js_function_{"line":18,"column":0}
+FunctionDeclaration, validate.io-array/lib/index.js_function_{"line":10,"column":0}
+FunctionDeclaration, validate.io-array-like/lib/index.js_function_{"line":22,"column":0}
+FunctionDeclaration, validate.io-buffer/lib/index.js_function_{"line":10,"column":0}
+FunctionDeclaration, validate.io-contains/lib/index.js_function_{"line":47,"column":0}
+FunctionDeclaration, validate.io-function/lib/index.js_function_{"line":38,"column":0}
+FunctionDeclaration, validate.io-integer/lib/index.js_function_{"line":45,"column":0}
+FunctionDeclaration, validate.io-integer-primitive/lib/index.js_function_{"line":17,"column":0}
+FunctionDeclaration, validate.io-nan/lib/index.js_function_{"line":38,"column":0}
+FunctionDeclaration, validate.io-nan-primitive/lib/index.js_function_{"line":38,"column":0}
+FunctionDeclaration, validate.io-nonnegative-integer/lib/index.js_function_{"line":45,"column":0}
+FunctionDeclaration, validate.io-nonnegative-integer-array/lib/index.js_function_{"line":46,"column":0}
+FunctionDeclaration, validate.io-number/lib/index.js_function_{"line":38,"column":0}
+FunctionDeclaration, validate.io-number-primitive/lib/index.js_function_{"line":38,"column":0}
+FunctionDeclaration, validate.io-string-primitive/lib/index.js_function_{"line":9,"column":0}

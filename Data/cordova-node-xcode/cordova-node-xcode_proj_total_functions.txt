@@ -1,165 +1,281 @@
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_26_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_32_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_46_31
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_153_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_85_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_89_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_100_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_112_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_121_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_141_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_161_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_176_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_186_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_31_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_40_29
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_60_33
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_67_33
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_72_32
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_89_36
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_102_37
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_119_40
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_129_38
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_145_41
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_160_37
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_187_40
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_209_37
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_225_40
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_241_39
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_293_42
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_317_36
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_364_39
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_396_35
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_414_49
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_418_51
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_423_38
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_434_56
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_444_40
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_473_48
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_480_53
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_494_35
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_545_38
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_560_46
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_570_51
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_577_52
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_584_57
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_606_50
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_627_44
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_636_49
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_650_46
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_659_51
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_673_47
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_682_52
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_697_57
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_704_62
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_717_45
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_726_50
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_740_49
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_745_54
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_756_51
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_761_56
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_772_52
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_777_57
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_787_46
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_817_43
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_872_37
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_955_41
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_958_43
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_962_54
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_966_47
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_970_46
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_974_45
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_982_46
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_986_38
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1003_39
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1007_37
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1023_40
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1040_47
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1044_49
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1048_50
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1052_55
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1057_34
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1076_40
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1097_40
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1109_43
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1129_43
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1165_41
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1169_54
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1196_49
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1216_52
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1244_47
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1268_51
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1293_46
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1316_45
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1337_50
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1361_42
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1372_47
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1386_53
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1400_31
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1413_33
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1557_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1568_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1583_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1592_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1601_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1640_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1650_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1654_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1658_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1662_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1667_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1671_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1675_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1679_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1688_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1708_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1721_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1726_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1738_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1758_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1778_39
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1795_38
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1808_33
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1830_41
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1854_44
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1858_37
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1864_46
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1889_45
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1893_38
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1899_49
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1913_42
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1917_49
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1923_47
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1927_40
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1931_47
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1937_46
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1969_39
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1973_46
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1977_51
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_1994_38
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_2003_41
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_2016_38
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_2028_36
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_2034_31
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_2054_34
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_2071_40
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_2110_44
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_2124_44
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_2180_42
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_2192_45
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_27_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_34_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_44_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_48_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_52_0
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_68_28
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_78_33
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_88_32
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_98_39
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_104_35
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_149_34
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_180_43
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_198_33
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_226_42
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_234_35
-/data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_263_40
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":27,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":26,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":32,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":48,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":52,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":65,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":69,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":73,"column":15}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":78,"column":2}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":90,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":91,"column":40}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":82,"column":2}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":104,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":105,"column":40}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":94,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":108,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":112,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":146,"column":2}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":46,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":161,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":175,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":176,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":177,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":189,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":194,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":203,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":209,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":215,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":223,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":228,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":238,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":245,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":246,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":247,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":255,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":256,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":266,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":269,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":274,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":275,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":276,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":278,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":281,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":282,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":287,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":288,"column":16}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":318,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":322,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":326,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":336,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":342,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":346,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":350,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":354,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":358,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":362,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":395,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":413,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":424,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":428,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":437,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":490,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":534,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":548,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":614,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":625,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":684,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":797,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":826,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":855,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":905,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":919,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":933,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":977,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1024,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1071,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1115,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1129,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1173,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1184,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1207,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1242,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1288,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1326,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1343,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1354,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1394,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1450,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1461,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1490,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1513,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1554,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1583,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1606,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1653,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1667,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1708,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1727,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1741,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1755,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1769,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1788,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1805,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1837,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1854,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":1868,"column":2}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/parser/pbxproj.js_function_{"line":153,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_{"line":85,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_{"line":89,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_{"line":100,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_{"line":112,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_{"line":121,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_{"line":141,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_{"line":161,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_{"line":176,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxFile.js_function_{"line":186,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":31,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":43,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":40,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":60,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":67,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":82,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":72,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":89,"column":36}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":102,"column":37}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":119,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":129,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":145,"column":41}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":160,"column":37}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":187,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":209,"column":37}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":225,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":241,"column":39}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":293,"column":42}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":317,"column":36}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":364,"column":39}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":396,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":414,"column":49}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":418,"column":51}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":423,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":434,"column":56}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":444,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":473,"column":48}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":480,"column":53}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":494,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":545,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":560,"column":46}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":570,"column":51}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":577,"column":52}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":584,"column":57}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":616,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":606,"column":50}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":627,"column":44}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":636,"column":49}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":650,"column":46}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":659,"column":51}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":673,"column":47}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":682,"column":52}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":697,"column":57}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":704,"column":62}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":717,"column":45}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":726,"column":50}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":740,"column":49}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":745,"column":54}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":756,"column":51}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":761,"column":56}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":772,"column":52}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":777,"column":57}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":787,"column":46}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":817,"column":43}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":872,"column":37}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":955,"column":41}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":958,"column":43}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":962,"column":54}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":966,"column":47}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":970,"column":46}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":974,"column":45}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":982,"column":46}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":986,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1003,"column":39}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1007,"column":37}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1023,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1040,"column":47}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1044,"column":49}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1048,"column":50}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1052,"column":55}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1057,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1076,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1097,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1109,"column":43}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1129,"column":43}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1165,"column":41}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1185,"column":45}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1188,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1169,"column":54}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1196,"column":49}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1232,"column":45}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1235,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1216,"column":52}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1244,"column":47}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1282,"column":61}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1285,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1268,"column":51}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1293,"column":46}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1316,"column":45}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1350,"column":62}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1353,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1337,"column":50}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1361,"column":42}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1372,"column":47}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1386,"column":53}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1400,"column":31}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1464,"column":62}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1413,"column":33}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1557,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1568,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1583,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1592,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1601,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1640,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1650,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1654,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1658,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1662,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1667,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1671,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1675,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1679,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1688,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1708,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1721,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1726,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1738,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1758,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1778,"column":39}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1795,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1808,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1830,"column":41}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1854,"column":44}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1858,"column":37}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1864,"column":46}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1889,"column":45}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1893,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1899,"column":49}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1913,"column":42}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1917,"column":49}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1923,"column":47}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1927,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1931,"column":47}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1937,"column":46}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1969,"column":39}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1973,"column":46}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1977,"column":51}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":1994,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":2003,"column":41}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":2016,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":2028,"column":36}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":2034,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":2054,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":2071,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":2110,"column":44}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":2124,"column":44}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":2180,"column":42}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxProject.js_function_{"line":2192,"column":45}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":27,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":34,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":44,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":48,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":52,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":68,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":78,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":88,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":98,"column":39}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":104,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":149,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":180,"column":43}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":198,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":226,"column":42}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":234,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":267,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/cordova-node-xcode/lib/pbxWriter.js_function_{"line":263,"column":40}

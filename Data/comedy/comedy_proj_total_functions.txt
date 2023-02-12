@@ -1,391 +1,697 @@
-/data/js-variants/multee/Playground/comedy/Gruntfile.js_function_10_17
-/data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/forked-messaging-native-serialization-benchmark.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/forked-messaging-native-serialization-benchmark.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/forked-messaging-native-serialization-benchmark.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/forked-messaging-native-serialization-benchmark.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/forked-messaging-native-serialization-benchmark.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/forked-messaging-native-serialization-benchmark.js_function_69_48
-/data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_72_48
-/data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_19_16
-/data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_28_11
-/data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_37_11
-/data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_46_9
-/data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_55_8
-/data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_64_9
-/data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_73_10
-/data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_82_9
-/data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_102_30
-/data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_145_26
-/data/js-variants/multee/Playground/comedy/benchmarks/utils/cumulative-average.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/utils/cumulative-average.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/utils/cumulative-average.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/utils/cumulative-average.js_function_in_class
-/data/js-variants/multee/Playground/comedy/benchmarks/utils/cumulative-average.js_function_in_class
-/data/js-variants/multee/Playground/comedy/index.js_function_22_17
-/data/js-variants/multee/Playground/comedy/index.js_function_29_27
-/data/js-variants/multee/Playground/comedy/lib/actor-stub.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-stub.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/custom-balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/custom-balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/custom-balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/random-balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/random-balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/random-balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/round-robin-balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/round-robin-balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/balancers/round-robin-balancer-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/disabled-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/disabled-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/disabled-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/disabled-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-child-parent-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-child-parent-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-child-parent-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-child-parent-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-child-parent-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-child-parent-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_21_24
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_180_0
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_210_0
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_215_0
-/data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_221_44
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-host-reference-source.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-host-reference-source.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-host-reference-source.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-host-reference-source.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-host-reference-source.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-host-reference-target.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-host-reference-target.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-host-reference-target.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-host-reference-target.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-process-reference-source.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-process-reference-source.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-process-reference-source.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-process-reference-source.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-process-reference-source.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-process-reference-target.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-process-reference-target.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-process-reference-target.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-process-reference-target.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/inter-process-reference-target.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/marshallers/abstract-actor-reference-marshaller.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/marshallers/abstract-actor-reference-marshaller.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/marshallers/abstract-actor-reference-marshaller.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/marshallers/abstract-actor-reference-marshaller.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/marshallers/abstract-actor-reference-marshaller.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/marshallers/abstract-actor-reference-marshaller.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/marshallers/forked-actor-reference-marshaller.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/marshallers/forked-actor-reference-marshaller.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/marshallers/remote-actor-reference-marshaller.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/marshallers/remote-actor-reference-marshaller.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/parent-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/parent-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/parent-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/parent-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/parent-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/parent-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/parent-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/remote-actor-proxy.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/root-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/root-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/root-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/root-actor.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/system-bus.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/system-bus.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/system-bus.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/system-bus.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/system-bus.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/system-bus.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_30_0
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_166_0
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_196_0
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_201_0
-/data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_207_44
-/data/js-variants/multee/Playground/comedy/lib/utils/actor-logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/actor-logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_18_24
-/data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_40_30
-/data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_56_18
-/data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_114_20
-/data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_147_26
-/data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_178_35
-/data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_213_15
-/data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_228_16
-/data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_247_16
-/data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_256_20
-/data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_267_21
-/data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_294_21
-/data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_311_28
-/data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_325_46
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/worker-thread-bus-adapter.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/worker-thread-bus-adapter.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/worker-thread-bus-adapter.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/worker-thread-bus-adapter.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/worker-thread-bus-adapter.js_function_in_class
-/data/js-variants/multee/Playground/comedy/lib/utils/worker-thread-bus-adapter.js_function_in_class
+FunctionExpression, /data/js-variants/multee/Playground/comedy/Gruntfile.js_function_{"line":10,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":27,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":32,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":39,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":72,"column":38}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":97,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":94,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":112,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":128,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":110,"column":29}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":109,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":108,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":147,"column":39}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":146,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":151,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":154,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":159,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":152,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":51,"column":6}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":183,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":184,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":189,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":177,"column":5}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":209,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":212,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":210,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":218,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/abstract-throughput-benchmark.js_function_{"line":200,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/forked-messaging-native-serialization-benchmark.js_function_{"line":19,"column":27}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/forked-messaging-native-serialization-benchmark.js_function_{"line":20,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/forked-messaging-native-serialization-benchmark.js_function_{"line":17,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/forked-messaging-native-serialization-benchmark.js_function_{"line":31,"column":6}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/forked-messaging-native-serialization-benchmark.js_function_{"line":44,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/forked-messaging-native-serialization-benchmark.js_function_{"line":45,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/forked-messaging-native-serialization-benchmark.js_function_{"line":40,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/forked-messaging-native-serialization-benchmark.js_function_{"line":50,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/forked-messaging-native-serialization-benchmark.js_function_{"line":54,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/forked-messaging-native-serialization-benchmark.js_function_{"line":69,"column":48}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_{"line":20,"column":27}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_{"line":21,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_{"line":18,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_{"line":32,"column":6}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_{"line":46,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_{"line":47,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_{"line":48,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_{"line":41,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_{"line":53,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_{"line":57,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/remote-messaging-native-serialization-benchmark.js_function_{"line":72,"column":48}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_{"line":19,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_{"line":28,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_{"line":37,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_{"line":46,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_{"line":55,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_{"line":64,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_{"line":73,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_{"line":82,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_{"line":102,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/utils/benchmark-utils.js_function_{"line":145,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/utils/cumulative-average.js_function_{"line":20,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/utils/cumulative-average.js_function_{"line":31,"column":5}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/utils/cumulative-average.js_function_{"line":41,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/utils/cumulative-average.js_function_{"line":58,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/benchmarks/utils/cumulative-average.js_function_{"line":63,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/index.js_function_{"line":22,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/index.js_function_{"line":29,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-stub.js_function_{"line":23,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-stub.js_function_{"line":32,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":113,"column":33}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":146,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":127,"column":70}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":155,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":121,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":163,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":168,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":173,"column":61}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":189,"column":61}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":204,"column":61}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":229,"column":56}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":234,"column":56}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":238,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":239,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":240,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":245,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":250,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":76,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":262,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":269,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":280,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":291,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":300,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":316,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":332,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":339,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":349,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":362,"column":62}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":361,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":378,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":386,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":376,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":438,"column":36}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":443,"column":32}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":470,"column":44}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":466,"column":36}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":481,"column":40}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":451,"column":34}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":448,"column":37}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":434,"column":42}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":432,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":503,"column":27}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":502,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":498,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":524,"column":52}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":533,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":540,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":553,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":548,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":531,"column":30}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":565,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":522,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":579,"column":41}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":588,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":595,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":586,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":603,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":577,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":619,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":627,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":639,"column":62}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":638,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":634,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":617,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":672,"column":54}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":667,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":725,"column":47}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":700,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":772,"column":54}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":767,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":798,"column":28}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":887,"column":67}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":903,"column":63}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":919,"column":63}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":963,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":951,"column":54}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":983,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":946,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":857,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1000,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1014,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1036,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1065,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1068,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1073,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1080,"column":57}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1079,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1086,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1091,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1054,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1108,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1130,"column":30}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1137,"column":63}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1126,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1152,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1151,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1172,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1201,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1212,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1223,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1254,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1255,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1252,"column":28}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1264,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1242,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1287,"column":56}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1305,"column":78}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1299,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1322,"column":21}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1313,"column":34}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1285,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1279,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1344,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1367,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1365,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1386,"column":27}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1435,"column":30}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1443,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1417,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1461,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1492,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1497,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1506,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1516,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1501,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1522,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1475,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1550,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1551,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1552,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1544,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1565,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1534,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1584,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1599,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor-system.js_function_{"line":1614,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":31,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":62,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":82,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":84,"column":32}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":83,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":90,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":76,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":110,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":111,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":108,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":121,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":147,"column":33}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":161,"column":36}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":160,"column":44}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":169,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":178,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":187,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":196,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":205,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":214,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":224,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":233,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":242,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":251,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":260,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":270,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":280,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":291,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":301,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":313,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":342,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":371,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":384,"column":59}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":383,"column":21}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":402,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":393,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":421,"column":21}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":415,"column":42}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":414,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":443,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":441,"column":31}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":447,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":448,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":432,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":466,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":483,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":484,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":485,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":486,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":487,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":475,"column":6}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":500,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":509,"column":38}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":508,"column":42}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":501,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":498,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":525,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":536,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":545,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":554,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":563,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":574,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":584,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":588,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":601,"column":36}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":608,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":599,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":617,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":638,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":655,"column":42}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":650,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/actor.js_function_{"line":675,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":29,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":41,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":45,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":49,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":67,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":80,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":84,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":95,"column":46}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":104,"column":51}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":113,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":88,"column":27}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":124,"column":46}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":121,"column":33}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":131,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":130,"column":44}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":135,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":134,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":139,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":138,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":142,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":146,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":157,"column":33}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":152,"column":34}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":151,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":150,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":173,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":177,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/balancer-actor.js_function_{"line":189,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/custom-balancer-actor.js_function_{"line":28,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/custom-balancer-actor.js_function_{"line":40,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/custom-balancer-actor.js_function_{"line":48,"column":46}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/custom-balancer-actor.js_function_{"line":52,"column":54}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/custom-balancer-actor.js_function_{"line":62,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/custom-balancer-actor.js_function_{"line":44,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/random-balancer-actor.js_function_{"line":26,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/random-balancer-actor.js_function_{"line":30,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/random-balancer-actor.js_function_{"line":36,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/random-balancer-actor.js_function_{"line":34,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/round-robin-balancer-actor.js_function_{"line":26,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/round-robin-balancer-actor.js_function_{"line":32,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/round-robin-balancer-actor.js_function_{"line":38,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/balancers/round-robin-balancer-actor.js_function_{"line":36,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":18,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":27,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":39,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":36,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":47,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":56,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":65,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":74,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":83,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":92,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":102,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":112,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":122,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":133,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":144,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":154,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":166,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":176,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":185,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":194,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":203,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":210,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/client-actor-proxy.js_function_{"line":214,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/disabled-actor.js_function_{"line":17,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/disabled-actor.js_function_{"line":21,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/disabled-actor.js_function_{"line":25,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/disabled-actor.js_function_{"line":29,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child-parent-proxy.js_function_{"line":16,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child-parent-proxy.js_function_{"line":24,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child-parent-proxy.js_function_{"line":31,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child-parent-proxy.js_function_{"line":41,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child-parent-proxy.js_function_{"line":51,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child-parent-proxy.js_function_{"line":55,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_{"line":25,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_{"line":44,"column":35}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_{"line":43,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_{"line":40,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_{"line":38,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_{"line":53,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_{"line":57,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_{"line":61,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_{"line":72,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_{"line":86,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_{"line":92,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_{"line":102,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-child.js_function_{"line":108,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":52,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":29,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":64,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":65,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":62,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":70,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":68,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":75,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":84,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":88,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":92,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":116,"column":45}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":145,"column":49}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":141,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":169,"column":45}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":186,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":194,"column":40}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":191,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":173,"column":44}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":140,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":139,"column":14}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":110,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-parent.js_function_{"line":109,"column":21}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_{"line":54,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_{"line":84,"column":33}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_{"line":97,"column":53}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_{"line":145,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_{"line":161,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_{"line":21,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_{"line":194,"column":27}
+FunctionDeclaration, /data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_{"line":180,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_{"line":210,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_{"line":215,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_{"line":223,"column":4}
+FunctionDeclaration, /data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_{"line":224,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_{"line":225,"column":72}
+FunctionDeclaration, /data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_{"line":225,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_{"line":222,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor-worker.js_function_{"line":221,"column":44}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":46,"column":45}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":30,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":62,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":63,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":60,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":74,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":78,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":82,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":86,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":90,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":101,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":111,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":126,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":174,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":171,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":184,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":193,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":198,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":202,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":207,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":235,"column":34}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":256,"column":36}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":279,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":283,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":141,"column":27}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":291,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":136,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":301,"column":36}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":296,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":348,"column":26}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":370,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":322,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":387,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":399,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":434,"column":28}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":457,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":421,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":420,"column":8}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":521,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":489,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/forked-actor.js_function_{"line":551,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":30,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":47,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":52,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":59,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":45,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":64,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":77,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":78,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":81,"column":21}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":72,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":68,"column":7}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":99,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":113,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":95,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":121,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":118,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":133,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":140,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":148,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/in-memory-actor.js_function_{"line":164,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-source.js_function_{"line":27,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-source.js_function_{"line":40,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-source.js_function_{"line":39,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-source.js_function_{"line":52,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-source.js_function_{"line":62,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-source.js_function_{"line":61,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-source.js_function_{"line":86,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-source.js_function_{"line":71,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-target.js_function_{"line":23,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-target.js_function_{"line":48,"column":29}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-target.js_function_{"line":39,"column":37}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-target.js_function_{"line":36,"column":39}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-target.js_function_{"line":35,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-target.js_function_{"line":34,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-target.js_function_{"line":65,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-target.js_function_{"line":64,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-host-reference-target.js_function_{"line":73,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-process-reference-source.js_function_{"line":26,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-process-reference-source.js_function_{"line":38,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-process-reference-source.js_function_{"line":37,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-process-reference-source.js_function_{"line":49,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-process-reference-source.js_function_{"line":59,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-process-reference-source.js_function_{"line":58,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-process-reference-source.js_function_{"line":70,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-process-reference-target.js_function_{"line":27,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-process-reference-target.js_function_{"line":42,"column":37}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-process-reference-target.js_function_{"line":39,"column":48}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-process-reference-target.js_function_{"line":38,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-process-reference-target.js_function_{"line":37,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-process-reference-target.js_function_{"line":64,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-process-reference-target.js_function_{"line":63,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-process-reference-target.js_function_{"line":72,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/inter-process-reference-target.js_function_{"line":80,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/marshallers/abstract-actor-reference-marshaller.js_function_{"line":21,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/marshallers/abstract-actor-reference-marshaller.js_function_{"line":41,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/marshallers/abstract-actor-reference-marshaller.js_function_{"line":32,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/marshallers/abstract-actor-reference-marshaller.js_function_{"line":59,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/marshallers/abstract-actor-reference-marshaller.js_function_{"line":50,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/marshallers/abstract-actor-reference-marshaller.js_function_{"line":68,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/marshallers/abstract-actor-reference-marshaller.js_function_{"line":67,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/marshallers/abstract-actor-reference-marshaller.js_function_{"line":78,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/marshallers/abstract-actor-reference-marshaller.js_function_{"line":89,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/marshallers/forked-actor-reference-marshaller.js_function_{"line":18,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/marshallers/forked-actor-reference-marshaller.js_function_{"line":22,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/marshallers/remote-actor-reference-marshaller.js_function_{"line":18,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/marshallers/remote-actor-reference-marshaller.js_function_{"line":22,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_{"line":19,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_{"line":27,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_{"line":38,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_{"line":50,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_{"line":63,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_{"line":80,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_{"line":90,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_{"line":101,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_{"line":115,"column":5}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_{"line":122,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/net/message-socket.js_function_{"line":132,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/parent-actor-proxy.js_function_{"line":18,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/parent-actor-proxy.js_function_{"line":27,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/parent-actor-proxy.js_function_{"line":36,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/parent-actor-proxy.js_function_{"line":45,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/parent-actor-proxy.js_function_{"line":55,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/parent-actor-proxy.js_function_{"line":65,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/parent-actor-proxy.js_function_{"line":69,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":20,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":36,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":57,"column":34}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":63,"column":30}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":85,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":68,"column":35}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":53,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":52,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":90,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":100,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":109,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":106,"column":7}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":115,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":112,"column":17}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":122,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":123,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":118,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":137,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":136,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-child.js_function_{"line":140,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":36,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":61,"column":42}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":60,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":64,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":68,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":76,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":80,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":84,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":88,"column":38}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":131,"column":68}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":141,"column":39}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":136,"column":45}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":118,"column":58}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":115,"column":36}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":114,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":111,"column":48}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":105,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":104,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":154,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":165,"column":51}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":164,"column":52}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":163,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":190,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":200,"column":41}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":197,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":188,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-parent.js_function_{"line":206,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-proxy.js_function_{"line":21,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-proxy.js_function_{"line":29,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-proxy.js_function_{"line":26,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-proxy.js_function_{"line":32,"column":9}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-proxy.js_function_{"line":51,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-proxy.js_function_{"line":60,"column":41}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-proxy.js_function_{"line":57,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/remote-actor-proxy.js_function_{"line":43,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/root-actor.js_function_{"line":23,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/root-actor.js_function_{"line":32,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/root-actor.js_function_{"line":37,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/root-actor.js_function_{"line":41,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/system-bus.js_function_{"line":18,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/system-bus.js_function_{"line":31,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/system-bus.js_function_{"line":43,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/system-bus.js_function_{"line":53,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/system-bus.js_function_{"line":68,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/system-bus.js_function_{"line":80,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/system-bus.js_function_{"line":79,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_{"line":25,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_{"line":39,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_{"line":43,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_{"line":47,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_{"line":51,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_{"line":62,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_{"line":76,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_{"line":82,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-child.js_function_{"line":86,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_{"line":31,"column":13}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_{"line":58,"column":11}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_{"line":59,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_{"line":56,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_{"line":62,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_{"line":66,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_{"line":70,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_{"line":74,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_{"line":78,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_{"line":89,"column":38}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_{"line":117,"column":35}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_{"line":124,"column":38}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_{"line":112,"column":21}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_{"line":111,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-parent.js_function_{"line":104,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_{"line":63,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_{"line":93,"column":33}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_{"line":131,"column":10}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_{"line":147,"column":11}
+FunctionDeclaration, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_{"line":30,"column":0}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_{"line":180,"column":27}
+FunctionDeclaration, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_{"line":166,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_{"line":196,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_{"line":201,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_{"line":209,"column":4}
+FunctionDeclaration, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_{"line":210,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_{"line":211,"column":72}
+FunctionDeclaration, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_{"line":211,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_{"line":208,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/threaded-actor-worker.js_function_{"line":207,"column":44}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/actor-logger.js_function_{"line":22,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/actor-logger.js_function_{"line":29,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":18,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":40,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":71,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":66,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":56,"column":18}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":116,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":114,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":150,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":147,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":187,"column":44}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":181,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":178,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":213,"column":15}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":229,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":228,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":247,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":256,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":267,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":294,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":311,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/common.js_function_{"line":325,"column":46}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":39,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":53,"column":19}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":71,"column":31}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":95,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":104,"column":21}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":93,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":109,"column":49}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":108,"column":16}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":88,"column":25}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":86,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":68,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":130,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":147,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":151,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":173,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":165,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":201,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":216,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":232,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":243,"column":15}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":258,"column":47}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":256,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":270,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":279,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":288,"column":8}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":297,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":310,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":319,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":328,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":335,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":344,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":353,"column":6}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":364,"column":69}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":362,"column":7}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/logger.js_function_{"line":383,"column":11}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/worker-thread-bus-adapter.js_function_{"line":15,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/worker-thread-bus-adapter.js_function_{"line":26,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/worker-thread-bus-adapter.js_function_{"line":37,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/worker-thread-bus-adapter.js_function_{"line":47,"column":5}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/worker-thread-bus-adapter.js_function_{"line":57,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/comedy/lib/utils/worker-thread-bus-adapter.js_function_{"line":66,"column":20}

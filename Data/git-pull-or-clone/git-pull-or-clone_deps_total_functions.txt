@@ -1,65 +1,127 @@
-cross-spawn/index.js_function_7_0
-cross-spawn/index.js_function_21_0
-cross-spawn/lib/enoent.js_function_5_0
-cross-spawn/lib/enoent.js_function_15_0
-cross-spawn/lib/enoent.js_function_38_0
-cross-spawn/lib/enoent.js_function_46_0
-cross-spawn/lib/parse.js_function_12_0
-cross-spawn/lib/parse.js_function_27_0
-cross-spawn/lib/parse.js_function_65_0
-cross-spawn/lib/util/escape.js_function_6_0
-cross-spawn/lib/util/escape.js_function_13_0
-cross-spawn/lib/util/readShebang.js_function_6_0
-cross-spawn/lib/util/resolveCommand.js_function_7_0
-cross-spawn/lib/util/resolveCommand.js_function_48_0
-debug/src/browser.js_function_12_19
-debug/src/browser.js_function_115_0
-debug/src/browser.js_function_146_0
-debug/src/browser.js_function_189_47
-debug/src/browser.js_function_197_0
-debug/src/browser.js_function_216_0
-debug/src/browser.js_function_244_0
-debug/src/browser.js_function_263_15
-debug/src/common.js_function_7_0
-debug/src/node.js_function_19_4
-debug/src/node.js_function_124_54
-debug/src/node.js_function_126_10
-debug/src/node.js_function_155_0
-debug/src/node.js_function_167_0
-debug/src/node.js_function_182_0
-debug/src/node.js_function_193_0
-debug/src/node.js_function_203_0
-debug/src/node.js_function_220_0
-debug/src/node.js_function_231_0
-debug/src/node.js_function_248_15
-debug/src/node.js_function_260_15
-isexe/index.js_function_12_0
-isexe/index.js_function_46_0
-isexe/mode.js_function_6_0
-isexe/mode.js_function_12_0
-isexe/mode.js_function_16_0
-isexe/mode.js_function_20_0
-isexe/test/basic.js_function_20_0
-isexe/test/basic.js_function_25_25
-isexe/test/basic.js_function_39_41
-isexe/test/basic.js_function_68_21
-isexe/test/basic.js_function_77_50
-isexe/test/basic.js_function_81_34
-isexe/test/basic.js_function_90_18
-isexe/test/basic.js_function_113_18
-isexe/test/basic.js_function_118_0
-isexe/windows.js_function_6_0
-isexe/windows.js_function_27_0
-isexe/windows.js_function_34_0
-isexe/windows.js_function_40_0
-ms/index.js_function_26_17
-ms/index.js_function_48_0
-ms/index.js_function_113_0
-ms/index.js_function_138_0
-ms/index.js_function_159_0
-path-key/index.js_function_3_16
-shebang-command/index.js_function_4_17
-which/which.js_function_9_25
-which/which.js_function_12_20
-which/which.js_function_43_14
-which/which.js_function_87_18
+FunctionDeclaration, cross-spawn/index.js_function_{"line":7,"column":0}
+FunctionDeclaration, cross-spawn/index.js_function_{"line":21,"column":0}
+FunctionDeclaration, cross-spawn/lib/enoent.js_function_{"line":5,"column":0}
+FunctionExpression, cross-spawn/lib/enoent.js_function_{"line":22,"column":14}
+FunctionDeclaration, cross-spawn/lib/enoent.js_function_{"line":15,"column":0}
+FunctionDeclaration, cross-spawn/lib/enoent.js_function_{"line":38,"column":0}
+FunctionDeclaration, cross-spawn/lib/enoent.js_function_{"line":46,"column":0}
+FunctionDeclaration, cross-spawn/lib/parse.js_function_{"line":12,"column":0}
+ArrowFunctionExpression, cross-spawn/lib/parse.js_function_{"line":53,"column":38}
+FunctionDeclaration, cross-spawn/lib/parse.js_function_{"line":27,"column":0}
+FunctionDeclaration, cross-spawn/lib/parse.js_function_{"line":65,"column":0}
+FunctionDeclaration, cross-spawn/lib/util/escape.js_function_{"line":6,"column":0}
+FunctionDeclaration, cross-spawn/lib/util/escape.js_function_{"line":13,"column":0}
+FunctionDeclaration, cross-spawn/lib/util/readShebang.js_function_{"line":6,"column":0}
+FunctionDeclaration, cross-spawn/lib/util/resolveCommand.js_function_{"line":7,"column":0}
+FunctionDeclaration, cross-spawn/lib/util/resolveCommand.js_function_{"line":48,"column":0}
+ArrowFunctionExpression, debug/src/browser.js_function_{"line":15,"column":8}
+ArrowFunctionExpression, debug/src/browser.js_function_{"line":12,"column":19}
+FunctionDeclaration, debug/src/browser.js_function_{"line":115,"column":0}
+ArrowFunctionExpression, debug/src/browser.js_function_{"line":166,"column":32}
+FunctionDeclaration, debug/src/browser.js_function_{"line":146,"column":0}
+ArrowFunctionExpression, debug/src/browser.js_function_{"line":189,"column":47}
+FunctionDeclaration, debug/src/browser.js_function_{"line":197,"column":0}
+FunctionDeclaration, debug/src/browser.js_function_{"line":216,"column":0}
+FunctionDeclaration, debug/src/browser.js_function_{"line":244,"column":0}
+FunctionExpression, debug/src/browser.js_function_{"line":263,"column":15}
+ArrowFunctionExpression, debug/src/common.js_function_{"line":17,"column":26}
+FunctionDeclaration, debug/src/common.js_function_{"line":41,"column":1}
+ArrowFunctionExpression, debug/src/common.js_function_{"line":91,"column":46}
+FunctionDeclaration, debug/src/common.js_function_{"line":66,"column":2}
+ArrowFunctionExpression, debug/src/common.js_function_{"line":125,"column":8}
+ArrowFunctionExpression, debug/src/common.js_function_{"line":136,"column":8}
+FunctionDeclaration, debug/src/common.js_function_{"line":60,"column":1}
+FunctionDeclaration, debug/src/common.js_function_{"line":149,"column":1}
+FunctionDeclaration, debug/src/common.js_function_{"line":162,"column":1}
+ArrowFunctionExpression, debug/src/common.js_function_{"line":198,"column":45}
+FunctionDeclaration, debug/src/common.js_function_{"line":195,"column":1}
+FunctionDeclaration, debug/src/common.js_function_{"line":211,"column":1}
+FunctionDeclaration, debug/src/common.js_function_{"line":241,"column":1}
+FunctionDeclaration, debug/src/common.js_function_{"line":254,"column":1}
+FunctionDeclaration, debug/src/common.js_function_{"line":265,"column":1}
+FunctionDeclaration, debug/src/common.js_function_{"line":7,"column":0}
+ArrowFunctionExpression, debug/src/node.js_function_{"line":19,"column":1}
+ArrowFunctionExpression, debug/src/node.js_function_{"line":124,"column":54}
+ArrowFunctionExpression, debug/src/node.js_function_{"line":131,"column":24}
+ArrowFunctionExpression, debug/src/node.js_function_{"line":126,"column":10}
+FunctionDeclaration, debug/src/node.js_function_{"line":155,"column":0}
+FunctionDeclaration, debug/src/node.js_function_{"line":167,"column":0}
+FunctionDeclaration, debug/src/node.js_function_{"line":182,"column":0}
+FunctionDeclaration, debug/src/node.js_function_{"line":193,"column":0}
+FunctionDeclaration, debug/src/node.js_function_{"line":203,"column":0}
+FunctionDeclaration, debug/src/node.js_function_{"line":220,"column":0}
+FunctionDeclaration, debug/src/node.js_function_{"line":231,"column":0}
+ArrowFunctionExpression, debug/src/node.js_function_{"line":252,"column":7}
+FunctionExpression, debug/src/node.js_function_{"line":248,"column":15}
+FunctionExpression, debug/src/node.js_function_{"line":260,"column":15}
+FunctionExpression, isexe/index.js_function_{"line":24,"column":33}
+FunctionExpression, isexe/index.js_function_{"line":23,"column":23}
+FunctionExpression, isexe/index.js_function_{"line":34,"column":28}
+FunctionDeclaration, isexe/index.js_function_{"line":12,"column":0}
+FunctionDeclaration, isexe/index.js_function_{"line":46,"column":0}
+FunctionExpression, isexe/mode.js_function_{"line":7,"column":16}
+FunctionDeclaration, isexe/mode.js_function_{"line":6,"column":0}
+FunctionDeclaration, isexe/mode.js_function_{"line":12,"column":0}
+FunctionDeclaration, isexe/mode.js_function_{"line":16,"column":0}
+FunctionDeclaration, isexe/mode.js_function_{"line":20,"column":0}
+FunctionDeclaration, isexe/test/basic.js_function_{"line":20,"column":0}
+FunctionExpression, isexe/test/basic.js_function_{"line":25,"column":25}
+FunctionExpression, isexe/test/basic.js_function_{"line":42,"column":21}
+FunctionExpression, isexe/test/basic.js_function_{"line":41,"column":23}
+FunctionExpression, isexe/test/basic.js_function_{"line":48,"column":21}
+FunctionExpression, isexe/test/basic.js_function_{"line":47,"column":23}
+FunctionExpression, isexe/test/basic.js_function_{"line":54,"column":23}
+FunctionExpression, isexe/test/basic.js_function_{"line":53,"column":24}
+FunctionExpression, isexe/test/basic.js_function_{"line":60,"column":46}
+FunctionExpression, isexe/test/basic.js_function_{"line":59,"column":31}
+FunctionExpression, isexe/test/basic.js_function_{"line":39,"column":41}
+FunctionExpression, isexe/test/basic.js_function_{"line":71,"column":36}
+FunctionExpression, isexe/test/basic.js_function_{"line":68,"column":21}
+FunctionExpression, isexe/test/basic.js_function_{"line":77,"column":50}
+FunctionExpression, isexe/test/basic.js_function_{"line":81,"column":34}
+FunctionExpression, isexe/test/basic.js_function_{"line":93,"column":27}
+FunctionExpression, isexe/test/basic.js_function_{"line":96,"column":24}
+FunctionExpression, isexe/test/basic.js_function_{"line":100,"column":23}
+FunctionExpression, isexe/test/basic.js_function_{"line":105,"column":37}
+FunctionExpression, isexe/test/basic.js_function_{"line":90,"column":18}
+FunctionExpression, isexe/test/basic.js_function_{"line":113,"column":18}
+FunctionExpression, isexe/test/basic.js_function_{"line":136,"column":11}
+FunctionExpression, isexe/test/basic.js_function_{"line":142,"column":18}
+FunctionExpression, isexe/test/basic.js_function_{"line":150,"column":27}
+FunctionExpression, isexe/test/basic.js_function_{"line":140,"column":23}
+FunctionExpression, isexe/test/basic.js_function_{"line":161,"column":25}
+FunctionExpression, isexe/test/basic.js_function_{"line":160,"column":23}
+FunctionExpression, isexe/test/basic.js_function_{"line":171,"column":25}
+FunctionExpression, isexe/test/basic.js_function_{"line":170,"column":23}
+FunctionExpression, isexe/test/basic.js_function_{"line":182,"column":27}
+FunctionExpression, isexe/test/basic.js_function_{"line":181,"column":25}
+FunctionExpression, isexe/test/basic.js_function_{"line":193,"column":26}
+FunctionExpression, isexe/test/basic.js_function_{"line":192,"column":24}
+FunctionExpression, isexe/test/basic.js_function_{"line":201,"column":32}
+FunctionExpression, isexe/test/basic.js_function_{"line":200,"column":31}
+FunctionExpression, isexe/test/basic.js_function_{"line":211,"column":30}
+FunctionExpression, isexe/test/basic.js_function_{"line":210,"column":40}
+FunctionDeclaration, isexe/test/basic.js_function_{"line":118,"column":0}
+FunctionDeclaration, isexe/windows.js_function_{"line":6,"column":0}
+FunctionDeclaration, isexe/windows.js_function_{"line":27,"column":0}
+FunctionExpression, isexe/windows.js_function_{"line":35,"column":16}
+FunctionDeclaration, isexe/windows.js_function_{"line":34,"column":0}
+FunctionDeclaration, isexe/windows.js_function_{"line":40,"column":0}
+FunctionExpression, ms/index.js_function_{"line":26,"column":17}
+FunctionDeclaration, ms/index.js_function_{"line":48,"column":0}
+FunctionDeclaration, ms/index.js_function_{"line":113,"column":0}
+FunctionDeclaration, ms/index.js_function_{"line":138,"column":0}
+FunctionDeclaration, ms/index.js_function_{"line":159,"column":0}
+ArrowFunctionExpression, path-key/index.js_function_{"line":11,"column":48}
+ArrowFunctionExpression, path-key/index.js_function_{"line":3,"column":16}
+ArrowFunctionExpression, shebang-command/index.js_function_{"line":4,"column":17}
+ArrowFunctionExpression, which/which.js_function_{"line":9,"column":25}
+ArrowFunctionExpression, which/which.js_function_{"line":12,"column":20}
+ArrowFunctionExpression, which/which.js_function_{"line":54,"column":32}
+ArrowFunctionExpression, which/which.js_function_{"line":54,"column":15}
+ArrowFunctionExpression, which/which.js_function_{"line":73,"column":44}
+ArrowFunctionExpression, which/which.js_function_{"line":69,"column":44}
+ArrowFunctionExpression, which/which.js_function_{"line":69,"column":18}
+ArrowFunctionExpression, which/which.js_function_{"line":84,"column":27}
+ArrowFunctionExpression, which/which.js_function_{"line":43,"column":14}
+ArrowFunctionExpression, which/which.js_function_{"line":87,"column":18}

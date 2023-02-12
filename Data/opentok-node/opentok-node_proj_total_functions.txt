@@ -1,132 +1,325 @@
-/data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_10_22
-/data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_134_0
-/data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_192_6
-/data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_205_23
-/data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_259_23
-/data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_315_22
-/data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_353_21
-/data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_393_0
-/data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_448_27
-/data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_474_30
-/data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_490_24
-/data/js-variants/multee/Playground/opentok-node/lib/broadcast.js_function_95_16
-/data/js-variants/multee/Playground/opentok-node/lib/callbacks.js_function_7_10
-/data/js-variants/multee/Playground/opentok-node/lib/callbacks.js_function_21_0
-/data/js-variants/multee/Playground/opentok-node/lib/callbacks.js_function_35_24
-/data/js-variants/multee/Playground/opentok-node/lib/callbacks.js_function_68_27
-/data/js-variants/multee/Playground/opentok-node/lib/callbacks.js_function_101_29
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_42_13
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_47_26
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_62_33
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_102_32
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_104_31
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_106_30
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_108_32
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_110_33
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_112_28
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_152_35
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_178_32
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_206_36
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_236_36
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_265_34
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_288_34
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_305_33
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_330_32
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_353_34
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_383_38
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_412_39
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_458_24
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_495_29
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_519_31
-/data/js-variants/multee/Playground/opentok-node/lib/client.js_function_547_35
-/data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_2_24
-/data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_8_20
-/data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_15_23
-/data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_22_19
-/data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_29_22
-/data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_36_31
-/data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_43_24
-/data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_49_23
-/data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_55_24
-/data/js-variants/multee/Playground/opentok-node/lib/generateJwt.js_function_3_17
-/data/js-variants/multee/Playground/opentok-node/lib/moderation.js_function_7_10
-/data/js-variants/multee/Playground/opentok-node/lib/moderation.js_function_24_26
-/data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_29_0
-/data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_69_10
-/data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_1634_25
-/data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_1775_34
-/data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_1897_34
-/data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_1984_32
-/data/js-variants/multee/Playground/opentok-node/lib/session.js_function_11_14
-/data/js-variants/multee/Playground/opentok-node/lib/session.js_function_22_34
-/data/js-variants/multee/Playground/opentok-node/lib/signaling.js_function_7_10
-/data/js-variants/multee/Playground/opentok-node/lib/signaling.js_function_25_17
-/data/js-variants/multee/Playground/opentok-node/lib/sipInterconnect.js_function_21_0
-/data/js-variants/multee/Playground/opentok-node/lib/stream.js_function_27_0
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_27_0
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_37_47
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_45_13
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_49_17
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_66_24
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_80_20
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_93_32
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_101_19
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_125_28
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_133_30
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_141_39
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_153_19
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_12_0
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_16_0
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_20_0
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_34_0
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_66_0
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_76_23
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_83_30
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_88_28
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_107_30
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_116_29
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_124_29
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_132_18
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/participant.js_function_20_0
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/participant.js_function_33_0
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/participant.js_function_42_23
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/participant.js_function_49_28
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/participant.js_function_65_30
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/participant.js_function_70_33
-/data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/participant.js_function_82_33
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_27_0
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_37_47
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_45_13
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_49_17
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_67_24
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_81_22
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_97_19
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_115_30
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_126_43
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_140_19
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_14_0
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_20_0
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_26_0
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_40_0
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_72_0
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_87_23
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_94_30
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_99_28
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_118_30
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_127_18
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/participant.js_function_21_0
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/participant.js_function_34_0
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/participant.js_function_43_23
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/participant.js_function_50_28
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/participant.js_function_66_30
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/participant.js_function_71_33
-/data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/participant.js_function_83_33
-/data/js-variants/multee/Playground/opentok-node/sample/HelloWorld/index.js_function_19_0
-/data/js-variants/multee/Playground/opentok-node/sample/HelloWorld/index.js_function_32_22
-/data/js-variants/multee/Playground/opentok-node/sample/HelloWorld/index.js_function_39_13
-/data/js-variants/multee/Playground/opentok-node/sample/HelloWorld/public/js/helloworld.js_function_13_20
-/data/js-variants/multee/Playground/opentok-node/sample/HelloWorld/public/js/helloworld.js_function_20_17
-/data/js-variants/multee/Playground/opentok-node/sample/SipInterconnect/app.js_function_27_47
-/data/js-variants/multee/Playground/opentok-node/sample/SipInterconnect/app.js_function_42_13
-/data/js-variants/multee/Playground/opentok-node/sample/SipInterconnect/app.js_function_51_23
-/data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_65_22
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":10,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":169,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":187,"column":16}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":134,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":192,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":249,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":229,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":205,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":287,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":259,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":328,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":315,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":366,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":353,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":423,"column":4}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":393,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":448,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":474,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":503,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/archiving.js_function_{"line":490,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/broadcast.js_function_{"line":132,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/broadcast.js_function_{"line":131,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/broadcast.js_function_{"line":95,"column":16}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/callbacks.js_function_{"line":7,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/callbacks.js_function_{"line":30,"column":20}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/lib/callbacks.js_function_{"line":21,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/callbacks.js_function_{"line":61,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/callbacks.js_function_{"line":43,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/callbacks.js_function_{"line":35,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/callbacks.js_function_{"line":80,"column":5}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/callbacks.js_function_{"line":68,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/callbacks.js_function_{"line":111,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/callbacks.js_function_{"line":101,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":42,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":47,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":71,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":62,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":102,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":104,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":106,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":108,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":110,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":139,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":112,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":165,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":152,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":193,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":178,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":223,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":206,"column":36}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":253,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":236,"column":36}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":275,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":265,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":296,"column":5}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":288,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":317,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":305,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":341,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":330,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":372,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":364,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":353,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":400,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":383,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":431,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":412,"column":39}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":466,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":458,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":507,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":495,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":537,"column":37}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":530,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":519,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/client.js_function_{"line":547,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_{"line":2,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_{"line":8,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_{"line":15,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_{"line":22,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_{"line":29,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_{"line":36,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_{"line":43,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_{"line":49,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/errors.js_function_{"line":55,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/generateJwt.js_function_{"line":3,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/moderation.js_function_{"line":7,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/moderation.js_function_{"line":31,"column":62}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/moderation.js_function_{"line":24,"column":26}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":29,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":443,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":812,"column":37}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":788,"column":37}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":847,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":892,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":933,"column":38}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":922,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":963,"column":37}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":951,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1041,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1019,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1078,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1163,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1309,"column":54}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1299,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1361,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1345,"column":18}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1403,"column":46}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1396,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1447,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1428,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1511,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1487,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1552,"column":6}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1539,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":69,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1687,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1634,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1805,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1810,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1830,"column":4}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1775,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1897,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/opentok.js_function_{"line":1984,"column":32}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/render.js_function_{"line":56,"column":24}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/render.js_function_{"line":63,"column":12}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/render.js_function_{"line":95,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/render.js_function_{"line":106,"column":23}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/render.js_function_{"line":159,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/render.js_function_{"line":194,"column":20}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/render.js_function_{"line":214,"column":22}
+ArrowFunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/render.js_function_{"line":242,"column":21}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/session.js_function_{"line":11,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/session.js_function_{"line":22,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/signaling.js_function_{"line":7,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/signaling.js_function_{"line":37,"column":63}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/lib/signaling.js_function_{"line":25,"column":17}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/lib/sipInterconnect.js_function_{"line":21,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/lib/stream.js_function_{"line":27,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":28,"column":19}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":27,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":37,"column":47}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":45,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":49,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":66,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":83,"column":53}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":80,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":95,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":93,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":114,"column":61}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":101,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":127,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":125,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":135,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":133,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":145,"column":50}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":141,"column":39}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":172,"column":68}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/index.js_function_{"line":153,"column":19}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":12,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":16,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":20,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":36,"column":53}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":49,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":51,"column":10}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":34,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":67,"column":27}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":66,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":76,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":83,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":88,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":107,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":116,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":124,"column":29}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":133,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":139,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":160,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":162,"column":14}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":142,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/host.js_function_{"line":132,"column":18}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/participant.js_function_{"line":20,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/participant.js_function_{"line":33,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/participant.js_function_{"line":42,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/participant.js_function_{"line":49,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/participant.js_function_{"line":65,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/participant.js_function_{"line":70,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Archiving/public/js/participant.js_function_{"line":82,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_{"line":28,"column":19}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_{"line":27,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_{"line":37,"column":47}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_{"line":45,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_{"line":49,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_{"line":67,"column":24}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_{"line":86,"column":43}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_{"line":81,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_{"line":106,"column":65}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_{"line":97,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_{"line":117,"column":37}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_{"line":115,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_{"line":131,"column":56}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_{"line":126,"column":43}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_{"line":159,"column":68}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/index.js_function_{"line":140,"column":19}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":14,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":20,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":26,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":42,"column":53}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":55,"column":10}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":57,"column":10}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":40,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":73,"column":27}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":72,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":87,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":94,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":99,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":118,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":138,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":142,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":128,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":149,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":154,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":147,"column":19}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":173,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":175,"column":12}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":158,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/host.js_function_{"line":127,"column":18}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/participant.js_function_{"line":21,"column":0}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/participant.js_function_{"line":34,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/participant.js_function_{"line":43,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/participant.js_function_{"line":50,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/participant.js_function_{"line":66,"column":30}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/participant.js_function_{"line":71,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/Broadcast/public/js/participant.js_function_{"line":83,"column":33}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/HelloWorld/index.js_function_{"line":20,"column":19}
+FunctionDeclaration, /data/js-variants/multee/Playground/opentok-node/sample/HelloWorld/index.js_function_{"line":19,"column":0}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/HelloWorld/index.js_function_{"line":32,"column":22}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/HelloWorld/index.js_function_{"line":39,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/HelloWorld/public/js/helloworld.js_function_{"line":13,"column":20}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/HelloWorld/public/js/helloworld.js_function_{"line":20,"column":17}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/SipInterconnect/app.js_function_{"line":27,"column":47}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/SipInterconnect/app.js_function_{"line":42,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/SipInterconnect/app.js_function_{"line":58,"column":5}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/sample/SipInterconnect/app.js_function_{"line":51,"column":23}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":81,"column":69}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":69,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":108,"column":42}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":94,"column":42}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":122,"column":37}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":121,"column":52}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":138,"column":54}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":129,"column":58}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":154,"column":46}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":145,"column":73}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":170,"column":42}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":161,"column":70}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":178,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":177,"column":59}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":195,"column":79}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":183,"column":59}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":215,"column":72}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":203,"column":64}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":234,"column":70}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":222,"column":62}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":68,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":256,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":243,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":284,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":269,"column":51}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":306,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":294,"column":43}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":328,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":316,"column":57}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":336,"column":31}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":335,"column":55}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":355,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":343,"column":58}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":376,"column":40}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":362,"column":70}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":384,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":383,"column":59}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":242,"column":25}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":403,"column":41}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":391,"column":63}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":432,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":420,"column":46}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":458,"column":41}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":449,"column":70}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":468,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":467,"column":59}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":390,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":482,"column":9}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":475,"column":49}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":493,"column":60}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":488,"column":54}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":504,"column":63}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":499,"column":52}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":511,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":510,"column":55}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":517,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":516,"column":58}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":474,"column":27}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":536,"column":41}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":524,"column":35}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":545,"column":32}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":544,"column":55}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":564,"column":51}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":553,"column":58}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":584,"column":41}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":572,"column":73}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":604,"column":41}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":592,"column":70}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":613,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":612,"column":59}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":523,"column":26}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":627,"column":43}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":620,"column":44}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":634,"column":34}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":633,"column":55}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":653,"column":53}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":641,"column":58}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":672,"column":43}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":660,"column":70}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":680,"column":13}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":679,"column":59}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":619,"column":28}
+FunctionExpression, /data/js-variants/multee/Playground/opentok-node/spec/opentok_spec.js_function_{"line":65,"column":22}
