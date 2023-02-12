@@ -1,8 +1,10 @@
 import sys
 import json
+import os
+
 # import random
 
-project = sys.argv[1]
+# project = sys.argv[1]
 # filePath = f'./Data/{project}/{project}_dependants_url.txt'
 # newFilePath = f'./Data/{project}/{project}_dependants_url_100.txt'
 
@@ -72,67 +74,63 @@ project = sys.argv[1]
 
 # newFile.close()
 
-# # calculate direct dependencies, transitive dependencies
-totalDeps = []
-extraneousDeps = []
-directDepsLen = 0
-# scan production dependencies from npm list
-def get_production_deps(dictionary):
-    for key, value in dictionary.items():
-        if key == "dependencies" and isinstance(value, dict):
-            childDict = value
-            output = list(childDict.keys())
-            for subKey, subValue in childDict.items():
-                for subSubKey, subSubValue in subValue.items():
-                    if subSubKey == "extraneous" and subSubValue == True:
-                        extraneousDeps.append(subSubKey)
-            for dep in output:
-                totalDeps.append(dep)
-            for itemKey, itemValue in childDict.items():
-                get_production_deps(itemValue)
+# # # calculate direct dependencies, transitive dependencies
+# totalDeps = []
+# extraneousDeps = []
+# directDepsLen = 0
+# # scan production dependencies from npm list
+# def get_production_deps(dictionary):
+#     for key, value in dictionary.items():
+#         if key == "dependencies" and isinstance(value, dict):
+#             childDict = value
+#             output = list(childDict.keys())
+#             for subKey, subValue in childDict.items():
+#                 for subSubKey, subSubValue in subValue.items():
+#                     if subSubKey == "extraneous" and subSubValue == True:
+#                         extraneousDeps.append(subSubKey)
+#             for dep in output:
+#                 totalDeps.append(dep)
+#             for itemKey, itemValue in childDict.items():
+#                 get_production_deps(itemValue)
 
-def get_direct_deps(dictionary):
-    if "dependencies" in dictionary.keys():
-        directDeps = list(dictionary['dependencies'])
-        # print('directDeps: ', directDeps)
-        return len(directDeps)
-    return 0
+# def get_direct_deps(dictionary):
+#     if "dependencies" in dictionary.keys():
+#         directDeps = list(dictionary['dependencies'])
+#         # print('directDeps: ', directDeps)
+#         return len(directDeps)
+#     return 0
 
-def has_test(dictionary):
-    if "scripts" in dictionary.keys():
-        scripts = list(dictionary['scripts'])
-        if "test" in scripts:
-            return True
-    return False
+# def has_test(dictionary):
+#     if "scripts" in dictionary.keys():
+#         scripts = list(dictionary['scripts'])
+#         if "test" in scripts:
+#             return True
+#     return False
 
 
-filePath_package = f'package.json'    
-f_package = open(filePath_package, encoding="utf-8")  
-packageDict = json.load(f_package)
-directDepsLen = get_direct_deps(packageDict)
+# filePath_package = f'package.json'    
+# f_package = open(filePath_package, encoding="utf-8")  
+# packageDict = json.load(f_package)
+# directDepsLen = get_direct_deps(packageDict)
 
-# hasTest = has_test(packageDict)
 
-filePath_deps = f'productionDependenciesNew.json'
-f_deps = open(filePath_deps, encoding="utf-8")
-productionDict = json.load(f_deps)
-get_production_deps(productionDict)
+# filePath_deps = f'productionDependenciesNew.json'
+# f_deps = open(filePath_deps, encoding="utf-8")
+# productionDict = json.load(f_deps)
+# get_production_deps(productionDict)
 
-extraneousDepsLen = len(extraneousDeps)
-totalDepsLen = len(totalDeps) - extraneousDepsLen
-transDepsLen = totalDepsLen - directDepsLen
-# print("extraneousDeps: ", extraneousDeps)
+# extraneousDepsLen = len(extraneousDeps)
+# totalDepsLen = len(totalDeps) - extraneousDepsLen
+# transDepsLen = totalDepsLen - directDepsLen
 
-# if (totalDepsLen >= 5) and hasTest:
-# if (totalDepsLen >= 5):
-    # line = project + ',' + str(extraneousDepsLen) + "," + str(directDepsLen) + "," + str(transDepsLen) + ',' + str(totalDepsLen) + ',' + str(hasTest) + '\n'
-# line = project + ',' + str(extraneousDepsLen) + "," + str(directDepsLen) + "," + str(transDepsLen) + ',' + str(totalDepsLen) + '\n'
-line = str(totalDepsLen) + ','
-productionDepPath = f'../../top_dependencies_updated_onlytotal.txt'
-productionsFile = open(productionDepPath, 'a')
+# if (totalDepsLen >= 5 and totalDepsLen <= 92):
+#     line = project + ',' + str(extraneousDepsLen) + "," + str(directDepsLen) + "," + str(transDepsLen) + ',' + str(totalDepsLen) + '\n'
+# # line = str(totalDepsLen) + ','
+#     productionDepPath = f'../../top_dependencies_5_92.txt'
+#     productionsFile = open(productionDepPath, 'a')
 
-productionsFile.writelines(line)
-productionsFile.close()
+#     productionsFile.writelines(line)
+#     productionsFile.close()
 
 
 # # collect productions from the dataset of the production packages
@@ -232,28 +230,28 @@ productionsFile.close()
 #         newFile.writelines(item + '\n')
 # newFile.close()
 
-# # abstract production packages
-# filePath = f'developmentCollected_deduplicated.txt'
-# newPath = f'productions_in_3000_onlyname.txt'
-# resultPath = f'developments_in_3000_onlyname.txt'
-# result2Path = f'intersections_in_3000_onlyname.txt'
+# # make up packages
+# OriginalPath = f'top_491_with_deps_5_90.txt'
+# newPath = f'top_dependencies_5_92.txt'
+# resultPath = f'top_in_original_outof_new.txt'
+# result2Path = f'top_in_new_outof_original.txt'
 
-# with open(filePath) as f:
-#     developments = f.read().splitlines()
+# with open(OriginalPath) as f:
+#     originals = f.read().splitlines()
 
 # with open(newPath) as f:
-#     productions = f.read().splitlines()
+#     news = f.read().splitlines()
 
-# intersection = list(set(developments).intersection(set(productions)))
-# difference = list(set(developments).difference(set(productions)))
+# shouldRemove = list(set(originals).difference(set(news)))
+# shouldAdd = list(set(news).difference(set(originals)))
 
 # resultFile = open(resultPath, 'a')
-# for item in difference:
+# for item in shouldRemove:
 #     resultFile.writelines(item + '\n')
 # resultFile.close()
 
 # result2File = open(result2Path, 'a')
-# for item in intersection:
+# for item in shouldAdd:
 #     result2File.writelines(item + '\n')
 # result2File.close()
 
@@ -343,3 +341,36 @@ productionsFile.close()
 
 # with open('json.txt', 'w') as json_file:
 #   json.dump(projectDict, json_file)
+
+
+# curPath = os.getcwd()
+
+# dirInData = os.listdir(curPath + '/Data')
+# # dirInPlayground = os.listdir(curPath + '/Playground')
+# print(dirInData)
+# emptyDeps = []
+
+# for item in dirInData:
+#     funcPath = 'Data/' + item + '/' + item + '_bloated_functions.txt'
+#     if not os.path.exists(funcPath):
+#         print(item)
+#         emptyDeps.append(item)
+
+# for item in emptyDeps:
+#     resultFile = open('top_target_untested_without_functions.txt', 'a')
+#     resultFile.writelines(item + '\n')
+#     resultFile.close()
+
+
+# print(os.path.getsize())
+
+with open('top_target_untested_empty.txt') as f:
+    packages = f.read().splitlines()
+
+with open('top_target_untested_without_functions.txt') as f:
+    tested = f.read().splitlines()
+
+difference = list(set(packages).difference(set(tested)))
+print(difference)
+
+

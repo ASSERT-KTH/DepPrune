@@ -146,16 +146,18 @@
 # done
 
 # re-calculate total dependencies
-path='top_dependencies_greater1.txt'
+path='top_target_untested_without_functions.txt'
 cat $path | while read rows
 do
-    echo $rows
-    cd Original
-    array=(${rows//,/ })
-    folder=${array[0]}
-    cd $folder
+    # echo $rows
+    # cd Original
+    # array=(${rows//,/ })
+    # folder=${array[0]}
+    # cd $folder
     # npm list --all --json --omit=dev >> productionDependenciesNew.json
-    python3 ../../collectRepoUrl.py $folder
-    cd ../..
+    # python3 ../../collectRepoUrl.py $folder
+    # cd ../..
+    # python3 collectAllData.py $rows
+    sh removefunctions.sh $rows
 done
 
