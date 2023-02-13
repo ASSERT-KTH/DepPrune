@@ -65,20 +65,20 @@ for nodePath in interNodes:
     depName = getDepByNode(nodePath)
     if depName in pureBloatedDeps:
         pureBloatedNodes.append(nodePath)
-print('pureBloatedNodes', pureBloatedNodes)
+# print('pureBloatedNodes', pureBloatedNodes)
 
 
-pureBloatedDepsPath = f'./Data/{project}/{project}_pure_bloated_deps.txt'
-pureBloatedDepsFile = open(pureBloatedDepsPath, 'w')
-for dep in pureBloatedDeps:
-    pureBloatedDepsFile.writelines(dep + '\n')
-pureBloatedDepsFile.close()
+# pureBloatedDepsPath = f'./Data/{project}/{project}_pure_bloated_deps.txt'
+# pureBloatedDepsFile = open(pureBloatedDepsPath, 'w')
+# for dep in pureBloatedDeps:
+#     pureBloatedDepsFile.writelines(dep + '\n')
+# pureBloatedDepsFile.close()
 
-pureBloatedNodesPath = f'./Data/{project}/{project}_pure_bloated_nodes.txt'
-pureBloatedNodesFile = open(pureBloatedNodesPath, 'w')
-for node in pureBloatedNodes:
-    pureBloatedNodesFile.writelines(node)
-pureBloatedNodesFile.close()
+# pureBloatedNodesPath = f'./Data/{project}/{project}_pure_bloated_nodes.txt'
+# pureBloatedNodesFile = open(pureBloatedNodesPath, 'w')
+# for node in pureBloatedNodes:
+#     pureBloatedNodesFile.writelines(node)
+# pureBloatedNodesFile.close()
 
 bloatedNodesOnTreePath = f'./Data/{project}/{project}_bloated_nodes_on_tree.txt'
 bloatedNodesOnTreeFile = open(bloatedNodesOnTreePath, 'w')
