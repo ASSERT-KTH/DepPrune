@@ -1,4 +1,5 @@
 
+ #!/bin/sh
 # dirs=(./Data/*/)
 # echo $dirs
 # cd $dirs
@@ -146,7 +147,7 @@
 # done
 
 # re-calculate total dependencies
-path='top_target_187.txt'
+path='top_target_175.txt'
 cat $path | while read rows
 do
     # echo $rows
@@ -157,9 +158,14 @@ do
     # npm list --all --json --omit=dev >> productionDependenciesNew.json
     # python3 ../../collectRepoUrl.py $folder
     # cd ../..
-    python3 collectRepoUrl.py $rows
+    # python3 collectRepoUrl.py $rows
     # sh countfunctions.sh $rows
     # rm -rf "Data/"$rows"/"$rows"_deps_bloated_transitive_level.txt"
     # rm -rf "Data/"$rows"/"$rows"_deps_bloated_transitive.txt"
+    filePath="Data/"$rows"/"$rows"_deps_bloated_transitive_level.txt"
+    if [ -f $filePath ] 
+    then
+        cat $filePath >> collection_transitive_level.txt
+    fi
 done
 
