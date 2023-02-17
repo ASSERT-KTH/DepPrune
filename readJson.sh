@@ -60,8 +60,6 @@ do
 
     node dep-tree.js $folderPath $entryFile
 
-    # node generate-variant.js  $folderPath $projectName $repoUrl $commit
-
     python3 generate-variant-pureDep.py $projectName
 
     node generate-variant-pureDep.js  $folderPath $projectName $repoUrl $commit

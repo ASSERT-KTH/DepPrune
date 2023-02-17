@@ -4,7 +4,7 @@ cat $path | while read rows
 do
     echo "I am package "$rows
     echo "I am package "$rows >> /dev/stderr
-    folderPath='VariantsPureDep/'$rows'/variant_functions/'$rows
+    folderPath='VariantsPureDep/'$rows'/variant_deps/'$rows
     cd $folderPath
 
     echo "************************* function based testing begins **************************"

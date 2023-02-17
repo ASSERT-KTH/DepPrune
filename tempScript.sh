@@ -159,5 +159,7 @@ do
     # cd ../..
     python3 collectRepoUrl.py $rows
     # sh countfunctions.sh $rows
+    # rm -rf "Data/"$rows"/"$rows"_deps_bloated_transitive_level.txt"
+    # rm -rf "Data/"$rows"/"$rows"_deps_bloated_transitive.txt"
 done
 

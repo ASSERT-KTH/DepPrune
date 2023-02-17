@@ -383,8 +383,8 @@ project = sys.argv[1]
 # funcRemovedPath = f'./Data/{project}/{project}_bloated_functions.txt'
 # fileBloatedPath = f'./Data/{project}/{project}_bloated_nodes_on_tree.txt'
 # fileRemovedPath = f'./Data/{project}/{project}_pure_bloated_nodes.txt'
-# depBloatedPath = f'./Data/{project}/{project}_pure_bloated_deps.txt'
-# depDirectPath = f'./Data/{project}/{project}_direct_deps.txt'
+depBloatedPath = f'./Data/{project}/{project}_pure_bloated_deps.txt'
+depDirectPath = f'./Data/{project}/{project}_direct_deps.txt'
 
 # if not os.path.exists(funcProjPath):
 #     projTotalFunctions = []
@@ -416,16 +416,17 @@ project = sys.argv[1]
 #     with open(fileRemovedPath) as f:
 #         pureBloatedFiles = f.read().splitlines()
 
-# if not os.path.exists(depBloatedPath):
-#     pureBloatedDeps = []
-# else:
-#     with open(depBloatedPath) as f:
-#         pureBloatedDeps = f.read().splitlines()
+if not os.path.exists(depBloatedPath):
+    pureBloatedDeps = []
+else:
+    with open(depBloatedPath) as f:
+        pureBloatedDeps = f.read().splitlines()
 
-# with open(depDirectPath) as f:
-#     directDeps = f.read().splitlines()
+with open(depDirectPath) as f:
+    directDeps = f.read().splitlines()
 
-# bloatedDirectDeps = list(set(pureBloatedDeps).intersection(set(directDeps)))
+bloatedDirectDeps = list(set(pureBloatedDeps).intersection(set(directDeps)))
+bloatedTransitiveDeps = list(set(pureBloatedDeps).difference(set(bloatedDirectDeps)))
 
 # projFuncLen = len(projTotalFunctions)
 # depFuncLen = len(depsTotalFunctions)
@@ -443,16 +444,30 @@ project = sys.argv[1]
 # resultFile.close()
 
 # filePath = f'./Playground/{project}/package.json' 
-# resultPath = f'./Data/{project}/{project}_direct_deps.txt'   
+resultPath = f'./Data/{project}/{project}_deps_bloated_direct.txt'
+resultPath2 = f'./Data/{project}/{project}_deps_bloated_transitive.txt'   
 # f_package = open(filePath, encoding="utf-8")  
 # packageDict = json.load(f_package)
 # directDeps = get_direct_deps(packageDict)
 
-# resultFile = open(resultPath, 'a')
-# for item in directDeps:
-#     resultFile.writelines(item + '\n')
-# resultFile.close()
 
-funcProjPath = f'./Data/{project}/{project}_bloated_nodes_on_tree.txt'
-if not os.path.exists(funcProjPath):
-    print(project)
+resultFile1 = open(resultPath, 'a')
+for item in bloatedDirectDeps:
+    resultFile1.writelines(item + '\n')
+resultFile1.close()
+
+
+resultFile2 = open(resultPath2, 'a')
+for item in bloatedTransitiveDeps:
+    resultFile2.writelines(item + '\n')
+resultFile2.close()
+
+
+# filePath = 'Playground/' + project + '/dependency-tree-list.txt'
+# if not os.path.exists(filePath):
+#     print(project, " without dependency tree")
+# else:
+#     with open(filePath) as f:
+#         depTreeNodes = f.read().splitlines()
+#     if len(depTreeNodes) == 0:
+#         print(project, " fail to generate dependency tree")
