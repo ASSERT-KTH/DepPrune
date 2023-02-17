@@ -4,12 +4,13 @@ import os
 
 project = sys.argv[1]
 
-transDepsPath = f'./Data/{project}/{project}_deps_bloated_transitive.txt'
-if not os.path.exists(transDepsPath):
-    print(project + ' has no transitive bloated deps')
+# transDepsPath = f'./Data/{project}/{project}_deps_bloated_transitive.txt'
+depsPath = f'./Data/{project}/{project}_pure_bloated_deps.txt'
+if not os.path.exists(depsPath):
+    print(project + ' has no bloated deps')
     exit()
 
-with open(transDepsPath) as f:
+with open(depsPath) as f:
     transDeps = f.read().splitlines()
 
 treePathDeps = f'./Original/{project}/productionDependenciesNew.json'
@@ -40,7 +41,7 @@ def get_depth_of_dep(dictionary, depArr):
 
 if __name__ == '__main__':
     get_depth_of_dep(productionDict, transDeps)
-    resultPath = f'./Data/{project}/{project}_deps_bloated_transitive_level.txt'  
+    resultPath = f'./Data/{project}/{project}_deps_bloated_level.txt'  
     resultFile = open(resultPath, 'a')
     for item in resultList:
         string = f"{item['name']},{item['level']}"

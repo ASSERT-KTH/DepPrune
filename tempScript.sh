@@ -158,14 +158,14 @@ do
     # npm list --all --json --omit=dev >> productionDependenciesNew.json
     # python3 ../../collectRepoUrl.py $folder
     # cd ../..
-    # python3 collectRepoUrl.py $rows
+    python3 readDepTree.py $rows
     # sh countfunctions.sh $rows
     # rm -rf "Data/"$rows"/"$rows"_deps_bloated_transitive_level.txt"
     # rm -rf "Data/"$rows"/"$rows"_deps_bloated_transitive.txt"
-    filePath="Data/"$rows"/"$rows"_deps_bloated_transitive_level.txt"
-    if [ -f $filePath ] 
-    then
-        cat $filePath >> collection_transitive_level.txt
-    fi
+    # filePath="Data/"$rows"/"$rows"_deps_bloated_transitive_level.txt"
+    # if [ -f $filePath ] 
+    # then
+    #     cat $filePath >> collection_transitive_level.txt
+    # fi
 done
 
