@@ -155,7 +155,7 @@ do
     # array=(${rows//,/ })
     # folder=${array[0]}
     # cd $folder
-    # npm list --all --json --omit=dev >> productionDependenciesNew.json
+    # npm list --all --omit=dev --json >> productionDependenciesNew.json
     # python3 ../../collectRepoUrl.py $folder
     # cd ../..
     # python3 readDepTree.py $rows
