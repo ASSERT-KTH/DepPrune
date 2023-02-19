@@ -1,0 +1,11 @@
+{
+  "problems": [
+    "error in /data/js-variants/multee/DirectBloated/ms-rest-azure-js: Failed to parse root package.json"
+  ],
+  "invalid": true,
+  "error": {
+    "code": "EJSONPARSE",
+    "summary": "Failed to parse root package.json",
+    "detail": "Failed to parse JSON data.\nNote: package.json must be actual JSON, not just JavaScript."
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "version": "6.1.1",
+  "name": "memdown",
+  "dependencies": {
+    "abstract-leveldown": {
+      "version": "7.2.0",
+      "resolved": "https://registry.npmjs.org/abstract-leveldown/-/abstract-leveldown-7.2.0.tgz",
+      "overridden": false,
+      "dependencies": {
+        "buffer": {
+          "version": "6.0.3"
+        },
+        "catering": {
+          "version": "2.1.1",
+          "resolved": "https://registry.npmjs.org/catering/-/catering-2.1.1.tgz",
+          "overridden": false
+        },
+        "is-buffer": {
+          "version": "2.0.5",
+          "resolved": "https://registry.npmjs.org/is-buffer/-/is-buffer-2.0.5.tgz",
+          "overridden": false
+        },
+        "level-concat-iterator": {
+          "version": "3.1.0",
+          "resolved": "https://registry.npmjs.org/level-concat-iterator/-/level-concat-iterator-3.1.0.tgz",
+          "overridden": false,
+          "dependencies": {
+            "catering": {
+              "version": "2.1.1"
+            }
+          }
+        },
+        "level-supports": {
+          "version": "2.1.0",
+          "resolved": "https://registry.npmjs.org/level-supports/-/level-supports-2.1.0.tgz",
+          "overridden": false
+        },
+        "queue-microtask": {
+          "version": "1.2.3",
+          "resolved": "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz",
+          "overridden": false
+        }
+      }
+    },
+    "buffer": {
+      "version": "6.0.3",
+      "resolved": "https://registry.npmjs.org/buffer/-/buffer-6.0.3.tgz",
+      "overridden": false,
+      "dependencies": {
+        "base64-js": {
+          "version": "1.5.1",
+          "resolved": "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz",
+          "overridden": false
+        },
+        "ieee754": {
+          "version": "1.2.1",
+          "resolved": "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz",
+          "overridden": false
+        }
+      }
+    },
+    "functional-red-black-tree": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz",
+      "overridden": false
+    },
+    "ltgt": {
+      "version": "2.2.1",
+      "resolved": "https://registry.npmjs.org/ltgt/-/ltgt-2.2.1.tgz",
+      "overridden": false
+    }
+  }
+}

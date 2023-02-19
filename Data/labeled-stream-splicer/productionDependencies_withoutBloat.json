@@ -1,0 +1,65 @@
+{
+  "version": "2.0.2",
+  "name": "labeled-stream-splicer",
+  "dependencies": {
+    "stream-splicer": {
+      "version": "2.0.1",
+      "resolved": "https://registry.npmjs.org/stream-splicer/-/stream-splicer-2.0.1.tgz",
+      "overridden": false,
+      "dependencies": {
+        "inherits": {
+          "version": "2.0.4",
+          "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz",
+          "overridden": false
+        },
+        "readable-stream": {
+          "version": "2.3.7",
+          "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.7.tgz",
+          "overridden": false,
+          "dependencies": {
+            "core-util-is": {
+              "version": "1.0.3",
+              "resolved": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz",
+              "overridden": false
+            },
+            "inherits": {
+              "version": "2.0.4"
+            },
+            "isarray": {
+              "version": "1.0.0",
+              "resolved": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz",
+              "overridden": false
+            },
+            "process-nextick-args": {
+              "version": "2.0.1",
+              "resolved": "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz",
+              "overridden": false
+            },
+            "safe-buffer": {
+              "version": "5.1.2",
+              "resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz",
+              "overridden": false
+            },
+            "string_decoder": {
+              "version": "1.1.1",
+              "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz",
+              "overridden": false,
+              "dependencies": {
+                "safe-buffer": {
+                  "version": "5.1.2",
+                  "resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz",
+                  "overridden": false
+                }
+              }
+            },
+            "util-deprecate": {
+              "version": "1.0.2",
+              "resolved": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz",
+              "overridden": false
+            }
+          }
+        }
+      }
+    }
+  }
+}
