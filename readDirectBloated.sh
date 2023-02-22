@@ -9,17 +9,16 @@ do
     }
     repoUrl=$(_jq '.gitURL')
     entryFile=$(_jq '.entryFile')
-    project=$(_jq '.folder')
     folderPath="DirectBloated/"$(_jq '.folder')
     dataFolderPath="Data/"$(_jq '.folder')
     projectName=$(_jq '.folder')
     commit=$(_jq '.commit')
 
-    echo $repoUrl 
-    echo $entryFile 
-    echo $folderPath 
-    echo $projectName 
-    echo $commit
+    # echo $repoUrl 
+    # echo $entryFile 
+    # echo $folderPath 
+    # echo $projectName 
+    # echo $commit
 
     # cd DirectBloated
     # mkdir $projectName
@@ -29,7 +28,7 @@ do
     
     # git clone $repoUrl $folderPath
 
-    cd $folderPath
+    # cd $folderPath
     
     # git checkout $commit
 
@@ -37,7 +36,9 @@ do
 
     # npm run test
 
-    npm list --all --omit=dev --json >> "../../Data/"$project"/productionDependencies_withoutBloat.json"
+    # npm list --all --omit=dev --json >> "../../Data/"$projectName"/productionDependencies_withoutBloat.json"
 
-    cd ../..
+    # cd ../..
+
+    python3 collectRepoUrl.py $projectName
 done

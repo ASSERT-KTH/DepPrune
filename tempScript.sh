@@ -147,7 +147,7 @@
 # done
 
 # re-calculate total dependencies
-path='top_target_175.txt'
+path='top_target_174_sorted.txt'
 cat $path | while read rows
 do
     # echo $rows
@@ -159,13 +159,13 @@ do
     # python3 ../../collectRepoUrl.py $folder
     # cd ../..
     # python3 readDepTree.py $rows
+    python3 collectRepoUrl.py $rows
     # sh countfunctions.sh $rows
     # rm -rf "Data/"$rows"/"$rows"_deps_bloated_transitive_level.txt"
-    # rm -rf "Data/"$rows"/"$rows"_deps_bloated_transitive.txt"
-    filePath="Data/"$rows"/"$rows"_deps_bloated_level.txt"
-    if [ -f $filePath ] 
-    then
-        cat $filePath >> collection_bloated_level.txt
-    fi
+    # rm -rf "Data/"$rows"/"$rows"_bloated_files_not_on_the_tree.txt"
+    # filePath="Data/"$rows"/"$rows"_deps_bloated_level.txt"
+    # if [ -f $filePath ] 
+    # then
+    #     cat $filePath >> collection_bloated_level.txt
+    # fi
 done
-

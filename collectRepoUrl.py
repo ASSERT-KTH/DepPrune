@@ -78,7 +78,7 @@ project = sys.argv[1]
 # totalDeps = []
 # extraneousDeps = []
 # directDepsLen = 0
-# # scan production dependencies from npm list
+# scan production dependencies from npm list
 # def get_production_deps(dictionary):
 #     for key, value in dictionary.items():
 #         if key == "dependencies" and isinstance(value, dict):
@@ -116,10 +116,11 @@ project = sys.argv[1]
 # directDepsLen = get_direct_deps(packageDict)
 
 
-# filePath_deps = f'productionDependenciesNew.json'
+# filePath_deps = f'./Data/{project}/productionDependencies_withoutBloat.json'
 # f_deps = open(filePath_deps, encoding="utf-8")
 # productionDict = json.load(f_deps)
 # get_production_deps(productionDict)
+# print(project, ',', len(totalDeps))
 
 # extraneousDepsLen = len(extraneousDeps)
 # totalDepsLen = len(totalDeps) - extraneousDepsLen
@@ -474,5 +475,43 @@ project = sys.argv[1]
 
 
 
-# Collect the level of bloated dependencies
-filePath = f'./Data/{project}/{project}_deps_bloated_transitive_level.txt'
+# Collect the bloated files that are not on the dependency tree
+# filePath1 = f'./Playground/{project}/dependency-tree-list.txt'
+# filePath2 = f'./Playground/{project}/unused-files.txt'
+
+# if os.path.exists(filePath1):
+#     with open(filePath1) as f:
+#         onTheList = f.read().splitlines()
+# else:
+#     print(project, "has no dep tree list")
+#     onTheList = []
+
+# if os.path.exists(filePath2):
+#     with open(filePath2) as f:
+#         bloatedFiles = f.read().splitlines()
+# else:
+#     print(project, "has no bloated files")
+#     bloatedFiles = []
+
+# difference = list(set(bloatedFiles).difference(set(onTheList)))
+
+# resultPath = f'./Data/{project}/{project}_bloated_files_not_on_the_tree.txt'
+# resultFile = open(resultPath, 'a')
+# for item in difference:
+#     resultFile.writelines(item + '\n')
+# resultFile.close()
+
+# Collect num of bloated files not listed on the tree:
+filePath1 = f'./Data/{project}/{project}_bloated_files_not_on_the_tree.txt'
+if os.path.exists(filePath1):
+    with open(filePath1) as f:
+        onTheList = f.read().splitlines()
+else:
+    print(project, "has no such file")
+    onTheList = []
+
+item = project + ',' + str(len(onTheList)) + '\n'
+resultPath = f'top_target_174_unused_bloated.txt'
+resultFile = open(resultPath, 'a')
+resultFile.writelines(item)
+resultFile.close()
