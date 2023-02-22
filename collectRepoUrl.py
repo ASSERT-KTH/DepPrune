@@ -510,8 +510,14 @@ else:
     print(project, "has no such file")
     onTheList = []
 
-item = project + ',' + str(len(onTheList)) + '\n'
-resultPath = f'top_target_174_unused_bloated.txt'
+filtered = []
+
+for item in onTheList:
+    if "/node_modules/" in item:
+        filtered.append(item)
+
+item = project + ',' + str(len(filtered)) + '\n'
+resultPath = f'top_target_174_unused_bloated_in_deps.txt'
 resultFile = open(resultPath, 'a')
 resultFile.writelines(item)
 resultFile.close()
