@@ -501,17 +501,28 @@ project = sys.argv[1]
 #     resultFile.writelines(item + '\n')
 # resultFile.close()
 
-# Collect num of bloated files not listed on the tree:
-filePath1 = f'./Data/{project}/{project}_bloated_files_not_on_the_tree.txt'
-if os.path.exists(filePath1):
-    with open(filePath1) as f:
-        onTheList = f.read().splitlines()
-else:
-    print(project, "has no such file")
-    onTheList = []
+# # Collect num of bloated files not listed on the tree:
+# filePath1 = f'./Data/{project}/{project}_bloated_files_not_on_the_tree.txt'
+# if os.path.exists(filePath1):
+#     with open(filePath1) as f:
+#         onTheList = f.read().splitlines()
+# else:
+#     print(project, "has no such file")
+#     onTheList = []
 
-item = project + ',' + str(len(onTheList)) + '\n'
-resultPath = f'top_target_174_unused_bloated.txt'
-resultFile = open(resultPath, 'a')
-resultFile.writelines(item)
-resultFile.close()
+# item = project + ',' + str(len(onTheList)) + '\n'
+# resultPath = f'top_target_174_unused_bloated.txt'
+# resultFile = open(resultPath, 'a')
+# resultFile.writelines(item)
+# resultFile.close()
+
+
+# Collect projects with bloated transitive dependencies who have unbloated sublings
+filePath = f'./Data/{project}/{project}_deps_bloated_level_with_leaf.txt'
+with open(filePath) as f:
+    depList = f.read().splitlines()
+
+for item in depList:
+    itemArr = item.split(',')
+    if itemArr[1] != '1' and itemArr[2] == 'False':
+        print(project + ',' + item)

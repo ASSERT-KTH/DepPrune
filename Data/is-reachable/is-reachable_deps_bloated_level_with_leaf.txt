@@ -1,0 +1,14 @@
+cacheable-lookup,2,True
+cacheable-request,2,True
+clone-response,3,False
+get-stream,3,False
+http-cache-semantics,3,True
+keyv,3,True
+json-buffer,4,True
+lowercase-keys,2,True
+normalize-url,3,True
+responselike,2,True
+resolve-alpn,3,True
+aggregate-error,3,False
+clean-stack,4,True
+querystringify,2,True
