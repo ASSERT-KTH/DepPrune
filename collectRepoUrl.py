@@ -526,3 +526,23 @@ for item in depList:
     itemArr = item.split(',')
     if itemArr[1] != '1' and itemArr[2] == 'False':
         print(project + ',' + item)
+# Collect num of bloated files not listed on the tree:
+filePath1 = f'./Data/{project}/{project}_bloated_files_not_on_the_tree.txt'
+if os.path.exists(filePath1):
+    with open(filePath1) as f:
+        onTheList = f.read().splitlines()
+else:
+    print(project, "has no such file")
+    onTheList = []
+
+filtered = []
+
+for item in onTheList:
+    if "/node_modules/" in item:
+        filtered.append(item)
+
+item = project + ',' + str(len(filtered)) + '\n'
+resultPath = f'top_target_174_unused_bloated_in_deps.txt'
+resultFile = open(resultPath, 'a')
+resultFile.writelines(item)
+resultFile.close()
