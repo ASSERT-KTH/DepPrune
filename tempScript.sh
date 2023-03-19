@@ -147,18 +147,20 @@
 # done
 
 # re-calculate total dependencies
-path='top_target_43_without_bloated.txt'
+path='top_target_174_sorted.txt'
 cat $path | while read rows
 do
-    # echo $rows
-    # cd Original
+    echo "I am package "$rows" ....."
+    cd Original
     # array=(${rows//,/ })
     # folder=${array[0]}
     # cd $folder
+    cd $rows
+    depcheck
     # npm list --all --omit=dev --json >> productionDependenciesNew.json
     # python3 ../../collectRepoUrl.py $folder
-    # cd ../..
-    python3 readDepTree.py $rows
+    cd ../..
+    # python3 readDepTree.py $rows
     # python3 collectRepoUrl.py $rows
     # sh countfunctions.sh $rows
     # rm -rf "Data/"$rows"/"$rows"_deps_bloated_transitive_level.txt"
@@ -168,4 +170,5 @@ do
     # then
     #     cat $filePath >> collection_bloated_level.txt
     # fi
+
 done
