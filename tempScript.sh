@@ -147,19 +147,27 @@
 # done
 
 # re-calculate total dependencies
-path='top_target_174_sorted.txt'
+path='top_target_174_sorted_copy.txt'
 cat $path | while read rows
 do
     echo "I am package "$rows" ....."
-    cd Original
+    cd VariantsPureDep
     # array=(${rows//,/ })
     # folder=${array[0]}
     # cd $folder
     cd $rows
-    depcheck
+    cd mininode_fine
+    echo "I am running "$rows" in mininode_fine"
+    echo "I am running "$rows" in mininode_fine" >> /dev/stderr
+    npm run test
+    cd ..
+    cd mininode_coarse
+    echo "I am running "$rows" in mininode_coarse"
+    echo "I am running "$rows" in mininode_coarse" >> /dev/stderr
+    npm run test
     # npm list --all --omit=dev --json >> productionDependenciesNew.json
     # python3 ../../collectRepoUrl.py $folder
-    cd ../..
+    cd ../../..
     # python3 readDepTree.py $rows
     # python3 collectRepoUrl.py $rows
     # sh countfunctions.sh $rows
