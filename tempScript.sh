@@ -147,36 +147,38 @@
 # done
 
 # re-calculate total dependencies
-path='top_target_174_sorted_copy.txt'
+path='top_136.txt'
 cat $path | while read rows
 do
-    echo "I am package "$rows" ....."
-    cd VariantsPureDep
+    # echo "I am package "$rows" ....."
+    # cd VariantsPureDep
+    # cd Data
     # array=(${rows//,/ })
     # folder=${array[0]}
     # cd $folder
-    cd $rows
-    cd mininode_fine
-    echo "I am running "$rows" in mininode_fine"
-    echo "I am running "$rows" in mininode_fine" >> /dev/stderr
-    npm run test
-    cd ..
-    cd mininode_coarse
-    echo "I am running "$rows" in mininode_coarse"
-    echo "I am running "$rows" in mininode_coarse" >> /dev/stderr
-    npm run test
+    # cd $rows
+    # cd mininode_fine
+    # echo "I am running "$rows" in mininode_fine"
+    # echo "I am running "$rows" in mininode_fine" >> /dev/stderr
+    # npm run test
+    # cd ..
+    # cd mininode_coarse
+    # echo "I am running "$rows" in mininode_coarse"
+    # echo "I am running "$rows" in mininode_coarse" >> /dev/stderr
+    # npm run test
     # npm list --all --omit=dev --json >> productionDependenciesNew.json
     # python3 ../../collectRepoUrl.py $folder
-    cd ../../..
+    # cd ../../..
+    # python3 parseJson.py $folder
     # python3 readDepTree.py $rows
     # python3 collectRepoUrl.py $rows
     # sh countfunctions.sh $rows
     # rm -rf "Data/"$rows"/"$rows"_deps_bloated_transitive_level.txt"
     # rm -rf "Data/"$rows"/"$rows"_bloated_files_not_on_the_tree.txt"
-    # filePath="Data/"$rows"/"$rows"_deps_bloated_level.txt"
-    # if [ -f $filePath ] 
-    # then
-    #     cat $filePath >> collection_bloated_level.txt
-    # fi
+    filePath="Data/"$rows"/"$rows"_deps_bloated_level_with_leaf.txt"
+    if [ -f $filePath ] 
+    then
+        cat $filePath >> collection_bloated_level_with_leaf.txt
+    fi
 
 done

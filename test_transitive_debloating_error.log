@@ -3483,3 +3483,963 @@ dependency tree after excluding transitives
 I am package nodejs-file-downloader .......
 dependency tree before excluding transitives
 dependency tree after excluding transitives
+I am package nodejs-bigquery .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module 'is-stream'
+Require stack:
+- /data/js-variants/multee/VariantsPureDep/nodejs-bigquery/variant_deps/nodejs-bigquery/node_modules/execa/lib/stream.js
+- /data/js-variants/multee/VariantsPureDep/nodejs-bigquery/variant_deps/nodejs-bigquery/node_modules/execa/index.js
+- /data/js-variants/multee/VariantsPureDep/nodejs-bigquery/variant_deps/nodejs-bigquery/node_modules/gts/build/src/cli.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/nodejs-bigquery/variant_deps/nodejs-bigquery/node_modules/execa/lib/stream.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/VariantsPureDep/nodejs-bigquery/variant_deps/nodejs-bigquery/node_modules/execa/lib/stream.js',
+    '/data/js-variants/multee/VariantsPureDep/nodejs-bigquery/variant_deps/nodejs-bigquery/node_modules/execa/index.js',
+    '/data/js-variants/multee/VariantsPureDep/nodejs-bigquery/variant_deps/nodejs-bigquery/node_modules/gts/build/src/cli.js'
+  ]
+}
+I am package ms-rest-azure-js .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module 'uuid/v4'
+Require stack:
+- /data/js-variants/multee/VariantsPureDep/ms-rest-azure-js/variant_deps/ms-rest-azure-js/node_modules/nyc/index.js
+- /data/js-variants/multee/VariantsPureDep/ms-rest-azure-js/variant_deps/ms-rest-azure-js/node_modules/nyc/bin/nyc.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/ms-rest-azure-js/variant_deps/ms-rest-azure-js/node_modules/nyc/index.js:24:14)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/VariantsPureDep/ms-rest-azure-js/variant_deps/ms-rest-azure-js/node_modules/nyc/index.js',
+    '/data/js-variants/multee/VariantsPureDep/ms-rest-azure-js/variant_deps/ms-rest-azure-js/node_modules/nyc/bin/nyc.js'
+  ]
+}
+ERROR: "test:unit" exited with 1.
+I am package nodejs-storage .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+
+Error: Cannot find module 'buffer-equal-constant-time'
+Require stack:
+- /data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/jwa/index.js
+- /data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/jws/lib/sign-stream.js
+- /data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/jws/index.js
+- /data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/gtoken/build/src/index.js
+- /data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/google-auth-library/build/src/auth/jwtclient.js
+- /data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/google-auth-library/build/src/auth/googleauth.js
+- /data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/google-auth-library/build/src/index.js
+- /data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/build/src/nodejs-common/util.js
+- /data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/build/src/nodejs-common/service.js
+- /data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/build/src/nodejs-common/index.js
+- /data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/build/test/acl.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/jwa/index.js:1:19)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/jws/lib/sign-stream.js:4:11)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/jws/index.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/gtoken/build/src/index.js:12:13)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/google-auth-library/build/src/auth/jwtclient.js:17:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/google-auth-library/build/src/auth/googleauth.js:27:21)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/google-auth-library/build/src/index.js:17:22)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/src/nodejs-common/util.ts:27:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/src/nodejs-common/service.ts:22:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/src/nodejs-common/index.ts:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/test/acl.ts:15:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:170:29)
+    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:533:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:438:15)
+    at async formattedImport (/data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/mocha/lib/nodejs/esm-utils.js:7:14)
+    at async Object.exports.requireOrImport (/data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/mocha/lib/nodejs/esm-utils.js:48:32)
+    at async Object.exports.loadFilesAsync (/data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/mocha/lib/nodejs/esm-utils.js:103:20)
+    at async singleRun (/data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/mocha/lib/cli/run-helpers.js:125:3)
+    at async Object.exports.handler (/data/js-variants/multee/VariantsPureDep/nodejs-storage/variant_deps/nodejs-storage/node_modules/mocha/lib/cli/run.js:374:5)
+I am package matrix .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module 'const-max-uint32'
+Require stack:
+- /data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/node_modules/validate.io-array-like/lib/index.js
+- /data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/node_modules/dstructs-cast-arrays/lib/index.js
+- /data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/lib/tojson.js
+- /data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/lib/ctor.js
+- /data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/test/test.ctor.js
+- /data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/node_modules/mocha/index.js
+- /data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/node_modules/mocha/bin/_mocha
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/node_modules/validate.io-array-like/lib/index.js:10:11)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/node_modules/dstructs-cast-arrays/lib/index.js:5:17)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/lib/tojson.js:5:12)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/lib/ctor.js:102:27)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/test/test.ctor.js:8:9)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/node_modules/mocha/lib/mocha.js:220:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/node_modules/mocha/lib/mocha.js:217:14)
+    at Mocha.run (/data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/node_modules/mocha/lib/mocha.js:469:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/node_modules/mocha/bin/_mocha:404:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/node_modules/validate.io-array-like/lib/index.js',
+    '/data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/node_modules/dstructs-cast-arrays/lib/index.js',
+    '/data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/lib/tojson.js',
+    '/data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/lib/ctor.js',
+    '/data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/test/test.ctor.js',
+    '/data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/node_modules/mocha/index.js',
+    '/data/js-variants/multee/VariantsPureDep/matrix/variant_deps/matrix/node_modules/mocha/bin/_mocha'
+  ]
+}
+I am package jsdoc-api .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+I am package node-deep-equal .......
+dependency tree before excluding transitives
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/data/js-variants/multee/VariantsPureDep/node-deep-equal/variant_deps/node-deep-equal/package-lock.json'
+    at Object.openSync (node:fs:594:3)
+    at Object.readFileSync (node:fs:462:35)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/node-deep-equal/variant_deps/node-deep-equal/node_modules/npm-dependency-exclusion/dist/index.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/data/js-variants/multee/VariantsPureDep/node-deep-equal/variant_deps/node-deep-equal/package-lock.json'
+}
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/data/js-variants/multee/VariantsPureDep/node-deep-equal/variant_deps/node-deep-equal/package-lock.json'
+    at Object.openSync (node:fs:594:3)
+    at Object.readFileSync (node:fs:462:35)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/node-deep-equal/variant_deps/node-deep-equal/node_modules/npm-dependency-exclusion/dist/index.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/data/js-variants/multee/VariantsPureDep/node-deep-equal/variant_deps/node-deep-equal/package-lock.json'
+}
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/data/js-variants/multee/VariantsPureDep/node-deep-equal/variant_deps/node-deep-equal/package-lock.json'
+    at Object.openSync (node:fs:594:3)
+    at Object.readFileSync (node:fs:462:35)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/node-deep-equal/variant_deps/node-deep-equal/node_modules/npm-dependency-exclusion/dist/index.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/data/js-variants/multee/VariantsPureDep/node-deep-equal/variant_deps/node-deep-equal/package-lock.json'
+}
+dependency tree after excluding transitives
+(node:191458) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+npm WARN config production Use `--omit=dev` instead.
+I am package stream-splicer .......
+dependency tree before excluding transitives
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/data/js-variants/multee/VariantsPureDep/stream-splicer/variant_deps/stream-splicer/package-lock.json'
+    at Object.openSync (node:fs:594:3)
+    at Object.readFileSync (node:fs:462:35)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/stream-splicer/variant_deps/stream-splicer/node_modules/npm-dependency-exclusion/dist/index.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/data/js-variants/multee/VariantsPureDep/stream-splicer/variant_deps/stream-splicer/package-lock.json'
+}
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/data/js-variants/multee/VariantsPureDep/stream-splicer/variant_deps/stream-splicer/package-lock.json'
+    at Object.openSync (node:fs:594:3)
+    at Object.readFileSync (node:fs:462:35)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/stream-splicer/variant_deps/stream-splicer/node_modules/npm-dependency-exclusion/dist/index.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/data/js-variants/multee/VariantsPureDep/stream-splicer/variant_deps/stream-splicer/package-lock.json'
+}
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/data/js-variants/multee/VariantsPureDep/stream-splicer/variant_deps/stream-splicer/package-lock.json'
+    at Object.openSync (node:fs:594:3)
+    at Object.readFileSync (node:fs:462:35)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/stream-splicer/variant_deps/stream-splicer/node_modules/npm-dependency-exclusion/dist/index.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/data/js-variants/multee/VariantsPureDep/stream-splicer/variant_deps/stream-splicer/package-lock.json'
+}
+dependency tree after excluding transitives
+I am package labeled-stream-splicer .......
+dependency tree before excluding transitives
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/data/js-variants/multee/VariantsPureDep/labeled-stream-splicer/variant_deps/labeled-stream-splicer/package-lock.json'
+    at Object.openSync (node:fs:594:3)
+    at Object.readFileSync (node:fs:462:35)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/labeled-stream-splicer/variant_deps/labeled-stream-splicer/node_modules/npm-dependency-exclusion/dist/index.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/data/js-variants/multee/VariantsPureDep/labeled-stream-splicer/variant_deps/labeled-stream-splicer/package-lock.json'
+}
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/data/js-variants/multee/VariantsPureDep/labeled-stream-splicer/variant_deps/labeled-stream-splicer/package-lock.json'
+    at Object.openSync (node:fs:594:3)
+    at Object.readFileSync (node:fs:462:35)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/labeled-stream-splicer/variant_deps/labeled-stream-splicer/node_modules/npm-dependency-exclusion/dist/index.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/data/js-variants/multee/VariantsPureDep/labeled-stream-splicer/variant_deps/labeled-stream-splicer/package-lock.json'
+}
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/data/js-variants/multee/VariantsPureDep/labeled-stream-splicer/variant_deps/labeled-stream-splicer/package-lock.json'
+    at Object.openSync (node:fs:594:3)
+    at Object.readFileSync (node:fs:462:35)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/labeled-stream-splicer/variant_deps/labeled-stream-splicer/node_modules/npm-dependency-exclusion/dist/index.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/data/js-variants/multee/VariantsPureDep/labeled-stream-splicer/variant_deps/labeled-stream-splicer/package-lock.json'
+}
+dependency tree after excluding transitives
+I am package regex-not .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module 'is-extendable'
+Require stack:
+- /data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/node_modules/extend-shallow/index.js
+- /data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/index.js
+- /data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/test.js
+- /data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/node_modules/mocha/index.js
+- /data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/node_modules/mocha/bin/_mocha
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/node_modules/extend-shallow/index.js:3:20)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/index.js:3:14)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/test.js:5:11)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/node_modules/mocha/lib/mocha.js:231:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/node_modules/mocha/lib/mocha.js:228:14)
+    at Mocha.run (/data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/node_modules/mocha/lib/mocha.js:514:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/node_modules/mocha/bin/_mocha:480:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/node_modules/extend-shallow/index.js',
+    '/data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/index.js',
+    '/data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/test.js',
+    '/data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/node_modules/mocha/index.js',
+    '/data/js-variants/multee/VariantsPureDep/regex-not/variant_deps/regex-not/node_modules/mocha/bin/_mocha'
+  ]
+}
+I am package to-regex .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module 'is-accessor-descriptor'
+Require stack:
+- /data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/node_modules/is-descriptor/index.js
+- /data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/node_modules/define-property/index.js
+- /data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/index.js
+- /data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/test.js
+- /data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/node_modules/mocha/lib/mocha.js
+- /data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/node_modules/mocha/index.js
+- /data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/node_modules/mocha/bin/_mocha
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/node_modules/is-descriptor/index.js:11:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/node_modules/define-property/index.js:11:20)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/index.js:4:14)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/test.js:5:15)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/node_modules/mocha/lib/mocha.js:231:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/node_modules/mocha/lib/mocha.js:228:14)
+    at Mocha.run (/data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/node_modules/mocha/lib/mocha.js:514:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/node_modules/mocha/bin/_mocha:480:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/node_modules/is-descriptor/index.js',
+    '/data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/node_modules/define-property/index.js',
+    '/data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/index.js',
+    '/data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/test.js',
+    '/data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/node_modules/mocha/lib/mocha.js',
+    '/data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/node_modules/mocha/index.js',
+    '/data/js-variants/multee/VariantsPureDep/to-regex/variant_deps/to-regex/node_modules/mocha/bin/_mocha'
+  ]
+}
+I am package easy-soap-request .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+I am package node-util .......
+dependency tree before excluding transitives
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/data/js-variants/multee/VariantsPureDep/node-util/variant_deps/node-util/package-lock.json'
+    at Object.openSync (node:fs:594:3)
+    at Object.readFileSync (node:fs:462:35)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/node-util/variant_deps/node-util/node_modules/npm-dependency-exclusion/dist/index.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/data/js-variants/multee/VariantsPureDep/node-util/variant_deps/node-util/package-lock.json'
+}
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/data/js-variants/multee/VariantsPureDep/node-util/variant_deps/node-util/package-lock.json'
+    at Object.openSync (node:fs:594:3)
+    at Object.readFileSync (node:fs:462:35)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/node-util/variant_deps/node-util/node_modules/npm-dependency-exclusion/dist/index.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/data/js-variants/multee/VariantsPureDep/node-util/variant_deps/node-util/package-lock.json'
+}
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/data/js-variants/multee/VariantsPureDep/node-util/variant_deps/node-util/package-lock.json'
+    at Object.openSync (node:fs:594:3)
+    at Object.readFileSync (node:fs:462:35)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/node-util/variant_deps/node-util/node_modules/npm-dependency-exclusion/dist/index.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/data/js-variants/multee/VariantsPureDep/node-util/variant_deps/node-util/package-lock.json'
+}
+dependency tree after excluding transitives
+(node:192540) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+I am package eslint-formatter-pretty .......
+dependency tree before excluding transitives
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/data/js-variants/multee/VariantsPureDep/eslint-formatter-pretty/variant_deps/eslint-formatter-pretty/package-lock.json'
+    at Object.openSync (node:fs:594:3)
+    at Object.readFileSync (node:fs:462:35)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/eslint-formatter-pretty/variant_deps/eslint-formatter-pretty/node_modules/npm-dependency-exclusion/dist/index.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/data/js-variants/multee/VariantsPureDep/eslint-formatter-pretty/variant_deps/eslint-formatter-pretty/package-lock.json'
+}
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/data/js-variants/multee/VariantsPureDep/eslint-formatter-pretty/variant_deps/eslint-formatter-pretty/package-lock.json'
+    at Object.openSync (node:fs:594:3)
+    at Object.readFileSync (node:fs:462:35)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/eslint-formatter-pretty/variant_deps/eslint-formatter-pretty/node_modules/npm-dependency-exclusion/dist/index.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/data/js-variants/multee/VariantsPureDep/eslint-formatter-pretty/variant_deps/eslint-formatter-pretty/package-lock.json'
+}
+node:internal/fs/utils:347
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open '/data/js-variants/multee/VariantsPureDep/eslint-formatter-pretty/variant_deps/eslint-formatter-pretty/package-lock.json'
+    at Object.openSync (node:fs:594:3)
+    at Object.readFileSync (node:fs:462:35)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/eslint-formatter-pretty/variant_deps/eslint-formatter-pretty/node_modules/npm-dependency-exclusion/dist/index.js:6:28)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/data/js-variants/multee/VariantsPureDep/eslint-formatter-pretty/variant_deps/eslint-formatter-pretty/package-lock.json'
+}
+dependency tree after excluding transitives
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             no-warning-comments
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             @typescript-eslint/no-unused-vars
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:18:2
+  ⚠   8:2  Unexpected todo comment.             no-warning-comments
+  ✖  18:2  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/test.js:1:1
+  ✖   1:1  AVA should be imported as test.      ava/use-test
+
+  3 warnings
+  2 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             no-warning-comments
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             @typescript-eslint/no-unused-vars
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:18:2
+  ⚠   8:2  Unexpected todo comment.             no-warning-comments
+  ✖  18:2  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/test.js:1:1
+  ✖   1:1  AVA should be imported as test.      ava/use-test
+
+  3 warnings
+  2 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             no-warning-comments
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             @typescript-eslint/no-unused-vars
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:18:2
+  ⚠   8:2  Unexpected todo comment.             no-warning-comments
+  ✖  18:2  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/test.js:1:1
+  ✖   1:1  AVA should be imported as test.      ava/use-test
+
+  3 warnings
+  2 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js
+  ⚠  Unexpected todo comment.             no-warning-comments
+  ✖  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/test.js
+  ✖  AVA should be imported as test.      ava/use-test
+
+  1 warning
+  2 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:18:2
+  ⚠   0:0  Unexpected todo comment.             no-warning-comments
+  ✖  18:2  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/test.js:1:1
+  ✖   1:1  AVA should be imported as test.      ava/use-test
+
+  1 warning
+  2 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             ]8;;https://eslint.org/docs/rules/no-warning-commentsno-warning-comments]8;;
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             @typescript-eslint/no-unused-vars
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:18:2
+  ⚠   8:2  Unexpected todo comment.             ]8;;https://eslint.org/docs/rules/no-warning-commentsno-warning-comments]8;;
+  ✖  18:2  More than 1 blank line not allowed.  ]8;;https://eslint.org/docs/rules/no-multiple-empty-linesno-multiple-empty-lines]8;;
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/test.js:1:1
+  ✖   1:1  AVA should be imported as test.      ]8;;https://github.com/avajs/eslint-plugin-ava/blob/main/docs/rules/use-test.mdava/use-test]8;;
+
+  3 warnings
+  2 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:3:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ⚠  10:2  Unexpected todo comment.             no-warning-comments
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  30:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  40:5  i is defined but never used.         no-unused-vars
+  ✖  40:8  j is defined but never used.         no-unused-vars
+
+  2 warnings
+  4 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:3:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ⚠  10:2  Unexpected todo comment.             no-warning-comments
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  30:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  40:5  i is defined but never used.         no-unused-vars
+  ✖  40:8  j is defined but never used.         no-unused-vars
+
+  2 warnings
+  4 errors
+
+
+  0-error.1-warning.js:1:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+
+  3-error.0-warning.js:3:1
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  30:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  40:5  i is defined but never used.         no-unused-vars
+
+  2-error.2-warning.js:3:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ⚠  10:2  Unexpected todo comment.             no-warning-comments
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  30:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  1-error.0-warning.js:3:1
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  3 warnings
+  6 errors
+
+
+  0-error.3-warning.js:1:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ⚠  10:2  Unexpected todo comment.             no-warning-comments
+  ⚠  15:2  Unexpected todo comment.             no-warning-comments
+
+  0-error.2-warning.js:1:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ⚠  10:2  Unexpected todo comment.             no-warning-comments
+
+  0-error.1-warning.js:1:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+
+  2-error.2-warning.js:3:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ⚠  10:2  Unexpected todo comment.             no-warning-comments
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  30:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  2-error.1-warning.js:3:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  30:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  1-error.2-warning.js:3:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ⚠  10:2  Unexpected todo comment.             no-warning-comments
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  1-error.1-warning.js:3:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  1-error.0-warning.js:3:1
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  12 warnings
+  7 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             ]8;;https://eslint.org/docs/rules/test/no-warning-commentsno-warning-comments]8;;
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             @typescript-eslint/no-unused-vars
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:18:2
+  ⚠   8:2  Unexpected todo comment.             ]8;;https://eslint.org/docs/rules/test/no-warning-commentsno-warning-comments]8;;
+  ✖  18:2  More than 1 blank line not allowed.  ]8;;https://eslint.org/docs/rules/no-multiple-empty-linesno-multiple-empty-lines]8;;
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/test.js:1:1
+  ✖   1:1  AVA should be imported as test.      ]8;;https://github.com/avajs/eslint-plugin-ava/blob/main/docs/rules/use-test.mdava/use-test]8;;
+
+  3 warnings
+  2 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             ]8;;https://eslint.org/docs/rules/test/no-warning-commentsno-warning-comments]8;;
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             @typescript-eslint/no-unused-vars
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:18:2
+  ⚠   8:2  Unexpected todo comment.             ]8;;https://eslint.org/docs/rules/test/no-warning-commentsno-warning-comments]8;;
+  ✖  18:2  More than 1 blank line not allowed.  ]8;;https://eslint.org/docs/rules/no-multiple-empty-linesno-multiple-empty-lines]8;;
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/test.js:1:1
+  ✖   1:1  AVA should be imported as test.      ]8;;https://github.com/avajs/eslint-plugin-ava/blob/main/docs/rules/use-test.mdava/use-test]8;;
+
+  3 warnings
+  2 errors
+
+I am package iterator-stream .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+I am package subleveldown .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+I am package morgan .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+I am package parser-js .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+(node:194294) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:194461) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error: Command failed with exit code 2: mocha --timeout 20000 test/browser_test.js
+    at makeError (/data/js-variants/multee/VariantsPureDep/parser-js/variant_deps/parser-js/node_modules/execa/lib/error.js:60:11)
+    at handlePromise (/data/js-variants/multee/VariantsPureDep/parser-js/variant_deps/parser-js/node_modules/execa/index.js:118:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  shortMessage: 'Command failed with exit code 2: mocha --timeout 20000 test/browser_test.js',
+  command: 'mocha --timeout 20000 test/browser_test.js',
+  escapedCommand: '"mocha --timeout 20000 test/browser_test.js"',
+  exitCode: 2,
+  signal: undefined,
+  signalDescription: undefined,
+  stdout: undefined,
+  stderr: undefined,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  killed: false
+}
+I am package pretty .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+I am package right-align .......
+dependency tree before excluding transitives
+npm ERR! code ELSPROBLEMS
+npm ERR! missing: is-buffer@^1.1.5, required by kind-of@3.2.2
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-03-30T13_02_44_017Z-debug-0.log
+dependency tree after excluding transitives
+I am package session .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+I am package deferred-leveldown .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+standard: Use JavaScript Standard Style (https://standardjs.com)
+standard: Some warnings are present which will be errors in the next version (https://standardjs.com)
+standard: Run `standard --fix` to automatically fix some problems.
+I am package encoding-down .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+standard: Use JavaScript Standard Style (https://standardjs.com)
+standard: Some warnings are present which will be errors in the next version (https://standardjs.com)
+standard: Run `standard --fix` to automatically fix some problems.
+I am package memdown .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
+standard: Use JavaScript Standard Style (https://standardjs.com)
+standard: Some warnings are present which will be errors in the next version (https://standardjs.com)
+standard: Run `standard --fix` to automatically fix some problems.
+I am package taskgroup .......
+dependency tree before excluding transitives
+dependency tree after excluding transitives
