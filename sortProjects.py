@@ -1,8 +1,8 @@
 import sys
 import os
 
-filePath = f'top_target_174.txt'
-newFilePath = f'top_target_174_sorted.txt'
+filePath = f'top_136.txt'
+newFilePath = f'top_136_sorted.txt'
 
 with open(filePath) as f:
     lines = f.read().splitlines()

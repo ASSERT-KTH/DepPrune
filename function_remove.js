@@ -18,7 +18,7 @@ const depIndex = nmIndex + 1
 const depFileName = fileNameArr.slice(depIndex).join('/')
 
 function removeUFF(node) {
-    const insertString = `lyx`
+    const insertString = `console.log('empty function')`
     const insertAst = recast.parse(insertString).program.body[0]
     node.body.body = []
     node.body.body.unshift(insertAst)
