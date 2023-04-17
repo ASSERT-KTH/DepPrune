@@ -153,11 +153,11 @@ do
     echo "I am package "$rows" ....."
     echo "I am package "$rows" ....." >> /dev/stderr
     # cd Data
-    # cd VariantsPureDep
+    cd VariantsPureDep
     # array=(${rows//,/ })
     # folder=${array[0]}
     # cd $folder
-    # cd $rows
+    cd $rows
     # cat /dev/null > "Data/"$rows"/"$rows"_bloated_functions.txt"
     # cd mininode_fine
     # echo "I am running "$rows" in mininode_fine"
@@ -168,17 +168,17 @@ do
     # echo "I am running "$rows" in mininode_coarse"
     # echo "I am running "$rows" in mininode_coarse" >> /dev/stderr
     # npm run test
-    # cd variant_functions
-    # cd $rows
-    # npm run test
+    cd variant_functions
+    cd $rows
+    npm run test
     # npm list --all --omit=dev --json >> productionDependenciesNew.json
     # python3 ../../collectRepoUrl.py $folder
-    # cd ../../../..
+    cd ../../../..
     # python3 parseJson.py $folder
     # python3 readDepTree.py $rows
     # python3 collectRepoUrl.py $rows
     # sh countfunctions.sh $rows
-    sh removefunctions.sh $rows
+    # sh removefunctions.sh $rows
     # rm -rf "Data/"$rows"/"$rows"_deps_bloated_transitive_level.txt"
     # rm -rf "Data/"$rows"/"$rows"_bloated_files_not_on_the_tree.txt"
     # filePath="Data/"$rows"/"$rows"_deps_bloated_level_with_leaf.txt"

@@ -1,0 +1,1622 @@
+I am package HummusJS .....
+I am package Shopify-api-node .....
+I am package aedes .....
+I am package alexa-app .....
+Card object is missing required attr "content"
+Card object is missing required attr "type"
+If card.image is defined, must specify at least smallImageUrl or largeImageUrl
+missing request type: { x: 1 }
+missing request type: { x: 1 }
+missing request type: { x: 1 }
+missing request type: { x: 1 }
+missing request type: { x: 1 }
+missing request type: {}
+Unhandled exception: SOME ERROR.
+missing request type: {}
+missing request type: {}
+missing request type: {}
+missing request type: {}
+missing request type: {}
+I am package arraybuffer-loader .....
+ERROR: "test-browser" exited with 1.
+I am package base .....
+I am package bash-match .....
+I am package binary-mirror-config .....
+[binary-init-config] binary mirror init timeout.
+I am package bitcoinjs-lib .....
+
+RangeError: The value of "offset" is out of range. It must be an integer. Received NaN
+    at new NodeError (node:internal/errors:387:5)
+    at boundsError (node:internal/buffer:80:11)
+    at Buffer.readUInt32LE (node:internal/buffer:220:5)
+    at BufferReader.readUInt32 (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/src/bufferutils.js:7:745)
+    at Function.fromBuffer (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/src/transaction.js:3:273)
+    at new PsbtTransaction (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/src/psbt.js:71:198)
+    at new Psbt (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/src/psbt.js:43:896)
+    at getInputTypeTest (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/test/psbt.spec.js:557:26)
+    at Array.forEach (<anonymous>)
+    at Suite.<anonymous> (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/test/psbt.spec.js:623:11)
+    at Object.create (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/node_modules/mocha/lib/interfaces/common.js:148:19)
+    at context.describe.context.context (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/node_modules/mocha/lib/interfaces/bdd.js:42:27)
+    at exports.describe (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/node_modules/mocha/lib/mocha.js:111:60)
+    at Suite.<anonymous> (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/test/psbt.spec.js:539:26)
+    at Object.create (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/node_modules/mocha/lib/interfaces/common.js:148:19)
+    at context.describe.context.context (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/node_modules/mocha/lib/interfaces/bdd.js:42:27)
+    at exports.describe (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/node_modules/mocha/lib/mocha.js:111:60)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/test/psbt.spec.js:63:22)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Module.replacementCompile (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:170:29)
+    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:533:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:438:15)
+    at async formattedImport (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/node_modules/mocha/lib/nodejs/esm-utils.js:7:14)
+    at async Object.exports.requireOrImport (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/node_modules/mocha/lib/nodejs/esm-utils.js:38:28)
+    at async Object.exports.loadFilesAsync (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/node_modules/mocha/lib/nodejs/esm-utils.js:91:20)
+    at async singleRun (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/node_modules/mocha/lib/cli/run-helpers.js:125:3)
+    at async Object.exports.handler (/data/js-variants/multee/VariantsPureDep/bitcoinjs-lib/variant_functions/bitcoinjs-lib/node_modules/mocha/lib/cli/run.js:370:5)
+ERROR: Coverage for lines (17.47%) does not meet global threshold (90%)
+ERROR: Coverage for functions (7.15%) does not meet global threshold (90%)
+ERROR: Coverage for branches (1.37%) does not meet global threshold (90%)
+I am package body-parser .....
+I am package bpmn-engine .....
+I am package cache-base .....
+I am package caching-transform .....
+I am package comedy .....
+I am package compression .....
+I am package connect .....
+I am package cordova-common .....
+I am package cordova-js .....
+I am package cordova-node-xcode .....
+I am package cote .....
+I am package csv-stream .....
+I am package cwd .....
+I am package deferred-leveldown .....
+standard: Use JavaScript Standard Style (https://standardjs.com)
+standard: Some warnings are present which will be errors in the next version (https://standardjs.com)
+standard: Run `standard --fix` to automatically fix some problems.
+I am package delete-empty .....
+I am package demeteorizer .....
+(node:1363085) Warning: Accessing non-existent property 'cat' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1363085) Warning: Accessing non-existent property 'cd' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'chmod' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'cp' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'dirs' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'pushd' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'popd' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'echo' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'tempdir' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'pwd' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'exec' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'ls' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'find' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'grep' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'head' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'ln' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'mkdir' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'rm' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'mv' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'sed' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'set' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'sort' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'tail' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'test' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'to' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'toEnd' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'touch' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'uniq' of module exports inside circular dependency
+(node:1363085) Warning: Accessing non-existent property 'which' of module exports inside circular dependency
+I am package diagnostics .....
+I am package easy-soap-request .....
+I am package encoding-down .....
+standard: Use JavaScript Standard Style (https://standardjs.com)
+standard: Some warnings are present which will be errors in the next version (https://standardjs.com)
+standard: Run `standard --fix` to automatically fix some problems.
+I am package eslint-formatter-pretty .....
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             no-warning-comments
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             @typescript-eslint/no-unused-vars
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:18:2
+  ⚠   8:2  Unexpected todo comment.             no-warning-comments
+  ✖  18:2  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/test.js:1:1
+  ✖   1:1  AVA should be imported as test.      ava/use-test
+
+  3 warnings
+  2 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             no-warning-comments
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             @typescript-eslint/no-unused-vars
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:18:2
+  ⚠   8:2  Unexpected todo comment.             no-warning-comments
+  ✖  18:2  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/test.js:1:1
+  ✖   1:1  AVA should be imported as test.      ava/use-test
+
+  3 warnings
+  2 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             no-warning-comments
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             @typescript-eslint/no-unused-vars
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:18:2
+  ⚠   8:2  Unexpected todo comment.             no-warning-comments
+  ✖  18:2  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/test.js:1:1
+  ✖   1:1  AVA should be imported as test.      ava/use-test
+
+  3 warnings
+  2 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js
+  ⚠  Unexpected todo comment.             no-warning-comments
+  ✖  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/test.js
+  ✖  AVA should be imported as test.      ava/use-test
+
+  1 warning
+  2 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:18:2
+  ⚠   0:0  Unexpected todo comment.             no-warning-comments
+  ✖  18:2  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/test.js:1:1
+  ✖   1:1  AVA should be imported as test.      ava/use-test
+
+  1 warning
+  2 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             ]8;;https://eslint.org/docs/rules/no-warning-commentsno-warning-comments]8;;
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             @typescript-eslint/no-unused-vars
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:18:2
+  ⚠   8:2  Unexpected todo comment.             ]8;;https://eslint.org/docs/rules/no-warning-commentsno-warning-comments]8;;
+  ✖  18:2  More than 1 blank line not allowed.  ]8;;https://eslint.org/docs/rules/no-multiple-empty-linesno-multiple-empty-lines]8;;
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/test.js:1:1
+  ✖   1:1  AVA should be imported as test.      ]8;;https://github.com/avajs/eslint-plugin-ava/blob/main/docs/rules/use-test.mdava/use-test]8;;
+
+  3 warnings
+  2 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:3:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ⚠  10:2  Unexpected todo comment.             no-warning-comments
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  30:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  40:5  i is defined but never used.         no-unused-vars
+  ✖  40:8  j is defined but never used.         no-unused-vars
+
+  2 warnings
+  4 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:3:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ⚠  10:2  Unexpected todo comment.             no-warning-comments
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  30:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  40:5  i is defined but never used.         no-unused-vars
+  ✖  40:8  j is defined but never used.         no-unused-vars
+
+  2 warnings
+  4 errors
+
+
+  0-error.1-warning.js:1:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+
+  3-error.0-warning.js:3:1
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  30:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  40:5  i is defined but never used.         no-unused-vars
+
+  2-error.2-warning.js:3:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ⚠  10:2  Unexpected todo comment.             no-warning-comments
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  30:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  1-error.0-warning.js:3:1
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  3 warnings
+  6 errors
+
+
+  0-error.3-warning.js:1:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ⚠  10:2  Unexpected todo comment.             no-warning-comments
+  ⚠  15:2  Unexpected todo comment.             no-warning-comments
+
+  0-error.2-warning.js:1:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ⚠  10:2  Unexpected todo comment.             no-warning-comments
+
+  0-error.1-warning.js:1:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+
+  2-error.2-warning.js:3:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ⚠  10:2  Unexpected todo comment.             no-warning-comments
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  30:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  2-error.1-warning.js:3:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+  ✖  30:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  1-error.2-warning.js:3:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ⚠  10:2  Unexpected todo comment.             no-warning-comments
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  1-error.1-warning.js:3:1
+  ⚠   1:1  Unexpected todo comment.             no-warning-comments
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  1-error.0-warning.js:3:1
+  ✖   3:1  More than 1 blank line not allowed.  no-multiple-empty-lines
+
+  12 warnings
+  7 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             ]8;;https://eslint.org/docs/rules/test/no-warning-commentsno-warning-comments]8;;
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             @typescript-eslint/no-unused-vars
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:18:2
+  ⚠   8:2  Unexpected todo comment.             ]8;;https://eslint.org/docs/rules/test/no-warning-commentsno-warning-comments]8;;
+  ✖  18:2  More than 1 blank line not allowed.  ]8;;https://eslint.org/docs/rules/no-multiple-empty-linesno-multiple-empty-lines]8;;
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/test.js:1:1
+  ✖   1:1  AVA should be imported as test.      ]8;;https://github.com/avajs/eslint-plugin-ava/blob/main/docs/rules/use-test.mdava/use-test]8;;
+
+  3 warnings
+  2 errors
+
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             ]8;;https://eslint.org/docs/rules/test/no-warning-commentsno-warning-comments]8;;
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/foo.js:8:2
+  ⚠   8:2  Unexpected todo comment.             @typescript-eslint/no-unused-vars
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/index.js:18:2
+  ⚠   8:2  Unexpected todo comment.             ]8;;https://eslint.org/docs/rules/test/no-warning-commentsno-warning-comments]8;;
+  ✖  18:2  More than 1 blank line not allowed.  ]8;;https://eslint.org/docs/rules/no-multiple-empty-linesno-multiple-empty-lines]8;;
+
+  ../../../../../../../Users/sindresorhus/dev/eslint-formatter-pretty/test.js:1:1
+  ✖   1:1  AVA should be imported as test.      ]8;;https://github.com/avajs/eslint-plugin-ava/blob/main/docs/rules/use-test.mdava/use-test]8;;
+
+  3 warnings
+  2 errors
+
+I am package expand-brackets .....
+I am package extglob .....
+I am package facebook-node-sdk .....
+(node:1363702) Warning: Accessing non-existent property 'cat' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1363702) Warning: Accessing non-existent property 'cd' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'chmod' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'cp' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'dirs' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'pushd' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'popd' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'echo' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'tempdir' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'pwd' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'exec' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'ls' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'find' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'grep' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'head' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'ln' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'mkdir' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'rm' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'mv' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'sed' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'set' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'sort' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'tail' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'test' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'to' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'toEnd' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'touch' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'uniq' of module exports inside circular dependency
+(node:1363702) Warning: Accessing non-existent property 'which' of module exports inside circular dependency
+(node:1363702) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(node:1363702) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+I am package fastify .....
+(node:1364765) [FSTDEP013] FastifyDeprecation: Direct return of "trailers" function is deprecated. Please use "callback" or "async-await" for return value. The support of direct return will removed in `fastify@5`.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1364828) [FSTDEP012] FastifyDeprecation: Request#context property access is deprecated. Please use "Request#routeConfig" or "Request#routeSchema" instead for accessing Route settings. The "Request#context" will be removed in `fastify@5`.
+(Use `node --trace-warnings ...` to show where the warning was created)
+I am package finalhandler .....
+I am package find-file-up .....
+I am package find-pkg .....
+I am package firefox-profile-js .....
+I am package gaxios .....
+I am package git-pull-or-clone .....
+2023-04-12T13:58:09.650Z git-pull-or-clone git clone --depth=1 -- https://github.com/feross/git-pull-or-clone.git /data/js-variants/multee/VariantsPureDep/git-pull-or-clone/variant_functions/git-pull-or-clone/tmp/git-pull-or-clone
+Cloning into '/data/js-variants/multee/VariantsPureDep/git-pull-or-clone/variant_functions/git-pull-or-clone/tmp/git-pull-or-clone'...
+2023-04-12T13:58:10.322Z git-pull-or-clone git pull --depth=1
+2023-04-12T13:58:10.887Z git-pull-or-clone git pull
+2023-04-12T13:58:11.138Z git-pull-or-clone git clone --depth=1 -- https://github.com/feross/git-pull-or-clone.git /data/js-variants/multee/VariantsPureDep/git-pull-or-clone/variant_functions/git-pull-or-clone/tmp/git-pull-or-clone
+2023-04-12T13:58:11.140Z git-pull-or-clone git pull --depth=1
+Cloning into '/data/js-variants/multee/VariantsPureDep/git-pull-or-clone/variant_functions/git-pull-or-clone/tmp/git-pull-or-clone'...
+fatal: no matching remote head
+2023-04-12T13:58:11.760Z git-pull-or-clone git clone --depth=1 -- https://github.com/feross/git-pull-or-clone.git /data/js-variants/multee/VariantsPureDep/git-pull-or-clone/variant_functions/git-pull-or-clone/tmp/git-pull-or-clone
+2023-04-12T13:58:11.764Z git-pull-or-clone git clone --depth=1 -- --upload-pack=touch /tmp/pwn4 file:///data/js-variants/multee/VariantsPureDep/git-pull-or-clone/variant_functions/git-pull-or-clone/tmp/git-pull-or-clone
+Cloning into '/data/js-variants/multee/VariantsPureDep/git-pull-or-clone/variant_functions/git-pull-or-clone/tmp/git-pull-or-clone'...
+fatal: repository '--upload-pack=touch /tmp/pwn4' does not exist
+I am package git-username .....
+I am package gradient-string .....
+I am package grant .....
+(node:1365558) [FST_MODULE_DEP_FASTIFY-COOKIE] FastifyWarning.fastify-cookie: fastify-cookie has been deprecated. Use @fastify/cookie@6.0.0 instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1365558) [FST_MODULE_DEP_FASTIFY-FORMBODY] FastifyWarning.fastify-formbody: fastify-formbody has been deprecated. Use @fastify/formbody@6.0.0 instead.
+I am package gray-matter .....
+I am package gulp-autoprefixer .....
+I am package gulp-changed .....
+I am package gulp-chmod .....
+I am package gulp-debug .....
+[13:59:04] gulp-debug: foo.js
+[13:59:04] gulp-debug: 1 item
+I am package gulp-filter .....
+I am package gulp-hb .....
+  [32mfixture/a.js[39m
+[90m    global data:[39m
+      greeting
+      recipient
+[90m    local data:[39m
+      a
+      greeting
+[90m    decorators:[39m
+      baz
+      inline
+[90m    helpers:[39m
+      bar
+      blockHelperMissing
+      each
+      helperMissing
+      if
+      log
+      lookup
+      unless
+      with
+[90m    partials:[39m
+      foo
+
+  [32mfixture/b.js[39m
+[90m    global data:[39m
+      greeting
+      recipient
+[90m    local data:[39m
+      b
+      greeting
+[90m    decorators:[39m
+      baz
+      inline
+[90m    helpers:[39m
+      bar
+      blockHelperMissing
+      each
+      helperMissing
+      if
+      log
+      lookup
+      unless
+      with
+[90m    partials:[39m
+      foo
+
+  [32mfixture/c.js[39m
+[90m    global data:[39m
+      greeting
+      recipient
+[90m    local data:[39m
+      
+[90m    decorators:[39m
+      baz
+      inline
+[90m    helpers:[39m
+      bar
+      blockHelperMissing
+      each
+      helperMissing
+      if
+      log
+      lookup
+      unless
+      with
+[90m    partials:[39m
+      foo
+
+I am package gulp-html-replace .....
+(node:1366151) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+I am package gulp-jasmine .....
+DEPRECATION: Jasmine#onComplete is deprecated. Instead of calling onComplete, set the Jasmine instance's exitOnCompletion property to false and use the promise returned from the execute method.
+Error: 
+    at <Jasmine>
+    at Jasmine.onComplete (/data/js-variants/multee/VariantsPureDep/gulp-jasmine/variant_functions/gulp-jasmine/node_modules/jasmine/lib/jasmine.js:474:12)
+    at DestroyableTransform._flush (/data/js-variants/multee/VariantsPureDep/gulp-jasmine/variant_functions/gulp-jasmine/index.js:89:12)
+    at DestroyableTransform.prefinish (/data/js-variants/multee/VariantsPureDep/gulp-jasmine/variant_functions/gulp-jasmine/node_modules/readable-stream/lib/_stream_transform.js:138:10)
+    at DestroyableTransform.emit (node:events:513:28)
+    at prefinish (/data/js-variants/multee/VariantsPureDep/gulp-jasmine/variant_functions/gulp-jasmine/node_modules/readable-stream/lib/_stream_writable.js:619:14)
+Note: This message will be shown only once. Set the verboseDeprecations config property to true to see every occurrence.
+Running 4 specs.
+the timeout
+[33m    should pass: pending[0m
+beforeAll
+[32m    should be called once: passed[0m
+[32m    should be called first: passed[0m
+fixture
+[32m    should pass: passed[0m
+
+4 specs, 0 failures, 1 pending spec
+Finished in 0 seconds
+DEPRECATION: Jasmine#onComplete is deprecated. Instead of calling onComplete, set the Jasmine instance's exitOnCompletion property to false and use the promise returned from the execute method.
+Error: 
+    at <Jasmine>
+    at Jasmine.onComplete (/data/js-variants/multee/VariantsPureDep/gulp-jasmine/variant_functions/gulp-jasmine/node_modules/jasmine/lib/jasmine.js:474:12)
+    at DestroyableTransform._flush (/data/js-variants/multee/VariantsPureDep/gulp-jasmine/variant_functions/gulp-jasmine/index.js:89:12)
+    at DestroyableTransform.prefinish (/data/js-variants/multee/VariantsPureDep/gulp-jasmine/variant_functions/gulp-jasmine/node_modules/readable-stream/lib/_stream_transform.js:138:10)
+    at DestroyableTransform.emit (node:events:513:28)
+    at prefinish (/data/js-variants/multee/VariantsPureDep/gulp-jasmine/variant_functions/gulp-jasmine/node_modules/readable-stream/lib/_stream_writable.js:619:14)
+Note: This message will be shown only once. Set the verboseDeprecations config property to true to see every occurrence.
+Running 1 spec.
+fail-fixture
+[31m    should fail: failed[0m
+
+Failures: 
+1) fail-fixture should fail
+1.1) [31mExpected 3 to equal 4.[0m
+
+1 spec, 1 failure
+Finished in 0 seconds
+DEPRECATION: Jasmine#onComplete is deprecated. Instead of calling onComplete, set the Jasmine instance's exitOnCompletion property to false and use the promise returned from the execute method.
+Error: 
+    at <Jasmine>
+    at Jasmine.onComplete (/data/js-variants/multee/VariantsPureDep/gulp-jasmine/variant_functions/gulp-jasmine/node_modules/jasmine/lib/jasmine.js:474:12)
+    at DestroyableTransform._flush (/data/js-variants/multee/VariantsPureDep/gulp-jasmine/variant_functions/gulp-jasmine/index.js:89:12)
+    at DestroyableTransform.prefinish (/data/js-variants/multee/VariantsPureDep/gulp-jasmine/variant_functions/gulp-jasmine/node_modules/readable-stream/lib/_stream_transform.js:138:10)
+    at DestroyableTransform.emit (node:events:513:28)
+    at prefinish (/data/js-variants/multee/VariantsPureDep/gulp-jasmine/variant_functions/gulp-jasmine/node_modules/readable-stream/lib/_stream_writable.js:619:14)
+Note: This message will be shown only once. Set the verboseDeprecations config property to true to see every occurrence.
+Running 1 spec.
+fail-fixture
+[31m    should fail: failed[0m
+
+Failures: 
+1) fail-fixture should fail
+1.1) [31mExpected 3 to equal 4.[0m
+
+1 spec, 1 failure
+Finished in 0 seconds
+DEPRECATION: Jasmine#onComplete is deprecated. Instead of calling onComplete, set the Jasmine instance's exitOnCompletion property to false and use the promise returned from the execute method.
+Error: 
+    at <Jasmine>
+    at Jasmine.onComplete (/data/js-variants/multee/VariantsPureDep/gulp-jasmine/variant_functions/gulp-jasmine/node_modules/jasmine/lib/jasmine.js:474:12)
+    at DestroyableTransform._flush (/data/js-variants/multee/VariantsPureDep/gulp-jasmine/variant_functions/gulp-jasmine/index.js:89:12)
+    at DestroyableTransform.prefinish (/data/js-variants/multee/VariantsPureDep/gulp-jasmine/variant_functions/gulp-jasmine/node_modules/readable-stream/lib/_stream_transform.js:138:10)
+    at DestroyableTransform.emit (node:events:513:28)
+    at prefinish (/data/js-variants/multee/VariantsPureDep/gulp-jasmine/variant_functions/gulp-jasmine/node_modules/readable-stream/lib/_stream_writable.js:619:14)
+Note: This message will be shown only once. Set the verboseDeprecations config property to true to see every occurrence.
+I am package gulp-nunjucks .....
+I am package gulp-size .....
+I am package gulp-template .....
+I am package gulp-zip .....
+I am package i18next-http-backend .....
+I am package ink-big-text .....
+
+
+ ██╗   ██╗ ███╗   ██╗ ██╗  ██████╗  ██████╗  ██████╗  ███╗   ██╗ ███████╗
+ ██║   ██║ ████╗  ██║ ██║ ██╔════╝ ██╔═══██╗ ██╔══██╗ ████╗  ██║ ██╔════╝
+ ██║   ██║ ██╔██╗ ██║ ██║ ██║      ██║   ██║ ██████╔╝ ██╔██╗ ██║ ███████╗
+ ██║   ██║ ██║╚██╗██║ ██║ ██║      ██║   ██║ ██╔══██╗ ██║╚██╗██║ ╚════██║
+ ╚██████╔╝ ██║ ╚████║ ██║ ╚██████╗ ╚██████╔╝ ██║  ██║ ██║ ╚████║ ███████║
+  ╚═════╝  ╚═╝  ╚═══╝ ╚═╝  ╚═════╝  ╚═════╝  ╚═╝  ╚═╝ ╚═╝  ╚═══╝ ╚══════╝
+
+
+I am package is-reachable .....
+
+  node_modules/@types/node/ts4.8/util.d.ts:1485:37
+  ✖  1485:37  Cannot find name name.                                                        
+  ✖  1485:41  , expected.                                                                   
+  ✖  1485:43  string only refers to a type, but is being used as a value here.              
+  ✖  1485:43  Left side of comma operator is unused and has no side effects.                
+  ✖  1485:43  Unexpected token. A constructor, method, accessor, or property was expected.  
+  ✖  1485:51  Cannot find name value.                                                       
+  ✖  1485:56  ; expected.                                                                   
+  ✖  1485:58  string only refers to a type, but is being used as a value here.              
+  ✖  1485:64  ; expected.                                                                   
+  ✖  1485:65  Expression expected.                                                          
+  ✖  1485:66  Expression expected.                                                          
+  ✖  1490:8   Cannot find name get.                                                         
+  ✖  1490:12  Cannot find name name.                                                        
+  ✖  1490:16  , expected.                                                                   
+  ✖  1490:18  string only refers to a type, but is being used as a value here.              
+  ✖  1490:25  ; expected.                                                                   
+  ✖  1490:27  string only refers to a type, but is being used as a value here.              
+  ✖  1490:36  Object is possibly null.                                                      
+  ✖  1494:8   Cannot find name has.                                                         
+  ✖  1494:12  Cannot find name name.                                                        
+  ✖  1494:16  , expected.                                                                   
+  ✖  1494:18  string only refers to a type, but is being used as a value here.              
+  ✖  1494:25  ; expected.                                                                   
+  ✖  1494:27  boolean only refers to a type, but is being used as a value here.             
+  ✖  1498:8   Cannot find name keys.                                                        
+  ✖  1498:14  ; expected.                                                                   
+  ✖  1498:16  IterableIterator only refers to a type, but is being used as a value here.    
+  ✖  1498:40  ( expected.                                                                   
+  ✖  1504:8   Cannot find name set. Did you mean Set?                                       
+  ✖  1504:12  Cannot find name name.                                                        
+  ✖  1504:16  , expected.                                                                   
+  ✖  1504:18  string only refers to a type, but is being used as a value here.              
+  ✖  1504:26  Cannot find name value.                                                       
+  ✖  1504:31  , expected.                                                                   
+  ✖  1504:33  string only refers to a type, but is being used as a value here.              
+  ✖  1504:40  ; expected.                                                                   
+  ✖  1504:46  Expression expected.                                                          
+  ✖  1508:8   Cannot find name values.                                                      
+  ✖  1508:16  ; expected.                                                                   
+  ✖  1508:18  IterableIterator only refers to a type, but is being used as a value here.    
+  ✖  1508:42  ( expected.                                                                   
+  ✖  1512:25  ; expected.                                                                   
+  ✖  1514:0   Declaration or statement expected.                                            
+
+  43 errors
+
+I am package iterator-stream .....
+I am package jsdoc-api .....
+TypeError: Cannot read properties of undefined (reading 'map')
+    at new StateMachine [90m(file:///data/js-variants/multee/VariantsPureDep/jsdoc-api/variant_functions/jsdoc-api/[39mnode_modules/[4mfsm-base[24m/index.mjs:24:47[90m)[39m
+    at new Mixed [90m(/data/js-variants/multee/VariantsPureDep/jsdoc-api/variant_functions/jsdoc-api/[39mnode_modules/[4mcreate-mixin[24m/dist/index.js:19:7[90m)[39m
+    at new Tom [90m(file:///data/js-variants/multee/VariantsPureDep/jsdoc-api/variant_functions/jsdoc-api/[39mnode_modules/[4m@test-runner[24m/tom/index.js:127:5[90m)[39m
+    at Function.combine [90m(file:///data/js-variants/multee/VariantsPureDep/jsdoc-api/variant_functions/jsdoc-api/[39mnode_modules/[4m@test-runner[24m/tom/index.js:415:14[90m)[39m
+    at TestRunnerCli.getTom [90m(file:///data/js-variants/multee/VariantsPureDep/jsdoc-api/variant_functions/jsdoc-api/[39mnode_modules/[4mtest-runner[24m/index.js:222:16[90m)[39m
+    at async TestRunnerCli.start [90m(file:///data/js-variants/multee/VariantsPureDep/jsdoc-api/variant_functions/jsdoc-api/[39mnode_modules/[4mtest-runner[24m/index.js:255:23[90m)[39m
+I am package labeled-stream-splicer .....
+I am package level .....
+I am package level-rocksdb .....
+I am package levelup .....
+standard: Use JavaScript Standard Style (https://standardjs.com)
+standard: Some warnings are present which will be errors in the next version (https://standardjs.com)
+standard: Run `standard --fix` to automatically fix some problems.
+I am package markdown-toc .....
+I am package markdownlint .....
+I am package matrix .....
+I am package mem .....
+I am package memdown .....
+standard: Use JavaScript Standard Style (https://standardjs.com)
+standard: Some warnings are present which will be errors in the next version (https://standardjs.com)
+standard: Run `standard --fix` to automatically fix some problems.
+I am package merge-deep .....
+I am package metalsmith-layouts .....
+I am package method-override .....
+I am package morgan .....
+I am package ms-rest-azure-js .....
+/data/js-variants/multee/VariantsPureDep/ms-rest-azure-js/variant_functions/ms-rest-azure-js/node_modules/tslint/lib/error.js:25
+    tslib_1.__extends(FatalError, _super);
+            ^
+
+TypeError: tslib_1.__extends is not a function
+    at /data/js-variants/multee/VariantsPureDep/ms-rest-azure-js/variant_functions/ms-rest-azure-js/node_modules/tslint/lib/error.js:25:13
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/ms-rest-azure-js/variant_functions/ms-rest-azure-js/node_modules/tslint/lib/error.js:37:2)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/ms-rest-azure-js/variant_functions/ms-rest-azure-js/node_modules/tslint/lib/configuration.js:25:15)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+ERROR: "test:tslint" exited with 1.
+I am package ms-rest-js .....
+/data/js-variants/multee/VariantsPureDep/ms-rest-js/variant_functions/ms-rest-js/node_modules/tslint/lib/error.js:25
+    tslib_1.__extends(FatalError, _super);
+            ^
+
+TypeError: tslib_1.__extends is not a function
+    at /data/js-variants/multee/VariantsPureDep/ms-rest-js/variant_functions/ms-rest-js/node_modules/tslint/lib/error.js:25:13
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/ms-rest-js/variant_functions/ms-rest-js/node_modules/tslint/lib/error.js:37:2)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/ms-rest-js/variant_functions/ms-rest-js/node_modules/tslint/lib/configuration.js:25:15)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+ERROR: "test:tslint" exited with 1.
+I am package multileveldown .....
+I am package multistream .....
+Error:
+Airtap tried to run tests in Sauce Labs, however no credentials were provided.
+See doc/cloud-testing.md for info on how to setup cloud testing.
+I am package mysql .....
+I am package nanomatch .....
+I am package node-archiver .....
+
+TypeError: async.queue is not a function
+    at new Archiver (/data/js-variants/multee/VariantsPureDep/node-archiver/variant_functions/node-archiver/lib/core.js:52:23)
+    at Function.vending.create (/data/js-variants/multee/VariantsPureDep/node-archiver/variant_functions/node-archiver/index.js:33:20)
+    at vending (/data/js-variants/multee/VariantsPureDep/node-archiver/variant_functions/node-archiver/index.js:21:18)
+    at Suite.<anonymous> (/data/js-variants/multee/VariantsPureDep/node-archiver/variant_functions/node-archiver/test/archiver.js:45:19)
+    at Object.create (/data/js-variants/multee/VariantsPureDep/node-archiver/variant_functions/node-archiver/node_modules/mocha/lib/interfaces/common.js:148:19)
+    at context.describe.context.context (/data/js-variants/multee/VariantsPureDep/node-archiver/variant_functions/node-archiver/node_modules/mocha/lib/interfaces/bdd.js:42:27)
+    at Suite.<anonymous> (/data/js-variants/multee/VariantsPureDep/node-archiver/variant_functions/node-archiver/test/archiver.js:44:3)
+    at Object.create (/data/js-variants/multee/VariantsPureDep/node-archiver/variant_functions/node-archiver/node_modules/mocha/lib/interfaces/common.js:148:19)
+    at context.describe.context.context (/data/js-variants/multee/VariantsPureDep/node-archiver/variant_functions/node-archiver/node_modules/mocha/lib/interfaces/bdd.js:42:27)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/node-archiver/variant_functions/node-archiver/test/archiver.js:24:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:170:29)
+    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:533:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:438:15)
+    at async formattedImport (/data/js-variants/multee/VariantsPureDep/node-archiver/variant_functions/node-archiver/node_modules/mocha/lib/nodejs/esm-utils.js:7:14)
+    at async Object.exports.requireOrImport (/data/js-variants/multee/VariantsPureDep/node-archiver/variant_functions/node-archiver/node_modules/mocha/lib/nodejs/esm-utils.js:48:32)
+    at async Object.exports.loadFilesAsync (/data/js-variants/multee/VariantsPureDep/node-archiver/variant_functions/node-archiver/node_modules/mocha/lib/nodejs/esm-utils.js:103:20)
+    at async singleRun (/data/js-variants/multee/VariantsPureDep/node-archiver/variant_functions/node-archiver/node_modules/mocha/lib/cli/run-helpers.js:125:3)
+    at async Object.exports.handler (/data/js-variants/multee/VariantsPureDep/node-archiver/variant_functions/node-archiver/node_modules/mocha/lib/cli/run.js:374:5)
+I am package node-argon2 .....
+I am package node-crc32-stream .....
+I am package node-deep-equal .....
+(node:1380535) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+npm WARN config production Use `--omit=dev` instead.
+I am package node-gcm .....
+Message#addDataWithKeyValue has been deprecated. Please use Message#addData instead.
+Message#addDataWithKeyValue has been deprecated. Please use Message#addData instead.
+Message#addDataWithObject has been deprecated. Please use Message#addData instead.
+Message#addDataWithObject has been deprecated. Please use Message#addData instead.
+Message#addDataWithObject has been deprecated. Please use Message#addData instead.
+Message#addDataWithObject has been deprecated. Please use Message#addData instead.
+I am package node-gcstats .....
+node-pre-gyp info it worked if it ends with ok
+node-pre-gyp info using node-pre-gyp@0.13.0
+node-pre-gyp info using node@16.17.0 | linux | x64
+gyp info it worked if it ends with ok
+gyp info using node-gyp@9.3.0
+gyp info using node@16.17.0 | linux | x64
+gyp info spawn make
+gyp info spawn args [ 'BUILDTYPE=Release', '-C', 'build' ]
+gyp info ok 
+node-pre-gyp info ok 
+I am package node-glob-gitignore .....
+I am package node-ical .....
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+I am package node-ipinfo .....
+ 
+ [90m[2m⠋[22m[39m [2K[1A[2K[0G 
+ [90m[2m⠙[22m[39m [2K[1A[2K[0G 
+ [90m[2m⠹[22m[39m [2K[1A[2K[0G 
+ [90m[2m⠸[22m[39m [2K[1A[2K[0G 
+ [90m[2m⠼[22m[39m [2K[1A[2K[0G 
+ [90m[2m⠴[22m[39m [2K[1A[2K[0G 
+ [90m[2m⠦[22m[39m [2K[1A[2K[0G 
+ [90m[2m⠧[22m[39m [2K[1A[2K[0G 
+ [90m[2m⠇[22m[39m [2K[1A[2K[0G 
+ [90m[2m⠏[22m[39m [2K[1A[2K[0G 
+ [90m[2m⠏[22m[39m google…
+
+  [32m1 passed[39m[2K[1A[2K[1A[2K[1A[2K[0G 
+ [90m[2m⠋[22m[39m google…
+
+  [32m1 passed[39m[2K[1A[2K[1A[2K[1A[2K[0G 
+ [90m[2m⠋[22m[39m not google…
+
+  [32m2 passed[39m[2K[1A[2K[1A[2K[1A[2K[0G 
+ [90m[2m⠋[22m[39m [31mself[39m
+
+  [32m2 passed[39m
+  [31m1 failed[39m[2K[1A[2K[1A[2K[1A[2K[1A[2K[0G 
+ [90m[2m⠋[22m[39m google orga…
+
+  [32m3 passed[39m
+  [31m1 failed[39m[2K[1A[2K[1A[2K[1A[2K[1A[2K[0G 
+ [90m[2m⠋[22m[39m google org…
+
+  [32m4 passed[39m
+  [31m1 failed[39m[2K[1A[2K[1A[2K[1A[2K[1A[2K[0G 
+ [90m[2m⠋[22m[39m google with token…
+
+  [32m5 passed[39m
+  [31m1 failed[39m[2K[1A[2K[1A[2K[1A[2K[1A[2K[0G
+  [32m5 passed[39m
+  [31m1 failed[39m
+
+  [37mself[39m
+[31m  Planned for 20 assertions, but got 18.
+[39m[90m    Test.<anonymous> (test.js:13:5)[39m
+
+I am package node-jira-client .....
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+I am package node-jwk-to-pem .....
+I am package node-os-monitor .....
+I am package node-plex-api .....
+I am package node-sparkpost .....
+(node:1381056) Warning: Accessing non-existent property 'cat' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1381056) Warning: Accessing non-existent property 'cd' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'chmod' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'cp' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'dirs' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'pushd' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'popd' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'echo' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'tempdir' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'pwd' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'exec' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'ls' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'find' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'grep' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'head' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'ln' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'mkdir' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'rm' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'mv' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'sed' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'set' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'sort' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'tail' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'test' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'to' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'toEnd' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'touch' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'uniq' of module exports inside circular dependency
+(node:1381056) Warning: Accessing non-existent property 'which' of module exports inside circular dependency
+(node:1381063) [DEP0128] DeprecationWarning: Invalid 'main' field in '/data/js-variants/multee/VariantsPureDep/node-sparkpost/variant_functions/node-sparkpost/node_modules/create-thenable/package.json' of './src'. Please either fix that or report it to the module author
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1381063) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+=============================================================================
+Writing coverage object [/data/js-variants/multee/VariantsPureDep/node-sparkpost/variant_functions/node-sparkpost/test/reports/coverage.json]
+Writing coverage reports at [/data/js-variants/multee/VariantsPureDep/node-sparkpost/variant_functions/node-sparkpost/test/reports]
+=============================================================================
+I am package node-ul .....
+I am package node-util .....
+(node:1381113) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+I am package node-vault .....
+notification support prerequisites not installed... cannot enable!
+I am package node-whois .....
+I am package nodejs-bigquery .....
+I am package nodejs-dns .....
+I am package nodejs-file-downloader .....
+I am package nodejs-storage .....
+I am package opentok-node .....
+I am package openwhisk-client-js .....
+I am package packager .....
+I am package parser-js .....
+(node:1382026) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1382169) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error: Command failed with exit code 2: mocha --timeout 20000 test/browser_test.js
+    at makeError (/data/js-variants/multee/VariantsPureDep/parser-js/variant_functions/parser-js/node_modules/execa/lib/error.js:60:11)
+    at handlePromise (/data/js-variants/multee/VariantsPureDep/parser-js/variant_functions/parser-js/node_modules/execa/index.js:118:26)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  shortMessage: 'Command failed with exit code 2: mocha --timeout 20000 test/browser_test.js',
+  command: 'mocha --timeout 20000 test/browser_test.js',
+  escapedCommand: '"mocha --timeout 20000 test/browser_test.js"',
+  exitCode: 2,
+  signal: undefined,
+  signalDescription: undefined,
+  stdout: undefined,
+  stderr: undefined,
+  failed: true,
+  timedOut: false,
+  isCanceled: false,
+  killed: false
+}
+I am package party .....
+I am package pdfjs .....
+I am package pg-monitor .....
+I am package piscina .....
+I am package postcss-color-gray .....
+I am package pretty .....
+I am package purest .....
+I am package qs .....
+evalmd info it worked if it ends with ok
+evalmd info README.md running blocks 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62
+evalmd info ok
+npm WARN config production Use `--omit=dev` instead.
+I am package raml-js-parser .....
+(node:1383274) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+/data/js-variants/multee/VariantsPureDep/raml-js-parser/variant_functions/raml-js-parser/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs: error while loading shared libraries: libfontconfig.so.1: cannot open shared object file: No such file or directory
+I am package razorpay-node .....
+I am package regex-not .....
+I am package resolve-dir .....
+I am package right-align .....
+I am package router .....
+I am package rpc-websockets .....
+
+TypeError: Cannot read properties of undefined (reading 'default')
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/rpc-websockets/variant_functions/rpc-websockets/node_modules/uuid/dist/v3.js:16:19)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/rpc-websockets/variant_functions/rpc-websockets/node_modules/uuid/dist/index.js:63:34)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/rpc-websockets/variant_functions/rpc-websockets/dist/lib/server.js:40:13)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/rpc-websockets/variant_functions/rpc-websockets/dist/index.js:30:38)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/rpc-websockets/variant_functions/rpc-websockets/test/client.spec.js:9:25)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:170:29)
+    at ModuleJob.run (node:internal/modules/esm/module_job:193:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:533:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:438:15)
+    at async formattedImport (/data/js-variants/multee/VariantsPureDep/rpc-websockets/variant_functions/rpc-websockets/node_modules/mocha/lib/nodejs/esm-utils.js:7:14)
+    at async Object.exports.requireOrImport (/data/js-variants/multee/VariantsPureDep/rpc-websockets/variant_functions/rpc-websockets/node_modules/mocha/lib/nodejs/esm-utils.js:38:28)
+    at async Object.exports.loadFilesAsync (/data/js-variants/multee/VariantsPureDep/rpc-websockets/variant_functions/rpc-websockets/node_modules/mocha/lib/nodejs/esm-utils.js:91:20)
+    at async singleRun (/data/js-variants/multee/VariantsPureDep/rpc-websockets/variant_functions/rpc-websockets/node_modules/mocha/lib/cli/run-helpers.js:125:3)
+    at async Object.exports.handler (/data/js-variants/multee/VariantsPureDep/rpc-websockets/variant_functions/rpc-websockets/node_modules/mocha/lib/cli/run.js:370:5)
+I am package send .....
+I am package serve-index .....
+I am package session .....
+I am package sharp .....
+Fontconfig error: Cannot load default config file: No such file: (null)
+Fontconfig error: Cannot load default config file: No such file: (null)
+I am package socket.io .....
+Missing error handler on `socket`.
+Error: unknown packet type NaN
+    at Decoder.decodeString (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/socket.io-parser/build/cjs/index.js:169:19)
+    at Decoder.add (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/socket.io-parser/build/cjs/index.js:123:27)
+    at Client.ondata (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/dist/client.js:54:43)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at Socket.onPacket (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/engine.io/build/socket.js:116:22)
+    at Polling.emit (node:events:513:28)
+    at Polling.emit (node:domain:489:12)
+    at Polling.onPacket (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/engine.io/build/transport.js:92:14)
+    at callback (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/engine.io/build/transports/polling.js:166:18)
+    at Array.forEach (<anonymous>)
+    at Polling.onData (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/engine.io/build/transports/polling.js:172:45)
+    at IncomingMessage.onEnd (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/engine.io/build/transports/polling.js:135:18)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Missing error handler on `socket`.
+Error: Illegal attachments
+    at Decoder.decodeString (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/socket.io-parser/build/cjs/index.js:178:23)
+    at Decoder.add (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/socket.io-parser/build/cjs/index.js:123:27)
+    at Client.ondata (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/dist/client.js:54:43)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at Socket.onPacket (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/engine.io/build/socket.js:116:22)
+    at WebSocket.emit (node:events:513:28)
+    at WebSocket.emit (node:domain:489:12)
+    at WebSocket.onPacket (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/engine.io/build/transport.js:92:14)
+    at WebSocket.onData (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/engine.io/build/transport.js:101:14)
+    at WebSocket.<anonymous> (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/engine.io/build/transports/websocket.js:20:19)
+    at WebSocket.emit (node:events:513:28)
+    at WebSocket.emit (node:domain:489:12)
+    at Receiver.receiverOnMessage (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/engine.io/node_modules/ws/lib/websocket.js:1178:20)
+    at Receiver.emit (node:events:513:28)
+    at Receiver.emit (node:domain:489:12)
+    at Receiver.dataMessage (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/engine.io/node_modules/ws/lib/receiver.js:528:14)
+    at Receiver.getData (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/engine.io/node_modules/ws/lib/receiver.js:446:17)
+    at Receiver.startLoop (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/engine.io/node_modules/ws/lib/receiver.js:148:22)
+    at Receiver._write (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/engine.io/node_modules/ws/lib/receiver.js:83:10)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at Receiver.Writable.write (node:internal/streams/writable:336:10)
+    at Socket.socketOnData (/data/js-variants/multee/VariantsPureDep/socket.io/variant_functions/socket.io/node_modules/engine.io/node_modules/ws/lib/websocket.js:1272:35)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+I am package standard-engine .....
+I am package stream-splicer .....
+I am package string-to-stream .....
+I am package strong-error-handler .....
+I am package subleveldown .....
+I am package svgo .....
+PASS lib/path.test.js
+FAIL lib/style.test.js
+  ● Test suite failed to run
+
+    TypeError: Cannot read properties of undefined (reading 'default')
+
+       8 |  */
+       9 |
+    > 10 | const { selectAll, selectOne, is } = require('css-select');
+         |                                      ^
+      11 | const xastAdaptor = require('./svgo/css-select-adapter.js');
+      12 |
+      13 | const cssSelectOptions = {
+
+      at Object.<anonymous> (node_modules/entities/lib/https:/raw.githubusercontent.com/fb55/entities/867ac709ba482a56a98b7c35f49ca833c74dc193/src/decode.ts:3:1)
+      at Object.<anonymous> (node_modules/entities/lib/https:/raw.githubusercontent.com/fb55/entities/867ac709ba482a56a98b7c35f49ca833c74dc193/src/index.ts:10:1)
+      at Object.<anonymous> (node_modules/dom-serializer/lib/index.js:27:18)
+      at Object.<anonymous> (node_modules/domutils/lib/stringify.js:11:40)
+      at Object.<anonymous> (node_modules/domutils/lib/index.js:15:14)
+      at Object.<anonymous> (node_modules/css-select/lib/index.js:23:29)
+      at Object.require (lib/xast.js:10:38)
+      at Object.require (lib/style.js:21:28)
+      at Object.require (lib/style.test.js:8:45)
+
+FAIL test/cli/cli.test.js
+  ● shows plugins when flag specified
+
+    expect(received).toMatch(expected)
+
+    Expected pattern: /Currently available plugins:/
+    Received string:  "empty function
+    "
+
+      38 |   );
+      39 |   const stdout = await waitStdout(proc);
+    > 40 |   expect(stdout).toMatch(/Currently available plugins:/);
+         |                  ^
+      41 | });
+      42 |
+      43 | test('accepts svg as input stream', async () => {
+
+      at Object.toMatch (test/cli/cli.test.js:40:18)
+
+  ● accepts svg as input stream
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 2
+
+    - <svg/>
+    + empty function
+    +
+
+      48 |   proc.stdin.end();
+      49 |   const stdout = await waitStdout(proc);
+    > 50 |   expect(stdout).toEqual('<svg/>');
+         |                  ^
+      51 | });
+      52 |
+      53 | test('accepts svg as string', async () => {
+
+      at Object.toEqual (test/cli/cli.test.js:50:18)
+
+  ● accepts svg as string
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 2
+
+    - <svg/>
+    + empty function
+    +
+
+      59 |   );
+      60 |   const stdout = await waitStdout(proc);
+    > 61 |   expect(stdout).toEqual('<svg/>');
+         |                  ^
+      62 | });
+      63 |
+      64 | test('accepts svg as filename', async () => {
+
+      at Object.toEqual (test/cli/cli.test.js:61:18)
+
+  ● accepts svg as filename
+
+    ENOENT: no such file or directory, open '/data/js-variants/multee/VariantsPureDep/svgo/variant_functions/svgo/test/cli/output/single.svg'
+
+      69 |   );
+      70 |   await waitClose(proc);
+    > 71 |   const output = fs.readFileSync(
+         |                     ^
+      72 |     path.join(__dirname, 'output/single.svg'),
+      73 |     'utf-8'
+      74 |   );
+
+      at Object.readFileSync (test/cli/cli.test.js:71:21)
+
+  ● output as stream when "-" is specified
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 1
+    + Received  + 2
+
+    - <svg/>
+    + empty function
+    +
+
+      83 |   );
+      84 |   const stdout = await waitStdout(proc);
+    > 85 |   expect(stdout).toEqual('<svg/>');
+         |                  ^
+      86 | });
+      87 |
+      88 | test('should exit with 1 code on syntax error', async () => {
+
+      at Object.toEqual (test/cli/cli.test.js:85:18)
+          at runMicrotasks (<anonymous>)
+
+  ● should exit with 1 code on syntax error
+
+    expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  8
+    + Received  + 15
+
+    - SvgoParserError: invalid.svg:2:27: Unquoted attribute value
+    -
+    -   1 | <svg>
+    - > 2 |   <rect x="0" y="0" width=10" height="20" />
+    -     |                           ^
+    -   3 | </svg>
+    -   4 | 
+    -
+    + /data/js-variants/multee/VariantsPureDep/svgo/variant_functions/svgo/node_modules/entities/lib/decode.js:8
+    + exports.htmlDecodeTree = decode_data_html_js_1.default;
+    +                                                ^
+    +
+    + TypeError: Cannot read properties of undefined (reading 'default')
+    +     at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/svgo/variant_functions/svgo/node_modules/entities/lib/decode.js:8:48)
+    +     at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    +     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    +     at Module.load (node:internal/modules/cjs/loader:1004:32)
+    +     at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    +     at Module.require (node:internal/modules/cjs/loader:1028:19)
+    +     at require (node:internal/modules/cjs/helpers:102:18)
+    +     at Object.<anonymous> (/data/js-variants/multee/VariantsPureDep/svgo/variant_functions/svgo/node_modules/entities/lib/index.js:4:19)
+    +     at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    +     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+      ↵
+
+      104 |   expect(code).toEqual(1);
+      105 |   expect(stderr)
+    > 106 |     .toEqual(`SvgoParserError: invalid.svg:2:27: Unquoted attribute value
+          |      ^
+      107 |
+      108 |   1 | <svg>
+      109 | > 2 |   <rect x="0" y="0" width=10" height="20" />
+
+      at Object.toEqual (test/cli/cli.test.js:106:6)
+
+FAIL lib/svgo.test.js
+  ● Test suite failed to run
+
+    TypeError: Cannot read properties of undefined (reading 'default')
+
+       8 |  */
+       9 |
+    > 10 | const { selectAll, selectOne, is } = require('css-select');
+         |                                      ^
+      11 | const xastAdaptor = require('./svgo/css-select-adapter.js');
+      12 |
+      13 | const cssSelectOptions = {
+
+      at Object.<anonymous> (node_modules/entities/lib/https:/raw.githubusercontent.com/fb55/entities/867ac709ba482a56a98b7c35f49ca833c74dc193/src/decode.ts:3:1)
+      at Object.<anonymous> (node_modules/entities/lib/https:/raw.githubusercontent.com/fb55/entities/867ac709ba482a56a98b7c35f49ca833c74dc193/src/index.ts:10:1)
+      at Object.<anonymous> (node_modules/dom-serializer/lib/index.js:27:18)
+      at Object.<anonymous> (node_modules/domutils/lib/stringify.js:11:40)
+      at Object.<anonymous> (node_modules/domutils/lib/index.js:15:14)
+      at Object.<anonymous> (node_modules/css-select/lib/index.js:23:29)
+      at Object.require (lib/xast.js:10:38)
+      at Object.require (lib/svgo/plugins.js:3:19)
+      at Object.require (plugins/preset-default.js:3:26)
+      at Object.require (lib/builtin.js:4:3)
+      at Object.require (lib/svgo.js:5:21)
+      at Object.require (lib/svgo.test.js:7:22)
+
+FAIL lib/svgo-node.test.js
+  ● Test suite failed to run
+
+    TypeError: Cannot read properties of undefined (reading 'default')
+
+       8 |  */
+       9 |
+    > 10 | const { selectAll, selectOne, is } = require('css-select');
+         |                                      ^
+      11 | const xastAdaptor = require('./svgo/css-select-adapter.js');
+      12 |
+      13 | const cssSelectOptions = {
+
+      at Object.<anonymous> (node_modules/entities/lib/https:/raw.githubusercontent.com/fb55/entities/867ac709ba482a56a98b7c35f49ca833c74dc193/src/decode.ts:3:1)
+      at Object.<anonymous> (node_modules/entities/lib/https:/raw.githubusercontent.com/fb55/entities/867ac709ba482a56a98b7c35f49ca833c74dc193/src/index.ts:10:1)
+      at Object.<anonymous> (node_modules/dom-serializer/lib/index.js:27:18)
+      at Object.<anonymous> (node_modules/domutils/lib/stringify.js:11:40)
+      at Object.<anonymous> (node_modules/domutils/lib/index.js:15:14)
+      at Object.<anonymous> (node_modules/css-select/lib/index.js:23:29)
+      at Object.require (lib/xast.js:10:38)
+      at Object.require (lib/svgo/plugins.js:3:19)
+      at Object.require (plugins/preset-default.js:3:26)
+      at Object.require (lib/builtin.js:4:3)
+      at Object.require (lib/svgo.js:5:21)
+      at Object.require (lib/svgo-node.js:7:40)
+      at Object.require (lib/svgo-node.test.js:9:34)
+
+FAIL test/coa/_index.test.js
+  ● Test suite failed to run
+
+    TypeError: Cannot read properties of undefined (reading 'default')
+
+       8 |  */
+       9 |
+    > 10 | const { selectAll, selectOne, is } = require('css-select');
+         |                                      ^
+      11 | const xastAdaptor = require('./svgo/css-select-adapter.js');
+      12 |
+      13 | const cssSelectOptions = {
+
+      at Object.<anonymous> (node_modules/entities/lib/https:/raw.githubusercontent.com/fb55/entities/867ac709ba482a56a98b7c35f49ca833c74dc193/src/decode.ts:3:1)
+      at Object.<anonymous> (node_modules/entities/lib/https:/raw.githubusercontent.com/fb55/entities/867ac709ba482a56a98b7c35f49ca833c74dc193/src/index.ts:10:1)
+      at Object.<anonymous> (node_modules/dom-serializer/lib/index.js:27:18)
+      at Object.<anonymous> (node_modules/domutils/lib/stringify.js:11:40)
+      at Object.<anonymous> (node_modules/domutils/lib/index.js:15:14)
+      at Object.<anonymous> (node_modules/css-select/lib/index.js:23:29)
+      at Object.require (lib/xast.js:10:38)
+      at Object.require (lib/svgo/plugins.js:3:19)
+      at Object.require (plugins/preset-default.js:3:26)
+      at Object.require (lib/builtin.js:4:3)
+      at Object.require (lib/svgo.js:5:21)
+      at Object.require (lib/svgo-node.js:7:40)
+      at Object.require (lib/svgo/coa.js:6:34)
+      at Object.require (test/coa/_index.test.js:7:14)
+
+FAIL test/svg2js/_index.test.js (5.234 s)
+  ● Console
+
+    console.log
+      empty function
+
+      at node_modules/@trysound/sax/lib/sax.js:3:11
+          at runMicrotasks (<anonymous>)
+
+  ● svg2js › working svg › root › should exist
+
+    thrown: "Exceeded timeout of 5000 ms for a hook while waiting for `done()` to be called.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+      10 |       root;
+      11 |
+    > 12 |     beforeAll(function (done) {
+         |     ^
+      13 |       FS.readFile(filepath, 'utf8', function (err, data) {
+      14 |         if (err) {
+      15 |           throw err;
+
+      at beforeAll (test/svg2js/_index.test.js:12:5)
+      at describe (test/svg2js/_index.test.js:8:3)
+      at Object.describe (test/svg2js/_index.test.js:7:1)
+          at runMicrotasks (<anonymous>)
+
+  ● svg2js › working svg › root › should be an instance of Object
+
+    thrown: "Exceeded timeout of 5000 ms for a hook while waiting for `done()` to be called.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+      10 |       root;
+      11 |
+    > 12 |     beforeAll(function (done) {
+         |     ^
+      13 |       FS.readFile(filepath, 'utf8', function (err, data) {
+      14 |         if (err) {
+      15 |           throw err;
+
+      at beforeAll (test/svg2js/_index.test.js:12:5)
+      at describe (test/svg2js/_index.test.js:8:3)
+      at Object.describe (test/svg2js/_index.test.js:7:1)
+          at runMicrotasks (<anonymous>)
+
+  ● svg2js › working svg › root › should have property "children"
+
+    thrown: "Exceeded timeout of 5000 ms for a hook while waiting for `done()` to be called.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+      10 |       root;
+      11 |
+    > 12 |     beforeAll(function (done) {
+         |     ^
+      13 |       FS.readFile(filepath, 'utf8', function (err, data) {
+      14 |         if (err) {
+      15 |           throw err;
+
+      at beforeAll (test/svg2js/_index.test.js:12:5)
+      at describe (test/svg2js/_index.test.js:8:3)
+      at Object.describe (test/svg2js/_index.test.js:7:1)
+          at runMicrotasks (<anonymous>)
+
+  ● svg2js › working svg › root.children › should be an instance of Array
+
+    thrown: "Exceeded timeout of 5000 ms for a hook while waiting for `done()` to be called.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+      10 |       root;
+      11 |
+    > 12 |     beforeAll(function (done) {
+         |     ^
+      13 |       FS.readFile(filepath, 'utf8', function (err, data) {
+      14 |         if (err) {
+      15 |           throw err;
+
+      at beforeAll (test/svg2js/_index.test.js:12:5)
+      at describe (test/svg2js/_index.test.js:8:3)
+      at Object.describe (test/svg2js/_index.test.js:7:1)
+          at runMicrotasks (<anonymous>)
+
+  ● svg2js › working svg › root.children › should have length 4
+
+    thrown: "Exceeded timeout of 5000 ms for a hook while waiting for `done()` to be called.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+      10 |       root;
+      11 |
+    > 12 |     beforeAll(function (done) {
+         |     ^
+      13 |       FS.readFile(filepath, 'utf8', function (err, data) {
+      14 |         if (err) {
+      15 |           throw err;
+
+      at beforeAll (test/svg2js/_index.test.js:12:5)
+      at describe (test/svg2js/_index.test.js:8:3)
+      at Object.describe (test/svg2js/_index.test.js:7:1)
+          at runMicrotasks (<anonymous>)
+
+  ● svg2js › working svg › the first node should be instruction
+
+    thrown: "Exceeded timeout of 5000 ms for a hook while waiting for `done()` to be called.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+      10 |       root;
+      11 |
+    > 12 |     beforeAll(function (done) {
+         |     ^
+      13 |       FS.readFile(filepath, 'utf8', function (err, data) {
+      14 |         if (err) {
+      15 |           throw err;
+
+      at beforeAll (test/svg2js/_index.test.js:12:5)
+      at describe (test/svg2js/_index.test.js:8:3)
+      at Object.describe (test/svg2js/_index.test.js:7:1)
+          at runMicrotasks (<anonymous>)
+
+  ● svg2js › working svg › the second node should be comment
+
+    thrown: "Exceeded timeout of 5000 ms for a hook while waiting for `done()` to be called.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+      10 |       root;
+      11 |
+    > 12 |     beforeAll(function (done) {
+         |     ^
+      13 |       FS.readFile(filepath, 'utf8', function (err, data) {
+      14 |         if (err) {
+      15 |           throw err;
+
+      at beforeAll (test/svg2js/_index.test.js:12:5)
+      at describe (test/svg2js/_index.test.js:8:3)
+      at Object.describe (test/svg2js/_index.test.js:7:1)
+          at runMicrotasks (<anonymous>)
+
+  ● svg2js › working svg › the third node should be doctype
+
+    thrown: "Exceeded timeout of 5000 ms for a hook while waiting for `done()` to be called.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+      10 |       root;
+      11 |
+    > 12 |     beforeAll(function (done) {
+         |     ^
+      13 |       FS.readFile(filepath, 'utf8', function (err, data) {
+      14 |         if (err) {
+      15 |           throw err;
+
+      at beforeAll (test/svg2js/_index.test.js:12:5)
+      at describe (test/svg2js/_index.test.js:8:3)
+      at Object.describe (test/svg2js/_index.test.js:7:1)
+          at runMicrotasks (<anonymous>)
+
+  ● svg2js › working svg › name › should have property name: "svg"
+
+    thrown: "Exceeded timeout of 5000 ms for a hook while waiting for `done()` to be called.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+      10 |       root;
+      11 |
+    > 12 |     beforeAll(function (done) {
+         |     ^
+      13 |       FS.readFile(filepath, 'utf8', function (err, data) {
+      14 |         if (err) {
+      15 |           throw err;
+
+      at beforeAll (test/svg2js/_index.test.js:12:5)
+      at describe (test/svg2js/_index.test.js:8:3)
+      at Object.describe (test/svg2js/_index.test.js:7:1)
+          at runMicrotasks (<anonymous>)
+
+  ● svg2js › working svg › children › should exist
+
+    thrown: "Exceeded timeout of 5000 ms for a hook while waiting for `done()` to be called.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+      10 |       root;
+      11 |
+    > 12 |     beforeAll(function (done) {
+         |     ^
+      13 |       FS.readFile(filepath, 'utf8', function (err, data) {
+      14 |         if (err) {
+      15 |           throw err;
+
+      at beforeAll (test/svg2js/_index.test.js:12:5)
+      at describe (test/svg2js/_index.test.js:8:3)
+      at Object.describe (test/svg2js/_index.test.js:7:1)
+          at runMicrotasks (<anonymous>)
+
+  ● svg2js › working svg › children › should be an instance of Array
+
+    thrown: "Exceeded timeout of 5000 ms for a hook while waiting for `done()` to be called.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+      10 |       root;
+      11 |
+    > 12 |     beforeAll(function (done) {
+         |     ^
+      13 |       FS.readFile(filepath, 'utf8', function (err, data) {
+      14 |         if (err) {
+      15 |           throw err;
+
+      at beforeAll (test/svg2js/_index.test.js:12:5)
+      at describe (test/svg2js/_index.test.js:8:3)
+      at Object.describe (test/svg2js/_index.test.js:7:1)
+          at runMicrotasks (<anonymous>)
+
+  ● svg2js › working svg › children › should eventually have length 3
+
+    thrown: "Exceeded timeout of 5000 ms for a hook while waiting for `done()` to be called.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+      10 |       root;
+      11 |
+    > 12 |     beforeAll(function (done) {
+         |     ^
+      13 |       FS.readFile(filepath, 'utf8', function (err, data) {
+      14 |         if (err) {
+      15 |           throw err;
+
+      at beforeAll (test/svg2js/_index.test.js:12:5)
+      at describe (test/svg2js/_index.test.js:8:3)
+      at Object.describe (test/svg2js/_index.test.js:7:1)
+          at runMicrotasks (<anonymous>)
+
+  ● svg2js › working svg › text nodes › should contain preserved whitespace
+
+    thrown: "Exceeded timeout of 5000 ms for a hook while waiting for `done()` to be called.
+    Use jest.setTimeout(newTimeout) to increase the timeout value, if this is a long-running test."
+
+      10 |       root;
+      11 |
+    > 12 |     beforeAll(function (done) {
+         |     ^
+      13 |       FS.readFile(filepath, 'utf8', function (err, data) {
+      14 |         if (err) {
+      15 |           throw err;
+
+      at beforeAll (test/svg2js/_index.test.js:12:5)
+      at describe (test/svg2js/_index.test.js:8:3)
+      at Object.describe (test/svg2js/_index.test.js:7:1)
+          at runMicrotasks (<anonymous>)
+
+
+  ● Test suite failed to run
+
+    TypeError: SAX.parser is not a function
+
+      91 |  */
+      92 | const parseSvg = (data, from) => {
+    > 93 |   const sax = SAX.parser(config.strict, config);
+         |                   ^
+      94 |   /**
+      95 |    * @type {XastRoot}
+      96 |    */
+
+      at parser (lib/parser.js:93:19)
+      at parseSvg (test/svg2js/_index.test.js:18:16)
+
+FAIL lib/xast.test.js
+  ● Test suite failed to run
+
+    TypeError: Cannot read properties of undefined (reading 'default')
+
+       8 |  */
+       9 |
+    > 10 | const { selectAll, selectOne, is } = require('css-select');
+         |                                      ^
+      11 | const xastAdaptor = require('./svgo/css-select-adapter.js');
+      12 |
+      13 | const cssSelectOptions = {
+
+      at Object.<anonymous> (node_modules/entities/lib/https:/raw.githubusercontent.com/fb55/entities/867ac709ba482a56a98b7c35f49ca833c74dc193/src/decode.ts:3:1)
+      at Object.<anonymous> (node_modules/entities/lib/https:/raw.githubusercontent.com/fb55/entities/867ac709ba482a56a98b7c35f49ca833c74dc193/src/index.ts:10:1)
+      at Object.<anonymous> (node_modules/dom-serializer/lib/index.js:27:18)
+      at Object.<anonymous> (node_modules/domutils/lib/stringify.js:11:40)
+      at Object.<anonymous> (node_modules/domutils/lib/index.js:15:14)
+      at Object.<anonymous> (node_modules/css-select/lib/index.js:23:29)
+      at Object.require (lib/xast.js:10:38)
+      at Object.require (lib/xast.test.js:8:52)
+
+FAIL test/svgo/_index.test.js
+  ● Test suite failed to run
+
+    TypeError: Cannot read properties of undefined (reading 'default')
+
+       8 |  */
+       9 |
+    > 10 | const { selectAll, selectOne, is } = require('css-select');
+         |                                      ^
+      11 | const xastAdaptor = require('./svgo/css-select-adapter.js');
+      12 |
+      13 | const cssSelectOptions = {
+
+      at Object.<anonymous> (node_modules/entities/lib/https:/raw.githubusercontent.com/fb55/entities/867ac709ba482a56a98b7c35f49ca833c74dc193/src/decode.ts:3:1)
+      at Object.<anonymous> (node_modules/entities/lib/https:/raw.githubusercontent.com/fb55/entities/867ac709ba482a56a98b7c35f49ca833c74dc193/src/index.ts:10:1)
+      at Object.<anonymous> (node_modules/dom-serializer/lib/index.js:27:18)
+      at Object.<anonymous> (node_modules/domutils/lib/stringify.js:11:40)
+      at Object.<anonymous> (node_modules/domutils/lib/index.js:15:14)
+      at Object.<anonymous> (node_modules/css-select/lib/index.js:23:29)
+      at Object.require (lib/xast.js:10:38)
+      at Object.require (lib/svgo/plugins.js:3:19)
+      at Object.require (plugins/preset-default.js:3:26)
+      at Object.require (lib/builtin.js:4:3)
+      at Object.require (lib/svgo.js:5:21)
+      at Object.require (test/svgo/_index.test.js:6:22)
+
+FAIL test/plugins/_index.test.js
+  ● Test suite failed to run
+
+    TypeError: Cannot read properties of undefined (reading 'default')
+
+       8 |  */
+       9 |
+    > 10 | const { selectAll, selectOne, is } = require('css-select');
+         |                                      ^
+      11 | const xastAdaptor = require('./svgo/css-select-adapter.js');
+      12 |
+      13 | const cssSelectOptions = {
+
+      at Object.<anonymous> (node_modules/entities/lib/https:/raw.githubusercontent.com/fb55/entities/867ac709ba482a56a98b7c35f49ca833c74dc193/src/decode.ts:3:1)
+      at Object.<anonymous> (node_modules/entities/lib/https:/raw.githubusercontent.com/fb55/entities/867ac709ba482a56a98b7c35f49ca833c74dc193/src/index.ts:10:1)
+      at Object.<anonymous> (node_modules/dom-serializer/lib/index.js:27:18)
+      at Object.<anonymous> (node_modules/domutils/lib/stringify.js:11:40)
+      at Object.<anonymous> (node_modules/domutils/lib/index.js:15:14)
+      at Object.<anonymous> (node_modules/css-select/lib/index.js:23:29)
+      at Object.require (lib/xast.js:10:38)
+      at Object.require (lib/svgo/plugins.js:3:19)
+      at Object.require (plugins/preset-default.js:3:26)
+      at Object.require (lib/builtin.js:4:3)
+      at Object.require (lib/svgo.js:5:21)
+      at Object.require (test/plugins/_index.test.js:8:22)
+
+FAIL test/plugins/prefixIds.test.js
+  ● Test suite failed to run
+
+    TypeError: Cannot read properties of undefined (reading 'default')
+
+       8 |  */
+       9 |
+    > 10 | const { selectAll, selectOne, is } = require('css-select');
+         |                                      ^
+      11 | const xastAdaptor = require('./svgo/css-select-adapter.js');
+      12 |
+      13 | const cssSelectOptions = {
+
+      at Object.<anonymous> (node_modules/entities/lib/https:/raw.githubusercontent.com/fb55/entities/867ac709ba482a56a98b7c35f49ca833c74dc193/src/decode.ts:3:1)
+      at Object.<anonymous> (node_modules/entities/lib/https:/raw.githubusercontent.com/fb55/entities/867ac709ba482a56a98b7c35f49ca833c74dc193/src/index.ts:10:1)
+      at Object.<anonymous> (node_modules/dom-serializer/lib/index.js:27:18)
+      at Object.<anonymous> (node_modules/domutils/lib/stringify.js:11:40)
+      at Object.<anonymous> (node_modules/domutils/lib/index.js:15:14)
+      at Object.<anonymous> (node_modules/css-select/lib/index.js:23:29)
+      at Object.require (lib/xast.js:10:38)
+      at Object.require (lib/svgo/plugins.js:3:19)
+      at Object.require (plugins/preset-default.js:3:26)
+      at Object.require (lib/builtin.js:4:3)
+      at Object.require (lib/svgo.js:5:21)
+      at Object.require (test/plugins/prefixIds.test.js:3:22)
+          at runMicrotasks (<anonymous>)
+
+Test Suites: 10 failed, 1 passed, 11 total
+Tests:       19 failed, 18 passed, 37 total
+Snapshots:   0 total
+Time:        44.46 s
+Ran all test suites.
+I am package taskgroup .....
+I am package timeout .....
+I am package to-regex .....
+I am package unzip-stream .....
+(node:1386672) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1386685) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1386696) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1386707) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1386718) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1386729) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1386740) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1386751) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+I am package watchr .....

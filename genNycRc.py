@@ -29,7 +29,10 @@ def get_file_start():
 	"*.js",
     "dist/**",
     "lib/**",
-    "build/**",
+    "tools/**",
+    "scripts/**",
+    "script/**",
+    "presets/**",
     "bin/**",
     "source/**",
     "src/**\"""")
