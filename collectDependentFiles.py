@@ -54,8 +54,8 @@ depDict = {
     "package": packageName
 }
 
-oldPathPre = f"/data/js-variants/multee/Playground/{packageName}/node_modules/" 
-newPathPre = f"/data/js-variants/multee/VariantsPureDep/{packageName}/variant_deps/{packageName}/node_modules/" 
+oldPathPre = f"/data/js-variants/multee/Playground/{packageName}/" 
+newPathPre = f"/data/js-variants/multee/VariantsPureDep/{packageName}/variant_deps/{packageName}/" 
 
 def get_depname_by_path(path):
     pathArr = path.split('/')
@@ -73,5 +73,5 @@ for key, value in depTreeDict.items():
 print(depDict)
 
 for key, value in depDict.items():
-    subprocess.run()
+    subprocess.run("node", "remove")
 

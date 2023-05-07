@@ -1,9 +1,19 @@
-const protocol = require('./constants');
-const { Buffer } = require('buffer');
-const empty = Buffer.allocUnsafe(0);
-const zeroBuf = Buffer.from([0])
-const numbers = require('./numbers');
-const nextTick = require('buffer').nextTick;
-const debug = require('buffer')('mqtt-packet:writeToStream')
+"use strict";
 
-var Stream = require('./internal/streams/stream');
+/**
+ * customReturn
+ * Generate a function that returns a constant.
+ *
+ * @name customReturn
+ * @function
+ * @param {Anything} value The value to return.
+ * @return {Function} A function that returns the specified value.
+ */
+module.exports = function customReturn(value) {
+    if (value === undefined) {
+        return noop;
+    }
+    return function () {
+        return value;
+    };
+};

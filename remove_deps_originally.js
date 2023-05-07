@@ -31,17 +31,23 @@ function isRequirementInCallExpression(node) {
         isRequirementInCallExpression(node.callee)
         return true
     }
+    if (node.callee.type == 'MemberExpression') {
+        isRequirementInCallExpression(node.arguments)
+        return true
+    }
+    if (node.arguments[0] && node.arguments[0].type == 'CallExpression') {
+        isRequirementInCallExpression(node.arguments[0])
+        return true
+    }
     return false
 }
 
 function mightBeRemoved(node, astBody, astIndex, inFor) {
     recast.visit(node, {
         visitLiteral: function (node) {
-            // console.log(node)
             if (node.value.value == depName) {
                 console.log(`${depName} is removed from the dependent`)
                 if (inFor) {
-                    console.log(222)
                     astBody.splice(astIndex, 1)
                 } else {
                     const emptyString = ''
@@ -58,21 +64,18 @@ function mightBeRemoved(node, astBody, astIndex, inFor) {
 function removeRequirement(node, astBody, index, inFor) {
     recast.visit(node, {
         visitVariableDeclaration: function ({ value }) {
-            console.log(value.parent)
+            // console.log('visitVariableDeclaration')
             forCycle(value.declarations, astBody, index)
             return false
         },
         visitVariableDeclarator: function ({ value }) {
-            // console.log('visitVariableDeclarator', index++)
-            if (value.init.type == 'CallExpression') {
-                // console.log(value, astBody)
+            // console.log('visitVariableDeclarator')
+            if (value.init && value.init.type && value.init.type == 'CallExpression') {
                 const callNode = value.init
                 if (isRequirementInCallExpression(callNode)) {
-                    console.log('visitVariableDeclaration')
-
                     mightBeRemoved(callNode, astBody, index, inFor)
                 }
-            } if (value.init.type == 'MemberExpression') {
+            } if (value.init && value.init.type && value.init.type == 'MemberExpression') {
                 const callNode = value.init.object
                 if (isRequirementInCallExpression(callNode)) {
                     console.log('visitMemberExpression')
@@ -82,17 +85,25 @@ function removeRequirement(node, astBody, index, inFor) {
             return false
         },
         visitExpressionStatement: function ({ value }) {
-            //   console.log('visitExpressionStatement', index++)
-            console.log('CallExpression')
-            console.log(value.parentPath)
+            // console.log('ExpressionStatement')
             if (value.expression.type == 'CallExpression') {
                 const callNode = value.expression.callee
-                console.log('CallExpression')
                 if (isRequirementInCallExpression(callNode)) {
-                    console.log('CallExpression')
                     mightBeRemoved(callNode, astBody, index)
                 }
             }
+            if (value.expression.callee && value.expression.callee.type == 'FunctionExpression') {
+                // console.log('FunctionExpression')
+                funcNodeCallee = value.expression.callee
+                removeRequirement(funcNodeCallee)
+                funcNodeArg = value.expression.arguments
+                removeRequirement(funcNodeArg)
+            }
+            return false
+        },
+        visitFunctionExpression: function ({ value }) {
+            // console.log('FunctionExpression')
+            forCycle(value.body.body)
             return false
         }
     })

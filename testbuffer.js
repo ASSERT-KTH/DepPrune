@@ -12,6 +12,26 @@ var Stream = require('./internal/streams/stream');
 
 
 var Buffer = require('buffer').Buffer;
+const protocol = require('./constants');
+const { Buffer } = require('buffer');
+const empty = Buffer.allocUnsafe(0);
+const zeroBuf = Buffer.from([0])
+const numbers = require('./numbers');
+const nextTick = require('buffer').nextTick;
+const debug = require('buffer')('mqtt-packet:writeToStream')
+module.exports.buffer = require('buffer')
+
+var Stream = require('./internal/streams/stream');
+var str = "buff"
+var test = require(`${str}er`)
+
+Object.defineProperty(module.exports, "tokTypes", {
+    get: function get_tokTypes() {
+        return getJsxTokens(require("buffer")).tokTypes;
+    },
+    configurable: true,
+    enumerable: true
+});
 
 var
     ERR_INVALID_ARG_TYPE = _require$codes.ERR_INVALID_ARG_TYPE,
