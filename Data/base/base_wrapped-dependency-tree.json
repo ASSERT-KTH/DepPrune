@@ -1,0 +1,245 @@
+{
+    "path": "/data/js-variants/multee/Playground/base/index.js",
+    "children": [
+        {
+            "path": "/data/js-variants/multee/Playground/base/node_modules/kind-of/index.js",
+            "parent": "/data/js-variants/multee/Playground/base/index.js",
+            "children": []
+        },
+        {
+            "path": "/data/js-variants/multee/Playground/base/node_modules/define-property/index.js",
+            "parent": "/data/js-variants/multee/Playground/base/index.js",
+            "children": [
+                {
+                    "path": "/data/js-variants/multee/Playground/base/node_modules/isobject/index.js",
+                    "parent": "/data/js-variants/multee/Playground/base/node_modules/define-property/index.js",
+                    "children": []
+                },
+                {
+                    "path": "/data/js-variants/multee/Playground/base/node_modules/is-descriptor/index.js",
+                    "parent": "/data/js-variants/multee/Playground/base/node_modules/define-property/index.js",
+                    "children": [
+                        {
+                            "path": "/data/js-variants/multee/Playground/base/node_modules/kind-of/index.js",
+                            "parent": "/data/js-variants/multee/Playground/base/node_modules/is-descriptor/index.js",
+                            "children": []
+                        },
+                        {
+                            "path": "/data/js-variants/multee/Playground/base/node_modules/is-accessor-descriptor/index.js",
+                            "parent": "/data/js-variants/multee/Playground/base/node_modules/is-descriptor/index.js",
+                            "children": [
+                                {
+                                    "path": "/data/js-variants/multee/Playground/base/node_modules/kind-of/index.js",
+                                    "parent": "/data/js-variants/multee/Playground/base/node_modules/is-accessor-descriptor/index.js",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "path": "/data/js-variants/multee/Playground/base/node_modules/is-data-descriptor/index.js",
+                            "parent": "/data/js-variants/multee/Playground/base/node_modules/is-descriptor/index.js",
+                            "children": [
+                                {
+                                    "path": "/data/js-variants/multee/Playground/base/node_modules/kind-of/index.js",
+                                    "parent": "/data/js-variants/multee/Playground/base/node_modules/is-data-descriptor/index.js",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "/data/js-variants/multee/Playground/base/node_modules/pascalcase/index.js",
+            "parent": "/data/js-variants/multee/Playground/base/index.js",
+            "children": []
+        },
+        {
+            "path": "/data/js-variants/multee/Playground/base/node_modules/mixin-deep/index.js",
+            "parent": "/data/js-variants/multee/Playground/base/index.js",
+            "children": []
+        },
+        {
+            "path": "/data/js-variants/multee/Playground/base/node_modules/cache-base/index.js",
+            "parent": "/data/js-variants/multee/Playground/base/index.js",
+            "children": [
+                {
+                    "path": "/data/js-variants/multee/Playground/base/node_modules/kind-of/index.js",
+                    "parent": "/data/js-variants/multee/Playground/base/node_modules/cache-base/index.js",
+                    "children": []
+                },
+                {
+                    "path": "/data/js-variants/multee/Playground/base/node_modules/@sellside/emitter/index.js",
+                    "parent": "/data/js-variants/multee/Playground/base/node_modules/cache-base/index.js",
+                    "children": []
+                },
+                {
+                    "path": "/data/js-variants/multee/Playground/base/node_modules/collection-visit/index.js",
+                    "parent": "/data/js-variants/multee/Playground/base/node_modules/cache-base/index.js",
+                    "children": [
+                        {
+                            "path": "/data/js-variants/multee/Playground/base/node_modules/object-visit/index.js",
+                            "parent": "/data/js-variants/multee/Playground/base/node_modules/collection-visit/index.js",
+                            "children": [
+                                {
+                                    "path": "/data/js-variants/multee/Playground/base/node_modules/isobject/index.js",
+                                    "parent": "/data/js-variants/multee/Playground/base/node_modules/object-visit/index.js",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "path": "/data/js-variants/multee/Playground/base/node_modules/map-visit/index.js",
+                            "parent": "/data/js-variants/multee/Playground/base/node_modules/collection-visit/index.js",
+                            "children": [
+                                {
+                                    "path": "/data/js-variants/multee/Playground/base/node_modules/object-visit/index.js",
+                                    "parent": "/data/js-variants/multee/Playground/base/node_modules/map-visit/index.js",
+                                    "children": [
+                                        {
+                                            "path": "/data/js-variants/multee/Playground/base/node_modules/isobject/index.js",
+                                            "parent": "/data/js-variants/multee/Playground/base/node_modules/object-visit/index.js",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "path": "/data/js-variants/multee/Playground/base/node_modules/has-own-deep/index.js",
+                    "parent": "/data/js-variants/multee/Playground/base/node_modules/cache-base/index.js",
+                    "children": [
+                        {
+                            "path": "/data/js-variants/multee/Playground/base/node_modules/isobject/index.js",
+                            "parent": "/data/js-variants/multee/Playground/base/node_modules/has-own-deep/index.js",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "path": "/data/js-variants/multee/Playground/base/node_modules/union-value/index.js",
+                    "parent": "/data/js-variants/multee/Playground/base/node_modules/cache-base/index.js",
+                    "children": [
+                        {
+                            "path": "/data/js-variants/multee/Playground/base/node_modules/is-extendable/index.js",
+                            "parent": "/data/js-variants/multee/Playground/base/node_modules/union-value/index.js",
+                            "children": []
+                        },
+                        {
+                            "path": "/data/js-variants/multee/Playground/base/node_modules/arr-union/index.js",
+                            "parent": "/data/js-variants/multee/Playground/base/node_modules/union-value/index.js",
+                            "children": []
+                        },
+                        {
+                            "path": "/data/js-variants/multee/Playground/base/node_modules/get-value/index.js",
+                            "parent": "/data/js-variants/multee/Playground/base/node_modules/union-value/index.js",
+                            "children": [
+                                {
+                                    "path": "/data/js-variants/multee/Playground/base/node_modules/isobject/index.js",
+                                    "parent": "/data/js-variants/multee/Playground/base/node_modules/get-value/index.js",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "path": "/data/js-variants/multee/Playground/base/node_modules/set-value/index.js",
+                            "parent": "/data/js-variants/multee/Playground/base/node_modules/union-value/index.js",
+                            "children": [
+                                {
+                                    "path": "/data/js-variants/multee/Playground/base/node_modules/is-primitive/index.js",
+                                    "parent": "/data/js-variants/multee/Playground/base/node_modules/set-value/index.js",
+                                    "children": []
+                                },
+                                {
+                                    "path": "/data/js-variants/multee/Playground/base/node_modules/is-plain-object/index.js",
+                                    "parent": "/data/js-variants/multee/Playground/base/node_modules/set-value/index.js",
+                                    "children": [
+                                        {
+                                            "path": "/data/js-variants/multee/Playground/base/node_modules/isobject/index.js",
+                                            "parent": "/data/js-variants/multee/Playground/base/node_modules/is-plain-object/index.js",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "path": "/data/js-variants/multee/Playground/base/node_modules/unset-value/index.js",
+                    "parent": "/data/js-variants/multee/Playground/base/node_modules/cache-base/index.js",
+                    "children": [
+                        {
+                            "path": "/data/js-variants/multee/Playground/base/node_modules/isobject/index.js",
+                            "parent": "/data/js-variants/multee/Playground/base/node_modules/unset-value/index.js",
+                            "children": []
+                        },
+                        {
+                            "path": "/data/js-variants/multee/Playground/base/node_modules/has-value/index.js",
+                            "parent": "/data/js-variants/multee/Playground/base/node_modules/unset-value/index.js",
+                            "children": [
+                                {
+                                    "path": "/data/js-variants/multee/Playground/base/node_modules/isobject/index.js",
+                                    "parent": "/data/js-variants/multee/Playground/base/node_modules/has-value/index.js",
+                                    "children": []
+                                },
+                                {
+                                    "path": "/data/js-variants/multee/Playground/base/node_modules/has-values/index.js",
+                                    "parent": "/data/js-variants/multee/Playground/base/node_modules/has-value/index.js",
+                                    "children": []
+                                },
+                                {
+                                    "path": "/data/js-variants/multee/Playground/base/node_modules/get-value/index.js",
+                                    "parent": "/data/js-variants/multee/Playground/base/node_modules/has-value/index.js",
+                                    "children": [
+                                        {
+                                            "path": "/data/js-variants/multee/Playground/base/node_modules/isobject/index.js",
+                                            "parent": "/data/js-variants/multee/Playground/base/node_modules/get-value/index.js",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "path": "/data/js-variants/multee/Playground/base/node_modules/get-value/index.js",
+                    "parent": "/data/js-variants/multee/Playground/base/node_modules/cache-base/index.js",
+                    "children": [
+                        {
+                            "path": "/data/js-variants/multee/Playground/base/node_modules/isobject/index.js",
+                            "parent": "/data/js-variants/multee/Playground/base/node_modules/get-value/index.js",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "path": "/data/js-variants/multee/Playground/base/node_modules/set-value/index.js",
+                    "parent": "/data/js-variants/multee/Playground/base/node_modules/cache-base/index.js",
+                    "children": [
+                        {
+                            "path": "/data/js-variants/multee/Playground/base/node_modules/is-primitive/index.js",
+                            "parent": "/data/js-variants/multee/Playground/base/node_modules/set-value/index.js",
+                            "children": []
+                        },
+                        {
+                            "path": "/data/js-variants/multee/Playground/base/node_modules/is-plain-object/index.js",
+                            "parent": "/data/js-variants/multee/Playground/base/node_modules/set-value/index.js",
+                            "children": [
+                                {
+                                    "path": "/data/js-variants/multee/Playground/base/node_modules/isobject/index.js",
+                                    "parent": "/data/js-variants/multee/Playground/base/node_modules/is-plain-object/index.js",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
