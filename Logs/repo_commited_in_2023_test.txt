@@ -1,0 +1,84 @@
+krakenjs/grabthar-release, test:npm run format:check && npm run lint && npm run flow-typed && npm run flow && npm run jest
+umijs/father, test:jest
+YvesCoding/gatsby-theme-ant-docs, test:jest --config jest.config.js --collectCoverage
+chakra-ui/chakra-ui, test:jest
+alxshelepenok/gatsby-starter-lumen, test:jest --config ./internal/testing/jest-config.ts
+xsky-fe/wizard-ui, test:jest --env=jsdom
+gatsbyjs/gatsby-starter-hello-world, test:echo "Write tests! -> https://gatsby.dev/unit-testing" && exit 1
+gatsbyjs/gatsby-starter-blog, test:echo "Write tests! -> https://gatsby.dev/unit-testing" && exit 1
+pixeloven/gatsby-v2-typescript-starter, test:jest
+alxshelepenok/gatsby-starter-lumen, test:jest --config ./internal/testing/jest-config.ts
+gatsbyjs/gatsby-starter-default, test:echo "Write tests! -> https://gatsby.dev/unit-testing" && exit 1
+eea/volto-datablocks, test:make test
+angularclass/angular2-webpack-starter, test:karma start
+darekf77/ng2-button-loader, test:karma start
+darekf77/loading-info, test:karma test
+darekf77/ng2-accordions, test:karma test
+darekf77/bs3-breakpoint, test:karma test
+flynneva/react-ros, test:run-s test:unit test:lint test:build
+gatsbyjs/gatsby-starter-hello-world, test:echo "Write tests! -> https://gatsby.dev/unit-testing" && exit 1
+JedWatson/react-select, test:npm run test:jest && npm run test:cypress
+darekf77/ng2-rest-swagger-generator, test:mocha --require ts-node/register src/**/*.spec.ts
+seek-oss/sku, test:SKU_TELEMETRY=false SKU_DISABLE_CACHE=true OPEN_TAB=false jest --verbose
+umijs/father-doc, test:vitest
+taylorbryant/gatsby-starter-tailwind, test:echo "Write tests! -> https://gatsby.dev/unit-testing" && exit 1
+umijs/umi, test:jest
+umijs/umi, test:jest
+unfoldingword/book-package-app, test:react-scripts test
+creativetimofficial/blk-design-system-react, test:react-scripts test
+teambit/bit, test:mocha --require ./babel-register './src/**/*.spec.ts'
+GeneralBots/BotServer, test:node test.js
+cncf/landscapeapp, test:jest
+mgerasika/layout-manager, test:react-scripts test
+uber-web/ocular, test:ocular-test node
+furynet/furyWallet, test:react-scripts test
+lenacassandre/sunflowers, test:echo "missing test script"
+cakrit/landscapeapp, test:jest
+genediazjr/shookt, test:run-s test:lint test:unit test:build
+creativetimofficial/argon-dashboard-react, test:react-scripts test
+alexandr-g/cra-template-typescript-redux, test:react-scripts test
+minimal-ui-kit/material-kit-react, test:react-scripts test
+mathieudutour/medium-to-own-blog, test:node ./bin/medium-to-own-blog.js
+creativetimofficial/paper-kit-react, test:react-scripts test
+naviapps/create-nw-react-app, test:cd packages/nw-react-scripts && node bin/nw-react-scripts.js test
+ayotidapo/rcfiles-uploader, test:run-s test:unit test:lint test:build
+subashcs/React-NepaliDatePicker, test:react-scripts test
+Patrick-Ren/flex-table, test:react-scripts test
+Ravenry/ui, test:react-scripts test
+navikt/sykmeldinger, test:vitest --config ./vitest.config.ts
+creativetimofficial/material-dashboard-react, test:react-scripts test
+JeonH503/Carousel, test:react-scripts test
+ProfessorManhattan/jest-preset-ts, test:bash start.sh && task npm:test:none
+narchart/narrative-chart, test:react-app-rewired test --env=jsdom
+boussadjra/react-md-select, test:react-scripts test
+boussadjra/spring-calendar, test:react-scripts test
+chrislapidas/react-expandable-rows, test:react-scripts test
+artcoholic/akar-icons-app, test:react-scripts test
+LazezBZH/passwords-component, test:react-scripts test
+Prakshal-Jain/React-Video-Editor, test:react-scripts test
+RumbleTalk/react-rumbletalk, test:react-scripts test
+PingrisAlexis/react-modal-window, test:react-scripts test
+shrey2697/react-payment-cards, test:react-scripts test
+wang-man/man-ui, test:react-scripts test
+effectussoftware/wheel-of-fortune, test:react-scripts test
+ossan-engineer/react-zangief, test:react-scripts test
+gsi-chao/vertrax-ui-cmp, test:cross-env CI=true node scripts/test.js --env=jsdom
+MaartenBloemen/react-pdf-ner-annotator, test:react-scripts test
+fonoster/routr-ctl, test:echo no-op
+wesbitty/wesjet, test:CI=true VITEST_SEGFAULT_RETRY=3 npm run test --workspaces --parallel
+effectussoftware/react-custom-roulette, test:react-scripts test
+effectussoftware/react-custom-roulette, test:react-scripts test
+expo/expo-cli, test:jest
+syook/syook-table, test:react-scripts test
+kitze/custom-react-scripts, test:cd packages/react-scripts && node scripts/test.js --env=jsdom
+ajdhefley/musical-components, test:jest
+MateusAndrade/use-cep-hook, test:react-scripts test
+cdklabs/construct-hub-webapp, test:npx projen test
+heygema/ketikin, test:react-scripts test
+GetMetaMap/mati-reactnative-plugin, test:expo-module test
+oqton/create-react-app, test:cd packages/react-scripts && node bin/react-scripts.js test
+ukrbublik/react-awesome-query-builder, test:pnpm --filter @react-awesome-query-builder/tests run test
+gatsbyjs/gatsby, test:npm-run-all --npm-path npm -s lint jest test:peril
+Skyscanner/backpack-react-scripts, test:cd packages/react-scripts && node bin/react-scripts.js test
+witnet/web3-jsonrpc-gateway, test:jest --passWithNoTests
+Trendyol/quarkify, test:react-scripts test
