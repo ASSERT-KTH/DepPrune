@@ -1,12 +1,17 @@
 import requests
 
-filePath = f'./Logs/repo_commited_in_2023_branch.txt'
+# filePath = f'./Logs/repo_commited_in_2023_branch.txt'
+filePath = f'./Logs/repo_commited_in_2023_100000_branch_rest.txt'
+
 with open(filePath) as f:
     lines = f.read().splitlines()
 
-test_filePath = f'./Logs/repo_commited_in_2023_test.txt'
-error_filePath = f'./Logs/repo_commited_in_2023_testentry_error.txt'
-entry_filePath = f'./Logs/repo_commited_in_2023_entry.txt'
+# test_filePath = f'./Logs/repo_commited_in_2023_test.txt'
+# error_filePath = f'./Logs/repo_commited_in_2023_testentry_error.txt'
+# entry_filePath = f'./Logs/repo_commited_in_2023_entry.txt'
+test_filePath = f'./Logs/repo_commited_in_2023_100000_test.txt'
+error_filePath = f'./Logs/repo_commited_in_2023_100000_testentry_error.txt'
+entry_filePath = f'./Logs/repo_commited_in_2023_100000_entry.txt'
 
 test_file = open(test_filePath, 'a')
 error_file = open(error_filePath, 'a')
@@ -48,7 +53,11 @@ def fetch_scripts(scripts, repo, branch):
 
     if "test" in scripts.keys():
         content = scripts['test']
+        
         if "Error: no test specified" in content:
+            error_file.writelines(repo + ',' + content + '\n')
+            return False
+        if "echo no-op" in content:
             error_file.writelines(repo + ',' + content + '\n')
             return False
         else:
