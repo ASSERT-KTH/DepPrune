@@ -1,15 +1,16 @@
 import requests
 
 headers = {
-    "Authorization": "Bearer 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"
+    "Authorization": "Bearer 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"
 }
 
 # filePath = f'./Logs/repo_commited_in_2023.txt'
-filePath = f'./Logs/repo_commited_in_2023_100000.txt'
+# filePath = f'./Logs/repo_commited_in_2023_100000.txt'
+filePath = f'./Logs/repo_100000_rest.txt'
 with open(filePath) as f:
     lines = f.read().splitlines()
 
-filePath_branch = f'./Logs/repo_commited_in_2023_100000_branch.txt'
+filePath_branch = f'./Logs/repo_100000_branch.txt'
 
 def get_default_branch(repoinfo):
     url = f"https://api.github.com/repos/{repoinfo}"
@@ -29,5 +30,5 @@ for item in lines:
     repoinfo = line[1]
     print(repoinfo)
     default_branch = get_default_branch(repoinfo)
-    new_item = f'{line[0]},{default_branch},{repoinfo},{line[2]}\n'
+    new_item = f'{item},{default_branch}\n'
     file_branch.writelines(new_item)

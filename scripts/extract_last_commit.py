@@ -9,7 +9,7 @@ df = pd.read_csv('./Csvs/40039-35321-deduplicated-rest.csv')
 repo_values = df.values.tolist()
 
 headers = {
-    "Authorization": "Bearer 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"
+    "Authorization": "Bearer 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"
 }
 
 def get_commit_status(repoinfo):
