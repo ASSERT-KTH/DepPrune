@@ -1,7 +1,9 @@
 import requests
 
 # filePath = f'./Logs/repo_commited_in_2023_branch.txt'
-filePath = f'./Logs/repo_commited_in_2023_100000_branch_rest.txt'
+# filePath = f'./Logs/repo_commited_in_2023_100000_branch_rest.txt'
+# filePath = f'./Logs/repo_100000_branch.txt'
+filePath = f'./Logs/repo_100000_branch_rest.txt'
 
 with open(filePath) as f:
     lines = f.read().splitlines()
@@ -9,16 +11,19 @@ with open(filePath) as f:
 # test_filePath = f'./Logs/repo_commited_in_2023_test.txt'
 # error_filePath = f'./Logs/repo_commited_in_2023_testentry_error.txt'
 # entry_filePath = f'./Logs/repo_commited_in_2023_entry.txt'
-test_filePath = f'./Logs/repo_commited_in_2023_100000_test.txt'
-error_filePath = f'./Logs/repo_commited_in_2023_100000_testentry_error.txt'
-entry_filePath = f'./Logs/repo_commited_in_2023_100000_entry.txt'
+test_filePath = f'./Logs/repo_100000_test.txt'
+error_filePath = f'./Logs/repo_100000_testentry_error.txt'
+entry_filePath = f'./Logs/repo_100000_entry.txt'
 
 test_file = open(test_filePath, 'a')
 error_file = open(error_filePath, 'a')
 entry_file = open(entry_filePath, 'a')
 
 
-def fetch_pck(repo, branch):
+def fetch_pck(item):
+    line = item.split(',')
+    branch = line[5]
+    repo = line[1]
     raw_file_url = f'https://raw.githubusercontent.com/{repo}/{branch}/package.json'
 
     # Make the HTTP GET request
@@ -30,6 +35,7 @@ def fetch_pck(repo, branch):
         package_json_content = response.json()  # Assuming the file is in JSON format
         # Extract the "scripts" field from package.json
         scripts = package_json_content.get("scripts", {})
+        print(repo)
         test_in = fetch_scripts(scripts, repo, branch)
 
         if test_in:
@@ -39,8 +45,9 @@ def fetch_pck(repo, branch):
                 entry_file.writelines(repo + ',' + branch + ',' + entry_return + '\n')
             
     else:
+        print(repo)
         print("Failed to retrieve the package.json file. Status code:", response.status_code)
-        error_file.writelines(repoinfo + ', no package.json \n')
+        error_file.writelines(repo + ', no package.json \n')
 
 def fetch_scripts(scripts, repo, branch):
     if len(scripts) == 0:
@@ -90,9 +97,6 @@ def fetch_entry(mainfiled, repo, branch):
 
 
 for item in lines:
-    line = item.split(',')
-    branch = line[1]
-    repoinfo = line[2]
-    result = fetch_pck(repoinfo, branch)
+    result = fetch_pck(item)
     
 

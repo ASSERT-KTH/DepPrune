@@ -1,10 +1,12 @@
 # filePath = f'./Logs/repo_commited_in_2023_entry.txt'
-filePath = f'./Logs/repo_commited_in_2023_100000_entry.txt'
+# filePath = f'./Logs/repo_commited_in_2023_100000_entry.txt'
+filePath = f'./Logs/repo_100000_entry.txt'
 with open(filePath) as f:
     lines = f.read().splitlines()
 
 # entry_raw_filePath = f'./Logs/repo_commited_in_2023_entry_raw.txt'
-entry_raw_filePath = f'./Logs/repo_commited_in_2023_100000_entry_raw.txt'
+# entry_raw_filePath = f'./Logs/repo_commited_in_2023_100000_entry_raw.txt'
+entry_raw_filePath = f'./Logs/repo_100000_entry_raw.txt'
 
 
 def generate_raw_github_url(repository, branch, file_path):

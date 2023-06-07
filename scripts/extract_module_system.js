@@ -2,7 +2,6 @@ const fs = require('fs')
 const axios = require('axios')
 const acorn = require('acorn')
 const walk = require('acorn-walk')
-const { exit } = require('process')
 
 const args = process.argv.slice(2)
 const repo = args[0]
@@ -35,6 +34,7 @@ axios.get(fileUrl)
                     fs.appendFileSync("./Logs/repo_module_system_100000.txt", `${repo},${fileUrl}, ES6\n`)
                 }
                 if (node.type === 'CallExpression' && node.callee.name == 'require') {
+                    console.log('commonjs')
                     fs.appendFileSync("./Logs/repo_module_system_100000.txt", `${repo},${fileUrl}, CommonJS\n`)
                 }
             }
@@ -42,7 +42,7 @@ axios.get(fileUrl)
     })
     .catch(error => {
         if (String(error).indexOf("SyntaxError: Unexpected character '#'") != -1) {
-            console.log(repo)
+            console.log(repo, "commonjs")
             fs.appendFileSync("./Logs/repo_module_system_100000.txt", `${repo},${fileUrl}, CommonJS\n`)
         }
     });

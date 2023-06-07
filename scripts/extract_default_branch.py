@@ -1,7 +1,7 @@
 import requests
 
 headers = {
-    "Authorization": "Bearer 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"
+    "Authorization": "Bearer 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"
 }
 
 # filePath = f'./Logs/repo_commited_in_2023.txt'
