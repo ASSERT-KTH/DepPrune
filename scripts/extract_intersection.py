@@ -16,9 +16,9 @@ for item in lines2:
     arr = item.split(',')
     list2.append(arr)
 
-intersection = [arr1 + arr2 for arr1 in list1 for arr2 in list2 if arr1[1] == arr2[0] and arr2[2] == " CommonJS"]
+intersection = [arr1 + arr2 for arr1 in list1 for arr2 in list2 if arr1[1] == arr2[0] and arr2[2] == " NodeJS"]
 
-collection_file = open("./Logs/repo_CommonJS_100000.txt", "a")
+collection_file = open("./Logs/repo_NodeJS_100000.txt", "a")
 for item in intersection:
     line = ",".join(item) + "\n"
     collection_file.writelines(line)

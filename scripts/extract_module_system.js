@@ -42,7 +42,7 @@ axios.get(fileUrl)
     })
     .catch(error => {
         if (String(error).indexOf("SyntaxError: Unexpected character '#'") != -1) {
-            console.log(repo, "commonjs")
-            fs.appendFileSync("./Logs/repo_module_system_100000.txt", `${repo},${fileUrl}, CommonJS\n`)
+            console.log(repo, "Nodejs")
+            fs.appendFileSync("./Logs/repo_module_system_100000.txt", `${repo},${fileUrl}, NodeJS\n`)
         }
     });
