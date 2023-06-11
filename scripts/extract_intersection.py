@@ -16,10 +16,7 @@ for item in lines2:
     arr = item.split(',')
     list2.append(arr)
 
-for arr1 in list1:
-    for arr2 in list2:
-        if arr1[1] == arr2[0] and arr2[1] == ' no readme.':
-            list2.remove(arr2)
+intersection = [arr2 for arr1 in list1 for arr2 in list2 if arr1[1] == arr2[0]]
 
 
 collection_file = open("./Logs/repo_100000_readme_error_rest.txt", "a")
