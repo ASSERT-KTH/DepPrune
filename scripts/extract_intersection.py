@@ -1,4 +1,4 @@
-filePath1 = f'./Logs/repo_100000_readme.txt'
+filePath1 = f'./Logs/repo_100000_coverage.txt'
 with open(filePath1) as f:
     lines1 = f.read().splitlines()
 
@@ -22,7 +22,7 @@ for item in lines1:
 # intersection = [arr2 for arr1 in list1 for arr2 in list2 if arr1[1] == arr2[0]]
 
 
-collection_file = open("./Logs/repo_100000_readme_github.txt", "a")
+collection_file = open("./Logs/repo_100000_coverage_github.txt", "a")
 for item in list1:
     line = ",".join(item) + "\n"
     collection_file.writelines(line)
