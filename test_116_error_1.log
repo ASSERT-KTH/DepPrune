@@ -1,0 +1,1634 @@
+I am package lumigo-io/lumigo-cli .....
+Cloning into 'lumigo-cli'...
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN deprecated @types/nock@11.1.0: This is a stub types definition. nock provides its own type definitions, so you do not need this installed.
+npm WARN deprecated ini@1.3.5: Please update to ini >=1.3.6 to avoid a prototype pollution issue
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated request-promise-native@1.0.7: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated har-validator@5.1.3: this library is no longer supported
+npm WARN deprecated @oclif/screen@1.0.4: Deprecated in favor of @oclif/core
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated w3c-hr-time@1.0.1: Use your platform's native performance.now() and performance.timeOrigin.
+npm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()
+npm WARN deprecated source-map-url@0.4.0: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated sane@4.1.0: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated argv@0.0.2: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated formidable@1.2.1: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+npm WARN deprecated uuid@3.3.3: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated source-map-resolve@0.5.2: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated request@2.88.0: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated cli-ux@5.3.2: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated axios@0.18.1: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+npm WARN deprecated buffer@4.9.1: This version of 'buffer' is out-of-date. You must update to v4.9.2 or newer
+npm WARN deprecated axios@0.19.0: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+npm WARN deprecated core-js@2.6.9: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+I am running test for lumigo-io/lumigo-cli
+PASS test/commands/switch-profile.test.js (7.574s)
+PASS test/commands/replay-sqs-dlq.test.js (7.658s)
+PASS test/commands/sls-remove.test.js
+PASS test/commands/s3-select-batch.test.js (9.606s)
+PASS test/commands/analyze-lambda-cost.test.js
+PASS test/commands/tail-dynamodb.test.js
+PASS test/commands/analyze-lambda-cold-starts.test.js (10.772s)
+PASS test/commands/measure-lambda-cold-start.test.js (10.895s)
+PASS test/commands/powertune-lambda.test.js (11.033s)
+FAIL test/lib/iam.test.js
+  ● Test suite failed to run
+
+    Cannot find module '@oclif/test' from 'iam.test.js'
+
+    > 1 | const { expect } = require("@oclif/test");
+        |                    ^
+      2 | const { getAWSSDK } = require("../../src/lib/aws");
+      3 | const { deleteAllRoles, deleteAllPolicies } = require("../../src/lib/iam");
+      4 | const chaiAsPromised = require("chai-as-promised");
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:259:17)
+      at Object.require (test/lib/iam.test.js:1:20)
+
+PASS test/commands/tail-eventbridge-rule.test.js (11.623s)
+FAIL test/commands/tail-sns.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'bluebird' from 'tail-sns.test.js'
+
+      1 | const { expect, test } = require("@oclif/test");
+      2 | const AWS = require("aws-sdk");
+    > 3 | const Promise = require("bluebird");
+        |                 ^
+      4 | 
+      5 | const mockListTopics = jest.fn();
+      6 | AWS.SNS.prototype.listTopics = mockListTopics;
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:259:17)
+      at Object.require (test/commands/tail-sns.test.js:3:17)
+
+PASS test/commands/list-lambda.test.js
+PASS test/commands/send-to-sqs.test.js
+FAIL test/commands/clear-account.test.js
+  ● User forces clear account › Delete all resources
+
+    TypeError: The "code" argument must be of type string. Received undefined
+
+      at new NodeError (node:internal/errors:387:5)
+      at validateString (node:internal/validators:121:11)
+      at Object.compileFunction (node:vm:317:3)
+      at wrapSafe (node:internal/modules/cjs/loader:1055:15)
+      at Module._compile (node:internal/modules/cjs/loader:1090:27)
+      at Module.replacementCompile (../../../../../usr/local/lib/node_modules/nyc/node_modules/append-transform/index.js:60:13)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+      at Object.<anonymous> (../../../../../usr/local/lib/node_modules/nyc/node_modules/append-transform/index.js:64:4)
+      at Module.load (node:internal/modules/cjs/loader:1004:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+
+PASS test/commands/tail-eventbridge-bus.test.js
+PASS test/commands/whoami.test.js
+PASS test/lib/apigw.test.js
+PASS test/lib/aws-profile-utils.test.js
+PASS test/commands/list-kinesis-shards.test.js
+PASS test/commands/list-kinesis-streams.test.js
+FAIL test/lib/cloudwatch-logs.test.js
+  ● Test suite failed to run
+
+    Cannot find module '@oclif/test' from 'cloudwatch-logs.test.js'
+
+    > 1 | const { expect } = require("@oclif/test");
+        |                    ^
+      2 | const { getAWSSDK } = require("../../src/lib/aws");
+      3 | const {
+      4 | 	deleteAllLogGroups,
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:259:17)
+      at Object.require (test/lib/cloudwatch-logs.test.js:1:20)
+
+PASS test/lib/eventbridge.test.js
+PASS test/commands/tail-kinesis.test.js
+FAIL test/lib/s3.test.js
+  ● Test suite failed to run
+
+    Cannot find module '@oclif/test' from 's3.test.js'
+
+    > 1 | const { expect } = require("@oclif/test");
+        |                    ^
+      2 | const { getAWSSDK } = require("../../src/lib/aws");
+      3 | const { deleteAllBuckets } = require("../../src/lib/s3");
+      4 | const chaiAsPromised = require("chai-as-promised");
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:259:17)
+      at Object.require (test/lib/s3.test.js:1:20)
+
+PASS test/commands/tail-sqs.test.js
+PASS test/commands/send-to-sns.test.js
+PASS test/lib/nat.test.js
+PASS test/lib/lambda.test.js
+PASS test/lib/cloudformation.test.js
+PASS test/commands/tail-cloudwatch-logs.test.js (8.348s)
+
+Summary of all failing tests
+FAIL test/lib/iam.test.js
+  ● Test suite failed to run
+
+    Cannot find module '@oclif/test' from 'iam.test.js'
+
+    > 1 | const { expect } = require("@oclif/test");
+        |                    ^
+      2 | const { getAWSSDK } = require("../../src/lib/aws");
+      3 | const { deleteAllRoles, deleteAllPolicies } = require("../../src/lib/iam");
+      4 | const chaiAsPromised = require("chai-as-promised");
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:259:17)
+      at Object.require (test/lib/iam.test.js:1:20)
+
+FAIL test/commands/tail-sns.test.js
+  ● Test suite failed to run
+
+    Cannot find module 'bluebird' from 'tail-sns.test.js'
+
+      1 | const { expect, test } = require("@oclif/test");
+      2 | const AWS = require("aws-sdk");
+    > 3 | const Promise = require("bluebird");
+        |                 ^
+      4 | 
+      5 | const mockListTopics = jest.fn();
+      6 | AWS.SNS.prototype.listTopics = mockListTopics;
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:259:17)
+      at Object.require (test/commands/tail-sns.test.js:3:17)
+
+FAIL test/commands/clear-account.test.js
+  ● User forces clear account › Delete all resources
+
+    TypeError: The "code" argument must be of type string. Received undefined
+
+      at new NodeError (node:internal/errors:387:5)
+      at validateString (node:internal/validators:121:11)
+      at Object.compileFunction (node:vm:317:3)
+      at wrapSafe (node:internal/modules/cjs/loader:1055:15)
+      at Module._compile (node:internal/modules/cjs/loader:1090:27)
+      at Module.replacementCompile (../../../../../usr/local/lib/node_modules/nyc/node_modules/append-transform/index.js:60:13)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+      at Object.<anonymous> (../../../../../usr/local/lib/node_modules/nyc/node_modules/append-transform/index.js:64:4)
+      at Module.load (node:internal/modules/cjs/loader:1004:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+
+FAIL test/lib/cloudwatch-logs.test.js
+  ● Test suite failed to run
+
+    Cannot find module '@oclif/test' from 'cloudwatch-logs.test.js'
+
+    > 1 | const { expect } = require("@oclif/test");
+        |                    ^
+      2 | const { getAWSSDK } = require("../../src/lib/aws");
+      3 | const {
+      4 | 	deleteAllLogGroups,
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:259:17)
+      at Object.require (test/lib/cloudwatch-logs.test.js:1:20)
+
+FAIL test/lib/s3.test.js
+  ● Test suite failed to run
+
+    Cannot find module '@oclif/test' from 's3.test.js'
+
+    > 1 | const { expect } = require("@oclif/test");
+        |                    ^
+      2 | const { getAWSSDK } = require("../../src/lib/aws");
+      3 | const { deleteAllBuckets } = require("../../src/lib/s3");
+      4 | const chaiAsPromised = require("chai-as-promised");
+
+      at Resolver.resolveModule (node_modules/jest-resolve/build/index.js:259:17)
+      at Object.require (test/lib/s3.test.js:1:20)
+
+
+Test Suites: 5 failed, 26 passed, 31 total
+Tests:       1 failed, 129 passed, 130 total
+Snapshots:   0 total
+Time:        17.495s
+Ran all test suites.
+I am package rajasegar/ember-dayjs-helpers .....
+Cloning into 'ember-dayjs-helpers'...
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated consolidate@0.16.0: Please upgrade to consolidate v1.0.0+ as it has been modernized with several long-awaited fixes implemented. Maintenance is supported by Forward Email at https://forwardemail.net ; follow/watch https://github.com/ladjs/consolidate for updates and release changelog
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated ember-cli-uglify@3.0.0: Renamed to ember-cli-terser.
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+npm WARN deprecated source-map-url@0.3.0: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated source-map-url@0.3.0: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+npm WARN deprecated sane@4.1.0: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+npm WARN deprecated babel-eslint@10.1.0: babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated ember-cli-htmlbars-inline-precompile@2.1.0: Use ember-cli-htmlbars instead.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated @babel/polyfill@7.12.1: 🚨 This package has been deprecated in favor of separate inclusion of a polyfill and regenerator-runtime (when needed). See the @babel/polyfill docs (https://babeljs.io/docs/en/babel-polyfill) for more information.
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+I am running test for rajasegar/ember-dayjs-helpers
+ERROR: "lint:hbs" exited with 1.
+I am package Munter/subfont .....
+Cloning into 'subfont'...
+npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+npm WARN deprecated @hapi/topo@3.1.6: This version has been deprecated and is no longer supported or maintained
+npm WARN deprecated @hapi/bourne@1.3.2: This version has been deprecated and is no longer supported or maintained
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+npm WARN deprecated @hapi/address@2.1.4: Moved to 'npm install @sideway/address'
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated @hapi/hoek@8.5.1: This version has been deprecated and is no longer supported or maintained
+npm WARN deprecated @hapi/joi@15.1.1: Switch to 'npm install joi'
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+I am running test for Munter/subfont
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+[1m[43m[30m
+  Puppeteer old Headless deprecation warning:[0m[33m
+    In the near feature `headless: true` will default to the new Headless mode
+    for Chrome instead of the old Headless implementation. For more
+    information, please see https://developer.chrome.com/articles/new-headless/.
+    Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+    If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.[0m
+
+I am package obe711/node-server-boilerplate .....
+Cloning into 'node-server-boilerplate'...
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated xss-clean@0.1.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated z-schema@5.0.6: has issues with node 14
+I am running test for obe711/node-server-boilerplate
+[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2mtests/integration/[22m[1mauth.test.js[22m
+  [1m● [22mTest suite failed to run
+
+    Config validation error: "MONGODB_URL" is required
+
+    [0m [90m 40 |[39m[0m
+    [0m [90m 41 |[39m [36mif[39m (error) {[0m
+    [0m[31m[1m>[22m[39m[90m 42 |[39m   [36mthrow[39m [36mnew[39m [33mError[39m([32m`Config validation error: ${error.message}`[39m)[33m;[39m[0m
+    [0m [90m    |[39m         [31m[1m^[22m[39m[0m
+    [0m [90m 43 |[39m }[0m
+    [0m [90m 44 |[39m[0m
+    [0m [90m 45 |[39m module[33m.[39mexports [33m=[39m {[0m
+
+      [2mat Object.<anonymous> ([22msrc/config/config.js[2m:42:9)[22m
+      [2mat Object.require ([22msrc/app.js[2m:10:16)[22m
+      [2mat Object.require ([22m[0m[36mtests/integration/auth.test.js[39m[0m[2m:7:13)[22m
+
+[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2mtests/integration/[22m[1muser.test.js[22m
+  [1m● [22mTest suite failed to run
+
+    Config validation error: "MONGODB_URL" is required
+
+    [0m [90m 40 |[39m[0m
+    [0m [90m 41 |[39m [36mif[39m (error) {[0m
+    [0m[31m[1m>[22m[39m[90m 42 |[39m   [36mthrow[39m [36mnew[39m [33mError[39m([32m`Config validation error: ${error.message}`[39m)[33m;[39m[0m
+    [0m [90m    |[39m         [31m[1m^[22m[39m[0m
+    [0m [90m 43 |[39m }[0m
+    [0m [90m 44 |[39m[0m
+    [0m [90m 45 |[39m module[33m.[39mexports [33m=[39m {[0m
+
+      [2mat Object.<anonymous> ([22msrc/config/config.js[2m:42:9)[22m
+      [2mat Object.require ([22msrc/app.js[2m:10:16)[22m
+      [2mat Object.require ([22m[0m[36mtests/integration/user.test.js[39m[0m[2m:4:13)[22m
+
+[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2mtests/unit/middlewares/[22m[1merror.test.js[22m
+  [1m● [22mTest suite failed to run
+
+    Config validation error: "MONGODB_URL" is required
+
+    [0m [90m 40 |[39m[0m
+    [0m [90m 41 |[39m [36mif[39m (error) {[0m
+    [0m[31m[1m>[22m[39m[90m 42 |[39m   [36mthrow[39m [36mnew[39m [33mError[39m([32m`Config validation error: ${error.message}`[39m)[33m;[39m[0m
+    [0m [90m    |[39m         [31m[1m^[22m[39m[0m
+    [0m [90m 43 |[39m }[0m
+    [0m [90m 44 |[39m[0m
+    [0m [90m 45 |[39m module[33m.[39mexports [33m=[39m {[0m
+
+      [2mat Object.<anonymous> ([22msrc/config/config.js[2m:42:9)[22m
+      [2mat Object.require ([22msrc/middlewares/error.js[2m:3:16)[22m
+      [2mat Object.require ([22m[0m[36mtests/unit/middlewares/error.test.js[39m[0m[2m:4:42)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/unit/models/plugins/[22m[1mtoJSON.plugin.test.js[22m
+  toJSON plugin
+    [32m✓[39m [2mshould replace _id with id (13 ms)[22m
+    [32m✓[39m [2mshould remove __v (4 ms)[22m
+    [32m✓[39m [2mshould remove createdAt and updatedAt (4 ms)[22m
+    [32m✓[39m [2mshould remove any path set as private (9 ms)[22m
+    [32m✓[39m [2mshould remove any nested paths set as private (4 ms)[22m
+    [32m✓[39m [2mshould also call the schema toJSON transform function (3 ms)[22m
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/unit/models/[22m[1muser.model.test.js[22m
+  User model
+    User validation
+      [32m✓[39m [2mshould correctly validate a valid user (19 ms)[22m
+      [32m✓[39m [2mshould throw a validation error if email is invalid (9 ms)[22m
+      [32m✓[39m [2mshould throw a validation error if password length is less than 8 characters (13 ms)[22m
+      [32m✓[39m [2mshould throw a validation error if password does not contain numbers (5 ms)[22m
+      [32m✓[39m [2mshould throw a validation error if password does not contain letters (5 ms)[22m
+      [32m✓[39m [2mshould throw a validation error if role is unknown (4 ms)[22m
+    User toJSON()
+      [32m✓[39m [2mshould not return user password when toJSON is called (2 ms)[22m
+
+[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2mtests/unit/models/plugins/[22m[1mpaginate.plugin.test.js[22m
+  [1m● [22mTest suite failed to run
+
+    Config validation error: "MONGODB_URL" is required
+
+    [0m [90m 40 |[39m[0m
+    [0m [90m 41 |[39m [36mif[39m (error) {[0m
+    [0m[31m[1m>[22m[39m[90m 42 |[39m   [36mthrow[39m [36mnew[39m [33mError[39m([32m`Config validation error: ${error.message}`[39m)[33m;[39m[0m
+    [0m [90m    |[39m         [31m[1m^[22m[39m[0m
+    [0m [90m 43 |[39m }[0m
+    [0m [90m 44 |[39m[0m
+    [0m [90m 45 |[39m module[33m.[39mexports [33m=[39m {[0m
+
+      [2mat Object.<anonymous> ([22msrc/config/config.js[2m:42:9)[22m
+      [2mat Object.require ([22mtests/utils/setupTestDB.js[2m:2:16)[22m
+      [2mat Object.require ([22m[0m[36mtests/unit/models/plugins/paginate.plugin.test.js[39m[0m[2m:2:21)[22m
+
+[0m[7m[1m[31m FAIL [39m[22m[27m[0m [2mtests/integration/[22m[1mdocs.test.js[22m
+  [1m● [22mTest suite failed to run
+
+    Config validation error: "MONGODB_URL" is required
+
+    [0m [90m 40 |[39m[0m
+    [0m [90m 41 |[39m [36mif[39m (error) {[0m
+    [0m[31m[1m>[22m[39m[90m 42 |[39m   [36mthrow[39m [36mnew[39m [33mError[39m([32m`Config validation error: ${error.message}`[39m)[33m;[39m[0m
+    [0m [90m    |[39m         [31m[1m^[22m[39m[0m
+    [0m [90m 43 |[39m }[0m
+    [0m [90m 44 |[39m[0m
+    [0m [90m 45 |[39m module[33m.[39mexports [33m=[39m {[0m
+
+      [2mat Object.<anonymous> ([22msrc/config/config.js[2m:42:9)[22m
+      [2mat Object.require ([22msrc/app.js[2m:10:16)[22m
+      [2mat Object.require ([22m[0m[36mtests/integration/docs.test.js[39m[0m[2m:3:13)[22m
+
+[1mTest Suites: [22m[1m[31m5 failed[39m[22m, [1m[32m2 passed[39m[22m, 7 total
+[1mTests:       [22m[1m[32m13 passed[39m[22m, 13 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        4.636 s
+[2mRan all test suites[22m[2m.[22m
+I am package eswdd/nodetsdb-gce .....
+Cloning into 'nodetsdb-gce'...
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated istanbul@0.4.5: This module is no longer maintained, try this instead:
+npm WARN deprecated   npm i nyc
+npm WARN deprecated Visit https://istanbul.js.org/integrations for other alternatives.
+npm WARN deprecated protractor@7.0.0: We have news to share - Protractor is deprecated and will reach end-of-life by Summer 2023. To learn more and find out about other options please refer to this post on the Angular blog. Thank you for using and contributing to Protractor. https://goo.gle/state-of-e2e-in-angular
+I am running test for eswdd/nodetsdb-gce
+I am package springernature/shunter .....
+Cloning into 'shunter'...
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated chokidar@1.5.2: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+npm WARN deprecated statsd-client@0.4.7: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated each-module@1.2.0: This module is no longer maintained. If you're interested in taking over maintenance of this repo, please contact the author
+npm WARN deprecated mkdirp@0.3.0: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated json3@3.3.0: Please use the native JSON object instead of JSON 3
+npm WARN deprecated request@2.88.0: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated proclaim@3.6.0: This module is no longer maintained. If you're interested in taking over maintenance of this repo, please contact the author
+npm WARN deprecated jserve@2.0.3: This module is no longer maintained. If you're interested in taking over maintenance of this repo, please contact the author
+npm WARN deprecated csswring@7.0.0: Package no longer supported. Contact support@npmjs.com for more info.
+I am running test for springernature/shunter
+(node:314668) [DEP0147] DeprecationWarning: In future versions of Node.js, fs.rmdir(path, { recursive: true }) will be removed. Use fs.rm(path, { recursive: true }) instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+I am package xvik/generator-gradle-plugin .....
+Cloning into 'generator-gradle-plugin'...
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN deprecated readdir-scoped-modules@1.1.0: This functionality has been moved to @npmcli/fs
+npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+I am running test for xvik/generator-gradle-plugin
+(node:314841) [DEP0147] DeprecationWarning: In future versions of Node.js, fs.rmdir(path, { recursive: true }) will be removed. Use fs.rm(path, { recursive: true }) instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+I am package xvik/generator-lib-java .....
+Cloning into 'generator-lib-java'...
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN deprecated readdir-scoped-modules@1.1.0: This functionality has been moved to @npmcli/fs
+npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+I am running test for xvik/generator-lib-java
+(node:314977) [DEP0147] DeprecationWarning: In future versions of Node.js, fs.rmdir(path, { recursive: true }) will be removed. Use fs.rm(path, { recursive: true }) instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+I am package onechiporenko/ember-models-table-floating-filter .....
+Cloning into 'ember-models-table-floating-filter'...
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: ember-models-table-floating-filter@1.6.0
+npm ERR! Found: typescript@4.9.5
+npm ERR! node_modules/typescript
+npm ERR!   dev typescript@"^4.7.4" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer typescript@"4.0.x || 4.1.x || 4.2.x || 4.3.x || 4.4.x" from typedoc@0.21.10
+npm ERR! node_modules/typedoc
+npm ERR!   dev typedoc@"^0.21.9" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! 
+npm ERR! For a full report see:
+npm ERR! /home/liu-yuxin/.npm/_logs/2023-06-12T12_29_53_923Z-eresolve-report.txt
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-12T12_29_53_923Z-debug-0.log
+I am running test for onechiporenko/ember-models-table-floating-filter
+sh: concurrently: command not found
+I am package TryGhost/Ghost-CLI .....
+Cloning into 'Ghost-CLI'...
+npm WARN deprecated standard-version@4.3.0: standard-version is deprecated. If you're a GitHub user, I recommend https://github.com/googleapis/release-please as an alternative.
+I am running test for TryGhost/Ghost-CLI
+I am package macacajs/app-inspector .....
+Cloning into 'app-inspector'...
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: app-inspector@2.2.0
+npm ERR! Found: webpack@5.86.0
+npm ERR! node_modules/webpack
+npm ERR!   dev webpack@"^5.69.1" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer webpack@"2 || 3 || 4" from babel-loader@7.1.5
+npm ERR! node_modules/babel-loader
+npm ERR!   dev babel-loader@"^7.1.5" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! 
+npm ERR! For a full report see:
+npm ERR! /home/liu-yuxin/.npm/_logs/2023-06-12T12_31_12_556Z-eresolve-report.txt
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-12T12_31_12_556Z-debug-0.log
+I am running test for macacajs/app-inspector
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: spawn mocha ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:283:19)
+    at onErrorNT (node:internal/child_process:478:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on ChildProcess instance at:
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:289:12)
+    at onErrorNT (node:internal/child_process:478:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn mocha',
+  path: 'mocha',
+  spawnargs: []
+}
+I am package javierbrea/narval .....
+Cloning into 'narval'...
+npm WARN deprecated topo@2.0.2: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated items@2.1.2: This module has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version of hapi to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated hoek@5.0.4: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated hoek@4.2.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated hoek@4.2.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+npm WARN deprecated boom@7.2.0: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated samsam@1.3.0: This package has been deprecated in favour of @sinonjs/samsam
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated mocha-sinon-chai@3.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated joi@9.2.0: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+I am running test for javierbrea/narval
+[31m[1m12:31:43.23 [Narval] [ERROR] Error running tests of "unit" suite "unit" [22m[39m
+[31m[1m12:31:43.23 [Narval] [ERROR] Error running "unit" suite "unit" [22m[39m
+I am package LaunchAcademy/generator-engage .....
+Cloning into 'generator-engage'...
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: generator-engage@0.3.0
+npm ERR! Found: eslint@7.12.1
+npm ERR! node_modules/eslint
+npm ERR!   dev eslint@"^7.12.1" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer eslint@"^5.16.0 || ^6.8.0" from eslint-config-airbnb@18.1.0
+npm ERR! node_modules/eslint-config-airbnb
+npm ERR!   dev eslint-config-airbnb@"18.1.0" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! 
+npm ERR! For a full report see:
+npm ERR! /home/liu-yuxin/.npm/_logs/2023-06-12T12_31_44_633Z-eresolve-report.txt
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-12T12_31_44_633Z-debug-0.log
+I am running test for LaunchAcademy/generator-engage
+sh: ./node_modules/.bin/eslint: No such file or directory
+I am package futureaus/servue .....
+Cloning into 'servue'...
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN deprecated set-value@2.0.0: Critical bug fixed in v3.0.1, please upgrade to the latest version.
+npm WARN deprecated mixin-deep@1.3.1: Critical bug fixed in v2.0.1, please upgrade to the latest version.
+npm WARN deprecated ini@1.3.5: Please update to ini >=1.3.6 to avoid a prototype pollution issue
+npm WARN deprecated topo@3.0.3: This module has moved and is now available at @hapi/topo. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+npm WARN deprecated kleur@2.0.2: Please upgrade to kleur@3 or migrate to 'ansi-colors' if you prefer the old syntax. Visit <https://github.com/lukeed/kleur/releases/tag/v3.0.0\> for migration path(s).
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated request-promise-native@1.0.5: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated har-validator@5.1.3: this library is no longer supported
+npm WARN deprecated request-promise@4.2.4: request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated hoek@5.0.4: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated consolidate@0.15.1: Please upgrade to consolidate v1.0.0+ as it has been modernized with several long-awaited fixes implemented. Maintenance is supported by Forward Email at https://forwardemail.net ; follow/watch https://github.com/ladjs/consolidate for updates and release changelog
+npm WARN deprecated acorn-dynamic-import@4.0.0: This is probably built in to whatever tool you're using. If you still need it... idk
+npm WARN deprecated hoek@6.1.3: This module has moved and is now available at @hapi/hoek. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+npm WARN deprecated w3c-hr-time@1.0.1: Use your platform's native performance.now() and performance.timeOrigin.
+npm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()
+npm WARN deprecated source-map-url@0.4.0: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated chokidar@2.1.6: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated argv@0.0.2: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated set-value@0.4.3: Critical bug fixed in v3.0.1, please upgrade to the latest version.
+npm WARN deprecated source-map-resolve@0.5.2: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated request@2.88.0: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated sane@2.5.2: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+npm WARN deprecated codacy-coverage@3.4.0: Package being deprecated in favor of https://github.com/codacy/codacy-coverage-reporter
+npm WARN deprecated buffer@4.9.1: This version of 'buffer' is out-of-date. You must update to v4.9.2 or newer
+npm WARN deprecated axios@0.19.2: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+npm WARN deprecated joi@13.7.0: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated core-js@2.6.1: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+I am running test for futureaus/servue
+PASS tests/test.js (11.906s)
+  render and cache component
+    ✓ renders component (2220ms)
+    ✓ caches component (31ms)
+  shared renderer
+    ✓ renders component with data (1174ms)
+    ✓ renders component with merged data (1012ms)
+    ✓ renders data without cross pollution (40ms)
+    ✓ renders component with subcomponents
+    ✓ renders component with node module component
+    ✓ renders component with style
+    ✓ renders component with style dependency
+    ✓ renders component with nodemodules (1065ms)
+    ✓ renders component without nodemodules (960ms)
+    ✓ renders component with template items (976ms)
+    ✓ renders component in production mode
+    ✓ fails with missing module
+    ✓ multilayered head management
+  precompiler
+    ✓ precompiler compiles entire folder (1910ms)
+    ✓ precompiler fails (897ms)
+  renderer with modified webpack
+    ✓ renders component with preprocessor
+
+Test Suites: 1 passed, 1 total
+Tests:       18 passed, 18 total
+Snapshots:   0 total
+Time:        12.411s
+Ran all test suites.
+I am package Munter/hyperlink .....
+Cloning into 'hyperlink'...
+npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+npm WARN deprecated @hapi/topo@3.1.6: This version has been deprecated and is no longer supported or maintained
+npm WARN deprecated @hapi/bourne@1.3.2: This version has been deprecated and is no longer supported or maintained
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated @hapi/address@2.1.4: Moved to 'npm install @sideway/address'
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated @hapi/hoek@8.5.1: This version has been deprecated and is no longer supported or maintained
+npm WARN deprecated @hapi/joi@15.1.1: Switch to 'npm install joi'
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+I am running test for Munter/hyperlink
+I am package st-h/ember-content-editable .....
+Cloning into 'ember-content-editable'...
+npm WARN deprecated exists-sync@0.0.4: Please replace with usage of fs.existsSync
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated consolidate@0.16.0: Please upgrade to consolidate v1.0.0+ as it has been modernized with several long-awaited fixes implemented. Maintenance is supported by Forward Email at https://forwardemail.net ; follow/watch https://github.com/ladjs/consolidate for updates and release changelog
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+npm WARN deprecated source-map-url@0.3.0: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated source-map-url@0.3.0: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+npm WARN deprecated sane@4.1.0: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated @babel/polyfill@7.12.1: 🚨 This package has been deprecated in favor of separate inclusion of a polyfill and regenerator-runtime (when needed). See the @babel/polyfill docs (https://babeljs.io/docs/en/babel-polyfill) for more information.
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+I am running test for st-h/ember-content-editable
+I am package airtap/airtap .....
+Cloning into 'airtap'...
+I am running test for airtap/airtap
+2023-06-12T12:40:41.957Z airtap:browserify file '/data/js-variants/multee/TestCollection/airtap/test/unit/fixtures/bundler/entry.js'
+2023-06-12T12:40:58.008Z airtap:browser-context opening '(anonymous) test'
+2023-06-12T12:40:58.010Z airtap:browser-context closing '(anonymous) test'
+2023-06-12T12:40:58.011Z airtap:browser-context opening '(anonymous) test'
+2023-06-12T12:40:58.012Z airtap:browser-context closing '(anonymous) test'
+2023-06-12T12:40:58.012Z airtap:browser-context opening '(anonymous) test'
+2023-06-12T12:40:58.014Z airtap:browser-session session '(anonymous) test'
+2023-06-12T12:40:58.014Z airtap:browser-context opening '(anonymous) test'
+2023-06-12T12:40:58.015Z airtap:browser-session session '(anonymous) test'
+2023-06-12T12:40:58.015Z airtap:browser-context opening '(anonymous) test'
+2023-06-12T12:40:58.015Z airtap:browser-context opening '(anonymous) test'
+2023-06-12T12:40:58.016Z airtap:browser-context ready '(anonymous) test'
+2023-06-12T12:40:58.017Z airtap:browser-context closing '(anonymous) test'
+2023-06-12T12:40:58.020Z airtap:browser-context ready '(anonymous) test'
+2023-06-12T12:40:58.023Z airtap:browser-session destroy '(anonymous) test': Error: test
+    at /data/js-variants/multee/TestCollection/airtap/test/unit/browser-context.js:33:23
+    at BrowserContext.<anonymous> (/data/js-variants/multee/TestCollection/airtap/lib/browser-context.js:13:984)
+    at Object.onceWrapper (node:events:627:28)
+    at BrowserContext.emit (node:events:513:28)
+    at /data/js-variants/multee/TestCollection/airtap/lib/browser-context.js:5:604
+    at MockBrowser.onopen (/data/js-variants/multee/TestCollection/airtap/node_modules/nanoresource/emitter.js:124:39)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2023-06-12T12:40:58.024Z airtap:browser-context closing '(anonymous) test'
+2023-06-12T12:40:58.028Z airtap:browser-context closing '(anonymous) test'
+2023-06-12T12:40:58.032Z airtap:browser-context closing '(anonymous) test'
+2023-06-12T12:40:58.035Z airtap:browser-session session 'abc'
+2023-06-12T12:40:58.044Z airtap:browser-session session 'abc' complete (not ok)
+2023-06-12T12:40:58.045Z airtap:browser-session ending 'abc'
+2023-06-12T12:40:58.046Z airtap:browser-session session 'abc'
+2023-06-12T12:40:58.247Z airtap:browser-session destroy 'abc': TimeoutError: Did not receive output from 'abc' (0.2 seconds)
+    at Timeout._onTimeout (/data/js-variants/multee/TestCollection/airtap/lib/browser-session.js:10:1395)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+2023-06-12T12:40:58.249Z airtap:browser-session session 'abc'
+2023-06-12T12:40:58.450Z airtap:browser-session destroy 'abc': TimeoutError: Did not receive output from 'abc' (0.2 seconds)
+    at Timeout._onTimeout (/data/js-variants/multee/TestCollection/airtap/lib/browser-session.js:10:1395)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+2023-06-12T12:40:58.451Z airtap:browser-session session 'abc'
+2023-06-12T12:40:58.452Z airtap:browser-session destroy 'abc': Error: Unknown message type
+    at BrowserSession._transform (/data/js-variants/multee/TestCollection/airtap/lib/browser-session.js:13:14)
+    at BrowserSession.Transform._read (/data/js-variants/multee/TestCollection/airtap/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at BrowserSession.Transform._write (/data/js-variants/multee/TestCollection/airtap/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/data/js-variants/multee/TestCollection/airtap/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/data/js-variants/multee/TestCollection/airtap/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at BrowserSession.Writable.write (/data/js-variants/multee/TestCollection/airtap/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at Test.<anonymous> (/data/js-variants/multee/TestCollection/airtap/test/unit/browser-session.js:153:11)
+    at Test.bound [as _cb] (/data/js-variants/multee/TestCollection/airtap/node_modules/tape/lib/test.js:95:17)
+    at Test.run (/data/js-variants/multee/TestCollection/airtap/node_modules/tape/lib/test.js:115:28)
+    at Test.bound [as run] (/data/js-variants/multee/TestCollection/airtap/node_modules/tape/lib/test.js:95:17)
+    at Immediate.next [as _onImmediate] (/data/js-variants/multee/TestCollection/airtap/node_modules/tape/lib/results.js:157:7)
+    at processImmediate (node:internal/timers:466:21)
+2023-06-12T12:40:58.462Z airtap:content-server active on port 46121
+2023-06-12T12:40:58.641Z airtap:message-server active on port 37415
+2023-06-12T12:40:58.661Z airtap:message-server active on port 42113
+2023-06-12T12:40:58.666Z airtap:message-server active on port 43069
+2023-06-12T12:40:58.669Z airtap:message-server client connected to old or non-existing context: undefined
+2023-06-12T12:40:58.680Z airtap-multi 1 manifests
+2023-06-12T12:40:58.684Z airtap:browserify file '/data/js-variants/multee/TestCollection/airtap/test/integration/fixtures/tap/test.js'
+2023-06-12T12:40:58.688Z airtap:content-server active on port 45309
+2023-06-12T12:40:58.688Z airtap:message-server active on port 38473
+2023-06-12T12:40:58.690Z airtap:proxy-server active on localhost:35271
+2023-06-12T12:40:58.691Z airtap:browser-context opening 'Default browser'
+2023-06-12T12:41:00.144Z airtap:browser-session session 'Default browser'
+2023-06-12T12:41:00.144Z airtap:browser-context ready 'Default browser'
+2023-06-12T12:41:02.394Z airtap:browser-session session 'Default browser' complete (not ok)
+2023-06-12T12:41:02.428Z airtap:browser-session ending 'Default browser'
+2023-06-12T12:41:02.429Z airtap:browser-context closing 'Default browser'
+2023-06-12T12:41:02.430Z airtap closing
+2023-06-12T12:41:02.434Z airtap:browserify file '/data/js-variants/multee/TestCollection/airtap/test/integration/fixtures/timeout/test.js'
+2023-06-12T12:41:02.437Z airtap:content-server active on port 42297
+2023-06-12T12:41:02.437Z airtap:message-server active on port 39699
+2023-06-12T12:41:02.438Z airtap:proxy-server active on localhost:38397
+2023-06-12T12:41:02.438Z airtap:browser-context opening 'Default browser'
+2023-06-12T12:41:03.430Z airtap:browser-session session 'Default browser'
+2023-06-12T12:41:03.430Z airtap:browser-context ready 'Default browser'
+2023-06-12T12:41:04.430Z airtap:browser-session destroy 'Default browser': TimeoutError: Did not receive output from 'Default browser' (1 second)
+    at Timeout._onTimeout (/data/js-variants/multee/TestCollection/airtap/lib/browser-session.js:10:1395)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+2023-06-12T12:41:04.431Z airtap:browser-context closing 'Default browser'
+2023-06-12T12:41:04.431Z airtap closing
+I am package Skerwe/generator-njk-site .....
+Cloning into 'generator-njk-site'...
+npm WARN deprecated readdir-scoped-modules@1.1.0: This functionality has been moved to @npmcli/fs
+npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm WARN deprecated @npmcli/move-file@2.0.1: This functionality has been moved to @npmcli/fs
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+I am running test for Skerwe/generator-njk-site
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+FAIL __tests__/test.js
+  generator njk: prompting for site name
+    ✕ created base project files
+    ✕ created base dot files (1 ms)
+    ✕ created folder structure
+  generator njk: give site name through arguments
+    ✕ created project files and folders
+
+  ● generator njk: prompting for site name › created base project files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      Trying to copy from a source that does not exist: /data/js-variants/multee/TestCollection/generator-njk-site/generators/app/templates/**/.*
+
+      41 |     this.log("Generating project structure ...");
+      42 |
+    > 43 |     this.fs.copy(
+         |             ^
+      44 |       this.templatePath("**/.*"),
+      45 |       this.destinationPath(this.options.appname),
+      46 |       {
+
+      at EditionInterface.copy (node_modules/mem-fs-editor/lib/actions/copy.js:49:3)
+      at Object.<anonymous>.module.exports.writing (generators/app/index.js:43:13)
+      at Object.<anonymous> (node_modules/yeoman-generator/lib/index.js:1092:23)
+      at node_modules/run-async/index.js:49:25
+      at node_modules/run-async/index.js:26:19
+      at node_modules/yeoman-generator/lib/index.js:1093:9
+      at Object.<anonymous>.module.exports.executeTask (node_modules/yeoman-generator/lib/index.js:1064:12)
+      at runLoop.add.once (node_modules/yeoman-generator/lib/index.js:1044:14)
+
+  ● generator njk: prompting for site name › created base dot files
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      Trying to copy from a source that does not exist: /data/js-variants/multee/TestCollection/generator-njk-site/generators/app/templates/**/.*
+
+      41 |     this.log("Generating project structure ...");
+      42 |
+    > 43 |     this.fs.copy(
+         |             ^
+      44 |       this.templatePath("**/.*"),
+      45 |       this.destinationPath(this.options.appname),
+      46 |       {
+
+      at EditionInterface.copy (node_modules/mem-fs-editor/lib/actions/copy.js:49:3)
+      at Object.<anonymous>.module.exports.writing (generators/app/index.js:43:13)
+      at Object.<anonymous> (node_modules/yeoman-generator/lib/index.js:1092:23)
+      at node_modules/run-async/index.js:49:25
+      at node_modules/run-async/index.js:26:19
+      at node_modules/yeoman-generator/lib/index.js:1093:9
+      at Object.<anonymous>.module.exports.executeTask (node_modules/yeoman-generator/lib/index.js:1064:12)
+      at runLoop.add.once (node_modules/yeoman-generator/lib/index.js:1044:14)
+
+  ● generator njk: prompting for site name › created folder structure
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      Trying to copy from a source that does not exist: /data/js-variants/multee/TestCollection/generator-njk-site/generators/app/templates/**/.*
+
+      41 |     this.log("Generating project structure ...");
+      42 |
+    > 43 |     this.fs.copy(
+         |             ^
+      44 |       this.templatePath("**/.*"),
+      45 |       this.destinationPath(this.options.appname),
+      46 |       {
+
+      at EditionInterface.copy (node_modules/mem-fs-editor/lib/actions/copy.js:49:3)
+      at Object.<anonymous>.module.exports.writing (generators/app/index.js:43:13)
+      at Object.<anonymous> (node_modules/yeoman-generator/lib/index.js:1092:23)
+      at node_modules/run-async/index.js:49:25
+      at node_modules/run-async/index.js:26:19
+      at node_modules/yeoman-generator/lib/index.js:1093:9
+      at Object.<anonymous>.module.exports.executeTask (node_modules/yeoman-generator/lib/index.js:1064:12)
+      at runLoop.add.once (node_modules/yeoman-generator/lib/index.js:1044:14)
+
+  ● generator njk: give site name through arguments › created project files and folders
+
+    assert(received)
+
+    Expected value to be equal to:
+      true
+    Received:
+      false
+
+    Message:
+      Trying to copy from a source that does not exist: /data/js-variants/multee/TestCollection/generator-njk-site/generators/app/templates/**/.*
+
+      41 |     this.log("Generating project structure ...");
+      42 |
+    > 43 |     this.fs.copy(
+         |             ^
+      44 |       this.templatePath("**/.*"),
+      45 |       this.destinationPath(this.options.appname),
+      46 |       {
+
+      at EditionInterface.copy (node_modules/mem-fs-editor/lib/actions/copy.js:49:3)
+      at Object.<anonymous>.module.exports.writing (generators/app/index.js:43:13)
+      at Object.<anonymous> (node_modules/yeoman-generator/lib/index.js:1092:23)
+      at node_modules/run-async/index.js:49:25
+      at node_modules/run-async/index.js:26:19
+      at node_modules/yeoman-generator/lib/index.js:1093:9
+      at Object.<anonymous>.module.exports.executeTask (node_modules/yeoman-generator/lib/index.js:1064:12)
+      at runLoop.add.once (node_modules/yeoman-generator/lib/index.js:1044:14)
+
+Test Suites: 1 failed, 1 total
+Tests:       4 failed, 4 total
+Snapshots:   0 total
+Time:        2.173 s
+Ran all test suites.
+I am package LastCallMedia/gulp-drupal-tasks .....
+Cloning into 'gulp-drupal-tasks'...
+npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated mkdirp@0.5.4: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated formatio@1.1.1: This package is unmaintained. Use @sinonjs/formatio instead
+npm WARN deprecated samsam@1.1.2: This package has been deprecated in favour of @sinonjs/samsam
+npm WARN deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+I am running test for LastCallMedia/gulp-drupal-tasks
+I am package webpack/webpack .....
+Cloning into 'webpack'...
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: webpack@5.86.0
+npm ERR! Found: pug@3.0.2
+npm ERR! node_modules/pug
+npm ERR!   dev pug@"^3.0.0" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer pug@"^2.0.0" from pug-loader@2.4.0
+npm ERR! node_modules/pug-loader
+npm ERR!   dev pug-loader@"^2.4.0" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! 
+npm ERR! For a full report see:
+npm ERR! /home/liu-yuxin/.npm/_logs/2023-06-12T13_18_32_922Z-eresolve-report.txt
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-12T13_18_32_922Z-debug-0.log
+I am running test for webpack/webpack
+warning " > terser-webpack-plugin@5.3.7" has unmet peer dependency "webpack@^5.1.0".
+warning " > babel-loader@8.3.0" has unmet peer dependency "webpack@>=2".
+warning " > coffee-loader@1.0.1" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+warning " > css-loader@5.2.7" has unmet peer dependency "webpack@^4.27.0 || ^5.0.0".
+warning " > file-loader@6.2.0" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+warning " > fork-ts-checker-webpack-plugin@8.0.0" has unmet peer dependency "webpack@^5.11.0".
+warning " > less-loader@8.1.1" has unmet peer dependency "webpack@^5.0.0".
+warning " > mini-css-extract-plugin@1.6.2" has unmet peer dependency "webpack@^4.4.0 || ^5.0.0".
+warning " > pug-loader@2.4.0" has incorrect peer dependency "pug@^2.0.0".
+warning " > raw-loader@4.0.2" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+warning " > style-loader@2.0.0" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+warning " > ts-loader@9.4.2" has unmet peer dependency "webpack@^5.0.0".
+warning " > url-loader@4.1.1" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+warning " > webpack-cli@5.1.4" has unmet peer dependency "webpack@5.x.x".
+warning "webpack-cli > @webpack-cli/configtest@2.1.1" has unmet peer dependency "webpack@5.x.x".
+warning "webpack-cli > @webpack-cli/info@2.0.2" has unmet peer dependency "webpack@5.x.x".
+warning "webpack-cli > @webpack-cli/serve@2.0.5" has unmet peer dependency "webpack@5.x.x".
+error An unexpected error occurred: "EACCES: permission denied, symlink '../../../home/liu-yuxin/.config/yarn/link/webpack/bin/webpack.js' -> '/usr/local/bin/webpack'".
+Create webpack symlink failed with exit code 1
+error Command failed with exit code 1.
+error Command failed with exit code 1.
+I am package eggjs/egg-init .....
+Cloning into 'egg-init'...
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated request-promise@4.2.6: request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated json3@3.3.2: Please use the native JSON object instead of JSON 3
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated babel-eslint@8.2.6: babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
+npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated socks@1.1.10: If using 2.x branch, please upgrade to at least 2.1.6 to avoid a serious bug with socket data flow and an import issue introduced in 2.1.0
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated istanbul@0.4.5: This module is no longer maintained, try this instead:
+npm WARN deprecated   npm i nyc
+npm WARN deprecated Visit https://istanbul.js.org/integrations for other alternatives.
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+I am running test for eggjs/egg-init
+[egg-init] new version available: 2.3.0 → 2.3.1.
+[common-bin] run test with [] at /data/js-variants/multee/TestCollection/egg-init error:
+Error: /data/js-variants/multee/TestCollection/egg-init/node_modules/mocha/bin/_mocha --timeout,30000,--require,/data/js-variants/multee/TestCollection/egg-init/node_modules/thunk-mocha/index.js,--require,/data/js-variants/multee/TestCollection/egg-init/node_modules/intelli-espower-loader/intelli-espower-loader.js,/data/js-variants/multee/TestCollection/egg-init/test/category.test.js,/data/js-variants/multee/TestCollection/egg-init/test/fixtures/simple-test/boilerplate/test/{{name}}.test.js,/data/js-variants/multee/TestCollection/egg-init/test/init.test.js,/data/js-variants/multee/TestCollection/egg-init/test/proxy.test.js exit with code 1
+    at ChildProcess.<anonymous> (/data/js-variants/multee/TestCollection/egg-init/node_modules/common-bin/lib/helper.js:31:21)
+    at Object.onceWrapper (node:events:628:26)
+    at ChildProcess.emit (node:events:513:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)
+I am package papandreou/seespee .....
+Cloning into 'seespee'...
+npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+npm WARN deprecated @hapi/topo@3.1.6: This version has been deprecated and is no longer supported or maintained
+npm WARN deprecated @hapi/bourne@1.3.2: This version has been deprecated and is no longer supported or maintained
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated eslint-plugin-standard@5.0.0: standard 16.0.0 and eslint-config-standard 16.0.0 no longer require the eslint-plugin-standard package. You can remove it from your dependencies with 'npm rm eslint-plugin-standard'. More info here: https://github.com/standard/standard/issues/1316
+npm WARN deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+npm WARN deprecated @hapi/address@2.1.4: Moved to 'npm install @sideway/address'
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated @hapi/hoek@8.5.1: This version has been deprecated and is no longer supported or maintained
+npm WARN deprecated @hapi/joi@15.1.1: Switch to 'npm install joi'
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+I am running test for papandreou/seespee
+I am package davidedantonio/fastify-axios .....
+Cloning into 'fastify-axios'...
+I am running test for davidedantonio/fastify-axios
+I am package BBVAEngineering/ember-collector-dispatcher .....
+Cloning into 'ember-collector-dispatcher'...
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: ember-collector-dispatcher@3.0.0
+npm ERR! Found: eslint@7.10.0
+npm ERR! node_modules/eslint
+npm ERR!   dev eslint@"^7.10.0" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer eslint@"^6.6.0" from eslint-config-bbva@3.2.2
+npm ERR! node_modules/eslint-config-bbva
+npm ERR!   dev eslint-config-bbva@"^3.2.2" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! 
+npm ERR! For a full report see:
+npm ERR! /home/liu-yuxin/.npm/_logs/2023-06-12T13_31_50_344Z-eresolve-report.txt
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-12T13_31_50_344Z-debug-0.log
+I am running test for BBVAEngineering/ember-collector-dispatcher
+sh: npm-run-all: command not found
+I am package Brightspace/images-to-variables .....
+Cloning into 'images-to-variables'...
+npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated uuid@2.0.3: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated svgo@0.6.6: This SVGO version is no longer supported. Upgrade to v2.x.x.
+I am running test for Brightspace/images-to-variables
+I am package webpack/webpack-dev-server .....
+fatal: destination path 'webpack-dev-server' already exists and is not an empty directory.
+I am running test for webpack/webpack-dev-server
+I am package BBVAEngineering/ember-route-helpers .....
+Cloning into 'ember-route-helpers'...
+npm WARN deprecated istanbul@0.4.5: This module is no longer maintained, try this instead:
+npm WARN deprecated   npm i nyc
+npm WARN deprecated Visit https://istanbul.js.org/integrations for other alternatives.
+I am running test for BBVAEngineering/ember-route-helpers
+file:///data/js-variants/multee/TestCollection/ember-route-helpers/node_modules/ember-template-lint/lib/get-config.js:277
+        throw new Error(`Cannot find configuration for extends: ${extendName}`);
+              ^
+
+Error: Cannot find configuration for extends: octane
+    at processExtends (file:///data/js-variants/multee/TestCollection/ember-route-helpers/node_modules/ember-template-lint/lib/get-config.js:277:15)
+    at getProjectConfig (file:///data/js-variants/multee/TestCollection/ember-route-helpers/node_modules/ember-template-lint/lib/get-config.js:425:5)
+    at async Linter.loadConfig (file:///data/js-variants/multee/TestCollection/ember-route-helpers/node_modules/ember-template-lint/lib/linter.js:46:19)
+    at async Linter.verify (file:///data/js-variants/multee/TestCollection/ember-route-helpers/node_modules/ember-template-lint/lib/linter.js:302:7)
+    at async run (file:///data/js-variants/multee/TestCollection/ember-route-helpers/node_modules/ember-template-lint/bin/ember-template-lint.js:221:21)
+ERROR: "lint:hbs" exited with 1.
+ERROR: "lint" exited with 1.

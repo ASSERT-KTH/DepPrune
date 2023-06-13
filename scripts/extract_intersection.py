@@ -1,29 +1,26 @@
-filePath1 = f'./Logs/repo_100000_coverage.txt'
+filePath1 = f'./Logs/repo_100000_coverage_github.txt'
 with open(filePath1) as f:
     lines1 = f.read().splitlines()
 
-# filePath2 = f'./Logs/repo_100000_readme_error.txt'
-# with open(filePath2) as f:
-#     lines2 = f.read().splitlines()
+filePath2 = f'./Logs/rerun_test.txt'
+with open(filePath2) as f:
+    lines2 = f.read().splitlines()
 
 list1 = []
 for item in lines1:
     arr = item.split(',')
-    git_url = f'https://github.com/{arr[1]}.git'
-    arr.pop(6)
-    arr.append(git_url)
     list1.append(arr)
 
-# list2 = []
-# for item in lines2:
-#     arr = item.split(',')
-#     list2.append(arr)
+list2 = []
+for item in lines2:
+    arr = item.split(',')
+    list2.append(arr)
 
-# intersection = [arr2 for arr1 in list1 for arr2 in list2 if arr1[1] == arr2[0]]
+intersection = [arr1 for arr1 in list1 for arr2 in list2 if arr1[1] == arr2[0]]
+print(len(intersection))
 
-
-collection_file = open("./Logs/repo_100000_coverage_github.txt", "a")
-for item in list1:
+collection_file = open("./Logs/rerun_test_github_2021-2022.txt", "a")
+for item in intersection:
     line = ",".join(item) + "\n"
     collection_file.writelines(line)
     
