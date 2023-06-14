@@ -1,0 +1,887 @@
+I am package filamentgroup/grunticon .....
+Cloning into 'grunticon'...
+npm WARN deprecated natives@1.1.6: This module relies on Node.js's internals and will break at some point. Do not use it, and update to graceful-fs@4.x.
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated cryptiles@2.0.5: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@1.2.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm WARN deprecated xmldom@0.1.31: Deprecated due to CVE-2021-21366 resolved in 0.5.0
+npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated boom@2.10.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated sntp@1.0.9: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+npm WARN deprecated mkdirp@0.3.5: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated uuid@2.0.3: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@2.0.3: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated phantomjs-prebuilt@2.1.16: this package is now deprecated
+npm WARN deprecated har-validator@2.0.6: this library is no longer supported
+npm WARN deprecated hoek@2.16.3: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated request@2.79.0: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated hawk@3.1.3: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+npm WARN deprecated svgo@0.6.6: This SVGO version is no longer supported. Upgrade to v2.x.x.
+npm WARN deprecated svgo@0.5.6: This SVGO version is no longer supported. Upgrade to v2.x.x.
+npm WARN deprecated nodeunit@0.9.5: you are strongly encouraged to use other testing options
+I am running test for filamentgroup/grunticon
+I am package ProfessorManhattan/jest-preset-ts .....
+Cloning into 'jest-preset-ts'...
+npm WARN ERESOLVE overriding peer dependency
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: eslint-plugin-no-unsanitized@3.2.0
+npm WARN Found: eslint@8.42.0
+npm WARN node_modules/eslint
+npm WARN   eslint@"^8.24.0" from eslint-config-strict-mode@1.2.1
+npm WARN   node_modules/eslint-config-strict-mode
+npm WARN     dev eslint-config-strict-mode@"latest" from the root project
+npm WARN   41 more (jest-runner-eslint, fork-ts-checker-webpack-plugin, ...)
+npm WARN 
+npm WARN Could not resolve dependency:
+npm WARN peer eslint@"^5 || ^6 || ^7" from eslint-plugin-no-unsanitized@3.2.0
+npm WARN node_modules/eslint-plugin-no-unsanitized
+npm WARN   eslint-plugin-no-unsanitized@"^3.2.0" from eslint-config-strict-mode@1.2.1
+npm WARN   node_modules/eslint-config-strict-mode
+npm WARN 
+npm WARN Conflicting peer dependency: eslint@7.32.0
+npm WARN node_modules/eslint
+npm WARN   peer eslint@"^5 || ^6 || ^7" from eslint-plugin-no-unsanitized@3.2.0
+npm WARN   node_modules/eslint-plugin-no-unsanitized
+npm WARN     eslint-plugin-no-unsanitized@"^3.2.0" from eslint-config-strict-mode@1.2.1
+npm WARN     node_modules/eslint-config-strict-mode
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: eslint-plugin-promise@5.2.0
+npm WARN Found: eslint@8.42.0
+npm WARN node_modules/eslint
+npm WARN   eslint@"^8.24.0" from eslint-config-strict-mode@1.2.1
+npm WARN   node_modules/eslint-config-strict-mode
+npm WARN     dev eslint-config-strict-mode@"latest" from the root project
+npm WARN   41 more (jest-runner-eslint, fork-ts-checker-webpack-plugin, ...)
+npm WARN 
+npm WARN Could not resolve dependency:
+npm WARN peer eslint@"^7.0.0" from eslint-plugin-promise@5.2.0
+npm WARN node_modules/eslint-plugin-promise
+npm WARN   eslint-plugin-promise@"^5.2.0" from eslint-config-strict-mode@1.2.1
+npm WARN   node_modules/eslint-config-strict-mode
+npm WARN 
+npm WARN Conflicting peer dependency: eslint@7.32.0
+npm WARN node_modules/eslint
+npm WARN   peer eslint@"^7.0.0" from eslint-plugin-promise@5.2.0
+npm WARN   node_modules/eslint-plugin-promise
+npm WARN     eslint-plugin-promise@"^5.2.0" from eslint-config-strict-mode@1.2.1
+npm WARN     node_modules/eslint-config-strict-mode
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: eslint-plugin-sonarjs@0.10.0
+npm WARN Found: eslint@8.42.0
+npm WARN node_modules/eslint
+npm WARN   eslint@"^8.24.0" from eslint-config-strict-mode@1.2.1
+npm WARN   node_modules/eslint-config-strict-mode
+npm WARN     dev eslint-config-strict-mode@"latest" from the root project
+npm WARN   41 more (jest-runner-eslint, fork-ts-checker-webpack-plugin, ...)
+npm WARN 
+npm WARN Could not resolve dependency:
+npm WARN peer eslint@"^5.0.0 || ^6.0.0 || ^7.0.0" from eslint-plugin-sonarjs@0.10.0
+npm WARN node_modules/eslint-plugin-sonarjs
+npm WARN   eslint-plugin-sonarjs@"^0.10.0" from eslint-config-strict-mode@1.2.1
+npm WARN   node_modules/eslint-config-strict-mode
+npm WARN 
+npm WARN Conflicting peer dependency: eslint@7.32.0
+npm WARN node_modules/eslint
+npm WARN   peer eslint@"^5.0.0 || ^6.0.0 || ^7.0.0" from eslint-plugin-sonarjs@0.10.0
+npm WARN   node_modules/eslint-plugin-sonarjs
+npm WARN     eslint-plugin-sonarjs@"^0.10.0" from eslint-config-strict-mode@1.2.1
+npm WARN     node_modules/eslint-config-strict-mode
+npm WARN ERESOLVE overriding peer dependency
+npm WARN ERESOLVE overriding peer dependency
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: eslint-plugin-unused-imports@1.1.5
+npm WARN Found: eslint@8.42.0
+npm WARN node_modules/eslint
+npm WARN   eslint@"^8.24.0" from eslint-config-strict-mode@1.2.1
+npm WARN   node_modules/eslint-config-strict-mode
+npm WARN     dev eslint-config-strict-mode@"latest" from the root project
+npm WARN   41 more (jest-runner-eslint, fork-ts-checker-webpack-plugin, ...)
+npm WARN 
+npm WARN Could not resolve dependency:
+npm WARN peer eslint@"^6.0.0 || ^7.0.0" from eslint-plugin-unused-imports@1.1.5
+npm WARN node_modules/eslint-plugin-unused-imports
+npm WARN   eslint-plugin-unused-imports@"^1.1.5" from eslint-config-strict-mode@1.2.1
+npm WARN   node_modules/eslint-config-strict-mode
+npm WARN 
+npm WARN Conflicting peer dependency: eslint@7.32.0
+npm WARN node_modules/eslint
+npm WARN   peer eslint@"^5.0.0 || ^6.0.0 || ^7.0.0" from @typescript-eslint/parser@4.33.0
+npm WARN   node_modules/@typescript-eslint/parser
+npm WARN     peer @typescript-eslint/parser@">= 2.27.0" from eslint-plugin-no-explicit-type-exports@0.12.1
+npm WARN     node_modules/eslint-plugin-no-explicit-type-exports
+npm WARN     2 more (eslint-plugin-typescript-sort-keys, @typescript-eslint/eslint-plugin)
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'jest-preset-ts@1.0.1',
+npm WARN EBADENGINE   required: { node: '>=18.4.0' },
+npm WARN EBADENGINE   current: { node: 'v16.19.1', npm: '8.19.3' }
+npm WARN EBADENGINE }
+npm WARN skipping integrity check for git dependency ssh://git@github.com/glayzzle/php-parser.git 
+npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm WARN deprecated jest-dom@4.0.0: 🚨 jest-dom has moved to @testing-library/jest-dom. Please uninstall jest-dom and install @testing-library/jest-dom instead, or use an older version of jest-dom. Learn more about this change here: https://github.com/testing-library/dom-testing-library/issues/260 Thanks! :)
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+npm WARN deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated gulp-header@1.8.12: Removed event-stream from gulp-header
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated trim@0.0.1: Use String.prototype.trim() instead
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+npm WARN deprecated sane@4.1.0: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated highlight.js@9.18.5: Support has ended for 9.x series. Upgrade to @latest
+From https://github.com/ProfessorManhattan/jest-preset-ts
+ * branch            master     -> FETCH_HEAD
+task: Failed to parse Taskfile.yml:
+yaml: unmarshal errors:
+  line 953: cannot unmarshal !!map into string
+task: Failed to parse Taskfile.yml:
+yaml: unmarshal errors:
+  line 953: cannot unmarshal !!map into string
+task: Failed to parse Taskfile.yml:
+yaml: unmarshal errors:
+  line 895: cannot unmarshal !!map into string
+task: Failed to parse Taskfile.yml:
+yaml: unmarshal errors:
+  line 895: cannot unmarshal !!map into string
+task: Failed to parse Taskfile.yml:
+yaml: unmarshal errors:
+  line 895: cannot unmarshal !!map into string
+I am running test for ProfessorManhattan/jest-preset-ts
+From https://github.com/ProfessorManhattan/jest-preset-ts
+ * branch            master     -> FETCH_HEAD
+task: Failed to parse Taskfile.yml:
+yaml: unmarshal errors:
+  line 895: cannot unmarshal !!map into string
+task: Failed to parse Taskfile.yml:
+yaml: unmarshal errors:
+  line 895: cannot unmarshal !!map into string
+task: Failed to parse Taskfile.yml:
+yaml: unmarshal errors:
+  line 895: cannot unmarshal !!map into string
+task: Failed to parse Taskfile.yml:
+yaml: unmarshal errors:
+  line 895: cannot unmarshal !!map into string
+task: Failed to parse Taskfile.yml:
+yaml: unmarshal errors:
+  line 895: cannot unmarshal !!map into string
+I am package bhabukkun/frappe-gantt-react-no-scroll .....
+Cloning into 'frappe-gantt-react-no-scroll'...
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: frappe-gantt-react-no-scroll@0.0.2
+npm ERR! Found: rollup@1.11.0
+npm ERR! node_modules/rollup
+npm ERR!   dev rollup@"^1.11.0" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer rollup@"^0.x" from rollup-plugin-peer-deps-external@2.2.0
+npm ERR! node_modules/rollup-plugin-peer-deps-external
+npm ERR!   dev rollup-plugin-peer-deps-external@"^2.2.0" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! 
+npm ERR! For a full report see:
+npm ERR! /home/liu-yuxin/.npm/_logs/2023-06-14T10_56_48_143Z-eresolve-report.txt
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T10_56_48_143Z-debug-0.log
+I am running test for bhabukkun/frappe-gantt-react-no-scroll
+sh: react-scripts: command not found
+I am package softwaregroup-bg/ut-webpack .....
+Cloning into 'ut-webpack'...
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: ut-webpack@8.2.3
+npm ERR! Found: webpack@4.46.0
+npm ERR! node_modules/webpack
+npm ERR!   bundled webpack@"^4.46.0" from the root project
+npm ERR!   peer webpack@"^4 || ^5" from csp-html-webpack-plugin@5.1.0
+npm ERR!   node_modules/csp-html-webpack-plugin
+npm ERR!     bundled csp-html-webpack-plugin@"^5.1.0" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer webpack@"^5.20.0" from html-webpack-plugin@5.5.3
+npm ERR! node_modules/html-webpack-plugin
+npm ERR!   peer html-webpack-plugin@"^4 || ^5" from csp-html-webpack-plugin@5.1.0
+npm ERR!   node_modules/csp-html-webpack-plugin
+npm ERR!     bundled csp-html-webpack-plugin@"^5.1.0" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! 
+npm ERR! For a full report see:
+npm ERR! /home/liu-yuxin/.npm/_logs/2023-06-14T10_56_53_428Z-eresolve-report.txt
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T10_56_53_428Z-debug-0.log
+I am running test for softwaregroup-bg/ut-webpack
+sh: ut-pretest: command not found
+I am package ctwoolsey/ember-paper-react .....
+Cloning into 'ember-paper-react'...
+npm WARN deprecated @npmcli/move-file@2.0.1: This functionality has been moved to @npmcli/fs
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated source-map-url@0.3.0: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated sane@4.1.0: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+npm WARN deprecated babel-eslint@10.1.0: babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
+npm WARN deprecated mkdirp@0.3.5: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated @babel/polyfill@7.12.1: 🚨 This package has been deprecated in favor of separate inclusion of a polyfill and regenerator-runtime (when needed). See the @babel/polyfill docs (https://babeljs.io/docs/en/babel-polyfill) for more information.
+npm WARN deprecated core-js@2.6.12: core-js@<3.4 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
+I am running test for ctwoolsey/ember-paper-react
+I am package grrr-amsterdam/gulpfile .....
+Cloning into 'gulpfile'...
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: @grrr/gulpfile@9.0.1
+npm ERR! Found: rollup@3.2.5
+npm ERR! node_modules/rollup
+npm ERR!   rollup@"^3.2.3" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer rollup@"^1.4.1" from gulp-better-rollup@4.0.1
+npm ERR! node_modules/gulp-better-rollup
+npm ERR!   gulp-better-rollup@"^4.0.1" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! 
+npm ERR! For a full report see:
+npm ERR! /home/liu-yuxin/.npm/_logs/2023-06-14T11_00_46_551Z-eresolve-report.txt
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_00_46_551Z-debug-0.log
+I am running test for grrr-amsterdam/gulpfile
+sh: jest: command not found
+I am package mike-north/ember-orientation .....
+Cloning into 'ember-orientation'...
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE could not resolve
+npm ERR! 
+npm ERR! While resolving: ember-resolver@10.1.0
+npm ERR! Found: ember-source@5.0.0
+npm ERR! node_modules/ember-source
+npm ERR!   dev ember-source@"5.0.0" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peerOptional ember-source@"^4.8.3" from ember-resolver@10.1.0
+npm ERR! node_modules/ember-resolver
+npm ERR!   dev ember-resolver@"10.1.0" from the root project
+npm ERR! 
+npm ERR! Conflicting peer dependency: ember-source@4.12.1
+npm ERR! node_modules/ember-source
+npm ERR!   peerOptional ember-source@"^4.8.3" from ember-resolver@10.1.0
+npm ERR!   node_modules/ember-resolver
+npm ERR!     dev ember-resolver@"10.1.0" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! 
+npm ERR! For a full report see:
+npm ERR! /home/liu-yuxin/.npm/_logs/2023-06-14T11_00_50_682Z-eresolve-report.txt
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_00_50_682Z-debug-0.log
+I am running test for mike-north/ember-orientation
+sh: ember: command not found
+I am package godaddy/carpenterd-worker .....
+Cloning into 'carpenterd-worker'...
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN deprecated ini@1.3.5: Please update to ini >=1.3.6 to avoid a prototype pollution issue
+npm WARN deprecated topo@2.0.2: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated topo@3.0.3: This module has moved and is now available at @hapi/topo. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+npm WARN deprecated items@2.1.2: This module has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version of hapi to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated har-validator@5.1.3: this library is no longer supported
+npm WARN deprecated to-iso-string@0.0.2: to-iso-string has been deprecated, use @segment/to-iso-string instead.
+npm WARN deprecated hoek@4.2.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated flat@4.1.0: Fixed a prototype pollution security issue in 4.1.0, please upgrade to ^4.1.1 or ^5.0.1.
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated hoek@6.1.3: This module has moved and is now available at @hapi/hoek. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated minimatch@0.3.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated formidable@1.2.2: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+npm WARN deprecated gcs-resumable-upload@1.1.0: gcs-resumable-upload is deprecated. Support will end on 11/01/2023
+npm WARN deprecated mkdirp@0.3.0: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated uuid@3.3.3: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated request@2.88.0: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated jade@0.26.3: Jade has been renamed to pug, please install the latest version of pug instead of jade
+npm WARN deprecated superagent@3.8.3: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), filesystem errors not bubbling up (ENOENT on attach()), and all tests are now passing.  See the releases tab for more information at <https://github.com/visionmedia/superagent/releases>.
+npm WARN deprecated joi@10.6.0: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated joi@14.3.1: This module has moved and is now available at @hapi/joi. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+I am running test for godaddy/carpenterd-worker
+I am package inosca/ember-ebau-gwr .....
+Cloning into 'ember-ebau-gwr'...
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@adfinis/semantic-release-config@4.0.0',
+npm WARN EBADENGINE   required: { node: '>= 18' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '9.3.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'semantic-release@21.0.2',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '9.3.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@semantic-release/npm@10.0.3',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '9.3.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@semantic-release/release-notes-generator@11.0.1',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '9.3.1' }
+npm WARN EBADENGINE }
+npm WARN deprecated @types/broccoli-plugin@3.0.0: This is a stub types definition. broccoli-plugin provides its own type definitions, so you do not need this installed.
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated consolidate@0.16.0: Please upgrade to consolidate v1.0.0+ as it has been modernized with several long-awaited fixes implemented. Maintenance is supported by Forward Email at https://forwardemail.net ; follow/watch https://github.com/ladjs/consolidate for updates and release changelog
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated rollup-plugin-node-resolve@5.2.0: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-node-resolve.
+npm WARN deprecated source-map-url@0.3.0: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+npm WARN deprecated sane@4.1.0: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated @babel/polyfill@7.12.1: 🚨 This package has been deprecated in favor of separate inclusion of a polyfill and regenerator-runtime (when needed). See the @babel/polyfill docs (https://babeljs.io/docs/en/babel-polyfill) for more information.
+npm WARN deprecated intl-messageformat-parser@6.4.4: We've written a new parser that's 6x faster and is backwards compatible. Please use @formatjs/icu-messageformat-parser
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+I am running test for inosca/ember-ebau-gwr
+I am package JeonCS/traveluniv-strapi-admin .....
+Cloning into 'traveluniv-strapi-admin'...
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'traveluniv-strapi-admin@1.0.6',
+npm WARN EBADENGINE   required: { node: '>=10.16.0 <=14.x.x', npm: '>=6.0.0' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '9.3.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: '@casl/ability@4.1.6',
+npm WARN EBADENGINE   required: { npm: '^6.0.0' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '9.3.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'strapi-helper-plugin@3.6.8',
+npm WARN EBADENGINE   required: { node: '>=10.16.0 <=14.x.x', npm: '>=6.0.0' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '9.3.1' }
+npm WARN EBADENGINE }
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'strapi-utils@3.6.8',
+npm WARN EBADENGINE   required: { node: '>=10.16.0 <=14.x.x', npm: '>=6.0.0' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '9.3.1' }
+npm WARN EBADENGINE }
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+npm WARN deprecated html-webpack-plugin@3.2.0: 3.x is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated @babel/polyfill@7.12.1: 🚨 This package has been deprecated in favor of separate inclusion of a polyfill and regenerator-runtime (when needed). See the @babel/polyfill docs (https://babeljs.io/docs/en/babel-polyfill) for more information.
+npm WARN deprecated strapi-utils@3.6.8: Strapi V3 is no longer maintained
+npm WARN deprecated strapi-helper-plugin@3.6.8: Strapi V3 is no longer maintained
+npm WARN deprecated intl-messageformat-parser@5.5.1: We've written a new parser that's 6x faster and is backwards compatible. Please use @formatjs/icu-messageformat-parser
+npm WARN deprecated @formatjs/intl-utils@2.3.0: the package is rather renamed to @formatjs/ecma-abstract with some changes in functionality (primarily selectUnit is removed and we don't plan to make any further changes to this package
+npm WARN deprecated popper.js@1.16.1: You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+npm WARN deprecated @formatjs/intl-unified-numberformat@3.3.7: We have renamed the package to @formatjs/intl-numberformat
+I am running test for JeonCS/traveluniv-strapi-admin
+I am package crainbows/dungeon-mapper .....
+fatal: repository 'started_' does not exist
+scripts/run_test_for_coverage.sh: line 18: cd: dungeon-mapper: No such file or directory
+I am running test for crainbows/dungeon-mapper
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package twreporter/keystone .....
+Cloning into 'keystone'...
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: @twreporter/keystone@0.9.10-rc.2
+npm ERR! Found: eslint@7.3.0
+npm ERR! node_modules/eslint
+npm ERR!   dev eslint@"7.3.0" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer eslint@"^2.11.0" from eslint-config-keystone@2.4.0
+npm ERR! node_modules/eslint-config-keystone
+npm ERR!   dev eslint-config-keystone@"^2.4.0" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! 
+npm ERR! For a full report see:
+npm ERR! /home/liu-yuxin/.npm/_logs/2023-06-14T11_22_32_058Z-eresolve-report.txt
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_22_32_058Z-debug-0.log
+I am running test for twreporter/keystone
+sh: eslint: command not found
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package nexus-devs/blitz-js .....
+Cloning into 'blitz-js'...
+npm WARN deprecated read-package-tree@5.2.2: The functionality that this package provided is now in @npmcli/arborist
+npm WARN deprecated ini@1.3.5: Please update to ini >=1.3.6 to avoid a prototype pollution issue
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated har-validator@5.1.3: this library is no longer supported
+npm WARN deprecated request-promise@4.2.2: request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated acorn-dynamic-import@3.0.0: This is probably built in to whatever tool you're using. If you still need it... idk
+npm WARN deprecated source-map-url@0.4.0: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+npm WARN deprecated chokidar@2.1.1: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated node-fetch-npm@2.0.2: This module is not used anymore, npm uses minipass-fetch for its fetch implementation now
+npm WARN deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated source-map-resolve@0.5.2: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated request@2.88.0: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated buffer@4.9.1: This version of 'buffer' is out-of-date. You must update to v4.9.2 or newer
+npm WARN deprecated bson@1.1.3: Fixed a critical issue with BSON serialization documented in CVE-2019-2391, see https://bit.ly/2KcpXdo for more details
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+I am running test for nexus-devs/blitz-js
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module 'cubic-defaults'
+Require stack:
+- /data/blitz-js/test/server.js
+- /data/blitz-js/node_modules/mocha/lib/mocha.js
+- /data/blitz-js/node_modules/mocha/index.js
+- /data/blitz-js/node_modules/mocha/bin/_mocha
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/data/blitz-js/test/server.js:10:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Module.replacementCompile (/usr/local/lib/node_modules/nyc/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Object.<anonymous> (/usr/local/lib/node_modules/nyc/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at /data/blitz-js/node_modules/mocha/lib/mocha.js:250:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (/data/blitz-js/node_modules/mocha/lib/mocha.js:247:14)
+    at Mocha.run (/data/blitz-js/node_modules/mocha/lib/mocha.js:576:10)
+    at Object.<anonymous> (/data/blitz-js/node_modules/mocha/bin/_mocha:637:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Module.replacementCompile (/usr/local/lib/node_modules/nyc/node_modules/append-transform/index.js:60:13)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Object.<anonymous> (/usr/local/lib/node_modules/nyc/node_modules/append-transform/index.js:64:4)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/data/blitz-js/test/server.js',
+    '/data/blitz-js/node_modules/mocha/lib/mocha.js',
+    '/data/blitz-js/node_modules/mocha/index.js',
+    '/data/blitz-js/node_modules/mocha/bin/_mocha'
+  ]
+}
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_07_721Z-debug-0.log
+I am running test for canufeel/ember-leaflet-marker-cluster
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package DomParfitt/generator-simple-ts .....
+fatal: could not create work tree dir 'generator-simple-ts': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: generator-simple-ts: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_08_265Z-debug-0.log
+I am running test for DomParfitt/generator-simple-ts
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package acosom/node-rdkafka-acosom .....
+fatal: could not create work tree dir 'node-rdkafka-acosom': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: node-rdkafka-acosom: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_08_809Z-debug-0.log
+I am running test for acosom/node-rdkafka-acosom
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package actions/javascript-action .....
+fatal: could not create work tree dir 'javascript-action': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: javascript-action: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_09_352Z-debug-0.log
+I am running test for actions/javascript-action
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package junejunel/ifeather-ui .....
+fatal: could not create work tree dir 'ifeather-ui': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: ifeather-ui: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_09_905Z-debug-0.log
+I am running test for junejunel/ifeather-ui
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package gruntjs/grunt-contrib-nodeunit .....
+fatal: could not create work tree dir 'grunt-contrib-nodeunit': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: grunt-contrib-nodeunit: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_10_449Z-debug-0.log
+I am running test for gruntjs/grunt-contrib-nodeunit
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package percy/ember-percy .....
+fatal: could not create work tree dir 'ember-percy': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: ember-percy: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_10_983Z-debug-0.log
+I am running test for percy/ember-percy
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package knownasilya/ember-toastr .....
+fatal: could not create work tree dir 'ember-toastr': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: ember-toastr: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_11_521Z-debug-0.log
+I am running test for knownasilya/ember-toastr
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package bustlelabs/ember-mobiledoc-dom-renderer .....
+fatal: could not create work tree dir 'ember-mobiledoc-dom-renderer': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: ember-mobiledoc-dom-renderer: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_12_060Z-debug-0.log
+I am running test for bustlelabs/ember-mobiledoc-dom-renderer
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package bendemboski/ember-local-settings .....
+fatal: could not create work tree dir 'ember-local-settings': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: ember-local-settings: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_12_595Z-debug-0.log
+I am running test for bendemboski/ember-local-settings
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package shipshapecode/ember-meta .....
+fatal: could not create work tree dir 'ember-meta': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: ember-meta: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_13_140Z-debug-0.log
+I am running test for shipshapecode/ember-meta
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package kpfefferle/ember-octicons .....
+fatal: could not create work tree dir 'ember-octicons': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: ember-octicons: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_13_677Z-debug-0.log
+I am running test for kpfefferle/ember-octicons
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package pinussilvestrus/feathers-python .....
+fatal: could not create work tree dir 'feathers-python': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: feathers-python: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_14_208Z-debug-0.log
+I am running test for pinussilvestrus/feathers-python
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package macacajs/webdriver-server .....
+fatal: could not create work tree dir 'webdriver-server': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: webdriver-server: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_14_748Z-debug-0.log
+I am running test for macacajs/webdriver-server
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package zonkyio/ember-web-app .....
+fatal: could not create work tree dir 'ember-web-app': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: ember-web-app: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_15_285Z-debug-0.log
+I am running test for zonkyio/ember-web-app
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package peopledoc/ember-auto-import-chunks-json-generator .....
+fatal: could not create work tree dir 'ember-auto-import-chunks-json-generator': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: ember-auto-import-chunks-json-generator: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_15_820Z-debug-0.log
+I am running test for peopledoc/ember-auto-import-chunks-json-generator
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package Addepar/ember-json-viewer .....
+fatal: could not create work tree dir 'ember-json-viewer': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: ember-json-viewer: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_16_367Z-debug-0.log
+I am running test for Addepar/ember-json-viewer
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package minutebase/ember-can .....
+fatal: could not create work tree dir 'ember-can': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: ember-can: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_16_903Z-debug-0.log
+I am running test for minutebase/ember-can
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package tribe-framework/ember-junction .....
+fatal: could not create work tree dir 'ember-junction': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: ember-junction: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_17_439Z-debug-0.log
+I am running test for tribe-framework/ember-junction
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package ronco/ember-cli-head .....
+fatal: could not create work tree dir 'ember-cli-head': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: ember-cli-head: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_17_968Z-debug-0.log
+I am running test for ronco/ember-cli-head
+EACCES: permission denied, mkdir '/.nyc_output'
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package rounders/ember-world-flags .....
+fatal: could not create work tree dir 'ember-world-flags': Permission denied
+scripts/run_test_for_coverage.sh: line 18: cd: ember-world-flags: No such file or directory
+npm ERR! Tracker "idealTree" already exists
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_26_18_508Z-debug-0.log
+I am running test for rounders/ember-world-flags
+EACCES: permission denied, mkdir '/.nyc_output'
+I am package appium/ios-uicatalog .....
+Cloning into 'ios-uicatalog'...
+npm ERR! code EBADPLATFORM
+npm ERR! notsup Unsupported platform for ios-uicatalog@3.8.0: wanted {"os":"darwin"} (current: {"os":"linux","arch":"x64"})
+npm ERR! notsup Valid OS:    darwin
+npm ERR! notsup Valid Arch:  undefined
+npm ERR! notsup Actual OS:   linux
+npm ERR! notsup Actual Arch: x64
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_27_13_584Z-debug-0.log
+I am running test for appium/ios-uicatalog
+sh: gulp: command not found
+I am package TiagoDanin/jus-lite .....
+Cloning into 'jus-lite'...
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'upath@0.2.0',
+npm WARN EBADENGINE   required: { node: '>=0.10 <=5' },
+npm WARN EBADENGINE   current: { node: 'v16.17.0', npm: '9.3.1' }
+npm WARN EBADENGINE }
+npm WARN deprecated find-file@0.1.4: Use the globby package instead
+npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated @npmcli/move-file@2.0.1: This functionality has been moved to @npmcli/fs
+npm WARN deprecated babel-preset-es2015@6.24.1: 🙌  Thanks for using Babel: we recommend using babel-preset-env now: please read https://babeljs.io/env to update!
+npm WARN deprecated gulp-header@1.8.12: Removed event-stream from gulp-header
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated trim@0.0.1: Use String.prototype.trim() instead
+npm WARN deprecated browserslist@0.4.0: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+npm WARN deprecated to-iso-string@0.0.2: to-iso-string has been deprecated, use @segment/to-iso-string instead.
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated chokidar@1.7.0: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+npm WARN deprecated minimatch@0.3.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated formidable@1.0.17: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+npm WARN deprecated mkdirp@0.3.0: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated travis-deploy-once@4.4.1: We recommend to use Travis Build Stages instead
+npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated jade@0.26.3: Jade has been renamed to pug, please install the latest version of pug instead of jade
+npm WARN deprecated superagent@1.8.5: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), filesystem errors not bubbling up (ENOENT on attach()), and all tests are now passing.  See the releases tab for more information at <https://github.com/visionmedia/superagent/releases>.
+npm WARN deprecated highlight.js@9.18.5: Support has ended for 9.x series. Upgrade to @latest
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+I am running test for TiagoDanin/jus-lite
+(node:141977) [DEP0128] DeprecationWarning: Invalid 'main' field in '/data/js-variants/multee/TestCollection/jus-lite/node_modules/rework-rebeccapurple/package.json' of 'lib/index.js'. Please either fix that or report it to the module author
+(Use `node --trace-deprecation ...` to show where the warning was created)
+I am package empress/field-guide .....
+fatal: repository 'Start_' does not exist
+scripts/run_test_for_coverage.sh: line 18: cd: field-guide: No such file or directory
+I am running test for empress/field-guide
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package gxapplications/asterism-for-domotics .....
+Cloning into 'asterism-for-domotics'...
+npm WARN ERESOLVE overriding peer dependency
+npm WARN While resolving: react-dom@16.14.0
+npm WARN Found: react@16.2.0
+npm WARN node_modules/react
+npm WARN   react@"16.2.x" from asterism@1.11.18
+npm WARN   node_modules/asterism
+npm WARN     bundled asterism@"^1.10.26" from the root project
+npm WARN     1 more (asterism-plugin-zwave)
+npm WARN   4 more (asterism-plugin-library, asterism-plugin-zwave, ...)
+npm WARN 
+npm WARN Could not resolve dependency:
+npm WARN peer react@"^16.14.0" from react-dom@16.14.0
+npm WARN node_modules/react-dom
+npm WARN   react-dom@"^16.8.5" from react-materialize@3.3.3
+npm WARN   node_modules/react-materialize
+npm WARN   2 more (react-gridifier, react-transition-group)
+npm WARN 
+npm WARN Conflicting peer dependency: react@16.14.0
+npm WARN node_modules/react
+npm WARN   peer react@"^16.14.0" from react-dom@16.14.0
+npm WARN   node_modules/react-dom
+npm WARN     react-dom@"^16.8.5" from react-materialize@3.3.3
+npm WARN     node_modules/react-materialize
+npm WARN     2 more (react-gridifier, react-transition-group)
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+npm WARN deprecated uws@9.14.0: New code is available at github.com/uNetworking/uWebSockets.js
+npm WARN deprecated core-js@1.2.7: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+npm ERR! code 1
+npm ERR! path /data/js-variants/asterism-for-domotics/node_modules/openzwave-shared
+npm ERR! command failed
+npm ERR! command sh -c node-gyp rebuild
+npm ERR! gyp info it worked if it ends with ok
+npm ERR! gyp info using node-gyp@3.8.0
+npm ERR! gyp info using node@16.17.0 | linux | x64
+npm ERR! gyp ERR! configure error 
+npm ERR! gyp ERR! stack Error: Can't find Python executable "python", you can set the PYTHON env variable.
+npm ERR! gyp ERR! stack     at PythonFinder.failNoPython (/data/js-variants/asterism-for-domotics/node_modules/node-gyp/lib/configure.js:484:19)
+npm ERR! gyp ERR! stack     at PythonFinder.<anonymous> (/data/js-variants/asterism-for-domotics/node_modules/node-gyp/lib/configure.js:406:16)
+npm ERR! gyp ERR! stack     at F (/data/js-variants/asterism-for-domotics/node_modules/node-gyp/node_modules/which/which.js:68:16)
+npm ERR! gyp ERR! stack     at E (/data/js-variants/asterism-for-domotics/node_modules/node-gyp/node_modules/which/which.js:80:29)
+npm ERR! gyp ERR! stack     at /data/js-variants/asterism-for-domotics/node_modules/node-gyp/node_modules/which/which.js:89:16
+npm ERR! gyp ERR! stack     at /data/js-variants/asterism-for-domotics/node_modules/isexe/index.js:42:5
+npm ERR! gyp ERR! stack     at /data/js-variants/asterism-for-domotics/node_modules/isexe/mode.js:8:5
+npm ERR! gyp ERR! stack     at FSReqCallback.oncomplete (node:fs:206:21)
+npm ERR! gyp ERR! System Linux 5.13.0-1031-azure
+npm ERR! gyp ERR! command "/usr/local/bin/node" "/data/js-variants/asterism-for-domotics/node_modules/.bin/node-gyp" "rebuild"
+npm ERR! gyp ERR! cwd /data/js-variants/asterism-for-domotics/node_modules/openzwave-shared
+npm ERR! gyp ERR! node -v v16.17.0
+npm ERR! gyp ERR! node-gyp -v v3.8.0
+npm ERR! gyp ERR! not ok
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/liu-yuxin/.npm/_logs/2023-06-14T11_28_38_007Z-debug-0.log
+I am running test for gxapplications/asterism-for-domotics
+scripts/run_test_for_coverage.sh: line 5: cd: TestCollection: No such file or directory
+I am package coingaming/semantic-release-elixir .....
+Cloning into 'semantic-release-elixir'...
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated sane@4.1.0: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+I am running test for coingaming/semantic-release-elixir
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+PASS test/verifyConditions.test.js
+PASS test/prepare.test.js
+
+Test Suites: 2 passed, 2 total
+Tests:       6 passed, 6 total
+Snapshots:   0 total
+Time:        2.737 s
+Ran all test suites.
