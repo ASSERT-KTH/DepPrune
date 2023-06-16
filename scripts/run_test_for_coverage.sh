@@ -1,4 +1,5 @@
-path='./Logs/rerun_test_github_test.txt'
+# path='./Logs/rerun_test_github_test.txt'
+path='./Logs/rerun_test_coverage_test.txt'
 cat $path | while read rows
 do
    
