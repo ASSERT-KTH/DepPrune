@@ -2,7 +2,7 @@ filePath1 = f'./Logs/repo_100000_coverage_github.txt'
 with open(filePath1) as f:
     lines1 = f.read().splitlines()
 
-filePath2 = f'./Logs/rerun_test.txt'
+filePath2 = f'./Logs/target_100000_packages.txt'
 with open(filePath2) as f:
     lines2 = f.read().splitlines()
 
@@ -16,10 +16,10 @@ for item in lines2:
     arr = item.split(',')
     list2.append(arr)
 
-intersection = [arr1 for arr1 in list1 for arr2 in list2 if arr1[1] == arr2[0] and "ember-" not in arr1[0]]
+intersection = [arr1 for arr1 in list1 for arr2 in list2 if arr1[1] == arr2[0]]
 print(len(intersection))
 
-collection_file = open("./Logs/rerun_test_coverage_2020.txt", "a")
+collection_file = open("./Logs/target_100000_packages_github.txt", "a")
 for item in intersection:
     line = ",".join(item) + "\n"
     collection_file.writelines(line)

@@ -1,4 +1,4 @@
 import pandas as pd
 
-dataframe = pd.read_csv('./Logs/repo_100000_potential_runnable.txt')
-dataframe.to_csv('./Csvs/repo_100000_potential_runnable.csv', index = None)
+dataframe = pd.read_csv('./Logs/target_100000_141_packages_withgithub.txt')
+dataframe.to_csv('./Csvs/target_100000_141_packages_withgithub.csv', index = None)
