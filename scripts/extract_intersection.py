@@ -3,7 +3,7 @@ with open(filePath1) as f:
     lines1 = f.read().splitlines()
 print(len(lines1))
 
-filePath2 = f'./Logs/rerun_test_1000_commits_done.txt'
+filePath2 = f'./Logs/temp_test.txt'
 with open(filePath2) as f:
     lines2 = f.read().splitlines()
 print(len(lines2))
@@ -25,7 +25,7 @@ print(len(intersection))
 # intersection = list(set(lines1).difference(lines2))
 # print(len(intersection))
 
-collection_file = open("./Logs/rerun_test_1000_commits_waiting.txt", "a")
+collection_file = open("./Logs/temp_test_intersection.txt", "a")
 for item in intersection:
     line = ",".join(item) + "\n"
     collection_file.writelines(line)

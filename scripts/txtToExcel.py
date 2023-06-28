@@ -1,4 +1,4 @@
 import pandas as pd
 
-dataframe = pd.read_csv('./Logs/rerun_test_1000_commits_done.txt')
-dataframe.to_csv('./Csvs/rerun_test_1000_commits_done.csv', index = None)
+dataframe = pd.read_csv('./Logs/temp_test_intersection.txt')
+dataframe.to_csv('./Csvs/temp_test_intersection.csv', index = None)
