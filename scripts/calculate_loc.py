@@ -8,7 +8,7 @@ with open(filePath) as f:
     lines = f.read().splitlines()
 
 headers = {
-    "Authorization": "Bearer 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"
+    "Authorization": "Bearer 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"
 }
 
 # Regular expression pattern to match comment lines
