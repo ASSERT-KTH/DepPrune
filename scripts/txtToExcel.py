@@ -1,4 +1,9 @@
+import sys
 import pandas as pd
 
-dataframe = pd.read_csv('./Logs/temp_test_intersection.txt')
-dataframe.to_csv('./Csvs/temp_test_intersection.csv', index = None)
+filepath = sys.argv[1]
+txt_path = f'./Logs/{filepath}.txt'
+csv_path = f'./Csvs/{filepath}.csv'
+
+dataframe = pd.read_csv(txt_path)
+dataframe.to_csv(csv_path, index = None)
