@@ -1,30 +1,18 @@
-path='top_target_untested_not_empty.txt'
-
+path='Logs/target_9_packages.txt'
 cat $path | while read rows
 do
-    echo "I am package "$rows
-    echo "I am package "$rows >> /dev/stderr
-    folderPath='VariantsPureDep/'$rows'/variant_deps/'$rows
-    cd $folderPath
+    # echo "I am package "$rows" ....."
+    # python3 collectDependentFiles.py $rows
+    # echo "I am package "$rows" ....." >> /dev/stderr
+    cd Original
+    array=(${rows//,/ })
+    folder=${array[0]}
+    giturl=${array[11]}
+    cd $folder
+    echo "I am package "$folder" ....."
+    git clone $giturl $folder
+    # npm install
+    # cd $folder
+    cd ..
 
-    echo "************************* function based testing begins **************************"
-    echo "************************* function based testing begins **************************" >> /dev/stderr
-    npm run test
-    echo "************************* function based testing ends **************************"
-    echo "************************* function based testing ends **************************" >> /dev/stderr
-
-    cd '../../variant_files/'$rows
-    echo "************************* file based testing begins **************************"
-    echo "************************* file based testing begins **************************" >> /dev/stderr
-    npm run test
-    echo "************************* file based testing ends **************************"
-    echo "************************* file based testing ends **************************" >> /dev/stderr
-    
-    cd '../../variant_deps/'$rows
-    echo "************************* dep based testing begins **************************"
-    echo "************************* dep based testing begins **************************" >> /dev/stderr
-    npm run test
-    echo "************************* dep based testing ends **************************"
-    echo "************************* dep based testing ends **************************" >> /dev/stderr
-    cd ../../../..
 done

@@ -1,6 +1,6 @@
-# path='./Logs/rerun_test_github_test.txt'
-path='./Logs/rerun_test_1000_commits_waiting_copy.txt'
-path_done='./Logs/rerun_test_1000_commits_waiting_done.txt'
+# path='./Logs/target_94_packages.txt'
+# path='./Logs/rerun_test_1000_commits_waiting_copy.txt'
+# path_done='./Logs/rerun_test_1000_commits_waiting_done.txt'
 
 sort "$path" -o "$path"
 sort "$path_done" -o "$path_done"

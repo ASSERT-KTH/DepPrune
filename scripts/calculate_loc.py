@@ -2,13 +2,14 @@ import os
 import re
 import requests
 import subprocess
+import json
 
-filePath = f'./Logs/repo_NodeJS_100000_copy.txt'
+filePath = f'./Logs/target_103_loc.txt'
 with open(filePath) as f:
     lines = f.read().splitlines()
 
 headers = {
-    "Authorization": "Bearer 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"
+    "Authorization": "Bearer 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"
 }
 
 # Regular expression pattern to match comment lines
@@ -22,10 +23,14 @@ def calc_loc(directory):
             if file.endswith((".js", ".ts")):
                 file_path = os.path.join(root, file)
                 with open(file_path, "r") as f:
-                    for line in f:
-                        # Exclude comment lines
-                        if not re.match(comment_pattern, line):
-                            lines_of_code += 1
+                    try:
+                        for line in f:
+                            # Exclude comment lines
+                            if not re.match(comment_pattern, line):
+                                lines_of_code += 1
+                    except:
+                        print("UnicodeDecodeError: invalid start byte")
+
     return lines_of_code
 
 
@@ -44,74 +49,50 @@ def get_commit_status(repoinfo):
                 "last_commit": last_commit
             }
 
-# Print the total lines of code
+def get_direct_deps(json_path):
+    f_package = open(json_path, encoding="utf-8")  
+    packageDict = json.load(f_package)
+    if "dependencies" in packageDict.keys():
+        directDeps = list(packageDict['dependencies'])
+        print('directDeps: ', directDeps)
+        return len(directDeps)
+        # return directDeps
+    return 0
+    # return []
+
+  
 
 
-targetfile = open("Logs/repo_NodeJS_100000_loc.txt", "a")
-targetfile_error = open("Logs/repo_NodeJS_100000_loc_error.txt", "a")
+
+targetfile = open("Logs/target_103_loc_loc.txt", "a")
 for line in lines:
     item = line.split(',')
     folder = item[0]
     repoinfo = item[1]
     
-    git_url = f"https://github.com/{repoinfo}.git"
-
     # Specify the directory containing your JavaScript and TypeScript files
-    directory = f"TestCollection/{folder}"
-    directory_node_modules = f"TestCollection/{folder}/node_modules"
+    # directory = f"Original/{folder}"
+    directory_node_modules = f"Original/{folder}/node_modules"
 
-    commit_status = get_commit_status(repoinfo)
-    print(commit_status["latest_commit_sha"])
-    print(commit_status["last_commit"])
-
-    # Git clone command
-    git_clone_cmd = ["git", "clone", git_url, directory]
-
-    # NPM install command
-    npm_install_cmd = ["npm", "install"]
-
-    # Execute Git clone
-    subprocess.run(git_clone_cmd, check=True)
+    # get git commit information
+    # commit_status = get_commit_status(repoinfo)
 
     # calculate lines of code in the package
-    pac_loc = calc_loc(directory)
-    print("Total lines of code in packages:", pac_loc)
-
-    # Change directory to the cloned repository
-    os.chdir(directory)
-    print(os.getcwd())
-
-    # Execute npm install
-    # rm_lock = ["rm", "-rf", "package-lock.json"]
-    # subprocess.run(rm_lock, check=True)
-
-    try:
-        result = subprocess.run(npm_install_cmd, check=True, capture_output=True, text=True)
-        # Process the result as needed
-    except subprocess.CalledProcessError as e:
-        print(f"Error: {e.returncode}\nOutput: {e.output}")
-        error_text = f'{repoinfo}, Error: {e.returncode}, install error\n'
-        targetfile_error.writelines(error_text)
-
+    # pac_loc = calc_loc(directory)
+    # print("Total lines of code in packages:", pac_loc)
 
     
-    os.chdir("../..")
+    # os.chdir("../..")
     # calculate lines of code in the dependencies
     dep_loc = 0 
-    try:
-        dep_loc = calc_loc(directory_node_modules)
-        print("Total lines of code in dependencies:", dep_loc)
-    except:
-        error_text = f'{repoinfo}, count error\n'
-        targetfile_error.writelines(error_text)
+    dep_loc = calc_loc(directory_node_modules)
+    print("Total lines of code in dependencies:", dep_loc)
 
-    rm_cmd = ["rm", "-rf", directory]
-    print(os.getcwd())
+    # calculate number of direct dependencies
+    package_json_path = f"Original/{folder}/package.json"
+    len_direct = get_direct_deps(package_json_path)
+    print("Number of direct dependencies:", len_direct)
 
-    # Execute the rm -rf command
-    subprocess.run(rm_cmd, check=True)
 
-    text = f'{folder},{repoinfo},{pac_loc},{dep_loc},{item[2]},{item[3]},{commit_status["last_commit"]},{commit_status["latest_commit_sha"]},{item[5]},{item[7]},{item[8]}\n'
+    text = f'{folder},{repoinfo},{item[2]},{dep_loc},{item[3]},{len_direct},{item[4]},{item[5]},{item[6]},{item[7]},{item[8]},{item[9]},{item[10]}\n'
     targetfile.writelines(text)
-
-

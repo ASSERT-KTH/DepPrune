@@ -147,18 +147,21 @@
 # done
 
 # re-calculate total dependencies
-path='top_30_improved.txt'
+path='Logs/target_94_packages.txt'
 cat $path | while read rows
 do
-    echo "I am package "$rows" ....."
+    # echo "I am package "$rows" ....."
     # python3 collectDependentFiles.py $rows
-    echo "I am package "$rows" ....." >> /dev/stderr
-    # cd Data
-    cd VariantsPureDep
-    # array=(${rows//,/ })
-    # folder=${array[0]}
+    # echo "I am package "$rows" ....." >> /dev/stderr
+    cd Original
+    array=(${rows//,/ })
+    folder=${array[0]}
+    # giturl=${array[11]}
+    cd $folder
+    echo "I am package "$folder" ....."
+    # git clone $giturl $folder
+    npm install
     # cd $folder
-    cd $rows
     # cat /dev/null > "Data/"$rows"/"$rows"_bloated_functions.txt"
     # cd mininode_fine
     # echo "I am running "$rows" in mininode_fine"
@@ -169,12 +172,12 @@ do
     # echo "I am running "$rows" in mininode_coarse"
     # echo "I am running "$rows" in mininode_coarse" >> /dev/stderr
     # npm run test
-    cd variant_deps 
-    cd $rows
-    npm run test
+    # cd variant_deps 
+    # cd $rows
+    # npm run test
     # npm list --all --omit=dev --json >> productionDependenciesNew.json
     # python3 ../../collectRepoUrl.py $folder
-    cd ../../../..
+    cd ../..
     # python3 parseJson.py $folder
     # python3 readDepTree.py $rows
     # python3 collectRepoUrl.py $rows
