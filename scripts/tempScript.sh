@@ -147,9 +147,10 @@
 # done
 
 # re-calculate total dependencies
-path='Logs/target_94_packages.txt'
+path='Logs/target_103_packages.txt'
 cat $path | while read rows
 do
+    
     # echo "I am package "$rows" ....."
     # python3 collectDependentFiles.py $rows
     # echo "I am package "$rows" ....." >> /dev/stderr
@@ -158,6 +159,7 @@ do
     folder=${array[0]}
     # giturl=${array[11]}
     cd $folder
+    rm -rf node_modules
     echo "I am package "$folder" ....."
     # git clone $giturl $folder
     npm install

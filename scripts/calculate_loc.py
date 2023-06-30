@@ -4,7 +4,7 @@ import requests
 import subprocess
 import json
 
-filePath = f'./Logs/target_103_loc.txt'
+filePath = f'./Logs/target_103_loc_loc.txt'
 with open(filePath) as f:
     lines = f.read().splitlines()
 
@@ -64,7 +64,7 @@ def get_direct_deps(json_path):
 
 
 
-targetfile = open("Logs/target_103_loc_loc.txt", "a")
+targetfile = open("Logs/target_103_loc_loc_loc.txt", "a")
 for line in lines:
     item = line.split(',')
     folder = item[0]
@@ -88,11 +88,11 @@ for line in lines:
     dep_loc = calc_loc(directory_node_modules)
     print("Total lines of code in dependencies:", dep_loc)
 
-    # calculate number of direct dependencies
-    package_json_path = f"Original/{folder}/package.json"
-    len_direct = get_direct_deps(package_json_path)
-    print("Number of direct dependencies:", len_direct)
+    # # calculate number of direct dependencies
+    # package_json_path = f"Original/{folder}/package.json"
+    # len_direct = get_direct_deps(package_json_path)
+    # print("Number of direct dependencies:", len_direct)
 
 
-    text = f'{folder},{repoinfo},{item[2]},{dep_loc},{item[3]},{len_direct},{item[4]},{item[5]},{item[6]},{item[7]},{item[8]},{item[9]},{item[10]}\n'
+    text = f'{line},{dep_loc}\n'
     targetfile.writelines(text)
