@@ -1,4 +1,4 @@
-path='Logs/target_9_packages.txt'
+path='Logs/target_103_loc_loc_loc.txt'
 cat $path | while read rows
 do
     # echo "I am package "$rows" ....."
@@ -7,12 +7,15 @@ do
     cd Original
     array=(${rows//,/ })
     folder=${array[0]}
-    giturl=${array[11]}
-    cd $folder
+    sha=${array[9]}
+    giturl=${array[12]}
+    
     echo "I am package "$folder" ....."
     git clone $giturl $folder
-    # npm install
+    cd $folder
+    git checkout $sha
+    npm install
     # cd $folder
-    cd ..
+    cd ../..
 
 done

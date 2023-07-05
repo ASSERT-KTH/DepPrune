@@ -173,6 +173,8 @@ else {
                 if (noCG || listedFiles.indexOf(curPath) > -1) { // file is reachable, so only stubify functions
                     console.log("FUNCTION CASE: " + curPath);
                     unusedFunctionsInFile.push(curPath)
+                    var usedFileStr = curPath + '\n'
+                    fs.appendFileSync(`${filename}/used-files.txt`, usedFileStr)
                     // try {
                     //     (0, functionLevelStubs_js_1.functionStubFile)(curPath, process.cwd(), new Map(), functions, removeFuns, uncoveredMode, safeEvalMode, testingMode);
                     // }

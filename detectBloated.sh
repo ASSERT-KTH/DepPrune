@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repoSet.json")
+jsonlist=$(jq -r '.projects' "repos_test.json")
 
 # inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
@@ -9,9 +9,8 @@ do
     }
     repoUrl=$(_jq '.gitURL')
     entryFile=$(_jq '.entryFile')
-    project=$(_jq '.folder')
-    folderPath="Playground/"$(_jq '.folder')
     projectName=$(_jq '.folder')
+    folderPath="Playground/"$(_jq '.folder')
     commit=$(_jq '.commit')
 
     echo $repoUrl 
@@ -56,14 +55,16 @@ do
 
     ./transform.sh $folderPath "dynamic" false
 
-    npm install --save dependency-tree
+    python3 scripts/extract_unreachable_deps.py $projectName 
 
-    node dep-tree.js $folderPath $entryFile
+    # npm install --save dependency-tree
 
-    python3 generate-variant-pureDep.py $projectName
+    node scripts/dep-tree.js $folderPath $entryFile
 
-    node generate-variant-pureDep.js  $folderPath $projectName $repoUrl $commit
+    # python3 generate-variant-pureDep.py $projectName
 
-    python3 cpVariantPath.py $projectName
+    # node generate-variant-pureDep.js  $folderPath $projectName $repoUrl $commit
+
+    # python3 cpVariantPath.py $projectName
     
 done
