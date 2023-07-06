@@ -154,15 +154,15 @@ do
     # echo "I am package "$rows" ....."
     # python3 collectDependentFiles.py $rows
     # echo "I am package "$rows" ....." >> /dev/stderr
-    cd Original
+    # cd Original
     array=(${rows//,/ })
     folder=${array[0]}
     # giturl=${array[11]}
-    cd $folder
-    rm -rf node_modules
+    # cd $folder
+    # rm -rf node_modules
     echo "I am package "$folder" ....."
     # git clone $giturl $folder
-    npm install
+    # npm install
     # cd $folder
     # cat /dev/null > "Data/"$rows"/"$rows"_bloated_functions.txt"
     # cd mininode_fine
@@ -179,8 +179,11 @@ do
     # npm run test
     # npm list --all --omit=dev --json >> productionDependenciesNew.json
     # python3 ../../collectRepoUrl.py $folder
-    cd ../..
-    # python3 parseJson.py $folder
+
+    # cd ../..
+    python3 scripts/calculate_loc1.py $folder
+    # python3 scripts/empty_devDependencies.py $folder
+    
     # python3 readDepTree.py $rows
     # python3 collectRepoUrl.py $rows
     # sh countfunctions.sh $rows
