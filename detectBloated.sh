@@ -19,29 +19,22 @@ do
     echo $projectName 
     echo $commit
 
-    cd Data
-    mkdir $projectName
-    cd ..
 
-    cd VariantsPureDep
-    mkdir $projectName
-    cd ..
-
-    rm -rf $folderPath
+    # rm -rf $folderPath
     
-    git clone $repoUrl $folderPath
+    # git clone $repoUrl $folderPath
 
-    cd $folderPath
+    # cd $folderPath
     
-    git checkout $commit
+    # git checkout $commit
 
-    cd ../..
+    # cd ../..
 
-    ./resetProject.sh $folderPath
+    # ./resetProject.sh $folderPath
 
-    python3 genDepList.py $folderPath "npm install "
+    # python3 genDepList.py $folderPath "npm install "
 
-    python3 genNycRc.py $folderPath "${folderPath}/dep_list.txt" 
+    # python3 genNycRc.py $folderPath "${folderPath}/dep_list.txt" 
     
     cd $folderPath
 
@@ -57,14 +50,6 @@ do
 
     python3 scripts/extract_unreachable_deps.py $projectName 
 
-    # npm install --save dependency-tree
-
     node scripts/dep-tree.js $folderPath $entryFile
-
-    # python3 generate-variant-pureDep.py $projectName
-
-    # node generate-variant-pureDep.js  $folderPath $projectName $repoUrl $commit
-
-    # python3 cpVariantPath.py $projectName
     
 done

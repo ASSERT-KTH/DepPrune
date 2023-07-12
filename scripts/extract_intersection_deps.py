@@ -1,19 +1,22 @@
 
 import sys
 import json
+import os
 
 project = sys.argv[1]
+
+potential_deps_path = f'./Playground/{project}/potential-deps.txt'
+if os.path.exists(potential_deps_path):
+    with open(potential_deps_path) as f:
+        potential_deps = f.read().splitlines()
+    print(len(potential_deps))
+else:
+    sys.exit()
 
 direct_deps_path = f'./Playground/{project}/direct-deps.txt'
 with open(direct_deps_path) as f:
     direct_deps = f.read().splitlines()
 print(len(direct_deps))
-
-potential_deps_path = f'./Playground/{project}/potential-deps.txt'
-with open(potential_deps_path) as f:
-    potential_deps = f.read().splitlines()
-print(len(potential_deps))
-
 
 json_path = f'./Playground/{project}/bloated_deps_physical_level.json'
 f_package = open(json_path, encoding="utf-8")  

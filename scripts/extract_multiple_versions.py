@@ -1,11 +1,15 @@
 import sys
 import json
+import os
 project = sys.argv[1]
 
 
 unused_file_path = f'Playground/{project}/unused-files.txt'
-with open(unused_file_path) as f:
-    unused_lines = f.read().splitlines()
+if os.path.exists(unused_file_path):
+    with open(unused_file_path) as f:
+        unused_lines = f.read().splitlines()
+else:
+    sys.exit()
 
 dependencies = []
 level_dict = {}
