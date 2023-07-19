@@ -160,7 +160,9 @@ do
     # giturl=${array[11]}
     # cd $folder
     # rm -rf node_modules
-    echo "I am package "$folder" ....."
+    # echo "I am package "$folder" ....."
+    # rm -rf "Playground/"$folder"/dependency-tree-list.txt"
+
     # git clone $giturl $folder
     # npm install
     # cd $folder
@@ -181,11 +183,11 @@ do
     # python3 ../../collectRepoUrl.py $folder
 
     # cd ../..
-    python3 scripts/calculate_loc1.py $folder
+    # python3 scripts/calculate_loc1.py $folder
     # python3 scripts/empty_devDependencies.py $folder
     
     # python3 readDepTree.py $rows
-    # python3 collectRepoUrl.py $rows
+    python3 scripts/extract_empty_files.py $folder
     # sh countfunctions.sh $rows
     # sh removefunctions.sh $rows
     # rm -rf "Data/"$rows"/"$rows"_deps_bloated_transitive_level.txt"

@@ -1,17 +1,12 @@
 import requests
 
-# filePath = f'./Logs/repo_commited_in_2023_entry_raw.txt'
-# filePath = f'./Logs/repo_commited_in_2023_100000_entry_raw.txt'
 filePath = f'./Logs/repo_100000_entry_raw.txt'
 with open(filePath) as f:
     lines = f.read().splitlines()
 
-# entry_filePath = f'./Logs/repo_commited_in_2023_valid_entry.txt'
-# entry_filePath = f'./Logs/repo_commited_in_2023_100000_valid_entry.txt'
 entry_filePath = f'./Logs/repo_100000_valid_entry.txt'
 entry_file = open(entry_filePath, 'a')
 
-# entry_file_errorPath = f'./Logs/repo_commited_in_2023_100000_valid_entry_error.txt'
 entry_file_errorPath = f'./Logs/repo_100000_valid_entry_error.txt'
 entry_file_error = open(entry_file_errorPath, 'a')
 

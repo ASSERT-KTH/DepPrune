@@ -2,7 +2,7 @@ import sys
 import os
 project = sys.argv[1]
 
-file_path = f'Playground/{project}/bloated_direct_deps.txt'
+file_path = f'Playground/{project}/potential-deps.txt'
 
 output_path = f'temp_log.txt'
 
@@ -16,4 +16,4 @@ else:
     print(project + " no such file ==============================")
 
 output_file = open(output_path, 'a')    
-output_file.writelines(f"{line_length}\n")
+output_file.writelines(f"{project},{line_length}\n")

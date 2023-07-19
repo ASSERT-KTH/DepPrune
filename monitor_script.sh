@@ -1,6 +1,6 @@
 #!/bin/bash
 
-script_path="scripts/run_test_for_coverage.sh"
+script_path="scripts/tempScript1.sh"
 interval=1200  # 检测间隔时间（秒）
 
 while true; do
@@ -8,7 +8,7 @@ while true; do
     if ! pgrep -f "$script_path" >/dev/null; then
         echo "脚本未运行，重新运行中..."
         # 运行指定脚本
-        bash "$script_path" 2>>top_1000_commits_coverage_error3.log >> top_1000_commits_coverage3.log &
+        bash "$script_path" 2>>test_removals_Error.log >> test_removals.log &
     fi
     sleep "$interval"
 done

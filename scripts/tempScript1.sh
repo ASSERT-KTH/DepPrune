@@ -1,4 +1,4 @@
-path='Logs/target_69_packages_loc.txt'
+path='Logs/target_67_packages_copy.txt'
 cat $path | while read rows
 do
     # echo "I am package "$rows" ....."
@@ -14,6 +14,17 @@ do
     
     echo "I am package "$repo" ....."
     echo "I am package "$repo" ....." >> /dev/stderr
+
+    cd TestCollection
+    git clone $giturl $folder
+    cd $folder
+    git checkout $commit
+    npm install
+    originalsize=$(( $(npm list --all --omit=dev | wc -l) - 2 ))
+    echo "original size: "$originalsize
+    cd ..
+    rm -rf $folder
+    cd ..
 
     file="./Playground/"$folder"/bloated_direct_deps.txt"
 
@@ -34,14 +45,14 @@ do
         cd TestCollection
         cd $folder
         npm install
-        echo $folder","$line",$(( $(npm list --all --omit=dev | wc -l) - 1 ))" >> "../../output_deps_size.txt"
+        echo $originalsize","$folder","$line",$(( $(npm list --all --omit=dev | wc -l) - 2 ))" >> "../../output_deps_size.txt"
         npm run test
         cd ..
         rm -rf $folder
         cd ..
     done
 
-    # echo "$(npm list --all --omit=dev | wc -l)" >> "../../output_deps_size.txt"
+    # echo "$(( $(npm list --all --omit=dev | wc -l) - 2 ))" >> "../../output_deps_size.txt"
     # cd ../..
     # python3 scripts/extract_empty_files.py $folder
     # python3 scripts/remove_duplicates.py "Playground/"$folder"/bloated_deps_physical_level.txt"
