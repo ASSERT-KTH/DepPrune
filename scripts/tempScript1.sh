@@ -1,4 +1,4 @@
-path='Logs/target_67_packages_copy.txt'
+path='Logs/target_70_packages_copy.txt'
 cat $path | while read rows
 do
     # echo "I am package "$rows" ....."
@@ -15,37 +15,57 @@ do
     echo "I am package "$repo" ....."
     echo "I am package "$repo" ....." >> /dev/stderr
 
-    cd TestCollection
-    git clone $giturl $folder
-    cd $folder
-    git checkout $commit
-    npm install
-    originalsize=$(( $(npm list --all --omit=dev | wc -l) - 2 ))
-    echo "original size: "$originalsize
-    cd ..
-    rm -rf $folder
-    cd ..
+    # cd TestCollection
+    # git clone $giturl $folder
+    # cd $folder
+    # git checkout $commit
+    # npm install
+    # originalsize=$(( $(npm list --all --omit=dev | wc -l) - 2 ))
+    # echo "original size: "$originalsize
+    # cd ..
+    # rm -rf $folder
+    # cd ..
 
-    file="./Playground/"$folder"/bloated_direct_deps.txt"
+    file="./Playground/"$folder"/direct_bloated_deps.txt"
 
     mapfile -t lines < "$file"
 
     for line in "${lines[@]}"; do
         echo "$line"
+        array=(${line//__/ })
+        depname=${array[0]}
+        depversion=${array[1]}
+        echo $depname
         # git clone repo to temp folder, remove one direct dependency, run test, log, remove repo
         cd TestCollection
         git clone $giturl $folder
         cd $folder
         git checkout $commit
-        cd ../..
-        pckjson="TestCollection/"$folder"/package.json"
-        echo "Remove dependency "$line" in the package "$folder
-        echo "Remove dependency "$line" in the package "$folder >> /dev/stderr
-        python3 scripts/remove_one_dependency.py $pckjson $line
-        cd TestCollection
-        cd $folder
+        cp "../../Playground/"$folder"/package-lock.json" ./package-lock.json
+        echo "Before removing dependency "$depname" in the package "$folder
+        echo "Before removing dependency "$depname" in the package "$folder >> /dev/stderr
         npm install
-        echo $originalsize","$folder","$line",$(( $(npm list --all --omit=dev | wc -l) - 2 ))" >> "../../output_deps_size.txt"
+         
+        npm list --all --omit=dev > npm_list_output_before.txt
+        grep -v "deduped" npm_list_output_before.txt > npm_list_filtered_output_before.txt
+        resultbefore=$(($(wc -l < npm_list_filtered_output_before.txt) - 2))
+
+        echo "Result of deps size of "$depname","$folder" before is "$resultbefore
+        echo "Result of deps size of "$depname","$folder" before is "$resultbefore >> /dev/stderr
+        
+        # python3 scripts/calc_code_size.py $folder True
+        
+        npm uninstall $depname $depversion
+        
+        npm list --all --omit=dev > npm_list_output_after.txt
+        grep -v "deduped" npm_list_output_after.txt > npm_list_filtered_output_after.txt
+        resultafter=$(($(wc -l < npm_list_filtered_output_after.txt) - 2))
+        echo "After removing dependency "$line" in the package "$folder
+        echo "After removing dependency "$line" in the package "$folder >> /dev/stderr
+        echo "Result of deps size of "$depname","$folder" after is "$resultafter
+        echo "Result of deps size of "$depname","$folder" after is "$resultafter >> /dev/stderr
+
+        # python3 scripts/calc_code_size.py $folder False
         npm run test
         cd ..
         rm -rf $folder

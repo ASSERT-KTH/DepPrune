@@ -5,6 +5,18 @@ import re
 
 project = sys.argv[1]
 
+# input: 
+# used-files.txt
+# unused-files.txt
+# package.json
+
+# output:
+# direct-deps.txt
+# reachable-deps.txt
+# unused-deps.txt
+# potential-deps.txt
+# value_map.json
+
 used_file_path = f'Playground/{project}/used-files.txt'
 with open(used_file_path) as f:
     used_lines = f.read().splitlines()
@@ -122,7 +134,7 @@ def build_value(file_path):
         dep_path = client_path + "/node_modules/" + dep_name
 
 
-    if dep_name in direct_deps:
+    if dep_name in direct_deps and client_path == "":
         is_direct = True
     else:
         is_direct = False
