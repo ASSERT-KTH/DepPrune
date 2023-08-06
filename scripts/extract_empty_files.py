@@ -4,7 +4,7 @@ project = sys.argv[1]
 
 # file_path = f'Playground/{project}/potential-deps.txt'
 # file_path = f'Playground/{project}/direct_bloated_deps.txt'
-file_path = f'Playground/{project}/package-lock.json'
+file_path = f'Playground/{project}/original_npm_list_filtered.txt'
 output_path = f'temp_log.txt'
 
 # line_length = 0

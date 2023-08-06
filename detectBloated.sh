@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repos_test_copy.json")
+jsonlist=$(jq -r '.projects' "repos_copy.json")
 
 # inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
@@ -14,7 +14,7 @@ do
     commit=$(_jq '.commit')
 
     # echo $repoUrl 
-    echo $folderPath 
+    # echo $folderPath 
 
     # rm -rf $folderPath
     # rm -rf "${folderPath}/dep_list.txt"
@@ -47,7 +47,7 @@ do
 
     # python3 genNycRc.py $folderPath "${folderPath}/dep_list.txt" 
     
-    cd $folderPath
+    # cd $folderPath
 
     # echo "Start Generating test coverage report..."
 
@@ -68,13 +68,14 @@ do
     # npm list --all --omit=dev > npm_list_output.txt
     # grep -v "deduped" npm_list_output.txt > original_npm_list_filtered.txt
     # rm -rf npm_list_output.txt
-    cd ../..
+    # cd ../..
 
     # python3 scripts/calc_depth_dep_tree.py $projectName
     # python3 scripts/extract_empty_files.py $projectName
     # python3 scripts/build_deps_versions.py $projectName
     # python3 scripts/build_direct_bloated.py $projectName
     # python3 scripts/calculate_code_size.py $projectName
+    python3 scripts/calculate_symbolic_size.py $projectName
 
     # node scripts/dep-tree.js $folderPath $entryFile
     

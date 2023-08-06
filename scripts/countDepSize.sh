@@ -44,7 +44,7 @@ do
         
         # python3 scripts/calc_code_size.py $folder True
         
-        npm uninstall $depname $depversion
+        npm uninstall $depname
         
         echo "After removing dep "$line" in the package "$folder
         echo "After removing dep "$line" in the package "$folder >> /dev/stderr
