@@ -1,4 +1,3 @@
-# filePath1 = f'./Logs/target_103_loc_loc.txt'
 filePath1 = f'./Logs/target_103_loc_loc.txt'
 with open(filePath1) as f:
     lines1 = f.read().splitlines()

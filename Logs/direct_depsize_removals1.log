@@ -1056,18 +1056,29 @@ Deps size of gulp-babel__generator-bitch after removal is 467
 
   generate a scaffolding
     pure javascript
-[?25h[?25h[?25h[?25h      ✓ pug, sass
-[?25h[?25h[?25h[?25h      ✓ pug, less
-[?25h[?25h[?25h[?25h      ✓ pug, stylus
-[?25h[?25h[?25h[?25h      ✓ ejs, sass
-[?25h[?25h[?25h[?25h      ✓ ejs, less
-[?25h[?25h[?25h[?25h      ✓ ejs, stylus
-[?25h[?25h[?25h[?25h      ✓ html, sass
-[?25h[?25h[?25h[?25h      ✓ html, less
-[?25h[?25h[?25h[?25h      ✓ html, stylus
+[?25h[?25h[?25h[?25h
+      ✓ pug, sass
+[?25h[?25h[?25h[?25h
+      ✓ pug, less
+[?25h[?25h[?25h[?25h
+      ✓ pug, stylus
+[?25h[?25h[?25h[?25h
+      ✓ ejs, sass
+[?25h[?25h[?25h[?25h
+      ✓ ejs, less
+[?25h[?25h[?25h[?25h
+      ✓ ejs, stylus
+[?25h[?25h[?25h[?25h
+      ✓ html, sass
+[?25h[?25h[?25h[?25h
+      ✓ html, less
+[?25h[?25h[?25h[?25h
+      ✓ html, stylus
     angular
-[?25h[?25h[?25h[?25h[?25h[?25h      ✓ uiRouter
-[?25h[?25h[?25h[?25h[?25h[?25h      ✓ ngRoute
+[?25h[?25h[?25h[?25h[?25h[?25h
+      ✓ uiRouter
+[?25h[?25h[?25h[?25h[?25h[?25h
+      ✓ ngRoute
 
 
   11 passing (759ms)
@@ -3807,21 +3818,27 @@ Deps size of wiredep__generator-angular-eggs after removal is 856
 
   bootstrap
     general
-      1) "before all" hook
+
+      1) "before all" hook
     without Sass
-      2) "before all" hook
+
+      2) "before all" hook
 
   general
-    3) "before all" hook
+
+    3) "before all" hook
 
   sass
-    4) "before all" hook
+
+    4) "before all" hook
 
   test framework
     karma
-      5) "before all" hook
+
+      5) "before all" hook
     jasmine
-      6) "before all" hook
+
+      6) "before all" hook
 
 
   0 passing (40ms)
@@ -4638,89 +4655,168 @@ Deps size of webpack__bsv-mnemonic after removal is 603
 
 
   Mnemonic
-    ✓ should initialize the class
+
+    ✓ should initialize the class
     # Mnemonic
-      ✓ english wordlist is complete
-      ✓ spanish wordlist is complete
-      ✓ japanese wordlist is complete
-      ✓ chinese wordlist is complete
-      ✓ french wordlist is complete
-      ✓ italian wordlist is complete
-      ✓ allows use different phrase lengths
-      ✓ validates a phrase
-      ✓ has a toString method
-      ✓ has a toString method
-      ✓ derives a seed without a passphrase
-      ✓ derives a seed using a passphrase
-      ✓ derives an extended private key (140ms)
-      ✓ Mnemonic.fromSeed should fail with invalid wordlist
-      ✓ Mnemonic.fromSeed should fail with invalid seed
-      ✓ Constructor should fail with invalid seed
-      ✓ should pass test vector for english #0
-      ✓ should pass test vector for english #1
-      ✓ should pass test vector for english #2
-      ✓ should pass test vector for english #3
-      ✓ should pass test vector for english #4
-      ✓ should pass test vector for english #5
-      ✓ should pass test vector for english #6
-      ✓ should pass test vector for english #7
-      ✓ should pass test vector for english #8
-      ✓ should pass test vector for english #9
-      ✓ should pass test vector for english #10
-      ✓ should pass test vector for english #11
-      ✓ should pass test vector for english #12
-      ✓ should pass test vector for english #13
-      ✓ should pass test vector for english #14
-      ✓ should pass test vector for english #15
-      ✓ should pass test vector for english #16
-      ✓ should pass test vector for english #17
-      ✓ should pass test vector for english #18
-      ✓ should pass test vector for english #19
-      ✓ should pass test vector for english #20
-      ✓ should pass test vector for english #21
-      ✓ should pass test vector for english #22
-      ✓ should pass test vector for english #23
-      ✓ should pass test vector for english #24
-      ✓ should pass test vector for japanese #0
-      ✓ should pass test vector for japanese #1
-      ✓ should pass test vector for japanese #2
-      ✓ should pass test vector for japanese #3
-      ✓ should pass test vector for japanese #4
-      ✓ should pass test vector for japanese #5
-      ✓ should pass test vector for japanese #6
-      ✓ should pass test vector for japanese #7
-      ✓ should pass test vector for japanese #8
-      ✓ should pass test vector for japanese #9
-      ✓ should pass test vector for japanese #10
-      ✓ should pass test vector for japanese #11
-      ✓ should pass test vector for japanese #12
-      ✓ should pass test vector for japanese #13
-      ✓ should pass test vector for japanese #14
-      ✓ should pass test vector for japanese #15
-      ✓ should pass test vector for japanese #16
-      ✓ should pass test vector for japanese #17
-      ✓ should pass test vector for japanese #18
-      ✓ should pass test vector for japanese #19
-      ✓ should pass test vector for japanese #20
-      ✓ should pass test vector for japanese #21
-      ✓ should pass test vector for japanese #22
-      ✓ should pass test vector for japanese #23
+
+      ✓ english wordlist is complete
+
+      ✓ spanish wordlist is complete
+
+      ✓ japanese wordlist is complete
+
+      ✓ chinese wordlist is complete
+
+      ✓ french wordlist is complete
+
+      ✓ italian wordlist is complete
+
+      ✓ allows use different phrase lengths
+
+      ✓ validates a phrase
+
+      ✓ has a toString method
+
+      ✓ has a toString method
+
+      ✓ derives a seed without a passphrase
+
+      ✓ derives a seed using a passphrase
+
+      ✓ derives an extended private key (140ms)
+
+      ✓ Mnemonic.fromSeed should fail with invalid wordlist
+
+      ✓ Mnemonic.fromSeed should fail with invalid seed
+
+      ✓ Constructor should fail with invalid seed
+
+      ✓ should pass test vector for english #0
+
+      ✓ should pass test vector for english #1
+
+      ✓ should pass test vector for english #2
+
+      ✓ should pass test vector for english #3
+
+      ✓ should pass test vector for english #4
+
+      ✓ should pass test vector for english #5
+
+      ✓ should pass test vector for english #6
+
+      ✓ should pass test vector for english #7
+
+      ✓ should pass test vector for english #8
+
+      ✓ should pass test vector for english #9
+
+      ✓ should pass test vector for english #10
+
+      ✓ should pass test vector for english #11
+
+      ✓ should pass test vector for english #12
+
+      ✓ should pass test vector for english #13
+
+      ✓ should pass test vector for english #14
+
+      ✓ should pass test vector for english #15
+
+      ✓ should pass test vector for english #16
+
+      ✓ should pass test vector for english #17
+
+      ✓ should pass test vector for english #18
+
+      ✓ should pass test vector for english #19
+
+      ✓ should pass test vector for english #20
+
+      ✓ should pass test vector for english #21
+
+      ✓ should pass test vector for english #22
+
+      ✓ should pass test vector for english #23
+
+      ✓ should pass test vector for english #24
+
+      ✓ should pass test vector for japanese #0
+
+      ✓ should pass test vector for japanese #1
+
+      ✓ should pass test vector for japanese #2
+
+      ✓ should pass test vector for japanese #3
+
+      ✓ should pass test vector for japanese #4
+
+      ✓ should pass test vector for japanese #5
+
+      ✓ should pass test vector for japanese #6
+
+      ✓ should pass test vector for japanese #7
+
+      ✓ should pass test vector for japanese #8
+
+      ✓ should pass test vector for japanese #9
+
+      ✓ should pass test vector for japanese #10
+
+      ✓ should pass test vector for japanese #11
+
+      ✓ should pass test vector for japanese #12
+
+      ✓ should pass test vector for japanese #13
+
+      ✓ should pass test vector for japanese #14
+
+      ✓ should pass test vector for japanese #15
+
+      ✓ should pass test vector for japanese #16
+
+      ✓ should pass test vector for japanese #17
+
+      ✓ should pass test vector for japanese #18
+
+      ✓ should pass test vector for japanese #19
+
+      ✓ should pass test vector for japanese #20
+
+      ✓ should pass test vector for japanese #21
+
+      ✓ should pass test vector for japanese #22
+
+      ✓ should pass test vector for japanese #23
       Constructor
-        ✓ does not require new keyword
-        ✓ should fail with invalid data
-        ✓ should fail with unknown word list
-        ✓ should fail with invalid mnemonic
-        ✓ should fail with invalid ENT
-        ✓ constructor defaults to english worldlist
-        ✓ allow using different worldlists
-        ✓ constructor honor both length and wordlist
-        ✓ constructor should detect standard wordlist
+
+        ✓ does not require new keyword
+
+        ✓ should fail with invalid data
+
+        ✓ should fail with unknown word list
+
+        ✓ should fail with invalid mnemonic
+
+        ✓ should fail with invalid ENT
+
+        ✓ constructor defaults to english worldlist
+
+        ✓ allow using different worldlists
+
+        ✓ constructor honor both length and wordlist
+
+        ✓ constructor should detect standard wordlist
 
   pbkdf2
-    ✓ passes test vector 1
-    ✓ passes test vector 2
-    ✓ passes test vector 3
-    ✓ passes test vector 4
+
+    ✓ passes test vector 1
+
+    ✓ passes test vector 2
+
+    ✓ passes test vector 3
+
+    ✓ passes test vector 4
 
 
   79 passing (827ms)
@@ -4775,89 +4871,168 @@ Deps size of webpack-cli__bsv-mnemonic after removal is 537
 
 
   Mnemonic
-    ✓ should initialize the class
+
+    ✓ should initialize the class
     # Mnemonic
-      ✓ english wordlist is complete
-      ✓ spanish wordlist is complete
-      ✓ japanese wordlist is complete
-      ✓ chinese wordlist is complete
-      ✓ french wordlist is complete
-      ✓ italian wordlist is complete
-      ✓ allows use different phrase lengths
-      ✓ validates a phrase
-      ✓ has a toString method
-      ✓ has a toString method
-      ✓ derives a seed without a passphrase
-      ✓ derives a seed using a passphrase
-      ✓ derives an extended private key (140ms)
-      ✓ Mnemonic.fromSeed should fail with invalid wordlist
-      ✓ Mnemonic.fromSeed should fail with invalid seed
-      ✓ Constructor should fail with invalid seed
-      ✓ should pass test vector for english #0
-      ✓ should pass test vector for english #1
-      ✓ should pass test vector for english #2
-      ✓ should pass test vector for english #3
-      ✓ should pass test vector for english #4
-      ✓ should pass test vector for english #5
-      ✓ should pass test vector for english #6
-      ✓ should pass test vector for english #7
-      ✓ should pass test vector for english #8
-      ✓ should pass test vector for english #9
-      ✓ should pass test vector for english #10
-      ✓ should pass test vector for english #11
-      ✓ should pass test vector for english #12
-      ✓ should pass test vector for english #13
-      ✓ should pass test vector for english #14
-      ✓ should pass test vector for english #15
-      ✓ should pass test vector for english #16
-      ✓ should pass test vector for english #17
-      ✓ should pass test vector for english #18
-      ✓ should pass test vector for english #19
-      ✓ should pass test vector for english #20
-      ✓ should pass test vector for english #21
-      ✓ should pass test vector for english #22
-      ✓ should pass test vector for english #23
-      ✓ should pass test vector for english #24
-      ✓ should pass test vector for japanese #0
-      ✓ should pass test vector for japanese #1
-      ✓ should pass test vector for japanese #2
-      ✓ should pass test vector for japanese #3
-      ✓ should pass test vector for japanese #4
-      ✓ should pass test vector for japanese #5
-      ✓ should pass test vector for japanese #6
-      ✓ should pass test vector for japanese #7
-      ✓ should pass test vector for japanese #8
-      ✓ should pass test vector for japanese #9
-      ✓ should pass test vector for japanese #10
-      ✓ should pass test vector for japanese #11
-      ✓ should pass test vector for japanese #12
-      ✓ should pass test vector for japanese #13
-      ✓ should pass test vector for japanese #14
-      ✓ should pass test vector for japanese #15
-      ✓ should pass test vector for japanese #16
-      ✓ should pass test vector for japanese #17
-      ✓ should pass test vector for japanese #18
-      ✓ should pass test vector for japanese #19
-      ✓ should pass test vector for japanese #20
-      ✓ should pass test vector for japanese #21
-      ✓ should pass test vector for japanese #22
-      ✓ should pass test vector for japanese #23
+
+      ✓ english wordlist is complete
+
+      ✓ spanish wordlist is complete
+
+      ✓ japanese wordlist is complete
+
+      ✓ chinese wordlist is complete
+
+      ✓ french wordlist is complete
+
+      ✓ italian wordlist is complete
+
+      ✓ allows use different phrase lengths
+
+      ✓ validates a phrase
+
+      ✓ has a toString method
+
+      ✓ has a toString method
+
+      ✓ derives a seed without a passphrase
+
+      ✓ derives a seed using a passphrase
+
+      ✓ derives an extended private key (140ms)
+
+      ✓ Mnemonic.fromSeed should fail with invalid wordlist
+
+      ✓ Mnemonic.fromSeed should fail with invalid seed
+
+      ✓ Constructor should fail with invalid seed
+
+      ✓ should pass test vector for english #0
+
+      ✓ should pass test vector for english #1
+
+      ✓ should pass test vector for english #2
+
+      ✓ should pass test vector for english #3
+
+      ✓ should pass test vector for english #4
+
+      ✓ should pass test vector for english #5
+
+      ✓ should pass test vector for english #6
+
+      ✓ should pass test vector for english #7
+
+      ✓ should pass test vector for english #8
+
+      ✓ should pass test vector for english #9
+
+      ✓ should pass test vector for english #10
+
+      ✓ should pass test vector for english #11
+
+      ✓ should pass test vector for english #12
+
+      ✓ should pass test vector for english #13
+
+      ✓ should pass test vector for english #14
+
+      ✓ should pass test vector for english #15
+
+      ✓ should pass test vector for english #16
+
+      ✓ should pass test vector for english #17
+
+      ✓ should pass test vector for english #18
+
+      ✓ should pass test vector for english #19
+
+      ✓ should pass test vector for english #20
+
+      ✓ should pass test vector for english #21
+
+      ✓ should pass test vector for english #22
+
+      ✓ should pass test vector for english #23
+
+      ✓ should pass test vector for english #24
+
+      ✓ should pass test vector for japanese #0
+
+      ✓ should pass test vector for japanese #1
+
+      ✓ should pass test vector for japanese #2
+
+      ✓ should pass test vector for japanese #3
+
+      ✓ should pass test vector for japanese #4
+
+      ✓ should pass test vector for japanese #5
+
+      ✓ should pass test vector for japanese #6
+
+      ✓ should pass test vector for japanese #7
+
+      ✓ should pass test vector for japanese #8
+
+      ✓ should pass test vector for japanese #9
+
+      ✓ should pass test vector for japanese #10
+
+      ✓ should pass test vector for japanese #11
+
+      ✓ should pass test vector for japanese #12
+
+      ✓ should pass test vector for japanese #13
+
+      ✓ should pass test vector for japanese #14
+
+      ✓ should pass test vector for japanese #15
+
+      ✓ should pass test vector for japanese #16
+
+      ✓ should pass test vector for japanese #17
+
+      ✓ should pass test vector for japanese #18
+
+      ✓ should pass test vector for japanese #19
+
+      ✓ should pass test vector for japanese #20
+
+      ✓ should pass test vector for japanese #21
+
+      ✓ should pass test vector for japanese #22
+
+      ✓ should pass test vector for japanese #23
       Constructor
-        ✓ does not require new keyword
-        ✓ should fail with invalid data
-        ✓ should fail with unknown word list
-        ✓ should fail with invalid mnemonic
-        ✓ should fail with invalid ENT
-        ✓ constructor defaults to english worldlist
-        ✓ allow using different worldlists
-        ✓ constructor honor both length and wordlist
-        ✓ constructor should detect standard wordlist
+
+        ✓ does not require new keyword
+
+        ✓ should fail with invalid data
+
+        ✓ should fail with unknown word list
+
+        ✓ should fail with invalid mnemonic
+
+        ✓ should fail with invalid ENT
+
+        ✓ constructor defaults to english worldlist
+
+        ✓ allow using different worldlists
+
+        ✓ constructor honor both length and wordlist
+
+        ✓ constructor should detect standard wordlist
 
   pbkdf2
-    ✓ passes test vector 1
-    ✓ passes test vector 2
-    ✓ passes test vector 3
-    ✓ passes test vector 4
+
+    ✓ passes test vector 1
+
+    ✓ passes test vector 2
+
+    ✓ passes test vector 3
+
+    ✓ passes test vector 4
 
 
   79 passing (827ms)
@@ -23046,75 +23221,140 @@ Deps size of minimist__aliv after removal is 253
 > mocha --reporter list --check-leaks
 
 
-    cli should call the server correctly:   ․ cli should call the server correctly: 2ms
-    events should have the right values for the properties:   ․ events should have the right values for the properties: 0ms
-    file creation should be a function:   ․ file creation should be a function: 0ms
-    file read should return an string:   ․ file read should return an string: 2ms
-    file exists should return false:   ․ file exists should return false: 0ms
-    file exists should return true:   ․ file exists should return true: 0ms
-    index should be the same:   ․ index should be the same: 0ms
-    logger creation should be a function:   ․ logger creation should be a function: 0ms
+    cli should call the server correctly: 
+  ․ cli should call the server correctly: 2ms
+    events should have the right values for the properties: 
+  ․ events should have the right values for the properties: 0ms
+    file creation should be a function: 
+  ․ file creation should be a function: 0ms
+    file read should return an string: 
+  ․ file read should return an string: 2ms
+    file exists should return false: 
+  ․ file exists should return false: 0ms
+    file exists should return true: 
+  ․ file exists should return true: 0ms
+    index should be the same: 
+  ․ index should be the same: 0ms
+    logger creation should be a function: 
+  ․ logger creation should be a function: 0ms
     logger log info(str): [16:49:50] white:something happened
-  ․ logger log info(str): 1ms
-    logger info info(str): [16:49:50]   ․ logger info info(str): 0ms
-    logger warn warn():   ․ logger warn warn(): 0ms
-    logger error error():   ․ logger error error(): 0ms
-    logger logFileEvent should not call it, quiet is set to tru:   ․ logger logFileEvent should not call it, quiet is set to tru: 0ms
-    logger logFileEvent should call it correcly: [16:49:50] [16:49:50] [16:49:50] [16:49:50]   ․ logger logFileEvent should call it correcly: 2ms
-    options should have the right values:   ․ options should have the right values: 0ms
-    server creation should instantiate it correctly:   ․ server creation should instantiate it correctly: 1ms
-    server creation should have root correctly it correctly:   ․ server creation should have root correctly it correctly: 1ms
-    server creation should have root correctly it correctly - deeper pathIndex:   ․ server creation should have root correctly it correctly - deeper pathIndex: 1ms
-    server creation should have root correctly it correctly - user informed the root:   ․ server creation should have root correctly it correctly - user informed the root: 1ms
-    server creation should have rootWatchable correctly - deeper pathIndex:   ․ server creation should have rootWatchable correctly - deeper pathIndex: 1ms
-    server creation should have rootWatchable correctly - user informed the root:   ․ server creation should have rootWatchable correctly - user informed the root: 0ms
-    server creation should switch just a few options:   ․ server creation should switch just a few options: 0ms
-    server creation should overwrite the options with stuff passed in by the CLI - long description:   ․ server creation should overwrite the options with stuff passed in by the CLI - long description: 1ms
-    server creation should overwrite the options with stuff passed in by the CLI - should have an http server:   ․ server creation should overwrite the options with stuff passed in by the CLI - should have an http server: 1ms
-    server creation should overwrite the options with stuff passed in by the CLI - should have an http/2 server:   ․ server creation should overwrite the options with stuff passed in by the CLI - should have an http/2 server: 0ms
-    server creation should overwrite the default options with stuff from .alivrc:   ․ server creation should overwrite the default options with stuff from .alivrc: 2ms
-    server creation should overwrite the default options with stuff from .alivrc using array proxy settings:   ․ server creation should overwrite the default options with stuff from .alivrc using array proxy settings: 1ms
-    server creation should overwrite only a few options with stuff from .alivrc:   ․ server creation should overwrite only a few options with stuff from .alivrc: 2ms
-    server creation should overwrite only a few options with stuff from .alivrc and overwrite it with cliOpts:   ․ server creation should overwrite only a few options with stuff from .alivrc and overwrite it with cliOpts: 1ms
-    server creation should overwrite only a few options with stuff from .alivrc and overwrite it with cliOpts - should keep the only flag the same:   ․ server creation should overwrite only a few options with stuff from .alivrc and overwrite it with cliOpts - should keep the only flag the same: 1ms
-    server creation should overwrite only a few options with stuff from .alivrc and overwrite it with cliOpts (short descriptions) - should keep the only flag the same:   ․ server creation should overwrite only a few options with stuff from .alivrc and overwrite it with cliOpts (short descriptions) - should keep the only flag the same: 1ms
-    server creation should accept "only" as an array - not as glob:   ․ server creation should accept "only" as an array - not as glob: 0ms
-    server creation should accept "only" as an array - already as a glob:   ․ server creation should accept "only" as an array - already as a glob: 0ms
-    server creation should overwrite the options with stuff passed in by the CLI - some short description:   ․ server creation should overwrite the options with stuff passed in by the CLI - some short description: 1ms
-    server creation should overwrite the options with stuff passed in by the CLI - all short description:   ․ server creation should overwrite the options with stuff passed in by the CLI - all short description: 0ms
-    server creation should overwrite the options with stuff passed in by the CLI - all short description - should not add another * to proxyWhen:   ․ server creation should overwrite the options with stuff passed in by the CLI - all short description - should not add another * to proxyWhen: 0ms
+
+  ․ logger log info(str): 1ms
+    logger info info(str): [16:49:50] 
+  ․ logger info info(str): 0ms
+    logger warn warn(): 
+  ․ logger warn warn(): 0ms
+    logger error error(): 
+  ․ logger error error(): 0ms
+    logger logFileEvent should not call it, quiet is set to tru: 
+  ․ logger logFileEvent should not call it, quiet is set to tru: 0ms
+    logger logFileEvent should call it correcly: [16:49:50] [16:49:50] [16:49:50] [16:49:50] 
+  ․ logger logFileEvent should call it correcly: 2ms
+    options should have the right values: 
+  ․ options should have the right values: 0ms
+    server creation should instantiate it correctly: 
+  ․ server creation should instantiate it correctly: 1ms
+    server creation should have root correctly it correctly: 
+  ․ server creation should have root correctly it correctly: 1ms
+    server creation should have root correctly it correctly - deeper pathIndex: 
+  ․ server creation should have root correctly it correctly - deeper pathIndex: 1ms
+    server creation should have root correctly it correctly - user informed the root: 
+  ․ server creation should have root correctly it correctly - user informed the root: 1ms
+    server creation should have rootWatchable correctly - deeper pathIndex: 
+  ․ server creation should have rootWatchable correctly - deeper pathIndex: 1ms
+    server creation should have rootWatchable correctly - user informed the root: 
+  ․ server creation should have rootWatchable correctly - user informed the root: 0ms
+    server creation should switch just a few options: 
+  ․ server creation should switch just a few options: 0ms
+    server creation should overwrite the options with stuff passed in by the CLI - long description: 
+  ․ server creation should overwrite the options with stuff passed in by the CLI - long description: 1ms
+    server creation should overwrite the options with stuff passed in by the CLI - should have an http server: 
+  ․ server creation should overwrite the options with stuff passed in by the CLI - should have an http server: 1ms
+    server creation should overwrite the options with stuff passed in by the CLI - should have an http/2 server: 
+  ․ server creation should overwrite the options with stuff passed in by the CLI - should have an http/2 server: 0ms
+    server creation should overwrite the default options with stuff from .alivrc: 
+  ․ server creation should overwrite the default options with stuff from .alivrc: 2ms
+    server creation should overwrite the default options with stuff from .alivrc using array proxy settings: 
+  ․ server creation should overwrite the default options with stuff from .alivrc using array proxy settings: 1ms
+    server creation should overwrite only a few options with stuff from .alivrc: 
+  ․ server creation should overwrite only a few options with stuff from .alivrc: 2ms
+    server creation should overwrite only a few options with stuff from .alivrc and overwrite it with cliOpts: 
+  ․ server creation should overwrite only a few options with stuff from .alivrc and overwrite it with cliOpts: 1ms
+    server creation should overwrite only a few options with stuff from .alivrc and overwrite it with cliOpts - should keep the only flag the same: 
+  ․ server creation should overwrite only a few options with stuff from .alivrc and overwrite it with cliOpts - should keep the only flag the same: 1ms
+    server creation should overwrite only a few options with stuff from .alivrc and overwrite it with cliOpts (short descriptions) - should keep the only flag the same: 
+  ․ server creation should overwrite only a few options with stuff from .alivrc and overwrite it with cliOpts (short descriptions) - should keep the only flag the same: 1ms
+    server creation should accept "only" as an array - not as glob: 
+  ․ server creation should accept "only" as an array - not as glob: 0ms
+    server creation should accept "only" as an array - already as a glob: 
+  ․ server creation should accept "only" as an array - already as a glob: 0ms
+    server creation should overwrite the options with stuff passed in by the CLI - some short description: 
+  ․ server creation should overwrite the options with stuff passed in by the CLI - some short description: 1ms
+    server creation should overwrite the options with stuff passed in by the CLI - all short description: 
+  ․ server creation should overwrite the options with stuff passed in by the CLI - all short description: 0ms
+    server creation should overwrite the options with stuff passed in by the CLI - all short description - should not add another * to proxyWhen: 
+  ․ server creation should overwrite the options with stuff passed in by the CLI - all short description - should not add another * to proxyWhen: 0ms
     server options should open the browser and use CORS with custom access-control-allow-headers: [16:49:50] http server alive, running on : http://127.0.0.1:1307
-  ․ server options should open the browser and use CORS with custom access-control-allow-headers: 23ms
-    server _sendIndex should call send with the right stuff - should log the warning about base href not existing:   ․ server _sendIndex should call send with the right stuff - should log the warning about base href not existing: 2ms
-    server _sendIndex should call send with the right stuff - should NOT log the warning about base href not existing - base is there:   ․ server _sendIndex should call send with the right stuff - should NOT log the warning about base href not existing - base is there: 2ms
-    server _sendIndex should call send with the right stuff - should NOT log the warning about base href not existing - quiet is set to true:   ․ server _sendIndex should call send with the right stuff - should NOT log the warning about base href not existing - quiet is set to true: 1ms
-    server servers should create the http server correctly:   ․ server servers should create the http server correctly: 1ms
-    server servers should create the ws server correctly:   ․ server servers should create the ws server correctly: 1ms
-    server servers should create the wss server correctly:   ․ server servers should create the wss server correctly: 3ms
-    server servers should create the http2 server correctly:   ․ server servers should create the http2 server correctly: 1ms
-    server proxy listen should call app correctly:   ․ server proxy listen should call app correctly: 1ms
-    server proxy listen should create a proxy server:   ․ server proxy listen should create a proxy server: 1ms
-    server proxy listen should call the proxy callback:   ․ server proxy listen should call the proxy callback: 1ms
-    server _onConnection should call the callback correcly:   ․ server _onConnection should call the callback correcly: 0ms
-    server _clientConnected should call reload, log and close the watch on the files - watch files: [16:49:50]   ․ server _clientConnected should call reload, log and close the watch on the files - watch files: 1ms
-    server _clientConnected should call reload, log and close the watch on the files - doesnt watch files:   ․ server _clientConnected should call reload, log and close the watch on the files - doesnt watch files: 0ms
-    server _clientConnected should call reload, log and close the watch on the files - doesnt watch files - reloadDelay:   ․ server _clientConnected should call reload, log and close the watch on the files - doesnt watch files - reloadDelay: 0ms
-    server reload should call the reload in _ws:   ․ server reload should call the reload in _ws: 1ms
-    server start should call open correctly:   ․ server start should call open correctly: 1ms
-    server start should NOT call open, noBrowser is set to true:   ․ server start should NOT call open, noBrowser is set to true: 1ms
-    server middleware use - sync should add middlewares and run them before calling reload:   ․ server middleware use - sync should add middlewares and run them before calling reload: 1ms
+
+  ․ server options should open the browser and use CORS with custom access-control-allow-headers: 23ms
+    server _sendIndex should call send with the right stuff - should log the warning about base href not existing: 
+  ․ server _sendIndex should call send with the right stuff - should log the warning about base href not existing: 2ms
+    server _sendIndex should call send with the right stuff - should NOT log the warning about base href not existing - base is there: 
+  ․ server _sendIndex should call send with the right stuff - should NOT log the warning about base href not existing - base is there: 2ms
+    server _sendIndex should call send with the right stuff - should NOT log the warning about base href not existing - quiet is set to true: 
+  ․ server _sendIndex should call send with the right stuff - should NOT log the warning about base href not existing - quiet is set to true: 1ms
+    server servers should create the http server correctly: 
+  ․ server servers should create the http server correctly: 1ms
+    server servers should create the ws server correctly: 
+  ․ server servers should create the ws server correctly: 1ms
+    server servers should create the wss server correctly: 
+  ․ server servers should create the wss server correctly: 3ms
+    server servers should create the http2 server correctly: 
+  ․ server servers should create the http2 server correctly: 1ms
+    server proxy listen should call app correctly: 
+  ․ server proxy listen should call app correctly: 1ms
+    server proxy listen should create a proxy server: 
+  ․ server proxy listen should create a proxy server: 1ms
+    server proxy listen should call the proxy callback: 
+  ․ server proxy listen should call the proxy callback: 1ms
+    server _onConnection should call the callback correcly: 
+  ․ server _onConnection should call the callback correcly: 0ms
+    server _clientConnected should call reload, log and close the watch on the files - watch files: [16:49:50] 
+  ․ server _clientConnected should call reload, log and close the watch on the files - watch files: 1ms
+    server _clientConnected should call reload, log and close the watch on the files - doesnt watch files: 
+  ․ server _clientConnected should call reload, log and close the watch on the files - doesnt watch files: 0ms
+    server _clientConnected should call reload, log and close the watch on the files - doesnt watch files - reloadDelay: 
+  ․ server _clientConnected should call reload, log and close the watch on the files - doesnt watch files - reloadDelay: 0ms
+    server reload should call the reload in _ws: 
+  ․ server reload should call the reload in _ws: 1ms
+    server start should call open correctly: 
+  ․ server start should call open correctly: 1ms
+    server start should NOT call open, noBrowser is set to true: 
+  ․ server start should NOT call open, noBrowser is set to true: 1ms
+    server middleware use - sync should add middlewares and run them before calling reload: 
+  ․ server middleware use - sync should add middlewares and run them before calling reload: 1ms
     server middleware use - async should add middlewares and run them before calling reload: [16:49:50] http server alive, running on : http://127.0.0.1:1330
-  ․ server middleware use - async should add middlewares and run them before calling reload: 11ms
+
+  ․ server middleware use - async should add middlewares and run them before calling reload: 11ms
     server middleware use - both sync & async should add middlewares and run them before calling reload: [16:49:50] http server alive, running on : http://127.0.0.1:1331
-  ․ server middleware use - both sync & async should add middlewares and run them before calling reload: 21ms
-    ws creation should be defined:   ․ ws creation should be defined: 0ms
-    ws instance shoud have the right value for idContainer:   ․ ws instance shoud have the right value for idContainer: 0ms
-    ws instance should have the right value for html - not secure:   ․ ws instance should have the right value for html - not secure: 1ms
-    ws instance should have the right value for html - secure:   ․ ws instance should have the right value for html - secure: 0ms
-    ws instance should have httpServer set:   ․ ws instance should have httpServer set: 0ms
-    ws reload should not call reload, socket is closed:   ․ ws reload should not call reload, socket is closed: 0ms
-    ws reload should call reload, socket is open:   ․ ws reload should call reload, socket is open: 0ms
-    ws reload should call reload, all the sockets are open:   ․ ws reload should call reload, all the sockets are open: 0ms
+
+  ․ server middleware use - both sync & async should add middlewares and run them before calling reload: 21ms
+    ws creation should be defined: 
+  ․ ws creation should be defined: 0ms
+    ws instance shoud have the right value for idContainer: 
+  ․ ws instance shoud have the right value for idContainer: 0ms
+    ws instance should have the right value for html - not secure: 
+  ․ ws instance should have the right value for html - not secure: 1ms
+    ws instance should have the right value for html - secure: 
+  ․ ws instance should have the right value for html - secure: 0ms
+    ws instance should have httpServer set: 
+  ․ ws instance should have httpServer set: 0ms
+    ws reload should not call reload, socket is closed: 
+  ․ ws reload should not call reload, socket is closed: 0ms
+    ws reload should call reload, socket is open: 
+  ․ ws reload should call reload, socket is open: 0ms
+    ws reload should call reload, all the sockets are open: 
+  ․ ws reload should call reload, all the sockets are open: 0ms
 
   65 passing (135ms)
 
@@ -23400,15 +23640,19 @@ Deps size of body-parser__elephas after removal is 169
 
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:56:05.817Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/lib/__test__/wsRouter-test.js:16:17)
     at /data/js-variants/multee/TestCollection/elephas/lib/wsRouter.js:9:19
@@ -23426,20 +23670,26 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:56:05.821Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:56:05.825Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/src/__test__/wsRouter-test.js:8:17)
     at /data/js-variants/multee/TestCollection/elephas/src/wsRouter.js:27:9
@@ -23457,9 +23707,11 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:56:05.829Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
 
   12 passing (96ms)
@@ -23538,15 +23790,19 @@ Deps size of compression__elephas after removal is 170
 
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:56:16.208Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/lib/__test__/wsRouter-test.js:16:17)
     at /data/js-variants/multee/TestCollection/elephas/lib/wsRouter.js:9:19
@@ -23564,20 +23820,26 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:56:16.212Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:56:16.216Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/src/__test__/wsRouter-test.js:8:17)
     at /data/js-variants/multee/TestCollection/elephas/src/wsRouter.js:27:9
@@ -23595,9 +23857,11 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:56:16.219Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
 
   12 passing (114ms)
@@ -23676,15 +23940,19 @@ Deps size of connect-redis__elephas after removal is 168
 
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:56:26.568Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/lib/__test__/wsRouter-test.js:16:17)
     at /data/js-variants/multee/TestCollection/elephas/lib/wsRouter.js:9:19
@@ -23702,20 +23970,26 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:56:26.573Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:56:26.578Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/src/__test__/wsRouter-test.js:8:17)
     at /data/js-variants/multee/TestCollection/elephas/src/wsRouter.js:27:9
@@ -23733,9 +24007,11 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:56:26.581Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
 
   12 passing (96ms)
@@ -23814,15 +24090,19 @@ Deps size of connect-timeout__elephas after removal is 171
 
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:56:37.112Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/lib/__test__/wsRouter-test.js:16:17)
     at /data/js-variants/multee/TestCollection/elephas/lib/wsRouter.js:9:19
@@ -23840,20 +24120,26 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:56:37.116Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:56:37.120Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/src/__test__/wsRouter-test.js:8:17)
     at /data/js-variants/multee/TestCollection/elephas/src/wsRouter.js:27:9
@@ -23871,9 +24157,11 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:56:37.124Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
 
   12 passing (96ms)
@@ -23952,15 +24240,19 @@ Deps size of cookie-parser__elephas after removal is 172
 
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:56:47.632Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/lib/__test__/wsRouter-test.js:16:17)
     at /data/js-variants/multee/TestCollection/elephas/lib/wsRouter.js:9:19
@@ -23978,20 +24270,26 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:56:47.636Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:56:47.640Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/src/__test__/wsRouter-test.js:8:17)
     at /data/js-variants/multee/TestCollection/elephas/src/wsRouter.js:27:9
@@ -24009,9 +24307,11 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:56:47.645Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
 
   12 passing (99ms)
@@ -24090,15 +24390,19 @@ Deps size of express__elephas after removal is 154
 
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:56:58.043Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/lib/__test__/wsRouter-test.js:16:17)
     at /data/js-variants/multee/TestCollection/elephas/lib/wsRouter.js:9:19
@@ -24116,20 +24420,26 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:56:58.047Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:56:58.051Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/src/__test__/wsRouter-test.js:8:17)
     at /data/js-variants/multee/TestCollection/elephas/src/wsRouter.js:27:9
@@ -24147,9 +24457,11 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:56:58.055Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
 
   12 passing (95ms)
@@ -24228,15 +24540,19 @@ Deps size of express-flash__elephas after removal is 171
 
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:57:08.798Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/lib/__test__/wsRouter-test.js:16:17)
     at /data/js-variants/multee/TestCollection/elephas/lib/wsRouter.js:9:19
@@ -24254,20 +24570,26 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:57:08.802Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:57:08.808Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/src/__test__/wsRouter-test.js:8:17)
     at /data/js-variants/multee/TestCollection/elephas/src/wsRouter.js:27:9
@@ -24285,9 +24607,11 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:57:08.811Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
 
   12 passing (95ms)
@@ -24366,15 +24690,19 @@ Deps size of express-session__elephas after removal is 168
 
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:57:19.122Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/lib/__test__/wsRouter-test.js:16:17)
     at /data/js-variants/multee/TestCollection/elephas/lib/wsRouter.js:9:19
@@ -24392,20 +24720,26 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:57:19.126Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:57:19.130Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/src/__test__/wsRouter-test.js:8:17)
     at /data/js-variants/multee/TestCollection/elephas/src/wsRouter.js:27:9
@@ -24423,9 +24757,11 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:57:19.133Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
 
   12 passing (97ms)
@@ -24504,15 +24840,19 @@ Deps size of helmet__elephas after removal is 144
 
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:57:29.516Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/lib/__test__/wsRouter-test.js:16:17)
     at /data/js-variants/multee/TestCollection/elephas/lib/wsRouter.js:9:19
@@ -24530,20 +24870,26 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:57:29.522Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:57:29.528Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/src/__test__/wsRouter-test.js:8:17)
     at /data/js-variants/multee/TestCollection/elephas/src/wsRouter.js:27:9
@@ -24561,9 +24907,11 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:57:29.533Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
 
   12 passing (99ms)
@@ -24642,15 +24990,19 @@ Deps size of multer__elephas after removal is 161
 
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:57:39.783Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/lib/__test__/wsRouter-test.js:16:17)
     at /data/js-variants/multee/TestCollection/elephas/lib/wsRouter.js:9:19
@@ -24668,20 +25020,26 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:57:39.787Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:57:39.791Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/src/__test__/wsRouter-test.js:8:17)
     at /data/js-variants/multee/TestCollection/elephas/src/wsRouter.js:27:9
@@ -24699,9 +25057,11 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:57:39.795Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
 
   12 passing (96ms)
@@ -24780,15 +25140,19 @@ Deps size of node-statsd__elephas after removal is 172
 
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:57:50.258Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/lib/__test__/wsRouter-test.js:16:17)
     at /data/js-variants/multee/TestCollection/elephas/lib/wsRouter.js:9:19
@@ -24806,20 +25170,26 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:57:50.263Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:57:50.266Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/src/__test__/wsRouter-test.js:8:17)
     at /data/js-variants/multee/TestCollection/elephas/src/wsRouter.js:27:9
@@ -24837,9 +25207,11 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:57:50.270Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
 
   12 passing (95ms)
@@ -24918,15 +25290,19 @@ Deps size of primus__elephas after removal is 138
 
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:58:00.523Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/lib/__test__/wsRouter-test.js:16:17)
     at /data/js-variants/multee/TestCollection/elephas/lib/wsRouter.js:9:19
@@ -24944,20 +25320,26 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:58:00.527Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:58:00.531Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/src/__test__/wsRouter-test.js:8:17)
     at /data/js-variants/multee/TestCollection/elephas/src/wsRouter.js:27:9
@@ -24975,9 +25357,11 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:58:00.535Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
 
   12 passing (98ms)
@@ -25056,15 +25440,19 @@ Deps size of recursive-readdir__elephas after removal is 169
 
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:58:11.033Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/lib/__test__/wsRouter-test.js:16:17)
     at /data/js-variants/multee/TestCollection/elephas/lib/wsRouter.js:9:19
@@ -25082,20 +25470,26 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:58:11.037Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:58:11.041Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/src/__test__/wsRouter-test.js:8:17)
     at /data/js-variants/multee/TestCollection/elephas/src/wsRouter.js:27:9
@@ -25113,9 +25507,11 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:58:11.045Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
 
   12 passing (96ms)
@@ -25194,15 +25590,19 @@ Deps size of sockjs__elephas after removal is 168
 
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:58:21.509Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/lib/__test__/wsRouter-test.js:16:17)
     at /data/js-variants/multee/TestCollection/elephas/lib/wsRouter.js:9:19
@@ -25220,20 +25620,26 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:58:21.513Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
   client
-    ✓ subscribe to redux store
-    ✓ should dispatch to server and client
+
+    ✓ subscribe to redux store
+
+    ✓ should dispatch to server and client
 
   clientSocket
 2023-07-25T16:58:21.517Z - [90minfo[39m: DISPATCH  --unkown--undefined
-    ✓ should dispatch to the client
+
+    ✓ should dispatch to the client
 
   wsRouter
-    ✓ has no routes by default
+
+    ✓ has no routes by default
 Error: dummy
     at ANOTHER_ACTION (/data/js-variants/multee/TestCollection/elephas/src/__test__/wsRouter-test.js:8:17)
     at /data/js-variants/multee/TestCollection/elephas/src/wsRouter.js:27:9
@@ -25251,9 +25657,11 @@ Error: dummy
     at next (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:284:14)
     at Immediate._onImmediate (/data/js-variants/multee/TestCollection/elephas/node_modules/mocha/lib/runner.js:320:5)
     at processImmediate (node:internal/timers:466:21)
-    ✓ can add websocket routes/action handlers
+
+    ✓ can add websocket routes/action handlers
 2023-07-25T16:58:21.521Z - [90minfo[39m: ACTION MY_TEST_ACTION --unkown--undefined
-    ✓ can route to the correct action
+
+    ✓ can route to the correct action
 
 
   12 passing (96ms)
@@ -29411,7 +29819,8 @@ Deps size of git-remote-protocol__generator-yag-git after removal is 629
 
 
   generator-yag-git:app
-    1) "before all" hook
+
+    1) "before all" hook
 
 
   0 passing (237ms)
