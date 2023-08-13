@@ -40,7 +40,7 @@ do
         echo "Codes size of "$depname"__"$folder" before removal is "$resultbefore
         echo "Codes size of "$depname"__"$folder" before removal is "$resultbefore >> /dev/stderr
                 
-        npm uninstall $depname $depversion
+        npm uninstall $depname
         npm install --omit=dev
 
 

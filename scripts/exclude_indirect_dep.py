@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 
 def find_key_with_version(json_data, target_dep, target_version, key_prefix=""):
     for key, value in json_data.items():
@@ -11,6 +12,16 @@ def find_key_with_version(json_data, target_dep, target_version, key_prefix=""):
             if found_key:
                 return found_key
     return None
+
+def find_keys_with_version(json_data, target_dep, target_version, key_prefix=""):
+    keys_with_version = []
+    for key, value in json_data.items():
+        if key.endswith("/" + target_dep) and isinstance(value, dict) and value.get("version") == target_version:
+            full_key_name = f"{key_prefix}/{key}" if key_prefix else key
+            keys_with_version.append(full_key_name)
+        elif isinstance(value, dict):
+            keys_with_version.extend(find_keys_with_version(value, target_version, key))
+    return keys_with_version
 
 def find_keys_with_root_dependency(json_obj, target_dependency, parent_keys=[]):
     # print(parent_keys)
@@ -76,9 +87,14 @@ def remove_dependency(json_obj, package_name, dependency_name):
             del dependencies[dependency_name]
 
 if __name__ == "__main__":
-    file_path = f"./Playground/aliv/package-lock.json"
-    target_version = "1.2.8"
-    target_dep = "minimist"
+    # file_path = f"../aliv/package-lock.json"
+    # target_version = "2.81.0"
+    # target_dep = "request"
+    target_dep = sys.argv[1]
+    target_version = sys.argv[2]
+    input_path = sys.argv[3]
+
+    file_path = os.path.abspath(input_path)
     # target_version = "3.1.1"
     # target_dep = "readable-stream"
 
@@ -87,44 +103,45 @@ if __name__ == "__main__":
             json_data = json.load(file)
 
         # Find the location of the dependency with the specific version, and get the parant depend
-        matching_key = find_key_with_version(json_data["packages"], target_dep, target_version)
-        substring = "node_modules/" + target_dep
-        parent_key = matching_key[:-len(substring)]
-        print("parent_key: " + parent_key)
-        if matching_key:
-            print(f"Key ending with '{target_dep}' and version '{target_version}':")
-            print("matching_key: " + matching_key)
-        else:
-            print(f"No key found with version '{target_version}' and ending with '{target_dep}'.")
+        matching_keys = find_keys_with_version(json_data["packages"], target_dep, target_version)
+        print(matching_keys)
+        # matching_key = find_key_with_version(json_data["packages"], target_dep, target_version)
+        for matching_key in matching_keys:
+            substring = "node_modules/" + target_dep
+            parent_key = matching_key[:-len(substring)]
+            print("parent_key: " + parent_key)
+            if matching_key:
+                print(f"Key ending with '{target_dep}' and version '{target_version}':")
+                print("matching_key: " + matching_key)
+            else:
+                print(f"No key found with version '{target_version}' and ending with '{target_dep}'.")
 
-        if parent_key == "":
-            # Target dependency is in the root of /node_modules, it is a direct dependency or is depended by some other dependency in the root of /node_modules
-            matching_keys = find_keys_with_root_dependency(json_data["packages"], target_dep, [parent_key])
-            if matching_keys:
-                for key in matching_keys:
-                    if is_key_contains_the_version(json_data, key, target_dep):
-                        print("1. key: " + key)
-                        remove_dependency(json_data, key, target_dep)
-                with open(file_path, 'w') as file:
-                    json.dump(json_data, file, indent=4)     
-        elif parent_key != "":
-            # Target dependency is not in the root of node_modules    
-            # Check from the folder of node_modules/parent_key
-            matching_keys = find_keys_with_root_dependency(json_data["packages"], target_dep, [parent_key])
-            filtered_keys = [item for item in matching_keys if parent_key in item]
-            if filtered_keys:
-                for key in filtered_keys:
-                    extra_version_path = f"{key}/node_modules/{target_dep}"
-                    if extra_version_path not in json_data["packages"]:
-                        print("2. key: " + key)
-                        remove_dependency(json_data, key, target_dep)
+            if parent_key == "":
+                # Target dependency is in the root of /node_modules, it is a direct dependency or is depended by some other dependency in the root of /node_modules
+                matching_keys = find_keys_with_root_dependency(json_data["packages"], target_dep, [parent_key])
+                if matching_keys:
+                    for key in matching_keys:
+                        if is_key_contains_the_version(json_data, key, target_dep):
+                            print("1. key: " + key)
+                            # remove_dependency(json_data, key, target_dep)    
+            elif parent_key != "":
+                # Target dependency is not in the root of node_modules    
+                # Check from the folder of node_modules/parent_key
+                matching_keys = find_keys_with_root_dependency(json_data["packages"], target_dep, [parent_key])
+                filtered_keys = [item for item in matching_keys if parent_key in item]
+                if filtered_keys:
+                    for key in filtered_keys:
+                        extra_version_path = f"{key}/node_modules/{target_dep}"
+                        if extra_version_path not in json_data["packages"]:
+                            print("2. key: " + key)
+                            # remove_dependency(json_data, key, target_dep)
 
-            print("3. key: " + parent_key[:-1])
-            remove_dependency(json_data, parent_key[:-1], target_dep)
-            with open(file_path, 'w') as file:
-                json.dump(json_data, file, indent=4)
-        else:
-            print(f"No keys found with dependency '{target_dep}'.")
-        
+                print("3. key: " + parent_key[:-1])
+                # remove_dependency(json_data, parent_key[:-1], target_dep)
+            else:
+                print(f"No keys found with dependency '{target_dep}'.")
+
+        with open(file_path, 'w') as file:
+            json.dump(json_data, file, indent=4)
     except FileNotFoundError:
         print("File not found.")

@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repos_70.json")
+jsonlist=$(jq -r '.projects' "repos_copy.json")
 
 # inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
@@ -15,7 +15,8 @@ do
     echo "I am package "$repo" ....."
     echo "I am package "$repo" ....." >> /dev/stderr
 
-    file="./Playground/"$folder"/direct_bloated_deps.txt"
+    # file="./Playground/"$folder"/direct_bloated_deps.txt"
+    file="./Playground/"$folder"/indirect_bloated_deps.txt"
 
     mapfile -t lines < "$file"
 
@@ -34,7 +35,7 @@ do
         echo "Before removing dep "$line" in the package "$folder
         echo "Before removing dep "$line" in the package "$folder >> /dev/stderr
         npm install
-         
+        npm list --all --omit=dev
         npm list --all --omit=dev > npm_list_output_before.txt
         grep -v "deduped" npm_list_output_before.txt > npm_list_filtered_output_before.txt
         resultbefore=$(($(wc -l < npm_list_filtered_output_before.txt) - 2))
@@ -42,13 +43,15 @@ do
         echo "Deps size of "$depname"__"$folder" before removal is "$resultbefore
         echo "Deps size of "$depname"__"$folder" before removal is "$resultbefore >> /dev/stderr
         
-        # python3 scripts/calc_code_size.py $folder True
-        
-        npm uninstall $depname
+        # remove a specific dependency with a specific version
+        # npm uninstall $depname
+        rm -rf node_modules/
+        python3 ../../scripts/exclude_indirect_dep.py $depname $depversion ./package-lock.json
+        npm install
         
         echo "After removing dep "$line" in the package "$folder
         echo "After removing dep "$line" in the package "$folder >> /dev/stderr
-
+        npm list --all --omit=dev
         npm list --all --omit=dev > npm_list_output_after.txt
         grep -v "deduped" npm_list_output_after.txt > npm_list_filtered_output_after.txt
         resultafter=$(($(wc -l < npm_list_filtered_output_after.txt) - 2))
@@ -56,7 +59,6 @@ do
         echo "Deps size of "$depname"__"$folder" after removal is "$resultafter
         echo "Deps size of "$depname"__"$folder" after removal is "$resultafter >> /dev/stderr
 
-        # python3 scripts/calc_code_size.py $folder False
         npm run test
         cd ..
         rm -rf $folder
