@@ -1,11 +1,203 @@
 {
   "projects": [
     {
-      "folder": "generator-new-node-module",
-      "repo": "nicomf1982/generator-new-node-module",
-      "commit": "ec47e9ecd376afbd67e6dea5c1bbf38fcb6d2385",
+      "folder": "null-session-npm",
+      "repo": "cedric05/cli",
+      "commit": "54079eadb5ba8f4c7e45c2876ea589e5e4844342",
+      "entryFile": "lib/npm.js",
+      "gitURL": "https://github.com/cedric05/cli.git",
+      "testPassSignal": "4396 passed"
+    },
+    {
+      "folder": "generator-ng-fullstack",
+      "repo": "ericmdantas/generator-ng-fullstack",
+      "commit": "017700e77fc91d03ef647b895a198481286d4ab9",
       "entryFile": "app/index.js",
-      "gitURL": "https://github.com/nicomf1982/generator-new-node-module.git"
+      "gitURL": "https://github.com/ericmdantas/generator-ng-fullstack.git",
+      "testPassSignal": "431 passing"
+    },
+    {
+      "folder": "gulp4",
+      "repo": "gulpjs/gulp",
+      "commit": "85896d4f099a80d58dd08d1f6d80586b07678995",
+      "entryFile": "index.js",
+      "gitURL": "https://github.com/gulpjs/gulp.git",
+      "testPassSignal": "38 passing"
+    },
+    {
+      "folder": "vigour-base",
+      "repo": "vigour-io/base",
+      "commit": "587e9efaf856d9084be976407d420c28295cbdeb",
+      "entryFile": "index.js",
+      "gitURL": "https://github.com/vigour-io/base.git",
+      "testPassSignal": "394 passing"
+    },
+    {
+      "folder": "vigour-state",
+      "repo": "vigour-io/state",
+      "commit": "0060872464ee032127adea19e19f4b92587fe93c",
+      "entryFile": "lib/index.js",
+      "gitURL": "https://github.com/vigour-io/state.git",
+      "testPassSignal": "236 passing"
+    },
+    {
+      "folder": "generator-react-webpack",
+      "repo": "react-webpack-generators/generator-react-webpack",
+      "commit": "9c682541787602290fc6d115d90dbd3386cfda10",
+      "entryFile": "generators/app/index.js",
+      "gitURL": "https://github.com/react-webpack-generators/generator-react-webpack.git",
+      "testPassSignal": "543 passing"
+    },
+    {
+      "folder": "lennon-generator-react-webpack",
+      "repo": "newtriks/generator-react-webpack",
+      "commit": "9c682541787602290fc6d115d90dbd3386cfda10",
+      "entryFile": "generators/app/index.js",
+      "gitURL": "https://github.com/newtriks/generator-react-webpack.git",
+      "testPassSignal": "543 passing"
+    },
+    {
+      "folder": "generator-bitch",
+      "repo": "darlanmendonca/generator-bitch",
+      "commit": "e4cce3142d733f787cc2db6b887d1ebfc654a350",
+      "entryFile": "app/index.js",
+      "gitURL": "https://github.com/darlanmendonca/generator-bitch.git",
+      "testPassSignal": "11 passing"
+    },
+    {
+      "folder": "node-webplay",
+      "repo": "mediagoom/node-play",
+      "commit": "c67b86ca81a191a98ae5573ce870deaf734f4347",
+      "entryFile": "src/server/index.js",
+      "gitURL": "https://github.com/mediagoom/node-play.git",
+      "testPassSignal": "2 passing"
+    },
+    {
+      "folder": "mkroosevelt",
+      "repo": "rooseveltframework/mkroosevelt",
+      "commit": "477df2d85a2d128e41bbdb83edec4789238e10b9",
+      "entryFile": "mkroosevelt.js",
+      "gitURL": "https://github.com/rooseveltframework/mkroosevelt.git",
+      "testPassSignal": "2 passing"
+    },
+    {
+      "folder": "svgfilter",
+      "repo": "papandreou/node-svgfilter",
+      "commit": "76c14fcbc6b1e6cd403583fff414fb04f3847cf8",
+      "entryFile": "lib/SvgFilter.js",
+      "gitURL": "https://github.com/papandreou/node-svgfilter.git",
+      "testPassSignal": "6 passing"
+    },
+    {
+      "folder": "generator-angular-eggs",
+      "repo": "albatrosary/generator-angular-eggs",
+      "commit": "531395c4aa6945c75cf7f76c2a1567f19947de10",
+      "entryFile": "app/index.js",
+      "gitURL": "https://github.com/albatrosary/generator-angular-eggs.git",
+      "testPassSignal": "12 passing"
+    },
+    {
+      "folder": "eslint-config-frost-standard",
+      "repo": "ciena-frost/eslint-config-frost-standard",
+      "commit": "443a04ebfb33c957e8fc14a7fc8960c2747c2e50",
+      "entryFile": "index.js",
+      "gitURL": "https://github.com/ciena-frost/eslint-config-frost-standard.git",
+      "testPassSignal": "30 passing"
+    },
+    {
+      "folder": "generator-ajsweb",
+      "repo": "yadickson/generator-ajsweb",
+      "commit": "63010cecdc2b1301d45d67e2eeeaae774f8b6fd4",
+      "entryFile": "generators/app/index.js",
+      "gitURL": "https://github.com/yadickson/generator-ajsweb.git",
+      "testPassSignal": "78 passing"
+    },
+    {
+      "folder": "generator-ngbp-module",
+      "repo": "jfmbrennan/generator-ngbp-module",
+      "commit": "534d854532c89aa706680d0c2f52464a5653bdbd",
+      "entryFile": "app/index.js",
+      "gitURL": "https://github.com/jfmbrennan/generator-ngbp-module.git",
+      "testPassSignal": "33 passing"
+    },
+    {
+      "folder": "bsv-mnemonic",
+      "repo": "moneybutton/bsv-mnemonic",
+      "commit": "6c73e2a47aba7aad6758aa820c9b59faa47ef0fc",
+      "entryFile": "index.js",
+      "gitURL": "https://github.com/moneybutton/bsv-mnemonic.git",
+      "testPassSignal": "79 passing"
+    },
+    {
+      "folder": "relivestyle",
+      "repo": "alexjeffburke/relivestyle",
+      "commit": "603acf4fc8178e30db677d0b9a8c653072dbeb96",
+      "entryFile": "lib/index.js",
+      "gitURL": "https://github.com/alexjeffburke/relivestyle.git",
+      "testPassSignal": "127 passing"
+    },
+    {
+      "folder": "generator-polymerx",
+      "repo": "polymerx/generator-polymerx",
+      "commit": "3f21b8309e4e035f01bc91d27d0b0371a569490b",
+      "entryFile": "generators/app/index.js",
+      "gitURL": "https://github.com/polymerx/generator-polymerx.git",
+      "testPassSignal": "12 passed"
+    },
+    {
+      "folder": "generator-nude",
+      "repo": "darlanmendonca/generator-nude",
+      "commit": "ea866280c1c7bcb70e823d3324f1da61028212b0",
+      "entryFile": "app/index.js",
+      "gitURL": "https://github.com/darlanmendonca/generator-nude.git",
+      "testPassSignal": "1 passing"
+    },
+    {
+      "folder": "easywebpack-vue-build-script",
+      "repo": "hubcarl/easywebpack-vue",
+      "commit": "b77f5f80615b353279da2d9183b6209b321bda18",
+      "entryFile": "index.js",
+      "gitURL": "https://github.com/hubcarl/easywebpack-vue.git",
+      "testPassSignal": "31 passing"
+    },
+    {
+      "folder": "fastify-axios",
+      "repo": "davidedantonio/fastify-axios",
+      "commit": "695c332cf26103d439cad5fd34a98238c989c05a",
+      "entryFile": "index.js",
+      "gitURL": "https://github.com/davidedantonio/fastify-axios.git"
+    },
+    {
+      "folder": "brisky",
+      "repo": "vigour-io/brisky",
+      "commit": "26113936272fc0e51f896dede83a006d3739fbb6",
+      "entryFile": "index.js",
+      "gitURL": "https://github.com/vigour-io/brisky.git",
+      "testPassSignal": "26 passing"
+    },
+    {
+      "folder": "brisky-class",
+      "repo": "vigour-io/brisky-class",
+      "commit": "bb0e470d8aa5d81a4f12de65aa6dd254113846cd",
+      "entryFile": "index.js",
+      "gitURL": "https://github.com/vigour-io/brisky-class.git",
+      "testPassSignal": "56 passing"
+    },
+    {
+      "folder": "eslint-plugin-ocd",
+      "repo": "ciena-blueplanet/eslint-plugin-ocd",
+      "commit": "d22871dc398a9addd173a1963675c1757ea27384",
+      "entryFile": "index.js",
+      "gitURL": "https://github.com/ciena-blueplanet/eslint-plugin-ocd.git",
+      "testPassSignal": "44 passing"
+    },
+    {
+      "folder": "markdown-resume",
+      "repo": "c0bra/markdown-resume-js",
+      "commit": "d43da4946c45fe3d6898672fe8b61b2d5ccaa8a9",
+      "entryFile": "src/markdown-resume.js",
+      "gitURL": "https://github.com/c0bra/markdown-resume-js.git",
+      "testPassSignal": "4 passing"
     }
   ]
 }

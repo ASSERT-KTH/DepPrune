@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repos_92.json")
+jsonlist=$(jq -r '.projects' "repos_copy.json")
 
 # inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
@@ -76,7 +76,7 @@ do
     # cd ../..
 
     # python3 scripts/calc_depth_dep_tree.py $projectName
-    python3 scripts/extract_empty_files.py $projectName
+    # python3 scripts/extract_empty_files.py $projectName
     # python3 scripts/build_deps_versions.py $projectName
     # python3 scripts/build_direct_bloated.py $projectName
     # python3 scripts/calculate_code_size.py $projectName
@@ -84,6 +84,6 @@ do
     # python3 scripts/extract_indirect_bloated_deps.py $projectName
     # python3 scripts/extract_twosides_deps.py $projectName
     # node scripts/dep-tree.js $folderPath $entryFile
-    # python3 scripts/remove-deps-from-clients.py $projectName
+    python3 scripts/remove-deps-from-clients.py $projectName
     
 done

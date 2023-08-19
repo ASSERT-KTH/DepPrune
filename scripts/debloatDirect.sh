@@ -55,7 +55,7 @@ do
         
         # python3 scripts/calc_code_size.py $folder True
         
-        npm uninstall $depname $depversion
+        npm uninstall $depname
         
         npm list --all --omit=dev > npm_list_output_after.txt
         grep -v "deduped" npm_list_output_after.txt > npm_list_filtered_output_after.txt
