@@ -38,7 +38,11 @@ do
         npm list --all --omit=dev
         npm list --all --omit=dev > npm_list_output_before.txt
         grep -v "deduped" npm_list_output_before.txt > npm_list_filtered_output_before.txt
-        resultbefore=$(($(wc -l < npm_list_filtered_output_before.txt) - 2))
+        resultbefore_temp=$(($(wc -l < npm_list_filtered_output_before.txt) - 2))
+        unmet=$(grep -c "UNMET DEPENDENCY" npm_list_filtered_output_before.txt)
+        resultbefore=$(($resultbefore_temp - $unmet))
+        echo $resultbefore
+
 
         echo "Deps size of "$depname"__"$folder" before removal is "$resultbefore
         echo "Deps size of "$depname"__"$folder" before removal is "$resultbefore >> /dev/stderr
@@ -54,7 +58,9 @@ do
         npm list --all --omit=dev
         npm list --all --omit=dev > npm_list_output_after.txt
         grep -v "deduped" npm_list_output_after.txt > npm_list_filtered_output_after.txt
-        resultafter=$(($(wc -l < npm_list_filtered_output_after.txt) - 2))
+        resultafter_temp=$(($(wc -l < npm_list_filtered_output_after.txt) - 2))
+        unmet2=$(grep -c "UNMET DEPENDENCY" npm_list_filtered_output_after.txt)
+        resultafter=$(($resultafter_temp - $unmet2))
         
         echo "Deps size of "$depname"__"$folder" after removal is "$resultafter
         echo "Deps size of "$depname"__"$folder" after removal is "$resultafter >> /dev/stderr

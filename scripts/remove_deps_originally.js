@@ -46,7 +46,7 @@ function mightBeRemoved(node, astBody, astIndex, inFor) {
     recast.visit(node, {
         visitLiteral: function (node) {
             if (node.value.value == depName) {
-                console.log(`${depName} is removed from the dependent`)
+                console.log(`${depName} is removed from ${folderPath}`)
                 if (inFor) {
                     astBody.splice(astIndex, 1)
                 } else {
@@ -78,7 +78,7 @@ function removeRequirement(node, astBody, index, inFor) {
             } if (value.init && value.init.type && value.init.type == 'MemberExpression') {
                 const callNode = value.init.object
                 if (isRequirementInCallExpression(callNode)) {
-                    console.log('visitMemberExpression')
+                    // console.log('visitMemberExpression')
                     mightBeRemoved(callNode, astBody, index, inFor)
                 }
             }

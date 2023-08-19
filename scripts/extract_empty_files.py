@@ -3,8 +3,8 @@ import os
 project = sys.argv[1]
 
 # file_path = f'Playground/{project}/potential-deps.txt'
-# file_path = f'Playground/{project}/direct_bloated_deps.txt'
-file_path = f'Playground/{project}/dependency-tree.json'
+file_path = f'Playground/{project}/direct_indirect_bloated_deps.txt'
+# file_path = f'Playground/{project}/dependent-files.json'
 output_path = f'temp_log.txt'
 
 line_length = 0

@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repos_copy.json")
+jsonlist=$(jq -r '.projects' "repos_92.json")
 
 # inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
@@ -32,6 +32,11 @@ do
     # rm -rf "${folderPath}/direct_bloated_deps.txt"
     # rm -rf "${folderPath}/original_npm_list_filtered.txt"
     # rm -rf "${folderPath}/dep_versions.json"
+    # rm -rf "${folderPath}/dependent-files.json"
+    # rm -rf "${folderPath}/isolated-deps.txt"
+    # rm -rf "${folderPath}/non-isolated-clients.json"
+    # rm -rf "${folderPath}/non-isolated-deps.txt"
+    
     
     # git clone $repoUrl $folderPath
 
@@ -61,7 +66,7 @@ do
 
     # python3 scripts/extract_unreachable_deps.py $projectName 
 
-    # python3 scripts/extract_intersection_deps.py $projectName 
+    # python3 scripts/extract_intersection.py $projectName 
     # python3 scripts/extract_multiple_versions.py $projectName 
 
     # npm list --all --omit=dev --json > dependency-tree-npm.json
@@ -71,13 +76,14 @@ do
     # cd ../..
 
     # python3 scripts/calc_depth_dep_tree.py $projectName
-    # python3 scripts/extract_empty_files.py $projectName
+    python3 scripts/extract_empty_files.py $projectName
     # python3 scripts/build_deps_versions.py $projectName
     # python3 scripts/build_direct_bloated.py $projectName
     # python3 scripts/calculate_code_size.py $projectName
     # python3 scripts/calculate_symbolic_size.py $projectName
     # python3 scripts/extract_indirect_bloated_deps.py $projectName
     # python3 scripts/extract_twosides_deps.py $projectName
-    node scripts/dep-tree.js $folderPath $entryFile
+    # node scripts/dep-tree.js $folderPath $entryFile
+    # python3 scripts/remove-deps-from-clients.py $projectName
     
 done
