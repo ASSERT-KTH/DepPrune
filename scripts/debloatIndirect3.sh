@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repos_copy_copy.json")
+jsonlist=$(jq -r '.projects' "repos_copy1.json")
 
 # inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
@@ -28,7 +28,7 @@ do
         depversion=${array[1]}
         echo $depname
         # git clone repo to temp folder, remove one direct dependency, run test, log, remove repo
-        cd TestCollection
+        cd TestCollection1
         git clone $repoUrl $projectName
         cd $projectName
         git checkout $commit
@@ -39,9 +39,9 @@ do
         echo "I am running test after removing dep "$line" ....." >> /dev/stderr
         command_output=$(npm run test)
         if [[ $command_output == *$testPassSignal* ]]; then
-            echo $projectName","$line",1" >> ../../test_result_output.txt
+            echo $projectName","$line",1" >> ../../test_result_output1.txt
         else
-            echo $projectName","$line",0" >> ../../test_result_output_error.txt
+            echo $projectName","$line",0" >> ../../test_result_output_error1.txt
         fi
         cd ..
         rm -rf $projectName

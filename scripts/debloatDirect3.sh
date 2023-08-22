@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repos_copy_copy.json")
+jsonlist=$(jq -r '.projects' "repos_copy3.json")
 
 # inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
@@ -12,14 +12,18 @@ do
     commit=$(_jq '.commit')
     testPassSignal=$(_jq '.testPassSignal')
 
-    echo $repoUrl 
     
     echo "I am package "$repoUrl" ....."
-    echo "I am package "$repoUrl" ....." >> /dev/stderr
+    echo $testPassSignal
 
-    file="./Playground/"$projectName"/indirect_bloated_deps.txt"
+    file="./Playground/"$projectName"/direct_bloated_deps.txt"
 
     mapfile -t lines < "$file"
+
+    if [ $lines -eq 0 ]; then
+        echo "No direct bloated deps. Exiting loop."
+        break
+    fi
 
     for line in "${lines[@]}"; do
         echo "$line"
@@ -32,16 +36,17 @@ do
         git clone $repoUrl $projectName
         cd $projectName
         git checkout $commit
-        cp "../../Playground/"$projectName"/package-lock.json" ./package-lock.json
-        # exclude dep from the lock file
-        python3 ../../scripts/remove_indirect_deps.py $projectName $line
+        cp "../../Playground/"$projectName"/package-lock.json" ./
+        npm install
+        echo "Before removing dependency "$depname" in the package "$folder
+        npm uninstall $depname
         echo "I am running test after removing dep "$line" ....."
-        echo "I am running test after removing dep "$line" ....." >> /dev/stderr
-        command_output=$(npm run test)
+        command_output=$(npm run test 2>&1)
+        echo $command_output
         if [[ $command_output == *$testPassSignal* ]]; then
-            echo $projectName","$line",1" >> ../../test_result_output.txt
+            echo $projectName","$line",1" >> ../../test_direct_result_output3.txt
         else
-            echo $projectName","$line",0" >> ../../test_result_output_error.txt
+            echo $projectName","$line",0" >> ../../test_direct_result_output_error3.txt
         fi
         cd ..
         rm -rf $projectName

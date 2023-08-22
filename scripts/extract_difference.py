@@ -1,3 +1,7 @@
+import sys
+import os
+project = sys.argv[1]
+
 # filePathA = f'./Logs/repo_NodeJS_100000.txt'
 # FilePathB = f'./Logs/repo_100000_readme_error.txt'
 
@@ -19,27 +23,46 @@
 # for item in difference:
 #     print(item)
 
-filePath1 = f'./Logs/repo_NodeJS_100000.txt'
+filePath1 = f'./Playground/{project}/total_deps.txt'
 with open(filePath1) as f:
     lines1 = f.read().splitlines()
-
-filePath2 = f'./Logs/repo_100000_readme_error.txt'
-with open(filePath2) as f:
-    lines2 = f.read().splitlines()
-
-list1 = []
+lines1_temp = []
 for item in lines1:
-    arr = item.split(',')
-    list1.append(arr)
+    if "UNMET" not in item:
+        arr = item.rsplit("@", 1)
+        output_str = arr[0] + "__" + arr[1]
+        lines1_temp.append(output_str)
+# The following line is important to filter out the repeatedly installed same dependency.
+lines1_output = list(set(lines1_temp)) 
 
-list2 = []
-for item in lines2:
-    arr = item.split(',')
-    list2.append(arr)
+# print(len(lines1_output))
 
-print(len(difference))
-for item in difference:
-    # line = ",".join(item) + "\n"
-    # collection_file.writelines(line)
-    arr = item.split(',')
-    print(arr[0])
+filePath2 = f'./Playground/{project}/potential-deps.txt'
+# with open(filePath2) as f:
+#     lines2 = f.read().splitlines()
+# print(len(lines2))
+
+filePath3 = f'./Playground/{project}/reachable-deps.txt'
+with open(filePath3) as f:
+    lines3 = f.read().splitlines()
+# print(len(lines3))
+
+# list1 = []
+# for item in lines1:
+#     arr = item.split(',')
+#     list1.append(arr)
+
+# list2 = []
+# for item in lines2:
+#     arr = item.split(',')
+#     list2.append(arr)
+
+intersection = list(set(lines1_output).intersection(lines3))
+difference1 = list(set(lines3) - set(intersection))
+print(len(lines3), len(intersection))
+
+# output_path = f'./Playground/{project}/potential-deps.txt'
+# output_file = open(output_path, "a")
+for item in difference1:
+    print(item)
+    # output_file.writelines(item + '\n')

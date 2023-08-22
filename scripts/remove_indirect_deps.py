@@ -12,7 +12,6 @@ relative_path = f'../../Playground/{project}/non-isolated-clients.json'
 filePath = os.path.abspath(relative_path)
 f_package = open(filePath, encoding="utf-8")  
 clientsDict = json.load(f_package)
-print(clientsDict)
 
 old_path_pre = f"/data/js-variants/multee/Playground/{project}/" 
 new_path_pre = f"/data/js-variants/multee/TestCollection/{project}/"
@@ -42,20 +41,3 @@ if dep in clientsDict:
 
             else:
                 print("JavaScript script returned a non-zero exit code.")
-
-
-# print("I am running test!!! for " + dep)
-# test_passed = "1"
-# test_result = subprocess.run(["npm", "test"], capture_output=True, text=True, shell=True)
-# if test_result.returncode == 0:
-#     print("test result output:")
-#     print(test_result.stdout)
-#     if test_result.stdout != "None":
-#         test_passed = "0"
-
-# else:
-#     test_passed = "0"
-#     print("JavaScript script returned a non-zero exit code.")
-
-# newFile = open(test_output_file, 'a')
-# newFile.writelines(project + "," + dep + "," + test_passed + '\n')

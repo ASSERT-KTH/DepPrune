@@ -1,0 +1,20 @@
+{
+    "projects": [
+        {
+            "folder": "lad",
+            "repo": "ladjs/lad",
+            "commit": "bc0f9722c3dd0af690be8a34e02751ce091a7891",
+            "entryFile": "sao.js",
+            "gitURL": "https://github.com/ladjs/lad.git",
+            "testPassSignal": "6 tests passed"
+        },
+        {
+            "folder": "apc-build",
+            "repo": "APCOvernight/apc-build",
+            "commit": "79273e6e40fe9eff9c22b2316b9476b754da7bd1",
+            "entryFile": "index.js",
+            "gitURL": "https://github.com/APCOvernight/apc-build.git",
+            "testPassSignal": "33 passing"
+        }
+    ]
+}

@@ -55,12 +55,6 @@ for line in potential_deps:
                 print(line + "," + str(len(targetFiles)))
                 non_isolated_json[line] = targetFiles
                 non_isolated_file.writelines(line + "," + str(len(targetFiles))+"\n")
-                
-            # for item in targetFiles:
-            #     targetFile = item.replace(old_path_pre, new_path_pre)
-            #     if os.path.exists(targetFile):
-            #         result = subprocess.run(["node", "scripts/remove_deps_originally.js", targetFile, key])
-            #         # print(result)
 
 with open(client_files_path, 'w') as file:
     json.dump(non_isolated_json, file, indent=4)
