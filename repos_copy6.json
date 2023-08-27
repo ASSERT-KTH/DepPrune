@@ -1,6 +1,30 @@
 {
     "projects": [
         {
+            "folder": "generator-backbone",
+            "repo": "yeoman/generator-backbone",
+            "commit": "bc001b6d5f282c9f5808b815c9d1483a2963fd3c",
+            "entryFile": "generators/app/index.js",
+            "gitURL": "https://github.com/yeoman/generator-backbone.git",
+            "testPassSignal": "31 passing"
+        },
+        {
+            "folder": "gulp-watchify-browserify",
+            "repo": "simbo/gulp-watchify-browserify",
+            "commit": "149bee169c9a104cc641bc0e0eaf5a6aa52f9936",
+            "entryFile": "index.js",
+            "gitURL": "https://github.com/simbo/gulp-watchify-browserify.git",
+            "testPassSignal": "4 passing"
+        },
+        {
+            "folder": "aliv",
+            "repo": "ericmdantas/aliv",
+            "commit": "4a588db311618de0f717477a030ee5d751e42edc",
+            "entryFile": "lib/index.js",
+            "gitURL": "https://github.com/ericmdantas/aliv.git",
+            "testPassSignal": "65 passing"
+        },
+        {
             "folder": "urdubiometerjs",
             "repo": "urdubiometer/urdubiometerjs",
             "commit": "826f8e5698a1fa8bc1cbaee01d781ed7458a2a10",
@@ -73,36 +97,12 @@
             "testPassSignal": "43 passing"
         },
         {
-            "folder": "generator-backbone",
-            "repo": "yeoman/generator-backbone",
-            "commit": "bc001b6d5f282c9f5808b815c9d1483a2963fd3c",
-            "entryFile": "generators/app/index.js",
-            "gitURL": "https://github.com/yeoman/generator-backbone.git",
-            "testPassSignal": "31 passing"
-        },
-        {
-            "folder": "gulp-watchify-browserify",
-            "repo": "simbo/gulp-watchify-browserify",
-            "commit": "149bee169c9a104cc641bc0e0eaf5a6aa52f9936",
-            "entryFile": "index.js",
-            "gitURL": "https://github.com/simbo/gulp-watchify-browserify.git",
-            "testPassSignal": "4 passing"
-        },
-        {
             "folder": "easywebpack-js",
             "repo": "hubcarl/easywebpack-js",
             "commit": "f45f5f03f486e532d1f7b1e480dc374cb567e37a",
             "entryFile": "index.js",
             "gitURL": "https://github.com/hubcarl/easywebpack-js.git",
             "testPassSignal": "2 passing"
-        },
-        {
-            "folder": "aliv",
-            "repo": "ericmdantas/aliv",
-            "commit": "4a588db311618de0f717477a030ee5d751e42edc",
-            "entryFile": "lib/index.js",
-            "gitURL": "https://github.com/ericmdantas/aliv.git",
-            "testPassSignal": "65 passing"
         }
     ]
 }

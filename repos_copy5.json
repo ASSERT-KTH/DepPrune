@@ -1,14 +1,6 @@
 {
     "projects": [
         {
-            "folder": "fastify-axios",
-            "repo": "davidedantonio/fastify-axios",
-            "commit": "695c332cf26103d439cad5fd34a98238c989c05a",
-            "entryFile": "index.js",
-            "gitURL": "https://github.com/davidedantonio/fastify-axios.git",
-            "testPassSignal": "47 passed​"
-        },
-        {
             "folder": "svgo-compress-image",
             "repo": "spidercpsf/svgo",
             "commit": "c3be579af0a07624be6406a5dda5d6853ff83066",
@@ -103,6 +95,14 @@
             "entryFile": "src/index.js",
             "gitURL": "https://github.com/electerious/rosid-handler-js.git",
             "testPassSignal": "27 passing"
+        },
+        {
+            "folder": "fastify-axios",
+            "repo": "davidedantonio/fastify-axios",
+            "commit": "695c332cf26103d439cad5fd34a98238c989c05a",
+            "entryFile": "index.js",
+            "gitURL": "https://github.com/davidedantonio/fastify-axios.git",
+            "testPassSignal": "47 passed​"
         }
     ]
 }

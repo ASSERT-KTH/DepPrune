@@ -1,16 +1,32 @@
 import sys
-project = sys.argv[1]
+# project = sys.argv[1]
 
-filePath1 = f'./Playground/{project}/potential-deps.txt'
+filePath1 = f'./Playground/{project}/reachable-deps.txt'
 with open(filePath1) as f:
     lines1 = f.read().splitlines()
-print(len(lines1))
+# print(len(lines1))
 
-filePath2 = f'./Playground/{project}/direct_bloated_deps.txt'
-with open(filePath2) as f:
-    lines2 = f.read().splitlines()
-print(len(lines2))
-# print(project + "," + str(len(lines2)))
+filePath1 = f'./Playground/{project}/indirect_bloated_deps.txt'
+with open(filePath1) as f:
+    lines1 = f.read().splitlines()
+# print(len(lines1))
+
+# filePath2 = f'./Playground/{project}/isolated-deps_from_total.txt'
+# with open(filePath2) as f:
+#     lines2 = f.read().splitlines()
+# print(len(lines2))
+
+# deduped_deps = []
+# for dep in lines2:
+#     dep_arr = dep.split("__")
+#     deduped_dep = dep_arr[0] + "@" + dep_arr[1] + " deduped"
+#     if deduped_dep in lines1:
+#         deduped_deps.append(dep)
+# print(len(deduped_deps))
+
+# output_deps = list(set(lines1) - set(lines2))
+# print(project + "," + str(len(output_deps)))
+# print(output_deps)
 
 # list1 = []
 # intersection = []
@@ -30,9 +46,8 @@ print(len(lines2))
 intersection = list(set(lines1).intersection(lines2))
 print(project + "," + str(len(intersection)))
 
-
-collection_file = open(f'./Playground/{project}/direct-isolated-deps.txt', "a")
-for item in intersection:
-    # line = ",".join(item)
-    collection_file.writelines(item+"\n")
+# output_file = open(f'./Playground/{project}/isolated_reachable_deps.txt', "a")
+# for item in intersection:
+#     # line = ",".join(item)
+#     output_file.writelines(item+"\n")
     

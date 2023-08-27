@@ -66,19 +66,6 @@ def is_key_contains_the_version(json_data, key, target_dep):
 
     return is_removing
 
-def is_key_contains_the_unroot_version(json_data, key, target_dep):
-    is_removing = True
-    temp_arr = transform_string_to_array(key)
-    # Todo: only consider if current key + "node_modules/{target_dep}" or further has another version
-    output_arr = transform_array_with_string(temp_arr, f"node_modules/{target_dep}")
-    for item in output_arr:
-        if item in json_data["packages"]:
-            # print(key + " has another version of the dependency " + target_dep)
-            is_removing = False
-        # else:
-        #     print(key + " has the version of the dependency " + target_dep)
-    return is_removing
-
 def remove_dependency(json_obj, package_name, dependency_name):
     if package_name in json_obj["packages"] and "dependencies" in json_obj["packages"][package_name]:
         dependencies = json_obj["packages"][package_name]["dependencies"]
@@ -86,26 +73,32 @@ def remove_dependency(json_obj, package_name, dependency_name):
             del dependencies[dependency_name]
 
 if __name__ == "__main__":
-    target_dep = sys.argv[1]
-    target_version = sys.argv[2]
-    project = sys.argv[3]
+    project = sys.argv[1]
+
+    set_path = os.path.abspath(f'../../Playground/{project}/isolated-deps.txt')
+    with open(set_path) as f:
+        isolated_set = f.read().splitlines()
 
     original_lock_path = os.path.abspath(f'../../Playground/{project}/package-lock.json')
-    target_lock_path = os.path.abspath(f'./TestCollection/{project}/package-lock.json')
+    target_lock_path = os.path.abspath(f'../../TestCollection/{project}/package-lock.json')
 
-    parent_deps = []
+    with open(original_lock_path, 'r') as file:
+        json_data = json.load(file)
 
-    try:
-        with open(original_lock_path, 'r') as file:
-            json_data = json.load(file)
+    # Find the location of the dependency with the specific version, and get the parant depend
+    for isolated_dep in isolated_set:
+        dep = isolated_dep.split('__')
+        target_dep = dep[0]
+        target_version = dep[1]
+        print(target_dep, target_version)
+        parent_deps = []
 
-        # Find the location of the dependency with the specific version, and get the parant depend
         matching_keys = find_keys_with_version(json_data["packages"], target_dep, target_version)
         
         for matching_key in matching_keys:
             substring = "node_modules/" + target_dep
             parent_key = matching_key[:-len(substring)]
-           
+            
             if parent_key == "":
                 # Target dependency is in the root of /node_modules, it is a direct dependency or is depended by some other dependency in the root of /node_modules
                 matching_keys = find_keys_with_root_dependency(json_data["packages"], target_dep, [parent_key])
@@ -129,12 +122,10 @@ if __name__ == "__main__":
                             remove_dependency(json_data, key, target_dep)
 
                 # print("3. key: " + parent_key[:-1])
-                parent_deps.append(parent_key[:-1])
+                parent_deps.append(key)
                 remove_dependency(json_data, parent_key[:-1], target_dep)
             else:
                 print(f"No keys found with dependency '{target_dep}'.")
         print(parent_deps)
-        with open(target_lock_path, 'w') as file:
-            json.dump(json_data, file, indent=4)
-    except FileNotFoundError:
-        print("File not found.")
+    with open(target_lock_path, 'w') as file:
+        json.dump(json_data, file, indent=4)

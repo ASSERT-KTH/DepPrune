@@ -23,28 +23,35 @@ project = sys.argv[1]
 # for item in difference:
 #     print(item)
 
-filePath1 = f'./Playground/{project}/total_deps.txt'
-with open(filePath1) as f:
-    lines1 = f.read().splitlines()
-lines1_temp = []
-for item in lines1:
-    if "UNMET" not in item:
-        arr = item.rsplit("@", 1)
-        output_str = arr[0] + "__" + arr[1]
-        lines1_temp.append(output_str)
-# The following line is important to filter out the repeatedly installed same dependency.
-lines1_output = list(set(lines1_temp)) 
+# filePath1 = f'./Playground/{project}/total_deps.txt'
+# with open(filePath1) as f:
+#     lines1 = f.read().splitlines()
+# lines1_temp = []
+# for item in lines1:
+#     if "UNMET" not in item:
+#         arr = item.rsplit("@", 1)
+#         output_str = arr[0] + "__" + arr[1]
+#         lines1_temp.append(output_str)
+# # The following line is important to filter out the repeatedly installed same dependency.
+# lines1_output = list(set(lines1_temp)) 
 
 # print(len(lines1_output))
 
-filePath2 = f'./Playground/{project}/potential-deps.txt'
-# with open(filePath2) as f:
-#     lines2 = f.read().splitlines()
+filePath1 = f'./Playground/{project}/isolated-deps.txt'
+with open(filePath1) as f:
+    lines1 = f.read().splitlines()
+# print(len(lines1))
+
+filePath2 = f'./Playground/{project}/direct-isolated-deps.txt'
+with open(filePath2) as f:
+    lines2 = f.read().splitlines()
 # print(len(lines2))
 
-filePath3 = f'./Playground/{project}/reachable-deps.txt'
-with open(filePath3) as f:
-    lines3 = f.read().splitlines()
+filePath3 = f'./Playground/{project}/direct_indirect_bloated_deps.txt'
+lines3 = []
+if os.path.exists(filePath3):
+    with open(filePath3) as f:
+        lines3 = f.read().splitlines()
 # print(len(lines3))
 
 # list1 = []
@@ -57,12 +64,12 @@ with open(filePath3) as f:
 #     arr = item.split(',')
 #     list2.append(arr)
 
-intersection = list(set(lines1_output).intersection(lines3))
-difference1 = list(set(lines3) - set(intersection))
-print(len(lines3), len(intersection))
+# intersection = list(set(lines1_output).intersection(lines3))
+output = list(set(lines1) - set(lines2)) + lines3
+# print(len(lines3), len(intersection))
 
-# output_path = f'./Playground/{project}/potential-deps.txt'
-# output_file = open(output_path, "a")
-for item in difference1:
-    print(item)
-    # output_file.writelines(item + '\n')
+output_path = f'./Playground/{project}/indirect-isolated-deps.txt'
+output_file = open(output_path, "a")
+for item in output:
+    # print(item)
+    output_file.writelines(item + '\n')

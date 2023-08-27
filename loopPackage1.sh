@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repos_copy.json")
+jsonlist=$(jq -r '.projects' "repos_copy1.json")
 
 # inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
@@ -16,6 +16,6 @@ do
     # echo $repoUrl 
     echo $folderPath 
 
-    node scripts/dep-tree.js $folderPath $entryFile
+    node scripts/dep-tree-total.js $folderPath $entryFile
     
 done

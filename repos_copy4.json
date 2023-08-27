@@ -1,22 +1,6 @@
 {
     "projects": [
         {
-            "folder": "relivestyle",
-            "repo": "alexjeffburke/relivestyle",
-            "commit": "603acf4fc8178e30db677d0b9a8c653072dbeb96",
-            "entryFile": "lib/index.js",
-            "gitURL": "https://github.com/alexjeffburke/relivestyle.git",
-            "testPassSignal": "127 passing"
-        },
-        {
-            "folder": "generator-polymerx",
-            "repo": "polymerx/generator-polymerx",
-            "commit": "3f21b8309e4e035f01bc91d27d0b0371a569490b",
-            "entryFile": "generators/app/index.js",
-            "gitURL": "https://github.com/polymerx/generator-polymerx.git",
-            "testPassSignal": "12 passed"
-        },
-        {
             "folder": "generator-nude",
             "repo": "darlanmendonca/generator-nude",
             "commit": "ea866280c1c7bcb70e823d3324f1da61028212b0",
@@ -111,6 +95,14 @@
             "entryFile": "app/index.es5.js",
             "gitURL": "https://github.com/woliveiras/kibe.git",
             "testPassSignal": "1 passing"
+        },
+        {
+            "folder": "relivestyle",
+            "repo": "alexjeffburke/relivestyle",
+            "commit": "603acf4fc8178e30db677d0b9a8c653072dbeb96",
+            "entryFile": "lib/index.js",
+            "gitURL": "https://github.com/alexjeffburke/relivestyle.git",
+            "testPassSignal": "127 passing"
         }
     ]
 }

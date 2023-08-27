@@ -17,6 +17,7 @@ do
     echo $folderPath 
 
     # rm -rf $folderPath
+    # rm -rf "${folderPath}/npm_list_output.txt"
     # rm -rf "${folderPath}/dep_list.txt"
     # rm -rf "${folderPath}/dependency-tree-list.txt"
     # rm -rf "${folderPath}/dependency-tree-npm.json"
@@ -35,8 +36,12 @@ do
     # rm -rf "${folderPath}/dependent-files.json"
     # rm -rf "${folderPath}/isolated-deps.txt"
     # rm -rf "${folderPath}/non-isolated-clients.json"
+    # rm -rf "${folderPath}/dependent-files-total.json"
     # rm -rf "${folderPath}/non-isolated-deps.txt"
     # rm -rf "${folderPath}/total_deps.txt"
+    # rm -rf "${folderPath}/direct-confirmed-deps.txt"
+    # rm -rf "${folderPath}/indirect-isolated-deps.txt"
+    # rm -rf "${folderPath}/indirect_nonisolated_deps.txt"
     
     
 
@@ -53,11 +58,15 @@ do
     # python3 scripts/extract_duplicates.py $projectName
     # python3 scripts/extract_difference.py $projectName
     # python3 scripts/extract_intersection.py $projectName
-    # python3 scripts/extract_isolated_deps.py $projectName
+    # python3 scripts/extract_isolated_deps_from_total.py $projectName
     # python3 scripts/extract_twosides_deps.py $projectName
+    # node scripts/dep-tree-total.js $folderPath $entryFile
+    # node scripts/dep-tree-list.js $folderPath $entryFile 
 
     # cd $folderPath
+    
     # original=$(($(wc -l < original_npm_list_filtered.txt) - 2))
+    # npm list --all --omit=dev > npm_list_output.txt
     # extraction=$(wc -l < total_deps.txt)
     # unmet=$(grep -c "UNMET" original_npm_list_filtered.txt)
     # difference=$(( $(($original - $unmet)) - $extraction))

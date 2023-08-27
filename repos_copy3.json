@@ -1,38 +1,6 @@
 {
     "projects": [
         {
-            "folder": "generator-bitch",
-            "repo": "darlanmendonca/generator-bitch",
-            "commit": "e4cce3142d733f787cc2db6b887d1ebfc654a350",
-            "entryFile": "app/index.js",
-            "gitURL": "https://github.com/darlanmendonca/generator-bitch.git",
-            "testPassSignal": "11 passing"
-        },
-        {
-            "folder": "node-webplay",
-            "repo": "mediagoom/node-play",
-            "commit": "c67b86ca81a191a98ae5573ce870deaf734f4347",
-            "entryFile": "src/server/index.js",
-            "gitURL": "https://github.com/mediagoom/node-play.git",
-            "testPassSignal": "2 passing"
-        },
-        {
-            "folder": "mkroosevelt",
-            "repo": "rooseveltframework/mkroosevelt",
-            "commit": "477df2d85a2d128e41bbdb83edec4789238e10b9",
-            "entryFile": "mkroosevelt.js",
-            "gitURL": "https://github.com/rooseveltframework/mkroosevelt.git",
-            "testPassSignal": "2 passing"
-        },
-        {
-            "folder": "svgfilter",
-            "repo": "papandreou/node-svgfilter",
-            "commit": "76c14fcbc6b1e6cd403583fff414fb04f3847cf8",
-            "entryFile": "lib/SvgFilter.js",
-            "gitURL": "https://github.com/papandreou/node-svgfilter.git",
-            "testPassSignal": "6 passing"
-        },
-        {
             "folder": "generator-angular-eggs",
             "repo": "albatrosary/generator-angular-eggs",
             "commit": "531395c4aa6945c75cf7f76c2a1567f19947de10",
@@ -103,6 +71,38 @@
             "entryFile": "index.js",
             "gitURL": "https://github.com/hoodiehq/hoodie-server.git",
             "testPassSignal": "90 passing"
+        },
+        {
+            "folder": "generator-bitch",
+            "repo": "darlanmendonca/generator-bitch",
+            "commit": "e4cce3142d733f787cc2db6b887d1ebfc654a350",
+            "entryFile": "app/index.js",
+            "gitURL": "https://github.com/darlanmendonca/generator-bitch.git",
+            "testPassSignal": "11 passing"
+        },
+        {
+            "folder": "node-webplay",
+            "repo": "mediagoom/node-play",
+            "commit": "c67b86ca81a191a98ae5573ce870deaf734f4347",
+            "entryFile": "src/server/index.js",
+            "gitURL": "https://github.com/mediagoom/node-play.git",
+            "testPassSignal": "2 passing"
+        },
+        {
+            "folder": "mkroosevelt",
+            "repo": "rooseveltframework/mkroosevelt",
+            "commit": "477df2d85a2d128e41bbdb83edec4789238e10b9",
+            "entryFile": "mkroosevelt.js",
+            "gitURL": "https://github.com/rooseveltframework/mkroosevelt.git",
+            "testPassSignal": "2 passing"
+        },
+        {
+            "folder": "svgfilter",
+            "repo": "papandreou/node-svgfilter",
+            "commit": "76c14fcbc6b1e6cd403583fff414fb04f3847cf8",
+            "entryFile": "lib/SvgFilter.js",
+            "gitURL": "https://github.com/papandreou/node-svgfilter.git",
+            "testPassSignal": "6 passing"
         }
     ]
 }

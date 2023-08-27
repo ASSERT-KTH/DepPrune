@@ -6,9 +6,7 @@ import subprocess
 project = sys.argv[1]
 dep = sys.argv[2]
 
-test_output_file = f'../../Playground/{project}/indirect_test_output.txt'
-
-relative_path = f'../../Playground/{project}/non-isolated-clients.json'
+relative_path = f'../../Playground/{project}/non-isolated-clients_from_total.json'
 filePath = os.path.abspath(relative_path)
 f_package = open(filePath, encoding="utf-8")  
 clientsDict = json.load(f_package)
@@ -22,7 +20,7 @@ depName = depInfo[0]
 depVersion = depInfo[1]
 
 # exclude the dep from package-lock.json
-result = subprocess.run(["python3", os.path.abspath("../../scripts/exclude_indirect_dep.py"), depName, depVersion, project], stdout=subprocess.PIPE, text=True)
+result = subprocess.run(["python3", os.path.abspath("../../scripts/"), depName, depVersion, project], stdout=subprocess.PIPE, text=True)
 # build the package with a modified lock file
 subprocess.run(["npm", "install"], check=True)
 
