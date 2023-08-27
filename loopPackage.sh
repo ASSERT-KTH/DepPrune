@@ -72,5 +72,11 @@ do
     # difference=$(( $(($original - $unmet)) - $extraction))
     # echo $difference
     # cd ../..
+
+    cd LockFiles
+    mkdir $projectName
+    cd $projectName
+    cp "../../${folderPath}/package-lock.json" ./
+    cd ../..
     
 done
