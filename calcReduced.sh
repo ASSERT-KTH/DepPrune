@@ -42,17 +42,17 @@ do
     # echo $projectName" resultbefore: "$resultbefore >> /dev/stderr
 
     
-    # if [ -f $direct_confirmed_file ]; then
-    #     echo $projectName" direct confirmed exists"
-    #     mapfile -t direct_lines < "$direct_confirmed_file"
-    #     for direct in "${direct_lines[@]}"; do
-    #         # echo "npm uninstall $direct"
-    #         di_array=(${direct//__/ })
-    #         depname=${di_array[0]}
-    #         depversion=${di_array[1]}
-    #         npm uninstall $depname
-    #     done
-    # fi
+    if [ -f $direct_confirmed_file ]; then
+        echo $projectName" direct confirmed exists"
+        mapfile -t direct_lines < "$direct_confirmed_file"
+        for direct in "${direct_lines[@]}"; do
+            # echo "npm uninstall $direct"
+            di_array=(${direct//__/ })
+            depname=${di_array[0]}
+            depversion=${di_array[1]}
+            npm uninstall $depname
+        done
+    fi
 
     # echo "Run test after removing direct deps in the package "$projectName
     # echo "Run test after removing direct deps in the package "$projectName >> /dev/stderr
@@ -89,7 +89,7 @@ do
     echo $projectName" resultafter: "$resultafter >> /dev/stderr
 
     cd ..
-    rm -rf $projectName
+    # rm -rf $projectName
     cd ..
 
 done
