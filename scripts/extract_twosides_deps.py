@@ -3,30 +3,42 @@ import os
 
 project = sys.argv[1]
 
-file_path1 = f'./Playground/{project}/potential-deps.txt'
-with open(file_path1) as f:
-    lines1 = f.read().splitlines()
+lines1 = []
+file_path1 = f'./Playground/{project}/direct_confirmed_deps.txt'
+if os.path.exists(file_path1):
+    with open(file_path1) as f:
+        lines1 = f.read().splitlines()
 
-file_path2 = f'./Playground/{project}/reachable-deps.txt'
+
+file_path2 = f'./Playground/{project}/indirect_confirmed_deps.txt'
 with open(file_path2) as f:
     lines2 = f.read().splitlines()
 
-list1 = []
-for item in lines1:
-    arr = item.split('__')
-    if arr[0] not in list1:
-        list1.append(arr[0])
+total_confirmed_deps = list(set(lines1).union(set(lines2)))
+# print(len(total_confirmed_deps))
 
-list2 = []
-for item in lines2:
-    arr = item.split('__')
-    if arr[0] not in list2:
-        list2.append(arr[0])
+file_path3 = f'./Playground/{project}/reachable-deps.txt'
+with open(file_path3) as f:
+    lines3 = f.read().splitlines()
+# print(len(lines3))
 
-intersection = list(set(list1).intersection(set(list2)))
+
+reachable = []
+for item in total_confirmed_deps:
+    arr = item.split('__')
+    if arr[0] not in reachable:
+        reachable.append(arr[0])
+
+confirmed = []
+for item in lines3:
+    arr = item.split('__')
+    if arr[0] not in confirmed:
+        confirmed.append(arr[0])
+
+intersection = list(set(reachable).intersection(set(confirmed)))
 print(project + "," + str(len(intersection)))
 
-output_path = f'./Playground/{project}/twosides-deps.txt'
+output_path = f'./Playground/{project}/reachable_confirmed_deps.txt'
 collection_file = open(output_path, "a")
 for item in intersection:
     # line = ",".join(item)

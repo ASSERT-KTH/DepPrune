@@ -24,10 +24,8 @@ def find_keys_with_version(json_data, target_dep, target_version, key_prefix="")
     return keys_with_version
 
 def find_keys_with_root_dependency(json_obj, target_dependency, parent_keys=[]):
-    # print(parent_keys)
     matching_keys = []
     if isinstance(json_obj, dict):
-        # print(parent_keys)
         if "dependencies" in json_obj and "dev" not in json_obj and target_dependency in json_obj["dependencies"]:
             matching_keys.append(".".join(parent_keys[1:]))
 
@@ -80,7 +78,7 @@ def is_key_contains_the_unroot_version(json_data, key, target_dep):
     return is_removing
 
 def remove_dependency(json_obj, package_name, dependency_name):
-    if package_name in json_obj["packages"] and "dependencies" in json_obj["packages"][package_name]:
+    if package_name in json_obj["packages"] and "dependencies" in json_obj["packages"][package_name] and "dev" not in json_obj["packages"][package_name]:
         dependencies = json_obj["packages"][package_name]["dependencies"]
         if dependency_name in dependencies:
             del dependencies[dependency_name]
@@ -90,18 +88,18 @@ if __name__ == "__main__":
     target_version = sys.argv[2]
     project = sys.argv[3]
 
-    original_lock_path = os.path.abspath(f'../../Playground/{project}/package-lock.json')
-    target_lock_path = os.path.abspath(f'./TestCollection/{project}/package-lock.json')
+    # original_lock_path = os.path.abspath(f'../../Playground/{project}/package-lock.json')
+    # target_lock_path = os.path.abspath(f'./Playground/{project}/package-lock.json')
+    target_lock_path = os.path.abspath(f'../../TestCollection/{project}/package-lock.json')
 
     parent_deps = []
 
     try:
-        with open(original_lock_path, 'r') as file:
+        with open(target_lock_path, 'r') as file:
             json_data = json.load(file)
 
         # Find the location of the dependency with the specific version, and get the parant depend
         matching_keys = find_keys_with_version(json_data["packages"], target_dep, target_version)
-        
         for matching_key in matching_keys:
             substring = "node_modules/" + target_dep
             parent_key = matching_key[:-len(substring)]
@@ -118,6 +116,9 @@ if __name__ == "__main__":
             elif parent_key != "":
                 # Target dependency is not in the root of node_modules    
                 # Check from the folder of node_modules/parent_key
+                # Plus, check from the folder of node_modules/parent_key/node_modules/other_packages
+                # For example, for "node_modules/read-pkg/node_modules/parse-json", the parent_key is "node_modules/read-pkg"
+                # check in "node_modules/read-pkg" and check in "node_modules/read-pkg/node_modules/any_other"
                 matching_keys = find_keys_with_root_dependency(json_data["packages"], target_dep, [parent_key])
                 filtered_keys = [item for item in matching_keys if parent_key in item]
                 if filtered_keys:
@@ -128,12 +129,13 @@ if __name__ == "__main__":
                             parent_deps.append(key)
                             remove_dependency(json_data, key, target_dep)
 
-                # print("3. key: " + parent_key[:-1])
-                parent_deps.append(parent_key[:-1])
-                remove_dependency(json_data, parent_key[:-1], target_dep)
+                else:
+                    # print("3. key: " + parent_key[:-1])
+                    parent_deps.append(parent_key[:-1])
+                    remove_dependency(json_data, parent_key[:-1], target_dep)
             else:
                 print(f"No keys found with dependency '{target_dep}'.")
-        print(parent_deps)
+        # print(parent_deps)
         with open(target_lock_path, 'w') as file:
             json.dump(json_data, file, indent=4)
     except FileNotFoundError:

@@ -75,7 +75,7 @@ def remove_dependency(json_obj, package_name, dependency_name):
 if __name__ == "__main__":
     project = sys.argv[1]
 
-    set_path = os.path.abspath(f'../../Playground/{project}/isolated-deps.txt')
+    set_path = os.path.abspath(f'../../Playground/{project}/isolated_passed_deps.txt')
     with open(set_path) as f:
         isolated_set = f.read().splitlines()
 

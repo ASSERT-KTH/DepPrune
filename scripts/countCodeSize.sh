@@ -35,7 +35,7 @@ do
         echo "Before removing dep "$line" in the package "$folder >> /dev/stderr
         npm install --omit=dev
 
-        resultbefore=$(du -sk node_modules | cut -f1)
+        resultbefore=$(du -sm node_modules | cut -f1)
 
         echo "Codes size of "$depname"__"$folder" before removal is "$resultbefore
         echo "Codes size of "$depname"__"$folder" before removal is "$resultbefore >> /dev/stderr
@@ -47,7 +47,7 @@ do
         echo "After removing dep "$line" in the package "$folder
         echo "After removing dep "$line" in the package "$folder >> /dev/stderr
 
-        resultafter=$(du -sk node_modules | cut -f1)       
+        resultafter=$(du -sm node_modules | cut -f1)       
         echo "Codes size of "$depname"__"$folder" after removal is "$resultafter
         echo "Codes size of "$depname"__"$folder" after removal is "$resultafter >> /dev/stderr
 

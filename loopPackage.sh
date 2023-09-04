@@ -42,8 +42,7 @@ do
     # rm -rf "${folderPath}/direct-confirmed-deps.txt"
     # rm -rf "${folderPath}/indirect-isolated-deps.txt"
     # rm -rf "${folderPath}/indirect_nonisolated_deps.txt"
-    
-    
+    # rm -rf "${folderPath}/reachable_confirmed_deps.txt"
 
     # python3 scripts/calc_depth_dep_tree.py $projectName
     python3 scripts/extract_empty_files.py $projectName
@@ -72,11 +71,4 @@ do
     # difference=$(( $(($original - $unmet)) - $extraction))
     # echo $difference
     # cd ../..
-
-    cd LockFiles
-    mkdir $projectName
-    cd $projectName
-    cp "../../${folderPath}/package-lock.json" ./
-    cd ../..
-    
 done

@@ -1,14 +1,20 @@
 import sys
-# project = sys.argv[1]
+import os
 
-filePath1 = f'./Playground/{project}/reachable-deps.txt'
-with open(filePath1) as f:
-    lines1 = f.read().splitlines()
+project = sys.argv[1]
+
+filePath1 = f'./Playground/{project}/direct-confirmed-deps.txt'
+lines1 = []
+if os.path.exists(filePath1):
+    with open(filePath1) as f:
+        lines1 = f.read().splitlines()
 # print(len(lines1))
 
-filePath1 = f'./Playground/{project}/indirect_bloated_deps.txt'
-with open(filePath1) as f:
-    lines1 = f.read().splitlines()
+filePath2 = f'./Playground/{project}/direct_indirect_bloated_deps.txt'
+lines2 = []
+if os.path.exists(filePath2):
+    with open(filePath2) as f:
+        lines2 = f.read().splitlines()
 # print(len(lines1))
 
 # filePath2 = f'./Playground/{project}/isolated-deps_from_total.txt'

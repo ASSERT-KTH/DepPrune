@@ -5,7 +5,7 @@ project = sys.argv[1]
 # file_path = f'Playground/{project}/reachable-deps.txt'
 # file_path = f'Playground/{project}/direct_indirect_bloated_deps.txt'
 # file_path = f'Playground/{project}/dependent-files.json'
-file_path = f'Playground/{project}/indirect-isolated-deps.txt'
+file_path = f'Playground/{project}/reachable_confirmed_deps.txt'
 output_path = f'temp_log.txt'
 
 line_length = 0
