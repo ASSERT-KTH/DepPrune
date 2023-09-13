@@ -37,17 +37,17 @@ project = sys.argv[1]
 
 # print(len(lines1_output))
 
-filePath1 = f'./Playground/{project}/isolated-deps.txt'
+filePath1 = f'./Playground/{project}/total__deps.txt'
 with open(filePath1) as f:
     lines1 = f.read().splitlines()
 # print(len(lines1))
 
-filePath2 = f'./Playground/{project}/direct-isolated-deps.txt'
+filePath2 = f'./Playground/{project}/indirect_confirmed_deps.txt'
 with open(filePath2) as f:
     lines2 = f.read().splitlines()
 # print(len(lines2))
 
-filePath3 = f'./Playground/{project}/direct_indirect_bloated_deps.txt'
+filePath3 = f'./Playground/{project}/direct_confirmed_deps.txt'
 lines3 = []
 if os.path.exists(filePath3):
     with open(filePath3) as f:
@@ -65,10 +65,11 @@ if os.path.exists(filePath3):
 #     list2.append(arr)
 
 # intersection = list(set(lines1_output).intersection(lines3))
-output = list(set(lines1) - set(lines2)) + lines3
+output = list(set(lines1) - set(lines2) - set(lines3))
+print(len(output))
 # print(len(lines3), len(intersection))
 
-output_path = f'./Playground/{project}/indirect-isolated-deps.txt'
+output_path = f'./Playground/{project}/non-bloated_deps.txt'
 output_file = open(output_path, "a")
 for item in output:
     # print(item)

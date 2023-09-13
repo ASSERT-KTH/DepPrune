@@ -14,7 +14,7 @@ do
     commit=$(_jq '.commit')
 
     # echo $repoUrl 
-    echo $folderPath 
+    # echo $folderPath 
 
     # rm -rf $folderPath
     # rm -rf "${folderPath}/npm_list_output.txt"
@@ -59,8 +59,11 @@ do
     # python3 scripts/extract_intersection.py $projectName
     # python3 scripts/extract_isolated_deps_from_total.py $projectName
     # python3 scripts/extract_twosides_deps.py $projectName
+    # python3 scripts/extract_dep_location.py $projectName
+    # python3 scripts/remove_duplicates.py "${folderPath}/non-bloated_deps_location.txt"
     # node scripts/dep-tree-total.js $folderPath $entryFile
     # node scripts/dep-tree-list.js $folderPath $entryFile 
+    
 
     # cd $folderPath
     

@@ -26,14 +26,14 @@ do
     git checkout $commit
     cp "../../Playground/"$projectName"/package-lock.json" ./
 
-    npm install
-    npm list --all --omit=dev > npm_list_output_before.txt
-    grep -v "deduped" npm_list_output_before.txt > npm_list_filtered_output_before.txt
-    resultbefore_temp=$(($(wc -l < npm_list_filtered_output_before.txt) - 2))
-    unmet=$(grep -c "UNMET" npm_list_filtered_output_before.txt)
-    resultbefore=$(($resultbefore_temp - $unmet))
-    echo $projectName" resultbefore: "$resultbefore
-    echo $projectName" resultbefore: "$resultbefore >> /dev/stderr
+    # npm install
+    # npm list --all --omit=dev > npm_list_output_before.txt
+    # grep -v "deduped" npm_list_output_before.txt > npm_list_filtered_output_before.txt
+    # resultbefore_temp=$(($(wc -l < npm_list_filtered_output_before.txt) - 2))
+    # unmet=$(grep -c "UNMET" npm_list_filtered_output_before.txt)
+    # resultbefore=$(($resultbefore_temp - $unmet))
+    # echo $projectName" resultbefore: "$resultbefore
+    # echo $projectName" resultbefore: "$resultbefore >> /dev/stderr
 
 
     # npm install --omit=dev
@@ -70,23 +70,23 @@ do
     done
 
     rm -rf node_modules
-    # npm install --omit=dev
-    # resultafter=$(du -sk node_modules | cut -f1)
-    # echo $projectName" resultafter: "$resultafter
-    # echo $projectName" resultafter: "$resultafter >> /dev/stderr
-    
-    npm install
-    echo "Run test after removing indirect deps in the package "$projectName
-    echo "Run test after removing indirect deps in the package "$projectName >> /dev/stderr
-    npm run test
-
-    npm list --all --omit=dev > npm_list_output_after.txt
-    grep -v "deduped" npm_list_output_after.txt > npm_list_filtered_output_after.txt
-    resultafter_temp=$(($(wc -l < npm_list_filtered_output_after.txt) - 2))
-    unmet2=$(grep -c "UNMET" npm_list_filtered_output_after.txt)
-    resultafter=$(($resultafter_temp - $unmet2))
+    npm install --omit=dev
+    resultafter=$(du -sk node_modules | cut -f1)
     echo $projectName" resultafter: "$resultafter
     echo $projectName" resultafter: "$resultafter >> /dev/stderr
+    
+    # npm install
+    # echo "Run test after removing indirect deps in the package "$projectName
+    # echo "Run test after removing indirect deps in the package "$projectName >> /dev/stderr
+    # npm run test
+
+    # npm list --all --omit=dev > npm_list_output_after.txt
+    # grep -v "deduped" npm_list_output_after.txt > npm_list_filtered_output_after.txt
+    # resultafter_temp=$(($(wc -l < npm_list_filtered_output_after.txt) - 2))
+    # unmet2=$(grep -c "UNMET" npm_list_filtered_output_after.txt)
+    # resultafter=$(($resultafter_temp - $unmet2))
+    # echo $projectName" resultafter: "$resultafter
+    # echo $projectName" resultafter: "$resultafter >> /dev/stderr
 
     cd ..
     # rm -rf $projectName

@@ -5,16 +5,16 @@ project = sys.argv[1]
 # file_path = f'Playground/{project}/reachable-deps.txt'
 # file_path = f'Playground/{project}/direct_indirect_bloated_deps.txt'
 # file_path = f'Playground/{project}/dependent-files.json'
-file_path = f'Playground/{project}/reachable_confirmed_deps.txt'
+file_path = f'Playground/{project}/reachable-deps.txt'
 output_path = f'temp_log.txt'
 
 line_length = 0
 if os.path.exists(file_path):
+    print(111)
     with open(file_path, "r") as file:
         for line in file:
             if line.strip():  # Remove leading/trailing whitespace
                 line_length += 1
-
 # if os.path.getsize(file_path) != 0:
 #     with open(file_path, "r") as file:
 #         for line in file:
@@ -22,6 +22,6 @@ if os.path.exists(file_path):
 #                 line_length += 1
 else:
     print(project + " no such file ==============================")
-
+print(line_length)
 output_file = open(output_path, 'a')    
 output_file.writelines(f"{project},{line_length}\n")
