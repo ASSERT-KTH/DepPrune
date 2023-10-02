@@ -20,7 +20,7 @@ for line in lines:
 
 for key, value in pck_dict.items():
     # output_file = open(f'./Playground/{key}/nonisolated_deps_passed.txt', "a")
-    output_file = open(f'./Playground/{key}/indirect_confirmed_deps.txt', "a")
+    output_file = open(f'./Playground/{key}/individual_confirmed_deps.txt', "a")
     for item in value:
         output_file.writelines(item+"\n")
         
