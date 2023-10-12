@@ -24,10 +24,6 @@ for dep in deps:
         if name in key and value.get("version") == version:
             output.append(key)
 
-
-
-
-
 dedup_output = []
 for item in output:
     # print(item)

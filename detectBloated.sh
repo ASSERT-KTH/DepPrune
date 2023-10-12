@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repos_copy.json")
+jsonlist=$(jq -r '.projects' "repos_temp.json")
 
 # inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
@@ -15,28 +15,6 @@ do
 
     # echo $repoUrl 
     echo $folderPath 
-
-    # rm -rf $folderPath
-    # rm -rf "${folderPath}/dep_list.txt"
-    # rm -rf "${folderPath}/dependency-tree-list.txt"
-    # rm -rf "${folderPath}/dependency-tree-npm.json"
-    # rm -rf "${folderPath}/dependency-tree.json"
-    # rm -rf "${folderPath}/direct-deps.txt"
-    # rm -rf "${folderPath}/potential-deps.txt"
-    # rm -rf "${folderPath}/reachable-deps.txt"
-    # rm -rf "${folderPath}/total-files.txt"
-    # rm -rf "${folderPath}/unused-deps.txt"
-    # rm -rf "${folderPath}/unused-files.txt"
-    # rm -rf "${folderPath}/used-files.txt"
-    # rm -rf "${folderPath}/value_map.json"
-    # rm -rf "${folderPath}/direct_bloated_deps.txt"
-    # rm -rf "${folderPath}/original_npm_list_filtered.txt"
-    # rm -rf "${folderPath}/dep_versions.json"
-    # rm -rf "${folderPath}/dependent-files.json"
-    # rm -rf "${folderPath}/isolated-deps.txt"
-    # rm -rf "${folderPath}/non-isolated-clients.json"
-    # rm -rf "${folderPath}/non-isolated-deps.txt"
-    
     
     # git clone $repoUrl $folderPath
 
@@ -44,13 +22,21 @@ do
 
     # git checkout $commit
 
+    # cp "../../LockFiles/${projectName}/package-lock.json" ./
+
+    # npm install
+
+    # npm run test
+
+    # npm list --all --omit=dev > npm_list_output.txt
+    # grep -v "deduped" npm_list_output.txt > original_npm_list_filtered.txt
     # cd ../..
+    
+    # generate the list of dependencies
+    # python3 ./extract_depinfo_from_npm.py $projectName "Playground"
 
-    # ./resetProject.sh $folderPath
-
-    # python3 genDepList.py $folderPath "npm install "
-
-    # python3 genNycRc.py $folderPath "${folderPath}/dep_list.txt" 
+    # generate .nycrc
+    # python3 generate_nycrc.py $folderPath "${folderPath}/total_deps_name.txt" 
     
     # cd $folderPath
 
@@ -60,11 +46,13 @@ do
 
     # cd ../..
 
-    # echo "Start discovering bloated files..."
-
-    # ./transform.sh $folderPath "dynamic" false
-
-    # python3 scripts/extract_unreachable_deps.py $projectName 
+    # echo "Start discovering bloated files and dependencies..."
+    # python3 extract_reachable_files.py $projectName
+    # python3 extract_reachable_deps.py $projectName
+    # python3 extract_direct_deps.py $projectName 
+    # python3 remove_duplicates.py $folderPath"/total_deps.txt"
+    python3 extract_difference.py $projectName "total_deps_deduped.txt" "reachable_deps.txt" "unreachable_deps.txt"
+    python3 extract_intersection.py $projectName "unreachable_deps.txt" "direct_deps.txt" "direct_unreachable.txt"
 
     # python3 scripts/extract_intersection.py $projectName 
     # python3 scripts/extract_multiple_versions.py $projectName 
@@ -81,9 +69,9 @@ do
     # python3 scripts/build_direct_bloated.py $projectName
     # python3 scripts/calculate_code_size.py $projectName
     # python3 scripts/calculate_symbolic_size.py $projectName
-    # python3 scripts/extract_indirect_bloated_deps.py $projectName
+    # python3 scripts/extract_indirect_unreachable_deps.py $projectName
     # python3 scripts/extract_twosides_deps.py $projectName
     # node scripts/dep-tree.js $folderPath $entryFile
-    python3 scripts/remove-deps-from-clients.py $projectName
+    # python3 scripts/remove-deps-from-clients.py $projectName
     
 done
