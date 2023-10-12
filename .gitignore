@@ -10,6 +10,10 @@ codeql-linux64.zip
 logs
 # *.log
 npm-debug.log*
+test_output.txt
+test_output1.txt
+test_output_error.txt
+test_output1_error.txt
 
 # Runtime data
 pids
@@ -44,6 +48,8 @@ Original
 DirectBloated
 Bigdata
 TestCollection
+TestCollectionIndirect
+DebloatedPackages
 Csvs
 irrelative
 Logs

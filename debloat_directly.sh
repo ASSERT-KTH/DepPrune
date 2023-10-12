@@ -56,7 +56,7 @@ do
             echo $projectName","$line",0" >> ../test_output_error1.txt
         fi
         cd ..
-        rm -rf $projectName
+        # rm -rf $projectName
         cd ..
     done
 done

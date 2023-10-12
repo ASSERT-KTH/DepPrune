@@ -31,6 +31,7 @@ do
 
     mapfile -t lines < "$file"
 
+    
     if [ "${#lines[@]}" -eq 0 ]; then
         echo "No direct bloated deps. Exiting loop."
     
@@ -49,7 +50,6 @@ do
         echo "Before removing sets in the package "$projectName" ....."  >> /dev/stderr
         python3 ../../exclude_entire_deps.py $projectName
     fi
-
 
     npm install
 
