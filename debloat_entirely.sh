@@ -1,4 +1,4 @@
-# jsonlist=$(jq -r '.projects' "repos_92.json")
+jsonlist=$(jq -r '.projects' "repos.json")
 # jsonlist=$(jq -r '.projects' "repos_fix.json")
 
 # inside the loop, you cant use the fuction _jq() to get values from each object.

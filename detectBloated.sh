@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repos_temp.json")
+jsonlist=$(jq -r '.projects' "repos.json")
 
 # inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
@@ -16,46 +16,42 @@ do
     # echo $repoUrl 
     echo $folderPath 
     
-    # git clone $repoUrl $folderPath
+    git clone $repoUrl $folderPath
 
-    # cd $folderPath
+    cd $folderPath
 
     # git checkout $commit
 
-    # cp "../../LockFiles/${projectName}/package-lock.json" ./
+    cp "../../LockFiles/${projectName}/package-lock.json" ./
 
-    # npm install
-
+    npm install
     # npm run test
 
-    # npm list --all --omit=dev > npm_list_output.txt
-    # grep -v "deduped" npm_list_output.txt > original_npm_list_filtered.txt
-    # cd ../..
+    npm list --all --omit=dev > npm_list_output.txt
+    grep -v "deduped" npm_list_output.txt > original_npm_list_filtered.txt
+    cd ../..
     
     # generate the list of dependencies
-    # python3 ./extract_depinfo_from_npm.py $projectName "Playground"
+    python3 ./extract_depinfo_from_npm.py $projectName "Playground"
 
     # generate .nycrc
-    # python3 generate_nycrc.py $folderPath "${folderPath}/total_deps_name.txt" 
+    python3 generate_nycrc.py $folderPath "${folderPath}/total_deps_name.txt" 
     
-    # cd $folderPath
+    cd $folderPath
 
-    # echo "Start Generating test coverage report..."
+    echo "Start Generating test coverage report..."
 
-    # nyc npm run test
+    nyc npm run test
 
-    # cd ../..
+    cd ../..
 
-    # echo "Start discovering bloated files and dependencies..."
-    # python3 extract_reachable_files.py $projectName
-    # python3 extract_reachable_deps.py $projectName
-    # python3 extract_direct_deps.py $projectName 
-    # python3 remove_duplicates.py $folderPath"/total_deps.txt"
+    echo "Start discovering bloated files and dependencies..."
+    python3 extract_reachable_files.py $projectName
+    python3 extract_reachable_deps.py $projectName
+    python3 extract_direct_deps.py $projectName 
+    python3 remove_duplicates.py $folderPath"/total_deps.txt"
     python3 extract_difference.py $projectName "total_deps_deduped.txt" "reachable_deps.txt" "unreachable_deps.txt"
     python3 extract_intersection.py $projectName "unreachable_deps.txt" "direct_deps.txt" "direct_unreachable.txt"
-
-    # python3 scripts/extract_intersection.py $projectName 
-    # python3 scripts/extract_multiple_versions.py $projectName 
 
     # npm list --all --omit=dev --json > dependency-tree-npm.json
     # npm list --all --omit=dev > npm_list_output.txt
@@ -63,15 +59,7 @@ do
     # rm -rf npm_list_output.txt
     # cd ../..
 
-    # python3 scripts/calc_depth_dep_tree.py $projectName
-    # python3 scripts/extract_empty_files.py $projectName
     # python3 scripts/build_deps_versions.py $projectName
     # python3 scripts/build_direct_bloated.py $projectName
-    # python3 scripts/calculate_code_size.py $projectName
-    # python3 scripts/calculate_symbolic_size.py $projectName
-    # python3 scripts/extract_indirect_unreachable_deps.py $projectName
-    # python3 scripts/extract_twosides_deps.py $projectName
-    # node scripts/dep-tree.js $folderPath $entryFile
-    # python3 scripts/remove-deps-from-clients.py $projectName
     
 done
