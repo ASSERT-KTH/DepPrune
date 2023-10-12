@@ -7,72 +7,61 @@ Multee is under development.
 ```
 git clone
 
-npm install
-
-npm run build
 ```
 
 ### Enrich the json file
 
-`repoSet.json` is a file with all necessary meta information for one or multiple repos.
+`repo.json` is a file with all necessary meta information for one or multiple repos.
 
 ```
 {
   "projects": [
     {
-      "gitURL": "https://github.com/isaacs/node-glob.git",
-      "entryFile": "glob.js",
-      "folder": "node-glob",
-      "commit": "d844b2c1debfb7a408a8a219aea6cd5c66cfdea4"
+        "folder": "roe-scripts",
+        "repo": "kaelzhang/roe-scripts",
+        "commit": "f9ee9d3af61f6a3c5c779da176e4d0fff1b8a866",
+        "entryFile": "src/index.js",
+        "gitURL": "https://github.com/kaelzhang/roe-scripts.git",
+        "testPassSignal": "50 tests passed",
+        "coverage": "99.53 |    93.84 |   99.23 |   99.51"
     }
   ]
 }
 ```
 
-### Generate variants
+### Detect Unreachalbe dependencies for the repo
 
 ```
-sh readJson.sh
+sh detect_bloated.sh
 ```
 
-### Empty functions
+### Automatically, individually debloat direct dependencies and indirect dependencies.
 
-There are two ways to generate variants by debloating.
-The first way is to "empty" each function in each unused files.
-When we say "empty" a function, it means to replace the whole function body with a short string 'lyx'.
-
+For removing direct dependencies, run the following:
 ```
-sh removefunctions.sh node-glob
+sh debloat_directly.sh
 ```
 
-### Empty files
-
-The second way is to "empty" the whole unused file which still exites but with no content.
-
+For removing direct dependencies, run the following:
 ```
-sh removefiles.sh node-glob
+sh debloat_indirectly.sh
 ```
 
-### Run test for each variant
+Debloating result will be recorded in log. 
+Modify the path of the log in `debloat_directly.sh` or `debloat_indirectly.sh` if necessary.
+
+### Debloat entire dependencies
+
+1. Create two files for each repo, in the foldler of `Playground/repofolder`:
+direct_confirmed_deps.txt, which is used for remove direct dependencies.
+individual_confirmed_deps.txt, which is used for remove indirect dependencies.
+Respectively copy the result of the previous logs with only bloated dependencies that passed the tests.
+
+2. Debloat entirely
+Run the following:
 
 ```
-sh runtest.sh node-glob
+sh debloat_entirely.sh
 ```
-
-### Run test and add logs for errors and commons
-```
-<!-- subtree-based mode -->
-
-sh runtest.sh node-glob Variants 2>>Data/node-glob_errors_func.log  >> Data/node-glob_test_func.log
-sh runtest.sh node-glob Variants 2>>Data/node-glob_errors_files.log  >> Data/node-glob_test_files.log
-
-<!-- or dependency-based mode -->
-
-sh runtest.sh node-glob VariantsDeps 2>>Data/node-glob_deps_errors_func.log  >> Data/node-glob_deps_test_func.log
-sh runtest.sh node-glob VariantsDeps 2>>Data/node-glob_deps_errors_files.log  >> Data/node-glob_deps_test_files.log
-```
-
-### Watch limited logs
-```
-watch -n 5 cat errors.log
-```
+The debloated version of the package will be resolve in the root /DebloatedPackages folder.
+We can observe that new versions of `package.json` and `package-lock.json` is generated, without the info of the bloated dependencies.
