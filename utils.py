@@ -72,14 +72,6 @@ def remove_dependency(json_obj, package_name, dependency_name):
             del dependencies[dependency_name]
     return json_obj
 
-def dep_in_dev(json_obj, package_name, dependency_name):
-    if package_name in json_obj["packages"] and "dependencies" in json_obj["packages"][package_name] and "dev" in json_obj["packages"][package_name]:
-        dependencies = json_obj["packages"][package_name]["dependencies"]
-        if dependency_name in dependencies:
-            return dependency_name
-        else:
-            return ""
-
 def get_substring_before_last_node_modules(input_string):
     # Find the last occurrence of "/node_modules/"
     last_occurrence = input_string.rfind("node_modules/")
@@ -140,55 +132,13 @@ def remove_from_lock(json_data, target_dep, target_version):
     print(parent_deps)
 
 def identify_dev(json_data, target_dep, target_version):
-    parent_dev_deps = False  
+    # Identify a dependency that are not able to debloat, still in the debloated lock file.
+    # indicating the dependency is used in "dev":true dependencies.
+    dep_in_dev = False  
     matching_target_keys = find_keys_with_version(json_data["packages"], target_dep, target_version)
     print("matching_target_keys", target_dep, target_version, matching_target_keys)
 
     if (len(matching_target_keys) != 0):
-        parent_dev_deps = True
-    # for matching_key in matching_target_keys:
-    #     # only dependencies within the same node_modules where the target dependency is in, can depends on the target dependency
-    #     # For example: only node_modules/a or node_modules/a/node_modules/b or node_modules/a/node_modules/b/node_modules/c can depend on node_modules/e
-    #     parent_pre = matching_key[:-len("node_modules/" + target_dep)]
-    #     print("parent_pre", parent_pre)
-    #     parent_dev_deps = parent_dev_deps + 1
-        # matching_parent_keys = find_keys_with_root_dependency(json_data["packages"], target_dep, [parent_pre])
-
-
-        # if parent_pre == "":
-        #     # Target dependency is in the root of /node_modules, it is a direct dependency or is depended by some other dependency in the root of /node_modules
-        #     for potential_parent_key in matching_parent_keys:
-        #         if is_key_contains_the_version(json_data, potential_parent_key, target_dep):
-        #             dev_dep = dep_in_dev(json_data, potential_parent_key, target_dep)
-        #             print("dev_dep", dev_dep)
-        #             if dev_dep != "":
-        #                 print("1. key: " + potential_parent_key)
-        #                 parent_dev_deps.append(dev_dep)
-
+        dep_in_dev = True
         
-                                
-        # elif parent_pre != "":
-        #     # Target dependency is not in the root of node_modules    
-        #     # Check from the folder of node_modules/parent
-        #     # Plus, check from the folder of node_modules/parent/node_modules/other_packages
-        #     # For example, for "node_modules/read-pkg/node_modules/parse-json", the parent_key is "node_modules/read-pkg"
-        #     # check in "node_modules/read-pkg" and check in "node_modules/read-pkg/node_modules/any_other"
-        #     # matching_keys = find_keys_with_root_dependency(json_data["packages"], target_dep, [potential_parent_key])
-        #     # print("matching_keys", matching_keys)
-            
-        #     filtered_keys = [item for item in matching_parent_keys if item.startswith(parent_pre[:-1])]
-        #     if filtered_keys:
-        #         for key in filtered_keys:
-        #             extra_version_path = f"{key}/node_modules/{target_dep}"
-        #             if extra_version_path in json_data["packages"] and key + "/" == parent_pre:
-        #                 dev_dep = dep_in_dev(json_data, key, target_dep)
-        #                 print("2. key: " + key)
-        #                 if dev_dep != "":
-        #                     parent_dev_deps.append(dev_dep)
-        #             if extra_version_path not in json_data["packages"]:
-        #                 dev_dep = dep_in_dev(json_data, key, target_dep)
-        #                 print("3. key: " + key)
-        #                 if dev_dep != "":
-        #                     parent_dev_deps.append(dev_dep)
-        
-    return parent_dev_deps
+    return dep_in_dev
