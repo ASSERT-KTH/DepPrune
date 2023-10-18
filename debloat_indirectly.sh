@@ -1,4 +1,5 @@
-jsonlist=$(jq -r '.projects' "repos.json")
+# jsonlist=$(jq -r '.projects' "repos_fix.json")
+jsonlist=$(jq -r '.projects' "repos_temp.json")
 
 # inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
@@ -58,7 +59,7 @@ do
             echo $projectName","$line",0" >> ../test_output_error1_0.txt
         fi
         cd ..
-        # rm -rf $projectName
+        rm -rf $projectName
         cd ..
     done
 done

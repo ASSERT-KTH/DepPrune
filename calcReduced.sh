@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repos_93.json")
+jsonlist=$(jq -r '.projects' "repos_44.json")
 # jsonlist=$(jq -r '.projects' "repos_temp.json")
 basement="Playground"
 # basement="TestCollectionEntire"
@@ -12,7 +12,7 @@ do
     repo=$(_jq '.repo')
     projectName=$(_jq '.folder')
 
-    location_file=$basement"/"$projectName"/all_bloated_deps_location_size.txt"
+    location_file=$basement"/"$projectName"/removed_after_direct_bloated_location_size.txt"
     initial=0
     # echo "I am package "$repo" ....."
 

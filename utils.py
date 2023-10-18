@@ -38,6 +38,22 @@ def find_keys_with_root_dependency(json_obj, target_dependency, parent_keys=[]):
 
     return matching_keys
 
+def find_keys_in_dependency(json_obj, target_dependency, parent_keys=[]):
+    matching_keys = []
+    if isinstance(json_obj, dict):
+        if "devDependencies" in json_obj and target_dependency in json_obj["devDependencies"]:
+            matching_keys.append(".".join(parent_keys[1:]))
+        if "dependencies" in json_obj  and target_dependency in json_obj["dependencies"]:
+            matching_keys.append(".".join(parent_keys[1:]))
+
+        for key, value in json_obj.items():
+            matching_keys.extend(find_keys_in_dependency(value, target_dependency, parent_keys + [key]))
+    elif isinstance(json_obj, list):
+        for index, item in enumerate(json_obj):
+            matching_keys.extend(find_keys_in_dependency(item, target_dependency, parent_keys + [str(index)]))
+
+    return matching_keys
+
 def transform_string_to_array(input_string, substring):
     parts = input_string.split(substring)
     result = [substring + part[:-1] if '/' in part else substring + part for part in parts if part]
@@ -72,6 +88,7 @@ def remove_dependency(json_obj, package_name, dependency_name):
             del dependencies[dependency_name]
     return json_obj
 
+
 def get_substring_before_last_node_modules(input_string):
     # Find the last occurrence of "/node_modules/"
     last_occurrence = input_string.rfind("node_modules/")
@@ -93,7 +110,7 @@ def remove_from_lock(json_data, target_dep, target_version):
         # only dependencies within the same node_modules where the target dependency is in, can depends on the target dependency
         # For example: only node_modules/a or node_modules/a/node_modules/b or node_modules/a/node_modules/b/node_modules/c can depend on node_modules/e
         parent_pre = matching_key[:-len("node_modules/" + target_dep)]
-        print("parent_pre", parent_pre)
+        # print("parent_pre", parent_pre)
         matching_parent_keys = find_keys_with_root_dependency(json_data["packages"], target_dep, [parent_pre])
 
 
@@ -129,16 +146,41 @@ def remove_from_lock(json_data, target_dep, target_version):
                         remove_dependency(json_data, key, target_dep)
         else:
             print(f"No keys found with dependency '{target_dep}'.")
-    print(parent_deps)
+    # print(parent_deps)
 
 def identify_dev(json_data, target_dep, target_version):
-    # Identify a dependency that are not able to debloat, still in the debloated lock file.
-    # indicating the dependency is used in "dev":true dependencies.
+    # Identify a dependency that is used in "dev":true dependencies.
     dep_in_dev = False  
     matching_target_keys = find_keys_with_version(json_data["packages"], target_dep, target_version)
-    print("matching_target_keys", target_dep, target_version, matching_target_keys)
 
-    if (len(matching_target_keys) != 0):
-        dep_in_dev = True
+    for matching_key in matching_target_keys:
+        parent_pre = matching_key[:-len("node_modules/" + target_dep)]
+        matching_parent_keys = find_keys_in_dependency(json_data["packages"], target_dep, [parent_pre])
+        # print(matching_parent_keys)
+
+        if parent_pre == "":
+            # Target dependency is in the root of /node_modules, it is a direct dependency or is depended by some other dependency in the root of /node_modules
+            for potential_parent_key in matching_parent_keys:
+                if is_key_contains_the_version(json_data, potential_parent_key, target_dep):
+                    if potential_parent_key in json_data["packages"] and ("dev" in json_data["packages"][potential_parent_key] or target_dep in json_data["packages"][""]["devDependencies"]): 
+                        dep_in_dev = True
+                        print("1. key: " + potential_parent_key)
+        
+                                
+        elif parent_pre != "":
+            filtered_keys = [item for item in matching_parent_keys if item.startswith(parent_pre[:-1])]
+            if filtered_keys:
+                for key in filtered_keys:
+                    extra_version_path = f"{key}/node_modules/{target_dep}"
+                    if extra_version_path in json_data["packages"] and key + "/" == parent_pre:
+                        if key in json_data["packages"] and "dev" in json_data["packages"][key]:
+                            dep_in_dev = True 
+                            print("2. key: " + key)
+                    if extra_version_path not in json_data["packages"]:
+                        if key in json_data["packages"] and "dev" in json_data["packages"][key]:
+                            dep_in_dev = True
+                            print("3. key: " + key)
+        else:
+            print(f"No keys found with dependency '{target_dep}'.")
         
     return dep_in_dev
