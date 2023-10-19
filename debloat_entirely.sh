@@ -38,10 +38,14 @@ do
         echo "No direct bloated deps. Exiting loop."
     
     else
-        echo "Removing direct dependency "$depname" in the package "$projectName
-        # echo "Removing direct dependency "$depname" in the package "$projectName >> /dev/stderr
-        python3 ../../modify_pkgjson.py $projectName "DebloatedPackages"
-        # cp package.json ./package-debloated.json
+        for line in "${lines[@]}"; do
+            echo "Removing direct dependency "$line" in the package "$projectName
+            array=(${line//__/ })
+            depname=${array[0]}
+            # echo "Removing direct dependency "$depname" in the package "$projectName >> /dev/stderr
+            npm uninstall $depname
+            # cp package.json ./package-debloated.json
+        done
     fi
 
     mapfile -t indirect_lines < "$indirect_file"
