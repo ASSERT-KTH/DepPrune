@@ -1,0 +1,48 @@
+{
+  "name": "images-to-variables",
+  "version": "0.4.0",
+  "description": "A simple utility for generating Sass/Less variables for images.",
+  "main": "lib/index.js",
+  "bin": {
+    "imgtoless": "bin/lesscli",
+    "imgtoscss": "bin/scsscli"
+  },
+  "scripts": {
+    "lint": "jshint lib/ test/",
+    "test": "npm run lint && npm run test:unit",
+    "test:unit": "nyc jasmine test/**/*Spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Brightspace/images-to-variables.git"
+  },
+  "keywords": [
+    "d2l",
+    "less",
+    "sass",
+    "images"
+  ],
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "author": "D2L Corporation",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Brightspace/images-to-variables/issues"
+  },
+  "homepage": "https://github.com/Brightspace/images-to-variables",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "imagemin": "^4.0.0",
+    "object-assign": "^3.0.0",
+    "q": "^1.2.0",
+    "through2": "^0.6.3",
+    "vinyl-fs": "^3.0.3"
+  },
+  "devDependencies": {
+    "jasmine": "^4.2.1",
+    "jshint": "^2.13.4",
+    "nyc": "^15.1.0"
+  }
+}

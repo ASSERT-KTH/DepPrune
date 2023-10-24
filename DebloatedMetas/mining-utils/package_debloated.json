@@ -1,0 +1,49 @@
+{
+  "name": "mining-utils",
+  "version": "1.0.2",
+  "description": "",
+  "author": "Oracy Rezende Martos <oramartos_21@hotmail.com> (https://github.com/Oracy)",
+  "contributors": [
+    "Lucas Medeiros Cardoso <clucasmedeiros@gmail.com> (https://github.com/lu002047)"
+  ],
+  "main": "./index.js",
+  "scripts": {
+    "build": "npm run build:transpile && npm run build:minify",
+    "build:minify": "gulp minify",
+    "build:transpile": "npx tsc",
+    "start": "npm run build",
+    "test": "npm start && nyc --reporter=html --reporter=text mocha -r ts-node/register test/**/*.ts",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "keywords": [
+    "string",
+    "string-manipulation",
+    "twitter",
+    "text-mining",
+    "data-mining"
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Oracy/mining-utils.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "ts-node": "^9.1.1",
+    "uglify-es": "^3.3.9"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.4",
+    "@types/mocha": "^7.0.1",
+    "@types/node": "~14.14.22",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.7",
+    "mocha": "^8.2.1",
+    "nyc": "^15.0.0",
+    "typescript": "^3.6.4"
+  }
+}

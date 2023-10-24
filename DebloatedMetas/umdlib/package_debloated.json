@@ -1,0 +1,78 @@
+{
+  "name": "umdlib",
+  "version": "0.8.4",
+  "description": "A template for writing micro UMD Javascript libraries",
+  "main": "index.js",
+  "bin": {
+    "umdlib": "./bin/umdlib.js"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "makedist": "gulp makedist",
+    "makeprivate": "gulp makeprivate && sh tasks/compress.sh ${npm_package_name} ${npm_package_version}",
+    "makelib": "gulp build && gulp makedist && gulp makeprivate && sh tasks/compress.sh ${npm_package_name} ${npm_package_version}",
+    "test": "cross-env NODE_ENV=test nyc --reporter=lcov mocha ./test/main.js",
+    "check-coverage": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+    "display-coverage": "opener ./coverage/lcov-report/index.html",
+    "report-coverage": "nyc report --reporter=text-lcov | coveralls",
+    "report": "nyc report",
+    "doc": "vuepress dev docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jclo/umdlib.git"
+  },
+  "keywords": [
+    "es5",
+    "umd",
+    "library",
+    "template",
+    "boilerplate",
+    "instantiation patterns",
+    "functional instantiation",
+    "functional-shared instantiation",
+    "prototypal instantiation",
+    "pseudoclassical instantiation",
+    "pseudoclassical auto instantiation",
+    "gulp",
+    "mocha",
+    "istanbul"
+  ],
+  "author": {
+    "name": "jclo",
+    "email": "jclo@mobilabs.fr",
+    "url": "http://www.mobilabs.fr/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jclo/umdlib/issues"
+  },
+  "homepage": "https://github.com/jclo/umdlib",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "4.2.0",
+    "coveralls": "3.0.3",
+    "cross-env": "5.2.0",
+    "del": "4.1.0",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.16.0",
+    "gulp": "4.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-footer": "2.0.2",
+    "gulp-header": "2.0.7",
+    "gulp-replace": "1.0.0",
+    "gulp-uglify": "3.0.2",
+    "husky": "1.3.1",
+    "mocha": "6.1.3",
+    "nyc": "13.3.0",
+    "opener": "1.5.1"
+  },
+  "private": false,
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build && npm run makedist && npm run test && npm run check-coverage && npm run report"
+    }
+  }
+}

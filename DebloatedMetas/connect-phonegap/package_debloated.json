@@ -1,0 +1,81 @@
+{
+  "name": "connect-phonegap",
+  "description": "Connect middleware to serve a PhoneGap app.",
+  "version": "0.25.0",
+  "homepage": "https://github.com/phonegap/connect-phonegap",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:phonegap/connect-phonegap.git"
+  },
+  "keywords": [
+    "connect",
+    "express",
+    "middleware",
+    "phonegap"
+  ],
+  "preferGlobal": false,
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "jasmine && eslint .",
+    "lint-fix": "eslint . --fix",
+    "cover": "istanbul cover --print detail -x **/spec/** jasmine"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "adm-zip": "^0.4.11",
+    "archiver": "1.1.0",
+    "body-parser": "^1.18.3",
+    "chokidar": "^3.0.1",
+    "connect": "^3.6.6",
+    "connect-inject": "0.4.0",
+    "cookie-session": "^2.0.0-beta.3",
+    "http-proxy": "1.15.1",
+    "ip": "1.1.3",
+    "localtunnel": "^1.9.2",
+    "request": "^2.88.0",
+    "serve-static": "^1.13.2",
+    "shelljs": "0.7.5",
+    "socket.io": "^2.1.1",
+    "useragent": "^2.3.0",
+    "walkdir": "0.0.11"
+  },
+  "devDependencies": {
+    "chdir": "0.0.0",
+    "checksum": "0.1.1",
+    "eslint": ">=4.18.2",
+    "istanbul": "0.4.5",
+    "jasmine": "2.5.3",
+    "rewire": "2.5.2",
+    "supertest": "^3.3.0"
+  },
+  "contributors": [
+    {
+      "name": "Michael Brooks",
+      "email": "michael@michaelbrooks.ca",
+      "url": "http://michaelbrooks.ca/"
+    },
+    {
+      "name": "Tim Kim",
+      "email": "timk@adobe.com"
+    },
+    {
+      "name": "Jesse MacFadyen",
+      "url": "http://risingj.com"
+    },
+    {
+      "name": "Lorin Beer",
+      "email": "lorin.beer@gmail.com"
+    },
+    {
+      "name": "Herm Wong",
+      "email": "herm.wong@gmail.com"
+    },
+    {
+      "name": "Suraj Pindoria",
+      "email": "suraj.pindoria@yahoo.com"
+    }
+  ]
+}
