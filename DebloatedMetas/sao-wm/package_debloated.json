@@ -1,0 +1,42 @@
+{
+  "name": "sao-wm",
+  "version": "2.1.0",
+  "description": "A generator for ES6 based module",
+  "main": "saofile.js",
+  "repository": "https://github.com/KsRyY/sao-wm",
+  "author": "KsRyY",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "3.15.0",
+    "coveralls": "3.1.1",
+    "nyc": "15.1.0",
+    "sao": "1.7.1"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "nyc ava --verbose",
+    "cover": "nyc report --reporter=lcov"
+  },
+  "xo": {
+    "extends": [
+      "rem",
+      "plugin:prettier/recommended"
+    ]
+  },
+  "lint-staged": {
+    "*.js": [
+      "xo --fix"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com"
+  }
+}

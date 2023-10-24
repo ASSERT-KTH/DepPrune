@@ -1,0 +1,71 @@
+{
+  "name": "svgo-compress-image",
+  "version": "0.7.4",
+  "description": "Nodejs-based tool for optimizing and compress SVG vector graphics files",
+  "keywords": [
+    "svgo",
+    "svg",
+    "optimize",
+    "minify"
+  ],
+  "homepage": "https://github.com/spidercpsf/svgo",
+  "author": {
+    "name": "Giang Minh",
+    "email": "giangndm@ows.vn",
+    "url": "https://github.com/spidercpsf"
+  },
+  "contributors": [
+    {
+      "name": "Sergey Belov",
+      "email": "peimei@ya.ru",
+      "url": "http://github.com/arikon"
+    },
+    {
+      "name": "Lev Solntsev",
+      "email": "lev.sun@ya.ru",
+      "url": "http://github.com/GreLI"
+    },
+    {
+      "name": "Giang Minh",
+      "email": "giangndm@ows.vn",
+      "url": "https://github.com/spidercpsf"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spidercpsf/svgo.git"
+  },
+  "main": "./lib/svgo.js",
+  "bin": {
+    "svgo": "./bin/svgo"
+  },
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib",
+    "example": "./examples"
+  },
+  "scripts": {
+    "test": "set NODE_ENV=test && mocha",
+    "jshint": "jshint --show-non-errors ."
+  },
+  "dependencies": {
+    "csso": "~2.3.1",
+    "imagemin": "^5.2.2",
+    "imagemin-mozjpeg": "^6.0.0",
+    "imagemin-pngquant": "^5.0.0",
+    "js-yaml": "~3.7.0",
+    "sax": "~1.2.1",
+    "whet.extend": "~0.9.9"
+  },
+  "devDependencies": {
+    "coveralls": "~2.11.14",
+    "istanbul": "~0.4.5",
+    "mocha": "~3.2.0",
+    "mocha-istanbul": "~0.3.0",
+    "should": "11.2.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "license": "MIT"
+}

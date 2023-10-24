@@ -1,0 +1,53 @@
+{
+  "name": "reduce-css",
+  "version": "6.2.0",
+  "description": "Pack CSS into multiple bundles based on postcss",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && tap test/*.js",
+    "lint": "eslint *.js 'lib/**/*.js' test/*.js bin/*.js",
+    "cov": "tap --cov test/*.js",
+    "coveralls": "COVERALLS_REPO_TOKEN=BMib8gz5HerpnvOwKS6Q82AX8o8NPidXP npm run cov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reducejs/reduce-css.git"
+  },
+  "keywords": [
+    "postcss",
+    "browserify",
+    "css",
+    "reduce",
+    "reduce-css"
+  ],
+  "author": "zoubin",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.2.1"
+  },
+  "bugs": {
+    "url": "https://github.com/reducejs/reduce-css/issues"
+  },
+  "homepage": "https://github.com/reducejs/reduce-css#readme",
+  "optionalDependencies": {
+    "watchify2": "^0.1.0"
+  },
+  "dependencies": {
+    "common-bundle": "^0.5.0",
+    "depsify": "^5.0.0",
+    "globby": "^4.1.0",
+    "postcss": "^5.0.5",
+    "postcss-custom-url": "^4.0.0",
+    "reduce-css-postcss": "^3.0.0",
+    "stream-combiner2": "^1.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-fs": "^2.2.1"
+  },
+  "devDependencies": {
+    "compare-directory": "^1.0.1",
+    "del": "^2.0.2",
+    "eslint": "^2.1.0",
+    "mkdirp": "^0.5.1",
+    "tap": "^5.0.0"
+  }
+}
