@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repos_93.json")
+jsonlist=$(jq -r '.projects' "repo.json")
 basement="Playground"
 locations="bloated_locations.txt"
 

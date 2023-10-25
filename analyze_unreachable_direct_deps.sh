@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repos_93.json")
+jsonlist=$(jq -r '.projects' "repo.json")
 basement="Playground"
 analyzed_deps="direct_unreachable.txt"
 

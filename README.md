@@ -9,7 +9,7 @@
 git clone
 ```
 
-### Enrich the json file
+### Metadata about each package
 
 `repo.json` is a file with all necessary meta information for one or multiple repos.
 
