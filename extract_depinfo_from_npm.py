@@ -12,29 +12,22 @@ def replace_str(input_string):
     last_at_index = input_string.rfind("@")
 
     if last_at_index != -1:
-        # Split the string into two parts at the last "@" character
         part1 = input_string[:last_at_index]
         part2 = input_string[last_at_index+1:]
         
-        # Replace the last "@" character with "__"
         modified_string = part1 + "__" + part2
         return modified_string
 
 
 
-input_file_path = f"./{basement}/{project}/original_npm_list_filtered.txt"  # Replace with the path to your text file
+input_file_path = f"./{basement}/{project}/original_npm_list_filtered.txt"
 output_array = []
 
-# Read the file line by line and store lines in the array
 with open(input_file_path, "r") as file:
     for line in file:
         output_array.append(line.strip())
 
-# Remove the first and last items
 output_array = output_array[1:-1]
-
-
-
 # Extract substrings starting from the first alphabet or "@"
 original_strings = []
 for item in output_array:

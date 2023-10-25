@@ -105,12 +105,9 @@ def remove_from_lock(json_data, target_dep, target_version):
     # print("matching_target_keys", matching_target_keys)
 
     for matching_key in matching_target_keys:
-        # substr =  get_substring_before_last_node_modules(matching_key)
-        # print(substr)
         # only dependencies within the same node_modules where the target dependency is in, can depends on the target dependency
         # For example: only node_modules/a or node_modules/a/node_modules/b or node_modules/a/node_modules/b/node_modules/c can depend on node_modules/e
         parent_pre = matching_key[:-len("node_modules/" + target_dep)]
-        # print("parent_pre", parent_pre)
         matching_parent_keys = find_keys_with_root_dependency(json_data["packages"], target_dep, [parent_pre])
 
 
@@ -156,7 +153,6 @@ def identify_dev(json_data, target_dep, target_version):
     for matching_key in matching_target_keys:
         parent_pre = matching_key[:-len("node_modules/" + target_dep)]
         matching_parent_keys = find_keys_in_dependency(json_data["packages"], target_dep, [parent_pre])
-        # print(matching_parent_keys)
 
         if parent_pre == "":
             # Target dependency is in the root of /node_modules, it is a direct dependency or is depended by some other dependency in the root of /node_modules

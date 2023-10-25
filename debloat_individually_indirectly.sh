@@ -1,5 +1,5 @@
-# jsonlist=$(jq -r '.projects' "repos_fix.json")
-jsonlist=$(jq -r '.projects' "repos_temp.json")
+jsonlist=$(jq -r '.projects' "repos_93.json")
+TestFolder="TestCollection"
 
 # inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
@@ -21,7 +21,7 @@ do
     mapfile -t lines < "$file"
 
     if [ $lines -eq 0 ]; then
-        echo "No direct bloated deps. Exiting loop."
+        echo "No bloated deps. Exiting loop."
         break
     fi
 
@@ -32,7 +32,7 @@ do
         depversion=${array[1]}
         echo $depname
         # git clone repo to temp folder, remove one direct dependency, run test, log, remove repo
-        cd TestCollectionIndirect
+        cd $TestFolder
         git clone $repoUrl $projectName
         cd $projectName
         git checkout $commit

@@ -1,15 +1,6 @@
 {
     "projects": [
         {
-            "folder": "roe-scripts",
-            "repo": "kaelzhang/roe-scripts",
-            "commit": "f9ee9d3af61f6a3c5c779da176e4d0fff1b8a866",
-            "entryFile": "src/index.js",
-            "gitURL": "https://github.com/kaelzhang/roe-scripts.git",
-            "testPassSignal": "50 tests passed",
-            "coverage": "99.53 |    93.84 |   99.23 |   99.51"
-        },
-        {
             "folder": "remarker",
             "repo": "kt3k/remarker",
             "commit": "5d0678a5ffe3f3c49ce6b2f2c4eebdc9a9286b93",
@@ -152,6 +143,15 @@
             "gitURL": "https://github.com/vigour-io/brisky-class.git",
             "testPassSignal": "56 passing",
             "coverage": "100 |       90 |     100 |     100"
+        },
+        {
+            "folder": "roe-scripts",
+            "repo": "kaelzhang/roe-scripts",
+            "commit": "f9ee9d3af61f6a3c5c779da176e4d0fff1b8a866",
+            "entryFile": "src/index.js",
+            "gitURL": "https://github.com/kaelzhang/roe-scripts.git",
+            "testPassSignal": "50 tests passed",
+            "coverage": "99.53 |    93.84 |   99.23 |   99.51"
         },
         {
             "folder": "null-session-npm",

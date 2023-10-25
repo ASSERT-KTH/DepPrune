@@ -1,6 +1,6 @@
-jsonlist=$(jq -r '.projects' "repos.json")
+jsonlist=$(jq -r '.projects' "93.json")
 
-# inside the loop, you cant use the fuction _jq() to get values from each object.
+TestFolder="TestCollection"
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
 do
     _jq()
@@ -31,7 +31,7 @@ do
         depversion=${array[1]}
         echo $depname
         # git clone repo to temp folder, remove one direct dependency, run test, log, remove repo
-        cd TestCollection
+        cd $TestFolder
         git clone $repoUrl $projectName
         cd $projectName
         git checkout $commit
@@ -56,7 +56,7 @@ do
             echo $projectName","$line",0" >> ../test_output_error1.txt
         fi
         cd ..
-        # rm -rf $projectName
+        rm -rf $projectName
         cd ..
     done
 done
