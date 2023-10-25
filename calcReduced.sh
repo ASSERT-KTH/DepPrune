@@ -1,8 +1,7 @@
-jsonlist=$(jq -r '.projects' "repos_44.json")
-# jsonlist=$(jq -r '.projects' "repos_temp.json")
+jsonlist=$(jq -r '.projects' "repos_93.json")
 basement="Playground"
-# basement="TestCollectionEntire"
-# inside the loop, you cant use the fuction _jq() to get values from each object.
+locations="bloated_locations.txt"
+
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
 do
     _jq()
@@ -12,9 +11,8 @@ do
     repo=$(_jq '.repo')
     projectName=$(_jq '.folder')
 
-    location_file=$basement"/"$projectName"/removed_after_direct_bloated_location_size.txt"
+    location_file=$basement"/"$projectName"/$locations"
     initial=0
-    # echo "I am package "$repo" ....."
 
     mapfile -t location_lines < "$location_file"
     for line in "${location_lines[@]}"; do

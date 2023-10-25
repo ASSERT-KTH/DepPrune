@@ -1,14 +1,12 @@
-# Multee
 
-Multee is under development.
 
-#### Node version in environment: v16.17.0
+### Node version in environment: v16.17.0
+### npm version in environment: v9.3.1
 
 ### Start up
 
 ```
 git clone
-
 ```
 
 ### Enrich the json file
@@ -41,20 +39,20 @@ sh detect_bloated.sh
 
 For removing direct dependencies, run the following:
 ```
-sh debloat_directly.sh
+sh debloat_individually_directly.sh
 ```
 
 For removing direct dependencies, run the following:
 ```
-sh debloat_indirectly.sh
+sh debloat_individually_indirectly.sh
 ```
 
 Debloating result will be recorded in log. 
-Modify the path of the log in `debloat_directly.sh` or `debloat_indirectly.sh` if necessary.
+Modify the path of the log in `debloat_individually_directly.sh` or `debloat_individually_indirectly.sh` if necessary.
 
 ### Debloat entire dependencies
 
-1. Create two files for each repo, in the foldler of `Playground/repofolder`:
+1. Create two files for each repo, in the foldler of `Playground/{repofolder}`:
 direct_confirmed_deps.txt, which is used for remove direct dependencies.
 individual_confirmed_deps.txt, which is used for remove indirect dependencies.
 Respectively copy the result of the previous logs with only bloated dependencies that passed the tests.

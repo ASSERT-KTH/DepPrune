@@ -8,9 +8,9 @@ if __name__ == "__main__":
     target_dep = sys.argv[1]
     target_version = sys.argv[2]
     project = sys.argv[3]
+    TestFolder = "TestCollection"
 
-    target_lock_path = os.path.abspath(f'../../TestCollectionIndirect/{project}/package-lock.json')
-    print(target_lock_path)
+    target_lock_path = os.path.abspath(f'../../{TestFolder}/{project}/package-lock.json')
 
     try:
         with open(target_lock_path, 'r') as file:

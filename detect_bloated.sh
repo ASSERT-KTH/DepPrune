@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repos.json")
+jsonlist=$(jq -r '.projects' "93.json")
 
 # inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
@@ -20,12 +20,12 @@ do
 
     cd $folderPath
 
-    # git checkout $commit
+    git checkout $commit
 
-    cp "../../LockFiles/${projectName}/package-lock.json" ./
+    # cp "../../LockFiles/${projectName}/package-lock.json" ./
 
     npm install
-    # npm run test
+    npm run test
 
     npm list --all --omit=dev > npm_list_output.txt
     grep -v "deduped" npm_list_output.txt > original_npm_list_filtered.txt
@@ -53,13 +53,4 @@ do
     python3 extract_difference.py $projectName "total_deps_deduped.txt" "reachable_deps.txt" "unreachable_deps.txt"
     python3 extract_intersection.py $projectName "unreachable_deps.txt" "direct_deps.txt" "direct_unreachable.txt"
 
-    # npm list --all --omit=dev --json > dependency-tree-npm.json
-    # npm list --all --omit=dev > npm_list_output.txt
-    # grep -v "deduped" npm_list_output.txt > original_npm_list_filtered.txt
-    # rm -rf npm_list_output.txt
-    # cd ../..
-
-    # python3 scripts/build_deps_versions.py $projectName
-    # python3 scripts/build_direct_bloated.py $projectName
-    
 done

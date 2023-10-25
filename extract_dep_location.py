@@ -6,32 +6,24 @@ project = sys.argv[1]
 folder = sys.argv[2]
 
 basement = "Playground"
-# basement = "TestCollectionEntire"
 
 file_path = f'{basement}/{project}/{folder}.txt'
 with open(file_path) as f:
     deps = f.read().splitlines()
 
 json_path = f'{basement}/{project}/package-lock.json'
-output_path = f'{basement}/{project}/{folder}_location_size.txt'
+output_path = f'{basement}/{project}/{folder}_locations.txt'
 
 
 def gen_ancesstor(input_array):
-    # Initialize an array to store the hierarchical paths
     hierarchical_paths = []
 
-    # Initialize an empty string to build each path
     current_path = ""
 
-    # Iterate through the input array
     for item in input_array:
-        # Append the item to the current path with "node_modules/"
         current_path += "node_modules/" + item
-        
-        # Append the current path to the hierarchical_paths array
         hierarchical_paths.append(current_path.rstrip('/'))
 
-    # Print the array of hierarchical paths
     return hierarchical_paths
 
 
@@ -66,7 +58,5 @@ for item in output:
             dedup_output.append(item)
 
 output_file = open(output_path, "a")
-# for item in output:
-#     output_file.writelines(item + '\n')
 for item in dedup_output:
     output_file.writelines(item + '\n')
