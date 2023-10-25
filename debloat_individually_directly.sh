@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "93.json")
+jsonlist=$(jq -r '.projects' "repo.json")
 
 TestFolder="TestCollection"
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
