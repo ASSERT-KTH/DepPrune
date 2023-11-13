@@ -1,6 +1,5 @@
-
-
 ### Node version in environment: v16.17.0
+
 ### npm version in environment: v9.3.1
 
 ### Start up
@@ -38,30 +37,33 @@ sh detect_bloated.sh
 ### Automatically, individually debloat direct dependencies and indirect dependencies.
 
 For removing direct dependencies, run the following:
+
 ```
 sh debloat_individually_directly.sh
 ```
 
 For removing direct dependencies, run the following:
+
 ```
 sh debloat_individually_indirectly.sh
 ```
 
-Debloating result will be recorded in log. 
+Debloating result will be recorded in log.
 Modify the path of the log in `debloat_individually_directly.sh` or `debloat_individually_indirectly.sh` if necessary.
 
 ### Debloat entire dependencies
 
 1. Create two files for each repo, in the foldler of `Playground/{repofolder}`:
-direct_confirmed_deps.txt, which is used for remove direct dependencies.
-individual_confirmed_deps.txt, which is used for remove indirect dependencies.
-Respectively copy the result of the previous logs with only bloated dependencies that passed the tests.
+   direct_confirmed_deps.txt, which is used for remove direct dependencies.
+   individual_confirmed_deps.txt, which is used for remove indirect dependencies.
+   Respectively copy the result of the previous logs with only bloated dependencies that passed the tests.
 
 2. Debloat entirely
-Run the following:
+   Run the following:
 
 ```
 sh debloat_entirely.sh
 ```
+
 The debloated version of the package will be resolve in the root /DebloatedPackages folder.
 We can observe that new versions of `package.json` and `package-lock.json` is generated, without the info of the bloated dependencies.

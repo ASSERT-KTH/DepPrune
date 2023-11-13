@@ -1,6 +1,5 @@
 jsonlist=$(jq -r '.projects' "repo.json")
 
-# inside the loop, you cant use the fuction _jq() to get values from each object.
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
 do
     _jq()

@@ -95,7 +95,6 @@ def get_substring_before_last_node_modules(input_string):
 
     # Check if "/node_modules/" was found in the string
     if last_occurrence != -1:
-        # Extract the substring before the last occurrence
         substring = input_string[:last_occurrence + len("node_modules/")]
         return substring
 
