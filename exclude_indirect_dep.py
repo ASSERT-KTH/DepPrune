@@ -16,7 +16,7 @@ if __name__ == "__main__":
         with open(target_lock_path, 'r') as file:
             json_data = json.load(file)
 
-        # Find the location of the dependency with the specific version, and get the parant depend
+        # Find the location of the dependency with the specific version, and get the parent dependency
         remove_from_lock(json_data, target_dep, target_version)
         
         with open(target_lock_path, 'w') as file:
