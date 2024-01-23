@@ -16,13 +16,13 @@ git clone
 {
   "projects": [
     {
-        "folder": "roe-scripts",
-        "repo": "kaelzhang/roe-scripts",
-        "commit": "f9ee9d3af61f6a3c5c779da176e4d0fff1b8a866",
-        "entryFile": "src/index.js",
-        "gitURL": "https://github.com/kaelzhang/roe-scripts.git",
-        "testPassSignal": "50 tests passed",
-        "coverage": "99.53 |    93.84 |   99.23 |   99.51"
+      "folder": "airtap",
+      "repo": "airtap/airtap",
+      "commit": "034a6cf5c0f0014c94ac7f83b19fee69eda218e4",
+      "entryFile": "lib/airtap.js",
+      "gitURL": "https://github.com/airtap/airtap.git",
+      "testPassSignal": "pass  142",
+      "coverage": "78.05 |    62.93 |      75 |   80.31"
     }
   ]
 }
