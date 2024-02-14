@@ -15,7 +15,8 @@ def collect_files(dependencies, files):
     reachable_deps = []
     for file in files:
         for dep in dependencies:
-            split_parts = file.split(dep)
+            split_str = dep + "/"
+            split_parts = file.split(split_str)
             if len(split_parts) > 1 and all("node_modules" not in part for part in split_parts):
                 collected_files.append(file)
                 if dep not in reachable_deps:

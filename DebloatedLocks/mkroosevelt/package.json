@@ -1,0 +1,80 @@
+{
+    "name": "mkroosevelt",
+    "description": "Command line application for creating Roosevelt apps",
+    "author": "Roosevelt Framework Team <rooseveltframework@gmail.com>",
+    "contributors": [
+        {
+            "name": "Contributors",
+            "url": "https://github.com/rooseveltframework/mkroosevelt/graphs/contributors"
+        }
+    ],
+    "version": "0.21.7",
+    "files": [
+        "mkroosevelt.js"
+    ],
+    "homepage": "https://github.com/rooseveltframework/mkroosevelt",
+    "license": "CC-BY-4.0",
+    "main": "mkroosevelt.js",
+    "bin": {
+        "mkroosevelt": "mkroosevelt.js"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "engineStrict": true,
+    "dependencies": {
+        "generator-roosevelt": "0.21.7",
+        "inquirer": "9.2.3",
+        "yeoman-environment": "3.18.4"
+    },
+    "devDependencies": {
+        "c8": "7.13.0",
+        "codecov": "3.8.3",
+        "eslint": "8.40.0",
+        "eslint-plugin-mocha": "10.1.0",
+        "fs-extra": "11.1.1",
+        "mocha": "10.2.0",
+        "standard": "17.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/rooseveltframework/mkroosevelt.git"
+    },
+    "keywords": [
+        "roosevelt.js",
+        "teddy.js",
+        "node.js",
+        "roosevelt",
+        "teddy",
+        "mvc",
+        "yeoman-generator"
+    ],
+    "preferGlobal": true,
+    "_from": "mkroosevelt@*",
+    "gitHead": "",
+    "eslintConfig": {
+        "parserOptions": {
+            "ecmaVersion": "latest"
+        },
+        "plugins": [
+            "mocha"
+        ],
+        "rules": {
+            "mocha/no-exclusive-tests": "error"
+        }
+    },
+    "mocha": {
+        "timeout": "10s"
+    },
+    "scripts": {
+        "codecov": "codecov",
+        "coverage": "c8 --reporter=text --reporter=lcov mocha test/",
+        "lint": "eslint ./test && standard",
+        "test": "mocha test/",
+        "test-debug": "mocha --inspect-brk test/"
+    },
+    "funding": {
+        "type": "individual",
+        "url": "https://github.com/sponsors/kethinov"
+    }
+}

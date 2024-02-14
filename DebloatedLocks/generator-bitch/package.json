@@ -1,0 +1,56 @@
+{
+    "name": "generator-bitch",
+    "version": "0.14.4",
+    "description": "A simple generator (for Yeoman) to scaffolding web applications, just frontend stack",
+    "main": "app/index.js",
+    "scripts": {
+        "transpile": "scripts/transpile",
+        "pretest": "npm run transpile",
+        "test": "scripts/test"
+    },
+    "keywords": [
+        "bitch",
+        "jquery",
+        "angular",
+        "sass",
+        "less",
+        "jade",
+        "pug",
+        "ejs",
+        "node",
+        "express",
+        "yeoman-generator",
+        "ecma6",
+        "es6",
+        "es5",
+        "ecma2015"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/darlanmendonca/generator-bitch",
+    "bugs": "https://github.com/darlanmendonca/generator-bitch/issues",
+    "author": "Darlan Mendon\u00e7a <darlanmendonca@gmail.com> (https://github.com/darlanmendonca)",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/darlanmendonca/generator-bitch.git"
+    },
+    "engines": {
+        "node": ">=0.4.0"
+    },
+    "dependencies": {
+        "mkdirp": "^0.5.1",
+        "underscore.string": "^3.0.3",
+        "yeoman-generator": "^0.20.1"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.6.5",
+        "babel-core": "^6.7.0",
+        "babel-preset-es2015": "^6.6.0",
+        "coveralls": "^2.11.4",
+        "gulp": "^3.9.0",
+        "gulp-ejs": "^1.2.0",
+        "gulp-eslint": "^3.0.1",
+        "istanbul": "^0.4.0",
+        "mocha": "^2.3.3",
+        "require-all": "^2.0.0"
+    }
+}

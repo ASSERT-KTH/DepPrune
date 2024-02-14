@@ -1,0 +1,94 @@
+{
+    "name": "prettier-stylelint-temp",
+    "version": "0.4.4",
+    "description": "code > prettier > stylelint > formatted code",
+    "repository": "isellsoap/prettier-stylelint",
+    "main": "index.js",
+    "bin": "./cli.js",
+    "author": "Hugo Dias <mail@hugodias.me> (http://hugodias.me/)",
+    "license": "MIT",
+    "keywords": [
+        "stylelint",
+        "prettier",
+        "style",
+        "lint",
+        "linter",
+        "validate",
+        "code style",
+        "strict",
+        "check"
+    ],
+    "scripts": {
+        "test": "nyc ava",
+        "lint": "eslint --cache *.js src/*.js",
+        "validate": "run-p lint test",
+        "precommit": "yarn validate",
+        "version": "yarn changelog && git add CHANGELOG.md",
+        "cov": "yarn test && nyc report --reporter=html && hs coverage -s -o -c-1",
+        "cov:report": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+    },
+    "devDependencies": {
+        "ava": "^0.25.0",
+        "codecov": "^3.1.0",
+        "conventional-changelog-cli": "^2.0.11",
+        "eslint": "^4.19.0",
+        "eslint-config-halo": "^2.4.1",
+        "http-serve": "^1.0.1",
+        "husky": "^1.2.0",
+        "np": "^3.0.4",
+        "npm-run-all": "^4.1.1",
+        "nyc": "^13.1.0",
+        "stylelint-config-recommended": "^2.1.0"
+    },
+    "dependencies": {
+        "cosmiconfig": "^5.0.7",
+        "debug": "^4.1.0",
+        "globby": "^8.0.1",
+        "ignore": "^5.0.4",
+        "pify": "^4.0.1",
+        "prettier": "^1.7.0",
+        "resolve-from": "^4.0.0",
+        "stylelint": "^9.9.0",
+        "temp-write": "^3.3.0",
+        "update-notifier": "^2.2.0"
+    },
+    "eslintConfig": {
+        "extends": "halo/node"
+    },
+    "stylelint": {
+        "extends": [
+            "stylelint-config-recommended",
+            "./config"
+        ],
+        "rules": {
+            "string-quotes": [
+                "single"
+            ],
+            "indentation": [
+                4,
+                {
+                    "except": [
+                        "value"
+                    ]
+                }
+            ],
+            "color-hex-case": [
+                "upper"
+            ],
+            "color-hex-length": [
+                "short"
+            ]
+        }
+    },
+    "prettier": {
+        "printWidth": 80,
+        "tabWidth": 4,
+        "useTabs": false,
+        "semi": false,
+        "singleQuote": true,
+        "trailingComma": "none",
+        "bracketSpacing": true,
+        "jsxBracketSameLine": false
+    }
+}

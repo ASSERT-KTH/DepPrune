@@ -1,0 +1,57 @@
+{
+    "name": "generator-angular-eggs",
+    "version": "2.3.7",
+    "description": "Angular 1.5, Angular Component Router, Bootstrap v4(alpha) and TingoDB(like MongoDB) with an Express server",
+    "license": "MIT",
+    "author": {
+        "name": "Fumio SAGAWA",
+        "email": "fumio.sagawa@gmail.com",
+        "url": "https://github.com/albatrosary"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/albatrosary/generator-angular-eggs.git"
+    },
+    "bugs": {
+        "url": "https://github.com/albatrosary/generator-angular-eggs/issues"
+    },
+    "main": "app/index.js",
+    "scripts": {
+        "test": "mocha --reporter spec"
+    },
+    "files": [
+        "app",
+        "components",
+        "directives",
+        "resource",
+        "server",
+        "service",
+        "test"
+    ],
+    "keywords": [
+        "yeoman-generator",
+        "web",
+        "app",
+        "bootstrap",
+        "grunt",
+        "bower",
+        "angular",
+        "ngComponentRouter",
+        "express",
+        "TingoDB"
+    ],
+    "dependencies": {
+        "chalk": "^1.1.1",
+        "mkdirp": "^0.5.1",
+        "underscore.string": "^3.2.3",
+        "wiredep": "^4.0.0",
+        "yeoman-generator": "^0.22.5",
+        "yosay": "^1.1.0"
+    },
+    "devDependencies": {
+        "grunt-cli": "^1.1.0",
+        "mocha": "^2.4.5",
+        "yeoman-assert": "^2.1.1"
+    },
+    "peerDependencies": {}
+}

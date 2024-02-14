@@ -1,0 +1,49 @@
+{
+    "name": "eslint-config-frost-standard",
+    "version": "10.1.0",
+    "description": "Standard ESLint rules for Frost projects",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "test": "npm run lint && npm run utest",
+        "utest": "istanbul cover _mocha tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ciena-frost/eslint-config-frost-standard.git"
+    },
+    "engines": {
+        "node": ">= 6.0.0"
+    },
+    "keywords": [
+        "frost",
+        "eslint"
+    ],
+    "author": "Adam Meadows (https://github.com/job13er)",
+    "contributors": [
+        "Matt Dahl (https://github.com/sandersky)",
+        "Steven Glanzer (https://github.com/sglanzer)"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ciena-frost/eslint-config-frost-standard/issues"
+    },
+    "homepage": "https://github.com/ciena-frost/eslint-config-frost-standard#readme",
+    "devDependencies": {
+        "chai": "^4.0.0",
+        "eslint": "^4.1.0",
+        "istanbul": "^0.4.5",
+        "mocha": "^3.4.2"
+    },
+    "dependencies": {
+        "babel-eslint": "^8.0.3",
+        "eslint-config-standard": "10.2.1",
+        "eslint-plugin-ember-standard": "^2.1.0",
+        "eslint-plugin-import": "2.8.0",
+        "eslint-plugin-mocha": "4.11.0",
+        "eslint-plugin-node": "5.2.1",
+        "eslint-plugin-ocd": "1.0.6",
+        "eslint-plugin-promise": "3.6.0",
+        "eslint-plugin-standard": "3.0.1"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "name": "alex-vscode",
+    "version": "2.0.0-0",
+    "description": "alex wrapper to easily integrate with Visual Studio Code",
+    "repository": "shinnn/alex-vscode",
+    "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+    "license": "MIT",
+    "scripts": {
+        "pretest": "eslint .",
+        "test": "nyc node test.js"
+    },
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "alex",
+        "language",
+        "sensitive",
+        "insensitive",
+        "sensitivity",
+        "identity",
+        "gender",
+        "sex",
+        "equal",
+        "equality",
+        "race",
+        "religion",
+        "orientation",
+        "consideration",
+        "natural-language",
+        "english",
+        "wrapper",
+        "bridge",
+        "lint",
+        "linter",
+        "check",
+        "checker",
+        "validate",
+        "validation",
+        "vsc",
+        "vscode",
+        "visual-studio-code",
+        "diagnostic",
+        "diagnostics"
+    ],
+    "dependencies": {
+        "alex": "^6.0.0",
+        "is-md": "^2.0.0",
+        "vfile-messages-to-vscode-diagnostics": "^1.1.0"
+    },
+    "devDependencies": {
+        "@shinnn/eslint-config": "^6.7.1",
+        "eslint": "^5.6.0",
+        "nyc": "^13.0.1",
+        "nyc-config-common": "^1.0.0",
+        "tape": "^4.9.1",
+        "vscode-languageserver-types": "^3.13.0"
+    },
+    "eslintConfig": {
+        "extends": "@shinnn"
+    },
+    "nyc": {
+        "extends": "nyc-config-common"
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "_from": "urdubiometerjs",
+    "_id": "urdubiometerjs@0.1.0",
+    "_inBundle": false,
+    "_integrity": "sha512-s0OZ+PVEWHR8L4Fu5JlNW64a2RIKZjSKhx8OiYkIwLPT+xNCb0EkqgNHZJ2aHQZzJPCfyjKiR7iTKJVLxTX1yg==",
+    "_location": "/urdubiometerjs",
+    "_phantomChildren": {},
+    "_requested": {
+        "type": "tag",
+        "registry": true,
+        "raw": "urdubiometerjs",
+        "name": "urdubiometerjs",
+        "escapedName": "urdubiometerjs",
+        "rawSpec": "",
+        "saveSpec": null,
+        "fetchSpec": "latest"
+    },
+    "_requiredBy": [
+        "#USER",
+        "/"
+    ],
+    "_resolved": "https://registry.npmjs.org/urdubiometerjs/-/urdubiometerjs-0.1.0.tgz",
+    "_shasum": "bb248251694aad1461a0424849767bd19e5ddce5",
+    "_spec": "urdubiometerjs",
+    "_where": "/Users/seanpue/node_modules",
+    "author": {
+        "name": "A. Sean Pue"
+    },
+    "bugs": {
+        "url": "https://github.com/urdubiometer/urdubiometerjs/issues"
+    },
+    "bundleDependencies": false,
+    "dependencies": {
+        "standard": "^11.0.1"
+    },
+    "deprecated": false,
+    "description": "Javascript utilities for Urdu BioMeter",
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "coveralls": "^3.0.1",
+        "eslint": "^4.19.1",
+        "eslint-config-strongloop": "^2.1.0",
+        "eslint-plugin-import": "^2.12.0",
+        "eslint-plugin-promise": "^3.8.0",
+        "eslint-plugin-standard": "^3.1.0",
+        "eslint-standard": "^1.0.2",
+        "istanbul": "^0.4.5",
+        "mocha": "^5.2.0",
+        "sinon": "^7.3.2",
+        "sinon-chai": "^3.3.0",
+        "webpack": "^4.12.0",
+        "webpack-cli": "^3.0.4"
+    },
+    "files": [
+        "dist/urdubiometer.js"
+    ],
+    "homepage": "https://github.com/urdubiometer/urdubiometerjs#readme",
+    "keywords": [
+        "urdu",
+        "hindi",
+        "poetry",
+        "meter"
+    ],
+    "license": "BSD-3-Clause",
+    "main": "src/index.js",
+    "name": "urdubiometerjs",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/urdubiometer/urdubiometerjs.git"
+    },
+    "scripts": {
+        "test": "standard && mocha --reporter spec",
+        "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
+        "build": "webpack"
+    },
+    "version": "0.1.6"
+}

@@ -1,0 +1,151 @@
+{
+    "name": "twilio-cli",
+    "version": "5.10.0",
+    "description": "Unleash the power of Twilio from your command prompt. Visit https://twil.io/cli for don.",
+    "keywords": [
+        "oclif"
+    ],
+    "homepage": "https://github.com/twilio/twilio-cli",
+    "bugs": "https://github.com/twilio/twilio-cli/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/twilio/twilio-cli.git"
+    },
+    "license": "MIT",
+    "author": "Twilio @twilio",
+    "main": "src/index.js",
+    "bin": {
+        "twilio": "bin/run"
+    },
+    "files": [
+        "/bin",
+        "/npm-shrinkwrap.json",
+        "/oclif.manifest.json",
+        "/src",
+        "/welcome.js"
+    ],
+    "scripts": {
+        "postinstall": "node welcome.js",
+        "lint": "eslint --ext js --ext jsx src/ test/",
+        "lint:fix": "npm run lint -- --fix",
+        "prepack": "oclif manifest && oclif readme && npm shrinkwrap && git checkout -- package-lock.json",
+        "postpack": "rm -f oclif.manifest.json npm-shrinkwrap.json",
+        "test": "nyc mocha --forbid-only \"test/**/*.test.js\"",
+        "posttest": "npm run lint",
+        "version": "oclif readme && git add README.md"
+    },
+    "dependencies": {
+        "@oclif/core": "^1.16.0",
+        "@oclif/plugin-plugins": "^2.1.0",
+        "@sendgrid/mail": "^7.2.1",
+        "@twilio/cli-core": "^7.0.0",
+        "chalk": "^4.1.2",
+        "file-type": "^16.5.4",
+        "hyperlinker": "1.0.0",
+        "inquirer": "^8.0.0",
+        "supports-hyperlinks": "2.2.0",
+        "twilio": "^4.7.2",
+        "untildify": "^4.0.0"
+    },
+    "devDependencies": {
+        "@actions/core": "^1.0.0",
+        "@actions/github": "^2.2.0",
+        "@oclif/test": "^2.1.1",
+        "@semantic-release/changelog": "^6.0.1",
+        "@semantic-release/exec": "^6.0.3",
+        "@semantic-release/git": "^10.0.1",
+        "@twilio/cli-test": "3.0.0",
+        "aws-sdk": "^2.1361.0",
+        "@oclif/dev-cli": "^1.22.2",
+        "chai": "^4.3.4",
+        "conventional-changelog-conventionalcommits": "^4.6.0",
+        "eslint": "^7.27.0",
+        "eslint-config-twilio": "~1.31.0",
+        "eslint-config-twilio-mocha": "~1.31.0",
+        "flush-cache": "1.0.1",
+        "globby": "^11.0.1",
+        "mocha": "^10.0.0",
+        "nock": "^13.0.2",
+        "nyc": "^15.1.0",
+        "proxyquire": "^2.1.3",
+        "semantic-release": "^19.0.3",
+        "sinon": "^10.0.0",
+        "tildify": "^2.0.0",
+        "tmp": "^0.2.1",
+        "ts-node": "^10.9.1",
+        "tslib": "^2.3.1",
+        "typescript": "^4.4.3",
+        "oclif": "^3"
+    },
+    "optionalDependencies": {
+        "ngrok": "^4.3.3"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "oclif": {
+        "commands": "./src/commands",
+        "bin": "twilio",
+        "scope": "twilio",
+        "topicSeparator": " ",
+        "additionalHelpFlags": [
+            "-h"
+        ],
+        "additionalVersionFlags": [
+            "-v"
+        ],
+        "plugins": [
+            "@oclif/plugin-autocomplete",
+            "@oclif/plugin-plugins",
+            "@oclif/plugin-warn-if-update-available",
+            "@oclif/plugin-update",
+            "@oclif/plugin-version"
+        ],
+        "warn-if-update-available": {
+            "timeoutInDays": 45,
+            "message": "<%= config.name %> update available from <%= chalk.greenBright(config.version) %> to <%= chalk.greenBright(latest) %>. For more information: https://twil.io/cli ",
+            "registry": "https://registry.npmjs.org"
+        },
+        "topics": {
+            "phone-numbers": {
+                "description": "manage Twilio phone numbers"
+            },
+            "profiles": {
+                "description": "manage credentials for Twilio profiles"
+            },
+            "config": {
+                "description": "manage Twilio CLI configurations"
+            }
+        },
+        "hooks": {
+            "init": [
+                "./src/hooks/init/twilio-api",
+                "./src/hooks/init/buy-phone-number",
+                "./src/hooks/init/plugin-verification"
+            ],
+            "plugins:preinstall": [
+                "./src/hooks/plugin-install"
+            ],
+            "prerun": [
+                "./src/hooks/prerun/install-prerun"
+            ],
+            "postrun": [
+                "./src/hooks/postrun/plugin-postrun"
+            ],
+            "command_not_found": [
+                "./src/hooks/command-not-found"
+            ]
+        },
+        "macos": {
+            "identifier": "com.twilio.cli",
+            "sign": "Developer ID Installer: Twilio, Inc."
+        },
+        "update": {
+            "s3": {
+                "xz": true,
+                "bucket": "twilio-cli-prod"
+            }
+        },
+        "helpClass": "./src/services/twilio-help/custom-help"
+    }
+}

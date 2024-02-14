@@ -1,0 +1,57 @@
+{
+    "name": "svgfilter",
+    "version": "4.1.0",
+    "description": "",
+    "main": "lib/SvgFilter.js",
+    "directories": {
+        "test": "test"
+    },
+    "dependencies": {
+        "assetgraph": "^7.0.1",
+        "optimist": "^0.6.1"
+    },
+    "devDependencies": {
+        "coveralls": "^3.0.2",
+        "eslint": "^8.6.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-mocha": "^10.0.1",
+        "eslint-plugin-n": "^15.1.0",
+        "eslint-plugin-node": "^11.0.0",
+        "eslint-plugin-promise": "^6.0.0",
+        "eslint-plugin-standard": "^5.0.0",
+        "mocha": "^8.2.1",
+        "nyc": "^15.0.0",
+        "offline-github-changelog": "^2.0.0",
+        "prettier": "~2.5.0",
+        "unexpected": "^12.0.0",
+        "unexpected-stream": "^5.0.0"
+    },
+    "scripts": {
+        "lint": "eslint . && prettier --check '**/*.{js,json,md}'",
+        "test": "mocha",
+        "test:ci": "npm run coverage",
+        "coverage": "NODE_ENV=development nyc --reporter=lcov --reporter=text --all -- npm test && echo google-chrome coverage/lcov-report/index.html",
+        "preversion": "offline-github-changelog --next=${npm_new_version} > CHANGELOG.md && git add CHANGELOG.md"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/papandreou/node-svgfilter.git"
+    },
+    "keywords": [
+        "image",
+        "images",
+        "svg",
+        "process",
+        "stream",
+        "filter"
+    ],
+    "author": "Andreas Lind <andreaslindpetersen@gmail.com>",
+    "license": "BSD-3-Clause",
+    "nyc": {
+        "include": [
+            "lib/**"
+        ]
+    }
+}

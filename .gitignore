@@ -10,8 +10,27 @@ codeql-linux64.zip
 logs
 # *.log
 npm-debug.log*
+repos_92.json
+repos_92_copy.json
 repos_93.json
+repo.json
+collected_data.json
 prepare_zenodo.sh
+debloat_individually_directly.sh
+debloat_individually_indirectly.sh
+debloat_entirely_direct.sh
+debloat_entirely.sh
+statistic.txt
+test_removals.log
+test_removals_Error.log
+test_log.txt
+temp.sh
+temp.py
+analyze_coverage.py
+extract_difference.py
+extract_intersection.py
+remove_duplicates.py
+t_extract.py
 
 # Runtime data
 pids
@@ -39,8 +58,13 @@ jspm_packages
 Playground
 VariantsPureDep
 VariantsFile
+TestAfterRemoveFolders
+TestAfterRemove_Stubbifier
+TestWithDebloatedPck
 packagelock
+DebloatedLocks
 Zenodo
+stubbifier
 
 __pycache__
 Clients
