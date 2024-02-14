@@ -11,8 +11,7 @@ def extract_deps(json_file):
     for key, value in data["packages"].items():
         # print(value.get("dev"))
         if key != "" and value.get("dev") == None:
-            print(key, value.get("dev"))
-            package_version = value["version"]
+            package_version = value.get("version") or ""
             package_info = f"{key}__{package_version}"
             runtime_deps.append(package_info)
 
@@ -27,7 +26,6 @@ if __name__ == "__main__":
     try:
         result = extract_deps(target_lock_path)
 
-        print(result)
         for item in result:
             output_file.writelines(f"{item}\n")
         
