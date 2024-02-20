@@ -16,22 +16,21 @@ do
     # echo $repoUrl 
     echo $folderPath 
     
-    git clone $repoUrl $folderPath
+    # git clone $repoUrl $folderPath
 
-    cd $folderPath
+    # cd $folderPath
 
-    git checkout $commit
+    # git checkout $commit
 
-    cp "../../LockFiles/${projectName}/package-lock.json" ./
+    # cp "../../LockFiles/${projectName}/package-lock.json" ./
 
-    npm install
+    # npm install
     # npm run test
     
-    cd ../..
+    # cd ../..
     # extract the list of runtime dependencies
     python3 identify_runtime_from_lock.py $projectName
 
-    echo $folderPath
 
     echo "Start running test..."
     cd $folderPath
