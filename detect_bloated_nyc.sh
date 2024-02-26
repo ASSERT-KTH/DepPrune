@@ -11,6 +11,7 @@ do
     projectName=$(_jq '.folder')
     folderPath="Playground/"$(_jq '.folder')
     commit=$(_jq '.commit')
+    unitTest=$(_jq '.unitTest')
 
     # echo $repoUrl 
     echo $folderPath 
@@ -24,7 +25,7 @@ do
     # cp "../../LockFiles/${projectName}/package-lock.json" ./
 
     npm install
-    npm run test
+    # npm run test
 
     npm list --all --omit=dev > npm_list_output.txt
     grep -v "deduped" npm_list_output.txt > original_npm_list_filtered.txt
@@ -40,16 +41,11 @@ do
 
     echo "Start Generating test coverage report..."
 
-    nyc npm run test
+    nyc npm run $unitTest
 
     cd ../..
 
     echo "Start discovering bloated files and dependencies..."
     python3 extract_reachable_files.py $projectName
-    python3 extract_reachable_deps.py $projectName
-    python3 extract_direct_deps.py $projectName 
-    python3 remove_duplicates.py $folderPath"/total_deps.txt"
-    python3 extract_difference.py $projectName "total_deps_deduped.txt" "reachable_deps.txt" "unreachable_deps.txt"
-    python3 extract_intersection.py $projectName "unreachable_deps.txt" "direct_deps.txt" "direct_unreachable.txt"
 
 done
