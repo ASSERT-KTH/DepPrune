@@ -1,6 +1,6 @@
-jsonlist=$(jq -r '.projects' "repo.json")
+jsonlist=$(jq -r '.projects' "repos_92.json")
 basement="Playground"
-locations="bloated_locations.txt"
+locations="unreachable_runtime_deps_removed.txt"
 
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
 do

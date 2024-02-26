@@ -12,6 +12,10 @@ logs
 npm-debug.log*
 repos_93.json
 prepare_zenodo.sh
+debloat_individually_directly.sh
+debloat_individually_indirectly.sh
+debloat_entirely_direct.sh
+debloat_entirely.sh
 temp.sh
 temp1.sh
 temp2.sh
@@ -44,7 +48,9 @@ jspm_packages
 Playground
 VariantsPureDep
 VariantsFile
+TestAfterRemoveFolders
 packagelock
+DebloatedLocks
 Zenodo
 
 __pycache__

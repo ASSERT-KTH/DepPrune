@@ -29,7 +29,7 @@ do
     
     # cd ../..
     # extract the list of runtime dependencies
-    python3 identify_runtime_from_lock.py $projectName
+    # python3 identify_runtime_from_lock.py $projectName
 
 
     echo "Start running test..."
@@ -44,10 +44,5 @@ do
     # echo "Start discovering bloated files and dependencies..."
 
     python3 extract_reachable_files_os.py $projectName
-    # python3 extract_reachable_deps.py $projectName
-    # python3 extract_direct_deps.py $projectName 
-    # python3 remove_duplicates.py $folderPath"/total_deps.txt"
-    # python3 extract_difference.py $projectName "total_deps_deduped.txt" "reachable_deps.txt" "unreachable_deps.txt"
-    # python3 extract_intersection.py $projectName "unreachable_deps.txt" "direct_deps.txt" "direct_unreachable.txt"
 
 done
