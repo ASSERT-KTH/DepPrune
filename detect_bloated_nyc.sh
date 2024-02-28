@@ -20,12 +20,11 @@ do
 
     cd $folderPath
 
-    git checkout $commit
+    # git checkout $commit
 
-    # cp "../../LockFiles/${projectName}/package-lock.json" ./
+    cp "../../LockFiles/"$projectName"/package-lock.json" ./
 
-    npm install
-    # npm run test
+    npm ci
 
     npm list --all --omit=dev > npm_list_output.txt
     grep -v "deduped" npm_list_output.txt > original_npm_list_filtered.txt
@@ -47,5 +46,7 @@ do
 
     echo "Start discovering bloated files and dependencies..."
     python3 extract_reachable_files.py $projectName
+
+    python3 extract_reachable_deps_nyc.py $projectName
 
 done

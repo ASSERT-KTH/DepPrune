@@ -10,16 +10,18 @@ codeql-linux64.zip
 logs
 # *.log
 npm-debug.log*
+repos_92.json
 repos_93.json
+repo.json
 prepare_zenodo.sh
 debloat_individually_directly.sh
 debloat_individually_indirectly.sh
 debloat_entirely_direct.sh
 debloat_entirely.sh
+statistic.txt
+test_removals.log
+test_removals_Error.log
 temp.sh
-temp1.sh
-temp2.sh
-temp3.sh
 temp.py
 
 # Runtime data

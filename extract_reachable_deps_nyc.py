@@ -31,7 +31,7 @@ def collect_files(dependencies, files):
 if __name__ == "__main__":
     project = sys.argv[1]
 
-    reachable_file_path = f'Playground/{project}/reachable_files.txt'
+    reachable_file_path = f'Playground/{project}/reachable_files_nyc.txt'
     with open(reachable_file_path) as f:
         reachable_files = f.read().splitlines()
 

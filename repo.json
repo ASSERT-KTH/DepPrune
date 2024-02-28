@@ -1,14 +1,24 @@
 {
     "projects": [
         {
-            "folder": "generator-ngbp-module",
-            "repo": "jfmbrennan/generator-ngbp-module",
-            "commit": "534d854532c89aa706680d0c2f52464a5653bdbd",
-            "entryFile": "app/index.js",
-            "gitURL": "https://github.com/jfmbrennan/generator-ngbp-module.git",
-            "testPassSignal": "33 passing",
+            "folder": "mathoid",
+            "repo": "wikimedia/mathoid",
+            "commit": "05c543c37ed0e8f7706b1c85b2117ad8993be2ef",
+            "entryFile": "app.js",
+            "gitURL": "https://github.com/wikimedia/mathoid.git",
+            "testPassSignal": "186 passing",
             "unitTest": "test",
-            "coverage": "100 |    85.96 |     100 |     100"
+            "coverage": "83.77 |    65.42 |   91.02 |   83.64"
+        },
+        {
+            "folder": "fastify-axios",
+            "repo": "davidedantonio/fastify-axios",
+            "commit": "695c332cf26103d439cad5fd34a98238c989c05a",
+            "entryFile": "index.js",
+            "gitURL": "https://github.com/davidedantonio/fastify-axios.git",
+            "testPassSignal": "47 passed​",
+            "unitTest": "unit",
+            "coverage": "80.99 |    76.99 |   91.52 |   82.04"
         }
     ]
 }

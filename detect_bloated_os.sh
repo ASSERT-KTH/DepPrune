@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repo.json")
+jsonlist=$(jq -r '.projects' "repos_92.json")
 
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
 do
@@ -16,20 +16,20 @@ do
     # echo $repoUrl 
     echo $folderPath 
     
-    # git clone $repoUrl $folderPath
+    git clone $repoUrl $folderPath
 
-    # cd $folderPath
+    cd $folderPath
 
-    # git checkout $commit
+    git checkout $commit
 
     # cp "../../LockFiles/${projectName}/package-lock.json" ./
 
-    # npm install
-    # npm run test
+    npm install
+    npm run test
     
-    # cd ../..
+    cd ../..
     # extract the list of runtime dependencies
-    # python3 identify_runtime_from_lock.py $projectName
+    python3 identify_runtime_from_lock.py $projectName
 
 
     echo "Start running test..."
@@ -41,7 +41,7 @@ do
 
     cd ../..
 
-    # echo "Start discovering bloated files and dependencies..."
+    echo "Start discovering bloated files and dependencies..."
 
     python3 extract_reachable_files_os.py $projectName
 

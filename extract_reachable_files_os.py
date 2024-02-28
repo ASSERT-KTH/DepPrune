@@ -54,7 +54,7 @@ if __name__ == "__main__":
         # print(item)
         output_dep_file.writelines(item + '\n')
 
-    output_udep_path = f'./Playground/{project}/unreachable_runtime_deps.txt'
+    output_udep_path = f'./Playground/{project}/unreachable_runtime_deps_os.txt'
     output_udep_file = open(output_udep_path, "a")
     unreachable = list(set(deps) - set(reachable))
     for item in unreachable:
