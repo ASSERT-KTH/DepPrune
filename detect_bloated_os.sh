@@ -7,7 +7,6 @@ do
         echo ${row} | base64 --decode | jq -r ${1}
     }
     repoUrl=$(_jq '.gitURL')
-    entryFile=$(_jq '.entryFile')
     projectName=$(_jq '.folder')
     folderPath="Playground/"$(_jq '.folder')
     commit=$(_jq '.commit')
@@ -48,6 +47,6 @@ do
 
     echo "Start discovering bloated files and dependencies..."
 
-    python3 extract_reachable_files_os.py $projectName
+    python3 extract_reachable_files_os.py $projectName "Playground"
 
 done
