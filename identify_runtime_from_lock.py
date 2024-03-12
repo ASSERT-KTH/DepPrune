@@ -19,9 +19,10 @@ def extract_deps(json_file):
 
 if __name__ == "__main__":
     project = sys.argv[1]
+    folder = sys.argv[2]
 
-    target_lock_path = os.path.abspath(f'./Playground/{project}/package-lock.json')
-    output_path = f'./Playground/{project}/runtime_deps.txt'
+    target_lock_path = os.path.abspath(f'./{folder}/{project}/package-lock.json')
+    output_path = os.path.abspath(f'./{folder}/{project}/runtime_deps.txt')
     output_file = open(output_path, 'a')
     try:
         result = extract_deps(target_lock_path)

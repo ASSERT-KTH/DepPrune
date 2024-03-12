@@ -1,4 +1,5 @@
 import sys
+import os
 
 def get_run_deps(dep_path):
     runtime_deps = []
@@ -31,8 +32,9 @@ def collect_files(dependencies, files):
 
 if __name__ == "__main__":
     project = sys.argv[1]
-    file_path = f'./Playground/{project}/npm_test_opened_files.txt'
-    dep_path = f'./Playground/{project}/runtime_deps.txt'
+    folder = sys.argv[2]
+    file_path = os.path.abspath(f'./{folder}/{project}/npm_test_opened_files.txt')
+    dep_path = os.path.abspath(f'./{folder}/{project}/runtime_deps.txt')
     deps = get_run_deps(dep_path)
 
     with open(file_path) as f:
@@ -41,22 +43,23 @@ if __name__ == "__main__":
 
     result = collect_files(deps, opened_files)
 
-    output_path = f'./Playground/{project}/opened_runtime_files.txt'
+    output_path = f'./{folder}/{project}/opened_runtime_files.txt'
     output_file = open(output_path, "a")
     for item in result["reachable_files"]:
         # print(item)
         output_file.writelines(item + '\n')
 
-    output_dep_path = f'./Playground/{project}/opened_runtime_deps.txt'
+    output_dep_path = f'./{folder}/{project}/opened_runtime_deps.txt'
     output_dep_file = open(output_dep_path, "a")
     reachable = result["reachable_deps"]
     for item in reachable:
         # print(item)
         output_dep_file.writelines(item + '\n')
 
-    output_udep_path = f'./Playground/{project}/unreachable_runtime_deps_os.txt'
+    output_udep_path = f'./{folder}/{project}/unreachable_runtime_deps_os.txt'
     output_udep_file = open(output_udep_path, "a")
     unreachable = list(set(deps) - set(reachable))
+    print("unreachable deps", unreachable)
     for item in unreachable:
         # print(item)
         output_udep_file.writelines(item + '\n')

@@ -70,20 +70,19 @@ if __name__ == "__main__":
         with open(target_lock_path, 'r') as file:
             json_data = json.load(file)
 
-        # We don't even need to deal with the direct dependencies, independently 
-        # direct_bloated_file = os.path.abspath(f'./Playground/{project}/direct_bloated.txt')
-        # if os.path.getsize(direct_bloated_file) != 0:
-        #     with open(direct_bloated_file) as f:
-        #         confirmed_directs = f.read().splitlines()
-        #     remove_directs(json_data, confirmed_directs)
+        direct_bloated_file = os.path.abspath(f'./Playground/{project}/direct_bloated.txt')
+        if os.path.getsize(direct_bloated_file) != 0:
+            with open(direct_bloated_file) as f:
+                confirmed_directs = f.read().splitlines()
+            remove_directs(json_data, confirmed_directs)
 
-        confirm_bloated_file = f'./Playground/{project}/unreachable_runtime_deps_removed.txt'
-        with open(confirm_bloated_file) as f:
-            confirmed_deps = f.read().splitlines()
+        # confirm_bloated_file = f'./Playground/{project}/unreachable_runtime_deps_removed.txt'
+        # with open(confirm_bloated_file) as f:
+        #     confirmed_deps = f.read().splitlines()
         
-        for dep in confirmed_deps:
-            print("removing dependency: ", dep)
-            remove_indirect(json_data, dep)
+        # for dep in confirmed_deps:
+        #     print("removing dependency: ", dep)
+        #     remove_indirect(json_data, dep)
         
         with open(target_lock_path, 'w') as file:
             json.dump(json_data, file, indent=4)

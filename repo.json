@@ -1,24 +1,14 @@
 {
     "projects": [
         {
-            "folder": "mathoid",
-            "repo": "wikimedia/mathoid",
-            "commit": "05c543c37ed0e8f7706b1c85b2117ad8993be2ef",
-            "entryFile": "app.js",
-            "gitURL": "https://github.com/wikimedia/mathoid.git",
-            "testPassSignal": "186 passing",
+            "folder": "brisky-focus",
+            "repo": "vigour-io/brisky-focus",
+            "commit": "561db27535942e5186e79248b203bc0b190475c5",
+            "entryFile": "lib/index.js",
+            "gitURL": "https://github.com/vigour-io/brisky-focus.git",
+            "testPassSignal": "39 passing",
             "unitTest": "test",
-            "coverage": "83.77 |    65.42 |   91.02 |   83.64"
-        },
-        {
-            "folder": "fastify-axios",
-            "repo": "davidedantonio/fastify-axios",
-            "commit": "695c332cf26103d439cad5fd34a98238c989c05a",
-            "entryFile": "index.js",
-            "gitURL": "https://github.com/davidedantonio/fastify-axios.git",
-            "testPassSignal": "47 passed​",
-            "unitTest": "unit",
-            "coverage": "80.99 |    76.99 |   91.52 |   82.04"
+            "coverage": "100 |       80 |     100 |     100"
         }
     ]
 }
