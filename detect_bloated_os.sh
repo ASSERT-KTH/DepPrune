@@ -47,6 +47,6 @@ do
 
     echo "Start discovering bloated files and dependencies..."
 
-    python3 extract_reachable_files_os.py $projectName "Playground"
+    python3 extract_bloated_candidates.py $projectName "Playground"
 
 done

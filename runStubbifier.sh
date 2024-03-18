@@ -17,7 +17,10 @@ do
     
     mkdir "stubbifier/Playground/"$projectName
     # copy the packages in our dataset, exclude the .txt files, exclude /node_modules
-    rsync -av --exclude='*.txt' --exclude='node_modules/' 'Playground/'$projectName 'stubbifier/Playground/'
+    # rsync -av --exclude='*.txt' --exclude='node_modules/' --exclude='coverage/' 'Playground/'$projectName 'stubbifier/Playground/'
+
+    git clone $repoUrl "stubbifier/Playground/"$projectName
+    cp 'Playground/'$projectName'/package-lock.json' "stubbifier/Playground/"$projectName
 
     cd stubbifier
 

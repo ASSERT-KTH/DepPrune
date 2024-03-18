@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repos_92.json")
+jsonlist=$(jq -r '.projects' "repo.json")
 
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
 do
@@ -10,29 +10,37 @@ do
     entryFile=$(_jq '.entryFile')
     projectName=$(_jq '.folder')
     folderPath="Playground/"$(_jq '.folder')
-    testFolder="TestAfterRemoveFolders/"$(_jq '.folder')
+    testFolder="TestAfterRemove_Stubbifier/"$(_jq '.folder')
     unitTest=$(_jq '.unitTest')
 
     echo "I am package "$folderPath 
 
-    cd TestAfterRemoveFolders
+    analyzer_output="True"
+
+    while [ "$analyzer_output" = "True" ]
+    do
+        mkdir $testFolder
     
-    git clone $repoUrl $projectName
+        git clone $repoUrl $projectName
+        # rsync -av --exclude='*.txt' --exclude='node_modules/' --exclude='coverage/' --exclude='.nyc_output/' 'Playground/'$projectName 'TestAfterRemove_Stubbifier/'
 
-    cd $projectName
+        cd $testFolder
 
-    cp "../../Playground/${projectName}/package-lock.json" ./
+        cp "../../Playground/${projectName}/package-lock.json" ./
 
-    npm ci
+        npm ci
+        file="../../Playground/"$projectName"/true_bloated_in_stubbifier.txt"
+        mapfile -t lines < "$file"
 
-    file="../../Playground/"$projectName"/unreachable_runtime_deps_removed.txt"
-    mapfile -t lines < "$file"
-
-    for line in "${lines[@]}"; do
-        echo $line
-        rm -rf $line
+        for line in "${lines[@]}"; do
+            echo $line
+            rm -rf $line
+        done
+        npm run $unitTest >> ../../test_log.txt
+        cd ../..
+        analyzer_output=$(python3 analyze_test_log.py $projectName)
+        echo $analyzer_output
+        rm -rf $testFolder
+        echo -n "" > test_log.txt
     done
-    npm run $unitTest
-    cd ../..
-
 done
