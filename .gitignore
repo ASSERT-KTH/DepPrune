@@ -14,6 +14,7 @@ repos_92.json
 repos_92_copy.json
 repos_93.json
 repo.json
+collected_data.json
 prepare_zenodo.sh
 debloat_individually_directly.sh
 debloat_individually_indirectly.sh
@@ -22,8 +23,10 @@ debloat_entirely.sh
 statistic.txt
 test_removals.log
 test_removals_Error.log
+test_log.txt
 temp.sh
 temp.py
+analyze_coverage.py
 
 # Runtime data
 pids

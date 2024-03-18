@@ -11,6 +11,7 @@ lines1 = []
 if os.path.exists(filePath1):
     with open(filePath1) as f:
         lines1 = f.read().splitlines()
+
 # print(len(lines1))
 
 filePath2 = f'./Playground/{project}/{file2}'
