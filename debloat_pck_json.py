@@ -4,11 +4,11 @@ import sys
 
 def remove_directs(json_obj, directs):
     for direct in directs:
-        name = regNames(direct)["dep"]
+        name = reg_names(direct)["dep"]
         del json_obj["dependencies"][name]
     return json_obj
 
-def regNames(input_string):
+def reg_names(input_string):
     parts = input_string.rsplit("node_modules", 1)
     if len(parts) == 2:
         return {

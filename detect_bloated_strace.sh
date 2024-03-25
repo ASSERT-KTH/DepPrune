@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repos_92.json")
+jsonlist=$(jq -r '.projects' "stubbifier_dataset_1.json")
 
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
 do
@@ -24,11 +24,10 @@ do
     # cp "../../LockFiles/${projectName}/package-lock.json" ./
 
     npm install
-    npm run test
     
     cd ../..
     # extract the list of runtime dependencies
-    python3 identify_runtime_from_lock.py $projectName
+    python3 identify_runtime_from_lock.py $projectName "Playground"
 
 
     echo "Start running test..."

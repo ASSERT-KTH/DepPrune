@@ -11,9 +11,9 @@ def extract_deps(json_file):
     for key, value in data["packages"].items():
         # print(value.get("dev"))
         if key != "" and value.get("dev") == None:
-            package_version = value.get("version") or ""
-            package_info = f"{key}__{package_version}"
-            runtime_deps.append(package_info)
+            # package_version = value.get("version") or ""
+            # package_info = f"{key}__{package_version}"
+            runtime_deps.append(key)
 
     return runtime_deps
 

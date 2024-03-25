@@ -1,14 +1,24 @@
 {
     "projects": [
         {
-            "folder": "roe-scripts",
-            "repo": "kaelzhang/roe-scripts",
-            "commit": "f9ee9d3af61f6a3c5c779da176e4d0fff1b8a866",
-            "entryFile": "src/index.js",
-            "gitURL": "https://github.com/kaelzhang/roe-scripts.git",
-            "testPassSignal": "50 tests passed",
+            "folder": "umdlib",
+            "repo": "jclo/umdlib",
+            "commit": "572af0377f2194339eab79554c6b7e0bb7160ffe",
+            "entryFile": "index.js",
+            "gitURL": "https://github.com/jclo/umdlib.git",
+            "testPassSignal": "10 passing",
             "unitTest": "test",
-            "coverage": "99.53 |    93.84 |   99.23 |   99.51"
+            "coverage": "100 |      100 |     100 |     100"
+        },
+        {
+            "folder": "remarker",
+            "repo": "jclo/umdlib",
+            "commit": "572af0377f2194339eab79554c6b7e0bb7160ffe",
+            "entryFile": "index.js",
+            "gitURL": "https://github.com/jclo/umdlib.git",
+            "testPassSignal": "10 passing",
+            "unitTest": "test",
+            "coverage": "100 |      100 |     100 |     100"
         }
     ]
 }

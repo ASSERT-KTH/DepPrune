@@ -22,7 +22,6 @@ do
         mkdir $testFolder
     
         git clone $repoUrl $projectName
-        # rsync -av --exclude='*.txt' --exclude='node_modules/' --exclude='coverage/' --exclude='.nyc_output/' 'Playground/'$projectName 'TestAfterRemove_Stubbifier/'
 
         cd $testFolder
 
