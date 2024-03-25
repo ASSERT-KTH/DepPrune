@@ -96,9 +96,8 @@ if __name__ == "__main__":
         # with open(confirm_bloated_file) as f:
         #     confirmed_deps = f.read().splitlines()
         
-        # for dep in confirmed_deps:
-        #     print("removing dependency: ", dep)
-        #     remove_indirect(json_data, dep)
+        for dep in confirmed_deps:
+            remove_indirect(json_data, dep)
         
         with open(target_lock_path, 'w') as file:
             json.dump(json_data, file, indent=4)
