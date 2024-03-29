@@ -22,10 +22,10 @@ if os.path.exists(filePath2):
 # print(len(lines2))
 
 intersection = list(set(lines1).intersection(lines2))
-# print(project + "," + str(len(intersection)))
+print(project + "," + str(len(intersection)))
 
-output_file = open(f'./Playground/{project}/{output_path}', "a")
-for item in intersection:
-    # line = ",".join(item)
-    output_file.writelines(item+"\n")
+# output_file = open(f'./Playground/{project}/{output_path}', "a")
+# for item in intersection:
+#     # line = ",".join(item)
+#     output_file.writelines(item+"\n")
     
