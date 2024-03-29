@@ -13,8 +13,8 @@ def remove_duplicate_lines(input_file):
             if line not in lines_seen:
                 lines_seen.add(line)
                 unique_lines.append(line)
-    output_file = str(input_file)[:-4] + "_deduped.txt"
-    print(output_file)
+    # output_file = str(input_file)[:-4] + "_deduped.txt"
+    # print(output_file)
     with open(input_file, 'w') as file:
         for line in unique_lines:
             file.write(line + '\n')

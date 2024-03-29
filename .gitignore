@@ -12,14 +12,20 @@ logs
 npm-debug.log*
 repos_92.json
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c090aea4062b648a4309f60b4dca71e0d7ad973b
 repos_92_copy.json
 repos_93.json
 repo.json
 collected_data.json
+<<<<<<< HEAD
 =======
 repos_93.json
 repo.json
 >>>>>>> 9824bfe... feat: collect data
+=======
+>>>>>>> c090aea4062b648a4309f60b4dca71e0d7ad973b
 prepare_zenodo.sh
 debloat_individually_directly.sh
 debloat_individually_indirectly.sh
@@ -29,9 +35,13 @@ statistic.txt
 test_removals.log
 test_removals_Error.log
 <<<<<<< HEAD
+<<<<<<< HEAD
 test_log.txt
 =======
 >>>>>>> 9824bfe... feat: collect data
+=======
+test_log.txt
+>>>>>>> c090aea4062b648a4309f60b4dca71e0d7ad973b
 temp.sh
 temp.py
 analyze_coverage.py
@@ -67,8 +77,11 @@ Playground
 VariantsPureDep
 VariantsFile
 TestAfterRemoveFolders
+<<<<<<< HEAD
 TestAfterRemove_Stubbifier
 TestWithDebloatedPck
+=======
+>>>>>>> c090aea4062b648a4309f60b4dca71e0d7ad973b
 packagelock
 DebloatedLocks
 Zenodo
