@@ -11,10 +11,15 @@ logs
 # *.log
 npm-debug.log*
 repos_92.json
+<<<<<<< HEAD
 repos_92_copy.json
 repos_93.json
 repo.json
 collected_data.json
+=======
+repos_93.json
+repo.json
+>>>>>>> 9824bfe... feat: collect data
 prepare_zenodo.sh
 debloat_individually_directly.sh
 debloat_individually_indirectly.sh
@@ -23,7 +28,10 @@ debloat_entirely.sh
 statistic.txt
 test_removals.log
 test_removals_Error.log
+<<<<<<< HEAD
 test_log.txt
+=======
+>>>>>>> 9824bfe... feat: collect data
 temp.sh
 temp.py
 analyze_coverage.py

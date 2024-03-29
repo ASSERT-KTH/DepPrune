@@ -29,7 +29,7 @@ for key, value in coverage_dict.items():
     if reachable != None:
         reachable_files.append(reachable)
 
-reachable_file_path = f'Playground/{project}/reachable_files.txt'
+reachable_file_path = f'Playground/{project}/reachable_files_nyc.txt'
 reachable_file = open(reachable_file_path, "a")
 for item in reachable_files:
     reachable_file.writelines(item + '\n')

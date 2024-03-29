@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repo.json")
+jsonlist=$(jq -r '.projects' "repos_92.json")
 
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
 do
@@ -13,11 +13,17 @@ do
     testFolder="TestAfterRemoveFolders/"$(_jq '.folder')
     unitTest=$(_jq '.unitTest')
 
-    echo $folderPath 
+    echo "I am package "$folderPath 
 
-    cp -r $folderPath $testFolder
+    cd TestAfterRemoveFolders
+    
+    git clone $repoUrl $projectName
 
-    cd $testFolder
+    cd $projectName
+
+    cp "../../Playground/${projectName}/package-lock.json" ./
+
+    npm ci
 
     file="../../Playground/"$projectName"/unreachable_runtime_deps_removed.txt"
     mapfile -t lines < "$file"
