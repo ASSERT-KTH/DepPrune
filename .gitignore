@@ -19,6 +19,7 @@ debloat_individually_indirectly.sh
 debloat_entirely_direct.sh
 debloat_entirely.sh
 statistic.txt
+statistic.csv
 test_removals.log
 test_removals_Error.log
 test_log.txt
@@ -29,6 +30,7 @@ extract_difference.py
 extract_intersection.py
 remove_duplicates.py
 t_extract.py
+runtest_in_node.js
 # Runtime data
 pids
 *.pid
