@@ -9,10 +9,15 @@ logs
 # *.log
 npm-debug.log*
 repos_92.json
+repos_47.json
 repos_92_copy.json
 repos_93.json
 repo.json
+depcheck.log
+depcheck_92.log
 collected_data.json
+stubbifier_dataset_15.json
+packages_with_direct_bloated.txt
 prepare_zenodo.sh
 debloat_individually_directly.sh
 debloat_individually_indirectly.sh
