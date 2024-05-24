@@ -22,7 +22,7 @@ if __name__ == "__main__":
     project = sys.argv[1]
 
     # bloated
-    bloated_file_path = os.path.abspath(f'./stubbifier/Playground/{project}_stubbifier_bloated_candidates.txt')
+    bloated_file_path = os.path.abspath(f'./stubbifier/Playground/{project}_stubbifier_bloated_file.txt')
     with open(bloated_file_path) as f:
         bloated_files = f.read().splitlines()
     
@@ -41,16 +41,16 @@ if __name__ == "__main__":
     accessed_result = get_belonging_deps(deps, accessed_files)
     accessed_deps = accessed_result["deps"]
 
-    output_dep_path = f'./Playground/{project}/stubbifier_accessed_deps.txt'
+    output_dep_path = f'./stubbifier/Playground/{project}/stubbifier_accessed_deps.txt'
     output_dep_file = open(output_dep_path, "a")
     
     for item in accessed_deps:
         output_dep_file.writelines(item + '\n')
 
-    output_udep_path = f'./Playground/{project}/unreachable_deps_stubbifier.txt'
+    output_udep_path = f'./stubbifier/Playground/{project}/stubbifier_unaccessed_deps.txt'
     output_udep_file = open(output_udep_path, "a")
-    unreachable = list(set(bloated_deps) - set(accessed_deps))
-    print("unreachable deps", unreachable)
-    for item in unreachable:
+    unaccessed = list(set(bloated_deps) - set(accessed_deps))
+    # print("unaccessed deps", unaccessed)
+    for item in unaccessed:
         # print(item)
         output_udep_file.writelines(item + '\n')

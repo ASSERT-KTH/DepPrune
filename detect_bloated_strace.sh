@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "stubbifier_dataset_1.json")
+jsonlist=$(jq -r '.projects' "repos.json")
 
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
 do

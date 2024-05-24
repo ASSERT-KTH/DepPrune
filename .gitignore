@@ -12,12 +12,15 @@ repos_92.json
 repos_47.json
 repos_92_copy.json
 repos_93.json
+repos_stubbifier.json
 repo.json
 depcheck.log
 depcheck_92.log
 collected_data.json
 stubbifier_dataset_15.json
+repos_stubbifier.json
 packages_with_direct_bloated.txt
+stubbifier_misclassified_random_100.txt
 prepare_zenodo.sh
 debloat_individually_directly.sh
 debloat_individually_indirectly.sh
@@ -63,6 +66,7 @@ TestWithDebloatedPck
 packagelock
 DebloatedLocks
 DebloatedMetas
+DebloatedMetaFiles
 Zenodo
 stubbifier
 __pycache__
@@ -78,7 +82,7 @@ Csvs
 irrelative
 example
 Logs
-scripts
+origscripts
 __pycache__
 # Optional npm cache directory
 .npm
