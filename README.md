@@ -6,7 +6,7 @@ git clone
 
 ### Configurations about each package
 
-`repo.json` is a file with all necessary meta information for one or multiple repos.
+Generate `repo.json`, which is a file with all necessary meta information for one or multiple repos.
 
 ```
 {
