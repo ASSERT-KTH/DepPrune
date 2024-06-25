@@ -14,7 +14,6 @@ Generate `repo.json`, which is a file with all necessary meta information for on
     {
       "folder": "airtap",
       "repo": "airtap/airtap",
-      "commit": "034a6cf5c0f0014c94ac7f83b19fee69eda218e4",
       "gitURL": "https://github.com/airtap/airtap.git",
       "unitTest": "test"
     }
