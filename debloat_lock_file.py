@@ -25,6 +25,8 @@ def remove_indirect(json_obj, key):
      
     keys_matching = collect_keys(json_obj["packages"], prefix, name)
 
+    print("prefix", prefix)
+
     for match_key in keys_matching:
         if "dependencies" in json_obj["packages"][match_key] and name in json_obj["packages"][match_key]["dependencies"] and "dev" in json_obj["packages"][match_key]:
             used_in_dev = True
@@ -36,7 +38,8 @@ def remove_indirect(json_obj, key):
     
     # if json_obj["packages"][folder] and json_obj["packages"][folder]["dependencies"] and name in json_obj["packages"][folder]["dependencies"]:
     #     del json_obj["packages"][folder]["dependencies"][name]
-    if not used_in_dev:
+    if not used_in_dev and key in json_obj["packages"]:
+        print("removing: ", key)
         del json_obj["packages"][key]
     else:
         json_obj["packages"][key]["dev"] = True
@@ -74,7 +77,7 @@ def reg_names(input_string):
 if __name__ == "__main__":
     project = sys.argv[1]
 
-    target_lock_path = os.path.abspath(f'./DebloatedLocks/{project}/package-lock.json')
+    target_lock_path = os.path.abspath(f'./Playground/{project}/package-lock.json')
     try:
         with open(target_lock_path, 'r') as file:
             json_data = json.load(file)
@@ -85,12 +88,12 @@ if __name__ == "__main__":
                 confirmed_directs = f.read().splitlines()
             remove_directs(json_data, confirmed_directs)
 
-        confirm_bloated_file = f'./Playground/{project}/unreachable_runtime_deps_removed.txt'
+        confirm_bloated_file = f'./Playground/{project}/unreachable_runtime_deps_os.txt'
         with open(confirm_bloated_file) as f:
             confirmed_deps = f.read().splitlines()
         
-        for dep in confirmed_deps:
-            remove_indirect(json_data, dep)
+        # for dep in confirmed_deps:
+        #     remove_indirect(json_data, dep)
 
         # confirm_bloated_file = f'./Playground/{project}/unreachable_runtime_deps_removed.txt'
         # with open(confirm_bloated_file) as f:
