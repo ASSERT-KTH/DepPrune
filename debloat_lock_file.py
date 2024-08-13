@@ -42,7 +42,8 @@ def remove_indirect(json_obj, key):
         print("removing: ", key)
         del json_obj["packages"][key]
     else:
-        json_obj["packages"][key]["dev"] = True
+        if key in json_obj["packages"]:
+            json_obj["packages"][key]["dev"] = True
     # del json_obj["packages"][key]
 
     return json_obj
@@ -77,16 +78,16 @@ def reg_names(input_string):
 if __name__ == "__main__":
     project = sys.argv[1]
 
-    target_lock_path = os.path.abspath(f'./Playground/{project}/package-lock.json')
+    target_lock_path = os.path.abspath(f'./TestAfterRemove/{project}/package-lock.json')
     try:
         with open(target_lock_path, 'r') as file:
             json_data = json.load(file)
 
-        direct_bloated_file = os.path.abspath(f'./Playground/{project}/direct_bloated.txt')
-        if os.path.getsize(direct_bloated_file) != 0:
-            with open(direct_bloated_file) as f:
-                confirmed_directs = f.read().splitlines()
-            remove_directs(json_data, confirmed_directs)
+        # direct_bloated_file = os.path.abspath(f'./Playground/{project}/direct_bloated.txt')
+        # if os.path.getsize(direct_bloated_file) != 0:
+        #     with open(direct_bloated_file) as f:
+        #         confirmed_directs = f.read().splitlines()
+        #     remove_directs(json_data, confirmed_directs)
 
         confirm_bloated_file = f'./Playground/{project}/unreachable_runtime_deps_os.txt'
         with open(confirm_bloated_file) as f:
@@ -107,3 +108,4 @@ if __name__ == "__main__":
 
     except FileNotFoundError:
         print("File not found.")
+
