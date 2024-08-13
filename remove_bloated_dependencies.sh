@@ -1,4 +1,4 @@
-jsonlist=$(jq -r '.projects' "repo.json")
+jsonlist=$(jq -r '.projects' "repos.json")
 
 for row in $(echo "${jsonlist}" | jq -r '.[] | @base64')
 do
@@ -10,36 +10,38 @@ do
     entryFile=$(_jq '.entryFile')
     projectName=$(_jq '.folder')
     folderPath="Playground/"$(_jq '.folder')
-    testFolder="TestAfterRemove_Stubbifier/"$(_jq '.folder')
+    testFolder="TestAfterRemove/"$(_jq '.folder')
     unitTest=$(_jq '.unitTest')
 
     echo "I am package "$folderPath 
 
-    analyzer_output="True"
+    # analyzer_output="True"
 
-    while [ "$analyzer_output" = "True" ]
-    do
+    # while [ "$analyzer_output" = "True" ]
+    # do
         mkdir $testFolder
     
-        git clone $repoUrl $projectName
+        git clone $repoUrl $testFolder
 
         cd $testFolder
 
-        cp "../../Playground/${projectName}/package-lock.json" ./
+        # cp "../../Playground/${projectName}/package-lock.json" ./
 
-        npm ci
-        file="../../Playground/"$projectName"/unaccessed_dependencies.txt"
+        # npm ci
+	npm install
+        file="../../Playground/"$projectName"/unreachable_runtime_deps_os.txt"
         mapfile -t lines < "$file"
 
         for line in "${lines[@]}"; do
             echo $line
             rm -rf $line
         done
-        npm run $unitTest >> ../../test_log.txt
+	npm run $unitTest
+        # npm run $unitTest >> ../../test_log.txt
         cd ../..
-        analyzer_output=$(python3 analyze_test_log.py $projectName)
-        echo $analyzer_output
-        rm -rf $testFolder
-        echo -n "" > test_log.txt
-    done
+        # analyzer_output=$(python3 analyze_test_log.py $projectName)
+        # echo $analyzer_output
+        # rm -rf $testFolder
+        # echo -n "" > test_log.txt
+    # done
 done
