@@ -98,4 +98,3 @@ if __name__ == "__main__":
         output_indirect_file.writelines(item + '\n')
             
 
-
